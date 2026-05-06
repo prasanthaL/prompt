@@ -28,7 +28,7 @@ const PromptCard = ({
   return (
     <div
       onClick={onClick}
-      className="group relative bg-white/5 border border-white/5 rounded-[2rem] overflow-hidden hover:border-primary/50 transition-all duration-500 hover:shadow-2xl hover:shadow-primary/10 cursor-pointer"
+      className="group relative bg-foreground/5 border border-border rounded-[2rem] overflow-hidden hover:border-primary/50 transition-all duration-500 hover:shadow-2xl hover:shadow-primary/10 cursor-pointer"
     >
       {/* Image Container */}
       <div className="aspect-[4/5] relative overflow-hidden">
@@ -69,18 +69,18 @@ const PromptCard = ({
       <div className="p-6 space-y-4">
         <div className="flex items-start justify-between gap-2">
           <div>
-            <h3 className="font-bold text-white group-hover:text-primary transition-colors line-clamp-1">
+            <h3 className="font-bold text-foreground group-hover:text-primary transition-colors line-clamp-1">
               {title}
             </h3>
-            <p className="text-xs text-white/40 font-medium">by {author}</p>
+            <p className="text-xs text-foreground/40 font-medium">by {author}</p>
           </div>
-          <div className="w-8 h-8 rounded-lg bg-white/5 flex items-center justify-center text-white/40 group-hover:text-primary group-hover:bg-primary/10 transition-all">
+          <div className="w-8 h-8 rounded-lg bg-foreground/5 flex items-center justify-center text-foreground/40 group-hover:text-primary group-hover:bg-primary/10 transition-all">
             <ArrowUpRight className="w-4 h-4" />
           </div>
         </div>
 
-        <div className="flex items-center justify-between border-t border-white/5 pt-4">
-          <div className="flex items-center gap-4 text-[10px] font-bold text-white/30 uppercase tracking-widest">
+        <div className="flex items-center justify-between border-t border-border pt-4">
+          <div className="flex items-center gap-4 text-[10px] font-bold text-foreground/30 uppercase tracking-widest">
             <span className="flex items-center gap-1">
               <Eye className="w-3.5 h-3.5" />
               {views}
@@ -93,7 +93,7 @@ const PromptCard = ({
 
           <div className="flex -space-x-2">
             {[1, 2, 3].map((i) => (
-              <div key={i} className="w-6 h-6 rounded-full border-2 border-[#111] bg-white/10 overflow-hidden">
+              <div key={i} className="w-6 h-6 rounded-full border-2 border-background bg-foreground/10 overflow-hidden">
                 <img src={`https://i.pravatar.cc/100?img=${i + 10}`} alt="user" />
               </div>
             ))}

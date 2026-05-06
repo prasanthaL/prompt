@@ -7,7 +7,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <section className="relative pt-32 pb-32 px-4 md:px-8 overflow-hidden bg-[#050505]">
+    <section className="relative pt-32 pb-32 px-4 md:px-8 overflow-hidden bg-background">
       {/* Background Decorative Sparkles */}
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute top-[20%] left-[15%] w-1 h-1 bg-white rounded-full animate-pulse opacity-40 shadow-[0_0_10px_white]"></div>
@@ -24,7 +24,7 @@ const Hero = () => {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, ease: "easeOut" }}
-              className="text-5xl md:text-7xl font-bold leading-[1.1] tracking-tight text-white"
+              className="text-5xl md:text-7xl font-bold leading-[1.1] tracking-tight text-foreground"
             >
               Discover. Copy. Create.<br />
               <span className="text-primary">AI Prompts</span> That Inspire
@@ -34,7 +34,7 @@ const Hero = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.1, ease: "easeOut" }}
-              className="text-white/60 text-lg md:text-xl max-w-xl leading-relaxed"
+              className="text-foreground/60 text-lg md:text-xl max-w-xl leading-relaxed"
             >
               Explore thousands of high-quality AI prompts for Midjourney, ChatGPT, 
               DALL-E and more. Copy, customize and bring your ideas to life.
@@ -51,7 +51,7 @@ const Hero = () => {
               <Rocket className="w-5 h-5" />
               Explore Prompts
             </button>
-            <button className="bg-white/5 border border-white/10 hover:bg-white/10 text-white px-8 py-4 rounded-2xl font-bold flex items-center gap-3 transition-all hover:border-white/20">
+            <button className="bg-foreground/5 border border-border hover:bg-foreground/10 text-foreground px-8 py-4 rounded-2xl font-bold flex items-center gap-3 transition-all hover:border-foreground/20">
               <Grid className="w-5 h-5" />
               Browse Categories
             </button>
@@ -65,42 +65,42 @@ const Hero = () => {
             className="flex flex-wrap items-center gap-10 pt-4"
           >
             <div className="flex items-center gap-4 group">
-              <div className="w-12 h-12 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center group-hover:border-primary/50 transition-colors">
+              <div className="w-12 h-12 rounded-xl bg-foreground/5 border border-border flex items-center justify-center group-hover:border-primary/50 transition-colors">
                 <Layers className="w-5 h-5 text-primary" />
               </div>
               <div className="flex flex-col">
-                <span className="text-xl font-bold text-white">50K+</span>
-                <span className="text-[10px] uppercase tracking-widest text-white/40 font-bold">Prompts</span>
+                <span className="text-xl font-bold text-foreground">50K+</span>
+                <span className="text-[10px] uppercase tracking-widest text-foreground/40 font-bold">Prompts</span>
               </div>
             </div>
             
             <div className="flex items-center gap-4 group">
-              <div className="w-12 h-12 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center group-hover:border-primary/50 transition-colors">
+              <div className="w-12 h-12 rounded-xl bg-foreground/5 border border-border flex items-center justify-center group-hover:border-primary/50 transition-colors">
                 <Grid className="w-5 h-5 text-primary" />
               </div>
               <div className="flex flex-col">
-                <span className="text-xl font-bold text-white">120+</span>
-                <span className="text-[10px] uppercase tracking-widest text-white/40 font-bold">Categories</span>
+                <span className="text-xl font-bold text-foreground">120+</span>
+                <span className="text-[10px] uppercase tracking-widest text-foreground/40 font-bold">Categories</span>
               </div>
             </div>
 
             <div className="flex items-center gap-4 group">
-              <div className="w-12 h-12 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center group-hover:border-primary/50 transition-colors">
+              <div className="w-12 h-12 rounded-xl bg-foreground/5 border border-border flex items-center justify-center group-hover:border-primary/50 transition-colors">
                 <Users className="w-5 h-5 text-primary" />
               </div>
               <div className="flex flex-col">
-                <span className="text-xl font-bold text-white">10K+</span>
-                <span className="text-[10px] uppercase tracking-widest text-white/40 font-bold">Members</span>
+                <span className="text-xl font-bold text-foreground">10K+</span>
+                <span className="text-[10px] uppercase tracking-widest text-foreground/40 font-bold">Members</span>
               </div>
             </div>
 
             <div className="flex items-center gap-4 group">
-              <div className="w-12 h-12 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center group-hover:border-primary/50 transition-colors">
+              <div className="w-12 h-12 rounded-xl bg-foreground/5 border border-border flex items-center justify-center group-hover:border-primary/50 transition-colors">
                 <Download className="w-5 h-5 text-primary" />
               </div>
               <div className="flex flex-col">
-                <span className="text-xl font-bold text-white">2M+</span>
-                <span className="text-[10px] uppercase tracking-widest text-white/40 font-bold">Copies</span>
+                <span className="text-xl font-bold text-foreground">2M+</span>
+                <span className="text-[10px] uppercase tracking-widest text-foreground/40 font-bold">Copies</span>
               </div>
             </div>
           </motion.div>
@@ -153,16 +153,16 @@ const Hero = () => {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.5 }}
-                className="absolute bottom-8 left-1/2 -translate-x-1/2 w-[85%] bg-[#0f0f0f]/80 backdrop-blur-xl border border-white/10 p-5 rounded-[2rem] shadow-2xl flex items-center gap-5"
+                className="absolute bottom-8 left-1/2 -translate-x-1/2 w-[85%] bg-background/80 backdrop-blur-xl border border-border p-5 rounded-[2rem] shadow-2xl flex items-center gap-5"
               >
-                <div className="w-14 h-14 rounded-2xl overflow-hidden flex-shrink-0 bg-white/5 border border-white/10 flex items-center justify-center p-2">
+                <div className="w-14 h-14 rounded-2xl overflow-hidden flex-shrink-0 bg-foreground/5 border border-border flex items-center justify-center p-2">
                    <img src="/images/hero/fantasy.png" className="w-full h-full object-cover rounded-lg" alt="Mini" />
                 </div>
                 <div className="flex-1">
-                  <h3 className="font-bold text-white text-lg leading-none mb-1">Fantasy Landscape</h3>
-                  <p className="text-white/40 text-xs font-medium">Midjourney</p>
+                  <h3 className="font-bold text-foreground text-lg leading-none mb-1">Fantasy Landscape</h3>
+                  <p className="text-foreground/40 text-xs font-medium">Midjourney</p>
                 </div>
-                <div className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-white/60 hover:text-white hover:bg-primary/20 transition-all cursor-pointer">
+                <div className="w-10 h-10 rounded-full bg-foreground/5 border border-border flex items-center justify-center text-foreground/60 hover:text-foreground hover:bg-primary/20 transition-all cursor-pointer">
                   <Rocket className="w-5 h-5" />
                 </div>
               </motion.div>

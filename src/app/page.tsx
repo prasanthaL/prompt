@@ -110,13 +110,13 @@ export default function Home() {
 
       <div className="max-w-7xl mx-auto px-4 md:px-8 mb-12">
         <form onSubmit={handleSearch} className="relative group lg:hidden mb-8">
-           <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-white/40 group-focus-within:text-primary transition-colors" />
+           <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-foreground/40 group-focus-within:text-primary transition-colors" />
            <input
              type="text"
              placeholder="Search prompts, categories, styles..."
              value={localSearch}
              onChange={(e) => setLocalSearch(e.target.value)}
-             className="w-full bg-white/5 border border-white/10 rounded-2xl py-4 pl-12 pr-4 text-sm focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary/50 transition-all"
+             className="w-full bg-foreground/5 border border-foreground/10 rounded-2xl py-4 pl-12 pr-4 text-sm focus:outline-none focus:ring-2 focus:ring-primary/50 transition-all text-foreground"
            />
         </form>
 
@@ -136,11 +136,11 @@ export default function Home() {
               <span className="w-2 h-10 bg-primary rounded-full"></span>
               Featured Prompts
             </h2>
-            <p className="text-white/40 text-sm">Handpicked premium prompts from our community</p>
+            <p className="text-foreground/40 text-sm">Handpicked premium prompts from our community</p>
           </div>
           <button 
             onClick={() => router.push("/browse")}
-            className="hidden sm:flex items-center gap-2 text-sm font-bold bg-white/5 hover:bg-white/10 px-6 py-3 rounded-xl border border-white/5 transition-all"
+            className="hidden sm:flex items-center gap-2 text-sm font-bold bg-foreground/5 hover:bg-foreground/10 px-6 py-3 rounded-xl border border-border transition-all text-foreground"
           >
             Browse All
             <ArrowRight className="w-4 h-4" />
@@ -159,11 +159,11 @@ export default function Home() {
             ))
           ) : (
             <div className="col-span-full py-20 text-center space-y-4">
-               <div className="w-20 h-20 bg-white/5 rounded-full flex items-center justify-center mx-auto">
-                  <Search className="w-10 h-10 text-white/20" />
+               <div className="w-20 h-20 bg-foreground/5 rounded-full flex items-center justify-center mx-auto">
+                  <Search className="w-10 h-10 text-foreground/20" />
                </div>
-               <h3 className="text-xl font-bold text-white">No prompts found</h3>
-               <p className="text-white/40">Try selecting a different category or search term.</p>
+               <h3 className="text-xl font-bold text-foreground">No prompts found</h3>
+               <p className="text-foreground/40">Try selecting a different category or search term.</p>
             </div>
           )}
         </div>
@@ -184,8 +184,8 @@ export default function Home() {
         prompt={selectedPrompt} 
       />
 
-      <footer className="py-20 px-4 md:px-8 border-t border-white/5">
-        <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between gap-12">
+      <footer className="py-20 px-4 md:px-8 border-t border-border">
+        <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between gap-12 text-foreground">
           <div className="space-y-6 max-w-sm">
             <div className="flex items-center gap-2">
               <div className="w-10 h-10 bg-primary rounded-xl flex items-center justify-center">
@@ -193,7 +193,7 @@ export default function Home() {
               </div>
               <span className="text-xl font-bold tracking-tight">PromptVault</span>
             </div>
-            <p className="text-white/40 text-sm leading-relaxed">
+            <p className="text-foreground/40 text-sm leading-relaxed">
               The world's leading marketplace for high-quality AI prompts. 
               Helping creators build amazing things with AI since 2024.
             </p>
@@ -201,36 +201,36 @@ export default function Home() {
           
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-12">
             <div className="space-y-4">
-              <h4 className="font-bold text-white uppercase text-xs tracking-widest">Platform</h4>
-              <ul className="space-y-2 text-sm text-white/40">
-                <li onClick={() => router.push("/browse")} className="hover:text-white cursor-pointer transition-colors">Browse Prompts</li>
-                <li className="hover:text-white cursor-pointer transition-colors">Categories</li>
-                <li className="hover:text-white cursor-pointer transition-colors">Pricing</li>
+              <h4 className="font-bold text-foreground uppercase text-xs tracking-widest">Platform</h4>
+              <ul className="space-y-2 text-sm text-foreground/40">
+                <li onClick={() => router.push("/browse")} className="hover:text-foreground cursor-pointer transition-colors">Browse Prompts</li>
+                <li className="hover:text-foreground cursor-pointer transition-colors">Categories</li>
+                <li className="hover:text-foreground cursor-pointer transition-colors">Pricing</li>
               </ul>
             </div>
             <div className="space-y-4">
-              <h4 className="font-bold text-white uppercase text-xs tracking-widest">Company</h4>
-              <ul className="space-y-2 text-sm text-white/40">
-                <li className="hover:text-white cursor-pointer transition-colors">About Us</li>
-                <li className="hover:text-white cursor-pointer transition-colors">Careers</li>
-                <li className="hover:text-white cursor-pointer transition-colors">Blog</li>
+              <h4 className="font-bold text-foreground uppercase text-xs tracking-widest">Company</h4>
+              <ul className="space-y-2 text-sm text-foreground/40">
+                <li className="hover:text-foreground cursor-pointer transition-colors">About Us</li>
+                <li className="hover:text-foreground cursor-pointer transition-colors">Careers</li>
+                <li className="hover:text-foreground cursor-pointer transition-colors">Blog</li>
               </ul>
             </div>
             <div className="space-y-4">
-              <h4 className="font-bold text-white uppercase text-xs tracking-widest">Support</h4>
-              <ul className="space-y-2 text-sm text-white/40">
-                <li className="hover:text-white cursor-pointer transition-colors">Help Center</li>
-                <li className="hover:text-white cursor-pointer transition-colors">Contact</li>
-                <li className="hover:text-white cursor-pointer transition-colors">Terms</li>
+              <h4 className="font-bold text-foreground uppercase text-xs tracking-widest">Support</h4>
+              <ul className="space-y-2 text-sm text-foreground/40">
+                <li className="hover:text-foreground cursor-pointer transition-colors">Help Center</li>
+                <li className="hover:text-foreground cursor-pointer transition-colors">Contact</li>
+                <li className="hover:text-foreground cursor-pointer transition-colors">Terms</li>
               </ul>
             </div>
           </div>
         </div>
-        <div className="max-w-7xl mx-auto mt-20 pt-8 border-t border-white/5 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-white/20">
+        <div className="max-w-7xl mx-auto mt-20 pt-8 border-t border-border flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-foreground/20">
           <p>© 2024 PromptVault. All rights reserved.</p>
           <div className="flex gap-8">
-            <span className="hover:text-white cursor-pointer">Privacy Policy</span>
-            <span className="hover:text-white cursor-pointer">Terms of Service</span>
+            <span className="hover:text-foreground cursor-pointer">Privacy Policy</span>
+            <span className="hover:text-foreground cursor-pointer">Terms of Service</span>
           </div>
         </div>
       </footer>

@@ -36,7 +36,7 @@ const stats = [
 
 const StatsSection = () => {
   return (
-    <section className="py-20 px-4 md:px-8 bg-white/[0.02] border-y border-white/5">
+    <section className="py-20 px-4 md:px-8 bg-foreground/[0.02] border-y border-border">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
         {stats.map((stat) => (
           <div key={stat.title} className="flex gap-6 group">
@@ -44,8 +44,8 @@ const StatsSection = () => {
               <stat.icon className="w-7 h-7" />
             </div>
             <div className="space-y-2">
-              <h3 className="font-bold text-white text-lg">{stat.title}</h3>
-              <p className="text-sm text-white/40 leading-relaxed">
+              <h3 className="font-bold text-foreground text-lg">{stat.title}</h3>
+              <p className="text-sm text-foreground/40 leading-relaxed">
                 {stat.desc}
               </p>
             </div>

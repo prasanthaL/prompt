@@ -50,7 +50,7 @@ const PromptDetailModal = ({ isOpen, onClose, prompt }: PromptDetailModalProps) 
             initial={{ opacity: 0, scale: 0.9, y: 20 }}
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.9, y: 20 }}
-            className="relative w-full max-w-5xl bg-[#0a0a0a] border border-white/10 rounded-[2.5rem] overflow-hidden shadow-2xl flex flex-col md:flex-row max-h-[90vh]"
+            className="relative w-full max-w-5xl bg-background border border-border rounded-[2.5rem] overflow-hidden shadow-2xl flex flex-col md:flex-row max-h-[90vh]"
           >
             {/* Close Button */}
             <button
@@ -87,28 +87,28 @@ const PromptDetailModal = ({ isOpen, onClose, prompt }: PromptDetailModalProps) 
 
             {/* Right: Prompt Details */}
             <div className="w-full md:w-1/2 p-8 md:p-12 overflow-y-auto">
-              <div className="flex items-center justify-between mb-8 pb-8 border-b border-white/5">
+              <div className="flex items-center justify-between mb-8 pb-8 border-b border-border">
                 <div className="flex items-center gap-8">
                   <div className="flex flex-col">
-                    <span className="text-xs text-white/30 uppercase font-bold tracking-widest mb-1">Views</span>
-                    <div className="flex items-center gap-2 text-white font-bold">
+                    <span className="text-xs text-foreground/30 uppercase font-bold tracking-widest mb-1">Views</span>
+                    <div className="flex items-center gap-2 text-foreground font-bold">
                       <Eye className="w-4 h-4 text-primary" />
                       {prompt.views}
                     </div>
                   </div>
                   <div className="flex flex-col">
-                    <span className="text-xs text-white/30 uppercase font-bold tracking-widest mb-1">Likes</span>
-                    <div className="flex items-center gap-2 text-white font-bold">
+                    <span className="text-xs text-foreground/30 uppercase font-bold tracking-widest mb-1">Likes</span>
+                    <div className="flex items-center gap-2 text-foreground font-bold">
                       <Heart className="w-4 h-4 text-pink-500" />
                       {prompt.likes}
                     </div>
                   </div>
                 </div>
                 <div className="flex gap-2">
-                  <button className="p-3 bg-white/5 hover:bg-white/10 rounded-xl transition-all text-white/70 hover:text-white border border-white/5">
+                  <button className="p-3 bg-foreground/5 hover:bg-foreground/10 rounded-xl transition-all text-foreground/70 hover:text-foreground border border-border">
                     <Share2 className="w-5 h-5" />
                   </button>
-                  <button className="p-3 bg-white/5 hover:bg-white/10 rounded-xl transition-all text-white/70 hover:text-white border border-white/5">
+                  <button className="p-3 bg-foreground/5 hover:bg-foreground/10 rounded-xl transition-all text-foreground/70 hover:text-foreground border border-border">
                     <Download className="w-5 h-5" />
                   </button>
                 </div>
@@ -134,21 +134,21 @@ const PromptDetailModal = ({ isOpen, onClose, prompt }: PromptDetailModalProps) 
 
                 <div className="relative group">
                   <div className="absolute inset-0 bg-primary/5 rounded-2xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity" />
-                  <div className="relative bg-white/[0.03] border border-white/5 rounded-2xl p-6 font-mono text-sm leading-relaxed text-white/80 select-all">
+                  <div className="relative bg-foreground/5 border border-border rounded-2xl p-6 font-mono text-sm leading-relaxed text-foreground/80 select-all">
                     {prompt.fullPrompt}
                   </div>
                 </div>
 
                 <div className="space-y-3">
-                  <h4 className="text-xs font-bold text-white/30 uppercase tracking-widest">Model Settings</h4>
+                  <h4 className="text-xs font-bold text-foreground/30 uppercase tracking-widest">Model Settings</h4>
                   <div className="grid grid-cols-2 gap-3">
-                    <div className="bg-white/5 p-3 rounded-xl border border-white/5">
-                      <span className="block text-[10px] text-white/30 uppercase font-bold">Model</span>
-                      <span className="text-sm text-white font-medium">Midjourney v6.0</span>
+                    <div className="bg-foreground/5 p-3 rounded-xl border border-border">
+                      <span className="block text-[10px] text-foreground/30 uppercase font-bold">Model</span>
+                      <span className="text-sm text-foreground font-medium">gemini</span>
                     </div>
-                    <div className="bg-white/5 p-3 rounded-xl border border-white/5">
-                      <span className="block text-[10px] text-white/30 uppercase font-bold">Aspect Ratio</span>
-                      <span className="text-sm text-white font-medium">16:9</span>
+                    <div className="bg-foreground/5 p-3 rounded-xl border border-border">
+                      <span className="block text-[10px] text-foreground/30 uppercase font-bold">Aspect Ratio</span>
+                      <span className="text-sm text-foreground font-medium">16:9</span>
                     </div>
                   </div>
                 </div>
