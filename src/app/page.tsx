@@ -11,7 +11,7 @@ import {
   ArrowRight, 
   Search, 
 } from "lucide-react";
-import { useSearchParams, usePathname } from "next/navigation";
+import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
 import Pagination from "@/components/Pagination";
 
@@ -64,7 +64,6 @@ export default function Home() {
   const itemsPerPage = 10;
   
   const router = useRouter();
-  const searchParams = useSearchParams();
 
   useEffect(() => {
     const fetchDbPrompts = async () => {
