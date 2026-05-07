@@ -8,32 +8,6 @@ import PromptCard from "@/components/PromptCard";
 import Pagination from "@/components/Pagination";
 import { Search, Filter, SlidersHorizontal } from "lucide-react";
 
-const initialPrompts = [
-  {
-    id: "p1",
-    slug: "cyberpunk-city-p1",
-    title: "Cyberpunk City",
-    category: "Sci-Fi",
-    author: "ai_artist",
-    image: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?q=80&w=1000&auto=format&fit=crop",
-    views: "12.5K",
-    likes: "2.1K",
-    isPremium: false,
-    fullPrompt: "A high-detail cyberpunk city street at night, neon lights reflecting in puddles, cinematic lighting, ultra-realistic, 8k resolution, futuristic cars, dense atmosphere --ar 16:9 --v 6.0",
-  },
-  {
-    id: "p2",
-    slug: "elven-princess-p2",
-    title: "Elven Princess",
-    category: "Fantasy",
-    author: "dreamweaver",
-    image: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=1000&auto=format&fit=crop",
-    views: "8.7K",
-    likes: "1.8K",
-    isPremium: true,
-    fullPrompt: "Portrait of a beautiful elven princess, wearing silver crown and emerald robes, mystical forest background, ethereal glow, masterpiece, soft lighting --v 6.0",
-  },
-];
 
 function BrowseContent() {
   const searchParams = useSearchParams();
@@ -74,9 +48,7 @@ function BrowseContent() {
   }, [categoryParam, queryParam]);
 
 
-  const allVisiblePrompts = [...dbPrompts, ...initialPrompts];
-
-  const filteredPrompts = allVisiblePrompts.filter((p) => {
+  const filteredPrompts = dbPrompts.filter((p) => {
     const matchesCategory = activeCategory === "all" || p.category === activeCategory;
     const matchesSearch = p.title.toLowerCase().includes(searchQuery.toLowerCase()) || 
                           p.category.toLowerCase().includes(searchQuery.toLowerCase());

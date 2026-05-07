@@ -15,44 +15,6 @@ import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
 import Pagination from "@/components/Pagination";
 
-const initialPrompts = [
-  {
-    id: "p1",
-    slug: "cyberpunk-city-p1",
-    title: "Cyberpunk City",
-    category: "Sci-Fi",
-    author: "ai_artist",
-    image: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?q=80&w=1000&auto=format&fit=crop",
-    views: 12500,
-    likes: 2100,
-    isPremium: false,
-    fullPrompt: "A high-detail cyberpunk city street at night, neon lights reflecting in puddles, cinematic lighting, ultra-realistic, 8k resolution, futuristic cars, dense atmosphere --ar 16:9 --v 6.0",
-  },
-  {
-    id: "p2",
-    slug: "elven-princess-p2",
-    title: "Elven Princess",
-    category: "Fantasy",
-    author: "dreamweaver",
-    image: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=1000&auto=format&fit=crop",
-    views: 8700,
-    likes: 1800,
-    isPremium: true,
-    fullPrompt: "Portrait of a beautiful elven princess, wearing silver crown and emerald robes, mystical forest background, ethereal glow, masterpiece, soft lighting --v 6.0",
-  },
-  {
-    id: "p3",
-    slug: "astronaut-on-mars-p3",
-    title: "Astronaut on Mars",
-    category: "Realism",
-    author: "space_creator",
-    image: "https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?q=80&w=1000&auto=format&fit=crop",
-    views: 6300,
-    likes: 1200,
-    isPremium: false,
-    fullPrompt: "Cinematic shot of an astronaut standing on the surface of Mars, red dusty landscape, earth visible in the distant sky, highly detailed space suit, realistic lighting --ar 3:2 --v 6.0",
-  },
-];
 
 export default function Home() {
   const [activeCategory, setActiveCategory] = useState("all");
@@ -88,11 +50,9 @@ export default function Home() {
     }
   };
 
-  const allVisiblePrompts = [...dbPrompts, ...initialPrompts];
-
   const filteredPrompts = activeCategory === "all" 
-    ? allVisiblePrompts 
-    : allVisiblePrompts.filter(p => p.category === activeCategory);
+    ? dbPrompts 
+    : dbPrompts.filter(p => p.category === activeCategory);
 
   // Pagination Logic
   const totalPages = Math.ceil(filteredPrompts.length / itemsPerPage);
