@@ -1,16 +1,17 @@
 "use client";
 
 import React, { useState, useEffect, Suspense } from "react";
-import { useSearchParams } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import Navbar from "@/components/Navbar";
 import CategoryFilters from "@/components/CategoryFilters";
 import PromptCard from "@/components/PromptCard";
-import PromptDetailModal from "@/components/PromptDetailModal";
 import Pagination from "@/components/Pagination";
 import { Search, Filter, SlidersHorizontal } from "lucide-react";
 
 const initialPrompts = [
   {
+    id: "p1",
+    slug: "cyberpunk-city-p1",
     title: "Cyberpunk City",
     category: "Sci-Fi",
     author: "ai_artist",
@@ -21,6 +22,8 @@ const initialPrompts = [
     fullPrompt: "A high-detail cyberpunk city street at night, neon lights reflecting in puddles, cinematic lighting, ultra-realistic, 8k resolution, futuristic cars, dense atmosphere --ar 16:9 --v 6.0",
   },
   {
+    id: "p2",
+    slug: "elven-princess-p2",
     title: "Elven Princess",
     category: "Fantasy",
     author: "dreamweaver",
@@ -37,8 +40,7 @@ function BrowseContent() {
   const categoryParam = searchParams.get("category");
   const queryParam = searchParams.get("q");
 
-  const [selectedPrompt, setSelectedPrompt] = useState<any>(null);
-  const [isModalOpen, setIsModalOpen] = useState(false);
+  const router = useRouter();
   const [activeCategory, setActiveCategory] = useState("all");
   const [searchQuery, setSearchQuery] = useState("");
   const [dbPrompts, setDbPrompts] = useState<any[]>([]);
@@ -71,10 +73,6 @@ function BrowseContent() {
     }
   }, [categoryParam, queryParam]);
 
-  const handlePromptClick = (prompt: any) => {
-    setSelectedPrompt(prompt);
-    setIsModalOpen(true);
-  };
 
   const allVisiblePrompts = [...dbPrompts, ...initialPrompts];
 
@@ -129,7 +127,6 @@ function BrowseContent() {
             <PromptCard 
               key={prompt.id || i} 
               {...prompt} 
-              onClick={() => handlePromptClick(prompt)}
             />
           ))
         ) : (
@@ -143,11 +140,6 @@ function BrowseContent() {
         )}
       </div>
 
-      <PromptDetailModal 
-        isOpen={isModalOpen} 
-        onClose={() => setIsModalOpen(false)} 
-        prompt={selectedPrompt} 
-      />
 
       <Pagination 
         currentPage={currentPage} 

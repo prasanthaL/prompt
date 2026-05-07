@@ -9,20 +9,27 @@ export async function POST(req: Request) {
       return NextResponse.json({ error: "Missing required fields" }, { status: 400 });
     }
 
-    const prompt = await prisma.prompt.create({
-      data: {
-        title,
-        category,
-        fullPrompt,
-        image,
-        isPremium: Boolean(isPremium),
-      },
-    });
+    // Simple slug generator
+    const slug = title
+      .toLowerCase()
+      .replace(/[^\w ]+/g, "")
+      .replace(/ +/g, "-") + "-" + Math.random().toString(36).substring(2, 7);
 
-    return NextResponse.json({ success: true, prompt });
+    const id = `cm${Math.random().toString(36).substring(2, 11)}`; // Simple CUID-like ID
+    
+    await prisma.$executeRawUnsafe(
+      `INSERT INTO "Prompt" (id, title, slug, category, "fullPrompt", image, "isPremium", "updatedAt") 
+       VALUES ($1, $2, $3, $4, $5, $6, $7, NOW())`,
+      id, title, slug, category, fullPrompt, image, Boolean(isPremium)
+    );
+
+    return NextResponse.json({ success: true, id });
   } catch (error) {
-    console.error("Upload error:", error);
-    return NextResponse.json({ error: "Failed to save prompt" }, { status: 500 });
+    console.error("Database Error Detail:", error);
+    return NextResponse.json({ 
+      error: "Failed to save prompt", 
+      details: error instanceof Error ? error.message : "Unknown error" 
+    }, { status: 500 });
   }
 }
 

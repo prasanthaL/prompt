@@ -23,10 +23,8 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className={`${outfit.variable} font-sans antialiased`}>
         <ThemeProvider
-          attribute="data-theme"
+          attribute="class"
           defaultTheme="dark"
-          enableSystem
-          disableTransitionOnChange
         >
           {children}
         </ThemeProvider>

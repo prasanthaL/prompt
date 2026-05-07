@@ -16,6 +16,7 @@ model Prompt {
   category    String
   author      String   @default("Admin")
   image       String
+  slug        String?  @unique
   fullPrompt  String
   views       Int      @default(0)
   likes       Int      @default(0)

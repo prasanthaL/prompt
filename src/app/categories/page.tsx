@@ -49,7 +49,7 @@ export default function CategoriesPage() {
           {categories.map((cat) => (
             <Link 
               key={cat.id} 
-              href={`/browse?category=${cat.id}`}
+              href={cat.id === "all" ? "/browse" : `/categories/${cat.id.toLowerCase()}`}
               className="group relative"
             >
               <div className={`absolute inset-0 bg-gradient-to-br ${cat.color} rounded-[2.5rem] blur-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500`} />

@@ -1,21 +1,25 @@
 "use client";
 
 import React from "react";
-import { Copy, Eye, Heart, Bookmark, ArrowUpRight } from "lucide-react";
-import { cn } from "@/lib/utils";
+import Link from "next/link";
+import { Copy, Eye, Heart, ArrowUpRight } from "lucide-react";
 
 interface PromptCardProps {
+  id: string;
   title: string;
   category: string;
   author: string;
   image: string;
-  views: string;
-  likes: string;
+  views: string | number;
+  likes: string | number;
   isPremium?: boolean;
   onClick?: () => void;
+  href?: string;
+  slug?: string;
 }
 
 const PromptCard = ({
+  id,
   title,
   category,
   author,
@@ -23,15 +27,19 @@ const PromptCard = ({
   views,
   likes,
   isPremium,
-  onClick
+  onClick,
+  href,
+  slug,
 }: PromptCardProps) => {
-  return (
+  const cardHref = href || (slug ? `/prompts/${slug}` : `/prompts/${id}`);
+
+  const CardContent = (
     <div
-      onClick={onClick}
-      className="group relative bg-foreground/5 border border-border rounded-[2rem] overflow-hidden hover:border-primary/50 transition-all duration-500 hover:shadow-2xl hover:shadow-primary/10 cursor-pointer"
+      onClick={!cardHref ? onClick : undefined}
+      className="group relative bg-foreground/5 border border-border rounded-[2rem] overflow-hidden hover:border-primary/50 transition-all duration-500 hover:shadow-2xl hover:shadow-primary/10 cursor-pointer h-full flex flex-col"
     >
       {/* Image Container */}
-      <div className="aspect-[4/5] relative overflow-hidden">
+      <div className="aspect-[4/5] relative overflow-hidden shrink-0">
         <img
           src={image}
           alt={title}
@@ -52,34 +60,30 @@ const PromptCard = ({
           </div>
         </div>
 
-        <button className="absolute top-4 right-4 p-2 bg-black/50 backdrop-blur-md rounded-xl text-white/70 hover:text-white transition-all">
-          <Bookmark className="w-4 h-4" />
-        </button>
-
-        {/* Copy Button (Floating on Hover) */}
-        <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 translate-y-4 group-hover:translate-y-0">
-          <button className="bg-primary text-white p-4 rounded-2xl shadow-xl shadow-primary/40 flex items-center gap-2 font-bold hover:scale-105 active:scale-95 transition-all">
+        {/* Visual Button (Floating on Hover) */}
+        {/* <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 translate-y-4 group-hover:translate-y-0 z-10 pointer-events-none">
+          <div className="bg-primary text-white p-4 rounded-2xl shadow-xl shadow-primary/40 flex items-center gap-2 font-bold transform transition-transform group-hover:scale-105">
             <Copy className="w-5 h-5" />
             Copy Prompt
-          </button>
-        </div>
+          </div>
+        </div> */}
       </div>
 
       {/* Content */}
-      <div className="p-6 space-y-4">
+      <div className="p-6 flex flex-col flex-grow space-y-4">
         <div className="flex items-start justify-between gap-2">
-          <div>
+          <div className="flex-grow">
             <h3 className="font-bold text-foreground group-hover:text-primary transition-colors line-clamp-1">
               {title}
             </h3>
             <p className="text-xs text-foreground/40 font-medium">by {author}</p>
           </div>
-          <div className="w-8 h-8 rounded-lg bg-foreground/5 flex items-center justify-center text-foreground/40 group-hover:text-primary group-hover:bg-primary/10 transition-all">
+          <div className="w-8 h-8 rounded-lg bg-foreground/5 flex items-center justify-center text-foreground/40 group-hover:text-primary group-hover:bg-primary/10 transition-all shrink-0">
             <ArrowUpRight className="w-4 h-4" />
           </div>
         </div>
 
-        <div className="flex items-center justify-between border-t border-border pt-4">
+        <div className="mt-auto pt-4 border-t border-border flex items-center justify-between">
           <div className="flex items-center gap-4 text-[10px] font-bold text-foreground/30 uppercase tracking-widest">
             <span className="flex items-center gap-1">
               <Eye className="w-3.5 h-3.5" />
@@ -94,7 +98,7 @@ const PromptCard = ({
           <div className="flex -space-x-2">
             {[1, 2, 3].map((i) => (
               <div key={i} className="w-6 h-6 rounded-full border-2 border-background bg-foreground/10 overflow-hidden">
-                <img src={`https://i.pravatar.cc/100?img=${i + 10}`} alt="user" />
+                <img src={`https://i.pravatar.cc/100?img=${i + 10}`} alt="user avatar" />
               </div>
             ))}
           </div>
@@ -102,6 +106,16 @@ const PromptCard = ({
       </div>
     </div>
   );
+
+  if (cardHref) {
+    return (
+      <Link href={cardHref} className="block h-full">
+        {CardContent}
+      </Link>
+    );
+  }
+
+  return CardContent;
 };
 
 export default PromptCard;

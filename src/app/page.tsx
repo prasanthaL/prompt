@@ -11,12 +11,14 @@ import {
   ArrowRight, 
   Search, 
 } from "lucide-react";
-import PromptDetailModal from "@/components/PromptDetailModal";
+import { useSearchParams, usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
 import Pagination from "@/components/Pagination";
 
 const initialPrompts = [
   {
+    id: "p1",
+    slug: "cyberpunk-city-p1",
     title: "Cyberpunk City",
     category: "Sci-Fi",
     author: "ai_artist",
@@ -27,6 +29,8 @@ const initialPrompts = [
     fullPrompt: "A high-detail cyberpunk city street at night, neon lights reflecting in puddles, cinematic lighting, ultra-realistic, 8k resolution, futuristic cars, dense atmosphere --ar 16:9 --v 6.0",
   },
   {
+    id: "p2",
+    slug: "elven-princess-p2",
     title: "Elven Princess",
     category: "Fantasy",
     author: "dreamweaver",
@@ -37,6 +41,8 @@ const initialPrompts = [
     fullPrompt: "Portrait of a beautiful elven princess, wearing silver crown and emerald robes, mystical forest background, ethereal glow, masterpiece, soft lighting --v 6.0",
   },
   {
+    id: "p3",
+    slug: "astronaut-on-mars-p3",
     title: "Astronaut on Mars",
     category: "Realism",
     author: "space_creator",
@@ -49,8 +55,6 @@ const initialPrompts = [
 ];
 
 export default function Home() {
-  const [selectedPrompt, setSelectedPrompt] = useState<any>(null);
-  const [isModalOpen, setIsModalOpen] = useState(false);
   const [activeCategory, setActiveCategory] = useState("all");
   const [dbPrompts, setDbPrompts] = useState<any[]>([]);
   const [localSearch, setLocalSearch] = useState("");
@@ -60,6 +64,7 @@ export default function Home() {
   const itemsPerPage = 10;
   
   const router = useRouter();
+  const searchParams = useSearchParams();
 
   useEffect(() => {
     const fetchDbPrompts = async () => {
@@ -76,10 +81,6 @@ export default function Home() {
     fetchDbPrompts();
   }, []);
 
-  const handlePromptClick = (prompt: any) => {
-    setSelectedPrompt(prompt);
-    setIsModalOpen(true);
-  };
 
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
@@ -153,7 +154,6 @@ export default function Home() {
               <div key={prompt.id || i}>
                  <PromptCard 
                    {...prompt} 
-                   onClick={() => handlePromptClick(prompt)}
                  />
               </div>
             ))
@@ -177,12 +177,6 @@ export default function Home() {
       </section>
 
       <StatsSection />
-
-      <PromptDetailModal 
-        isOpen={isModalOpen} 
-        onClose={() => setIsModalOpen(false)} 
-        prompt={selectedPrompt} 
-      />
 
       <footer className="py-20 px-4 md:px-8 border-t border-border">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between gap-12 text-foreground">
