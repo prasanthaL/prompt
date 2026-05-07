@@ -38,8 +38,8 @@ export default function CategoriesPage() {
             <Sparkles className="w-4 h-4" />
             Browse by Style
           </div>
-          <h1 className="text-4xl md:text-6xl font-bold tracking-tight">Explore Categories</h1>
-          <p className="text-white/40 max-w-xl mx-auto">
+          <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-foreground">Explore Categories</h1>
+          <p className="text-foreground/40 max-w-xl mx-auto">
             Discover the perfect prompt for your next masterpiece. 
             Choose from our wide variety of curated categories.
           </p>
@@ -54,16 +54,16 @@ export default function CategoriesPage() {
             >
               <div className={`absolute inset-0 bg-gradient-to-br ${cat.color} rounded-[2.5rem] blur-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500`} />
               
-              <div className="relative bg-white/[0.03] border border-white/5 rounded-[2.5rem] p-8 h-full flex flex-col items-center text-center space-y-6 hover:border-primary/30 hover:bg-white/[0.05] transition-all duration-500">
-                <div className="w-20 h-20 rounded-[2rem] bg-white/5 flex items-center justify-center text-white/40 group-hover:bg-primary group-hover:text-white transition-all duration-500 group-hover:scale-110 group-hover:rotate-3 shadow-2xl">
+              <div className="relative bg-foreground/[0.03] border border-foreground/5 rounded-[2.5rem] p-8 h-full flex flex-col items-center text-center space-y-6 hover:border-primary/30 hover:bg-foreground/[0.05] transition-all duration-500">
+                <div className="w-20 h-20 rounded-[2rem] bg-foreground/5 flex items-center justify-center text-foreground/40 group-hover:bg-primary group-hover:text-white transition-all duration-500 group-hover:scale-110 group-hover:rotate-3 shadow-2xl">
                   <cat.icon className="w-10 h-10" />
                 </div>
                 
                 <div className="space-y-2">
-                  <h3 className="text-2xl font-bold text-white group-hover:text-primary transition-colors">
+                  <h3 className="text-2xl font-bold text-foreground group-hover:text-primary transition-colors">
                     {cat.name}
                   </h3>
-                  <div className="text-sm text-white/30 font-bold uppercase tracking-widest">
+                  <div className="text-sm text-foreground/30 font-bold uppercase tracking-widest">
                     {cat.count} Prompts
                   </div>
                 </div>

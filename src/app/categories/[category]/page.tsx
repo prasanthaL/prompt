@@ -67,7 +67,7 @@ export default async function CategoryPage({ params }: PageProps) {
             ))}
           </div>
         ) : (
-          <div className="py-32 flex flex-col items-center justify-center text-center space-y-6 glass-dark rounded-[3rem] border border-white/5">
+          <div className="py-32 flex flex-col items-center justify-center text-center space-y-6 glass-dark rounded-[3rem] border border-foreground/10">
             <div className="w-20 h-20 bg-foreground/5 rounded-full flex items-center justify-center">
               <Sparkles className="w-10 h-10 text-foreground/10" />
             </div>
@@ -96,10 +96,10 @@ export default async function CategoryPage({ params }: PageProps) {
             </div>
             <p className="text-foreground/40 text-sm leading-relaxed">
               The world's leading marketplace for high-quality AI prompts. 
-              Helping creators build amazing things with AI since 2024.
+              Helping creators build amazing things with AI since 2026.
             </p>
           </div>
-          <p className="text-xs text-foreground/20 self-end">© 2024 PromptVault. All rights reserved.</p>
+          <p className="text-xs text-foreground/20 self-end">© 2026 PromptVault. All rights reserved.</p>
         </div>
       </footer>
     </main>

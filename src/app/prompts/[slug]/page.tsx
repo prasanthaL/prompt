@@ -106,10 +106,10 @@ export default async function PromptPage({ params }: PageProps) {
             </div>
             <p className="text-foreground/40 text-sm leading-relaxed">
               The world's leading marketplace for high-quality AI prompts. 
-              Helping creators build amazing things with AI since 2024.
+              Helping creators build amazing things with AI since 2026.
             </p>
           </div>
-          <p className="text-xs text-foreground/20 self-end">© 2024 PromptVault. All rights reserved.</p>
+          <p className="text-xs text-foreground/20 self-end">© 2026 PromptVault. All rights reserved.</p>
         </div>
       </footer>
     </main>

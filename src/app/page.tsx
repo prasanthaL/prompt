@@ -188,7 +188,7 @@ export default function Home() {
             </div>
             <p className="text-foreground/40 text-sm leading-relaxed">
               The world's leading marketplace for high-quality AI prompts. 
-              Helping creators build amazing things with AI since 2024.
+              Helping creators build amazing things with AI since 2026.
             </p>
           </div>
           
@@ -220,7 +220,7 @@ export default function Home() {
           </div>
         </div>
         <div className="max-w-7xl mx-auto mt-20 pt-8 border-t border-border flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-foreground/20">
-          <p>© 2024 PromptVault. All rights reserved.</p>
+          <p>© 2026 PromptVault. All rights reserved.</p>
           <div className="flex gap-8">
             <span className="hover:text-foreground cursor-pointer">Privacy Policy</span>
             <span className="hover:text-foreground cursor-pointer">Terms of Service</span>
