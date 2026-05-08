@@ -18,6 +18,8 @@ function BrowseContent() {
   const [activeCategory, setActiveCategory] = useState("all");
   const [searchQuery, setSearchQuery] = useState("");
   const [dbPrompts, setDbPrompts] = useState<any[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
 
   // Pagination States
   const [currentPage, setCurrentPage] = useState(1);
@@ -25,14 +27,23 @@ function BrowseContent() {
 
   useEffect(() => {
     const fetchDbPrompts = async () => {
+      setLoading(true);
+      setError(null);
       try {
         const res = await fetch("/api/admin/prompts");
         if (res.ok) {
           const data = await res.json();
-          setDbPrompts(data);
+          console.log("Fetched prompts:", data?.length, data);
+          setDbPrompts(Array.isArray(data) ? data : []);
+        } else {
+          const err = await res.json().catch(() => ({}));
+          setError(err?.error || `API error ${res.status}`);
         }
       } catch (err) {
-        console.error("Failed to fetch prompts");
+        console.error("Failed to fetch prompts", err);
+        setError("Network error — could not reach the server.");
+      } finally {
+        setLoading(false);
       }
     };
     fetchDbPrompts();
@@ -50,10 +61,22 @@ function BrowseContent() {
 
   const filteredPrompts = dbPrompts.filter((p) => {
     const matchesCategory = activeCategory === "all" || p.category === activeCategory;
-    const matchesSearch = p.title.toLowerCase().includes(searchQuery.toLowerCase()) || 
-                          p.category.toLowerCase().includes(searchQuery.toLowerCase());
+    const q = searchQuery.toLowerCase();
+    const matchesSearch =
+      !q ||
+      (p.title ?? "").toLowerCase().includes(q) ||
+      (p.category ?? "").toLowerCase().includes(q);
     return matchesCategory && matchesSearch;
   });
+
+  // Compute real counts per category
+  const categoryCounts: Record<string, number> = {};
+  for (const p of dbPrompts) {
+    if (p.category) {
+      categoryCounts[p.category] = (categoryCounts[p.category] ?? 0) + 1;
+    }
+  }
+  const totalCount = dbPrompts.length;
 
   // Pagination Logic
   const totalPages = Math.ceil(filteredPrompts.length / itemsPerPage);
@@ -90,27 +113,48 @@ function BrowseContent() {
 
       <CategoryFilters 
         activeCategory={activeCategory} 
-        onCategoryChange={setActiveCategory} 
+        onCategoryChange={setActiveCategory}
+        categoryCounts={categoryCounts}
+        totalCount={totalCount}
       />
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-12">
-        {displayedPrompts.length > 0 ? (
-          displayedPrompts.map((prompt, i) => (
-            <PromptCard 
-              key={prompt.id || i} 
-              {...prompt} 
-            />
-          ))
-        ) : (
-          <div className="col-span-full py-20 text-center space-y-4">
-             <div className="w-20 h-20 bg-white/5 rounded-full flex items-center justify-center mx-auto">
+      {/* Loading State */}
+      {loading && (
+        <div className="flex flex-col items-center justify-center py-32 gap-4">
+          <div className="w-12 h-12 rounded-full border-4 border-primary/30 border-t-primary animate-spin" />
+          <p className="text-white/40 text-sm">Loading prompts...</p>
+        </div>
+      )}
+
+      {/* Error State */}
+      {!loading && error && (
+        <div className="col-span-full py-12 text-center space-y-2">
+          <p className="text-red-400 font-semibold">⚠ {error}</p>
+          <p className="text-white/30 text-sm">Check console for details.</p>
+        </div>
+      )}
+
+      {/* Prompt Grid */}
+      {!loading && !error && (
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-12">
+          {displayedPrompts.length > 0 ? (
+            displayedPrompts.map((prompt, i) => (
+              <PromptCard
+                key={prompt.id || i}
+                {...prompt}
+              />
+            ))
+          ) : (
+            <div className="col-span-full py-20 text-center space-y-4">
+              <div className="w-20 h-20 bg-white/5 rounded-full flex items-center justify-center mx-auto">
                 <Search className="w-10 h-10 text-white/20" />
-             </div>
-             <h3 className="text-xl font-bold text-white">No prompts found</h3>
-             <p className="text-white/40">Try adjusting your filters or search query.</p>
-          </div>
-        )}
-      </div>
+              </div>
+              <h3 className="text-xl font-bold text-white">No prompts found</h3>
+              <p className="text-white/40">Try adjusting your filters or search query.</p>
+            </div>
+          )}
+        </div>
+      )}
 
 
       <Pagination 

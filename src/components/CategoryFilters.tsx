@@ -14,22 +14,24 @@ import {
 import { cn } from "@/lib/utils";
 
 const categories = [
-  { name: "All Categories", icon: LayoutGrid, count: "120+", id: "all" },
-  { name: "Cinematic", icon: Clapperboard, count: "2450", id: "Cinematic" },
-  { name: "Anime", icon: Ghost, count: "1870", id: "Anime" },
-  { name: "Portrait", icon: User, count: "1520", id: "Portrait" },
-  { name: "Fantasy", icon: Zap, count: "2450", id: "Fantasy" },
-  { name: "Sci-Fi", icon: Cpu, count: "1280", id: "Sci-Fi" },
-  { name: "Architecture", icon: Home, count: "980", id: "Architecture" },
-  { name: "Product", icon: ShoppingBag, count: "840", id: "Product" },
+  { name: "All Categories", icon: LayoutGrid, id: "all" },
+  { name: "Cinematic", icon: Clapperboard, id: "Cinematic" },
+  { name: "Anime", icon: Ghost, id: "Anime" },
+  { name: "Portrait", icon: User, id: "Portrait" },
+  { name: "Fantasy", icon: Zap, id: "Fantasy" },
+  { name: "Sci-Fi", icon: Cpu, id: "Sci-Fi" },
+  { name: "Architecture", icon: Home, id: "Architecture" },
+  { name: "Product", icon: ShoppingBag, id: "Product" },
 ];
 
 interface CategoryFiltersProps {
   activeCategory: string;
   onCategoryChange: (categoryId: string) => void;
+  categoryCounts?: Record<string, number>;
+  totalCount?: number;
 }
 
-const CategoryFilters = ({ activeCategory, onCategoryChange }: CategoryFiltersProps) => {
+const CategoryFilters = ({ activeCategory, onCategoryChange, categoryCounts = {}, totalCount = 0 }: CategoryFiltersProps) => {
   return (
     <div className="w-full py-8">
       <div className="flex items-center justify-between mb-6">
@@ -70,7 +72,7 @@ const CategoryFilters = ({ activeCategory, onCategoryChange }: CategoryFiltersPr
                   {cat.name}
                 </div>
                 <div className="text-[10px] uppercase tracking-widest text-foreground/30 font-bold">
-                  {cat.count} Prompts
+                  {cat.id === "all" ? totalCount : (categoryCounts[cat.id] ?? 0)} Prompts
                 </div>
               </div>
             </button>

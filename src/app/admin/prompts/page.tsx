@@ -60,10 +60,18 @@ export default function ManagePrompts() {
   };
 
   const filteredPrompts = prompts.filter(p => {
-    const matchesSearch = p.title.toLowerCase().includes(searchQuery.toLowerCase());
+    const matchesSearch = (p.title ?? "").toLowerCase().includes(searchQuery.toLowerCase());
     const matchesCategory = activeCategory === "All" || p.category === activeCategory;
     return matchesSearch && matchesCategory;
   });
+
+  // Real per-category counts
+  const categoryCounts: Record<string, number> = { All: prompts.length };
+  for (const p of prompts) {
+    if (p.category) {
+      categoryCounts[p.category] = (categoryCounts[p.category] ?? 0) + 1;
+    }
+  }
 
   // Calculate Pagination
   const totalPages = Math.ceil(filteredPrompts.length / itemsPerPage);
@@ -175,13 +183,19 @@ export default function ManagePrompts() {
                 setCurrentPage(1);
               }}
               className={cn(
-                "px-5 py-2 rounded-full text-xs font-bold whitespace-nowrap border transition-all",
+                "px-5 py-2 rounded-full text-xs font-bold whitespace-nowrap border transition-all flex items-center gap-2",
                 activeCategory === cat
                   ? "bg-primary border-primary text-white"
                   : "bg-black border-white/10 text-white/40 hover:text-white hover:bg-white/10"
               )}
             >
               {cat}
+              <span className={cn(
+                "text-[10px] font-black px-1.5 py-0.5 rounded-full",
+                activeCategory === cat ? "bg-white/20 text-white" : "bg-white/5 text-white/30"
+              )}>
+                {categoryCounts[cat] ?? 0}
+              </span>
             </button>
           ))}
         </div>

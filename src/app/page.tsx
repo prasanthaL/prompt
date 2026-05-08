@@ -54,6 +54,15 @@ export default function Home() {
     ? dbPrompts 
     : dbPrompts.filter(p => p.category === activeCategory);
 
+  // Compute real counts per category
+  const categoryCounts: Record<string, number> = {};
+  for (const p of dbPrompts) {
+    if (p.category) {
+      categoryCounts[p.category] = (categoryCounts[p.category] ?? 0) + 1;
+    }
+  }
+  const totalCount = dbPrompts.length;
+
   // Pagination Logic
   const totalPages = Math.ceil(filteredPrompts.length / itemsPerPage);
   const startIndex = (currentPage - 1) * itemsPerPage;
@@ -85,7 +94,9 @@ export default function Home() {
           onCategoryChange={(cat) => {
             setActiveCategory(cat);
             setCurrentPage(1);
-          }} 
+          }}
+          categoryCounts={categoryCounts}
+          totalCount={totalCount}
         />
       </div>
 
