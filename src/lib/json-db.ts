@@ -1,12 +1,12 @@
 import fs from "fs";
 import path from "path";
-import { kv } from "@vercel/kv";
 
 const DATA_DIR = path.join(process.cwd(), "src/data/prompts");
-const IS_VERCEL = process.env.VERCEL === "1" || process.env.NODE_ENV === "production";
+// Only use KV if we are on Vercel/Production AND we have the required credentials
+const SHOULD_USE_KV = (process.env.VERCEL === "1" || process.env.NODE_ENV === "production") && !!process.env.KV_REST_API_URL;
 
 // Ensure the data directory exists (only locally)
-if (!IS_VERCEL && !fs.existsSync(DATA_DIR)) {
+if (!SHOULD_USE_KV && !fs.existsSync(DATA_DIR)) {
   fs.mkdirSync(DATA_DIR, { recursive: true });
 }
 
@@ -27,44 +27,51 @@ export interface Prompt {
 
 // Local helper to read all files
 const getLocalPrompts = (): Prompt[] => {
-  if (!fs.existsSync(DATA_DIR)) return [];
-  const files = fs.readdirSync(DATA_DIR);
-  let allPrompts: Prompt[] = [];
-  
-  files.forEach(file => {
-    if (file.endsWith(".json")) {
-      try {
-        const content = fs.readFileSync(path.join(DATA_DIR, file), "utf-8");
-        const data = JSON.parse(content);
-        if (Array.isArray(data)) {
-          allPrompts = [...allPrompts, ...data];
+  try {
+    if (!fs.existsSync(DATA_DIR)) return [];
+    const files = fs.readdirSync(DATA_DIR);
+    let allPrompts: Prompt[] = [];
+    
+    files.forEach(file => {
+      if (file.endsWith(".json")) {
+        try {
+          const content = fs.readFileSync(path.join(DATA_DIR, file), "utf-8");
+          const data = JSON.parse(content);
+          if (Array.isArray(data)) {
+            allPrompts = [...allPrompts, ...data];
+          }
+        } catch (e) {
+          console.error(`Error parsing JSON file: ${file}`, e);
         }
-      } catch (e) {
-        console.error(`Error parsing JSON file: ${file}`, e);
       }
-    }
-  });
-  return allPrompts;
+    });
+    return allPrompts;
+  } catch (err) {
+    console.error("Error reading local prompts:", err);
+    return [];
+  }
 };
 
 export const getAllPrompts = async (): Promise<Prompt[]> => {
-  if (IS_VERCEL) {
-    let all = await kv.get<Prompt[]>("all_prompts");
-    
-    // Auto-seed KV from local JSON files if KV is empty
-    if (!all || (Array.isArray(all) && all.length === 0)) {
-      try {
+  if (SHOULD_USE_KV) {
+    try {
+      const { kv } = await import("@vercel/kv");
+      let all = await kv.get<Prompt[]>("all_prompts");
+      
+      // Auto-seed KV from local JSON files if KV is empty
+      if (!all || (Array.isArray(all) && all.length === 0)) {
         const localData = getLocalPrompts();
         if (localData.length > 0) {
           await kv.set("all_prompts", localData);
           all = localData;
         }
-      } catch (e) {
-        console.error("Failed to seed KV from local files", e);
       }
+      
+      return (all || []).sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime());
+    } catch (err) {
+      console.error("KV Error, falling back to local files:", err);
+      return getLocalPrompts().sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime());
     }
-    
-    return (all || []).sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime());
   }
 
   return getLocalPrompts().sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime());
@@ -81,7 +88,8 @@ export const getPromptById = async (id: string): Promise<Prompt | null> => {
 };
 
 export const savePrompt = async (prompt: Prompt) => {
-  if (IS_VERCEL) {
+  if (SHOULD_USE_KV) {
+    const { kv } = await import("@vercel/kv");
     const all = await getAllPrompts();
     const index = all.findIndex(p => p.id === prompt.id);
     if (index !== -1) {
@@ -119,7 +127,8 @@ export const savePrompt = async (prompt: Prompt) => {
 };
 
 export const deletePrompt = async (id: string) => {
-  if (IS_VERCEL) {
+  if (SHOULD_USE_KV) {
+    const { kv } = await import("@vercel/kv");
     const all = await getAllPrompts();
     const filtered = all.filter(p => p.id !== id);
     await kv.set("all_prompts", filtered);
@@ -131,8 +140,8 @@ export const deletePrompt = async (id: string) => {
   files.forEach(file => {
     if (file.endsWith(".json")) {
       const filePath = path.join(DATA_DIR, file);
-      const content = fs.readFileSync(filePath, "utf-8");
       try {
+        const content = fs.readFileSync(filePath, "utf-8");
         let prompts: Prompt[] = JSON.parse(content);
         const newPrompts = prompts.filter(p => p.id !== id);
         if (newPrompts.length !== prompts.length) {
