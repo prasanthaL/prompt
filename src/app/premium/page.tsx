@@ -7,7 +7,7 @@ import { Crown, Sparkles } from "lucide-react";
 
 export default async function PremiumPage() {
   // Fetch premium prompts via JSON DB
-  const prompts = getPremiumPrompts();
+  const prompts = await getPremiumPrompts();
 
   return (
     <main className="min-h-screen mesh-gradient pb-20">

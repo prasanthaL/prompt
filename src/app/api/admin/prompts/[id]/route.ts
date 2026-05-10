@@ -9,7 +9,7 @@ export async function PUT(
     const { id } = await params;
     const body = await req.json();
 
-    const updatedPrompt = updatePrompt(id, {
+    const updatedPrompt = await updatePrompt(id, {
       title: body.title,
       category: body.category,
       fullPrompt: body.fullPrompt,
@@ -34,7 +34,7 @@ export async function DELETE(
 ) {
   try {
     const { id } = await params;
-    deletePrompt(id);
+    await deletePrompt(id);
     return NextResponse.json({ success: true });
   } catch (error) {
     console.error("Delete Error:", error);

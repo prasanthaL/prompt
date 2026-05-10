@@ -7,7 +7,7 @@ import { TrendingUp, Sparkles } from "lucide-react";
 
 export default async function TrendingPage() {
   // Fetch trending prompts (most views/likes) via JSON DB
-  const prompts = getTrendingPrompts(20);
+  const prompts = await getTrendingPrompts(20);
 
   return (
     <main className="min-h-screen mesh-gradient pb-20">

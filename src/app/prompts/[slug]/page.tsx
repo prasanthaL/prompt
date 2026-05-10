@@ -16,14 +16,14 @@ interface PageProps {
 export default async function PromptPage({ params }: PageProps) {
   const { slug } = await params;
 
-  const prompt = getPromptBySlugOrId(slug);
+  const prompt = await getPromptBySlugOrId(slug);
 
   if (!prompt) {
     notFound();
   }
 
   // Fetch similar prompts via JSON DB
-  const similarPrompts = getSimilarPrompts(prompt.id, prompt.category, 3);
+  const similarPrompts = await getSimilarPrompts(prompt.id, prompt.category, 3);
 
   return (
     <main className="min-h-screen mesh-gradient pb-20">

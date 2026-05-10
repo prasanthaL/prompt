@@ -32,7 +32,7 @@ export async function POST(req: Request) {
       updatedAt: new Date().toISOString(),
     };
 
-    savePrompt(newPrompt);
+    await savePrompt(newPrompt);
 
     return NextResponse.json({ success: true, id });
   } catch (error) {
@@ -46,7 +46,7 @@ export async function POST(req: Request) {
 
 export async function GET() {
   try {
-    const prompts = getAllPrompts();
+    const prompts = await getAllPrompts();
     return NextResponse.json(prompts);
   } catch (error) {
     return NextResponse.json({ error: "Failed to fetch prompts" }, { status: 500 });

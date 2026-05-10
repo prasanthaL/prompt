@@ -19,7 +19,7 @@ export default async function CategoryPage({ params }: PageProps) {
   const displayName = decodedCategory.charAt(0).toUpperCase() + decodedCategory.slice(1);
 
   // Fetch prompts for this category via JSON DB
-  const prompts = getPromptsByCategory(decodedCategory);
+  const prompts = await getPromptsByCategory(decodedCategory);
 
   return (
     <main className="min-h-screen mesh-gradient pb-20">
