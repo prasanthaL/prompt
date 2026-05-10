@@ -1,13 +1,13 @@
 "use client";
 
 import React, { useState, useEffect, Suspense } from "react";
-import { 
-  Upload, 
-  Plus, 
-  Type, 
-  Tag, 
-  Globe, 
-  CheckCircle2, 
+import {
+  Upload,
+  Plus,
+  Type,
+  Tag,
+  Globe,
+  CheckCircle2,
   LogOut,
   Loader2,
   Sparkles,
@@ -32,7 +32,7 @@ function DashboardContent() {
   const [existingImageUrl, setExistingImageUrl] = useState<string | null>(null);
   const [isUploading, setIsUploading] = useState(false);
   const [message, setMessage] = useState({ type: "", text: "" });
-  
+
   const router = useRouter();
   const searchParams = useSearchParams();
   const editId = searchParams.get("edit");
@@ -101,7 +101,7 @@ function DashboardContent() {
       if (file) {
         const imageFormData = new FormData();
         imageFormData.append("file", file);
-        
+
         const uploadRes = await fetch("/api/admin/upload", {
           method: "POST",
           body: imageFormData,
@@ -122,9 +122,9 @@ function DashboardContent() {
       });
 
       if (promptRes.ok) {
-        setMessage({ 
-          type: "success", 
-          text: editingId ? "Prompt updated successfully!" : "Prompt uploaded successfully!" 
+        setMessage({
+          type: "success",
+          text: editingId ? "Prompt updated successfully!" : "Prompt uploaded successfully!"
         });
         setTimeout(() => {
           if (editingId) router.push("/admin/prompts");
@@ -151,7 +151,7 @@ function DashboardContent() {
               {editingId ? "Edit Prompt" : "Upload New Prompt"}
             </h2>
             {editingId && (
-              <button 
+              <button
                 onClick={resetForm}
                 className="text-xs font-bold text-white/40 hover:text-white flex items-center gap-2"
               >
@@ -165,8 +165,8 @@ function DashboardContent() {
             {message.text && (
               <div className={cn(
                 "p-4 rounded-xl flex items-center gap-3 text-sm border",
-                message.type === "success" 
-                  ? "bg-emerald-500/10 border-emerald-500/20 text-emerald-500" 
+                message.type === "success"
+                  ? "bg-emerald-500/10 border-emerald-500/20 text-emerald-500"
                   : "bg-red-500/10 border-red-500/20 text-red-500"
               )}>
                 {message.type === "success" ? <CheckCircle2 className="w-5 h-5" /> : <XCircle className="w-5 h-5" />}
@@ -178,7 +178,7 @@ function DashboardContent() {
               <label className="text-xs font-bold text-white/30 uppercase tracking-widest ml-1">
                 Prompt Image Preview
               </label>
-              <div 
+              <div
                 className="relative group border-2 border-dashed border-white/10 rounded-[2rem] h-[300px] overflow-hidden flex items-center justify-center hover:border-primary/50 hover:bg-primary/5 transition-all cursor-pointer"
                 onClick={() => document.getElementById("file-upload")?.click()}
               >
@@ -192,10 +192,10 @@ function DashboardContent() {
                     <p className="font-bold text-white/40">Select image for upload</p>
                   </div>
                 )}
-                <input 
-                  id="file-upload" 
-                  type="file" 
-                  className="hidden" 
+                <input
+                  id="file-upload"
+                  type="file"
+                  className="hidden"
                   onChange={handleFileChange}
                   accept="image/*"
                 />
@@ -208,10 +208,10 @@ function DashboardContent() {
                   <Type className="w-4 h-4 text-primary" />
                   Title
                 </label>
-                <input 
-                  type="text" 
+                <input
+                  type="text"
                   value={formData.title}
-                  onChange={(e) => setFormData({...formData, title: e.target.value})}
+                  onChange={(e) => setFormData({ ...formData, title: e.target.value })}
                   placeholder="Enter prompt title"
                   className="w-full bg-white/5 border border-white/10 rounded-2xl py-4 px-6 text-sm focus:outline-none focus:ring-2 focus:ring-primary/50 transition-all"
                   required
@@ -223,9 +223,9 @@ function DashboardContent() {
                   <Tag className="w-4 h-4 text-primary" />
                   Category
                 </label>
-                <select 
+                <select
                   value={formData.category}
-                  onChange={(e) => setFormData({...formData, category: e.target.value})}
+                  onChange={(e) => setFormData({ ...formData, category: e.target.value })}
                   className="w-full bg-black border border-white/10 rounded-2xl py-4 px-6 text-sm focus:outline-none focus:ring-2 focus:ring-primary/50 transition-all appearance-none cursor-pointer "
                 >
                   <option value="Cinematic">Cinematic</option>
@@ -244,10 +244,10 @@ function DashboardContent() {
                 <Globe className="w-4 h-4 text-primary" />
                 Full Prompt Text
               </label>
-              <textarea 
+              <textarea
                 rows={4}
                 value={formData.fullPrompt}
-                onChange={(e) => setFormData({...formData, fullPrompt: e.target.value})}
+                onChange={(e) => setFormData({ ...formData, fullPrompt: e.target.value })}
                 placeholder="Paste the full AI prompt here..."
                 className="w-full bg-white/5 border border-white/10 rounded-[1.5rem] py-6 px-6 text-sm focus:outline-none focus:ring-2 focus:ring-primary/50 transition-all resize-none"
                 required
@@ -255,11 +255,11 @@ function DashboardContent() {
             </div>
 
             <div className="flex items-center gap-4 p-4 bg-white/5 rounded-2xl border border-white/5">
-              <input 
-                type="checkbox" 
+              <input
+                type="checkbox"
                 id="premium"
                 checked={formData.isPremium}
-                onChange={(e) => setFormData({...formData, isPremium: e.target.checked})}
+                onChange={(e) => setFormData({ ...formData, isPremium: e.target.checked })}
                 className="w-5 h-5 rounded-md accent-primary"
               />
               <label htmlFor="premium" className="text-sm font-bold text-white/70 cursor-pointer">
@@ -267,8 +267,8 @@ function DashboardContent() {
               </label>
             </div>
 
-            <button 
-              type="submit" 
+            <button
+              type="submit"
               disabled={isUploading}
               className="w-full bg-primary hover:bg-primary-hover text-white py-5 rounded-[1.5rem] font-bold text-lg shadow-xl shadow-primary/20 hover:scale-[1.02] active:scale-95 transition-all flex items-center justify-center gap-3 disabled:opacity-50 disabled:scale-100"
             >
@@ -290,7 +290,7 @@ function DashboardContent() {
 
       {/* Right Sidebar: Shortcuts */}
       <div className="space-y-8">
-        <div 
+        <div
           onClick={() => router.push("/admin/prompts")}
           className="glass-dark border border-white/5 rounded-[2.5rem] p-8 shadow-2xl group cursor-pointer hover:border-primary/50 transition-all"
         >
@@ -331,7 +331,7 @@ export default function AdminDashboard() {
             </div>
             <span className="text-xl font-bold tracking-tight">Admin Dashboard</span>
           </div>
-          <button 
+          <button
             onClick={() => router.push("/admin")}
             className="flex items-center gap-2 text-white/40 hover:text-white transition-colors"
           >

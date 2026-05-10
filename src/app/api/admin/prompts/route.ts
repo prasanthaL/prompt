@@ -16,7 +16,7 @@ export async function POST(req: Request) {
       .replace(/ +/g, "-") + "-" + Math.random().toString(36).substring(2, 7);
 
     const id = `cm${Math.random().toString(36).substring(2, 11)}`; // Simple CUID-like ID
-    
+
     const newPrompt: Prompt = {
       id,
       title,
@@ -37,9 +37,9 @@ export async function POST(req: Request) {
     return NextResponse.json({ success: true, id });
   } catch (error) {
     console.error("Save Error Detail:", error);
-    return NextResponse.json({ 
-      error: "Failed to save prompt", 
-      details: error instanceof Error ? error.message : "Unknown error" 
+    return NextResponse.json({
+      error: "Failed to save prompt",
+      details: error instanceof Error ? error.message : "Unknown error"
     }, { status: 500 });
   }
 }

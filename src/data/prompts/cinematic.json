@@ -403,6 +403,34 @@
     "views": 0,
     "likes": 0,
     "createdAt": "2026-05-10T07:07:48.853Z",
-    "updatedAt": "2026-05-10T07:07:48.853Z"
+    "updatedAt": "2026-05-10T10:17:56.429Z"
+  },
+  {
+    "id": "cmyvt9hsovj",
+    "title": "Fragments of a Man",
+    "slug": "fragments-of-a-man-1uvzb",
+    "category": "Cinematic",
+    "fullPrompt": "Ultra-realistic cinematic double exposure portrait of a mature South Asian man shown in a dramatic SIDE PROFILE composition, where only about 80% of his face is visible emerging from deep shadows. The main focus is the PRESENT version of the man — emotionally mature, calm, intelligent, slightly tired eyes, masculine aura, realistic skin texture, natural beard shadow, sharp jawline lighting, cinematic emotional expression.The portrait uses a professional double exposure style, where the INSIDE of the man’s shadowed profile contains the memories of his entire life journey seamlessly blended together like emotional fragments of his mind. The outer silhouette of the face remains dark, clean, cinematic, and sharply defined against a moody background. The memories appear naturally INSIDE the shadow area of the profile, not outside the face, not floating randomly, and not like a collage poster.nside the shadow exposure: — CHILDHOOD MEMORY: Warm nostalgic golden scene of a little boy version of the same person running in a village field during sunset, innocent smile, flying kite, emotional warmth, soft dreamy glow, realistic facial resemblance. — SCHOOL LIFE MEMORY: Teenage version wearing school uniform walking through a school corridor with friends, notebooks in hand, nostalgic classroom atmosphere, soft yellow cinematic tones, emotional realism. — COLLEGE MEMORY:Young adult version sitting alone near college campus during light rain, books nearby, thoughtful expression, teal-orange cinematic color grading, emotional transition into maturity. — SPORTS MEMORY: Subtle cinematic cricket imagery blended naturally into the exposure, cricket bat silhouette, stadium lights, dust particles, representing passion, pressure, and competitive spirit. — LOVE MEMORY:Soft emotional silhouette of a romantic moment or comforting hug, subtle and artistic, not overpowering, cinematic emotional warmth. — FUTURE VISION: At the upper side inside the shadow exposure, cool blue futuristic city lights and symbolic future success imagery — luxury skyline, intelligent powerful silhouette walking forward, peaceful modern home atmosphere, ambition and hope. The memories should blend together organically through: cinematic fog, soft smoke, light leaks, glass reflections,rain particles, volumetric lighting, emotional haze, film grain, dreamlike transitions. The PRESENT face outside the exposure remains the strongest visual focus: ultra-realistic eyes, sharp cinematic side profile, deep shadows, soft rim lighting, professional editorial photography quality, Netflix movie poster atmosphere, luxury cinematic color grading, dark emotional aesthetic. Background:minimal dark background with subtle cinematic fog and moody lighting, allowing the double exposure effect to dominate the frame. Lighting style: dramatic side lighting, high contrast shadows, soft glow on facial edges, professional studio cinematic setup, deep blacks, rich emotional tones. Color grading: childhood = warm golden, school = nostalgic yellow, college = teal-orange, present = dark neutral cinematic, future = cold blue luxury. The final image should feel: nostalgic, poetic,emotionally intelligent, cinematic, deeply human, masculine, artistic, thought-provoking, like an award-winning psychological movie poster. Ultra realistic, 8K detail, masterpiece, hyper detailed skin texture, perfect anatomy, perfect facial structure consistency across all ages, same eye DNA, same nose structure, same emotional identity, shallow depth of field, professional cinematic photography, award-winning double exposure art. NEGATIVE PROMPT:anime, cartoon, low quality, blurry face, bad anatomy, extra limbs, extra fingers, duplicate memories, poorly blended double exposure, random collage style, comic bubbles, unrealistic skin, oversaturated colors, flat lighting, plastic face, distorted eyes, asymmetrical face, fake emotions, low resolution, watermark, text, logo, chaotic composition, disconnected memories, unrealistic child face, CGI look, overexposed highlights, messy background, poorly defined silhouette, artificial shadows,stiff pose, exaggerated muscles, low realism, bad proportions, cropped face, cluttered image, fake cinematic effect",
+    "image": "https://res.cloudinary.com/dfbacu2lw/image/upload/v1778408445/prompts/z0kphkyql6phfjwneacj.png",
+    "isPremium": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-05-10T10:20:45.752Z",
+    "updatedAt": "2026-05-10T10:20:45.752Z"
+  },
+  {
+    "id": "cm3qeocig9c",
+    "title": "THE GAMBLER KING",
+    "slug": "the-gambler-king-ip7oy",
+    "category": "Cinematic",
+    "fullPrompt": "Ultra-realistic cinematic portrait of a stylish South Indian man with salt-and-pepper hair and a short beard, wearing black aviator sunglasses and a partially unbuttoned white shirt, standing behind a casino poker table. He extends one hand dramatically toward the camera in forced perspective while playing cards and bullets float in mid-air around him. Ace of spades and king cards spinning with poker chips, dust particles exploding from the table, intense action freeze-frame effect.Moody blue-gray lighting, shallow depth of field, cinematic bokeh background, high contrast, luxury gangster vibe, slow-motion action scene, ultra detailed skin texture, 85mm lens look, teal and orange color grading, realistic motion blur, dramatic composition, 4K, photorealistic, stylish mass hero attitude.",
+    "image": "https://res.cloudinary.com/dfbacu2lw/image/upload/v1778408712/prompts/sr93sqscplxsrwrzesvw.png",
+    "isPremium": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-05-10T10:25:12.408Z",
+    "updatedAt": "2026-05-10T10:25:12.408Z"
   }
 ]
