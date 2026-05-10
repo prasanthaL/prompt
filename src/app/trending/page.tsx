@@ -1,17 +1,13 @@
 import React from "react";
-import prisma from "@/lib/prisma";
+import { getTrendingPrompts } from "@/lib/json-db";
 import Navbar from "@/components/Navbar";
 import PromptCard from "@/components/PromptCard";
 import Link from "next/link";
 import { TrendingUp, Sparkles } from "lucide-react";
 
 export default async function TrendingPage() {
-  // Fetch trending prompts (most views/likes) via Raw SQL
-  const prompts = await prisma.$queryRaw`
-    SELECT * FROM "Prompt" 
-    ORDER BY "views" DESC, "likes" DESC
-    LIMIT 20
-  ` as any[];
+  // Fetch trending prompts (most views/likes) via JSON DB
+  const prompts = getTrendingPrompts(20);
 
   return (
     <main className="min-h-screen mesh-gradient pb-20">

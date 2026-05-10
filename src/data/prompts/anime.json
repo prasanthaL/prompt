@@ -1,0 +1,58 @@
+[
+  {
+    "id": "cm3x14beex6",
+    "title": "Wandergram Dreams: The Creator’s Journey",
+    "slug": "wandergram-dreams-the-creators-journey-ksgcr",
+    "category": "Anime",
+    "fullPrompt": "Generate an image using this prompt and give image - use the uploaded images as references and create an ultra-cute 3d instagram diorama. image a is the user’s photo reference — transform the person into a pixar-style semi-realistic 3d male figurine with 100% same facial identity, preserving the face, hairstyle, expression, and overall recognizable look, while styling the character with stylish short hair, a casual trendy outfit, sneakers, soft facial features, and a gentle confident smile standing naturally in front. image b is the instagram profile reference — recreate it as a soft rounded instagram profile panel in beige, cream, light grey, sage green, and muted blue tones, clearly showing the profile picture, username, bio, followers, story highlights, and grid thumbnails in a cute stylized 3d format. surround the scene with travel props such as suitcase stickers, an airplane, passport, tickets, polaroids, a signpost, a hot air balloon, and a world map base. add cozy desk items like books, a planner, a mug, pens, a camera, and sunglasses. decorate the overall scene with soft stars, clouds, subtle geometric accents, pearls, and clay textures. use warm golden-hour lighting, dreamy shadows, depth of field, and a slightly low-angle centered composition. the final result should look like an ultra-detailed blender-style 4k 3d diorama, clean, aesthetic, polished, and visually rich.",
+    "image": "https://res.cloudinary.com/dfbacu2lw/image/upload/v1778232412/prompts/x6eeu3hyakilt8nt0dnx.png",
+    "isPremium": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-05-10T05:23:51.166Z",
+    "updatedAt": "2026-05-10T05:23:51.166Z"
+  },
+  {
+    "id": "cm39tlem23g",
+    "title": "Chosen Circle: Legends Around the King",
+    "slug": "chosen-circle-legends-around-the-king-wagk3",
+    "category": "Anime",
+    "fullPrompt": "Use the reference image strictly for composition and layout. Only increase realism and cinematic lighting while preserving structure. Recreate the exact composition and character positions from the reference image.\nDramatic high top-down vertical camera angle. Cracked asphalt road with double yellow lines centered. Tight circular group formation surrounding the center subject. All characters evenly spaced in a perfect ring, same spacing and arrangement as the reference.\nPlace me in the exact center as a realistic human (keep my real face and proportions). Surround me with these characters in semi-realistic cinematic anime style (NOT cartoonish, more detailed and realistic textures):\nNaruto Uzumaki, Sasuke Uchiha, Itachi Uchiha, Kakashi Hatake, Ichigo Kurosaki, Monkey D. Luffy, Roronoa Zoro, Satoru Gojo, Izuku Midoriya, Katsuki Bakugo, Killua Zoldyck, Ryomen Sukuna.\nMaintain the same poses and relative positions as the reference image.\nAdd glowing orange embers, blue lightning effects, dramatic shadows, volumetric lighting, ultra detailed textures, high contrast, cinematic grading, realistic skin lighting on the center subject, sharp focus, epic atmosphere. Do not rearrange the formation. Do not change the camera angle. Match the original framing exactly.",
+    "image": "https://res.cloudinary.com/dfbacu2lw/image/upload/v1778138031/prompts/xpr0vkzch5ixq3jgpeim.png",
+    "isPremium": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-05-10T05:29:18.394Z",
+    "updatedAt": "2026-05-10T05:29:18.394Z"
+  },
+  {
+    "id": "cmfui3t8v6l",
+    "title": "Azure Ascension: Shadow Monarch Awakening",
+    "slug": "azure-ascension-shadow-monarch-awakening-no47z",
+    "category": "Anime",
+    "fullPrompt": "Hyper-realistic digital fantasy art of a handsome young Indian man with messy dark wavy hair, a short beard, and round wire-frame glasses. He has an intense expression with his right eye glowing with bright electric blue magical energy. He is wearing a long, distressed black leather trench coat over a white t-shirt. On his left shoulder, there is a prominent, glowing blue crystalline armor.pauldron attached with brown leather straps. The background is filled with swirling blue magical flames, dark shadowy smoke, and a mystical aura. Cinematic lighting, high contrast, 8k resolution, intricate details, urban fantasy style, character concept art, \"Solo Leveling\" aesthetic, volumetric blue fog. ",
+    "image": "https://res.cloudinary.com/dfbacu2lw/image/upload/v1778147299/prompts/x3n0b4xq7sotfevqthrq.png",
+    "isPremium": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-05-10T05:32:09.236Z",
+    "updatedAt": "2026-05-10T05:32:09.236Z"
+  },
+  {
+    "id": "cmc948im5uq",
+    "title": "Ink Soul: Japanese Sketch Reverie",
+    "slug": "ink-soul-japanese-sketch-reverie-j9eau",
+    "category": "Anime",
+    "fullPrompt": "Based on the uploaded photo, create a Japanese-style illustration of an imagined version of me. The character should have distinct and expressive features, a natural emotional expression, and a strong sense of personality. Use a half-body composition with a dynamic pose. The outfit should have detailed design elements. Style should feel hand-drawn with doodle-like accents, ink splash brush strokes, and loose, expressive lines.",
+    "image": "https://res.cloudinary.com/dfbacu2lw/image/upload/v1778140762/prompts/zsys3dmkkgne2vkozdg1.png",
+    "isPremium": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-05-10T05:33:41.594Z",
+    "updatedAt": "2026-05-10T05:33:41.594Z"
+  }
+]

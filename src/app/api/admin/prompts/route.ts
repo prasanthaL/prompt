@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import prisma from "@/lib/prisma";
+import { getAllPrompts, savePrompt, Prompt } from "@/lib/json-db";
 
 export async function POST(req: Request) {
   try {
@@ -17,15 +17,26 @@ export async function POST(req: Request) {
 
     const id = `cm${Math.random().toString(36).substring(2, 11)}`; // Simple CUID-like ID
     
-    await prisma.$executeRawUnsafe(
-      `INSERT INTO "Prompt" (id, title, slug, category, "fullPrompt", image, "isPremium", "updatedAt") 
-       VALUES ($1, $2, $3, $4, $5, $6, $7, NOW())`,
-      id, title, slug, category, fullPrompt, image, Boolean(isPremium)
-    );
+    const newPrompt: Prompt = {
+      id,
+      title,
+      slug,
+      category,
+      fullPrompt,
+      image,
+      isPremium: Boolean(isPremium),
+      author: "Admin",
+      views: 0,
+      likes: 0,
+      createdAt: new Date().toISOString(),
+      updatedAt: new Date().toISOString(),
+    };
+
+    savePrompt(newPrompt);
 
     return NextResponse.json({ success: true, id });
   } catch (error) {
-    console.error("Database Error Detail:", error);
+    console.error("Save Error Detail:", error);
     return NextResponse.json({ 
       error: "Failed to save prompt", 
       details: error instanceof Error ? error.message : "Unknown error" 
@@ -35,9 +46,7 @@ export async function POST(req: Request) {
 
 export async function GET() {
   try {
-    const prompts = await prisma.prompt.findMany({
-      orderBy: { createdAt: "desc" },
-    });
+    const prompts = getAllPrompts();
     return NextResponse.json(prompts);
   } catch (error) {
     return NextResponse.json({ error: "Failed to fetch prompts" }, { status: 500 });

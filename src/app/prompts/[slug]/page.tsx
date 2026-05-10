@@ -1,5 +1,5 @@
 import React from "react";
-import prisma from "@/lib/prisma";
+import { getPromptBySlugOrId, getSimilarPrompts } from "@/lib/json-db";
 import { notFound } from "next/navigation";
 import Navbar from "@/components/Navbar";
 import PromptCard from "@/components/PromptCard";
@@ -16,27 +16,14 @@ interface PageProps {
 export default async function PromptPage({ params }: PageProps) {
   const { slug } = await params;
 
-  const prompts = await prisma.$queryRaw`
-    SELECT * FROM "Prompt" WHERE "id" = ${slug} OR "slug" = ${slug} LIMIT 1
-  ` as any[];
-  
-  const prompt = prompts?.[0];
+  const prompt = getPromptBySlugOrId(slug);
 
   if (!prompt) {
     notFound();
   }
 
-  // Fetch similar prompts via Raw SQL
-  let similarPrompts = await prisma.$queryRaw`
-    SELECT * FROM "Prompt" WHERE "category" = ${prompt.category} AND "id" != ${prompt.id} LIMIT 3
-  ` as any[];
-  
-  // Fallback if no similar prompts found
-  if (!similarPrompts || similarPrompts.length === 0) {
-    similarPrompts = await prisma.$queryRaw`
-      SELECT * FROM "Prompt" WHERE "id" != ${prompt.id} LIMIT 3
-    ` as any[];
-  }
+  // Fetch similar prompts via JSON DB
+  const similarPrompts = getSimilarPrompts(prompt.id, prompt.category, 3);
 
   return (
     <main className="min-h-screen mesh-gradient pb-20">

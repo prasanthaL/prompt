@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import prisma from "@/lib/prisma";
+import { updatePrompt, deletePrompt } from "@/lib/json-db";
 
 export async function PUT(
   req: Request,
@@ -9,16 +9,17 @@ export async function PUT(
     const { id } = await params;
     const body = await req.json();
 
-    const updatedPrompt = await prisma.prompt.update({
-      where: { id },
-      data: {
-        title: body.title,
-        category: body.category,
-        fullPrompt: body.fullPrompt,
-        image: body.image,
-        isPremium: Boolean(body.isPremium),
-      },
+    const updatedPrompt = updatePrompt(id, {
+      title: body.title,
+      category: body.category,
+      fullPrompt: body.fullPrompt,
+      image: body.image,
+      isPremium: Boolean(body.isPremium),
     });
+
+    if (!updatedPrompt) {
+      return NextResponse.json({ error: "Prompt not found" }, { status: 404 });
+    }
 
     return NextResponse.json(updatedPrompt);
   } catch (error) {
@@ -33,9 +34,7 @@ export async function DELETE(
 ) {
   try {
     const { id } = await params;
-    await prisma.prompt.delete({
-      where: { id },
-    });
+    deletePrompt(id);
     return NextResponse.json({ success: true });
   } catch (error) {
     console.error("Delete Error:", error);

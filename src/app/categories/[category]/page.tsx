@@ -1,5 +1,5 @@
 import React from "react";
-import prisma from "@/lib/prisma";
+import { getPromptsByCategory } from "@/lib/json-db";
 import Navbar from "@/components/Navbar";
 import PromptCard from "@/components/PromptCard";
 import Link from "next/link";
@@ -18,12 +18,8 @@ export default async function CategoryPage({ params }: PageProps) {
   const decodedCategory = decodeURIComponent(category);
   const displayName = decodedCategory.charAt(0).toUpperCase() + decodedCategory.slice(1);
 
-  // Fetch prompts for this category via Raw SQL
-  const prompts = await prisma.$queryRaw`
-    SELECT * FROM "Prompt" 
-    WHERE LOWER("category") = LOWER(${decodedCategory})
-    ORDER BY "createdAt" DESC
-  ` as any[];
+  // Fetch prompts for this category via JSON DB
+  const prompts = getPromptsByCategory(decodedCategory);
 
   return (
     <main className="min-h-screen mesh-gradient pb-20">

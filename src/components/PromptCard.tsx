@@ -15,7 +15,7 @@ interface PromptCardProps {
   isPremium?: boolean;
   onClick?: () => void;
   href?: string;
-  slug?: string;
+  slug?: string | null;
 }
 
 const PromptCard = ({
