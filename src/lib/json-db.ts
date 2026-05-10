@@ -2,8 +2,8 @@ import fs from "fs";
 import path from "path";
 
 const DATA_DIR = path.join(process.cwd(), "src/data/prompts");
-// Only use KV if we are on Vercel/Production AND we have the required credentials
-const SHOULD_USE_KV = (process.env.VERCEL === "1" || process.env.NODE_ENV === "production") && !!process.env.KV_REST_API_URL;
+// Simplified: If the KV credentials exist, use them!
+const SHOULD_USE_KV = !!process.env.KV_REST_API_URL;
 
 // Ensure the data directory exists (only locally)
 if (!SHOULD_USE_KV && !fs.existsSync(DATA_DIR)) {
@@ -88,6 +88,10 @@ export const getPromptById = async (id: string): Promise<Prompt | null> => {
 };
 
 export const savePrompt = async (prompt: Prompt) => {
+  if (!SHOULD_USE_KV && (process.env.VERCEL === "1" || process.env.NODE_ENV === "production")) {
+    throw new Error("Vercel KV is not connected. In production, you must connect a KV database via the Vercel Storage tab because the filesystem is read-only.");
+  }
+
   if (SHOULD_USE_KV) {
     const { kv } = await import("@vercel/kv");
     const all = await getAllPrompts();
