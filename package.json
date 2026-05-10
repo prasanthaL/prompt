@@ -6,11 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint",
-    "migrate:json": "npx tsx src/scripts/migrate-to-json.ts"
+    "lint": "eslint"
   },
   "dependencies": {
-    "@prisma/client": "^6.19.3",
     "@vercel/kv": "^3.0.0",
     "cloudinary": "^2.10.0",
     "clsx": "^2.1.1",
@@ -19,7 +17,6 @@
     "next": "16.2.4",
     "next-cloudinary": "^6.17.5",
     "next-themes": "^0.4.6",
-    "prisma": "^6.19.3",
     "react": "19.2.4",
     "react-dom": "19.2.4",
     "tailwind-merge": "^3.5.0"
