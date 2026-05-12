@@ -68,5 +68,33 @@
     "likes": 0,
     "createdAt": "2026-05-12T04:48:38.672Z",
     "updatedAt": "2026-05-12T04:48:38.672Z"
+  },
+  {
+    "id": "cmm54qxqy21",
+    "title": "SKYBOUND LEGACY : RIDER OF THE FLOATING WORLDS",
+    "slug": "skybound-legacy-rider-of-the-floating-worlds-4ahl7",
+    "category": "Sci-Fi",
+    "fullPrompt": "Create a Ultra-realistic cinematic fantasy portrait of a rugged young man ( As attached image ) riding a massive flying reptile through a breathtaking alien world inspired by Pandora-style landscapes. The man has short messy dark hair, trimmed beard, athletic muscular build, and a confident adventurous expression.He is wearing a black sleeveless tank top with a bold circular white serpent emblem on the chest, fitted black pants, and clean white sneakers. He is seated on the back of a gigantic colorful winged creature resembling a hybrid of a dragon, pterosaur, and alien banshee, gripping leather reins with one hand while balancing dynamically with the other arm extended outward.The creature has vivid turquoise, teal, blue, and purple patterned skin with glowing organic textures, sharp teeth, piercing yellow eyes, and large powerful wings in mid-flight. The background features a stunning cinematic fantasy environment with floating mountains, lush green valleys, waterfalls cascading through mist, distant oceans, and erupting volcanoes releasing smoke into the sky. Soft atmospheric haze, volumetric clouds, and dramatic depth create an epic sense of scale.Warm sunlight mixes with cool blue ambient tones, producing realistic highlights and shadows across the character and creature. Action-packed composition, high altitude aerial perspective, dynamic motion, adventurous sci-fi fantasy mood, ultra detailed textures, realistic anatomy, shallow depth of field, HDR lighting, cinematic color grading, highly detailed environment, epic blockbuster movie aesthetic, photorealistic CGI, Unreal Engine 5 style, 8K resolution. Aspect ratio 9:16. ",
+    "image": "https://res.cloudinary.com/dfbacu2lw/image/upload/v1778565618/prompts/naxvbcmrayl7idzwxi3d.png",
+    "isPremium": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-05-12T06:00:17.330Z",
+    "updatedAt": "2026-05-12T06:00:17.331Z"
+  },
+  {
+    "id": "cm5cqak97g0",
+    "title": "THE SERPENT OF THE SILENT LAKE",
+    "slug": "the-serpent-of-the-silent-lake-58ukw",
+    "category": "Sci-Fi",
+    "fullPrompt": "a young girl in a wooden boat, capturing a photograph of a colossal snake emerging from a lake. This scene combines elements of fantasy and adventure, highlighting a moment of bravery and the surreal beauty of nature's wonders, set against a backdrop that invites viewers into a story of exploration and the extraordinary.\n",
+    "image": "https://res.cloudinary.com/dfbacu2lw/image/upload/v1778578451/prompts/svct8e1mcytktsf1hbpa.png",
+    "isPremium": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-05-12T09:34:10.766Z",
+    "updatedAt": "2026-05-12T09:34:10.766Z"
   }
 ]

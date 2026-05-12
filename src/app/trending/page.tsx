@@ -12,7 +12,7 @@ export default async function TrendingPage() {
   return (
     <main className="min-h-screen mesh-gradient pb-20">
       <Navbar />
-      
+
       <div className="max-w-7xl mx-auto px-4 md:px-8 pt-32 md:pt-40">
         {/* Breadcrumbs */}
         <div className="flex items-center gap-2 text-[10px] font-black text-foreground/20 uppercase tracking-[0.2em] mb-8">
@@ -31,7 +31,7 @@ export default async function TrendingPage() {
             Trending <span className="text-primary">Now</span>
           </h1>
           <p className="text-foreground/40 max-w-2xl text-lg">
-            The most viewed and liked prompts in the community. See what's 
+            The most viewed and liked prompts in the community. See what's
             inspiring other creators right now.
           </p>
         </div>
@@ -39,7 +39,7 @@ export default async function TrendingPage() {
         {/* Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
           {prompts.map((p) => (
-            <PromptCard 
+            <PromptCard
               key={p.id}
               {...p}
               views={p.views?.toString() || "0"}
@@ -59,7 +59,7 @@ export default async function TrendingPage() {
               <span className="text-xl font-bold tracking-tight">PromptVault</span>
             </div>
             <p className="text-foreground/40 text-sm leading-relaxed">
-              The world's leading marketplace for high-quality AI prompts. 
+              The world's leading marketplace for high-quality AI prompts.
               Helping creators build amazing things with AI since 2026.
             </p>
           </div>

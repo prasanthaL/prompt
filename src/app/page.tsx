@@ -129,7 +129,7 @@ export default function Home() {
               <div key={prompt.id || i}>
                 <PromptCard
                   {...prompt}
-                  priority={i < 5}
+                  priority={i < 8}
                 />
               </div>
             ))
@@ -171,7 +171,7 @@ export default function Home() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {blogsData.slice(0, 3).map((blog) => (
+          {blogsData.slice(0, 3).map((blog, i) => (
             <div
               key={blog.id}
               onClick={() => router.push(`/blog/${blog.slug}`)}
@@ -182,6 +182,7 @@ export default function Home() {
                   src={blog.image}
                   alt={blog.title}
                   fill
+                  priority={i < 2}
                   sizes="(max-width: 768px) 100vw, 33vw"
                   className="object-cover group-hover:scale-105 transition-transform duration-500"
                 />

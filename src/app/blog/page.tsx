@@ -13,7 +13,7 @@ export default function BlogListing() {
   return (
     <main className="min-h-screen mesh-gradient text-foreground">
       <Navbar />
-      
+
       {/* Hero Section */}
       <section className="pt-32 pb-20 px-4 md:px-8">
         <div className="max-w-7xl mx-auto text-center space-y-6">
@@ -34,17 +34,18 @@ export default function BlogListing() {
       <section className="px-4 md:px-8 pb-12">
         <div className="max-w-7xl mx-auto">
           {blogsData.length > 0 && (
-            <div 
+            <div
               onClick={() => router.push(`/blog/${blogsData[0].slug}`)}
               className="group cursor-pointer relative overflow-hidden rounded-3xl border border-border bg-card/50 backdrop-blur-xl flex flex-col lg:flex-row gap-8 hover:border-primary/50 transition-all duration-500"
             >
               <div className="lg:w-1/2 h-[300px] lg:h-[450px] overflow-hidden relative">
-                <Image 
-                  src={blogsData[0].image} 
+                <Image
+                  src={blogsData[0].image}
                   alt={blogsData[0].title}
                   fill
-                  quality={95}
-                  sizes="(max-width: 1024px) 100vw, 50vw"
+                  priority
+                  quality={100}
+                  sizes="(max-width: 1200px) 100vw, 1200px"
                   className="object-cover group-hover:scale-105 transition-transform duration-700"
                 />
               </div>
@@ -79,14 +80,14 @@ export default function BlogListing() {
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {blogsData.slice(1).map((blog) => (
-              <div 
+              <div
                 key={blog.id}
                 onClick={() => router.push(`/blog/${blog.slug}`)}
                 className="group cursor-pointer flex flex-col rounded-3xl border border-border bg-card/50 backdrop-blur-md overflow-hidden hover:border-primary/50 transition-all duration-300"
               >
                 <div className="h-56 overflow-hidden relative">
-                  <Image 
-                    src={blog.image} 
+                  <Image
+                    src={blog.image}
                     alt={blog.title}
                     fill
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
@@ -133,8 +134,8 @@ export default function BlogListing() {
               Join 10,000+ creators and get the latest prompt engineering tips and AI news delivered to your inbox weekly.
             </p>
             <form className="flex flex-col sm:flex-row gap-4 max-w-lg mx-auto mt-8">
-              <input 
-                type="email" 
+              <input
+                type="email"
                 placeholder="Enter your email"
                 className="flex-1 bg-background/50 border border-border rounded-2xl px-6 py-4 focus:outline-none focus:ring-2 focus:ring-primary/50 text-foreground"
               />
@@ -156,7 +157,7 @@ export default function BlogListing() {
               <span className="text-xl font-bold tracking-tight">PromptVault</span>
             </div>
             <p className="text-foreground/40 text-sm leading-relaxed">
-              The world's leading marketplace for high-quality AI prompts. 
+              The world's leading marketplace for high-quality AI prompts.
               Helping creators build amazing things with AI since 2026.
             </p>
           </div>

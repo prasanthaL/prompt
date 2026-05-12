@@ -126,9 +126,9 @@ export default function PromptDetailClient({ prompt }: PromptDetailClientProps) 
           <h1 className="text-4xl md:text-5xl font-bold text-white leading-tight">{prompt.title}</h1>
           <div className="flex items-center gap-3 pt-2">
             <div className="relative w-10 h-10 rounded-full bg-white/10 overflow-hidden border border-white/20">
-              <Image 
-                src={`https://i.pravatar.cc/100?u=${prompt.author}`} 
-                alt={prompt.author} 
+              <Image
+                src={`https://i.pravatar.cc/100?u=${prompt.author}`}
+                alt={prompt.author}
                 width={40}
                 height={40}
                 className="object-cover"

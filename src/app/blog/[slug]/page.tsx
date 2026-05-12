@@ -4,12 +4,12 @@ import React from "react";
 import Navbar from "@/components/Navbar";
 import { useParams, useRouter } from "next/navigation";
 import blogsData from "@/data/blogs.json";
-import { 
-  Calendar, 
-  User, 
-  ArrowLeft, 
-  Share2, 
-  MessageSquare, 
+import {
+  Calendar,
+  User,
+  ArrowLeft,
+  Share2,
+  MessageSquare,
   Clock,
   ChevronRight
 } from "lucide-react";
@@ -29,7 +29,7 @@ export default function BlogDetail() {
         <div className="text-center space-y-6">
           <h1 className="text-6xl font-bold text-primary">404</h1>
           <p className="text-xl text-foreground/60">Article not found</p>
-          <button 
+          <button
             onClick={() => router.push("/blog")}
             className="px-8 py-3 bg-primary text-white rounded-xl font-bold hover:bg-primary-hover transition-all"
           >
@@ -94,8 +94,8 @@ export default function BlogDetail() {
 
           {/* Main Image */}
           <div className="relative rounded-3xl overflow-hidden border border-border aspect-[21/9]">
-            <Image 
-              src={blog.image} 
+            <Image
+              src={blog.image}
               alt={blog.title}
               fill
               priority
@@ -109,7 +109,7 @@ export default function BlogDetail() {
           <div className="prose prose-invert prose-lg max-w-none">
             <div className="text-foreground/80 leading-relaxed space-y-8 text-lg">
               <p>{blog.content}</p>
-              
+
               <h2 className="text-3xl font-bold text-foreground pt-8">Key Takeaways</h2>
               <ul className="space-y-4 list-disc pl-6">
                 <li>Understanding the nuances of prompt structure is essential for professional results.</li>
@@ -145,7 +145,7 @@ export default function BlogDetail() {
                 Comments
               </button>
             </div>
-            <button 
+            <button
               onClick={() => router.push("/blog")}
               className="flex items-center gap-2 text-primary font-bold hover:gap-3 transition-all"
             >
@@ -162,14 +162,14 @@ export default function BlogDetail() {
           <h2 className="text-3xl font-bold">Related Articles</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {relatedPosts.map((post) => (
-              <div 
+              <div
                 key={post.id}
                 onClick={() => router.push(`/blog/${post.slug}`)}
                 className="group cursor-pointer space-y-4"
               >
                 <div className="aspect-video rounded-2xl overflow-hidden border border-border relative">
-                  <Image 
-                    src={post.image} 
+                  <Image
+                    src={post.image}
                     alt={post.title}
                     fill
                     sizes="(max-width: 768px) 100vw, 33vw"
@@ -187,7 +187,7 @@ export default function BlogDetail() {
 
       <footer className="py-20 px-4 md:px-8 border-t border-border bg-card/30 text-foreground">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between gap-12">
-           <div className="space-y-6 max-w-sm">
+          <div className="space-y-6 max-w-sm">
             <div className="flex items-center gap-2">
               <div className="w-10 h-10 bg-primary rounded-xl flex items-center justify-center font-bold text-white">PV</div>
               <span className="text-xl font-bold tracking-tight">PromptVault</span>

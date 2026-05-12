@@ -90,29 +90,29 @@ function BrowseContent() {
           <h1 className="text-4xl md:text-5xl font-bold tracking-tight">Browse Prompts</h1>
           <p className="text-white/40">Explore our vast collection of high-quality AI prompts</p>
         </div>
-        
+
         <div className="flex items-center gap-3">
-           <div className="relative group">
-              <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-white/40 group-focus-within:text-primary transition-colors" />
-              <input
-                type="text"
-                placeholder="Search prompts..."
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-                className="bg-white/5 border border-white/10 rounded-xl py-3 pl-11 pr-4 text-sm focus:outline-none focus:ring-2 focus:ring-primary/50 transition-all w-full md:w-64"
-              />
-           </div>
-           <button className="p-3 bg-white/5 border border-white/10 rounded-xl hover:bg-white/10 transition-all">
-              <Filter className="w-5 h-5 text-white/70" />
-           </button>
-           <button className="p-3 bg-white/5 border border-white/10 rounded-xl hover:bg-white/10 transition-all">
-              <SlidersHorizontal className="w-5 h-5 text-white/70" />
-           </button>
+          <div className="relative group">
+            <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-white/40 group-focus-within:text-primary transition-colors" />
+            <input
+              type="text"
+              placeholder="Search prompts..."
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              className="bg-white/5 border border-white/10 rounded-xl py-3 pl-11 pr-4 text-sm focus:outline-none focus:ring-2 focus:ring-primary/50 transition-all w-full md:w-64"
+            />
+          </div>
+          <button className="p-3 bg-white/5 border border-white/10 rounded-xl hover:bg-white/10 transition-all">
+            <Filter className="w-5 h-5 text-white/70" />
+          </button>
+          <button className="p-3 bg-white/5 border border-white/10 rounded-xl hover:bg-white/10 transition-all">
+            <SlidersHorizontal className="w-5 h-5 text-white/70" />
+          </button>
         </div>
       </div>
 
-      <CategoryFilters 
-        activeCategory={activeCategory} 
+      <CategoryFilters
+        activeCategory={activeCategory}
         onCategoryChange={setActiveCategory}
         categoryCounts={categoryCounts}
         totalCount={totalCount}
@@ -142,6 +142,7 @@ function BrowseContent() {
               <PromptCard
                 key={prompt.id || i}
                 {...prompt}
+                priority={i < 8}
               />
             ))
           ) : (
@@ -157,10 +158,10 @@ function BrowseContent() {
       )}
 
 
-      <Pagination 
-        currentPage={currentPage} 
-        totalPages={totalPages} 
-        onPageChange={setCurrentPage} 
+      <Pagination
+        currentPage={currentPage}
+        totalPages={totalPages}
+        onPageChange={setCurrentPage}
       />
     </div>
   );

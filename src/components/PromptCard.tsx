@@ -105,9 +105,9 @@ const PromptCard = ({
           <div className="flex -space-x-2">
             {[1, 2, 3].map((i) => (
               <div key={i} className="w-6 h-6 rounded-full border-2 border-background bg-foreground/10 overflow-hidden relative">
-                <Image 
-                  src={`https://i.pravatar.cc/100?img=${i + 10}`} 
-                  alt="user avatar" 
+                <Image
+                  src={`https://i.pravatar.cc/100?img=${i + 10}`}
+                  alt="user avatar"
                   width={24}
                   height={24}
                   className="object-cover"

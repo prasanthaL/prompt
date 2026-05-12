@@ -82,27 +82,27 @@ const PromptDetailModal = ({ isOpen, onClose, prompt }: PromptDetailModalProps) 
   };
 
   const shareOptions = [
-    { 
-      name: "WhatsApp", 
-      icon: MessageCircle, 
+    {
+      name: "WhatsApp",
+      icon: MessageCircle,
       color: "hover:bg-emerald-500/20 hover:text-emerald-500",
       href: `https://wa.me/?text=${encodeURIComponent(`Check out this AI prompt: ${prompt?.title} - ${currentUrl}`)}`
     },
-    { 
-      name: "Facebook", 
-      icon: Facebook, 
+    {
+      name: "Facebook",
+      icon: Facebook,
       color: "hover:bg-blue-600/20 hover:text-blue-600",
       href: `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(currentUrl)}`
     },
-    { 
-      name: "Twitter", 
-      icon: Twitter, 
+    {
+      name: "Twitter",
+      icon: Twitter,
       color: "hover:bg-sky-500/20 hover:text-sky-500",
       href: `https://twitter.com/intent/tweet?url=${encodeURIComponent(currentUrl)}&text=${encodeURIComponent(`Check out this AI prompt: ${prompt?.title}`)}`
     },
-    { 
-      name: "Copy Link", 
-      icon: linkCopied ? Check : Link2, 
+    {
+      name: "Copy Link",
+      icon: linkCopied ? Check : Link2,
       color: "hover:bg-primary/20 hover:text-primary",
       onClick: handleCopyLink
     }
@@ -160,9 +160,9 @@ const PromptDetailModal = ({ isOpen, onClose, prompt }: PromptDetailModalProps) 
                 <h2 className="text-3xl font-bold text-white leading-tight">{prompt.title}</h2>
                 <div className="flex items-center gap-2">
                   <div className="relative w-8 h-8 rounded-full bg-white/10 overflow-hidden">
-                    <Image 
-                      src={`https://i.pravatar.cc/100?u=${prompt.author}`} 
-                      alt={prompt.author} 
+                    <Image
+                      src={`https://i.pravatar.cc/100?u=${prompt.author}`}
+                      alt={prompt.author}
                       width={32}
                       height={32}
                       className="object-cover"
@@ -193,7 +193,7 @@ const PromptDetailModal = ({ isOpen, onClose, prompt }: PromptDetailModalProps) 
                   </div>
                 </div>
                 <div className="flex gap-2 relative" ref={shareMenuRef}>
-                  <button 
+                  <button
                     onClick={() => setShowShareMenu(!showShareMenu)}
                     className={cn(
                       "p-3 rounded-xl transition-all border border-border group relative",
@@ -247,7 +247,7 @@ const PromptDetailModal = ({ isOpen, onClose, prompt }: PromptDetailModalProps) 
                       </motion.div>
                     )}
                   </AnimatePresence>
-                  
+
                   <button className="p-3 bg-foreground/5 hover:bg-foreground/10 rounded-xl transition-all text-foreground/70 hover:text-foreground border border-border">
                     <Download className="w-5 h-5" />
                   </button>

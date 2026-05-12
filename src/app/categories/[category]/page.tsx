@@ -13,7 +13,7 @@ interface PageProps {
 
 export default async function CategoryPage({ params }: PageProps) {
   const { category } = await params;
-  
+
   // Format the category name for display (e.g., "anime" -> "Anime")
   const decodedCategory = decodeURIComponent(category);
   const displayName = decodedCategory.charAt(0).toUpperCase() + decodedCategory.slice(1);
@@ -24,7 +24,7 @@ export default async function CategoryPage({ params }: PageProps) {
   return (
     <main className="min-h-screen mesh-gradient pb-20">
       <Navbar />
-      
+
       <div className="max-w-7xl mx-auto px-4 md:px-8 pt-32 md:pt-40">
         {/* Breadcrumbs */}
         <div className="flex items-center gap-2 text-[10px] font-black text-foreground/20 uppercase tracking-[0.2em] mb-8">
@@ -45,7 +45,7 @@ export default async function CategoryPage({ params }: PageProps) {
             {displayName} <span className="text-primary">Prompts</span>
           </h1>
           <p className="text-foreground/40 max-w-2xl text-lg">
-            Explore our curated collection of high-quality {displayName} prompts. 
+            Explore our curated collection of high-quality {displayName} prompts.
             Perfect for your next creative project.
           </p>
         </div>
@@ -54,7 +54,7 @@ export default async function CategoryPage({ params }: PageProps) {
         {prompts.length > 0 ? (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
             {prompts.map((p) => (
-              <PromptCard 
+              <PromptCard
                 key={p.id}
                 {...p}
                 views={p.views?.toString() || "0"}
@@ -71,7 +71,7 @@ export default async function CategoryPage({ params }: PageProps) {
               <h3 className="text-2xl font-bold">No prompts found</h3>
               <p className="text-foreground/40">We haven't added any prompts to this category yet.</p>
             </div>
-            <Link 
+            <Link
               href="/browse"
               className="bg-primary text-white px-8 py-3 rounded-2xl font-bold hover:bg-primary-hover transition-all"
             >
@@ -91,7 +91,7 @@ export default async function CategoryPage({ params }: PageProps) {
               <span className="text-xl font-bold tracking-tight">PromptVault</span>
             </div>
             <p className="text-foreground/40 text-sm leading-relaxed">
-              The world's leading marketplace for high-quality AI prompts. 
+              The world's leading marketplace for high-quality AI prompts.
               Helping creators build amazing things with AI since 2026.
             </p>
           </div>

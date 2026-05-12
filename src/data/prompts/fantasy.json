@@ -138,5 +138,33 @@
     "likes": 0,
     "createdAt": "2026-05-12T04:31:37.993Z",
     "updatedAt": "2026-05-12T04:31:37.993Z"
+  },
+  {
+    "id": "cme3faf4tm3",
+    "title": "REFLECTION OF REALMS : THE BOY, THE BEAST, AND THE KING",
+    "slug": "reflection-of-realms-the-boy-the-beast-and-the-king-k6gf4",
+    "category": "Fantasy",
+    "fullPrompt": "Photorealistic vertical photo of a young man with short curly black hair sitting on a lime green wooden box outdoors, wearing a teal sweatshirt with pink flowers on sleeves, grey jeans, white sneakers. He is now standing on wet cobblestone pavement in front of a grand gothic stone archway with ornate wooden doors at golden hour. He looks back over his left shoulder at camera with a slight smile. A small white dog with red bandana sits beside him.In the puddle at his feet, the reflection shows him as a medieval warrior in dark armor with a sword, and the dog reflected as a majestic white wolf. Cinematic lighting, dramatic contrast between warm real world and cool blue fantasy reflection, 8k, ultra detailed  size 4:5 ratio image generate",
+    "image": "https://res.cloudinary.com/dfbacu2lw/image/upload/v1778572528/prompts/tilju6ah3vkp9offfsft.png",
+    "isPremium": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-05-12T07:55:27.127Z",
+    "updatedAt": "2026-05-12T07:55:27.127Z"
+  },
+  {
+    "id": "cm06bqqq948",
+    "title": "THE LAST WANDERER : SHADOWS OF THE METAVERSE",
+    "slug": "the-last-wanderer-shadows-of-the-metaverse-orpth",
+    "category": "Fantasy",
+    "fullPrompt": "In the dimly lit corner of a crumbling labyrinth, an enigmatic figure arises from the shadows, a solitary explorer of a mysterious metaverse. Emanating an aura of intrigue and adventure, the subject of this cinematic lomographic photograph is a person partially hidden beneath a tattered cloak, their face obscured by a wide-brimmed hat. The image, captured on an aged film camera, exudes a vintage charm, with its grainy texture and precisely faded colors. Each minute detail is rendered with astonishing clarity, highlighting the intricate patterns on the cloak and the ineffable expressions that flicker across the explorer's weathered face. This evocative portrayal transports viewers into a captivating narrative of uncharted realms and unseen wonders, urging them to unravel the secrets that lie within the metaverse.",
+    "image": "https://res.cloudinary.com/dfbacu2lw/image/upload/v1778577591/prompts/jxnpobnfxvawysnzs45c.png",
+    "isPremium": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-05-12T09:19:51.071Z",
+    "updatedAt": "2026-05-12T09:19:51.071Z"
   }
 ]
