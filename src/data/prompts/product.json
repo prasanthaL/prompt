@@ -138,5 +138,61 @@
     "likes": 0,
     "createdAt": "2026-05-11T13:51:45.390Z",
     "updatedAt": "2026-05-11T13:51:45.390Z"
+  },
+  {
+    "id": "cm8z7qunvzw",
+    "title": "MIDNIGHT TIGER : COSMIC SPLATTER",
+    "slug": "midnight-tiger-cosmic-splatter-za79a",
+    "category": "Product",
+    "fullPrompt": "High quality, starry night blue black tiger, splatter, aesthetics for t-shirt design, high detail, dark tones.only design",
+    "image": "https://res.cloudinary.com/dfbacu2lw/image/upload/v1778560417/prompts/ue0r3tjwjqkuyppryviy.png",
+    "isPremium": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-05-12T04:33:36.820Z",
+    "updatedAt": "2026-05-12T04:33:36.820Z"
+  },
+  {
+    "id": "cmlkwtz5eu6",
+    "title": "CHROME SIREN : REFLECTIONS OF THE FUTURE",
+    "slug": "chrome-siren-reflections-of-the-future-yuosl",
+    "category": "Product",
+    "fullPrompt": "3d, Geometric art, geometric abstraction, computational art, concept art: statue of a mermaid made of mirror shine stainless steel, with reflections, next to a pond, in a square of a city, intricate details, extreme high contract, sharp image, 8k resolution, in the style of Anish Kapoor",
+    "image": "https://res.cloudinary.com/dfbacu2lw/image/upload/v1778560740/prompts/pi7ct16jdk85fcac5cml.png",
+    "isPremium": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-05-12T04:38:59.556Z",
+    "updatedAt": "2026-05-12T04:38:59.556Z"
+  },
+  {
+    "id": "cmxeft34f1w",
+    "title": "ECHOES BECOME ACTIONS” – AI LANDING PAGE VISUAL",
+    "slug": "echoes-become-actions-ai-landing-page-visual-vo4jj",
+    "category": "Product",
+    "fullPrompt": "Create a modern landing page for an ai app. visualise beautiful, flowing voice waveforms transforming into actionable icons emphasizing the \"Echoes Becoming Actions\" theme. Colours: dark theme black grey white green. Combine it with a African mountain scene at night. Sound waves  flowing over the mountain scene. Make a sleek elegant combination of technology and nature but prioritise the tech Style: futuristic, tech, crypto",
+    "image": "https://res.cloudinary.com/dfbacu2lw/image/upload/v1778560931/prompts/he3jn4pswprllis1f85h.png",
+    "isPremium": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-05-12T04:42:10.479Z",
+    "updatedAt": "2026-05-12T04:42:10.479Z"
+  },
+  {
+    "id": "cmpbdn4qugp",
+    "title": "ECHOES BEYOND : AI HOME PAGE",
+    "slug": "echoes-beyond-ai-home-page-xlnqy",
+    "category": "Product",
+    "fullPrompt": "a web site based on this picture,ui/ux,8k,landing page, dribbble, sleek, black",
+    "image": "https://res.cloudinary.com/dfbacu2lw/image/upload/v1778561030/prompts/dvvtljsd3vkuj65hmzed.png",
+    "isPremium": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-05-12T04:43:49.321Z",
+    "updatedAt": "2026-05-12T04:43:49.321Z"
   }
 ]

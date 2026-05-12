@@ -54,5 +54,19 @@
     "likes": 0,
     "createdAt": "2026-05-10T05:54:18.915Z",
     "updatedAt": "2026-05-10T05:54:18.915Z"
+  },
+  {
+    "id": "cm7e7pkmqoq",
+    "title": "NEON BREACH : THE LAST HACKER INTERFACE",
+    "slug": "neon-breach-the-last-hacker-interface-gpw03",
+    "category": "Sci-Fi",
+    "fullPrompt": "A hacker at a holographic interface. ultra realistic, ultra details, octane render. 32k --ar 3:2 --style raw --s 750",
+    "image": "https://res.cloudinary.com/dfbacu2lw/image/upload/v1778561319/prompts/hizor36gewzclvh41ogk.png",
+    "isPremium": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-05-12T04:48:38.672Z",
+    "updatedAt": "2026-05-12T04:48:38.672Z"
   }
 ]

@@ -4,6 +4,7 @@ import React from "react";
 import Navbar from "@/components/Navbar";
 import { useRouter } from "next/navigation";
 import blogsData from "@/data/blogs.json";
+import Image from "next/image";
 import { Calendar, User, ArrowRight, Tag } from "lucide-react";
 
 export default function BlogListing() {
@@ -37,11 +38,14 @@ export default function BlogListing() {
               onClick={() => router.push(`/blog/${blogsData[0].slug}`)}
               className="group cursor-pointer relative overflow-hidden rounded-3xl border border-border bg-card/50 backdrop-blur-xl flex flex-col lg:flex-row gap-8 hover:border-primary/50 transition-all duration-500"
             >
-              <div className="lg:w-1/2 h-[300px] lg:h-[450px] overflow-hidden">
-                <img 
+              <div className="lg:w-1/2 h-[300px] lg:h-[450px] overflow-hidden relative">
+                <Image 
                   src={blogsData[0].image} 
                   alt={blogsData[0].title}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                  fill
+                  quality={95}
+                  sizes="(max-width: 1024px) 100vw, 50vw"
+                  className="object-cover group-hover:scale-105 transition-transform duration-700"
                 />
               </div>
               <div className="lg:w-1/2 p-8 lg:p-12 flex flex-col justify-center space-y-6">
@@ -80,11 +84,13 @@ export default function BlogListing() {
                 onClick={() => router.push(`/blog/${blog.slug}`)}
                 className="group cursor-pointer flex flex-col rounded-3xl border border-border bg-card/50 backdrop-blur-md overflow-hidden hover:border-primary/50 transition-all duration-300"
               >
-                <div className="h-56 overflow-hidden">
-                  <img 
+                <div className="h-56 overflow-hidden relative">
+                  <Image 
                     src={blog.image} 
                     alt={blog.title}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                    className="object-cover group-hover:scale-105 transition-transform duration-500"
                   />
                 </div>
                 <div className="p-6 space-y-4 flex-1 flex flex-col">

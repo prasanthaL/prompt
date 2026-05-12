@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
+import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import CategoryFilters from "@/components/CategoryFilters";
@@ -128,6 +129,7 @@ export default function Home() {
               <div key={prompt.id || i}>
                 <PromptCard
                   {...prompt}
+                  priority={i < 5}
                 />
               </div>
             ))
@@ -175,11 +177,13 @@ export default function Home() {
               onClick={() => router.push(`/blog/${blog.slug}`)}
               className="group cursor-pointer flex flex-col rounded-3xl border border-border bg-card/30 backdrop-blur-sm overflow-hidden hover:border-primary/50 transition-all duration-300"
             >
-              <div className="h-52 overflow-hidden">
-                <img
+              <div className="h-52 overflow-hidden relative">
+                <Image
                   src={blog.image}
                   alt={blog.title}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  fill
+                  sizes="(max-width: 768px) 100vw, 33vw"
+                  className="object-cover group-hover:scale-105 transition-transform duration-500"
                 />
               </div>
               <div className="p-6 space-y-4">

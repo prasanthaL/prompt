@@ -4,6 +4,7 @@ import React from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Copy, Check, Eye, Heart, Share2, Download, Sparkles, Link2 } from "lucide-react";
 import { cn } from "@/lib/utils";
+import Image from "next/image";
 
 // Custom Social Icons
 const Facebook = (props: any) => (
@@ -105,10 +106,13 @@ export default function PromptDetailClient({ prompt }: PromptDetailClientProps) 
     <div className="relative w-full glass-dark border border-white/10 rounded-[2.5rem] overflow-hidden shadow-2xl flex flex-col lg:flex-row max-w-6xl mx-auto">
       {/* Left: Image Showcase */}
       <div className="w-full lg:w-[42%] relative bg-white/5 aspect-square lg:aspect-auto">
-        <img
+        <Image
           src={prompt.image}
           alt={prompt.title}
-          className="w-full h-full object-cover"
+          fill
+          priority
+          sizes="(max-width: 1024px) 100vw, 42vw"
+          className="object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent" />
 
@@ -120,8 +124,14 @@ export default function PromptDetailClient({ prompt }: PromptDetailClientProps) 
           </div>
           <h1 className="text-3xl md:text-4xl font-bold text-white leading-tight">{prompt.title}</h1>
           <div className="flex items-center gap-2 pt-1">
-            <div className="w-8 h-8 rounded-full bg-white/10 overflow-hidden border border-white/20">
-              <img src={`https://i.pravatar.cc/100?u=${prompt.author}`} alt={prompt.author} />
+            <div className="relative w-8 h-8 rounded-full bg-white/10 overflow-hidden border border-white/20">
+              <Image 
+                src={`https://i.pravatar.cc/100?u=${prompt.author}`} 
+                alt={prompt.author} 
+                width={32}
+                height={32}
+                className="object-cover"
+              />
             </div>
             <span className="text-sm text-white/70 font-medium">by {prompt.author}</span>
           </div>

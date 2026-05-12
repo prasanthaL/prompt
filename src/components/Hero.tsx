@@ -116,7 +116,13 @@ const Hero = () => {
               transition={{ duration: 0.8, delay: 0.3 }}
               className="absolute top-1/2 -translate-y-1/2 left-0 w-[240px] md:w-[300px] aspect-[4/5] rounded-[2rem] overflow-hidden border border-white/10 shadow-2xl z-0 hidden lg:block"
             >
-              <img src="/images/hero/cyberpunk.png" className="w-full h-full object-cover" alt="Cyberpunk" />
+              <Image 
+                src="/images/hero/cyberpunk.png" 
+                fill 
+                sizes="300px" 
+                className="object-cover" 
+                alt="Cyberpunk" 
+              />
             </motion.div>
 
             <motion.div
@@ -125,7 +131,13 @@ const Hero = () => {
               transition={{ duration: 0.8, delay: 0.4 }}
               className="absolute top-1/2 -translate-y-1/2 right-0 w-[240px] md:w-[300px] aspect-[4/5] rounded-[2rem] overflow-hidden border border-white/10 shadow-2xl z-0 hidden lg:block"
             >
-              <img src="/images/hero/elven.png" className="w-full h-full object-cover" alt="Elven" />
+              <Image 
+                src="/images/hero/elven.png" 
+                fill 
+                sizes="300px" 
+                className="object-cover" 
+                alt="Elven" 
+              />
             </motion.div>
 
             {/* Main Center Card */}
@@ -135,9 +147,13 @@ const Hero = () => {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="relative z-10 w-full aspect-[4/5] rounded-[2.5rem] overflow-hidden border border-white/10 shadow-[0_30px_60px_rgba(0,0,0,0.5)] group"
             >
-              <img 
+              <Image 
                 src="/images/hero/fantasy.png" 
-                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" 
+                fill
+                priority
+                quality={95}
+                sizes="(max-width: 500px) 100vw, 500px"
+                className="object-cover transition-transform duration-700 group-hover:scale-110" 
                 alt="Main Fantasy" 
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
@@ -155,8 +171,14 @@ const Hero = () => {
                 transition={{ duration: 0.6, delay: 0.5 }}
                 className="absolute bottom-8 left-1/2 -translate-x-1/2 w-[85%] bg-background/80 backdrop-blur-xl border border-border p-5 rounded-[2rem] shadow-2xl flex items-center gap-5"
               >
-                <div className="w-14 h-14 rounded-2xl overflow-hidden flex-shrink-0 bg-foreground/5 border border-border flex items-center justify-center p-2">
-                   <img src="/images/hero/fantasy.png" className="w-full h-full object-cover rounded-lg" alt="Mini" />
+                <div className="relative w-14 h-14 rounded-2xl overflow-hidden flex-shrink-0 bg-foreground/5 border border-border flex items-center justify-center p-2">
+                   <Image 
+                    src="/images/hero/fantasy.png" 
+                    width={56}
+                    height={56}
+                    className="object-cover rounded-lg" 
+                    alt="Mini" 
+                  />
                 </div>
                 <div className="flex-1">
                   <h3 className="font-bold text-foreground text-lg leading-none mb-1">Fantasy Landscape</h3>

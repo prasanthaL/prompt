@@ -2,6 +2,7 @@
 
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Copy, Eye, Heart, ArrowUpRight } from "lucide-react";
 
 interface PromptCardProps {
@@ -16,6 +17,7 @@ interface PromptCardProps {
   onClick?: () => void;
   href?: string;
   slug?: string | null;
+  priority?: boolean;
 }
 
 const PromptCard = ({
@@ -30,6 +32,7 @@ const PromptCard = ({
   onClick,
   href,
   slug,
+  priority,
 }: PromptCardProps) => {
   const cardHref = href || (slug ? `/prompts/${slug}` : `/prompts/${id}`);
 
@@ -40,10 +43,14 @@ const PromptCard = ({
     >
       {/* Image Container */}
       <div className="aspect-[4/5] relative overflow-hidden shrink-0">
-        <img
+        <Image
           src={image}
           alt={title}
-          className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110"
+          fill
+          priority={priority}
+          quality={90}
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
+          className="object-cover transition-transform duration-700 group-hover:scale-110"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-60 group-hover:opacity-80 transition-opacity"></div>
 
@@ -97,8 +104,14 @@ const PromptCard = ({
 
           <div className="flex -space-x-2">
             {[1, 2, 3].map((i) => (
-              <div key={i} className="w-6 h-6 rounded-full border-2 border-background bg-foreground/10 overflow-hidden">
-                <img src={`https://i.pravatar.cc/100?img=${i + 10}`} alt="user avatar" />
+              <div key={i} className="w-6 h-6 rounded-full border-2 border-background bg-foreground/10 overflow-hidden relative">
+                <Image 
+                  src={`https://i.pravatar.cc/100?img=${i + 10}`} 
+                  alt="user avatar" 
+                  width={24}
+                  height={24}
+                  className="object-cover"
+                />
               </div>
             ))}
           </div>

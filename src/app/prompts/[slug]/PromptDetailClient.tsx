@@ -4,6 +4,7 @@ import React from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Copy, Check, Eye, Heart, Share2, Download, Sparkles, Link2 } from "lucide-react";
 import { cn } from "@/lib/utils";
+import Image from "next/image";
 
 // Custom Social Icons
 const Facebook = (props: any) => (
@@ -105,9 +106,13 @@ export default function PromptDetailClient({ prompt }: PromptDetailClientProps) 
     <div className="relative w-full bg-background border border-border rounded-[2.5rem] overflow-hidden shadow-2xl flex flex-col md:flex-row min-h-[600px]">
       {/* Left: Image Showcase */}
       <div className="w-full md:w-1/2 relative bg-white/5 h-[400px] md:h-auto">
-        <img
+        <Image
           src={prompt.image}
           alt={prompt.title}
+          fill
+          priority
+          quality={95}
+          sizes="(max-width: 1200px) 100vw, 1200px"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
@@ -120,8 +125,14 @@ export default function PromptDetailClient({ prompt }: PromptDetailClientProps) 
           </div>
           <h1 className="text-4xl md:text-5xl font-bold text-white leading-tight">{prompt.title}</h1>
           <div className="flex items-center gap-3 pt-2">
-            <div className="w-10 h-10 rounded-full bg-white/10 overflow-hidden border border-white/20">
-              <img src={`https://i.pravatar.cc/100?u=${prompt.author}`} alt={prompt.author} />
+            <div className="relative w-10 h-10 rounded-full bg-white/10 overflow-hidden border border-white/20">
+              <Image 
+                src={`https://i.pravatar.cc/100?u=${prompt.author}`} 
+                alt={prompt.author} 
+                width={40}
+                height={40}
+                className="object-cover"
+              />
             </div>
             <span className="text-base text-white font-medium">by {prompt.author}</span>
           </div>

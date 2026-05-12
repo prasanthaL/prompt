@@ -14,6 +14,7 @@ import {
   ChevronRight
 } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function BlogDetail() {
   const params = useParams();
@@ -93,10 +94,14 @@ export default function BlogDetail() {
 
           {/* Main Image */}
           <div className="relative rounded-3xl overflow-hidden border border-border aspect-[21/9]">
-            <img 
+            <Image 
               src={blog.image} 
               alt={blog.title}
-              className="w-full h-full object-cover"
+              fill
+              priority
+              quality={95}
+              sizes="(max-width: 1200px) 100vw, 1200px"
+              className="object-cover"
             />
           </div>
 
@@ -162,11 +167,13 @@ export default function BlogDetail() {
                 onClick={() => router.push(`/blog/${post.slug}`)}
                 className="group cursor-pointer space-y-4"
               >
-                <div className="aspect-video rounded-2xl overflow-hidden border border-border">
-                  <img 
+                <div className="aspect-video rounded-2xl overflow-hidden border border-border relative">
+                  <Image 
                     src={post.image} 
                     alt={post.title}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    fill
+                    sizes="(max-width: 768px) 100vw, 33vw"
+                    className="object-cover group-hover:scale-105 transition-transform duration-500"
                   />
                 </div>
                 <h3 className="text-lg font-bold leading-tight group-hover:text-primary transition-colors">

@@ -124,5 +124,19 @@
     "likes": 0,
     "createdAt": "2026-05-11T08:09:07.797Z",
     "updatedAt": "2026-05-11T08:09:07.797Z"
+  },
+  {
+    "id": "cm8dgnmf702",
+    "title": "CELESTIAL GRACE : EYES OF THE SOUL",
+    "slug": "celestial-grace-eyes-of-the-soul-t3683",
+    "category": "Fantasy",
+    "fullPrompt": "human beauty,character portrait of a lovely woman,caricature,spirituality,femininity,kindness,mercy,beauty,softness,big beautiful eyes,out of this world,simple charcoal sketch,soft smile,tinted paper,artstation trend,by Guy Denning,centered,symmetry,drawn,complex,volumetric lighting,beautiful,saturated deep colors masterpiece,sharp focus,super detail,in the style of Dan Mumford and Marc Simonetti,astrophotography\n\nNegative prompt: [bad-hands-5] [worst quality:2], [low quality:2], [normal quality:2], doll, plastic",
+    "image": "https://res.cloudinary.com/dfbacu2lw/image/upload/v1778560298/prompts/hrly9gccd4aboatmibsr.png",
+    "isPremium": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-05-12T04:31:37.993Z",
+    "updatedAt": "2026-05-12T04:31:37.993Z"
   }
 ]
