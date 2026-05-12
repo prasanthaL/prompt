@@ -46,6 +46,7 @@ const Navbar = () => {
     { name: "Browse", href: "/browse" },
     { name: "Categories", href: "/categories" },
     { name: "Trending", href: "/trending" },
+    { name: "Blog", href: "/blog" },
     { name: "Premium", href: "/premium" },
   ];
 

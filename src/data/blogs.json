@@ -1,0 +1,57 @@
+[
+  {
+    "id": "1",
+    "slug": "how-to-write-perfect-ai-prompts-for-cinematic-portraits",
+    "title": "How to Write Perfect AI Prompts for Cinematic Portraits",
+    "excerpt": "Learn the secrets to crafting professional-grade cinematic lighting and composition in your AI-generated portraits.",
+    "date": "2024-05-10",
+    "author": "Alex Rivera",
+    "category": "Techniques",
+    "image": "/blog/cinematic-portraits.png",
+    "content": "Cinematic portraits are all about emotion, lighting, and depth. To achieve this in AI, you need to go beyond simple descriptions. Key elements include specifying focal lengths (e.g., 85mm), lighting styles (e.g., Rembrandt lighting, volumetric haze), and color grading (e.g., teal and orange, moody cinematic tones). In this guide, we break down the exact keywords you need to transform a flat image into a cinematic masterpiece."
+  },
+  {
+    "id": "2",
+    "slug": "how-to-create-hyper-realistic-ai-photos-using-simple-prompts",
+    "title": "How to Create Hyper-Realistic AI Photos Using Simple Prompts",
+    "excerpt": "Discover how 'less is more' when it comes to achieving photorealism in tools like Midjourney and DALL-E.",
+    "date": "2024-05-08",
+    "author": "Sarah Chen",
+    "category": "Photorealism",
+    "image": "/blog/hyper-realistic.png",
+    "content": "Hyper-realism doesn't always require a paragraph-long prompt. Sometimes, simplicity allows the model's training on real photography to shine. Focus on technical specs like 'Shot on 35mm film', 'f/1.8', and 'natural overcast lighting'. Avoid over-using buzzwords like '4k' or 'ultra-detailed' as they can sometimes lead to a 'plastic' look. We'll explore the balance between descriptive detail and technical instruction."
+  },
+  {
+    "id": "3",
+    "slug": "ultimate-guide-to-ai-prompt-engineering-for-beginners",
+    "title": "Ultimate Guide to AI Prompt Engineering for Beginners",
+    "excerpt": "The foundational concepts of prompt engineering explained for anyone starting their AI journey.",
+    "date": "2024-05-05",
+    "author": "Marcus Thorne",
+    "category": "Guides",
+    "image": "/blog/digital-creativity.png",
+    "content": "Prompt engineering is the art of communicating effectively with large language and image models. This guide covers the 'Context-Task-Instruction' framework. We explain how to set a persona for the AI, provide specific examples of output formats, and use delimiters to clarify different parts of your prompt. Whether you're using ChatGPT for writing or Midjourney for art, these principles remain constant."
+  },
+  {
+    "id": "4",
+    "slug": "how-ai-prompt-engineering-is-changing-digital-creativity",
+    "title": "How AI Prompt Engineering is Changing Digital Creativity",
+    "excerpt": "An exploration of how the role of the 'artist' is evolving in the age of generative AI.",
+    "date": "2024-05-01",
+    "author": "Elena Rodriguez",
+    "category": "Industry",
+    "image": "/blog/digital-creativity.png",
+    "content": "Digital creativity is undergoing its most significant shift since the invention of the camera. Prompt engineering has turned language into a brush. We discuss how professionals are integrating AI into their workflows, from concept art to copywriting, and why the 'human-in-the-loop' remains the most critical component of high-quality AI output."
+  },
+  {
+    "id": "5",
+    "slug": "mastering-negative-prompts-for-cleaner-ai-art",
+    "title": "Mastering Negative Prompts for Cleaner AI Art",
+    "excerpt": "What you DON'T want is just as important as what you do. Learn how to use negative prompts effectively.",
+    "date": "2024-04-28",
+    "author": "Jordan Smith",
+    "category": "Tips",
+    "image": "/blog/negative-prompts.png",
+    "content": "Negative prompts are a powerful way to prune the AI's search space. From removing unwanted objects to fixing common anatomical issues in portraits, negative prompts are the 'sculpting' tool of AI art. Learn the essential list of negative keywords and how to use weightings to fine-tune your results."
+  }
+]

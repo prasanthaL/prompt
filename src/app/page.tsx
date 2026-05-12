@@ -2,15 +2,19 @@
 
 import React, { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import CategoryFilters from "@/components/CategoryFilters";
 import PromptCard from "@/components/PromptCard";
 import StatsSection from "@/components/StatsSection";
-import { 
-  ArrowRight, 
-  Search, 
+import {
+  ArrowRight,
+  Search,
+  Calendar,
+  Clock
 } from "lucide-react";
+import blogsData from "@/data/blogs.json";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
 import Pagination from "@/components/Pagination";
@@ -20,11 +24,11 @@ export default function Home() {
   const [activeCategory, setActiveCategory] = useState("all");
   const [dbPrompts, setDbPrompts] = useState<any[]>([]);
   const [localSearch, setLocalSearch] = useState("");
-  
+
   // Pagination States
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 10;
-  
+
   const router = useRouter();
 
   useEffect(() => {
@@ -50,8 +54,8 @@ export default function Home() {
     }
   };
 
-  const filteredPrompts = activeCategory === "all" 
-    ? dbPrompts 
+  const filteredPrompts = activeCategory === "all"
+    ? dbPrompts
     : dbPrompts.filter(p => p.category === activeCategory);
 
   // Compute real counts per category
@@ -72,25 +76,25 @@ export default function Home() {
   return (
     <main className="min-h-screen mesh-gradient">
       <Navbar />
-      
+
       <div className="pt-2">
         <Hero />
       </div>
 
       <div className="max-w-7xl mx-auto px-4 md:px-8 mb-12">
         <form onSubmit={handleSearch} className="relative group lg:hidden mb-8">
-           <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-foreground/40 group-focus-within:text-primary transition-colors" />
-           <input
-             type="text"
-             placeholder="Search prompts, categories, styles..."
-             value={localSearch}
-             onChange={(e) => setLocalSearch(e.target.value)}
-             className="w-full bg-foreground/5 border border-foreground/10 rounded-2xl py-4 pl-12 pr-4 text-sm focus:outline-none focus:ring-2 focus:ring-primary/50 transition-all text-foreground"
-           />
+          <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-foreground/40 group-focus-within:text-primary transition-colors" />
+          <input
+            type="text"
+            placeholder="Search prompts, categories, styles..."
+            value={localSearch}
+            onChange={(e) => setLocalSearch(e.target.value)}
+            className="w-full bg-foreground/5 border border-foreground/10 rounded-2xl py-4 pl-12 pr-4 text-sm focus:outline-none focus:ring-2 focus:ring-primary/50 transition-all text-foreground"
+          />
         </form>
 
-        <CategoryFilters 
-          activeCategory={activeCategory} 
+        <CategoryFilters
+          activeCategory={activeCategory}
           onCategoryChange={(cat) => {
             setActiveCategory(cat);
             setCurrentPage(1);
@@ -109,7 +113,7 @@ export default function Home() {
             </h2>
             <p className="text-foreground/40 text-sm">Handpicked premium prompts from our community</p>
           </div>
-          <button 
+          <button
             onClick={() => router.push("/browse")}
             className="hidden sm:flex items-center gap-2 text-sm font-bold bg-foreground/5 hover:bg-foreground/10 px-6 py-3 rounded-xl border border-border transition-all text-foreground"
           >
@@ -122,31 +126,87 @@ export default function Home() {
           {displayedPrompts.length > 0 ? (
             displayedPrompts.map((prompt, i) => (
               <div key={prompt.id || i}>
-                 <PromptCard 
-                   {...prompt} 
-                 />
+                <PromptCard
+                  {...prompt}
+                />
               </div>
             ))
           ) : (
             <div className="col-span-full py-20 text-center space-y-4">
-               <div className="w-20 h-20 bg-foreground/5 rounded-full flex items-center justify-center mx-auto">
-                  <Search className="w-10 h-10 text-foreground/20" />
-               </div>
-               <h3 className="text-xl font-bold text-foreground">No prompts found</h3>
-               <p className="text-foreground/40">Try selecting a different category or search term.</p>
+              <div className="w-20 h-20 bg-foreground/5 rounded-full flex items-center justify-center mx-auto">
+                <Search className="w-10 h-10 text-foreground/20" />
+              </div>
+              <h3 className="text-xl font-bold text-foreground">No prompts found</h3>
+              <p className="text-foreground/40">Try selecting a different category or search term.</p>
             </div>
           )}
         </div>
 
-        <Pagination 
-          currentPage={currentPage} 
-          totalPages={totalPages} 
-          onPageChange={setCurrentPage} 
+        <Pagination
+          currentPage={currentPage}
+          totalPages={totalPages}
+          onPageChange={setCurrentPage}
           scrollTargetId="prompts-section"
         />
       </section>
+      {/* Blog Suggestions Section */}
+      <section className="max-w-7xl mx-auto px-4 md:px-8 pb-32">
+        <div className="flex items-center justify-between mb-12">
+          <div className="space-y-1">
+            <h2 className="text-3xl font-bold flex items-center gap-3">
+              <span className="w-2 h-10 bg-primary rounded-full"></span>
+              Latest from our Blog
+            </h2>
+            <p className="text-foreground/40 text-sm">Stay updated with the latest AI prompt engineering trends</p>
+          </div>
+          <button
+            onClick={() => router.push("/blog")}
+            className="flex items-center gap-2 text-sm font-bold text-primary hover:gap-3 transition-all"
+          >
+            Explore Blog
+            <ArrowRight className="w-4 h-4" />
+          </button>
+        </div>
 
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {blogsData.slice(0, 3).map((blog) => (
+            <div
+              key={blog.id}
+              onClick={() => router.push(`/blog/${blog.slug}`)}
+              className="group cursor-pointer flex flex-col rounded-3xl border border-border bg-card/30 backdrop-blur-sm overflow-hidden hover:border-primary/50 transition-all duration-300"
+            >
+              <div className="h-52 overflow-hidden">
+                <img
+                  src={blog.image}
+                  alt={blog.title}
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+              </div>
+              <div className="p-6 space-y-4">
+                <div className="flex items-center gap-3 text-xs font-bold text-primary uppercase tracking-wider">
+                  {blog.category}
+                </div>
+                <h3 className="text-xl font-bold leading-snug group-hover:text-primary transition-colors line-clamp-2">
+                  {blog.title}
+                </h3>
+                <div className="flex items-center gap-4 text-xs text-foreground/40">
+                  <div className="flex items-center gap-1">
+                    <Calendar className="w-3 h-3" />
+                    {blog.date}
+                  </div>
+                  <div className="flex items-center gap-1">
+                    <Clock className="w-3 h-3" />
+                    5 min read
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
       <StatsSection />
+
+
 
       <footer className="py-20 px-4 md:px-8 border-t border-border">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between gap-12 text-foreground">
@@ -158,11 +218,11 @@ export default function Home() {
               <span className="text-xl font-bold tracking-tight">PromptVault</span>
             </div>
             <p className="text-foreground/40 text-sm leading-relaxed">
-              The world's leading marketplace for high-quality AI prompts. 
+              The world's leading marketplace for high-quality AI prompts.
               Helping creators build amazing things with AI since 2026.
             </p>
           </div>
-          
+
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-12">
             <div className="space-y-4">
               <h4 className="font-bold text-foreground uppercase text-xs tracking-widest">Platform</h4>
@@ -177,7 +237,9 @@ export default function Home() {
               <ul className="space-y-2 text-sm text-foreground/40">
                 <li className="hover:text-foreground cursor-pointer transition-colors">About Us</li>
                 <li className="hover:text-foreground cursor-pointer transition-colors">Careers</li>
-                <li className="hover:text-foreground cursor-pointer transition-colors">Blog</li>
+                <li className="hover:text-foreground cursor-pointer transition-colors">
+                  <Link href="/blog">Blog</Link>
+                </li>
               </ul>
             </div>
             <div className="space-y-4">
