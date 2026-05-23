@@ -8,8 +8,8 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "PromptVault | Discover Premium AI Prompts",
-  description: "The world's leading marketplace for high-quality AI prompts for Midjourney, ChatGPT, DALL-E and more.",
+  title: "AI Image Prompts Library | Free Gemini AI Prompts",
+  description: "Browse high-quality AI image prompts for Gemini AI. Discover cinematic, anime, fantasy, fashion, realistic, and creative prompts for stunning AI-generated images.",
 };
 
 import { ThemeProvider } from "@/components/ThemeProvider";

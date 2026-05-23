@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef, useCallback } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
@@ -13,18 +13,157 @@ import {
   ArrowRight,
   Search,
   Calendar,
-  Clock
+  Clock,
+  ChevronDown,
+  HelpCircle,
 } from "lucide-react";
 import blogsData from "@/data/blogs.json";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
 import Pagination from "@/components/Pagination";
 
+/* ──────────────────────────────────────────────
+   FAQ data — used for both UI and JSON-LD schema
+   ────────────────────────────────────────────── */
+const faqItems = [
+  {
+    question: "What is PromptVault and how does it work?",
+    answer:
+      "PromptVault is the world's leading marketplace for high-quality AI prompts. Browse our curated library, preview prompt outputs, and use them instantly with AI models like Gemini, Midjourney, DALL·E, and Stable Diffusion. Every prompt is tested and optimized by our community of creators.",
+  },
+  {
+    question: "Are the AI prompts on PromptVault free to use?",
+    answer:
+      "Yes! We offer a large collection of free prompts across all categories including cinematic, anime, fantasy, fashion, and realistic styles. Premium prompts with advanced techniques are also available for creators who want to take their AI-generated images to the next level.",
+  },
+  {
+    question: "Which AI models are compatible with these prompts?",
+    answer:
+      "Our prompts are primarily optimized for Google Gemini AI, but many work beautifully with other leading models such as Midjourney, DALL·E 3, Stable Diffusion XL, and Adobe Firefly. Each prompt listing indicates compatible models so you can choose the right one.",
+  },
+  {
+    question: "Can I customize or modify the prompts?",
+    answer:
+      "Absolutely. Every prompt is designed to be a starting point. You can tweak parameters like style, lighting, composition, color palette, and subject matter to match your creative vision. We encourage experimentation — that's how the best results are born.",
+  },
+  {
+    question: "How often are new prompts added to the library?",
+    answer:
+      "New prompts are added daily by our growing community of prompt engineers and AI artists. We also publish curated collections and trending picks every week so you never run out of fresh inspiration.",
+  },
+  {
+    question: "Do I need technical knowledge to use AI prompts?",
+    answer:
+      "Not at all. Our prompts are copy-and-paste ready. Simply choose a prompt, paste it into your preferred AI image generator, and let the model do the work. We also publish beginner-friendly guides on our blog to help you get started.",
+  },
+  {
+    question: "Can I submit my own prompts to PromptVault?",
+    answer:
+      "Yes — we welcome contributions from prompt creators worldwide. Submit your best prompts through our creator portal, and once reviewed and approved by our team, they'll be published to the marketplace for the community to discover and use.",
+  },
+];
+
+/* JSON-LD structured data for FAQPage (SEO rich results) */
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqItems.map((item) => ({
+    "@type": "Question",
+    name: item.question,
+    acceptedAnswer: {
+      "@type": "Answer",
+      text: item.answer,
+    },
+  })),
+};
+
+/* ──────────────────────────────────────────────
+   Accordion item component
+   ────────────────────────────────────────────── */
+function FAQAccordionItem({
+  item,
+  index,
+  isOpen,
+  toggle,
+}: {
+  item: { question: string; answer: string };
+  index: number;
+  isOpen: boolean;
+  toggle: () => void;
+}) {
+  const contentRef = useRef<HTMLDivElement>(null);
+  const [height, setHeight] = useState(0);
+
+  useEffect(() => {
+    if (contentRef.current) {
+      setHeight(isOpen ? contentRef.current.scrollHeight : 0);
+    }
+  }, [isOpen]);
+
+  return (
+    <div
+      className={cn(
+        "group rounded-2xl border transition-all duration-300",
+        isOpen
+          ? "border-primary/40 bg-primary/[0.04] shadow-[0_0_24px_-6px_rgba(139,92,246,0.15)]"
+          : "border-border bg-card/20 hover:border-foreground/20"
+      )}
+    >
+      <button
+        id={`faq-trigger-${index}`}
+        aria-expanded={isOpen}
+        aria-controls={`faq-panel-${index}`}
+        onClick={toggle}
+        className="flex w-full items-center gap-4 px-6 py-5 text-left cursor-pointer"
+      >
+        <span
+          className={cn(
+            "flex h-9 w-9 shrink-0 items-center justify-center rounded-xl text-sm font-bold transition-colors duration-300",
+            isOpen
+              ? "bg-primary text-white"
+              : "bg-foreground/5 text-foreground/40 group-hover:bg-foreground/10"
+          )}
+        >
+          {String(index + 1).padStart(2, "0")}
+        </span>
+        <span className="flex-1 text-base font-semibold text-foreground sm:text-lg">
+          {item.question}
+        </span>
+        <ChevronDown
+          className={cn(
+            "h-5 w-5 shrink-0 text-foreground/40 transition-transform duration-300",
+            isOpen && "rotate-180 text-primary"
+          )}
+        />
+      </button>
+
+      <div
+        id={`faq-panel-${index}`}
+        role="region"
+        aria-labelledby={`faq-trigger-${index}`}
+        style={{ height }}
+        className="overflow-hidden transition-[height] duration-300 ease-in-out"
+      >
+        <div ref={contentRef} className="px-6 pb-6 pl-[4.25rem]">
+          <p className="text-sm leading-relaxed text-foreground/50 sm:text-base">
+            {item.answer}
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 
 export default function Home() {
   const [activeCategory, setActiveCategory] = useState("all");
   const [dbPrompts, setDbPrompts] = useState<any[]>([]);
   const [localSearch, setLocalSearch] = useState("");
+  const [openFaq, setOpenFaq] = useState<number | null>(null);
+
+  const toggleFaq = useCallback((index: number) => {
+    setOpenFaq((prev) => (prev === index ? null : index));
+  }, []);
 
   // Pagination States
   const [currentPage, setCurrentPage] = useState(1);
@@ -209,6 +348,43 @@ export default function Home() {
           ))}
         </div>
       </section>
+
+      {/* ── FAQ Section ── */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+      />
+
+      <section id="faq-section" className="relative max-w-4xl mx-auto px-4 md:px-8 pb-32">
+        {/* Decorative gradient orb */}
+        <div className="absolute -top-32 left-1/2 -translate-x-1/2 w-[500px] h-[500px] rounded-full bg-primary/[0.04] blur-[120px] pointer-events-none" />
+
+        <div className="relative space-y-1 mb-12 text-center">
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-primary/10 text-primary text-xs font-bold uppercase tracking-widest mb-4">
+            <HelpCircle className="w-3.5 h-3.5" />
+            FAQ
+          </div>
+          <h2 className="text-3xl sm:text-4xl font-bold">
+            Frequently Asked Questions
+          </h2>
+          <p className="text-foreground/40 text-sm max-w-lg mx-auto mt-2">
+            Everything you need to know about PromptVault and our AI prompt library
+          </p>
+        </div>
+
+        <div className="relative space-y-3">
+          {faqItems.map((item, index) => (
+            <FAQAccordionItem
+              key={index}
+              item={item}
+              index={index}
+              isOpen={openFaq === index}
+              toggle={() => toggleFaq(index)}
+            />
+          ))}
+        </div>
+      </section>
+
       <StatsSection />
 
 

@@ -1,6 +1,5 @@
 "use client";
 
-import React from "react";
 import { motion } from "framer-motion";
 import { Sparkles, Grid, Rocket, Users, Download, Layers } from "lucide-react";
 import Image from "next/image";
@@ -26,8 +25,13 @@ const Hero = () => {
               transition={{ duration: 0.6, ease: "easeOut" }}
               className="text-5xl md:text-7xl font-bold leading-[1.1] tracking-tight text-foreground"
             >
-              Discover. Copy. Create.<br />
-              <span className="text-primary">AI Prompts</span> That Inspire
+              <span className="block">
+                Discover. Copy. Inspire.
+              </span>
+
+              <span className="block">
+                Free <span className="text-primary">Gemini AI</span> Image Prompts
+              </span>
             </motion.h1>
 
             <motion.p
@@ -36,8 +40,7 @@ const Hero = () => {
               transition={{ duration: 0.6, delay: 0.1, ease: "easeOut" }}
               className="text-foreground/60 text-lg md:text-xl max-w-xl leading-relaxed"
             >
-              Explore thousands of high-quality AI prompts for Midjourney, ChatGPT,
-              DALL-E and more. Copy, customize and bring your ideas to life.
+              Browse cinematic, anime, fantasy, fashion, realistic, and creative prompts for Gemini AI image generation.
             </motion.p>
           </div>
 
@@ -114,7 +117,7 @@ const Hero = () => {
               initial={{ opacity: 0, x: 100, rotate: 15 }}
               animate={{ opacity: 0.4, x: -60, rotate: -12 }}
               transition={{ duration: 0.8, delay: 0.3 }}
-              className="absolute top-1/2 -translate-y-1/2 left-0 w-[240px] md:w-[300px] aspect-[4/5] rounded-[2rem] overflow-hidden border border-white/10 shadow-2xl z-0 hidden lg:block"
+              className="absolute top-1/2 -translate-y-1/2 left-0 w-[240px] md:w-[300px] aspect-4/5 rounded-4xl overflow-hidden border border-white/10 shadow-2xl z-0 hidden lg:block"
             >
               <Image
                 src="/images/hero/cyberpunk.png"
@@ -156,7 +159,7 @@ const Hero = () => {
                 className="object-cover transition-transform duration-700 group-hover:scale-110"
                 alt="Main Fantasy"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
+              <div className="absolute inset-0 bg-linear-to-t from-black/80 via-transparent to-transparent"></div>
 
               {/* Featured Badge */}
               <div className="absolute top-8 left-8 flex items-center gap-2 bg-primary/20 backdrop-blur-md border border-white/20 px-4 py-2 rounded-xl">

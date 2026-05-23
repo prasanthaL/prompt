@@ -37,7 +37,7 @@ const CategoryFilters = ({ activeCategory, onCategoryChange, categoryCounts = {}
       <div className="flex items-center justify-between mb-6">
         <h2 className="text-xl font-bold flex items-center gap-2 text-foreground">
           <span className="w-2 h-8 bg-primary rounded-full"></span>
-          Explore Categories
+          Browse Gemini AI Prompt Categories
         </h2>
         <button className="text-sm font-medium text-foreground/40 hover:text-foreground transition-colors">
           View All Categories →

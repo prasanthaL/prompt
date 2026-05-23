@@ -2,6 +2,7 @@
 
 import React from "react";
 import Navbar from "@/components/Navbar";
+import Image from "next/image";
 import { 
   Clapperboard, 
   Zap, 
@@ -17,14 +18,78 @@ import {
 import Link from "next/link";
 
 const categories = [
-  { name: "Cinematic", icon: Clapperboard, count: "2,450", id: "Cinematic", color: "from-blue-500/20 to-indigo-500/20" },
-  { name: "Anime", icon: Ghost, count: "1,870", id: "Anime", color: "from-pink-500/20 to-rose-500/20" },
-  { name: "Portrait", icon: User, count: "1,520", id: "Portrait", color: "from-orange-500/20 to-amber-500/20" },
-  { name: "Fantasy", icon: Zap, count: "2,450", id: "Fantasy", color: "from-purple-500/20 to-violet-500/20" },
-  { name: "Sci-Fi", icon: Cpu, count: "1,280", id: "Sci-Fi", color: "from-cyan-500/20 to-blue-500/20" },
-  { name: "Architecture", icon: Home, count: "980", id: "Architecture", color: "from-emerald-500/20 to-teal-500/20" },
-  { name: "Product", icon: ShoppingBag, count: "840", id: "Product", color: "from-yellow-500/20 to-orange-500/20" },
-  { name: "All Prompts", icon: LayoutGrid, count: "10,000+", id: "all", color: "from-gray-500/20 to-slate-500/20" },
+  {
+    name: "Cinematic",
+    icon: Clapperboard,
+    count: "2,450",
+    id: "Cinematic",
+    color: "from-blue-500/30 to-indigo-500/30",
+    accent: "bg-blue-500",
+    image: "/images/categories/cinematic.png",
+  },
+  {
+    name: "Anime",
+    icon: Ghost,
+    count: "1,870",
+    id: "Anime",
+    color: "from-pink-500/30 to-rose-500/30",
+    accent: "bg-pink-500",
+    image: "/images/categories/anime.png",
+  },
+  {
+    name: "Portrait",
+    icon: User,
+    count: "1,520",
+    id: "Portrait",
+    color: "from-orange-500/30 to-amber-500/30",
+    accent: "bg-orange-500",
+    image: "/images/categories/portrait.png",
+  },
+  {
+    name: "Fantasy",
+    icon: Zap,
+    count: "2,450",
+    id: "Fantasy",
+    color: "from-purple-500/30 to-violet-500/30",
+    accent: "bg-purple-500",
+    image: "/images/categories/fantasy.png",
+  },
+  {
+    name: "Sci-Fi",
+    icon: Cpu,
+    count: "1,280",
+    id: "Sci-Fi",
+    color: "from-cyan-500/30 to-blue-500/30",
+    accent: "bg-cyan-500",
+    image: "/images/categories/scifi.png",
+  },
+  {
+    name: "Architecture",
+    icon: Home,
+    count: "980",
+    id: "Architecture",
+    color: "from-emerald-500/30 to-teal-500/30",
+    accent: "bg-emerald-500",
+    image: "/images/categories/architecture.png",
+  },
+  {
+    name: "Product",
+    icon: ShoppingBag,
+    count: "840",
+    id: "Product",
+    color: "from-yellow-500/30 to-orange-500/30",
+    accent: "bg-yellow-500",
+    image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&q=80",
+  },
+  {
+    name: "All Prompts",
+    icon: LayoutGrid,
+    count: "10,000+",
+    id: "all",
+    color: "from-violet-500/30 to-fuchsia-500/30",
+    accent: "bg-violet-500",
+    image: "https://images.unsplash.com/photo-1634017839464-5c339afa60f0?w=600&q=80",
+  },
 ];
 
 export default function CategoriesPage() {
@@ -45,33 +110,76 @@ export default function CategoriesPage() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {categories.map((cat) => (
             <Link 
               key={cat.id} 
               href={cat.id === "all" ? "/browse" : `/categories/${cat.id.toLowerCase()}`}
-              className="group relative"
+              className="group relative block"
             >
-              <div className={`absolute inset-0 bg-gradient-to-br ${cat.color} rounded-[2.5rem] blur-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500`} />
+              {/* Glow effect behind card */}
+              <div className={`absolute -inset-1 bg-gradient-to-br ${cat.color} rounded-[2rem] blur-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-700`} />
               
-              <div className="relative bg-foreground/[0.03] border border-foreground/5 rounded-[2.5rem] p-8 h-full flex flex-col items-center text-center space-y-6 hover:border-primary/30 hover:bg-foreground/[0.05] transition-all duration-500">
-                <div className="w-20 h-20 rounded-[2rem] bg-foreground/5 flex items-center justify-center text-foreground/40 group-hover:bg-primary group-hover:text-white transition-all duration-500 group-hover:scale-110 group-hover:rotate-3 shadow-2xl">
-                  <cat.icon className="w-10 h-10" />
-                </div>
+              {/* Card */}
+              <div className="relative overflow-hidden rounded-[1.75rem] border border-white/[0.06] h-[340px] group-hover:border-white/[0.15] transition-all duration-500">
                 
-                <div className="space-y-2">
-                  <h3 className="text-2xl font-bold text-foreground group-hover:text-primary transition-colors">
-                    {cat.name}
-                  </h3>
-                  <div className="text-sm text-foreground/30 font-bold uppercase tracking-widest">
-                    {cat.count} Prompts
-                  </div>
+                {/* Background image */}
+                <div className="absolute inset-0 transition-transform duration-700 ease-out group-hover:scale-110">
+                  <Image
+                    src={cat.image}
+                    alt={cat.name}
+                    fill
+                    className="object-cover"
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                    unoptimized={cat.image.startsWith("http")}
+                  />
                 </div>
 
-                <div className="pt-4 opacity-0 group-hover:opacity-100 transition-opacity">
-                  <div className="flex items-center gap-2 text-primary font-bold text-sm">
-                    Explore Now
-                    <ArrowRight className="w-4 h-4" />
+                {/* Gradient overlays */}
+                <div className="absolute inset-0 bg-gradient-to-t from-black via-black/60 to-transparent opacity-80 group-hover:opacity-70 transition-opacity duration-500" />
+                <div className="absolute inset-0 bg-gradient-to-br from-black/30 to-transparent" />
+
+                {/* Subtle noise texture */}
+                <div className="absolute inset-0 opacity-[0.03] mix-blend-overlay" style={{ backgroundImage: "url(\"data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='1'/%3E%3C/svg%3E\")" }} />
+
+                {/* Content */}
+                <div className="relative z-10 h-full flex flex-col justify-between p-7">
+                  
+                  {/* Top: Icon badge */}
+                  <div className="flex justify-between items-start">
+                    <div className={`w-14 h-14 rounded-2xl ${cat.accent}/20 backdrop-blur-xl border border-white/10 flex items-center justify-center text-white/80 group-hover:text-white group-hover:scale-110 group-hover:-rotate-3 transition-all duration-500 shadow-lg`}>
+                      <cat.icon className="w-7 h-7" />
+                    </div>
+                    <div className="opacity-0 group-hover:opacity-100 translate-x-2 group-hover:translate-x-0 transition-all duration-500">
+                      <div className="w-10 h-10 rounded-full bg-white/10 backdrop-blur-xl border border-white/10 flex items-center justify-center">
+                        <ArrowRight className="w-4 h-4 text-white" />
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Bottom: Text */}
+                  <div className="space-y-3">
+                    <div>
+                      <h3 className="text-2xl font-bold text-white tracking-tight drop-shadow-lg">
+                        {cat.name}
+                      </h3>
+                      <div className="flex items-center gap-2 mt-1.5">
+                        <div className={`w-1.5 h-1.5 rounded-full ${cat.accent} shadow-lg shadow-current`} />
+                        <span className="text-sm text-white/50 font-semibold uppercase tracking-wider">
+                          {cat.count} Prompts
+                        </span>
+                      </div>
+                    </div>
+
+                    {/* Explore bar that slides up on hover */}
+                    <div className="overflow-hidden">
+                      <div className="translate-y-full opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 ease-out">
+                        <div className="flex items-center gap-2 bg-white/10 backdrop-blur-xl rounded-full px-4 py-2.5 border border-white/10 w-fit">
+                          <Sparkles className="w-3.5 h-3.5 text-primary" />
+                          <span className="text-sm font-semibold text-white/90">Explore Collection</span>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
