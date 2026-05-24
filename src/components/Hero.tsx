@@ -44,21 +44,32 @@ const Hero = () => {
             </motion.p>
           </div>
 
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.2 }}
-            className="flex flex-wrap items-center gap-5"
-          >
-            <button className="bg-primary hover:bg-primary-hover text-white px-8 py-4 rounded-2xl font-bold flex items-center gap-3 transition-all shadow-[0_10px_30px_rgba(139,92,246,0.3)] hover:scale-105 active:scale-95">
-              <Rocket className="w-5 h-5" />
-              Explore Prompts
-            </button>
-            <button className="bg-foreground/5 border border-border hover:bg-foreground/10 text-foreground px-8 py-4 rounded-2xl font-bold flex items-center gap-3 transition-all hover:border-foreground/20">
-              <Grid className="w-5 h-5" />
-              Browse Categories
-            </button>
-          </motion.div>
+          <div className="space-y-4">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.2 }}
+              className="flex flex-wrap items-center gap-5"
+            >
+              <button className="bg-primary hover:bg-primary-hover text-white px-8 py-4 rounded-2xl font-bold flex items-center gap-3 transition-all shadow-[0_10px_30px_rgba(139,92,246,0.3)] hover:scale-105 active:scale-95">
+                <Rocket className="w-5 h-5" />
+                Explore Prompts
+              </button>
+              <button className="bg-foreground/5 border border-border hover:bg-foreground/10 text-foreground px-8 py-4 rounded-2xl font-bold flex items-center gap-3 transition-all hover:border-foreground/20">
+                <Grid className="w-5 h-5" />
+                Browse Categories
+              </button>
+            </motion.div>
+
+            <motion.p
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.25 }}
+              className="text-foreground/50 text-sm md:text-base max-w-xl leading-relaxed"
+            >
+              Explore thousands of Gemini AI prompts for cinematic art, realistic photography, anime characters, cyberpunk scenes, fashion editorials, fantasy worlds, and more.
+            </motion.p>
+          </div>
 
           {/* Stats Row */}
           <motion.div
