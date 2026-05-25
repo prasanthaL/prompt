@@ -15,6 +15,8 @@ export async function PUT(
       fullPrompt: body.fullPrompt,
       image: body.image,
       isPremium: Boolean(body.isPremium),
+      tags: Array.isArray(body.tags) ? body.tags : [],
+      models: Array.isArray(body.models) ? body.models : [],
     });
 
     if (!updatedPrompt) {

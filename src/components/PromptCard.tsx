@@ -18,6 +18,8 @@ interface PromptCardProps {
   href?: string;
   slug?: string | null;
   priority?: boolean;
+  tags?: string[];
+  models?: string[];
 }
 
 const PromptCard = ({
@@ -33,6 +35,8 @@ const PromptCard = ({
   href,
   slug,
   priority,
+  tags,
+  models,
 }: PromptCardProps) => {
   const cardHref = href || (slug ? `/prompts/${slug}` : `/prompts/${id}`);
 
@@ -89,6 +93,28 @@ const PromptCard = ({
             <ArrowUpRight className="w-4 h-4" />
           </div>
         </div>
+
+        {/* Models & Tags */}
+        {((models && models.length > 0) || (tags && tags.length > 0)) && (
+          <div className="flex flex-wrap gap-1 items-center">
+            {models?.map((model) => (
+              <span
+                key={model}
+                className="bg-primary/10 text-primary text-[9px] font-bold px-2 py-0.5 rounded-md border border-primary/20"
+              >
+                {model}
+              </span>
+            ))}
+            {tags?.slice(0, 3).map((tag) => (
+              <span
+                key={tag}
+                className="bg-foreground/5 text-foreground/50 text-[9px] font-medium px-2 py-0.5 rounded-md"
+              >
+                #{tag}
+              </span>
+            ))}
+          </div>
+        )}
 
         <div className="mt-auto pt-4 border-t border-border flex items-center justify-between">
           <div className="flex items-center gap-4 text-[10px] font-bold text-foreground/30 uppercase tracking-widest">

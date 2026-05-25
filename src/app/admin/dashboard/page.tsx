@@ -18,6 +18,79 @@ import {
 } from "lucide-react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { cn } from "@/lib/utils";
+import PromptCard from "@/components/PromptCard";
+
+// Canvas-based image compression + WebP conversion helper
+const compressImage = async (
+  file: File,
+  maxKb: number = 400
+): Promise<{ file: File; originalSize: number; compressedSize: number }> => {
+  return new Promise((resolve, reject) => {
+    const reader = new FileReader();
+    reader.readAsDataURL(file);
+    reader.onload = (event) => {
+      const img = new window.Image();
+      img.src = event.target?.result as string;
+      img.onload = () => {
+        const canvas = document.createElement("canvas");
+        let width = img.width;
+        let height = img.height;
+
+        // Downscale to max 1600px dimension if it's very large
+        const maxDimension = 1600;
+        if (width > maxDimension || height > maxDimension) {
+          if (width > height) {
+            height = Math.round((height * maxDimension) / width);
+            width = maxDimension;
+          } else {
+            width = Math.round((width * maxDimension) / height);
+            height = maxDimension;
+          }
+        }
+
+        canvas.width = width;
+        canvas.height = height;
+        const ctx = canvas.getContext("2d");
+        if (!ctx) return resolve({ file, originalSize: file.size, compressedSize: file.size });
+
+        // White background for images with transparency (e.g. PNG)
+        ctx.fillStyle = "#ffffff";
+        ctx.fillRect(0, 0, width, height);
+        ctx.drawImage(img, 0, 0, width, height);
+
+        let quality = 0.92;
+        const tryCompress = () => {
+          canvas.toBlob(
+            (blob) => {
+              if (!blob) {
+                return resolve({ file, originalSize: file.size, compressedSize: file.size });
+              }
+              if (blob.size / 1024 <= maxKb || quality <= 0.1) {
+                // Always output as .webp for maximum compression & quality
+                const webpFile = new File([blob], file.name.replace(/\.[^/.]+$/, "") + ".webp", {
+                  type: "image/webp",
+                  lastModified: Date.now(),
+                });
+                resolve({
+                  file: webpFile,
+                  originalSize: file.size,
+                  compressedSize: blob.size,
+                });
+              } else {
+                quality -= 0.08;
+                tryCompress();
+              }
+            },
+            "image/webp",
+            quality
+          );
+        };
+        tryCompress();
+      };
+    };
+    reader.onerror = (error) => reject(error);
+  });
+};
 
 function DashboardContent() {
   const [formData, setFormData] = useState({
@@ -32,6 +105,17 @@ function DashboardContent() {
   const [existingImageUrl, setExistingImageUrl] = useState<string | null>(null);
   const [isUploading, setIsUploading] = useState(false);
   const [message, setMessage] = useState({ type: "", text: "" });
+
+  // New features state variables
+  const [tags, setTags] = useState<string[]>([]);
+  const [tagInput, setTagInput] = useState("");
+  const [models, setModels] = useState<string[]>([]);
+  const [customModelInput, setCustomModelInput] = useState("");
+  const [isCompressing, setIsCompressing] = useState(false);
+  const [compressionStats, setCompressionStats] = useState<{
+    original: number;
+    compressed: number;
+  } | null>(null);
 
   const router = useRouter();
   const searchParams = useSearchParams();
@@ -59,6 +143,9 @@ function DashboardContent() {
           });
           setPreview(prompt.image);
           setExistingImageUrl(prompt.image);
+          setTags(prompt.tags || []);
+          setModels(prompt.models || []);
+          setCompressionStats(null);
         }
       }
     } catch (err) {
@@ -66,12 +153,28 @@ function DashboardContent() {
     }
   };
 
-  const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const handleFileChange = async (e: React.ChangeEvent<HTMLInputElement>) => {
     const selectedFile = e.target.files?.[0];
     if (selectedFile) {
-      setFile(selectedFile);
-      setPreview(URL.createObjectURL(selectedFile));
-      setExistingImageUrl(null);
+      setIsCompressing(true);
+      setCompressionStats(null);
+      try {
+        const result = await compressImage(selectedFile, 400);
+        setFile(result.file);
+        setPreview(URL.createObjectURL(result.file));
+        setExistingImageUrl(null);
+        setCompressionStats({
+          original: result.originalSize,
+          compressed: result.compressedSize,
+        });
+      } catch (err) {
+        console.error("Failed to compress image:", err);
+        setFile(selectedFile);
+        setPreview(URL.createObjectURL(selectedFile));
+        setExistingImageUrl(null);
+      } finally {
+        setIsCompressing(false);
+      }
     }
   };
 
@@ -82,6 +185,11 @@ function DashboardContent() {
     setEditingId(null);
     setExistingImageUrl(null);
     setMessage({ type: "", text: "" });
+    setTags([]);
+    setModels([]);
+    setCompressionStats(null);
+    setTagInput("");
+    setCustomModelInput("");
     router.replace("/admin/dashboard");
   };
 
@@ -118,7 +226,7 @@ function DashboardContent() {
       const promptRes = await fetch(url, {
         method: method,
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ ...formData, image: imageUrl }),
+        body: JSON.stringify({ ...formData, image: imageUrl, tags, models }),
       });
 
       if (promptRes.ok) {
@@ -179,7 +287,7 @@ function DashboardContent() {
                 Prompt Image Preview
               </label>
               <div
-                className="relative group border-2 border-dashed border-white/10 rounded-[2rem] h-[300px] overflow-hidden flex items-center justify-center hover:border-primary/50 hover:bg-primary/5 transition-all cursor-pointer"
+                className="relative group border-2 border-dashed border-white/10 rounded-[2rem] h-[300px] overflow-hidden flex items-center justify-center hover:border-primary/50 hover:bg-primary/5 transition-all cursor-pointer mb-2"
                 onClick={() => document.getElementById("file-upload")?.click()}
               >
                 {preview ? (
@@ -200,6 +308,26 @@ function DashboardContent() {
                   accept="image/*"
                 />
               </div>
+
+              {/* Compression feedback panel */}
+              {isCompressing && (
+                <div className="text-[11px] text-primary font-medium bg-primary/10 border border-primary/20 p-3 rounded-xl flex items-center gap-2 animate-pulse">
+                  <Loader2 className="w-3.5 h-3.5 animate-spin" />
+                  Converting to WebP &amp; compressing below 400KB...
+                </div>
+              )}
+              {compressionStats && (
+                <div className="text-[11px] text-emerald-400 font-medium bg-emerald-500/10 border border-emerald-500/20 p-3 rounded-xl flex items-center justify-between">
+                  <span>✓ Converted to WebP &amp; compressed!</span>
+                  <span>
+                    {(compressionStats.original / 1024).toFixed(0)}KB →{" "}
+                    <strong className="text-white">
+                      {(compressionStats.compressed / 1024).toFixed(0)}KB
+                    </strong>{" "}
+                    ({Math.round(((compressionStats.original - compressionStats.compressed) / compressionStats.original) * 100)}% saved)
+                  </span>
+                </div>
+              )}
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -213,7 +341,7 @@ function DashboardContent() {
                   value={formData.title}
                   onChange={(e) => setFormData({ ...formData, title: e.target.value })}
                   placeholder="Enter prompt title"
-                  className="w-full bg-white/5 border border-white/10 rounded-2xl py-4 px-6 text-sm focus:outline-none focus:ring-2 focus:ring-primary/50 transition-all"
+                  className="w-full bg-white/5 border border-white/10 rounded-2xl py-4 px-6 text-sm focus:outline-none focus:ring-2 focus:ring-primary/50 transition-all text-white"
                   required
                 />
               </div>
@@ -226,7 +354,7 @@ function DashboardContent() {
                 <select
                   value={formData.category}
                   onChange={(e) => setFormData({ ...formData, category: e.target.value })}
-                  className="w-full bg-black border border-white/10 rounded-2xl py-4 px-6 text-sm focus:outline-none focus:ring-2 focus:ring-primary/50 transition-all appearance-none cursor-pointer "
+                  className="w-full bg-black border border-white/10 rounded-2xl py-4 px-6 text-sm focus:outline-none focus:ring-2 focus:ring-primary/50 transition-all appearance-none cursor-pointer text-white"
                 >
                   <option value="Cinematic">Cinematic</option>
                   <option value="Anime">Anime</option>
@@ -249,9 +377,173 @@ function DashboardContent() {
                 value={formData.fullPrompt}
                 onChange={(e) => setFormData({ ...formData, fullPrompt: e.target.value })}
                 placeholder="Paste the full AI prompt here..."
-                className="w-full bg-white/5 border border-white/10 rounded-[1.5rem] py-6 px-6 text-sm focus:outline-none focus:ring-2 focus:ring-primary/50 transition-all resize-none"
+                className="w-full bg-white/5 border border-white/10 rounded-[1.5rem] py-6 px-6 text-sm focus:outline-none focus:ring-2 focus:ring-primary/50 transition-all resize-none text-white"
                 required
               ></textarea>
+            </div>
+
+            {/* Tags Selection Component */}
+            <div className="space-y-4">
+              <label className="text-xs font-bold text-white/30 uppercase tracking-widest ml-1 flex items-center gap-2">
+                <Tag className="w-4 h-4 text-primary" />
+                Tags (Multi-select)
+              </label>
+              <div className="flex flex-wrap gap-1.5 p-3.5 bg-white/5 border border-white/10 rounded-2xl">
+                {["3D Render", "Photorealistic", "Cyberpunk", "Minimalist", "Fantasy", "Illustration", "Anime", "Vibrant"].map((t) => {
+                  const isSelected = tags.includes(t);
+                  return (
+                    <button
+                      type="button"
+                      key={t}
+                      onClick={() => {
+                        if (isSelected) {
+                          setTags(tags.filter((x) => x !== t));
+                        } else {
+                          setTags([...tags, t]);
+                        }
+                      }}
+                      className={cn(
+                        "text-xs px-3 py-1.5 rounded-xl font-bold border transition-all cursor-pointer",
+                        isSelected
+                          ? "bg-primary border-primary text-white shadow-md shadow-primary/20 scale-[1.02]"
+                          : "bg-white/5 border-white/10 text-white/60 hover:border-white/20 hover:text-white"
+                      )}
+                    >
+                      {isSelected ? "✓ " : ""}{t}
+                    </button>
+                  );
+                })}
+              </div>
+
+              {/* Custom tag input */}
+              <div className="flex gap-2">
+                <input
+                  type="text"
+                  value={tagInput}
+                  onChange={(e) => setTagInput(e.target.value)}
+                  onKeyDown={(e) => {
+                    if (e.key === "Enter") {
+                      e.preventDefault();
+                      const val = tagInput.trim();
+                      if (val && !tags.includes(val)) {
+                        setTags([...tags, val]);
+                        setTagInput("");
+                      }
+                    }
+                  }}
+                  placeholder="Type custom tag and press Enter"
+                  className="flex-grow bg-white/5 border border-white/10 rounded-2xl py-3.5 px-6 text-sm focus:outline-none focus:ring-2 focus:ring-primary/50 transition-all text-white"
+                />
+                <button
+                  type="button"
+                  onClick={() => {
+                    const val = tagInput.trim();
+                    if (val && !tags.includes(val)) {
+                      setTags([...tags, val]);
+                      setTagInput("");
+                    }
+                  }}
+                  className="bg-white/10 hover:bg-white/20 text-white font-bold text-xs px-5 rounded-2xl transition-all cursor-pointer"
+                >
+                  Add
+                </button>
+              </div>
+
+              {tags.length > 0 && (
+                <div className="flex flex-wrap gap-1.5 pt-1">
+                  {tags.map((t) => (
+                    <span
+                      key={t}
+                      onClick={() => setTags(tags.filter((x) => x !== t))}
+                      className="bg-primary/20 hover:bg-red-500/20 hover:text-red-400 text-primary-foreground border border-primary/30 hover:border-red-500/30 text-[10px] font-bold px-2.5 py-1 rounded-md cursor-pointer transition-all flex items-center gap-1 group"
+                    >
+                      #{t} <span className="text-[8px] opacity-60 group-hover:text-red-400">✕</span>
+                    </span>
+                  ))}
+                </div>
+              )}
+            </div>
+
+            {/* Model Selection Component */}
+            <div className="space-y-4">
+              <label className="text-xs font-bold text-white/30 uppercase tracking-widest ml-1 flex items-center gap-2">
+                <Globe className="w-4 h-4 text-primary" />
+                AI Models (Multi-select)
+              </label>
+              <div className="flex flex-wrap gap-1.5 p-3.5 bg-white/5 border border-white/10 rounded-2xl">
+                {["Gemini AI", "Chat GPT", "Flow AI"].map((m) => {
+                  const isSelected = models.includes(m);
+                  return (
+                    <button
+                      type="button"
+                      key={m}
+                      onClick={() => {
+                        if (isSelected) {
+                          setModels(models.filter((x) => x !== m));
+                        } else {
+                          setModels([...models, m]);
+                        }
+                      }}
+                      className={cn(
+                        "text-xs px-4 py-2 rounded-xl font-bold border transition-all cursor-pointer",
+                        isSelected
+                          ? "bg-primary border-primary text-white shadow-md shadow-primary/20 scale-[1.02]"
+                          : "bg-white/5 border-white/10 text-white/60 hover:border-white/20 hover:text-white"
+                      )}
+                    >
+                      {isSelected ? "✓ " : ""}{m}
+                    </button>
+                  );
+                })}
+              </div>
+
+              {/* Custom model input */}
+              <div className="flex gap-2">
+                <input
+                  type="text"
+                  value={customModelInput}
+                  onChange={(e) => setCustomModelInput(e.target.value)}
+                  onKeyDown={(e) => {
+                    if (e.key === "Enter") {
+                      e.preventDefault();
+                      const val = customModelInput.trim();
+                      if (val && !models.includes(val)) {
+                        setModels([...models, val]);
+                        setCustomModelInput("");
+                      }
+                    }
+                  }}
+                  placeholder="Add custom model (e.g. Midjourney) and press Enter"
+                  className="flex-grow bg-white/5 border border-white/10 rounded-2xl py-3.5 px-6 text-sm focus:outline-none focus:ring-2 focus:ring-primary/50 transition-all text-white"
+                />
+                <button
+                  type="button"
+                  onClick={() => {
+                    const val = customModelInput.trim();
+                    if (val && !models.includes(val)) {
+                      setModels([...models, val]);
+                      setCustomModelInput("");
+                    }
+                  }}
+                  className="bg-white/10 hover:bg-white/20 text-white font-bold text-xs px-5 rounded-2xl transition-all cursor-pointer"
+                >
+                  Add
+                </button>
+              </div>
+
+              {models.length > 0 && (
+                <div className="flex flex-wrap gap-1.5 pt-1">
+                  {models.map((m) => (
+                    <span
+                      key={m}
+                      onClick={() => setModels(models.filter((x) => x !== m))}
+                      className="bg-primary/20 hover:bg-red-500/20 hover:text-red-400 text-primary-foreground border border-primary/30 hover:border-red-500/30 text-[10px] font-bold px-2.5 py-1 rounded-md cursor-pointer transition-all flex items-center gap-1 group"
+                    >
+                      {m} <span className="text-[8px] opacity-60 group-hover:text-red-400">✕</span>
+                    </span>
+                  ))}
+                </div>
+              )}
             </div>
 
             <div className="flex items-center gap-4 p-4 bg-white/5 rounded-2xl border border-white/5">
@@ -269,8 +561,8 @@ function DashboardContent() {
 
             <button
               type="submit"
-              disabled={isUploading}
-              className="w-full bg-primary hover:bg-primary-hover text-white py-5 rounded-[1.5rem] font-bold text-lg shadow-xl shadow-primary/20 hover:scale-[1.02] active:scale-95 transition-all flex items-center justify-center gap-3 disabled:opacity-50 disabled:scale-100"
+              disabled={isUploading || isCompressing}
+              className="w-full bg-primary hover:bg-primary-hover text-white py-5 rounded-[1.5rem] font-bold text-lg shadow-xl shadow-primary/20 hover:scale-[1.02] active:scale-95 transition-all flex items-center justify-center gap-3 disabled:opacity-50 disabled:scale-100 cursor-pointer"
             >
               {isUploading ? (
                 <>
@@ -288,8 +580,30 @@ function DashboardContent() {
         </div>
       </div>
 
-      {/* Right Sidebar: Shortcuts */}
+      {/* Right Sidebar: Preview Card & Shortcuts */}
       <div className="space-y-8">
+        {/* Live Preview Card */}
+        <div className="glass-dark border border-white/10 rounded-[2.5rem] p-6 shadow-2xl space-y-4">
+          <h3 className="text-xs font-bold text-white/30 uppercase tracking-widest ml-2 flex items-center gap-2">
+            <Sparkles className="w-4 h-4 text-primary animate-pulse" />
+            Live Preview Card
+          </h3>
+          <div className="h-[430px]">
+            <PromptCard
+              id="preview"
+              title={formData.title || "Untitled Prompt"}
+              category={formData.category}
+              author="Admin"
+              image={preview || "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=500"}
+              views={0}
+              likes={0}
+              isPremium={formData.isPremium}
+              tags={tags}
+              models={models}
+            />
+          </div>
+        </div>
+
         <div
           onClick={() => router.push("/admin/prompts")}
           className="glass-dark border border-white/5 rounded-[2.5rem] p-8 shadow-2xl group cursor-pointer hover:border-primary/50 transition-all"
@@ -333,7 +647,7 @@ export default function AdminDashboard() {
           </div>
           <button
             onClick={() => router.push("/admin")}
-            className="flex items-center gap-2 text-white/40 hover:text-white transition-colors"
+            className="flex items-center gap-2 text-white/40 hover:text-white transition-colors cursor-pointer"
           >
             <LogOut className="w-5 h-5" />
             Sign Out

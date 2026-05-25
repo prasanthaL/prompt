@@ -35,6 +35,8 @@ interface PromptDetailClientProps {
     fullPrompt: string;
     views: number;
     likes: number;
+    tags?: string[];
+    models?: string[];
   };
 }
 
@@ -246,18 +248,44 @@ export default function PromptDetailClient({ prompt }: PromptDetailClientProps) 
             </div>
           </div>
 
-          <div className="space-y-3">
+          <div className="space-y-4">
             <h4 className="text-[10px] font-black text-foreground/30 uppercase tracking-widest">Model Settings</h4>
             <div className="grid grid-cols-2 gap-3">
               <div className="bg-white/5 p-3 rounded-xl border border-white/5">
-                <span className="block text-[9px] text-foreground/30 uppercase font-black mb-1">Model</span>
-                <span className="text-xs text-foreground/90 font-bold">Gemini AI</span>
+                <span className="block text-[9px] text-foreground/30 uppercase font-black mb-1">Compatible Models</span>
+                <div className="flex flex-wrap gap-1">
+                  {prompt.models && prompt.models.length > 0 ? (
+                    prompt.models.map((model, idx) => (
+                      <span key={model} className="text-xs text-primary font-bold">
+                        {model}{idx < (prompt.models?.length || 0) - 1 ? ", " : ""}
+                      </span>
+                    ))
+                  ) : (
+                    <span className="text-xs text-primary font-bold">Gemini AI</span>
+                  )}
+                </div>
               </div>
               <div className="bg-white/5 p-3 rounded-xl border border-white/5">
                 <span className="block text-[9px] text-foreground/30 uppercase font-black mb-1">Aspect Ratio</span>
                 <span className="text-xs text-foreground/90 font-bold">16:9</span>
               </div>
             </div>
+
+            {prompt.tags && prompt.tags.length > 0 && (
+              <div className="space-y-2 pt-2">
+                <h4 className="text-[10px] font-black text-foreground/30 uppercase tracking-widest">Tags</h4>
+                <div className="flex flex-wrap gap-1.5">
+                  {prompt.tags.map((tag) => (
+                    <span
+                      key={tag}
+                      className="bg-white/5 hover:bg-white/10 text-foreground/70 text-xs px-3 py-1 rounded-full border border-white/5 transition-colors"
+                    >
+                      #{tag}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            )}
           </div>
         </div>
       </div>

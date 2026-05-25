@@ -37,6 +37,8 @@ interface PromptDetailModalProps {
     fullPrompt: string;
     views: string | number;
     likes: string | number;
+    tags?: string[];
+    models?: string[];
   } | null;
 }
 
@@ -279,18 +281,44 @@ const PromptDetailModal = ({ isOpen, onClose, prompt }: PromptDetailModalProps) 
                   </div>
                 </div>
 
-                <div className="space-y-3">
+                <div className="space-y-4">
                   <h4 className="text-xs font-bold text-foreground/30 uppercase tracking-widest">Model Settings</h4>
                   <div className="grid grid-cols-2 gap-3">
                     <div className="bg-foreground/5 p-3 rounded-xl border border-border">
-                      <span className="block text-[10px] text-foreground/30 uppercase font-bold">Model</span>
-                      <span className="text-sm text-foreground font-medium">gemini</span>
+                      <span className="block text-[10px] text-foreground/30 uppercase font-bold mb-1">Compatible Models</span>
+                      <div className="flex flex-wrap gap-1">
+                        {prompt.models && prompt.models.length > 0 ? (
+                          prompt.models.map((model, idx) => (
+                            <span key={model} className="text-xs font-semibold text-primary">
+                              {model}{idx < (prompt.models?.length || 0) - 1 ? ", " : ""}
+                            </span>
+                          ))
+                        ) : (
+                          <span className="text-xs font-semibold text-primary">Gemini AI</span>
+                        )}
+                      </div>
                     </div>
                     <div className="bg-foreground/5 p-3 rounded-xl border border-border">
-                      <span className="block text-[10px] text-foreground/30 uppercase font-bold">Aspect Ratio</span>
+                      <span className="block text-[10px] text-foreground/30 uppercase font-bold mb-1">Aspect Ratio</span>
                       <span className="text-sm text-foreground font-medium">16:9</span>
                     </div>
                   </div>
+
+                  {prompt.tags && prompt.tags.length > 0 && (
+                    <div className="space-y-2 pt-2">
+                      <h4 className="text-xs font-bold text-foreground/30 uppercase tracking-widest">Tags</h4>
+                      <div className="flex flex-wrap gap-1.5">
+                        {prompt.tags.map((tag) => (
+                          <span
+                            key={tag}
+                            className="bg-foreground/5 hover:bg-foreground/10 text-foreground/70 text-xs px-3 py-1 rounded-full border border-border transition-colors"
+                          >
+                            #{tag}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+                  )}
                 </div>
               </div>
             </div>
