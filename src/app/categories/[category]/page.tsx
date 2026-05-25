@@ -714,9 +714,9 @@ export default async function CategoryPage({ params }: PageProps) {
                 alt={`${displayName} Cover Image`}
                 fill
                 priority
+                quality={95}
                 className="object-cover transition-transform duration-700 ease-out group-hover:scale-105"
                 sizes="(max-width: 1024px) 100vw, 40vw"
-                unoptimized={meta.image.startsWith("http")}
               />
             </div>
 
@@ -1017,6 +1017,7 @@ export default async function CategoryPage({ params }: PageProps) {
                           src={p.image}
                           alt={p.title}
                           fill
+                          quality={90}
                           className="object-cover"
                           sizes="56px"
                         />

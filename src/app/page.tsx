@@ -545,6 +545,7 @@ export default function Home() {
                   alt={blog.title}
                   fill
                   priority={i < 2}
+                  quality={90}
                   sizes="(max-width: 768px) 100vw, 33vw"
                   className="object-cover group-hover:scale-105 transition-transform duration-500"
                 />

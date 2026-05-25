@@ -107,15 +107,16 @@ export default function PromptDetailClient({ prompt }: PromptDetailClientProps) 
   return (
     <div className="relative w-full bg-background border border-border rounded-[2.5rem] overflow-hidden shadow-2xl flex flex-col md:flex-row min-h-[600px]">
       {/* Left: Image Showcase */}
-      <div className="w-full md:w-1/2 relative bg-white/5 h-[400px] md:h-auto">
+      <div className="w-full md:w-1/2 relative bg-white/5 h-[400px] md:h-auto overflow-hidden">
         <Image
           src={prompt.image}
           alt={prompt.title}
           fill
           priority
-          quality={95}
-          sizes="(max-width: 1200px) 100vw, 1200px"
-          className="w-full h-full object-cover"
+          quality={100}
+          sizes="(max-width: 1200px) 100vw, 50vw"
+          className="w-full h-full object-cover animate-fade-in"
+          style={{ backfaceVisibility: "hidden", transform: "translate3d(0, 0, 0)" }}
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
 
