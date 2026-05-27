@@ -37,6 +37,8 @@ interface PromptDetailModalProps {
     fullPrompt: string;
     views: string | number;
     likes: string | number;
+    tags?: string[];
+    models?: string[];
   } | null;
 }
 
@@ -120,14 +122,16 @@ const PromptDetailModal = ({ isOpen, onClose, prompt }: PromptDetailModalProps) 
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             onClick={onClose}
-            className="absolute inset-0 bg-black/80 backdrop-blur-md"
+            className="absolute inset-0 bg-black/85 backdrop-blur-[2px]"
           />
 
           {/* Modal Content */}
           <motion.div
-            initial={{ opacity: 0, scale: 0.9, y: 20 }}
-            animate={{ opacity: 1, scale: 1, y: 0 }}
-            exit={{ opacity: 0, scale: 0.9, y: 20 }}
+            initial={{ opacity: 0, y: 16 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: 16 }}
+            transition={{ duration: 0.3, ease: [0.16, 1, 0.3, 1] }}
+            style={{ backfaceVisibility: "hidden", transform: "translate3d(0, 0, 0)" }}
             className="relative w-full max-w-5xl bg-background border border-border rounded-[2.5rem] overflow-hidden shadow-2xl flex flex-col md:flex-row max-h-[90vh]"
           >
             {/* Close Button */}
@@ -139,15 +143,16 @@ const PromptDetailModal = ({ isOpen, onClose, prompt }: PromptDetailModalProps) 
             </button>
 
             {/* Left: Image Showcase */}
-            <div className="w-full md:w-1/2 relative bg-white/5 h-[300px] md:h-auto">
+            <div className="w-full md:w-1/2 relative bg-white/5 h-[300px] md:h-auto isolate overflow-hidden">
               <Image
                 src={prompt.image}
                 alt={prompt.title}
                 fill
                 priority
-                quality={95}
+                quality={100}
                 sizes="(max-width: 768px) 100vw, 50vw"
                 className="object-cover"
+                style={{ backfaceVisibility: "hidden", transform: "translate3d(0, 0, 0)" }}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
 
@@ -272,25 +277,51 @@ const PromptDetailModal = ({ isOpen, onClose, prompt }: PromptDetailModalProps) 
                   </button>
                 </div>
 
-                <div className="relative group">
-                  <div className="absolute inset-0 bg-primary/5 rounded-2xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity" />
+                <div className="relative group isolate">
+                  <div className="absolute inset-0 bg-primary/5 rounded-2xl blur-md opacity-0 group-hover:opacity-100 transition-opacity -z-10" />
                   <div className="relative bg-foreground/5 border border-border rounded-2xl p-6 font-mono text-sm leading-relaxed text-foreground/80 select-all">
                     {prompt.fullPrompt}
                   </div>
                 </div>
 
-                <div className="space-y-3">
+                <div className="space-y-4">
                   <h4 className="text-xs font-bold text-foreground/30 uppercase tracking-widest">Model Settings</h4>
                   <div className="grid grid-cols-2 gap-3">
                     <div className="bg-foreground/5 p-3 rounded-xl border border-border">
-                      <span className="block text-[10px] text-foreground/30 uppercase font-bold">Model</span>
-                      <span className="text-sm text-foreground font-medium">gemini</span>
+                      <span className="block text-[10px] text-foreground/30 uppercase font-bold mb-1">Compatible Models</span>
+                      <div className="flex flex-wrap gap-1">
+                        {prompt.models && prompt.models.length > 0 ? (
+                          prompt.models.map((model, idx) => (
+                            <span key={model} className="text-xs font-semibold text-primary">
+                              {model}{idx < (prompt.models?.length || 0) - 1 ? ", " : ""}
+                            </span>
+                          ))
+                        ) : (
+                          <span className="text-xs font-semibold text-primary">Gemini AI</span>
+                        )}
+                      </div>
                     </div>
                     <div className="bg-foreground/5 p-3 rounded-xl border border-border">
-                      <span className="block text-[10px] text-foreground/30 uppercase font-bold">Aspect Ratio</span>
+                      <span className="block text-[10px] text-foreground/30 uppercase font-bold mb-1">Aspect Ratio</span>
                       <span className="text-sm text-foreground font-medium">16:9</span>
                     </div>
                   </div>
+
+                  {prompt.tags && prompt.tags.length > 0 && (
+                    <div className="space-y-2 pt-2">
+                      <h4 className="text-xs font-bold text-foreground/30 uppercase tracking-widest">Tags</h4>
+                      <div className="flex flex-wrap gap-1.5">
+                        {prompt.tags.map((tag) => (
+                          <span
+                            key={tag}
+                            className="bg-foreground/5 hover:bg-foreground/10 text-foreground/70 text-xs px-3 py-1 rounded-full border border-border transition-colors"
+                          >
+                            #{tag}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+                  )}
                 </div>
               </div>
             </div>

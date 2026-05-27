@@ -23,6 +23,8 @@ export interface Prompt {
   isPremium: boolean;
   createdAt: string;
   updatedAt: string;
+  tags?: string[];
+  models?: string[];
 }
 
 // Local helper to read all files

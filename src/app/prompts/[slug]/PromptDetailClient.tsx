@@ -35,6 +35,8 @@ interface PromptDetailClientProps {
     fullPrompt: string;
     views: number;
     likes: number;
+    tags?: string[];
+    models?: string[];
   };
 }
 
@@ -105,15 +107,16 @@ export default function PromptDetailClient({ prompt }: PromptDetailClientProps) 
   return (
     <div className="relative w-full bg-background border border-border rounded-[2.5rem] overflow-hidden shadow-2xl flex flex-col md:flex-row min-h-[600px]">
       {/* Left: Image Showcase */}
-      <div className="w-full md:w-1/2 relative bg-white/5 h-[400px] md:h-auto">
+      <div className="w-full md:w-1/2 relative bg-white/5 h-[400px] md:h-auto overflow-hidden">
         <Image
           src={prompt.image}
           alt={prompt.title}
           fill
           priority
-          quality={95}
-          sizes="(max-width: 1200px) 100vw, 1200px"
-          className="w-full h-full object-cover"
+          quality={100}
+          sizes="(max-width: 1200px) 100vw, 50vw"
+          className="w-full h-full object-cover animate-fade-in"
+          style={{ backfaceVisibility: "hidden", transform: "translate3d(0, 0, 0)" }}
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
 
@@ -250,14 +253,40 @@ export default function PromptDetailClient({ prompt }: PromptDetailClientProps) 
             <h4 className="text-xs font-bold text-foreground/30 uppercase tracking-widest">Model Settings</h4>
             <div className="grid grid-cols-2 gap-4">
               <div className="bg-foreground/5 p-4 rounded-2xl border border-border">
-                <span className="block text-[10px] text-foreground/30 uppercase font-bold mb-1">Model</span>
-                <span className="text-sm text-foreground font-bold">Gemini AI</span>
+                <span className="block text-[10px] text-foreground/30 uppercase font-bold mb-1">Compatible Models</span>
+                <div className="flex flex-wrap gap-1">
+                  {prompt.models && prompt.models.length > 0 ? (
+                    prompt.models.map((model, idx) => (
+                      <span key={model} className="text-sm text-primary font-bold">
+                        {model}{idx < (prompt.models?.length || 0) - 1 ? ", " : ""}
+                      </span>
+                    ))
+                  ) : (
+                    <span className="text-sm text-primary font-bold">Gemini AI</span>
+                  )}
+                </div>
               </div>
               <div className="bg-foreground/5 p-4 rounded-2xl border border-border">
                 <span className="block text-[10px] text-foreground/30 uppercase font-bold mb-1">Aspect Ratio</span>
                 <span className="text-sm text-foreground font-bold">16:9</span>
               </div>
             </div>
+
+            {prompt.tags && prompt.tags.length > 0 && (
+              <div className="space-y-2 pt-2">
+                <h4 className="text-xs font-bold text-foreground/30 uppercase tracking-widest">Tags</h4>
+                <div className="flex flex-wrap gap-1.5">
+                  {prompt.tags.map((tag) => (
+                    <span
+                      key={tag}
+                      className="bg-foreground/5 hover:bg-foreground/10 text-foreground/70 text-xs px-3 py-1 rounded-full border border-border transition-colors"
+                    >
+                      #{tag}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            )}
           </div>
         </div>
       </div>
