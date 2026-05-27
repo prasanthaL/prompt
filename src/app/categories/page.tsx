@@ -1,5 +1,3 @@
-"use client";
-
 import React from "react";
 import Navbar from "@/components/Navbar";
 import Image from "next/image";
@@ -16,12 +14,12 @@ import {
   Sparkles
 } from "lucide-react";
 import Link from "next/link";
+import { getAllPrompts } from "@/lib/json-db";
 
-const categories = [
+const categoryConfig = [
   {
     name: "Cinematic",
     icon: Clapperboard,
-    count: "2,450",
     id: "Cinematic",
     color: "from-blue-500/30 to-indigo-500/30",
     accent: "bg-blue-500",
@@ -30,7 +28,6 @@ const categories = [
   {
     name: "Anime",
     icon: Ghost,
-    count: "1,870",
     id: "Anime",
     color: "from-pink-500/30 to-rose-500/30",
     accent: "bg-pink-500",
@@ -39,7 +36,6 @@ const categories = [
   {
     name: "Portrait",
     icon: User,
-    count: "1,520",
     id: "Portrait",
     color: "from-orange-500/30 to-amber-500/30",
     accent: "bg-orange-500",
@@ -48,7 +44,6 @@ const categories = [
   {
     name: "Fantasy",
     icon: Zap,
-    count: "2,450",
     id: "Fantasy",
     color: "from-purple-500/30 to-violet-500/30",
     accent: "bg-purple-500",
@@ -57,7 +52,6 @@ const categories = [
   {
     name: "Sci-Fi",
     icon: Cpu,
-    count: "1,280",
     id: "Sci-Fi",
     color: "from-cyan-500/30 to-blue-500/30",
     accent: "bg-cyan-500",
@@ -66,7 +60,6 @@ const categories = [
   {
     name: "Architecture",
     icon: Home,
-    count: "980",
     id: "Architecture",
     color: "from-emerald-500/30 to-teal-500/30",
     accent: "bg-emerald-500",
@@ -75,7 +68,6 @@ const categories = [
   {
     name: "Product",
     icon: ShoppingBag,
-    count: "840",
     id: "Product",
     color: "from-yellow-500/30 to-orange-500/30",
     accent: "bg-yellow-500",
@@ -84,7 +76,6 @@ const categories = [
   {
     name: "All Prompts",
     icon: LayoutGrid,
-    count: "10,000+",
     id: "all",
     color: "from-violet-500/30 to-fuchsia-500/30",
     accent: "bg-violet-500",
@@ -92,7 +83,27 @@ const categories = [
   },
 ];
 
-export default function CategoriesPage() {
+export default async function CategoriesPage() {
+  // Load all prompts directly from JSON files — no API route needed
+  const allPrompts = await getAllPrompts();
+
+  // Compute real counts per category from JSON data
+  const categoryCounts: Record<string, number> = { all: allPrompts.length };
+  for (const prompt of allPrompts) {
+    if (prompt.category) {
+      categoryCounts[prompt.category] = (categoryCounts[prompt.category] ?? 0) + 1;
+    }
+  }
+
+  // Build enriched categories with real counts
+  const categories = categoryConfig.map((cat) => ({
+    ...cat,
+    count:
+      cat.id === "all"
+        ? allPrompts.length.toLocaleString() + "+"
+        : (categoryCounts[cat.id] ?? 0).toLocaleString(),
+  }));
+
   return (
     <main className="min-h-screen mesh-gradient pb-20">
       <Navbar />
