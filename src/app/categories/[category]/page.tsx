@@ -4,6 +4,8 @@ import Navbar from "@/components/Navbar";
 import PromptCard from "@/components/PromptCard";
 import Link from "next/link";
 import Image from "next/image";
+import CategoryPromptsClient from "./CategoryPromptsClient";
+
 import { 
   Clapperboard, 
   Zap, 
@@ -38,12 +40,7 @@ const categoryDescriptions: Record<string, { title: string; description: string;
   anime: {
     title: "Anime AI Art Prompts – Generate Stunning Anime Characters & Scenes | PromptVault",
     description:
-      "Discover the ultimate collection of anime AI art prompts on PromptVault, your go-to destination for crafting breathtaking anime-inspired artwork using the latest AI image generators. Whether you are an experienced digital artist looking to accelerate your creative workflow or a newcomer eager to explore the vibrant world of anime aesthetics, our carefully curated library of prompts empowers you to generate stunning characters, immersive fantasy landscapes, dynamic action scenes, and emotionally resonant portraits with just a few clicks. " +
-      "Our anime prompt collection spans a wide range of styles and sub-genres, from classic shonen and shojo aesthetics to modern isekai fantasy worlds, cyberpunk cityscapes, slice-of-life vignettes, and ethereal Studio Ghibli–inspired environments. Each prompt has been meticulously crafted and tested across popular AI art platforms including Midjourney, Stable Diffusion, DALL·E, and Leonardo AI, ensuring consistent, high-quality results regardless of the tool you prefer. " +
-      "Explore prompts designed for specific use cases such as character design sheets with multiple angle views, expressive chibi illustrations, detailed mecha and armor concepts, magical girl transformations, sakura-laden romantic scenes, and intense battle compositions. Every prompt includes optimized keywords, negative prompt suggestions, and recommended settings to help you achieve professional-grade output without the guesswork. " +
-      "PromptVault's anime category is continuously updated with fresh, trending prompts that reflect the latest developments in both the anime art community and AI generation technology. Our contributors include professional concept artists, manga illustrators, and AI art enthusiasts who understand the nuances of anime visual language — from the signature large expressive eyes and vibrant hair colors to the intricate linework and dramatic lighting that define the genre. " +
-      "Beyond static illustrations, you will find prompts tailored for anime-style backgrounds suitable for visual novels, desktop wallpapers, social media banners, and print-on-demand products. Whether you need a serene sunset over a Japanese countryside, a neon-drenched Tokyo alleyway at midnight, or an epic floating castle above the clouds, our prompts deliver the detail and atmosphere that bring your vision to life. " +
-      "Join thousands of creators who trust PromptVault to fuel their anime AI art projects. Browse, save, and remix prompts to match your unique artistic vision, and start generating gallery-worthy anime artwork today.",
+      "Browse PromptVault's curated anime AI prompts to generate stunning characters, landscapes, and action scenes. Tested across Midjourney, Stable Diffusion, and DALL·E for gallery-worthy results.",
     keywords: [
       "anime AI prompts",
       "anime art generator",
@@ -66,12 +63,7 @@ const categoryDescriptions: Record<string, { title: string; description: string;
   cinematic: {
     title: "Cinematic AI Art Prompts – Create Movie-Quality Visuals & Film Stills | PromptVault",
     description:
-      "Unlock the power of cinematic storytelling with PromptVault's premium collection of cinematic AI art prompts, designed to help you generate breathtaking movie-quality visuals, dramatic film stills, and Hollywood-grade compositions using leading AI image generators. Whether you are a filmmaker seeking pre-visualization concepts, a content creator building a visual brand, or a digital artist drawn to the rich aesthetics of cinema, our meticulously crafted prompts give you instant access to the tools professionals use to create stunning visual narratives. " +
-      "Our cinematic prompt library covers an expansive range of filmmaking styles and genres, including noir thriller lighting with deep shadows and venetian blind patterns, sweeping epic landscape shots reminiscent of David Lean and Ridley Scott, intimate close-up character portraits with shallow depth of field, high-octane action sequences with motion blur and dynamic angles, and moody atmospheric scenes inspired by the works of Denis Villeneuve, Christopher Nolan, and Wong Kar-wai. Each prompt is carefully engineered to capture the hallmarks of professional cinematography — golden hour lighting, anamorphic lens flares, volumetric fog, color grading, and aspect ratios that evoke the theatrical experience. " +
-      "Every prompt in this collection has been rigorously tested across Midjourney, Stable Diffusion XL, DALL·E 3, and Google Gemini to ensure cinematic consistency and photorealistic output. You will find detailed negative prompt suggestions, recommended CFG scales, sampling methods, and aspect ratio guidelines so you can reproduce professional-grade results every time, regardless of your experience level with AI art generation. " +
-      "Use our cinematic prompts for a wide variety of creative applications: concept art for short films and feature-length screenplays, mood boards for music videos and commercial campaigns, book cover illustrations with dramatic flair, desktop and ultrawide wallpapers, social media content that commands attention, and storyboard visualizations that bring scripts to life before a single frame is shot. " +
-      "PromptVault's cinematic collection is updated weekly with fresh prompts that track the latest trends in both AI generation technology and contemporary filmmaking. Our community of prompt engineers includes working cinematographers, VFX artists, and film school graduates who understand composition, color theory, and visual storytelling at a deep level. " +
-      "Step into the director's chair and start generating award-worthy cinematic artwork today. Browse our full library, save your favorites, and craft the visual story only you can tell.",
+      "Generate Hollywood-grade film stills, dramatic compositions, and cinematic scenes with PromptVault's curated prompts. Engineered for Midjourney, Stable Diffusion XL, and DALL·E 3 with anamorphic lighting and color grading built in.",
     keywords: [
       "cinematic AI prompts",
       "movie still AI art",
@@ -94,12 +86,7 @@ const categoryDescriptions: Record<string, { title: string; description: string;
   portrait: {
     title: "Portrait AI Art Prompts – Generate Stunning AI Portraits & Headshots | PromptVault",
     description:
-      "Elevate your portrait artistry with PromptVault's extensive collection of portrait AI art prompts, expertly designed to help you generate photorealistic headshots, expressive character studies, editorial beauty shots, and artistic portrait compositions using the most advanced AI image generators available today. Whether you are a photographer exploring AI-assisted workflows, a digital artist creating character concepts, or a social media creator seeking professional-grade profile imagery, our portrait prompts deliver exceptional results with minimal effort. " +
-      "Our portrait prompt library encompasses a rich diversity of styles and aesthetics. You will find prompts for classic studio headshots with Rembrandt lighting and neutral backgrounds, high-fashion editorial portraits with bold makeup and avant-garde styling, environmental portraits that place subjects in evocative real-world settings, fine art portraits inspired by the Old Masters with chiaroscuro and oil painting textures, and contemporary street photography-style captures with natural light and candid expressions. Every prompt includes precise guidance on lighting direction, skin texture, eye detail, hair rendering, and background treatment. " +
-      "Each prompt has been optimized and validated across Midjourney, Stable Diffusion XL, DALL·E 3, Flux, and Leonardo AI to guarantee consistency in facial anatomy, skin tone accuracy, and photorealistic detail. We provide comprehensive negative prompt suggestions to avoid common AI portrait pitfalls such as distorted hands, uncanny expressions, and inconsistent eye gaze, ensuring your outputs look polished and professional from the very first generation. " +
-      "Our portrait prompts serve a wide range of practical applications: professional LinkedIn and corporate headshots, author photos for books and publications, character reference sheets for game development and animation, beauty and cosmetics marketing imagery, social media profile pictures and avatar creation, couple and family portrait concepts, and artistic prints suitable for gallery exhibition or print-on-demand stores. " +
-      "The PromptVault portrait category is continuously expanded with trending styles including glass skin beauty aesthetics, cyberpunk-infused neon portraits, watercolor and mixed-media portrait treatments, vintage film grain effects, and dramatic double exposure compositions. Our contributors — professional portrait photographers, makeup artists, and character designers — bring deep domain expertise to every prompt they create. " +
-      "Start creating captivating AI portraits that tell a story. Browse, remix, and save your favorite prompts to build a personalized portrait toolkit.",
+      "Create photorealistic headshots, editorial beauty shots, and expressive character portraits with PromptVault's optimized prompts. Validated across Midjourney, Stable Diffusion XL, Flux, and DALL·E 3.",
     keywords: [
       "portrait AI prompts",
       "AI headshot generator",
@@ -122,12 +109,7 @@ const categoryDescriptions: Record<string, { title: string; description: string;
   fantasy: {
     title: "Fantasy AI Art Prompts – Create Epic Magical Worlds & Mythical Creatures | PromptVault",
     description:
-      "Embark on an extraordinary creative journey with PromptVault's expansive collection of fantasy AI art prompts, your definitive resource for generating awe-inspiring magical worlds, legendary creatures, heroic characters, and enchanting landscapes using cutting-edge AI image generators. Whether you are a tabletop RPG game master visualizing your campaign, a fantasy author illustrating your novel, or a concept artist building immersive worlds for games and film, our carefully crafted prompts unlock limitless creative possibilities at your fingertips. " +
-      "Our fantasy prompt library spans the full spectrum of the genre, from high fantasy kingdoms with towering castles, enchanted forests, and dragon-filled skies to dark fantasy realms of shadow and necromancy, grimdark battlefields, and haunted ruins. Explore prompts for classic Tolkien-inspired landscapes with rolling green hills and elven architecture, Lovecraftian cosmic horror with incomprehensible entities, whimsical fairy tale settings with mushroom villages and bioluminescent creatures, steampunk-fantasy hybrid worlds with clockwork machinery and arcane technology, and mythological scenes drawn from Norse, Greek, Celtic, and Japanese folklore. " +
-      "Every prompt is precision-engineered and tested across Midjourney, Stable Diffusion XL, DALL·E 3, and Leonardo AI for maximum visual impact. You will find detailed specifications for lighting atmosphere — from the warm glow of enchanted crystals to the cold blue moonlight of a witch's tower — along with composition guides, color palette recommendations, and negative prompt strategies that eliminate common artifacts and maintain the integrity of complex fantasy scenes with multiple characters and intricate environments. " +
-      "Use our fantasy prompts for an incredible range of creative projects: Dungeons & Dragons character art and campaign maps, book cover illustrations for epic fantasy and urban fantasy novels, trading card game artwork, video game concept art and loading screens, desktop wallpapers and poster prints, worldbuilding mood boards, and social media content that captivates fantasy-loving audiences. " +
-      "PromptVault's fantasy category is a living collection that grows daily with contributions from professional concept artists, fantasy illustrators, and worldbuilders who understand the visual language of the genre at an expert level. Stay ahead of trends with prompts reflecting the latest in AI art capabilities, from hyper-detailed 4K renders to painterly styles that evoke the golden age of fantasy illustration. " +
-      "Forge your legend. Dive into our fantasy prompt library and start generating breathtaking artwork that transports viewers to worlds beyond imagination.",
+      "Summon dragons, mythical heroes, and enchanted worlds with PromptVault's epic fantasy AI prompts. Perfect for D&D campaigns, book covers, and concept art — tested on Midjourney, DALL·E 3, and Leonardo AI.",
     keywords: [
       "fantasy AI prompts",
       "fantasy art generator",
@@ -150,12 +132,7 @@ const categoryDescriptions: Record<string, { title: string; description: string;
   "sci-fi": {
     title: "Sci-Fi AI Art Prompts – Generate Futuristic Worlds & Space Art | PromptVault",
     description:
-      "Push the boundaries of imagination with PromptVault's comprehensive collection of science fiction AI art prompts, meticulously designed to help you generate stunning futuristic cityscapes, interstellar spacecraft, alien worlds, cyberpunk dystopias, and advanced technology concepts using the most powerful AI image generators available. Whether you are a sci-fi author visualizing your next novel, a game developer building futuristic environments, or a digital artist captivated by the aesthetics of tomorrow, our prompts provide the creative fuel to bring your boldest visions to life. " +
-      "Our sci-fi prompt library covers the complete spectrum of science fiction sub-genres and visual styles. Dive into cyberpunk megacities bathed in neon with rain-slicked streets and holographic advertisements, hard sci-fi space stations with physically accurate zero-gravity environments and realistic spacecraft engineering, retro-futurism and Atompunk aesthetics inspired by mid-century visions of tomorrow, post-apocalyptic wastelands with reclaimed nature and rusted technology, solarpunk utopias powered by clean energy and living architecture, and biopunk worlds where organic and mechanical elements merge into something entirely new. " +
-      "Each prompt has been carefully optimized and battle-tested across Midjourney, Stable Diffusion XL, DALL·E 3, Flux, and Google Gemini to deliver photorealistic and concept-art-quality results. You will find precise guidance on lighting setups — from the cold blue glow of cryogenic chambers to the warm amber of a terraformed Martian sunset — along with material specifications, atmospheric effects, camera angles, and negative prompt recommendations that keep complex sci-fi scenes sharp, coherent, and visually striking. " +
-      "Our sci-fi prompts serve creators across a multitude of applications: concept art for indie and AAA video games, book and magazine cover illustrations, film and television pre-visualization, tabletop RPG worldbuilding assets, desktop and ultrawide monitor wallpapers, VR environment mood boards, YouTube thumbnail and social media graphics, and print-on-demand products for sci-fi enthusiasts. " +
-      "The PromptVault sci-fi category is updated regularly with cutting-edge prompts contributed by professional concept artists, aerospace enthusiasts, VFX designers, and science fiction writers who understand the technical and aesthetic nuances that make sci-fi art truly convincing. From photorealistic renders of orbital habitats to painterly visions of first contact, every prompt is crafted to deliver maximum creative impact. " +
-      "Chart your course through the cosmos. Explore our sci-fi prompt library and generate artwork that defines the future.",
+      "Explore cyberpunk cities, alien worlds, and deep-space vistas with PromptVault's sci-fi AI prompts. Optimized for Midjourney, Stable Diffusion XL, Flux, and Gemini for maximum visual impact.",
     keywords: [
       "sci-fi AI prompts",
       "futuristic art generator",
@@ -178,12 +155,7 @@ const categoryDescriptions: Record<string, { title: string; description: string;
   architecture: {
     title: "Architecture AI Art Prompts – Design Stunning Buildings & Interiors | PromptVault",
     description:
-      "Transform your architectural vision into stunning visual reality with PromptVault's premium collection of architecture AI art prompts, thoughtfully designed to help you generate photorealistic building renders, innovative interior designs, futuristic structural concepts, and breathtaking urban landscapes using today's most advanced AI image generators. Whether you are a practicing architect seeking rapid concept visualization, an interior designer exploring aesthetic directions, a real estate professional creating aspirational property imagery, or a student developing your portfolio, our architecture prompts deliver professional-caliber results in seconds. " +
-      "Our architecture prompt library covers an extraordinary breadth of styles, movements, and building typologies. Explore prompts for modernist glass-and-steel skyscrapers with clean geometric lines, organic parametric architecture inspired by Zaha Hadid and Bjarke Ingels, Brutalist concrete monuments with dramatic shadow play, Art Deco residential towers with ornate detailing and metallic accents, sustainable green buildings with living walls and rooftop gardens, minimalist Japanese interiors with tatami floors and shoji screens, luxurious penthouse living spaces with panoramic city views, cozy Scandinavian hygge interiors, and avant-garde deconstructivist structures that challenge conventional form. " +
-      "Every prompt has been rigorously tested across Midjourney, Stable Diffusion XL, DALL·E 3, and Leonardo AI for architectural accuracy and photorealistic material rendering. You will find detailed specifications for lighting conditions — golden hour exterior shots, dramatic twilight photography, bright midday sun casting crisp shadows, and warm interior ambient lighting — along with guidance on perspective, material textures like exposed concrete, brushed brass, terrazzo, and natural timber, and composition techniques that showcase architectural intent. " +
-      "Our architecture prompts support a diverse range of professional and creative use cases: client presentation renderings for residential and commercial projects, competition entry visualizations, real estate marketing and listing imagery, interior design mood boards and concept presentations, urban planning and landscape architecture studies, architectural photography-style social media content, and fine art prints celebrating the built environment. " +
-      "The PromptVault architecture category is continuously enriched with prompts from licensed architects, interior designers, 3D visualization specialists, and architectural photographers who bring deep industry knowledge and aesthetic sensibility to every contribution. Stay current with prompts reflecting the latest trends in biophilic design, adaptive reuse, net-zero construction, and AI-native architectural exploration. " +
-      "Build the future one render at a time. Explore our architecture prompt library and start generating designs that inspire.",
+      "Render photorealistic buildings, interiors, and urban landscapes with PromptVault's architecture AI prompts. From Brutalist to parametric design — tested on Midjourney, Stable Diffusion XL, and Leonardo AI.",
     keywords: [
       "architecture AI prompts",
       "building design AI art",
@@ -206,12 +178,7 @@ const categoryDescriptions: Record<string, { title: string; description: string;
   product: {
     title: "Product Photography AI Prompts – Create Professional Product Shots | PromptVault",
     description:
-      "Revolutionize your product imagery with PromptVault's curated collection of product photography AI art prompts, expertly engineered to help you generate professional-grade product shots, lifestyle compositions, e-commerce hero images, and advertising-ready visuals using the most advanced AI image generators on the market. Whether you are a small business owner needing polished product photos on a budget, a marketing professional building campaign assets, a brand designer crafting visual identity, or an e-commerce entrepreneur scaling your catalog, our product prompts deliver studio-quality results without the studio. " +
-      "Our product prompt library covers an impressive variety of product categories and photographic styles. Generate prompts for minimalist product-on-white e-commerce shots with soft shadows and clean reflections, luxury lifestyle compositions featuring cosmetics, jewelry, and fashion accessories in aspirational settings, tech product renders showcasing smartphones, headphones, and gadgets with sleek metallic surfaces and dramatic lighting, food and beverage photography with appetizing styling and complementary props, skincare and beauty product flat lays with botanical elements and textured surfaces, and automotive detail shots highlighting paint finish, interior leather, and design elements. " +
-      "Each prompt has been thoroughly optimized and tested across Midjourney, Stable Diffusion XL, DALL·E 3, and Google Gemini for photorealistic material rendering and commercial-quality output. You will find precise specifications for studio lighting setups — three-point lighting for clean product isolation, dramatic single-key setups for premium appeal, soft diffused natural light for lifestyle contexts — along with surface material guidance, prop styling suggestions, color palette recommendations, and negative prompt strategies that eliminate unwanted artifacts and maintain product integrity. " +
-      "Our product prompts are purpose-built for real-world commercial applications: Amazon and Shopify listing images that boost conversion rates, social media advertising creatives for Instagram, Facebook, and Pinterest, brand lookbook and catalog imagery, Kickstarter and crowdfunding campaign visuals, website hero banners and landing page assets, packaging mockup visualizations, and pitch deck presentations that impress investors and stakeholders. " +
-      "The PromptVault product category is regularly updated with fresh prompts contributed by commercial photographers, art directors, brand strategists, and e-commerce specialists who understand what makes product imagery convert. Stay ahead of visual trends with prompts for emerging aesthetics like muted earth-tone palettes, holographic and iridescent surfaces, sustainable packaging photography, and AI-native product design exploration. " +
-      "Turn every product into a showstopper. Browse our product photography prompts and start creating imagery that sells.",
+      "Produce studio-quality product shots, lifestyle imagery, and e-commerce hero images with PromptVault's product AI prompts. Optimized for Midjourney, Stable Diffusion XL, and Gemini — no studio required.",
     keywords: [
       "product photography AI prompts",
       "e-commerce product shots AI",
@@ -643,8 +610,9 @@ export default async function CategoryPage({ params }: PageProps) {
   // Category specific intro paragraph for the Tips Section
   const categoryIntroText = `${displayName} AI prompts are text instructions used with Gemini AI to generate professional-grade ${decodedCategory}-style visual content. These prompts help you create stunning ${decodedCategory} characters, scenes, and compositions by specifying fine details like subject focus, action poses, mood transitions, lighting, and environmental factors. Use our detailed copy-and-paste prompts to get the best results and bring your creative imagination to life.`;
 
-  // Dynamic slice of the 3 latest prompts of this category
-  const latestPrompts = prompts.slice(0, 3);
+  // How many prompts to pre-render on the server (first visible batch)
+  const INITIAL_COUNT = 8;
+  const initialPrompts = prompts.slice(0, INITIAL_COUNT);
 
   return (
     <main className="min-h-screen mesh-gradient pb-20">
@@ -812,34 +780,12 @@ export default async function CategoryPage({ params }: PageProps) {
             </div>
           </div>
 
-          {prompts.length > 0 ? (
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 md:gap-8">
-              {prompts.map((p) => (
-                <PromptCard
-                  key={p.id}
-                  {...p}
-                  views={p.views?.toString() || "0"}
-                  likes={p.likes?.toString() || "0"}
-                />
-              ))}
-            </div>
-          ) : (
-            <div className="py-24 flex flex-col items-center justify-center text-center space-y-6 glass-dark rounded-[2.5rem] border border-foreground/10">
-              <div className="w-16 h-16 bg-foreground/5 rounded-full flex items-center justify-center">
-                <Sparkles className="w-8 h-8 text-foreground/10" />
-              </div>
-              <div className="space-y-2">
-                <h3 className="text-xl font-bold">No prompts found</h3>
-                <p className="text-foreground/40 text-sm">We haven't added any prompts to this category yet.</p>
-              </div>
-              <Link
-                href="/browse"
-                className="bg-primary text-white px-6 py-2.5 rounded-xl font-bold hover:bg-primary-hover transition-all text-sm"
-              >
-                Browse All Prompts
-              </Link>
-            </div>
-          )}
+          <CategoryPromptsClient
+            initialPrompts={initialPrompts}
+            totalCount={prompts.length}
+            categoryKey={key}
+            displayName={displayName}
+          />
         </section>
 
         {/* Layout Row 1: Intro + Tips Block */}
@@ -1003,7 +949,7 @@ export default async function CategoryPage({ params }: PageProps) {
               </Link>
             </div>
             <div className="space-y-4">
-              {latestPrompts.map((p) => {
+              {initialPrompts.slice(0, 3).map((p) => {
                 const cardHref = p.slug ? `/prompts/${p.slug}` : `/prompts/${p.id}`;
                 return (
                   <Link

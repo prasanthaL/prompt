@@ -1,5 +1,6 @@
 import fs from "fs";
 import path from "path";
+import { unstable_cache } from "next/cache";
 
 const DATA_DIR = path.join(process.cwd(), "src/data/prompts");
 // Simplified: If the KV credentials exist, use them!
@@ -79,10 +80,26 @@ export const getAllPrompts = async (): Promise<Prompt[]> => {
   return getLocalPrompts().sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime());
 };
 
-export const getPromptsByCategory = async (category: string): Promise<Prompt[]> => {
+// Internal implementation (not cached)
+const _getPromptsByCategory = async (category: string): Promise<Prompt[]> => {
   const all = await getAllPrompts();
   return all.filter(p => p.category.toLowerCase() === category.toLowerCase());
 };
+
+/**
+ * Returns all prompts for a given category.
+ * Results are cached per-category for 60 seconds to avoid repeated
+ * filesystem/KV reads on every request.
+ */
+export const getPromptsByCategory = (category: string): Promise<Prompt[]> =>
+  unstable_cache(
+    () => _getPromptsByCategory(category),
+    [`category-prompts-${category.toLowerCase()}`],
+    {
+      tags: ["prompts", `category-${category.toLowerCase()}`],
+      revalidate: 60,
+    }
+  )();
 
 export const getPromptById = async (id: string): Promise<Prompt | null> => {
   const all = await getAllPrompts();

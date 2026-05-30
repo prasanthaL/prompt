@@ -2,7 +2,7 @@
 
 import React from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Copy, Check, Eye, Heart, Share2, Download, Sparkles, Link2 } from "lucide-react";
+import { Copy, Check, Eye, Heart, Share2, Download, Sparkles, Link2, Info, BookOpen, Lightbulb, CheckCircle2, AlertCircle } from "lucide-react";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
 
@@ -37,6 +37,10 @@ interface PromptDetailClientProps {
     likes: number;
     tags?: string[];
     models?: string[];
+    /** Auto-generated description about this prompt (future JSON field) */
+    about?: string;
+    /** Step-by-step usage instructions (future JSON field) */
+    howToUse?: string[];
   };
 }
 
@@ -105,6 +109,7 @@ export default function PromptDetailClient({ prompt }: PromptDetailClientProps) 
   ];
 
   return (
+    <>
     <div className="relative w-full bg-background border border-border rounded-[2.5rem] overflow-hidden shadow-2xl flex flex-col md:flex-row min-h-[600px]">
       {/* Left: Image Showcase */}
       <div className="w-full md:w-1/2 relative bg-white/5 h-[400px] md:h-auto overflow-hidden">
@@ -243,8 +248,16 @@ export default function PromptDetailClient({ prompt }: PromptDetailClientProps) 
 
             <div className="relative group">
               <div className="absolute inset-0 bg-primary/5 rounded-[2rem] blur-2xl opacity-0 group-hover:opacity-100 transition-opacity" />
-              <div className="relative bg-foreground/5 border border-border rounded-[2rem] p-8 font-mono text-base leading-relaxed text-foreground/80 select-all selection:bg-primary/30">
-                {prompt.fullPrompt}
+              {/* Outer wrapper constrains height and clips overflow */}
+              <div className="relative rounded-[2rem] overflow-hidden">
+                <div
+                  className="bg-foreground/5 border border-border rounded-[2rem] p-8 font-mono text-base leading-relaxed text-foreground/80 select-all selection:bg-primary/30 overflow-y-auto"
+                  style={{ maxHeight: "18rem" }}
+                >
+                  {prompt.fullPrompt}
+                </div>
+                {/* Fade-out hint at the bottom */}
+                <div className="pointer-events-none absolute bottom-0 left-0 right-0 h-10 bg-gradient-to-t from-[#0d0d0d]/80 to-transparent rounded-b-[2rem]" />
               </div>
             </div>
           </div>
@@ -291,5 +304,100 @@ export default function PromptDetailClient({ prompt }: PromptDetailClientProps) 
         </div>
       </div>
     </div>
+
+      {/* ── About This Prompt ─────────────────────────────────── */}
+      <div className="mt-10 grid grid-cols-1 lg:grid-cols-2 gap-6">
+
+        {/* About This Prompt */}
+        <div className="bg-foreground/[0.03] border border-border rounded-[2rem] p-8 space-y-5">
+          <div className="flex items-center gap-3">
+            <div className="w-10 h-10 rounded-2xl bg-primary/10 flex items-center justify-center shrink-0">
+              <Info className="w-5 h-5 text-primary" />
+            </div>
+            <div>
+              <h2 className="text-lg font-bold leading-tight">About This Prompt</h2>
+              <span className="text-[10px] font-bold uppercase tracking-widest text-foreground/30">Auto Generated</span>
+            </div>
+          </div>
+
+          <p className="text-foreground/60 text-sm leading-relaxed">
+            {prompt.about ??
+              `This is a high-quality ${prompt.category} AI prompt crafted by ${prompt.author}. It is designed to produce ${
+                prompt.category === "Cinematic" ? "cinematic, film-quality" :
+                prompt.category === "Fantasy" ? "rich, imaginative fantasy" :
+                prompt.category === "Anime" ? "detailed anime-style" :
+                prompt.category === "Portrait" ? "realistic, expressive portrait" :
+                prompt.category === "Architecture" ? "architecturally precise" :
+                prompt.category === "Sci-Fi" ? "futuristic sci-fi" :
+                "stunning"
+              } visuals with minimal iteration. The prompt uses carefully selected descriptors and stylistic cues ${
+                prompt.models && prompt.models.length > 0
+                  ? `optimised for ${prompt.models.join(" and ")}`
+                  : "compatible with leading AI image models"
+              }, making it ideal for creators who want consistent, professional results.`
+            }
+          </p>
+
+          {/* Highlight chips */}
+          <div className="flex flex-wrap gap-2 pt-1">
+            {[
+              { icon: CheckCircle2, label: "Production Ready" },
+              { icon: CheckCircle2, label: "Beginner Friendly" },
+              { icon: Lightbulb,    label: "Creative Freedom" },
+            ].map(({ icon: Icon, label }) => (
+              <span
+                key={label}
+                className="inline-flex items-center gap-1.5 bg-primary/10 text-primary text-[11px] font-bold px-3 py-1.5 rounded-full"
+              >
+                <Icon className="w-3.5 h-3.5" />
+                {label}
+              </span>
+            ))}
+          </div>
+        </div>
+
+        {/* How To Use */}
+        <div className="bg-foreground/[0.03] border border-border rounded-[2rem] p-8 space-y-5">
+          <div className="flex items-center gap-3">
+            <div className="w-10 h-10 rounded-2xl bg-emerald-500/10 flex items-center justify-center shrink-0">
+              <BookOpen className="w-5 h-5 text-emerald-400" />
+            </div>
+            <div>
+              <h2 className="text-lg font-bold leading-tight">How To Use</h2>
+              <span className="text-[10px] font-bold uppercase tracking-widest text-foreground/30">Reusable Guide</span>
+            </div>
+          </div>
+
+          <ol className="space-y-3">
+            {(prompt.howToUse ?? [
+              "Copy the prompt using the \"Copy Prompt\" button above.",
+              `Open your preferred AI model (${
+                prompt.models && prompt.models.length > 0
+                  ? prompt.models[0]
+                  : "Gemini, Midjourney, or DALL·E"
+              }) and paste the prompt into the input field.`,
+              "Optionally, replace bracketed placeholders (e.g. [subject], [style]) with your own values to personalise the output.",
+              "Run the prompt and review the result — iterate by tweaking descriptors for different moods or compositions.",
+              "Save or export your favourite generations directly from the AI tool's interface.",
+            ]).map((step, idx) => (
+              <li key={idx} className="flex items-start gap-3">
+                <span className="shrink-0 w-6 h-6 rounded-full bg-emerald-500/15 text-emerald-400 text-xs font-black flex items-center justify-center mt-0.5">
+                  {idx + 1}
+                </span>
+                <span className="text-foreground/60 text-sm leading-relaxed">{step}</span>
+              </li>
+            ))}
+          </ol>
+
+          <div className="flex items-start gap-2.5 bg-amber-500/5 border border-amber-500/15 rounded-2xl px-4 py-3 mt-2">
+            <AlertCircle className="w-4 h-4 text-amber-400 shrink-0 mt-0.5" />
+            <p className="text-[12px] text-amber-400/80 leading-relaxed">
+              For best results, use this prompt as-is before making edits — the defaults are already optimised.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </>
   );
 }
