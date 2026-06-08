@@ -14,7 +14,10 @@ export async function PUT(
       category: body.category,
       fullPrompt: body.fullPrompt,
       image: body.image,
-      isPremium: Boolean(body.isPremium),
+      isPremium: false,
+      isTrending: Boolean(body.isTrending),
+      isLatest: Boolean(body.isLatest),
+      isFeatured: Boolean(body.isFeatured),
       tags: Array.isArray(body.tags) ? body.tags : [],
       models: Array.isArray(body.models) ? body.models : [],
     });

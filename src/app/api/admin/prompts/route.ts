@@ -3,7 +3,7 @@ import { getAllPrompts, savePrompt, Prompt } from "@/lib/json-db";
 
 export async function POST(req: Request) {
   try {
-    const { title, category, fullPrompt, image, isPremium, tags, models } = await req.json();
+    const { title, category, fullPrompt, image, isTrending, isLatest, isFeatured, tags, models } = await req.json();
 
     if (!title || !category || !fullPrompt || !image) {
       return NextResponse.json({ error: "Missing required fields" }, { status: 400 });
@@ -24,7 +24,10 @@ export async function POST(req: Request) {
       category,
       fullPrompt,
       image,
-      isPremium: Boolean(isPremium),
+      isPremium: false,
+      isTrending: Boolean(isTrending),
+      isLatest: Boolean(isLatest),
+      isFeatured: Boolean(isFeatured),
       author: "Admin",
       views: 0,
       likes: 0,

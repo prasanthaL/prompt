@@ -97,7 +97,9 @@ function DashboardContent() {
     title: "",
     category: "Cinematic",
     fullPrompt: "",
-    isPremium: false,
+    isTrending: false,
+    isLatest: false,
+    isFeatured: false,
   });
   const [file, setFile] = useState<File | null>(null);
   const [preview, setPreview] = useState("");
@@ -139,7 +141,9 @@ function DashboardContent() {
             title: prompt.title,
             category: prompt.category,
             fullPrompt: prompt.fullPrompt,
-            isPremium: prompt.isPremium,
+            isTrending: prompt.isTrending || false,
+            isLatest: prompt.isLatest || false,
+            isFeatured: prompt.isFeatured || false,
           });
           setPreview(prompt.image);
           setExistingImageUrl(prompt.image);
@@ -179,7 +183,7 @@ function DashboardContent() {
   };
 
   const resetForm = () => {
-    setFormData({ title: "", category: "Cinematic", fullPrompt: "", isPremium: false });
+    setFormData({ title: "", category: "Cinematic", fullPrompt: "", isTrending: false, isLatest: false, isFeatured: false });
     setFile(null);
     setPreview("");
     setEditingId(null);
@@ -546,17 +550,71 @@ function DashboardContent() {
               )}
             </div>
 
-            <div className="flex items-center gap-4 p-4 bg-white/5 rounded-2xl border border-white/5">
-              <input
-                type="checkbox"
-                id="premium"
-                checked={formData.isPremium}
-                onChange={(e) => setFormData({ ...formData, isPremium: e.target.checked })}
-                className="w-5 h-5 rounded-md accent-primary"
-              />
-              <label htmlFor="premium" className="text-sm font-bold text-white/70 cursor-pointer">
-                Mark as Premium Prompt
+            {/* Status Badges Section */}
+            <div className="space-y-3">
+              <label className="text-xs font-bold text-white/30 uppercase tracking-widest ml-1 flex items-center gap-2">
+                <Sparkles className="w-4 h-4 text-primary" />
+                Prompt Labels
               </label>
+              <div className="grid grid-cols-3 gap-3">
+
+                {/* Trending */}
+                <button
+                  type="button"
+                  onClick={() => setFormData({ ...formData, isTrending: !formData.isTrending })}
+                  className={cn(
+                    "flex items-center gap-3 p-4 rounded-2xl border transition-all cursor-pointer text-left",
+                    formData.isTrending
+                      ? "bg-orange-500/15 border-orange-500/40 text-orange-400"
+                      : "bg-white/5 border-white/10 text-white/40 hover:border-white/20 hover:text-white/70"
+                  )}
+                >
+                  <span className="text-xl">🔥</span>
+                  <div>
+                    <p className="font-bold text-sm">Trending</p>
+                    <p className="text-[10px] opacity-60">Show in trending</p>
+                  </div>
+                  {formData.isTrending && <span className="ml-auto text-orange-400 font-black text-xs">ON</span>}
+                </button>
+
+                {/* Latest */}
+                <button
+                  type="button"
+                  onClick={() => setFormData({ ...formData, isLatest: !formData.isLatest })}
+                  className={cn(
+                    "flex items-center gap-3 p-4 rounded-2xl border transition-all cursor-pointer text-left",
+                    formData.isLatest
+                      ? "bg-blue-500/15 border-blue-500/40 text-blue-400"
+                      : "bg-white/5 border-white/10 text-white/40 hover:border-white/20 hover:text-white/70"
+                  )}
+                >
+                  <span className="text-xl">🆕</span>
+                  <div>
+                    <p className="font-bold text-sm">Latest</p>
+                    <p className="text-[10px] opacity-60">Show in latest</p>
+                  </div>
+                  {formData.isLatest && <span className="ml-auto text-blue-400 font-black text-xs">ON</span>}
+                </button>
+
+                {/* Featured */}
+                <button
+                  type="button"
+                  onClick={() => setFormData({ ...formData, isFeatured: !formData.isFeatured })}
+                  className={cn(
+                    "flex items-center gap-3 p-4 rounded-2xl border transition-all cursor-pointer text-left",
+                    formData.isFeatured
+                      ? "bg-purple-500/15 border-purple-500/40 text-purple-400"
+                      : "bg-white/5 border-white/10 text-white/40 hover:border-white/20 hover:text-white/70"
+                  )}
+                >
+                  <span className="text-xl">⭐</span>
+                  <div>
+                    <p className="font-bold text-sm">Featured</p>
+                    <p className="text-[10px] opacity-60">Homepage spotlight</p>
+                  </div>
+                  {formData.isFeatured && <span className="ml-auto text-purple-400 font-black text-xs">ON</span>}
+                </button>
+              </div>
             </div>
 
             <button
@@ -597,7 +655,6 @@ function DashboardContent() {
               image={preview || "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=500"}
               views={0}
               likes={0}
-              isPremium={formData.isPremium}
               tags={tags}
               models={models}
             />
