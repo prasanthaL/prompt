@@ -1,9 +1,6 @@
-"use client";
-
 import React from "react";
 import Navbar from "@/components/Navbar";
-import { useParams, useRouter } from "next/navigation";
-import blogsData from "@/data/blogs.json";
+import { getActiveBlogs, getBlogBySlug } from "@/lib/json-db";
 import {
   Calendar,
   User,
@@ -15,33 +12,75 @@ import {
 } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
+import { Metadata } from "next";
 
-export default function BlogDetail() {
-  const params = useParams();
-  const router = useRouter();
-  const slug = params.slug as string;
+export const revalidate = 60; // Revalidate every minute
 
-  const blog = blogsData.find((b) => b.slug === slug);
+interface PageProps {
+  params: Promise<{ slug: string }>;
+}
 
-  if (!blog) {
+// Dynamic SEO Metadata Generation
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { slug } = await params;
+  const blog = await getBlogBySlug(slug);
+
+  if (!blog || !blog.active) {
+    return {
+      title: "Article Not Found",
+      description: "The requested blog article was not found.",
+    };
+  }
+
+  return {
+    title: blog.title,
+    description: blog.excerpt,
+    openGraph: {
+      title: blog.title,
+      description: blog.excerpt,
+      type: "article",
+      publishedTime: blog.date,
+      authors: [blog.author],
+      images: [
+        {
+          url: blog.image.startsWith("http") ? blog.image : `https://www.promptvault.ai${blog.image}`,
+          alt: blog.title,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: blog.title,
+      description: blog.excerpt,
+      images: [blog.image.startsWith("http") ? blog.image : `https://www.promptvault.ai${blog.image}`],
+    },
+  };
+}
+
+export default async function BlogDetail({ params }: PageProps) {
+  const { slug } = await params;
+  const blog = await getBlogBySlug(slug);
+
+  if (!blog || !blog.active) {
     return (
       <main className="min-h-screen mesh-gradient flex items-center justify-center p-4">
         <div className="text-center space-y-6">
           <h1 className="text-6xl font-bold text-primary">404</h1>
           <p className="text-xl text-foreground/60">Article not found</p>
-          <button
-            onClick={() => router.push("/blog")}
-            className="px-8 py-3 bg-primary text-white rounded-xl font-bold hover:bg-primary-hover transition-all"
+          <Link
+            href="/blog"
+            className="inline-block px-8 py-3 bg-primary text-white rounded-xl font-bold hover:bg-primary-hover transition-all"
           >
             Back to Blog
-          </button>
+          </Link>
         </div>
       </main>
     );
   }
 
-  // Related posts (excluding current)
-  const relatedPosts = blogsData
+  // Related posts (excluding current, must be active)
+  const activeBlogs = await getActiveBlogs();
+  const relatedPosts = activeBlogs
     .filter((b) => b.slug !== slug)
     .slice(0, 3);
 
@@ -136,55 +175,57 @@ export default function BlogDetail() {
           {/* Footer of Article */}
           <div className="pt-12 border-t border-border flex flex-col sm:flex-row justify-between items-center gap-8">
             <div className="flex gap-4">
-              <button className="flex items-center gap-2 px-6 py-3 rounded-xl bg-foreground/5 hover:bg-foreground/10 border border-border transition-all">
+              <button className="flex items-center gap-2 px-6 py-3 rounded-xl bg-foreground/5 hover:bg-foreground/10 border border-border transition-all cursor-pointer">
                 <Share2 className="w-4 h-4" />
                 Share Article
               </button>
-              <button className="flex items-center gap-2 px-6 py-3 rounded-xl bg-foreground/5 hover:bg-foreground/10 border border-border transition-all">
+              <button className="flex items-center gap-2 px-6 py-3 rounded-xl bg-foreground/5 hover:bg-foreground/10 border border-border transition-all cursor-pointer">
                 <MessageSquare className="w-4 h-4" />
                 Comments
               </button>
             </div>
-            <button
-              onClick={() => router.push("/blog")}
+            <Link
+              href="/blog"
               className="flex items-center gap-2 text-primary font-bold hover:gap-3 transition-all"
             >
               <ArrowLeft className="w-5 h-5" />
               Back to all posts
-            </button>
+            </Link>
           </div>
         </div>
       </article>
 
       {/* Related Posts */}
-      <section className="px-4 md:px-8 pb-32 border-t border-border mt-20 pt-20">
-        <div className="max-w-7xl mx-auto space-y-12">
-          <h2 className="text-3xl font-bold">Related Articles</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {relatedPosts.map((post) => (
-              <div
-                key={post.id}
-                onClick={() => router.push(`/blog/${post.slug}`)}
-                className="group cursor-pointer space-y-4"
-              >
-                <div className="aspect-video rounded-2xl overflow-hidden border border-border relative">
-                  <Image
-                    src={post.image}
-                    alt={post.title}
-                    fill
-                    quality={90}
-                    sizes="(max-width: 768px) 100vw, 33vw"
-                    className="object-cover group-hover:scale-105 transition-transform duration-500"
-                  />
-                </div>
-                <h3 className="text-lg font-bold leading-tight group-hover:text-primary transition-colors">
-                  {post.title}
-                </h3>
-              </div>
-            ))}
+      {relatedPosts.length > 0 && (
+        <section className="px-4 md:px-8 pb-32 border-t border-border mt-20 pt-20">
+          <div className="max-w-7xl mx-auto space-y-12">
+            <h2 className="text-3xl font-bold">Related Articles</h2>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              {relatedPosts.map((post) => (
+                <Link
+                  key={post.id}
+                  href={`/blog/${post.slug}`}
+                  className="group block cursor-pointer space-y-4"
+                >
+                  <div className="aspect-video rounded-2xl overflow-hidden border border-border relative">
+                    <Image
+                      src={post.image}
+                      alt={post.title}
+                      fill
+                      quality={90}
+                      sizes="(max-width: 768px) 100vw, 33vw"
+                      className="object-cover group-hover:scale-105 transition-transform duration-500"
+                    />
+                  </div>
+                  <h3 className="text-lg font-bold leading-tight group-hover:text-primary transition-colors">
+                    {post.title}
+                  </h3>
+                </Link>
+              ))}
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      )}
 
       <footer className="py-20 px-4 md:px-8 border-t border-border bg-card/30 text-foreground">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between gap-12">

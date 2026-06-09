@@ -38,11 +38,10 @@ import {
   ShoppingBag,
   ImageIcon,
 } from "lucide-react";
-import blogsData from "@/data/blogs.json";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
 import Pagination from "@/components/Pagination";
-import { Prompt } from "@/lib/json-db";
+import { Prompt, Blog } from "@/lib/json-db";
 
 /* ──────────────────────────────────────────────
    FAQ data — used for both UI and JSON-LD schema
@@ -244,9 +243,10 @@ const categoriesData = [
 
 interface HomeClientProps {
   initialPrompts: Prompt[];
+  initialBlogs: Blog[];
 }
 
-export default function HomeClient({ initialPrompts }: HomeClientProps) {
+export default function HomeClient({ initialPrompts, initialBlogs }: HomeClientProps) {
   const [activeCategory, setActiveCategory] = useState("all");
   const [dbPrompts, setDbPrompts] = useState<Prompt[]>(initialPrompts);
   const [localSearch, setLocalSearch] = useState("");
@@ -648,7 +648,7 @@ export default function HomeClient({ initialPrompts }: HomeClientProps) {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {blogsData.slice(0, 3).map((blog, i) => (
+          {initialBlogs.slice(0, 3).map((blog, i) => (
             <Link
               key={blog.id}
               href={`/blog/${blog.slug}`}

@@ -1,11 +1,11 @@
 import React from "react";
 import { Sparkles, LogOut, ArrowLeft } from "lucide-react";
 import Link from "next/link";
-import { getAllPrompts } from "@/lib/json-db";
-import ManagePromptsClient from "./ManagePromptsClient";
+import { getAllBlogs } from "@/lib/json-db";
+import ManageBlogsClient from "./ManageBlogsClient";
 
-export default async function ManagePromptsPage() {
-  const prompts = await getAllPrompts();
+export default async function ManageBlogsPage() {
+  const blogs = await getAllBlogs();
 
   return (
     <main className="min-h-screen mesh-gradient pb-32 text-white">
@@ -29,10 +29,10 @@ export default async function ManagePromptsPage() {
               <Link href="/admin/dashboard" className="text-white/60 hover:text-white transition-colors">
                 Upload Prompt
               </Link>
-              <Link href="/admin/prompts" className="text-primary border-b-2 border-primary pb-1">
+              <Link href="/admin/prompts" className="text-white/60 hover:text-white transition-colors">
                 Manage Prompts
               </Link>
-              <Link href="/admin/blogs" className="text-white/60 hover:text-white transition-colors">
+              <Link href="/admin/blogs" className="text-primary border-b-2 border-primary pb-1">
                 Manage Blogs
               </Link>
             </div>
@@ -48,7 +48,7 @@ export default async function ManagePromptsPage() {
         </div>
       </nav>
 
-      <ManagePromptsClient initialPrompts={prompts} />
+      <ManageBlogsClient initialBlogs={blogs} />
     </main>
   );
 }

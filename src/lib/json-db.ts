@@ -3,6 +3,7 @@ import path from "path";
 import { unstable_cache } from "next/cache";
 
 const DATA_DIR = path.join(process.cwd(), "src/data/prompts");
+const BLOGS_FILE = path.join(process.cwd(), "src/data/blogs.json");
 // Simplified: If the KV credentials exist, use them!
 const SHOULD_USE_KV = !!process.env.KV_REST_API_URL;
 
@@ -29,6 +30,19 @@ export interface Prompt {
   updatedAt: string;
   tags?: string[];
   models?: string[];
+}
+
+export interface Blog {
+  id: string;
+  slug: string;
+  title: string;
+  excerpt: string;
+  date: string;
+  author: string;
+  category: string;
+  image: string;
+  content: string;
+  active: boolean;
 }
 
 // Local helper to read all files
@@ -221,4 +235,84 @@ export const getSimilarPrompts = async (id: string, category: string, limit: num
 export const getPromptBySlugOrId = async (identifier: string): Promise<Prompt | null> => {
   const all = await getAllPrompts();
   return all.find(p => p.id === identifier || p.slug === identifier) || null;
+};
+
+// --- BLOG HELPERS ---
+
+const getLocalBlogs = (): Blog[] => {
+  try {
+    if (!fs.existsSync(BLOGS_FILE)) return [];
+    const content = fs.readFileSync(BLOGS_FILE, "utf-8");
+    return JSON.parse(content);
+  } catch (err) {
+    console.error("Error reading local blogs:", err);
+    return [];
+  }
+};
+
+export const getAllBlogs = async (): Promise<Blog[]> => {
+  if (SHOULD_USE_KV) {
+    try {
+      const { kv } = await import("@vercel/kv");
+      let all = await kv.get<Blog[]>("all_blogs");
+      
+      // Auto-seed KV from local JSON file if KV is empty
+      if (!all || (Array.isArray(all) && all.length === 0)) {
+        const localData = getLocalBlogs();
+        if (localData.length > 0) {
+          await kv.set("all_blogs", localData);
+          all = localData;
+        }
+      }
+      
+      return all || [];
+    } catch (err) {
+      console.error("KV Error for blogs, falling back to local files:", err);
+      return getLocalBlogs();
+    }
+  }
+
+  return getLocalBlogs();
+};
+
+export const getActiveBlogs = async (): Promise<Blog[]> => {
+  const all = await getAllBlogs();
+  return all.filter(b => b.active);
+};
+
+export const getBlogBySlug = async (slug: string): Promise<Blog | null> => {
+  const all = await getAllBlogs();
+  return all.find(b => b.slug === slug) || null;
+};
+
+export const saveBlogs = async (blogs: Blog[]) => {
+  if (!SHOULD_USE_KV && (process.env.VERCEL === "1" || process.env.NODE_ENV === "production")) {
+    throw new Error("Vercel KV is not connected. In production, you must connect a KV database via the Vercel Storage tab because the filesystem is read-only.");
+  }
+
+  if (SHOULD_USE_KV) {
+    const { kv } = await import("@vercel/kv");
+    await kv.set("all_blogs", blogs);
+    return;
+  }
+
+  // Local Saving
+  fs.writeFileSync(BLOGS_FILE, JSON.stringify(blogs, null, 2));
+};
+
+export const updateBlog = async (id: string, data: Partial<Blog>) => {
+  const allBlogs = await getAllBlogs();
+  const blogIndex = allBlogs.findIndex(b => b.id === id);
+  
+  if (blogIndex === -1) return null;
+  
+  const oldBlog = allBlogs[blogIndex];
+  const updatedBlog = { 
+    ...oldBlog, 
+    ...data
+  };
+
+  allBlogs[blogIndex] = updatedBlog;
+  await saveBlogs(allBlogs);
+  return updatedBlog;
 };

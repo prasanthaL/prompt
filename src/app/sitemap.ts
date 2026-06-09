@@ -1,6 +1,5 @@
 import { MetadataRoute } from "next";
-import blogsData from "@/data/blogs.json";
-import { getAllPrompts } from "@/lib/json-db";
+import { getAllPrompts, getActiveBlogs } from "@/lib/json-db";
 
 const siteUrl = "https://www.promptvault.ai";
 
@@ -65,8 +64,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.85,
   }));
 
-  /* Blog post routes — direct JSON import */
-  const blogRoutes: MetadataRoute.Sitemap = blogsData.map((blog) => ({
+  /* Blog post routes — dynamic active blogs */
+  const activeBlogs = await getActiveBlogs();
+  const blogRoutes: MetadataRoute.Sitemap = activeBlogs.map((blog) => ({
     url: `${siteUrl}/blog/${blog.slug}`,
     lastModified: blog.date ? new Date(blog.date).toISOString() : now,
     changeFrequency: "monthly" as const,

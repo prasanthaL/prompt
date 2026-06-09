@@ -17,6 +17,7 @@ import {
   ArrowRight
 } from "lucide-react";
 import { useRouter, useSearchParams } from "next/navigation";
+import Link from "next/link";
 import { cn } from "@/lib/utils";
 import PromptCard from "@/components/PromptCard";
 
@@ -696,11 +697,27 @@ export default function AdminDashboard() {
     <main className="min-h-screen mesh-gradient pb-20">
       <nav className="fixed top-0 left-0 right-0 z-50 glass-dark border-b border-white/5 py-4 px-8">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <div className="w-10 h-10 bg-primary rounded-xl flex items-center justify-center">
-              <Sparkles className="text-white w-6 h-6" />
+          <div className="flex items-center gap-6">
+            <Link href="/" className="flex items-center gap-2 group">
+              <div className="w-10 h-10 bg-primary rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform">
+                <Sparkles className="text-white w-6 h-6" />
+              </div>
+              <span className="text-xl font-bold tracking-tight text-white">PromptVault Admin</span>
+            </Link>
+
+            <div className="h-6 w-px bg-white/10 hidden md:block" />
+
+            <div className="hidden md:flex items-center gap-6 text-sm font-medium">
+              <Link href="/admin/dashboard" className="text-primary border-b-2 border-primary pb-1">
+                Upload Prompt
+              </Link>
+              <Link href="/admin/prompts" className="text-white/60 hover:text-white transition-colors">
+                Manage Prompts
+              </Link>
+              <Link href="/admin/blogs" className="text-white/60 hover:text-white transition-colors">
+                Manage Blogs
+              </Link>
             </div>
-            <span className="text-xl font-bold tracking-tight">Admin Dashboard</span>
           </div>
           <button
             onClick={() => router.push("/admin")}
