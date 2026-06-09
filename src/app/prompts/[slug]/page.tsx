@@ -220,7 +220,7 @@ export default async function PromptPage({
 
       <Navbar />
 
-      <div className="max-w-6xl mx-auto px-4 md:px-8 pt-28 md:pt-36">
+      <div className="max-w-7xl mx-auto px-4 md:px-8 pt-28 md:pt-36">
         {/* Breadcrumb */}
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
           <nav
