@@ -22,6 +22,9 @@ export interface Prompt {
   views: number;
   likes: number;
   isPremium: boolean;
+  isTrending?: boolean;
+  isLatest?: boolean;
+  isFeatured?: boolean;
   createdAt: string;
   updatedAt: string;
   tags?: string[];
