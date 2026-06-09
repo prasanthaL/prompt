@@ -21,6 +21,22 @@ import {
   RefreshCw,
   CheckCircle2,
   TrendingUp,
+  Clapperboard,
+  Camera,
+  Moon,
+  Leaf,
+  Zap,
+  Cpu,
+  Droplet,
+  Sparkles,
+  User,
+  Box,
+  Disc,
+  LayoutGrid,
+  Palette,
+  Home as HomeIcon,
+  ShoppingBag,
+  ImageIcon,
 } from "lucide-react";
 import blogsData from "@/data/blogs.json";
 import { usePathname } from "next/navigation";
@@ -159,6 +175,72 @@ function FAQAccordionItem({
     </div>
   );
 }
+
+const categoriesData = [
+  {
+    name: "Cinematic",
+    id: "Cinematic",
+    icon: Clapperboard,
+    description: "Movie-like lighting and dramatic compositions.",
+    badgeBg: "bg-violet-500/10",
+    badgeText: "text-violet-400 border-violet-500/20",
+    image: "/images/categories/cinematic.png",
+  },
+  {
+    name: "Anime",
+    id: "Anime",
+    icon: Sparkles,
+    description: "Japanese animation style and characters.",
+    badgeBg: "bg-pink-500/10",
+    badgeText: "text-pink-400 border-pink-500/20",
+    image: "/images/categories/anime.png",
+  },
+  {
+    name: "Portrait",
+    id: "Portrait",
+    icon: User,
+    description: "Professional portraits with perfect lighting.",
+    badgeBg: "bg-orange-500/10",
+    badgeText: "text-orange-400 border-orange-500/20",
+    image: "/images/categories/portrait.png",
+  },
+  {
+    name: "Fantasy",
+    id: "Fantasy",
+    icon: Zap,
+    description: "Dark, mystical worlds and fantasy elements.",
+    badgeBg: "bg-purple-500/10",
+    badgeText: "text-purple-400 border-purple-500/20",
+    image: "/images/categories/fantasy.png",
+  },
+  {
+    name: "Sci-Fi",
+    id: "Sci-Fi",
+    icon: Cpu,
+    description: "Futuristic, neon-lit and tech-inspired worlds.",
+    badgeBg: "bg-cyan-500/10",
+    badgeText: "text-cyan-400 border-cyan-500/20",
+    image: "/images/categories/scifi.png",
+  },
+  {
+    name: "Architecture",
+    id: "Architecture",
+    icon: HomeIcon,
+    description: "Modern, classic, and visionary architectural designs.",
+    badgeBg: "bg-emerald-500/10",
+    badgeText: "text-emerald-400 border-emerald-500/20",
+    image: "/images/categories/architecture.png",
+  },
+  {
+    name: "Product",
+    id: "Product",
+    icon: ShoppingBag,
+    description: "Commercial product photography and studio shots.",
+    badgeBg: "bg-yellow-500/10",
+    badgeText: "text-yellow-400 border-yellow-500/20",
+    image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&q=80",
+  },
+];
 
 interface HomeClientProps {
   initialPrompts: Prompt[];
@@ -328,43 +410,88 @@ export default function HomeClient({ initialPrompts }: HomeClientProps) {
         </div>
       </section>
 
-      {/* 4. Browse by Visual Style Quick Chips */}
+      {/* 4. Browse by Category Section */}
       <section className="max-w-7xl mx-auto px-4 md:px-8 pb-20">
-        <div className="text-center mb-10">
-          <p className="text-xs font-bold uppercase tracking-[0.2em] text-primary mb-3">
-            Prompt Styles
+        <div className="text-center mb-10 flex flex-col items-center">
+          <p className="text-[10px] font-black uppercase tracking-[0.25em] text-violet-400 mb-2">
+            EXPLORE GEMINI AI PROMPTS
           </p>
-          <h2 className="text-3xl sm:text-4xl font-bold text-foreground">
-            Browse by Visual Style
+          <h2 className="text-4xl sm:text-5xl font-black text-white tracking-tight mb-4">
+            Find Prompts by <span className="bg-gradient-to-r from-violet-400 to-fuchsia-500 bg-clip-text text-transparent">Category</span>
           </h2>
-          <p className="text-foreground/40 text-sm mt-3 max-w-xl mx-auto">
-            Discover cinematic, hyper realistic, dark fantasy, minimalist, and sci-fi Gemini AI image prompts.
+          <p className="text-foreground/50 text-sm max-w-xl mx-auto">
+            Browse high-quality Gemini AI image prompts organized by category. Discover the perfect aesthetic for your next creation.
           </p>
         </div>
 
-        <div className="flex flex-wrap justify-center gap-3">
-          {[
-            "Hyper Realistic",
-            "Dark Fantasy",
-            "Minimalist",
-            "Retro Futurism",
-            "3D Render",
-            "Oil Painting",
-            "Cyberpunk",
-            "Watercolor",
-            "Neon Noir",
-            "Anime",
-            "Surrealism",
-            "Studio Portrait",
-          ].map((style) => (
-            <button
-              key={style}
-              onClick={() => router.push(`/browse?q=${encodeURIComponent(style)}`)}
-              className="px-5 py-2.5 rounded-xl border border-border bg-card/20 text-sm font-medium text-foreground/70 hover:border-primary/60 hover:text-foreground hover:bg-primary/10 transition-all duration-200 cursor-pointer"
-            >
-              {style}
-            </button>
-          ))}
+        {/* Dynamic Card Grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-7 gap-4 md:gap-5 mt-6">
+          {categoriesData.map((cat) => {
+            const count = categoryCounts[cat.id] ?? 0;
+            return (
+              <div
+                key={cat.id}
+                onClick={() => router.push(`/categories/${cat.id.toLowerCase()}`)}
+                className="group relative flex flex-col rounded-[1.25rem] overflow-hidden border border-white/[0.05] bg-[#0c0a15]/40 backdrop-blur-md hover:border-violet-500/30 hover:bg-[#121021]/50 hover:shadow-[0_12px_30px_-10px_rgba(139,92,246,0.15)] transition-all duration-300 cursor-pointer hover:-translate-y-1.5 p-5"
+              >
+                <div className="flex flex-col flex-1 gap-3">
+                  <div className="flex items-center gap-2.5">
+                    <div className={cn("flex h-9 w-9 items-center justify-center rounded-xl border shrink-0", cat.badgeBg, cat.badgeText)}>
+                      <cat.icon className="h-4.5 w-4.5" />
+                    </div>
+                    <h3 className="text-[14px] font-bold text-white group-hover:text-violet-400 transition-colors truncate">
+                      {cat.name}
+                    </h3>
+                  </div>
+                  <p className="text-[11.5px] leading-relaxed text-foreground/45 flex-1 line-clamp-3">
+                    {cat.description}
+                  </p>
+                  <div className="flex items-center gap-1.5 mt-2 pt-2 border-t border-white/[0.03]">
+                    <ImageIcon className={cn("w-3.5 h-3.5 shrink-0", cat.badgeText.split(" ")[0])} />
+                    <span className={cn("text-[10px] font-bold uppercase tracking-wider", cat.badgeText.split(" ")[0])}>
+                      {count.toLocaleString()} Prompts
+                    </span>
+                  </div>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+
+        {/* Popular searches bottom bar */}
+        <div className="mt-8 flex flex-col lg:flex-row items-center justify-between gap-4 p-4 rounded-2xl border border-white/[0.05] bg-[#0c0a15]/30 backdrop-blur-md">
+          <div className="flex items-center gap-2 shrink-0">
+            <TrendingUp className="w-4 h-4 text-violet-400" />
+            <span className="text-xs font-bold text-white">Popular Style Searches</span>
+          </div>
+          <div className="flex flex-wrap gap-2 justify-center lg:justify-start">
+            {[
+              "Cinematic Prompts",
+              "Hyper Realistic Prompts",
+              "Dark Fantasy Prompts",
+              "Cyberpunk Prompts",
+              "Anime Prompts",
+              "Portrait Prompts",
+            ].map((search) => (
+              <button
+                key={search}
+                onClick={() => {
+                  const cleanQuery = search.replace(" Prompts", "");
+                  router.push(`/browse?q=${encodeURIComponent(cleanQuery)}`);
+                }}
+                className="px-3.5 py-1.5 rounded-full border border-white/[0.04] bg-white/[0.02] hover:border-violet-500/30 hover:bg-violet-500/10 text-[10px] font-bold text-foreground/60 hover:text-white transition-all cursor-pointer"
+              >
+                {search}
+              </button>
+            ))}
+          </div>
+          <Link
+            href="/categories"
+            className="flex items-center gap-1.5 text-xs font-bold text-violet-400 hover:text-violet-300 transition-colors shrink-0"
+          >
+            View All Styles
+            <ArrowRight className="w-4 h-4" />
+          </Link>
         </div>
       </section>
 
