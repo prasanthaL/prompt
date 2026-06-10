@@ -25,7 +25,7 @@ import categories from "@/data/categories.json";
 // Canvas-based image compression + WebP conversion helper
 const compressImage = async (
   file: File,
-  maxKb: number = 400
+  maxKb: number = 200
 ): Promise<{ file: File; originalSize: number; compressedSize: number }> => {
   return new Promise((resolve, reject) => {
     const reader = new FileReader();
@@ -165,7 +165,7 @@ function DashboardContent() {
       setIsCompressing(true);
       setCompressionStats(null);
       try {
-        const result = await compressImage(selectedFile, 400);
+        const result = await compressImage(selectedFile, 200);
         setFile(result.file);
         setPreview(URL.createObjectURL(result.file));
         setExistingImageUrl(null);
@@ -319,7 +319,7 @@ function DashboardContent() {
               {isCompressing && (
                 <div className="text-[11px] text-primary font-medium bg-primary/10 border border-primary/20 p-3 rounded-xl flex items-center gap-2 animate-pulse">
                   <Loader2 className="w-3.5 h-3.5 animate-spin" />
-                  Converting to WebP &amp; compressing below 400KB...
+                  Converting to WebP &amp; compressing below 200KB...
                 </div>
               )}
               {compressionStats && (

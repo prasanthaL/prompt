@@ -19,6 +19,78 @@ import { cn } from "@/lib/utils";
 import { Prompt } from "@/lib/json-db";
 import categories from "@/data/categories.json";
 
+// Canvas-based image compression + WebP conversion helper
+const compressImage = async (
+  file: File,
+  maxKb: number = 200
+): Promise<{ file: File; originalSize: number; compressedSize: number }> => {
+  return new Promise((resolve, reject) => {
+    const reader = new FileReader();
+    reader.readAsDataURL(file);
+    reader.onload = (event) => {
+      const img = new window.Image();
+      img.src = event.target?.result as string;
+      img.onload = () => {
+        const canvas = document.createElement("canvas");
+        let width = img.width;
+        let height = img.height;
+
+        // Downscale to max 1600px dimension if it's very large
+        const maxDimension = 1600;
+        if (width > maxDimension || height > maxDimension) {
+          if (width > height) {
+            height = Math.round((height * maxDimension) / width);
+            width = maxDimension;
+          } else {
+            width = Math.round((width * maxDimension) / height);
+            height = maxDimension;
+          }
+        }
+
+        canvas.width = width;
+        canvas.height = height;
+        const ctx = canvas.getContext("2d");
+        if (!ctx) return resolve({ file, originalSize: file.size, compressedSize: file.size });
+
+        // White background for images with transparency (e.g. PNG)
+        ctx.fillStyle = "#ffffff";
+        ctx.fillRect(0, 0, width, height);
+        ctx.drawImage(img, 0, 0, width, height);
+
+        let quality = 0.92;
+        const tryCompress = () => {
+          canvas.toBlob(
+            (blob) => {
+              if (!blob) {
+                return resolve({ file, originalSize: file.size, compressedSize: file.size });
+              }
+              if (blob.size / 1024 <= maxKb || quality <= 0.1) {
+                // Always output as .webp for maximum compression & quality
+                const webpFile = new File([blob], file.name.replace(/\.[^/.]+$/, "") + ".webp", {
+                  type: "image/webp",
+                  lastModified: Date.now(),
+                });
+                resolve({
+                  file: webpFile,
+                  originalSize: file.size,
+                  compressedSize: blob.size,
+                });
+              } else {
+                quality -= 0.08;
+                tryCompress();
+              }
+            },
+            "image/webp",
+            quality
+          );
+        };
+        tryCompress();
+      };
+    };
+    reader.onerror = (error) => reject(error);
+  });
+};
+
 interface DashboardClientProps {
   editPrompt: Prompt | null;
 }
@@ -36,6 +108,11 @@ export default function DashboardClient({ editPrompt }: DashboardClientProps) {
   const [existingImageUrl, setExistingImageUrl] = useState<string | null>(editPrompt?.image || null);
   const [isUploading, setIsUploading] = useState(false);
   const [message, setMessage] = useState({ type: "", text: "" });
+  const [isCompressing, setIsCompressing] = useState(false);
+  const [compressionStats, setCompressionStats] = useState<{
+    original: number;
+    compressed: number;
+  } | null>(null);
 
   const router = useRouter();
 
@@ -63,12 +140,28 @@ export default function DashboardClient({ editPrompt }: DashboardClientProps) {
     }
   }, [editPrompt]);
 
-  const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const handleFileChange = async (e: React.ChangeEvent<HTMLInputElement>) => {
     const selectedFile = e.target.files?.[0];
     if (selectedFile) {
-      setFile(selectedFile);
-      setPreview(URL.createObjectURL(selectedFile));
-      setExistingImageUrl(null);
+      setIsCompressing(true);
+      setCompressionStats(null);
+      try {
+        const result = await compressImage(selectedFile, 200);
+        setFile(result.file);
+        setPreview(URL.createObjectURL(result.file));
+        setExistingImageUrl(null);
+        setCompressionStats({
+          original: result.originalSize,
+          compressed: result.compressedSize,
+        });
+      } catch (err) {
+        console.error("Failed to compress image:", err);
+        setFile(selectedFile);
+        setPreview(URL.createObjectURL(selectedFile));
+        setExistingImageUrl(null);
+      } finally {
+        setIsCompressing(false);
+      }
     }
   };
 
@@ -79,6 +172,7 @@ export default function DashboardClient({ editPrompt }: DashboardClientProps) {
     setEditingId(null);
     setExistingImageUrl(null);
     setMessage({ type: "", text: "" });
+    setCompressionStats(null);
     router.replace("/admin/dashboard");
   };
 
@@ -197,6 +291,26 @@ export default function DashboardClient({ editPrompt }: DashboardClientProps) {
                   accept="image/*"
                 />
               </div>
+
+              {/* Compression feedback panel */}
+              {isCompressing && (
+                <div className="text-[11px] text-primary font-medium bg-primary/10 border border-primary/20 p-3 rounded-xl flex items-center gap-2 animate-pulse">
+                  <Loader2 className="w-3.5 h-3.5 animate-spin" />
+                  Converting to WebP &amp; compressing below 200KB...
+                </div>
+              )}
+              {compressionStats && (
+                <div className="text-[11px] text-emerald-400 font-medium bg-emerald-500/10 border border-emerald-500/20 p-3 rounded-xl flex items-center justify-between">
+                  <span>✓ Converted to WebP &amp; compressed!</span>
+                  <span>
+                    {(compressionStats.original / 1024).toFixed(0)}KB →{" "}
+                    <strong className="text-white">
+                      {(compressionStats.compressed / 1024).toFixed(0)}KB
+                    </strong>{" "}
+                    ({Math.round(((compressionStats.original - compressionStats.compressed) / compressionStats.original) * 100)}% saved)
+                  </span>
+                </div>
+              )}
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -264,7 +378,7 @@ export default function DashboardClient({ editPrompt }: DashboardClientProps) {
 
             <button
               type="submit"
-              disabled={isUploading}
+              disabled={isUploading || isCompressing}
               className="w-full bg-primary hover:bg-primary-hover text-white py-5 rounded-[1.5rem] font-bold text-lg shadow-xl shadow-primary/20 hover:scale-[1.02] active:scale-95 transition-all flex items-center justify-center gap-3 disabled:opacity-50 disabled:scale-100"
             >
               {isUploading ? (
