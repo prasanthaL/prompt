@@ -10,69 +10,135 @@ import {
   ShoppingBag,
   LayoutGrid,
   User,
+  Users,
+  Flame,
+  Trees,
+  Dog,
+  Car,
+  Palette,
   ArrowRight,
   Sparkles
 } from "lucide-react";
 import Link from "next/link";
 import { getAllPrompts } from "@/lib/json-db";
+import categoriesData from "@/data/categories.json";
 
-const categoryConfig = [
-  {
-    name: "Cinematic",
-    icon: Clapperboard,
-    id: "Cinematic",
+const ICON_MAP: Record<string, React.ComponentType<any>> = {
+  Cinematic: Clapperboard,
+  Anime: Ghost,
+  Portrait: User,
+  Fantasy: Zap,
+  "Sci-Fi": Cpu,
+  Architecture: Home,
+  Product: ShoppingBag,
+  Men: User,
+  Women: User,
+  Family: Users,
+  Couple: Users,
+  Sport: Flame,
+  "Nature & Landscape": Trees,
+  "Animals & Wildlife": Dog,
+  Vehicles: Car,
+  "Digital Art": Palette,
+};
+
+const COLOR_MAP: Record<string, { color: string; accent: string; image: string }> = {
+  Cinematic: {
     color: "from-blue-500/30 to-indigo-500/30",
     accent: "bg-blue-500",
     image: "/images/categories/cinematic.png",
   },
-  {
-    name: "Anime",
-    icon: Ghost,
-    id: "Anime",
+  Anime: {
     color: "from-pink-500/30 to-rose-500/30",
     accent: "bg-pink-500",
     image: "/images/categories/anime.png",
   },
-  {
-    name: "Portrait",
-    icon: User,
-    id: "Portrait",
+  Portrait: {
     color: "from-orange-500/30 to-amber-500/30",
     accent: "bg-orange-500",
     image: "/images/categories/portrait.png",
   },
-  {
-    name: "Fantasy",
-    icon: Zap,
-    id: "Fantasy",
+  Fantasy: {
     color: "from-purple-500/30 to-violet-500/30",
     accent: "bg-purple-500",
     image: "/images/categories/fantasy.png",
   },
-  {
-    name: "Sci-Fi",
-    icon: Cpu,
-    id: "Sci-Fi",
+  "Sci-Fi": {
     color: "from-cyan-500/30 to-blue-500/30",
     accent: "bg-cyan-500",
     image: "/images/categories/scifi.png",
   },
-  {
-    name: "Architecture",
-    icon: Home,
-    id: "Architecture",
+  Architecture: {
     color: "from-emerald-500/30 to-teal-500/30",
     accent: "bg-emerald-500",
     image: "/images/categories/architecture.png",
   },
-  {
-    name: "Product",
-    icon: ShoppingBag,
-    id: "Product",
+  Product: {
     color: "from-yellow-500/30 to-orange-500/30",
     accent: "bg-yellow-500",
     image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&q=80",
   },
+  Men: {
+    color: "from-blue-500/30 to-indigo-500/30",
+    accent: "bg-blue-500",
+    image: "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=600&q=80",
+  },
+  Women: {
+    color: "from-rose-500/30 to-pink-500/30",
+    accent: "bg-rose-500",
+    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=600&q=80",
+  },
+  Family: {
+    color: "from-teal-500/30 to-emerald-500/30",
+    accent: "bg-teal-500",
+    image: "https://images.unsplash.com/photo-1511895426328-dc8714191300?w=600&q=80",
+  },
+  Couple: {
+    color: "from-red-500/30 to-rose-500/30",
+    accent: "bg-red-500",
+    image: "https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?w=600&q=80",
+  },
+  Sport: {
+    color: "from-amber-500/30 to-yellow-500/30",
+    accent: "bg-amber-500",
+    image: "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=600&q=80",
+  },
+  "Nature & Landscape": {
+    color: "from-green-500/30 to-emerald-500/30",
+    accent: "bg-green-500",
+    image: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=600&q=80",
+  },
+  "Animals & Wildlife": {
+    color: "from-lime-500/30 to-green-500/30",
+    accent: "bg-lime-500",
+    image: "https://images.unsplash.com/photo-1472396961693-142e6e269027?w=600&q=80",
+  },
+  Vehicles: {
+    color: "from-slate-500/30 to-zinc-500/30",
+    accent: "bg-slate-500",
+    image: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=600&q=80",
+  },
+  "Digital Art": {
+    color: "from-fuchsia-500/30 to-purple-500/30",
+    accent: "bg-fuchsia-500",
+    image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=600&q=80",
+  },
+};
+
+const categoryConfig = [
+  ...categoriesData.map((cat) => {
+    const meta = COLOR_MAP[cat.name] || {
+      color: "from-violet-500/30 to-fuchsia-500/30",
+      accent: "bg-violet-500",
+      image: "https://images.unsplash.com/photo-1634017839464-5c339afa60f0?w=600&q=80",
+    };
+    return {
+      name: cat.name,
+      id: cat.name,
+      icon: ICON_MAP[cat.name] || Sparkles,
+      ...meta,
+    };
+  }),
   {
     name: "All Prompts",
     icon: LayoutGrid,

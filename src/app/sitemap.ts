@@ -1,17 +1,8 @@
 import { MetadataRoute } from "next";
 import { getAllPrompts, getActiveBlogs } from "@/lib/json-db";
+import categories from "@/data/categories.json";
 
 const siteUrl = "https://www.promptvault.ai";
-
-const CATEGORIES = [
-  "cinematic",
-  "anime",
-  "portrait",
-  "fantasy",
-  "sci-fi",
-  "architecture",
-  "product",
-];
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const now = new Date().toISOString();
@@ -57,8 +48,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   ];
 
   /* Category routes — read directly from the known categories list */
-  const categoryRoutes: MetadataRoute.Sitemap = CATEGORIES.map((cat) => ({
-    url: `${siteUrl}/categories/${cat}`,
+  const categoryRoutes: MetadataRoute.Sitemap = categories.map((cat) => ({
+    url: `${siteUrl}/categories/${encodeURIComponent(cat.name.toLowerCase())}`,
     lastModified: now,
     changeFrequency: "daily" as const,
     priority: 0.85,

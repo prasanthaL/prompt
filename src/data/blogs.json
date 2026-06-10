@@ -21,7 +21,7 @@
     "category": "Photorealism",
     "image": "/blog/hyper-realistic.png",
     "content": "Hyper-realism doesn't always require a paragraph-long prompt. Sometimes, simplicity allows the model's training on real photography to shine. Focus on technical specs like 'Shot on 35mm film', 'f/1.8', and 'natural overcast lighting'. Avoid over-using buzzwords like '4k' or 'ultra-detailed' as they can sometimes lead to a 'plastic' look. We'll explore the balance between descriptive detail and technical instruction.",
-    "active": false
+    "active": true
   },
   {
     "id": "3",
@@ -105,7 +105,7 @@
     "category": "Techniques",
     "image": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?auto=format&fit=crop&w=800&q=80",
     "content": "Colors define emotional undertones. A monochrome palette gives a solemn, dramatic feeling, while complementary colors like blue and orange bring dynamic energy. In this article, we explain how to instruct generative models using phrases like 'pastel color scheme', 'analogue color harmony', and 'neon accents on pitch-black background'.",
-    "active": false
+    "active": true
   },
   {
     "id": "10",
@@ -201,7 +201,7 @@
     "category": "Tips",
     "image": "/blog/isometric-illustration.png",
     "content": "Isometric dioramas are incredibly popular for game design and illustration. The trick is to establish the perspective first. Prompt with phrases like 'isometric 3D model style', 'claymation aesthetic', 'miniature diorama', and 'vibrant volumetric lighting'. We give a library of prompts to build your own mini-rooms.",
-    "active": true
+    "active": false
   },
   {
     "id": "18",

@@ -19,6 +19,7 @@ import { useRouter } from "next/navigation";
 import { cn } from "@/lib/utils";
 import Pagination from "@/components/Pagination";
 import { Prompt } from "@/lib/json-db";
+import categoriesData from "@/data/categories.json";
 
 interface ManagePromptsClientProps {
   initialPrompts: Prompt[];
@@ -76,7 +77,7 @@ export default function ManagePromptsClient({ initialPrompts }: ManagePromptsCli
 
   const displayedPrompts = filteredPrompts.slice(startIndex, startIndex + itemsPerPage);
 
-  const categories = ["All", "Cinematic", "Anime", "Fantasy", "Sci-Fi", "Architecture", "Portrait", "Product"];
+  const categories = ["All", ...categoriesData.map((cat) => cat.name)];
 
   return (
     <div className="pt-32 px-4 md:px-8 max-w-7xl mx-auto space-y-8">

@@ -20,6 +20,7 @@ import { useRouter, useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
 import PromptCard from "@/components/PromptCard";
+import categories from "@/data/categories.json";
 
 // Canvas-based image compression + WebP conversion helper
 const compressImage = async (
@@ -96,7 +97,7 @@ const compressImage = async (
 function DashboardContent() {
   const [formData, setFormData] = useState({
     title: "",
-    category: "Cinematic",
+    category: categories[0]?.name || "Cinematic",
     fullPrompt: "",
     isTrending: false,
     isLatest: false,
@@ -361,13 +362,11 @@ function DashboardContent() {
                   onChange={(e) => setFormData({ ...formData, category: e.target.value })}
                   className="w-full bg-black border border-white/10 rounded-2xl py-4 px-6 text-sm focus:outline-none focus:ring-2 focus:ring-primary/50 transition-all appearance-none cursor-pointer text-white"
                 >
-                  <option value="Cinematic">Cinematic</option>
-                  <option value="Anime">Anime</option>
-                  <option value="Fantasy">Fantasy</option>
-                  <option value="Sci-Fi">Sci-Fi</option>
-                  <option value="Architecture">Architecture</option>
-                  <option value="Portrait">Portrait</option>
-                  <option value="Product">Product</option>
+                  {categories.map((cat) => (
+                    <option key={cat.id} value={cat.name}>
+                      {cat.name}
+                    </option>
+                  ))}
                 </select>
               </div>
             </div>

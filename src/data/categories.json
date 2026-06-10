@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "Cinematic",
+    "description": "Cinematic style images, movie-like lighting and dramatic compositions."
+  },
+  {
+    "id": 2,
+    "name": "Anime",
+    "description": "Japanese animation styles, stylized characters and vibrant artwork."
+  },
+  {
+    "id": 3,
+    "name": "Fantasy",
+    "description": "Mythical landscapes, magical creatures and epic otherworldly scenes."
+  },
+  {
+    "id": 4,
+    "name": "Sci-Fi",
+    "description": "Science fiction, futuristic technology, outer space and cyberpunk aesthetics."
+  },
+  {
+    "id": 5,
+    "name": "Architecture",
+    "description": "Modern buildings, stunning interior designs and realistic structure visualizations."
+  },
+  {
+    "id": 6,
+    "name": "Portrait",
+    "description": "Close-up human photography, expressive faces and professional lighting setups."
+  },
+  {
+    "id": 7,
+    "name": "Product",
+    "description": "Commercial product shots, advertising photography and clean item renders."
+  },
+  {
+    "id": 8,
+    "name": "Men",
+    "description": "Portraits, fashion and lifestyle photography featuring male subjects."
+  },
+  {
+    "id": 9,
+    "name": "Women",
+    "description": "Portraits, fashion and lifestyle photography featuring female subjects."
+  },
+  {
+    "id": 10,
+    "name": "Family",
+    "description": "Heartwarming scenes, group portraits and moments of family bonding."
+  },
+  {
+    "id": 11,
+    "name": "Couple",
+    "description": "Romantic portraits, engagement shoots and scenic couple photography."
+  },
+  {
+    "id": 12,
+    "name": "Sport",
+    "description": "High-energy action shots, athletic training and dynamic sports photography."
+  },
+  {
+    "id": 13,
+    "name": "Nature & Landscape",
+    "description": "Breathtaking outdoor scenery, mountains, oceans, forests and natural wonders."
+  },
+  {
+    "id": 14,
+    "name": "Animals & Wildlife",
+    "description": "Stunning wildlife photography, majestic animals and pets in their natural environments."
+  },
+  {
+    "id": 15,
+    "name": "Vehicles",
+    "description": "Automotive design, sports cars, motorcycles, airplanes and transportation concepts."
+  },
+  {
+    "id": 16,
+    "name": "Digital Art",
+    "description": "Creative digital paintings, abstract illustrations, 3D concepts and graphic designs."
+  }
+]

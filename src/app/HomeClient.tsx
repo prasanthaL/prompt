@@ -37,11 +37,17 @@ import {
   Home as HomeIcon,
   ShoppingBag,
   ImageIcon,
+  Users,
+  Flame,
+  Trees,
+  Dog,
+  Car,
 } from "lucide-react";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
 import Pagination from "@/components/Pagination";
 import { Prompt, Blog } from "@/lib/json-db";
+import categoriesDataJson from "@/data/categories.json";
 
 /* ──────────────────────────────────────────────
    FAQ data — used for both UI and JSON-LD schema
@@ -175,71 +181,122 @@ function FAQAccordionItem({
   );
 }
 
-const categoriesData = [
-  {
-    name: "Cinematic",
-    id: "Cinematic",
-    icon: Clapperboard,
-    description: "Movie-like lighting and dramatic compositions.",
+const ICON_MAP: Record<string, React.ComponentType<any>> = {
+  Cinematic: Clapperboard,
+  Anime: Sparkles,
+  Portrait: User,
+  Fantasy: Zap,
+  "Sci-Fi": Cpu,
+  Architecture: HomeIcon,
+  Product: ShoppingBag,
+  Men: User,
+  Women: User,
+  Family: Users,
+  Couple: Users,
+  Sport: Flame,
+  "Nature & Landscape": Trees,
+  "Animals & Wildlife": Dog,
+  Vehicles: Car,
+  "Digital Art": Palette,
+};
+
+const STYLE_MAP: Record<string, { badgeBg: string; badgeText: string; image: string }> = {
+  Cinematic: {
     badgeBg: "bg-violet-500/10",
     badgeText: "text-violet-400 border-violet-500/20",
     image: "/images/categories/cinematic.png",
   },
-  {
-    name: "Anime",
-    id: "Anime",
-    icon: Sparkles,
-    description: "Japanese animation style and characters.",
+  Anime: {
     badgeBg: "bg-pink-500/10",
     badgeText: "text-pink-400 border-pink-500/20",
     image: "/images/categories/anime.png",
   },
-  {
-    name: "Portrait",
-    id: "Portrait",
-    icon: User,
-    description: "Professional portraits with perfect lighting.",
+  Portrait: {
     badgeBg: "bg-orange-500/10",
     badgeText: "text-orange-400 border-orange-500/20",
     image: "/images/categories/portrait.png",
   },
-  {
-    name: "Fantasy",
-    id: "Fantasy",
-    icon: Zap,
-    description: "Dark, mystical worlds and fantasy elements.",
+  Fantasy: {
     badgeBg: "bg-purple-500/10",
     badgeText: "text-purple-400 border-purple-500/20",
     image: "/images/categories/fantasy.png",
   },
-  {
-    name: "Sci-Fi",
-    id: "Sci-Fi",
-    icon: Cpu,
-    description: "Futuristic, neon-lit and tech-inspired worlds.",
+  "Sci-Fi": {
     badgeBg: "bg-cyan-500/10",
     badgeText: "text-cyan-400 border-cyan-500/20",
     image: "/images/categories/scifi.png",
   },
-  {
-    name: "Architecture",
-    id: "Architecture",
-    icon: HomeIcon,
-    description: "Modern, classic, and visionary architectural designs.",
+  Architecture: {
     badgeBg: "bg-emerald-500/10",
     badgeText: "text-emerald-400 border-emerald-500/20",
     image: "/images/categories/architecture.png",
   },
-  {
-    name: "Product",
-    id: "Product",
-    icon: ShoppingBag,
-    description: "Commercial product photography and studio shots.",
+  Product: {
     badgeBg: "bg-yellow-500/10",
     badgeText: "text-yellow-400 border-yellow-500/20",
     image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&q=80",
   },
-];
+  Men: {
+    badgeBg: "bg-blue-500/10",
+    badgeText: "text-blue-400 border-blue-500/20",
+    image: "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=600&q=80",
+  },
+  Women: {
+    badgeBg: "bg-rose-500/10",
+    badgeText: "text-rose-400 border-rose-500/20",
+    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=600&q=80",
+  },
+  Family: {
+    badgeBg: "bg-teal-500/10",
+    badgeText: "text-teal-400 border-teal-500/20",
+    image: "https://images.unsplash.com/photo-1511895426328-dc8714191300?w=600&q=80",
+  },
+  Couple: {
+    badgeBg: "bg-red-500/10",
+    badgeText: "text-red-400 border-red-500/20",
+    image: "https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?w=600&q=80",
+  },
+  Sport: {
+    badgeBg: "bg-amber-500/10",
+    badgeText: "text-amber-400 border-amber-500/20",
+    image: "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=600&q=80",
+  },
+  "Nature & Landscape": {
+    badgeBg: "bg-green-500/10",
+    badgeText: "text-green-400 border-green-500/20",
+    image: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=600&q=80",
+  },
+  "Animals & Wildlife": {
+    badgeBg: "bg-lime-500/10",
+    badgeText: "text-lime-400 border-lime-500/20",
+    image: "https://images.unsplash.com/photo-1472396961693-142e6e269027?w=600&q=80",
+  },
+  Vehicles: {
+    badgeBg: "bg-slate-500/10",
+    badgeText: "text-slate-400 border-slate-500/20",
+    image: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=600&q=80",
+  },
+  "Digital Art": {
+    badgeBg: "bg-fuchsia-500/10",
+    badgeText: "text-fuchsia-400 border-fuchsia-500/20",
+    image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=600&q=80",
+  },
+};
+
+const categoriesData = categoriesDataJson.map((cat) => {
+  const style = STYLE_MAP[cat.name] || {
+    badgeBg: "bg-violet-500/10",
+    badgeText: "text-violet-400 border-violet-500/20",
+    image: "https://images.unsplash.com/photo-1634017839464-5c339afa60f0?w=600&q=80",
+  };
+  return {
+    name: cat.name,
+    id: cat.name,
+    icon: ICON_MAP[cat.name] || Sparkles,
+    description: cat.description,
+    ...style,
+  };
+});
 
 interface HomeClientProps {
   initialPrompts: Prompt[];
