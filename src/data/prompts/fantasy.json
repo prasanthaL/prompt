@@ -431,7 +431,7 @@
     "views": 0,
     "likes": 0,
     "createdAt": "2026-05-17T18:57:53.513Z",
-    "updatedAt": "2026-05-25T13:22:02.215Z",
+    "updatedAt": "2026-06-10T05:31:03.588Z",
     "tags": [
       "3D Render",
       "Fantasy",
@@ -439,7 +439,10 @@
     ],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "isTrending": true,
+    "isLatest": true,
+    "isFeatured": true
   },
   {
     "id": "cm38cp6e5q1",
@@ -453,7 +456,7 @@
     "views": 0,
     "likes": 0,
     "createdAt": "2026-05-17T18:58:31.834Z",
-    "updatedAt": "2026-06-08T07:25:23.827Z",
+    "updatedAt": "2026-06-10T05:30:35.367Z",
     "tags": [
       "3D Render",
       "Fantasy"
@@ -462,7 +465,7 @@
       "Gemini AI"
     ],
     "isTrending": true,
-    "isLatest": false,
-    "isFeatured": false
+    "isLatest": true,
+    "isFeatured": true
   }
 ]
