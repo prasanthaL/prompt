@@ -213,7 +213,8 @@ export const updatePrompt = async (id: string, data: Partial<Prompt>) => {
 
 export const getTrendingPrompts = async (limit: number = 20): Promise<Prompt[]> => {
   const all = await getAllPrompts();
-  return all
+  const trending = all.filter(p => p.isTrending === true);
+  return trending
     .sort((a, b) => (b.views + b.likes) - (a.views + a.likes))
     .slice(0, limit);
 };

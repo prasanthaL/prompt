@@ -6,7 +6,6 @@ import Link from "next/link";
 import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
-import CategoryFilters from "@/components/CategoryFilters";
 import PromptCard from "@/components/PromptCard";
 import StatsSection from "@/components/StatsSection";
 import {
@@ -42,6 +41,7 @@ import {
   Trees,
   Dog,
   Car,
+  PaintBucket,
 } from "lucide-react";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
@@ -198,6 +198,7 @@ const ICON_MAP: Record<string, React.ComponentType<any>> = {
   "Animals & Wildlife": Dog,
   Vehicles: Car,
   "Digital Art": Palette,
+  Graffiti: PaintBucket,
 };
 
 const STYLE_MAP: Record<string, { badgeBg: string; badgeText: string; image: string }> = {
@@ -281,6 +282,11 @@ const STYLE_MAP: Record<string, { badgeBg: string; badgeText: string; image: str
     badgeText: "text-fuchsia-400 border-fuchsia-500/20",
     image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=600&q=80",
   },
+  Graffiti: {
+    badgeBg: "bg-orange-500/10",
+    badgeText: "text-orange-400 border-orange-500/20",
+    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80",
+  },
 };
 
 const categoriesData = categoriesDataJson.map((cat) => {
@@ -303,10 +309,12 @@ interface HomeClientProps {
   initialBlogs: Blog[];
 }
 
+type Tab = "all" | "trending" | "popular" | "latest";
+
 export default function HomeClient({ initialPrompts, initialBlogs }: HomeClientProps) {
-  const [activeCategory, setActiveCategory] = useState("all");
+  const [activeTab, setActiveTab] = useState<Tab>("trending");
+  const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const [dbPrompts, setDbPrompts] = useState<Prompt[]>(initialPrompts);
-  const [localSearch, setLocalSearch] = useState("");
   const [openFaq, setOpenFaq] = useState<number | null>(null);
 
   const toggleFaq = useCallback((index: number) => {
@@ -315,39 +323,72 @@ export default function HomeClient({ initialPrompts, initialBlogs }: HomeClientP
 
   // Pagination States
   const [currentPage, setCurrentPage] = useState(1);
-  const itemsPerPage = 10;
+  const itemsPerPage = 12;
 
   const router = useRouter();
 
-  const handleSearch = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (localSearch.trim()) {
-      router.push(`/browse?q=${encodeURIComponent(localSearch.trim())}`);
-    }
-  };
+  // Tab-sorted prompt lists
+  const allTabPrompts = [...dbPrompts]
+    .sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime());
 
-  const filteredPrompts = activeCategory === "all"
-    ? dbPrompts
-    : dbPrompts.filter(p => p.category === activeCategory);
+  const trendingTabPrompts = [...dbPrompts]
+    .filter(p => p.isTrending)
+    .sort((a, b) => (Number(b.views ?? 0) + Number(b.likes ?? 0)) - (Number(a.views ?? 0) + Number(a.likes ?? 0)));
 
-  // Compute real counts per category
-  const categoryCounts: Record<string, number> = {};
-  for (const p of dbPrompts) {
-    if (p.category) {
-      categoryCounts[p.category] = (categoryCounts[p.category] ?? 0) + 1;
+  const popularTabPrompts = [...dbPrompts]
+    .filter(p => p.isFeatured)
+    .sort((a, b) => (Number(b.views ?? 0) + Number(b.likes ?? 0)) - (Number(a.views ?? 0) + Number(a.likes ?? 0)));
+
+  const latestTabPrompts = [...dbPrompts]
+    .filter(p => p.isLatest)
+    .sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime());
+
+  const activePrompts =
+    activeTab === "all"      ? allTabPrompts :
+    activeTab === "trending" ? trendingTabPrompts :
+    activeTab === "popular"  ? popularTabPrompts  :
+    latestTabPrompts;
+
+  // Find which categories actually have prompts in this tab
+  const tabCategoryCounts = React.useMemo(() => {
+    const counts: Record<string, number> = {};
+    for (const p of activePrompts) {
+      if (p.category) {
+        counts[p.category] = (counts[p.category] ?? 0) + 1;
+      }
     }
-  }
-  const totalCount = dbPrompts.length;
+    return counts;
+  }, [activePrompts]);
+
+  const tabCategories = React.useMemo(() => {
+    if (activeTab === "all") {
+      return categoriesData;
+    }
+    return categoriesData.filter((cat) => (tabCategoryCounts[cat.id] ?? 0) > 0);
+  }, [tabCategoryCounts, activeTab]);
+
+  // Filter tab prompts by selected category
+  const filteredPrompts = React.useMemo(() => {
+    if (!selectedCategory) return activePrompts;
+    return activePrompts.filter(
+      (p) => p.category?.toLowerCase() === selectedCategory.toLowerCase()
+    );
+  }, [activePrompts, selectedCategory]);
 
   // Pagination Logic
   const totalPages = Math.ceil(filteredPrompts.length / itemsPerPage);
   const startIndex = (currentPage - 1) * itemsPerPage;
   const displayedPrompts = filteredPrompts.slice(startIndex, startIndex + itemsPerPage);
 
-  // Trending: top 4 by views (numeric sort)
-  const trendingPrompts = [...dbPrompts]
-    .sort((a, b) => Number(b.views ?? 0) - Number(a.views ?? 0))
-    .slice(0, 4);
+
+
+  // Prompt counts per category — used by the Browse by Category section
+  const categoryCounts: Record<string, number> = {};
+  for (const p of dbPrompts) {
+    if (p.category) {
+      categoryCounts[p.category] = (categoryCounts[p.category] ?? 0) + 1;
+    }
+  }
 
   return (
     <main className="min-h-screen mesh-gradient">
@@ -357,58 +398,144 @@ export default function HomeClient({ initialPrompts, initialBlogs }: HomeClientP
         <Hero />
       </div>
 
-      {/* 1. Popular / Trending Prompts (Hook) */}
-      {trendingPrompts.length > 0 && (
-        <section className="max-w-7xl mx-auto px-4 md:px-8 py-20">
-          <div className="flex items-center justify-between mb-10">
-            <div className="space-y-1">
-              <div className="flex items-center gap-2 mb-1">
-                <div className="flex items-center gap-1.5 px-3 py-1 rounded-full bg-rose-500/10 border border-rose-500/20">
-                  <TrendingUp className="w-3.5 h-3.5 text-rose-400" />
-                  <span className="text-[10px] font-black uppercase tracking-widest text-rose-400">Trending Now</span>
-                </div>
-              </div>
-              <h2 className="text-3xl font-bold flex items-center gap-3">
-                <span className="w-2 h-10 bg-rose-500 rounded-full"></span>
-                Most Popular Prompts
-              </h2>
-              <p className="text-foreground/40 text-sm">The prompts everyone is copying right now</p>
-            </div>
-            <Link
-              href="/trending"
-              className="hidden sm:flex items-center gap-2 text-sm font-bold bg-foreground/5 hover:bg-foreground/10 px-6 py-3 rounded-xl border border-border transition-all text-foreground"
-            >
-              View All
-              <ArrowRight className="w-4 h-4" />
-            </Link>
-          </div>
+      {/* 1. Featured Prompts (directly below Hero) */}
+      <section id="prompts-section" className="max-w-7xl mx-auto px-4 md:px-8 pb-32 pt-12">
 
-          {/* Horizontal scroll on mobile, grid on desktop */}
-          <div className="flex gap-5 overflow-x-auto pb-4 md:pb-0 md:grid sm:grid-cols-2 lg:grid-cols-4 gap-6 scrollbar-hide snap-x snap-mandatory">
-            {trendingPrompts.map((prompt, i) => (
-              <div
-                key={prompt.id || i}
-                className="min-w-[260px] md:min-w-0 snap-start flex-shrink-0 md:flex-shrink"
-              >
+        {/* Section header */}
+        <div className="flex items-center justify-between mb-8">
+          <div className="space-y-1">
+            <h2 className="text-3xl font-bold flex items-center gap-3">
+              <span className="w-2 h-10 bg-primary rounded-full"></span>
+              Featured Gemini AI Image Prompts
+            </h2>
+            <p className="text-foreground/40 text-sm">Handpicked premium prompts from our community</p>
+          </div>
+          <button
+            onClick={() => router.push("/browse")}
+            className="hidden sm:flex items-center gap-2 text-sm font-bold bg-foreground/5 hover:bg-foreground/10 px-6 py-3 rounded-xl border border-border transition-all text-foreground"
+          >
+            Browse All
+            <ArrowRight className="w-4 h-4" />
+          </button>
+        </div>
+
+        {/* Tab bar */}
+        <div className="mb-6">
+          <div className="inline-flex items-center gap-1 p-1 rounded-2xl bg-white/[0.04] border border-white/[0.08]">
+            {([
+              { id: "trending" as Tab, label: "Trending",  icon: Flame,       iconColor: "text-amber-500", activeClass: "bg-gradient-to-r from-amber-500 to-rose-500 text-white border-amber-500/20 shadow-[0_2px_12px_rgba(245,158,11,0.3)]" },
+              { id: "popular"  as Tab, label: "Popular",   icon: TrendingUp,  iconColor: "text-violet-400", activeClass: "bg-gradient-to-r from-violet-600 to-indigo-600 text-white border-violet-500/20 shadow-[0_2px_12px_rgba(124,58,237,0.3)]" },
+              { id: "latest"  as Tab, label: "Latest",    icon: Sparkles,    iconColor: "text-cyan-400",   activeClass: "bg-gradient-to-r from-cyan-500 to-blue-500 text-white border-cyan-500/20 shadow-[0_2px_12px_rgba(6,182,212,0.3)]" },
+              { id: "all"      as Tab, label: "All",      icon: LayoutGrid,  iconColor: "text-white/40",   activeClass: "bg-white/10 text-white border-white/10 shadow-lg" },
+            ] as const).map(({ id, label, icon: Icon, iconColor, activeClass }) => {
+              const isActive = activeTab === id;
+              return (
+                <button
+                  key={id}
+                  onClick={() => {
+                    setActiveTab(id);
+                    setCurrentPage(1);
+                    setSelectedCategory(null);
+                  }}
+                  className={cn(
+                    "flex items-center gap-2 px-5 py-2.5 rounded-xl text-sm font-semibold transition-all duration-200 cursor-pointer select-none border",
+                    id === "trending" && "animate-pulse",
+                    isActive
+                      ? activeClass
+                      : "text-white/50 hover:text-white/80 hover:bg-white/[0.05] border-transparent"
+                  )}
+                >
+                  <Icon className={cn("w-4 h-4", isActive ? "text-white" : iconColor)} />
+                  {label}
+                </button>
+              );
+            })}
+          </div>
+          {/* Subtitle per tab */}
+          <p className="mt-3 text-sm text-foreground/40">
+            {activeTab === "all"      && "Browse all prompts from our library"}
+            {activeTab === "trending" && "Prompts marked as trending by our curators"}
+            {activeTab === "popular"  && "Most viewed & liked prompts from our library"}
+            {activeTab === "latest"   && "Freshly added prompts, newest first"}
+          </p>
+        </div>
+
+        {/* Category Pills (Respective to Active Tab) */}
+        <div className="mb-10">
+          <div className="flex flex-wrap items-center gap-2 md:gap-2.5">
+            {/* "All" Pill */}
+            <button
+              onClick={() => {
+                setSelectedCategory(null);
+                setCurrentPage(1);
+              }}
+              className={cn(
+                "flex items-center gap-2 px-4 py-2 rounded-xl text-xs font-bold transition-all duration-200 border cursor-pointer select-none",
+                !selectedCategory
+                  ? "bg-primary/10 text-primary border-primary/20 shadow-[0_4px_12px_rgba(139,92,246,0.1)]"
+                  : "bg-white/[0.02] text-white/50 border-white/[0.06] hover:text-white hover:bg-white/[0.05] hover:border-white/[0.1]"
+              )}
+            >
+              <LayoutGrid className="w-3.5 h-3.5" />
+              All Prompts ({activePrompts.length})
+            </button>
+
+            {/* Dynamic Category Pills */}
+            {tabCategories.map((cat) => {
+              const count = tabCategoryCounts[cat.id] ?? 0;
+              const isSelected = selectedCategory?.toLowerCase() === cat.id.toLowerCase();
+              return (
+                <button
+                  key={cat.id}
+                  onClick={() => {
+                    setSelectedCategory(isSelected ? null : cat.id);
+                    setCurrentPage(1);
+                  }}
+                  className={cn(
+                    "flex items-center gap-2 px-4 py-2 rounded-xl text-xs font-bold transition-all duration-200 border cursor-pointer select-none",
+                    isSelected
+                      ? cn(cat.badgeBg, cat.badgeText, "shadow-[0_4px_12px_rgba(139,92,246,0.1)]")
+                      : "bg-white/[0.02] text-white/50 border-white/[0.06] hover:text-white hover:bg-white/[0.05] hover:border-white/[0.1]"
+                  )}
+                >
+                  <cat.icon className="w-3.5 h-3.5" />
+                  {cat.name} ({count})
+                </button>
+              );
+            })}
+          </div>
+        </div>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          {displayedPrompts.length > 0 ? (
+            displayedPrompts.map((prompt, i) => (
+              <div key={prompt.id || i}>
                 <PromptCard
                   {...prompt}
-                  priority={i < 4}
+                  priority={i < 8}
                 />
               </div>
-            ))}
-          </div>
+            ))
+          ) : (
+            <div className="col-span-full py-20 text-center space-y-4">
+              <div className="w-20 h-20 bg-foreground/5 rounded-full flex items-center justify-center mx-auto">
+                <Search className="w-10 h-10 text-foreground/20" />
+              </div>
+              <h3 className="text-xl font-bold text-foreground">No prompts found</h3>
+              <p className="text-foreground/40">Try selecting a different category or search term.</p>
+            </div>
+          )}
+        </div>
 
-          <div className="mt-6 flex justify-center sm:hidden">
-            <Link
-              href="/trending"
-              className="flex items-center gap-2 text-sm font-bold bg-foreground/5 hover:bg-foreground/10 px-6 py-3 rounded-xl border border-border transition-all text-foreground"
-            >
-              View All Trending
-              <ArrowRight className="w-4 h-4" />
-            </Link>
-          </div>
-        </section>
-      )}
+        <Pagination
+          currentPage={currentPage}
+          totalPages={totalPages}
+          onPageChange={setCurrentPage}
+          scrollTargetId="prompts-section"
+        />
+      </section>
+
+
 
       {/* 2. Value Proposition / Feature Stats */}
       <StatsSection />
@@ -552,79 +679,7 @@ export default function HomeClient({ initialPrompts, initialBlogs }: HomeClientP
         </div>
       </section>
 
-      {/* 5. Main Catalog: Category Filters & Paginated Featured Prompts */}
-      <section id="prompts-section" className="max-w-7xl mx-auto px-4 md:px-8 pb-32 pt-10 border-t border-border/20">
-        {/* Mobile Search and Category Filters at the top of Catalog */}
-        <div className="mb-12">
-          <form onSubmit={handleSearch} className="relative group lg:hidden mb-8">
-            <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-foreground/40 group-focus-within:text-primary transition-colors" />
-            <input
-              type="text"
-              placeholder="Search prompts, categories, styles..."
-              value={localSearch}
-              onChange={(e) => setLocalSearch(e.target.value)}
-              className="w-full bg-foreground/5 border border-foreground/10 rounded-2xl py-4 pl-12 pr-4 text-sm focus:outline-none focus:ring-2 focus:ring-primary/50 transition-all text-foreground"
-            />
-          </form>
-
-          <CategoryFilters
-            activeCategory={activeCategory}
-            onCategoryChange={(cat) => {
-              setActiveCategory(cat);
-              setCurrentPage(1);
-            }}
-            categoryCounts={categoryCounts}
-            totalCount={totalCount}
-          />
-        </div>
-
-        <div className="flex items-center justify-between mb-10">
-          <div className="space-y-1">
-            <h2 className="text-3xl font-bold flex items-center gap-3">
-              <span className="w-2 h-10 bg-primary rounded-full"></span>
-              Featured Prompts
-            </h2>
-            <p className="text-foreground/40 text-sm">Handpicked premium prompts from our community</p>
-          </div>
-          <button
-            onClick={() => router.push("/browse")}
-            className="hidden sm:flex items-center gap-2 text-sm font-bold bg-foreground/5 hover:bg-foreground/10 px-6 py-3 rounded-xl border border-border transition-all text-foreground"
-          >
-            Browse All
-            <ArrowRight className="w-4 h-4" />
-          </button>
-        </div>
-
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {displayedPrompts.length > 0 ? (
-            displayedPrompts.map((prompt, i) => (
-              <div key={prompt.id || i}>
-                <PromptCard
-                  {...prompt}
-                  priority={i < 8}
-                />
-              </div>
-            ))
-          ) : (
-            <div className="col-span-full py-20 text-center space-y-4">
-              <div className="w-20 h-20 bg-foreground/5 rounded-full flex items-center justify-center mx-auto">
-                <Search className="w-10 h-10 text-foreground/20" />
-              </div>
-              <h3 className="text-xl font-bold text-foreground">No prompts found</h3>
-              <p className="text-foreground/40">Try selecting a different category or search term.</p>
-            </div>
-          )}
-        </div>
-
-        <Pagination
-          currentPage={currentPage}
-          totalPages={totalPages}
-          onPageChange={setCurrentPage}
-          scrollTargetId="prompts-section"
-        />
-      </section>
-
-      {/* 6. Deep SEO Description / About Page */}
+      {/* 5. Deep SEO Description / About Page */}
       <section className="max-w-7xl mx-auto px-4 md:px-8 pb-20">
         <div className="rounded-2xl border border-border bg-card/30 backdrop-blur-sm grid grid-cols-1 lg:grid-cols-2 overflow-hidden">
           {/* Left column */}
