@@ -19,5 +19,68 @@
     "models": [
       "Gemini AI"
     ]
+  },
+  {
+    "id": "cmen4pl2uka",
+    "title": "Double Exposure: Urban Confidence",
+    "slug": "double-exposure-urban-confidence-sjdlq",
+    "category": "Men",
+    "fullPrompt": "A stylized studio portrait of a handsome young man with a playful, confident attitude. He has dark black hair with a neat fade, and a bright smile. He is wearing white-framed sunglasses with dark lenses, a light blue plaid button-up shirt worn open over a plain white t-shirt: dark gray cargo jeans with pockets, and bright red sneakers. A thin metallic chain necklace is visible around his neck.The composition features a creative double-exposure effect: a large close-up of",
+    "image": "https://res.cloudinary.com/dfbacu2lw/image/upload/v1781154054/prompts/jcvn6geknpeyhrflzue0.webp",
+    "isPremium": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-05-10T06:06:13.387Z",
+    "updatedAt": "2026-06-11T05:00:55.302Z",
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmu6wyw7kag",
+    "title": "Blue Vector Street-Art Editorial Portrait",
+    "slug": "blue-vector-streetart-editorial-portrait-9yyyo",
+    "category": "Men",
+    "fullPrompt": "Create a high-quality mixed media image that blends realistic photography with vector illustration. Use the attached image strictly for facial identity matching only: the face shape, glasses, eyes, nose, lips, and hair texture must match exactly, while clothing, pose, lighting, and background must not be copied from the reference. The result should be a high-resolution full-body studio portrait of a person in a dynamic, confident pose against a solid bright blue background, combining realistic photography with white hand-drawn vector doodles and abstract blue liquid shapes for a modern street-art editorial look. The environment is a studio graphic design composition with an energetic, urban, creative, cool atmosphere. Use artificial studio lighting that is soft, diffused, neutral white, and dominant from the front-right, with an even, shadow-free background. The palette should focus on a bright blue background, deep blue clothing, and white graphic accents with high contrast. Use a low-angle, slightly upward",
+    "image": "https://res.cloudinary.com/dfbacu2lw/image/upload/v1781258209/prompts/rxhm3h2p1qc2hwvqnvqd.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-06-12T09:56:49.180Z",
+    "updatedAt": "2026-06-12T09:56:49.180Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmzt9ywtscm",
+    "title": "Miniature Cascade – Forced Perspective Giant Bottle Waterfall Scene",
+    "slug": "miniature-cascade-forced-perspective-giant-bottle-waterfall-scene-ca0ij",
+    "category": "Men",
+    "fullPrompt": "A hyper-realistic forced perspective photography shot capturing a surreal miniature scene in natural daylight. In the immediate foreground, a colossal, translucent green plastic soda bottle rests on a weathered, mossy brick ledge on the left, tilted downwards to pour a crystal-clear, continuous stream of water. The bottle features realistic manufacturing codes and light refraction through the green plastic. In the center of the frame, scaled down to the size of an action figure, a person with uploaded face as reference is crouching atop the detached green bottle cap, which sits on the wet, textured concrete ground. The subject is barefoot, wearing a white long-sleeved shirt and dark checkered trousers, with hands cupped together to catch and drink the falling water stream as if it were a waterfall. The ground is a rough, wet concrete surface with scattered puddles reflecting the sky. The background is a soft, creamy bokeh of lush green trees and foliage, emphasizing the sharp focus on the miniature subject and the giant water bottle. The lighting is soft and diffuse, typical of an overcast afternoon, with high-fidelity textures on the fabric folds, the water surface tension, and the weathered stone, rendered in 8k resolution with raytraced water refractions",
+    "image": "https://res.cloudinary.com/dfbacu2lw/image/upload/v1781265348/prompts/xfw7xsvdch6vo9ypx5i8.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-06-12T11:55:47.491Z",
+    "updatedAt": "2026-06-12T11:55:47.491Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
   }
 ]

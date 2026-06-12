@@ -1,0 +1,86 @@
+[
+  {
+    "id": "cm5rqvojjmh",
+    "title": "Studio Family Portrait – Warm Neutral Tones Family Sofa Session",
+    "slug": "studio-family-portrait-warm-neutral-tones-family-sofa-session-xpi1w",
+    "category": "Family",
+    "fullPrompt": "Transform this image into a studio family portrait. Maintain the same faces and person (use attached photo for accurate face). The pose should feature the parents sitting side-by-side on a sofa, with the one girl, one older boy and one younger. All of the three children sitting between the parents.Dress them in semi-formal attire in coordinated, neutral tones (beige, light brown, white). The lighting should be warm and natural, against a plain cream background. Add a small vase of flowers as a prop on the side.\"",
+    "image": "https://res.cloudinary.com/dfbacu2lw/image/upload/v1781258413/prompts/iomth4jleh4yw4yetpfk.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-06-12T10:00:12.200Z",
+    "updatedAt": "2026-06-12T10:00:12.200Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmprf482rrn",
+    "title": "Timeless Legacy – Low-Key Black & White Family Side-Profile Portrait",
+    "slug": "timeless-legacy-lowkey-black-white-family-sideprofile-portrait-a8zu2",
+    "category": "Family",
+    "fullPrompt": "Create a classic low-key black-and-white studio portrait of a family of four arranged in a staggered side-profile composition, all facing right. Maintain accurate identity and face matching to the provided reference image for all four subjects — preserve exact facial structure, proportions, skin texture, hairlines.Mid-chest shot (cropped from mid chest upward), tight vertical composition. All four subjects are wearing solid matte black t-shirts with no logos, no reflective elements — blending subtly into shadow while maintaining garment structure.\nDiagonal alignment from front-left (father closest to camera) to back-right (youngest child farthest). Overlapping layered composition.\nCRITICAL — Natural Height-Based Staggered Arrangement: Subjects must be arranged in realistic descending height order consistent with a natural family hierarchy. The father (foreground) is the tallest, followed slightly behind by the mother, who is slightly shorter. Behind her stands the first child, clearly shorter than the mother, and, in the far background, the second child, the shortest of all. The top of each subject’s head forms a gradual downward diagonal slope from left (tallest father) to right (shortest child). Eye levels must also progressively lower in the same sequence. This height progression must appear anatomically natural and realistic, not artificially aligned or equalized. Maintain accurate proportional scaling and perspective depth consistent with real-world height differences. True monochrome (black and white), high contrast, deep blacks, smooth midtone transitions. Dramatic chiaroscuro lighting with a single directional key light from camera-right, slightly above eye level, no equipment/object visible in frame. Strong shadow falloff into pure black background. Deep negative space on the left.Sharp catchlights in all eyes from a small gridded softbox. Crisp highlight definition on nose bridges, cheekbones, lips, and jawlines.\nFather (foreground, sharpest focus): His expression appears steady and confident with a subtle smile. His gaze is fixed forward, conveying strength and leadership. Visible individual hairs, strong skin micro-contrast, wear a black t-shirt fading into shadow.Mother (second): She has a soft, graceful smile (upper teeth visible). Long voluminous wavy hair, subtle earrings, smooth skin, and wear a black outfit.\nChild (third): Her expression shows youthful curiosity and positivity, with a subtle smile (upper teeth visible), slightly pulled-back natural hair, and a simple black outfit.\nChild (background): He looks calm and thoughtful. His face carries innocence and quiet confidence, as if observing something meaningful ahead. Lens look: 85mm–135mm telephoto compression, no distortion.\nAperture look: f/5.6–f/8 layered depth, foreground sharpest with subtle gradual falloff.\nUltra-detailed skin texture, realistic pores, cinematic tonal grading, professional studio photography, timeless, museum-quality.\n4K resolution detail, ultra-sharp, high micro-contrast, refined tonal range.Aspect ratio 4:5\nNegative prompt:\nlow quality, blur, head crop, frame crop, over exposure, visible equipment, equal head height, flat alignment, incorrect height proportions, unrealistic scaling",
+    "image": "https://res.cloudinary.com/dfbacu2lw/image/upload/v1781258877/prompts/yetwims0j9dvymdiiugf.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-06-12T10:07:56.572Z",
+    "updatedAt": "2026-06-12T10:07:56.572Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cm239l81h4u",
+    "title": "Watercolor Family Huddle Portrait – Mixed Media Fine Art Family Cluster",
+    "slug": "watercolor-family-huddle-portrait-mixed-media-fine-art-family-cluster-sn51j",
+    "category": "Family",
+    "fullPrompt": "Use the uploaded image(s) only for strict identity references. Each subject must match their respective face, proportions, skin tone, hairstyle, and facial features exactly. No identity drift or beautification.\nMain Concept\nCreate a high-detail mixed-media watercolor family portrait capturing a warm, joyful “huddle” moment Composition & Framing\nDo not detect the subject's pose details from the provided reference image.\nAspect ratio: 1:1 or 4:5\nTight, intimate group composition\nSubjects arranged naturally in a close cluster (slight overlap)\nHead-and-shoulders framing\nEye-level camera\nSubjects (Dynamic / Flexible)\nNumber of people: based on input images (2–6 subjects supported)\nArrange subjects in a balanced triangular or clustered composition\nAdults slightly behind or framing the group, children naturally in front (if present)\nNatural arm placement: light embrace, shoulders touching, subtle interaction\nExpressions & Emotion\nGenuine smiles (natural, not forced)\nWarm, candid, emotionally connected\nBright eyes with realistic catchlights\nArt Style & Rendering\nMixed-media watercolor + photorealistic facial detail\nFaces: sharp, detailed (skin texture, eyes, teeth)\nEdges: dissolve into soft watercolor washes and splashes\nMinimal fine linework, mostly soft gradients\nColor System (Flexible)\nClothing: soft coordinated tones (pastels / neutrals / family palette), no short clothing\nSkin tones: natural with warm undertones\nBackground: white paper texture with abstract watercolor splashes\n\n(soft yellow, green, blue — adjustable)\nLighting\nHigh-key soft studio lighting\nEven illumination, minimal harsh shadows\nSoft gradients on face contours\nDetailing\nFine hair strands blending into brush strokes\nSubtle skin texture (not overly smooth)\nWatercolor bleed and splatter effects\nQuality Tags\nUltra-detailed, 8K, professional digital painting, watercolor illustration, clean composition",
+    "image": "https://res.cloudinary.com/dfbacu2lw/image/upload/v1781258664/prompts/a73xccgqud6rbrj7etpa.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-06-12T10:04:23.373Z",
+    "updatedAt": "2026-06-12T10:04:23.373Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmml5zvirdq",
+    "title": "DANIEL – Cozy Pastel Designer Room with Pixar-Style Chibi Creative Collage Portrait",
+    "slug": "daniel-cozy-pastel-designer-room-with-pixarstyle-chibi-creative-collage-portrait-mti86",
+    "category": "Family",
+    "fullPrompt": "Create a highly detailed, whimsical 3D-style portrait of a beautiful young Asian guy based on the attached image, standing confidently in a cozy pastel-colored home environment. he is wearing a soft green hoodie, white shorts, and white sneakers, smiling gently with crossed arms. Beside his are giant colorful vertical letters spelling ‘DANIEL,’ each letter glossy and toy-like, with inspirational words written on them: Dynamic, Artistic, Nimble, Iridescent, Earthbound, Luminous. Around each letter are cute chibi-style miniature guy based on the attached image characters doing creative deigning and graphic designer activities. The room is filled with warm ambient fairy lights, pastel decorations, motivational notes, and cute home accessories and icons for graphic designer. Include handwritten-style wall signs saying ‘I am a strategic designer!’ and ‘Today’s Plan: Design, Create, Repeat.’ Use soft cinematic lighting, warm tones, shallow depth of field, ultra-detailed textures, dreamy atmosphere, Pixar-inspired character design, realistic skin details, and high-quality digital art. Vertical composition, cozy designer aesthetic, cute and inspirational mood.” You can also add style keywords depending on the AI generator: Pixar-style Disney-inspired 3D render Ultra realistic Cute chibi miniature characters Warm pastel aesthetic Soft glowing lights Highly detailed 8k quality .",
+    "image": "https://res.cloudinary.com/dfbacu2lw/image/upload/v1781268268/prompts/fcqaetgyk6wdvcahfcbi.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-06-12T12:44:27.128Z",
+    "updatedAt": "2026-06-12T12:44:27.128Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  }
+]
