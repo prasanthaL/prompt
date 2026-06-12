@@ -47,13 +47,20 @@
     "slug": "blueprint-of-vision-drafted-mind-portrait-ajjir",
     "category": "Architecture",
     "fullPrompt": "A blueprint-style artistic drawing of a smiling young man on blue grid paper, detailed pencil sketch with labels pointing to his head reading \"VISION,\" \"FOCUS,\" and \"RESILIENCE.\" The blueprint sheet lies on a wooden desk surrounded by drafting tools like a pencil, metal ruler, triangle scale, rolled-up paper tube, and a cup of coffee. Warm ambient lighting creates a professional and creative atmosphere. Highly detailed, top-down perspective.",
-    "image": "https://res.cloudinary.com/dfbacu2lw/image/upload/v1778672106/prompts/lr8taghljwandom5pqrw.png",
+    "image": "https://res.cloudinary.com/dfbacu2lw/image/upload/v1781081549/prompts/m7whyleqsw46xxwoz8ve.webp",
     "isPremium": false,
     "author": "Admin",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-05-13T11:35:07.163Z",
-    "updatedAt": "2026-05-13T11:35:07.163Z"
+    "updatedAt": "2026-06-10T08:52:29.688Z",
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
   },
   {
     "id": "cms62i7mn4v",
@@ -61,12 +68,19 @@
     "slug": "drawn-reflections-the-sketch-behind-the-smile-8ala7",
     "category": "Architecture",
     "fullPrompt": "A stylish young man with wavy, medium-length black hair and a beard is standing confidently in front of a wall featuring a large, realistic pencil sketch of his face. He is wearing a black hoodie, light grey pants, and a silver wristwatch. The man stands with his arms crossed and smiles warmly, matching the expression in the sketch behind him. The background is simple and neutral, focusing attention on the subject and the artwork.",
-    "image": "https://res.cloudinary.com/dfbacu2lw/image/upload/v1778784932/prompts/aqcwsokdfxycyfurz3fy.png",
+    "image": "https://res.cloudinary.com/dfbacu2lw/image/upload/v1781081614/prompts/x4h1er1dbkhucowgel0i.webp",
     "isPremium": false,
     "author": "Admin",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-05-14T18:55:33.397Z",
-    "updatedAt": "2026-05-14T18:55:33.397Z"
+    "updatedAt": "2026-06-10T08:53:35.430Z",
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
   }
 ]
