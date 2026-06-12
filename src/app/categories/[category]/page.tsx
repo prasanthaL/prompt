@@ -1,11 +1,12 @@
 import React from "react";
-import { getPromptsByCategory } from "@/lib/json-db";
+import { getPromptsByCategory, getAllPrompts } from "@/lib/json-db";
 import Navbar from "@/components/Navbar";
 import PromptCard from "@/components/PromptCard";
 import Link from "next/link";
 import Image from "next/image";
 import CategoryPromptsClient from "./CategoryPromptsClient";
 import Footer from "@/components/Footer";
+import categoriesData from "@/data/categories.json";
 
 import { 
   Clapperboard, 
@@ -27,7 +28,14 @@ import {
   TrendingUp,
   HelpCircle,
   Copy,
-  FolderOpen
+  FolderOpen,
+  Users,
+  Flame,
+  Trees,
+  Dog,
+  Car,
+  Palette,
+  PaintBucket
 } from "lucide-react";
 import type { Metadata } from "next";
 
@@ -203,9 +211,15 @@ const categoryDescriptions: Record<string, { title: string; description: string;
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { category } = await params;
   const decoded = decodeURIComponent(category);
-  const displayName = decoded.charAt(0).toUpperCase() + decoded.slice(1);
+  const key = decoded.toLowerCase();
 
-  const categoryMeta = categoryDescriptions[decoded.toLowerCase()];
+  // Format Display Name elegantly (e.g. "sci-fi" -> "Sci-Fi")
+  let displayName = decoded.charAt(0).toUpperCase() + decoded.slice(1);
+  if (key === "sci-fi") {
+    displayName = "Sci-Fi";
+  }
+
+  const categoryMeta = categoryDescriptions[key];
 
   if (categoryMeta) {
     return {
@@ -225,9 +239,9 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     };
   }
 
-  // Generic fallback for categories without a custom description
+  const catConfig = categoriesData.find(c => c.name.toLowerCase() === key);
   const fallbackTitle = `${displayName} AI Prompts – Browse Top ${displayName} Prompts | PromptVault`;
-  const fallbackDescription = `Explore our curated collection of high-quality ${displayName} AI prompts on PromptVault. Find the perfect prompts for your next creative project and generate stunning artwork with ease.`;
+  const fallbackDescription = catConfig?.description || `Explore our curated collection of high-quality ${displayName} AI prompts on PromptVault. Find the perfect prompts for your next creative project and generate stunning artwork with ease.`;
 
   return {
     title: fallbackTitle,
@@ -244,6 +258,26 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     },
   };
 }
+
+const ICON_MAP: Record<string, React.ComponentType<any>> = {
+  Cinematic: Clapperboard,
+  Anime: Ghost,
+  Portrait: User,
+  Fantasy: Zap,
+  "Sci-Fi": Cpu,
+  Architecture: Home,
+  Product: ShoppingBag,
+  Men: User,
+  Women: User,
+  Family: Users,
+  Couple: Users,
+  Sport: Flame,
+  "Nature & Landscape": Trees,
+  "Animals & Wildlife": Dog,
+  Vehicles: Car,
+  "Digital Art": Palette,
+  Graffiti: PaintBucket,
+};
 
 const categoryMetaLookup: Record<string, {
   icon: React.ComponentType<any>;
@@ -568,29 +602,60 @@ export default async function CategoryPage({ params }: PageProps) {
   const prompts = await getPromptsByCategory(decodedCategory);
 
   // Look up metadata assets
-  const meta = categoryMetaLookup[key] || {
-    icon: Sparkles,
-    accent: "text-primary bg-primary/10 border-primary/20",
-    color: "from-primary/30 to-accent/30",
-    image: "https://images.unsplash.com/photo-1634017839464-5c339afa60f0?w=600&q=80",
-    statCount: prompts.length.toString(),
-    copies: "10K+",
-  };
+  const staticMeta = categoryMetaLookup[key];
+  const catConfig = categoriesData.find(c => c.name.toLowerCase() === key);
+  
+  let meta;
+  if (staticMeta) {
+    meta = staticMeta;
+  } else if (catConfig) {
+    const colorName = catConfig.accent.replace("bg-", "").replace("-500", "");
+    const accentClass = `text-${colorName}-500 bg-${colorName}-500/10 border-${colorName}-500/20`;
+    const MetaIcon = ICON_MAP[catConfig.name] || Sparkles;
+    meta = {
+      icon: MetaIcon,
+      accent: accentClass,
+      color: catConfig.color,
+      image: catConfig.image,
+      statCount: prompts.length.toString(),
+      copies: "10K+",
+    };
+  } else {
+    meta = {
+      icon: Sparkles,
+      accent: "text-primary bg-primary/10 border-primary/20",
+      color: "from-primary/30 to-accent/30",
+      image: "https://images.unsplash.com/photo-1634017839464-5c339afa60f0?w=600&q=80",
+      statCount: prompts.length.toString(),
+      copies: "10K+",
+    };
+  }
 
   const MetaIcon = meta.icon;
   const categoryMeta = categoryDescriptions[key];
 
+  // Fetch all prompts to compute counts dynamically
+  const allPrompts = await getAllPrompts();
+  const categoryCounts: Record<string, number> = {};
+  for (const prompt of allPrompts) {
+    if (prompt.category) {
+      const catKey = prompt.category.toLowerCase();
+      categoryCounts[catKey] = (categoryCounts[catKey] ?? 0) + 1;
+    }
+  }
+
   // Dynamic categories list lookup to fetch counts and icons for related categories
-  const relatedCategories = Object.keys(categoryMetaLookup)
-    .filter(k => k !== key)
+  const relatedCategories = categoriesData
+    .filter(c => c.name.toLowerCase() !== key)
     .slice(0, 4)
-    .map(k => {
-      const relatedMeta = categoryMetaLookup[k];
+    .map(c => {
+      const relatedKey = c.name.toLowerCase();
+      const countVal = categoryCounts[relatedKey] ?? 0;
       return {
-        key: k,
-        name: k.charAt(0).toUpperCase() + k.slice(1) === "Sci-fi" ? "Sci-Fi" : k.charAt(0).toUpperCase() + k.slice(1),
-        icon: relatedMeta.icon,
-        count: relatedMeta.statCount,
+        key: relatedKey,
+        name: c.name,
+        icon: ICON_MAP[c.name] || Sparkles,
+        count: countVal.toLocaleString(),
       };
     });
 
