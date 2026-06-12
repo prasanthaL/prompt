@@ -63,7 +63,7 @@ const Navbar = () => {
             <Sparkles className="text-white w-5 h-5 md:w-6 md:h-6" />
           </div>
           <span className="text-lg md:text-xl font-bold tracking-tight text-foreground">
-            PromptVault
+            AIPromptNest
           </span>
         </Link>
 
@@ -94,7 +94,7 @@ const Navbar = () => {
 
         {/* Actions */}
         <div className="flex items-center gap-2 md:gap-4">
-          <button 
+          <button
             onClick={() => setTheme(resolvedTheme === "dark" ? "light" : "dark")}
             className="p-2 text-foreground/70 hover:text-foreground hover:bg-foreground/5 rounded-full transition-all"
             aria-label="Toggle Theme"
@@ -102,7 +102,7 @@ const Navbar = () => {
             {mounted && (resolvedTheme === "dark" ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />)}
             {!mounted && <div className="w-5 h-5" />}
           </button>
-          
+
           <button
             className="lg:hidden p-2 text-foreground/70 hover:text-foreground"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
