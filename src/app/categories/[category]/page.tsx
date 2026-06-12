@@ -5,6 +5,7 @@ import PromptCard from "@/components/PromptCard";
 import Link from "next/link";
 import Image from "next/image";
 import CategoryPromptsClient from "./CategoryPromptsClient";
+import Footer from "@/components/Footer";
 
 import { 
   Clapperboard, 
@@ -1020,23 +1021,7 @@ export default async function CategoryPage({ params }: PageProps) {
         </section>
       </div>
 
-      <footer className="mt-20 py-20 px-4 md:px-8 border-t border-border">
-        <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between gap-12 text-foreground">
-          <div className="space-y-6 max-w-sm">
-            <div className="flex items-center gap-2">
-              <div className="w-10 h-10 bg-primary rounded-xl flex items-center justify-center">
-                <Sparkles className="text-white w-6 h-6" />
-              </div>
-              <span className="text-xl font-bold tracking-tight">PromptVault</span>
-            </div>
-            <p className="text-foreground/40 text-sm leading-relaxed">
-              The world's leading marketplace for high-quality AI prompts.
-              Helping creators build amazing things with AI since 2026.
-            </p>
-          </div>
-          <p className="text-xs text-foreground/20 self-end">© 2026 PromptVault. All rights reserved.</p>
-        </div>
-      </footer>
+      <Footer />
     </main>
   );
 }

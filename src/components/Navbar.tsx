@@ -47,7 +47,6 @@ const Navbar = () => {
     { name: "Categories", href: "/categories" },
     { name: "Trending", href: "/trending" },
     { name: "Blog", href: "/blog" },
-    { name: "Premium", href: "/premium" },
   ];
 
   return (

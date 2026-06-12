@@ -8,6 +8,7 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import PromptCard from "@/components/PromptCard";
 import StatsSection from "@/components/StatsSection";
+import Footer from "@/components/Footer";
 import {
   ArrowRight,
   Search,
@@ -835,58 +836,7 @@ export default function HomeClient({ initialPrompts, initialBlogs }: HomeClientP
         </div>
       </section>
 
-      <footer className="py-20 px-4 md:px-8 border-t border-border">
-        <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between gap-12 text-foreground">
-          <div className="space-y-6 max-w-sm">
-            <div className="flex items-center gap-2">
-              <div className="w-10 h-10 bg-primary rounded-xl flex items-center justify-center">
-                <Search className="text-white w-6 h-6" />
-              </div>
-              <span className="text-xl font-bold tracking-tight">PromptVault</span>
-            </div>
-            <p className="text-foreground/40 text-sm leading-relaxed">
-              The world's leading marketplace for high-quality AI prompts.
-              Helping creators build amazing things with AI since 2026.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-2 sm:grid-cols-3 gap-12">
-            <div className="space-y-4">
-              <h4 className="font-bold text-foreground uppercase text-xs tracking-widest">Platform</h4>
-              <ul className="space-y-2 text-sm text-foreground/40">
-                <li onClick={() => router.push("/browse")} className="hover:text-foreground cursor-pointer transition-colors">Browse Prompts</li>
-                <li className="hover:text-foreground cursor-pointer transition-colors">Categories</li>
-                <li className="hover:text-foreground cursor-pointer transition-colors">Pricing</li>
-              </ul>
-            </div>
-            <div className="space-y-4">
-              <h4 className="font-bold text-foreground uppercase text-xs tracking-widest">Company</h4>
-              <ul className="space-y-2 text-sm text-foreground/40">
-                <li className="hover:text-foreground cursor-pointer transition-colors">About Us</li>
-                <li className="hover:text-foreground cursor-pointer transition-colors">Careers</li>
-                <li className="hover:text-foreground cursor-pointer transition-colors">
-                  <Link href="/blog">Blog</Link>
-                </li>
-              </ul>
-            </div>
-            <div className="space-y-4">
-              <h4 className="font-bold text-foreground uppercase text-xs tracking-widest">Support</h4>
-              <ul className="space-y-2 text-sm text-foreground/40">
-                <li className="hover:text-foreground cursor-pointer transition-colors">Help Center</li>
-                <li className="hover:text-foreground cursor-pointer transition-colors">Contact</li>
-                <li className="hover:text-foreground cursor-pointer transition-colors">Terms</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div className="max-w-7xl mx-auto mt-20 pt-8 border-t border-border flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-foreground/20">
-          <p>© 2026 PromptVault. All rights reserved.</p>
-          <div className="flex gap-8">
-            <span className="hover:text-foreground cursor-pointer">Privacy Policy</span>
-            <span className="hover:text-foreground cursor-pointer">Terms of Service</span>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </main>
   );
 }

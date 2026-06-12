@@ -13,6 +13,7 @@ import {
 import Link from "next/link";
 import Image from "next/image";
 import { Metadata } from "next";
+import Footer from "@/components/Footer";
 
 export const revalidate = 60; // Revalidate every minute
 
@@ -227,22 +228,7 @@ export default async function BlogDetail({ params }: PageProps) {
         </section>
       )}
 
-      <footer className="py-20 px-4 md:px-8 border-t border-border bg-card/30 text-foreground">
-        <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between gap-12">
-          <div className="space-y-6 max-w-sm">
-            <div className="flex items-center gap-2">
-              <div className="w-10 h-10 bg-primary rounded-xl flex items-center justify-center font-bold text-white">PV</div>
-              <span className="text-xl font-bold tracking-tight">PromptVault</span>
-            </div>
-            <p className="text-foreground/40 text-sm leading-relaxed">
-              Empowering the next generation of digital creators with premium AI resources.
-            </p>
-          </div>
-          <div className="text-xs text-foreground/20">
-            © 2026 PromptVault. All rights reserved.
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </main>
   );
 }

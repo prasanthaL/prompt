@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import PromptCard from "@/components/PromptCard";
+import Footer from "@/components/Footer";
 import {
   TrendingUp,
   Eye,
@@ -42,29 +43,45 @@ interface TrendingClientProps {
   totalPrompts: number;
 }
 
-const CATEGORIES = [
-  { label: "All", id: "all", emoji: "🔥" },
-  { label: "ChatGPT", id: "ChatGPT", emoji: "🤖" },
-  { label: "Gemini", id: "Gemini", emoji: "✨" },
-  { label: "Claude", id: "Claude", emoji: "🧠" },
-  { label: "Image Gen", id: "Image Gen", emoji: "🎨" },
-  { label: "Marketing", id: "Marketing", emoji: "📣" },
-  { label: "Coding", id: "Coding", emoji: "💻" },
-  { label: "Business", id: "Business", emoji: "💼" },
-  { label: "Writing", id: "Writing", emoji: "✍️" },
-  { label: "Productivity", id: "Productivity", emoji: "⚡" },
-];
+const CATEGORY_EMOJIS: Record<string, string> = {
+  Cinematic: "🎬",
+  Anime: "🌸",
+  Fantasy: "🔮",
+  "Sci-Fi": "🛸",
+  Architecture: "🏢",
+  Portrait: "📸",
+  Product: "🛍️",
+  Men: "👨",
+  Women: "👩",
+  Family: "👨‍👩‍👧‍👦",
+  Couple: "💑",
+  Sport: "🏆",
+  "Nature & Landscape": "🏔️",
+  "Animals & Wildlife": "🐼",
+  Vehicles: "🏎️",
+  "Digital Art": "🎨",
+  Graffiti: "🖌️",
+};
 
-const POPULAR_SEARCHES = [
-  "ChatGPT Prompts",
-  "Gemini Prompts",
-  "Image Generation",
-  "Marketing Prompts",
-  "Coding Prompts",
-  "Writing Prompts",
-  "Business Prompts",
-  "Productivity Prompts",
-];
+const CATEGORY_DISPLAY_NAMES: Record<string, string> = {
+  cinematic: "Cinematic",
+  anime: "Anime",
+  fantasy: "Fantasy",
+  "sci-fi": "Sci-Fi",
+  architecture: "Architecture",
+  portrait: "Portrait",
+  product: "Product",
+  men: "Men",
+  women: "Women",
+  family: "Family",
+  couple: "Couple",
+  sport: "Sport",
+  "nature & landscape": "Nature & Landscape",
+  "animals & wildlife": "Animals & Wildlife",
+  vehicles: "Vehicles",
+  "digital art": "Digital Art",
+  graffiti: "Graffiti",
+};
 
 const FAQS = [
   {
@@ -172,6 +189,23 @@ export default function TrendingClient({
   const [timeFilter, setTimeFilter] = useState("This Week");
   const [openFaq, setOpenFaq] = useState<number | null>(null);
   const [email, setEmail] = useState("");
+
+  // Get all unique categories that have trending prompts
+  const trendingCategories = Array.from(
+    new Set(prompts.map((p) => p.category).filter(Boolean))
+  ).sort((a, b) => a.localeCompare(b));
+
+  const categories = [
+    { label: "All", id: "all", emoji: "🔥" },
+    ...trendingCategories.map((cat) => {
+      const displayName = CATEGORY_DISPLAY_NAMES[cat.toLowerCase()] || cat;
+      return {
+        label: displayName,
+        id: cat.toLowerCase(),
+        emoji: CATEGORY_EMOJIS[displayName] || "✨",
+      };
+    }),
+  ];
 
   const filteredPrompts =
     activeCategory === "all"
@@ -380,7 +414,7 @@ export default function TrendingClient({
           </h2>
 
           <div className="flex gap-2 overflow-x-auto pb-2 no-scrollbar flex-wrap">
-            {CATEGORIES.map((cat) => {
+            {categories.map((cat) => {
               const isActive = activeCategory === cat.id;
               return (
                 <button
@@ -494,27 +528,30 @@ export default function TrendingClient({
         </div>
       </section>
 
-      {/* ═══════════════════════════════════════════ POPULAR SEARCHES ═══════════════════════════════════════════ */}
+      {/* ═══════════════════════════════════════════ POPULAR CATEGORIES ═══════════════════════════════════════════ */}
       <section className="px-4 md:px-8 pb-16">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-base font-bold text-foreground mb-4">
-            Popular Searches
+            Popular Categories
           </h2>
           <div className="flex flex-wrap gap-2">
-            {POPULAR_SEARCHES.map((s) => (
-              <Link
-                key={s}
-                href={`/browse?q=${encodeURIComponent(s)}`}
-                className="px-4 py-2 rounded-full text-xs font-semibold border transition-all duration-200 hover:border-primary/60 hover:text-primary"
-                style={{
-                  background: "rgba(255,255,255,0.04)",
-                  borderColor: "rgba(255,255,255,0.1)",
-                  color: "rgba(255,255,255,0.6)",
-                }}
-              >
-                {s}
-              </Link>
-            ))}
+            {trendingCategories.map((catName) => {
+              const displayName = CATEGORY_DISPLAY_NAMES[catName.toLowerCase()] || catName;
+              return (
+                <Link
+                  key={catName}
+                  href={`/categories/${catName.toLowerCase()}`}
+                  className="px-4 py-2 rounded-full text-xs font-semibold border transition-all duration-200 hover:border-primary/60 hover:text-primary"
+                  style={{
+                    background: "rgba(255,255,255,0.04)",
+                    borderColor: "rgba(255,255,255,0.1)",
+                    color: "rgba(255,255,255,0.6)",
+                  }}
+                >
+                  {displayName} Prompts
+                </Link>
+              );
+            })}
           </div>
         </div>
       </section>
@@ -601,123 +638,7 @@ export default function TrendingClient({
         </div>
       </section>
 
-      {/* ═══════════════════════════════════════════ FOOTER ═══════════════════════════════════════════ */}
-      <footer
-        className="border-t px-4 md:px-8 pt-16 pb-8"
-        style={{ borderColor: "rgba(255,255,255,0.07)" }}
-      >
-        <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-10 mb-12">
-            {/* Brand */}
-            <div className="lg:col-span-2 space-y-4">
-              <div className="flex items-center gap-2">
-                <div
-                  className="w-9 h-9 rounded-xl flex items-center justify-center"
-                  style={{ background: "hsl(var(--primary))" }}
-                >
-                  <Sparkles className="text-white w-5 h-5" />
-                </div>
-                <span className="text-lg font-black tracking-tight text-foreground">
-                  PromptVault
-                </span>
-              </div>
-              <p className="text-sm text-foreground/40 leading-relaxed max-w-xs">
-                The world's leading marketplace for high-quality AI prompts.
-                Helping creators build amazing things with AI since 2026.
-              </p>
-              <div className="flex items-center gap-3">
-                {[Share2, Camera, Code2, Play].map((Icon, i) => (
-                  <button
-                    key={i}
-                    className="w-8 h-8 rounded-lg flex items-center justify-center border border-foreground/10 hover:border-primary/50 hover:text-primary text-foreground/40 transition-all"
-                  >
-                    <Icon className="w-4 h-4" />
-                  </button>
-                ))}
-              </div>
-            </div>
-
-            {/* Links */}
-            {Object.entries(FOOTER_LINKS).map(([section, links]) => (
-              <div key={section} className="space-y-3">
-                <h4 className="text-xs font-black uppercase tracking-widest text-foreground/40">
-                  {section}
-                </h4>
-                <ul className="space-y-2">
-                  {links.map((link) => (
-                    <li key={link.label}>
-                      <Link
-                        href={link.href}
-                        className="text-sm text-foreground/50 hover:text-foreground transition-colors"
-                      >
-                        {link.label}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ))}
-
-            {/* Newsletter */}
-            <div className="lg:col-span-1 space-y-3">
-              <h4 className="text-xs font-black uppercase tracking-widest text-foreground/40">
-                Stay Updated
-              </h4>
-              <p className="text-xs text-foreground/40 leading-relaxed">
-                Get the latest prompts and AI updates delivered by YOUR Inbox.
-              </p>
-              <div className="flex flex-col gap-2">
-                <input
-                  type="email"
-                  placeholder="Enter your email"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  className="w-full text-xs px-3 py-2.5 rounded-lg border focus:outline-none focus:ring-2 focus:ring-primary/50 transition-all text-foreground bg-foreground/5 border-foreground/10"
-                />
-                <button
-                  className="w-full text-xs font-bold py-2.5 rounded-lg text-white transition-all hover:opacity-90"
-                  style={{
-                    background:
-                      "linear-gradient(135deg, hsl(var(--primary)) 0%, #7c3aed 100%)",
-                  }}
-                >
-                  Subscribe
-                </button>
-              </div>
-            </div>
-          </div>
-
-          {/* Bottom bar */}
-          <div
-            className="pt-6 border-t flex flex-col md:flex-row items-center justify-between gap-4"
-            style={{ borderColor: "rgba(255,255,255,0.07)" }}
-          >
-            <p className="text-xs text-foreground/25">
-              © 2025 PromptVault. All rights reserved.
-            </p>
-            <div className="flex items-center gap-4">
-              <Link
-                href="/terms"
-                className="text-xs text-foreground/30 hover:text-foreground/60 transition-colors"
-              >
-                Terms
-              </Link>
-              <Link
-                href="/privacy"
-                className="text-xs text-foreground/30 hover:text-foreground/60 transition-colors"
-              >
-                Privacy
-              </Link>
-              <Link
-                href="/sitemap.xml"
-                className="text-xs text-foreground/30 hover:text-foreground/60 transition-colors"
-              >
-                Sitemap
-              </Link>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }
