@@ -166,11 +166,11 @@ export default function Footer() {
               <div className="w-10 h-10 bg-gradient-to-br from-violet-500 to-blue-500 rounded-xl flex items-center justify-center shadow-lg shadow-violet-500/20 group-hover:scale-105 transition-transform shrink-0">
                 <Bot className="text-white w-5 h-5" />
               </div>
-              <span className="text-xl font-bold tracking-tight text-white">
+              <span className="text-2xl font-bold tracking-tight text-white">
                 AI Prompt Nest
               </span>
             </Link>
-            <p className="text-white/50 text-xs leading-relaxed max-w-sm">
+            <p className="text-white/50 text-sm leading-relaxed max-w-sm">
               Discover thousands of free AI prompts for Gemini. Find the perfect prompt for writing, coding, marketing, business, education and productivity.
             </p>
 
@@ -183,7 +183,7 @@ export default function Footer() {
                   placeholder="Search prompts..."
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
-                  className="w-full bg-white/[0.02] border border-white/[0.08] hover:border-white/[0.15] focus:border-violet-500/50 focus:outline-none rounded-xl py-3 pl-11 pr-12 text-xs text-white placeholder-white/30 transition-all"
+                  className="w-full bg-white/[0.02] border border-white/[0.08] hover:border-white/[0.15] focus:border-violet-500/50 focus:outline-none rounded-xl py-3 pl-11 pr-12 text-sm text-white placeholder-white/30 transition-all"
                 />
               </div>
               <button
@@ -202,8 +202,8 @@ export default function Footer() {
                     <stat.icon className="w-4 h-4 text-violet-400" />
                   </div>
                   <div>
-                    <p className="text-[11px] font-bold text-white/95">{stat.title}</p>
-                    <p className="text-[9.5px] text-white/40 leading-normal mt-0.5">{stat.desc}</p>
+                    <p className="text-xs font-bold text-white/95">{stat.title}</p>
+                    <p className="text-[11px] text-white/40 leading-normal mt-0.5">{stat.desc}</p>
                   </div>
                 </div>
               ))}
@@ -214,7 +214,7 @@ export default function Footer() {
           <div className="lg:col-span-8 grid grid-cols-2 sm:grid-cols-5 gap-8">
             {SECTIONS.map((section, idx) => (
               <div key={idx} className="space-y-4">
-                <h4 className="text-[10px] font-extrabold text-white/80 uppercase tracking-widest leading-none">
+                <h4 className="text-xs font-extrabold text-white/80 uppercase tracking-widest leading-none">
                   {section.title}
                 </h4>
                 <ul className="flex flex-col gap-1.5">
@@ -222,7 +222,7 @@ export default function Footer() {
                     <li key={linkIdx}>
                       <Link 
                         href={link.href} 
-                        className="flex items-center gap-1 text-[11.5px] text-white/45 hover:text-white transition-colors py-0.5 group"
+                        className="flex items-center gap-1 text-[13px] text-white/45 hover:text-white transition-colors py-0.5 group"
                       >
                         <ChevronRight className="w-3 h-3 text-white/20 group-hover:text-violet-400 transition-colors shrink-0" />
                         <span className="truncate">{link.name}</span>
@@ -241,11 +241,11 @@ export default function Footer() {
             <div className="flex items-center justify-between gap-4">
               <div className="flex items-center gap-2">
                 <Search className="w-4 h-4 text-violet-400" />
-                <h3 className="text-sm font-bold text-white tracking-tight">Popular Searches</h3>
+                <h3 className="text-base font-bold text-white tracking-tight">Popular Searches</h3>
               </div>
               <button 
                 onClick={() => setIsSearchesExpanded(!isSearchesExpanded)}
-                className="flex items-center gap-1.5 text-[10px] font-bold text-white/50 hover:text-white px-3 py-1.5 rounded-lg border border-white/[0.06] bg-white/[0.02] hover:bg-white/[0.04] transition-colors cursor-pointer select-none"
+                className="flex items-center gap-1.5 text-xs font-bold text-white/50 hover:text-white px-3 py-1.5 rounded-lg border border-white/[0.06] bg-white/[0.02] hover:bg-white/[0.04] transition-colors cursor-pointer select-none"
               >
                 View All
                 <ChevronDown className={cn("w-3 h-3 transition-transform duration-200", isSearchesExpanded && "rotate-180")} />
@@ -271,7 +271,7 @@ export default function Footer() {
                       .replace(" Examples", "")
                       .trim()
                   )}`}
-                  className="px-3.5 py-1.5 border border-white/[0.04] hover:border-violet-500/20 bg-white/[0.01] hover:bg-violet-500/10 text-[10.5px] font-semibold text-white/50 hover:text-white rounded-lg transition-all"
+                  className="px-3.5 py-1.5 border border-white/[0.04] hover:border-violet-500/20 bg-white/[0.01] hover:bg-violet-500/10 text-xs font-semibold text-white/50 hover:text-white rounded-lg transition-all"
                 >
                   {search}
                 </Link>
@@ -289,10 +289,10 @@ export default function Footer() {
                 <FileStarIcon />
               </div>
               <div className="space-y-3 max-w-3xl">
-                <p className="text-[11.5px] leading-relaxed text-white/45">
+                <p className="text-xs leading-relaxed text-white/45">
                   <strong className="text-white font-semibold">AI Prompt Nest</strong> is a free AI prompt library helping users discover high-quality prompts for Gemini, ChatGPT, Claude, Midjourney, and other generative AI tools. Explore thousands of categorized prompts for writing, coding, marketing, business, education, productivity, image generation, and more.
                 </p>
-                <p className="text-[11.5px] leading-relaxed text-white/45">
+                <p className="text-xs leading-relaxed text-white/45">
                   Our growing prompt database is updated regularly with trending prompts, expert-curated collections, and community favorites to help you get better AI-generated results.
                 </p>
               </div>
@@ -312,8 +312,8 @@ export default function Footer() {
                       <stat.icon className="w-4.5 h-4.5 text-violet-400" />
                     </div>
                     <div>
-                      <p className="text-base font-extrabold text-white tracking-tight leading-none">{stat.value}</p>
-                      <p className="text-[9.5px] font-bold text-white/40 uppercase tracking-widest mt-1">{stat.label}</p>
+                      <p className="text-lg font-extrabold text-white tracking-tight leading-none">{stat.value}</p>
+                      <p className="text-[10.5px] font-bold text-white/40 uppercase tracking-widest mt-1">{stat.label}</p>
                     </div>
                   </div>
                   {i < 3 && <div className="hidden sm:block h-10 w-px bg-white/[0.06]" />}
@@ -325,11 +325,11 @@ export default function Footer() {
 
         {/* Bottom copyright & socials */}
         <div className="mt-12 pt-8 border-t border-white/[0.04] flex flex-col sm:flex-row items-center justify-between gap-6">
-          <p className="text-[11px] text-white/35">
+          <p className="text-xs text-white/35">
             © 2026 AI Prompt Nest. All rights reserved.
           </p>
 
-          <div className="flex flex-wrap items-center justify-center gap-x-3 gap-y-2 text-[11px] text-white/40">
+          <div className="flex flex-wrap items-center justify-center gap-x-3 gap-y-2 text-xs text-white/40">
             {["Free AI Prompts", "Gemini AI Prompts", "Gemini Image Prompts", "Prompt Library"].map((item, i) => (
               <React.Fragment key={item}>
                 <Link 
@@ -346,7 +346,7 @@ export default function Footer() {
           </div>
 
           <div className="flex items-center gap-3">
-            <span className="text-[11px] text-white/35">Follow us on</span>
+            <span className="text-xs text-white/35">Follow us on</span>
             <div className="flex items-center gap-2">
               {SOCIAL_LINKS.map((social, i) => (
                 <a
