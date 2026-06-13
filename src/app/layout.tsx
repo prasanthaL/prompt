@@ -64,7 +64,7 @@ export const metadata: Metadata = {
       "Browse 1,000+ free, tested AI image prompts for Google Gemini, Midjourney, DALL·E & Stable Diffusion.",
     images: [
       {
-        url: "/og-image.png",
+        url: "https://res.cloudinary.com/dfbacu2lw/image/upload/v1781332533/og_yh8di5.webp",
         width: 1200,
         height: 630,
         alt: "PromptVault — AI Image Prompts Library",
@@ -77,7 +77,7 @@ export const metadata: Metadata = {
     title: "PromptVault — Free Gemini AI Image Prompts Library",
     description:
       "Browse 1,000+ free, tested AI image prompts for Google Gemini, Midjourney, DALL·E & Stable Diffusion.",
-    images: ["/og-image.png"],
+    images: ["https://res.cloudinary.com/dfbacu2lw/image/upload/v1781332533/og_yh8di5.webp"],
     creator: "@promptvault",
     site: "@promptvault",
   },
