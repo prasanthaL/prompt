@@ -131,7 +131,7 @@ const Hero = () => {
               className="absolute top-1/2 -translate-y-1/2 left-0 w-[240px] md:w-[300px] aspect-4/5 rounded-4xl overflow-hidden border border-white/10 shadow-2xl z-0 hidden lg:block"
             >
               <Image
-                src="/images/hero/cyberpunk.png"
+                src="https://res.cloudinary.com/dfbacu2lw/image/upload/v1781333854/cyberpunk-compressed_hm6bd8.webp"
                 fill
                 sizes="300px"
                 className="object-cover"
@@ -146,7 +146,7 @@ const Hero = () => {
               className="absolute top-1/2 -translate-y-1/2 right-0 w-[240px] md:w-[300px] aspect-[4/5] rounded-[2rem] overflow-hidden border border-white/10 shadow-2xl z-0 hidden lg:block"
             >
               <Image
-                src="/images/hero/elven.png"
+                src="https://res.cloudinary.com/dfbacu2lw/image/upload/v1781333852/elven-compressed_gbkevm.webp"
                 fill
                 sizes="300px"
                 className="object-cover"
@@ -162,7 +162,7 @@ const Hero = () => {
               className="relative z-10 w-full aspect-[4/5] rounded-[2.5rem] overflow-hidden border border-white/10 shadow-[0_30px_60px_rgba(0,0,0,0.5)] group"
             >
               <Image
-                src="/images/hero/fantasy.png"
+                src="https://res.cloudinary.com/dfbacu2lw/image/upload/v1781333855/fantasy-compressed_vbei79.webp"
                 fill
                 priority
                 quality={95}
@@ -187,7 +187,7 @@ const Hero = () => {
               >
                 <div className="relative w-14 h-14 rounded-2xl overflow-hidden flex-shrink-0 bg-foreground/5 border border-border flex items-center justify-center p-2">
                   <Image
-                    src="/images/hero/fantasy.png"
+                    src="https://res.cloudinary.com/dfbacu2lw/image/upload/v1781333855/fantasy-compressed_vbei79.webp"
                     width={56}
                     height={56}
                     className="object-cover rounded-lg"
