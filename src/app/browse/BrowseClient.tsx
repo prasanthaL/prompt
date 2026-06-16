@@ -1,8 +1,7 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
-import { useRouter, useSearchParams } from "next/navigation";
-import Link from "next/link";
+import React, { useState, useEffect, useCallback } from "react";
+import { useSearchParams } from "next/navigation";
 import CategoryFilters from "@/components/CategoryFilters";
 import PromptCard from "@/components/PromptCard";
 import Pagination from "@/components/Pagination";
@@ -18,7 +17,7 @@ import {
   BookOpen 
 } from "lucide-react";
 import { cn } from "@/lib/utils";
-import { Prompt } from "@/lib/json-db";
+import { fetchPromptsPage, fetchCategoryCounts, PaginatedResult } from "@/lib/client-prompts";
 
 const BROWSE_FAQS = [
   {
@@ -111,61 +110,76 @@ const CATEGORY_DESCRIPTIONS: Record<string, {
   }
 };
 
-interface BrowseClientProps {
-  initialPrompts: Prompt[];
-}
+interface BrowseClientProps {}
 
-export default function BrowseClient({ initialPrompts }: BrowseClientProps) {
+export default function BrowseClient({}: BrowseClientProps) {
   const searchParams = useSearchParams();
   const categoryParam = searchParams.get("category");
   const queryParam = searchParams.get("q");
 
-  const router = useRouter();
-  const [activeCategory, setActiveCategory] = useState("all");
-  const [searchQuery, setSearchQuery] = useState("");
-  const [dbPrompts, setDbPrompts] = useState<Prompt[]>(initialPrompts);
+  const [activeCategory, setActiveCategory] = useState(categoryParam || "all");
+  const [searchQuery, setSearchQuery] = useState(queryParam || "");
+  const [isLoading, setIsLoading] = useState(true);
   const [openFaq, setOpenFaq] = useState<number | null>(null);
 
-  // Pagination States
+  // Pagination state
   const [currentPage, setCurrentPage] = useState(1);
-  const itemsPerPage = 12;
+  const [pageResult, setPageResult] = useState<PaginatedResult>({
+    prompts: [],
+    totalCount: 0,
+    totalPages: 1,
+    currentPage: 1,
+  });
+  const [totalAllCount, setTotalAllCount] = useState(0);
 
-  useEffect(() => {
-    setDbPrompts(initialPrompts);
-  }, [initialPrompts]);
+  // Category counts for the sidebar/filter badges
+  const [categoryCounts, setCategoryCounts] = useState<Record<string, number>>({});
 
+  // Fetch category counts once on mount (data is cached after first load)
   useEffect(() => {
-    if (categoryParam) {
+    fetchCategoryCounts().then(setCategoryCounts);
+  }, []);
+
+  /**
+   * Fetches exactly one page of prompts.
+   * client-prompts caches the full category array after the first import,
+   * so switching pages is instant after the initial load.
+   */
+  const loadPage = useCallback(
+    async (category: string, page: number, query: string) => {
+      setIsLoading(true);
+      const [result, allResult] = await Promise.all([
+        fetchPromptsPage(category, page, query),
+        category === "all" ? Promise.resolve(null) : fetchPromptsPage("all", 1, query)
+      ]);
+      setPageResult(result);
+      setTotalAllCount(allResult ? allResult.totalCount : result.totalCount);
+      setIsLoading(false);
+    },
+    []
+  );
+
+  // Re-fetch whenever category, page, or search query changes
+  useEffect(() => {
+    loadPage(activeCategory, currentPage, searchQuery);
+  }, [activeCategory, currentPage, searchQuery, loadPage]);
+
+  // Sync URL search-params into state
+  useEffect(() => {
+    if (categoryParam && categoryParam !== activeCategory) {
       setActiveCategory(categoryParam);
+      setCurrentPage(1);
     }
     if (queryParam) {
       setSearchQuery(queryParam);
+      setCurrentPage(1);
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [categoryParam, queryParam]);
 
-  const filteredPrompts = dbPrompts.filter((p) => {
-    const matchesCategory = activeCategory === "all" || p.category === activeCategory;
-    const q = searchQuery.toLowerCase();
-    const matchesSearch =
-      !q ||
-      (p.title ?? "").toLowerCase().includes(q) ||
-      (p.category ?? "").toLowerCase().includes(q);
-    return matchesCategory && matchesSearch;
-  });
+  const { prompts: displayedPrompts, totalCount, totalPages } = pageResult;
 
-  // Compute real counts per category
-  const categoryCounts: Record<string, number> = {};
-  for (const p of dbPrompts) {
-    if (p.category) {
-      categoryCounts[p.category] = (categoryCounts[p.category] ?? 0) + 1;
-    }
-  }
-  const totalCount = dbPrompts.length;
 
-  // Pagination Logic
-  const totalPages = Math.ceil(filteredPrompts.length / itemsPerPage);
-  const startIndex = (currentPage - 1) * itemsPerPage;
-  const displayedPrompts = filteredPrompts.slice(startIndex, startIndex + itemsPerPage);
 
   return (
     <div className="min-h-screen flex flex-col justify-between animate-fade-in">
@@ -212,9 +226,10 @@ export default function BrowseClient({ initialPrompts }: BrowseClientProps) {
           onCategoryChange={(cat) => {
             setActiveCategory(cat);
             setCurrentPage(1);
+            setSearchQuery("");
           }}
           categoryCounts={categoryCounts}
-          totalCount={totalCount}
+          totalCount={totalAllCount}
           mode="horizontal"
         />
       </div>
@@ -266,9 +281,10 @@ export default function BrowseClient({ initialPrompts }: BrowseClientProps) {
                 onCategoryChange={(cat) => {
                   setActiveCategory(cat);
                   setCurrentPage(1);
+                  setSearchQuery("");
                 }}
                 categoryCounts={categoryCounts}
-                totalCount={totalCount}
+                totalCount={totalAllCount}
                 mode="vertical"
               />
             </div>
@@ -306,7 +322,14 @@ export default function BrowseClient({ initialPrompts }: BrowseClientProps) {
 
           {/* Prompt Grid */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {displayedPrompts.length > 0 ? (
+            {isLoading ? (
+              Array.from({ length: 6 }).map((_, i) => (
+                <div
+                  key={i}
+                  className="rounded-2xl bg-white/[0.03] border border-white/[0.05] aspect-[4/3] animate-pulse"
+                />
+              ))
+            ) : displayedPrompts.length > 0 ? (
               displayedPrompts.map((prompt, i) => (
                 <PromptCard
                   key={prompt.id || i}

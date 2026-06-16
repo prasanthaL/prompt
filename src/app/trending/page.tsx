@@ -9,9 +9,13 @@ export const metadata = {
     "Discover the most viewed and liked AI prompts trending in the community right now. Browse ChatGPT, Gemini, Midjourney, and more.",
 };
 
+const INITIAL_COUNT = 12;
+
 export default async function TrendingPage() {
-  const [prompts, allPrompts] = await Promise.all([
-    getTrendingPrompts(40),
+  // Fetch all trending prompts server-side for total count & SSR of first batch.
+  // getAllPrompts reads directly from src/data/prompts/*.json — no API route.
+  const [allTrending, allPrompts] = await Promise.all([
+    getTrendingPrompts(1000),
     getAllPrompts(),
   ]);
 
@@ -19,7 +23,8 @@ export default async function TrendingPage() {
     <main className="min-h-screen mesh-gradient">
       <Navbar />
       <TrendingClient
-        prompts={prompts}
+        initialPrompts={allTrending.slice(0, INITIAL_COUNT)}
+        allTrendingPrompts={allTrending}
         totalPrompts={allPrompts.length}
       />
     </main>

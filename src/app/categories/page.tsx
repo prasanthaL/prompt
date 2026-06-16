@@ -31,36 +31,78 @@ import { getAllPrompts } from "@/lib/json-db";
 import categoriesData from "@/data/categories.json";
 import Footer from "@/components/Footer";
 
+const siteUrl = "https://www.aipromptnest.com";
+
 export const metadata: Metadata = {
-  title: "Explore AI Image Prompt Categories | PromptVault",
+
+  metadataBase: new URL(siteUrl),
+  title:
+    "Gemini AI Prompt Categories | Free Image Generation Prompts - AIPromptNest",
+
   description:
-    "Browse our curated collections of high-quality AI prompts. Find optimized prompts for anime, cinematic, portrait, fantasy, sci-fi, architecture, and product designs.",
+    "Browse Gemini AI prompt categories including anime, cinematic, fantasy, sci-fi, portraits, architecture, product photography, landscapes, characters, and more. Discover thousands of free Gemini AI image prompts.",
+
   keywords: [
-    "AI prompt categories",
-    "Midjourney category prompts",
-    "Gemini art styles",
-    "DALL-E prompt directory",
-    "Stable Diffusion themes",
-    "anime AI prompts",
-    "cinematic AI prompts",
-    "fantasy art generator prompts",
-    "sci-fi concept art prompts",
+    "Gemini AI prompts",
+    "Gemini image prompts",
+    "Gemini AI prompt categories",
+    "free Gemini prompts",
+    "Gemini image generation prompts",
+    "anime Gemini prompts",
+    "cinematic Gemini prompts",
+    "fantasy Gemini prompts",
+    "portrait Gemini prompts",
+    "architecture Gemini prompts",
+    "AI image prompt library",
+    "AI prompt directory",
+    "Gemini prompt collection",
   ],
+
   alternates: {
-    canonical: "/categories",
+    canonical: "https://www.aipromptnest.com/categories",
   },
+
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-snippet": -1,
+      "max-image-preview": "large",
+      "max-video-preview": -1,
+    },
+  },
+
   openGraph: {
-    title: "Explore AI Image Prompt Categories | PromptVault",
+    title:
+      "Gemini AI Prompt Categories | Free Image Generation Prompts",
     description:
-      "Browse our curated collections of high-quality AI prompts. Find optimized prompts for anime, cinematic, portrait, fantasy, sci-fi, architecture, and product designs.",
-    url: "https://www.promptvault.ai/categories",
+      "Explore Gemini AI prompt categories including anime, cinematic, fantasy, sci-fi, portraits, architecture, product photography, and more.",
+    url: "https://www.aipromptnest.com/categories",
+    siteName: "AIPromptNest",
+    locale: "en_US",
     type: "website",
+
+    images: [
+      {
+        url: "https://res.cloudinary.com/dfbacu2lw/image/upload/v1781332533/og_yh8di5.webp",
+        width: 1200,
+        height: 630,
+        alt: "AIPromptNest - Free Gemini AI Image Prompts Library",
+      },
+    ],
   },
+
   twitter: {
     card: "summary_large_image",
-    title: "Explore AI Image Prompt Categories | PromptVault",
+    title:
+      "Gemini AI Prompt Categories | AIPromptNest",
+
     description:
-      "Browse our curated collections of high-quality AI prompts. Find optimized prompts for anime, cinematic, portrait, fantasy, sci-fi, architecture, and product designs.",
+      "Browse thousands of free Gemini AI image prompts organized by category.",
+
+    images: ["https://res.cloudinary.com/dfbacu2lw/image/upload/v1781332533/og_yh8di5.webp"],
   },
 };
 
@@ -105,6 +147,41 @@ const categoryConfig = [
   },
 ];
 
+const webPageSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Gemini AI Prompt Categories",
+  "description": "Browse Gemini AI prompt categories.",
+  "url": "https://www.aipromptnest.com/categories"
+}
+
+const collectionPageJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Gemini AI Prompt Categories",
+  "description": "Browse thousands of Gemini AI prompts organized by category.",
+  "url": "https://www.aipromptnest.com/categories"
+}
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    {
+      "@type": "ListItem",
+      position: 1,
+      name: "Home",
+      item: "https://www.aipromptnest.com",
+    },
+    {
+      "@type": "ListItem",
+      position: 2,
+      name: "Categories",
+      item: "https://www.aipromptnest.com/categories",
+    },
+  ],
+};
+
 export default async function CategoriesPage() {
   // Load all prompts directly from JSON files — no API route needed
   const allPrompts = await getAllPrompts();
@@ -144,14 +221,14 @@ export default async function CategoriesPage() {
 
   const totalPromptsCount = allPrompts.length;
   const activeCategoriesCount = categoriesData.length;
-  
+
   let totalViews = 0;
   let totalLikes = 0;
   for (const p of allPrompts) {
     totalViews += Number(p.views ?? 0);
     totalLikes += Number(p.likes ?? 0);
   }
-  
+
   const displayViews = totalViews > 0 ? `${(totalViews / 1000).toFixed(0)}K+` : "120K+";
   const displayLikes = totalLikes > 0 ? `${(totalLikes / 1000).toFixed(0)}K+` : "45K+";
 
@@ -222,15 +299,19 @@ export default async function CategoriesPage() {
     })),
   };
 
+  const schemas = [
+    webPageSchema,
+    collectionPageJsonLd,
+    breadcrumbSchema,
+    schemaList,
+    faqJsonLd,
+  ];
+
   return (
     <main className="min-h-screen mesh-gradient pb-20">
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaList) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas) }}
       />
       <Navbar />
 
@@ -385,7 +466,7 @@ export default async function CategoriesPage() {
                   </span>
                   <ChevronDown className="h-5 w-5 shrink-0 text-foreground/45 transition-transform duration-300 group-open:rotate-180 group-open:text-primary" />
                 </summary>
-                
+
                 <div className="px-6 pb-6 border-t border-white/[0.02] transition-all">
                   <p className="text-sm leading-relaxed text-foreground/50 pt-4">
                     {item.answer}

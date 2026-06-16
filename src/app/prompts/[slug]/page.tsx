@@ -1,9 +1,13 @@
 /**
  * /prompts/[slug]/page.tsx
  *
- * Server Component — rendered at build time (SSG) via generateStaticParams.
+ * Server Component — pre-rendered at build time (SSG) via generateStaticParams.
  * Data is sourced directly from raw JSON files through prompts-data.ts;
- * no API routes and no runtime filesystem reads are used.
+ * no API routes and no runtime filesystem reads beyond the cache.
+ *
+ * ISR: pages automatically revalidate every hour so newly added prompts
+ * appear without a full redeploy. Cache can also be purged on-demand via
+ * the `prompts` tag using revalidateTag('prompts').
  */
 
 import React from "react";
@@ -23,8 +27,15 @@ import PromptDetailClient from "./PromptDetailClient";
 import {
   getAllPromptSlugs,
   getPromptBySlugOrIdSync,
-  getSimilarPromptsSync,
+  getCachedPromptBySlugOrId,
+  getCachedSimilarPrompts,
 } from "@/lib/prompts-data";
+
+/* ─────────────────────────────────────────────────────────────
+   ISR: revalidate static pages every hour.
+   Cache can be purged instantly via revalidateTag('prompts').
+   ───────────────────────────────────────────────────────────── */
+export const revalidate = 3600;
 
 /* ─────────────────────────────────────────────────────────────
    SSG: emit one static page for every prompt slug at build time
@@ -121,14 +132,14 @@ export default async function PromptPage({
 }) {
   const { slug } = await params;
 
-  // Read from JSON data directly — no API route, no fs at runtime
-  const prompt = getPromptBySlugOrIdSync(slug);
+  // Read from JSON data directly — with caching (module-level + Next.js ISR)
+  const prompt = await getCachedPromptBySlugOrId(slug);
 
   if (!prompt) {
     notFound();
   }
 
-  const similarPrompts = getSimilarPromptsSync(prompt.id, prompt.category, 3);
+  const similarPrompts = await getCachedSimilarPrompts(prompt.id, prompt.category, 3);
 
   const canonicalSlug = prompt.slug ?? prompt.id;
   const canonicalUrl = `/prompts/${canonicalSlug}`;

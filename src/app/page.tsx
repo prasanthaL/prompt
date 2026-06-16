@@ -1,12 +1,8 @@
 import React from "react";
-import { getAllPrompts, getActiveBlogs } from "@/lib/json-db";
+import { getActiveBlogs } from "@/lib/json-db";
 import HomeClient from "./HomeClient";
 
 export default async function Home() {
-  const [prompts, blogs] = await Promise.all([
-    getAllPrompts(),
-    getActiveBlogs(),
-  ]);
-
-  return <HomeClient initialPrompts={prompts} initialBlogs={blogs} />;
+  const blogs = await getActiveBlogs();
+  return <HomeClient initialBlogs={blogs} />;
 }

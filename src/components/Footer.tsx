@@ -4,7 +4,6 @@ import React, { useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { 
-  Bot, 
   Search, 
   ArrowRight, 
   Sparkles, 
@@ -162,12 +161,12 @@ export default function Footer() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
           {/* Left branding area (approx 4/12 wide) */}
           <div className="lg:col-span-4 space-y-6">
-            <Link href="/" className="flex items-center gap-3 group">
-              <div className="w-10 h-10 bg-gradient-to-br from-violet-500 to-blue-500 rounded-xl flex items-center justify-center shadow-lg shadow-violet-500/20 group-hover:scale-105 transition-transform shrink-0">
-                <Bot className="text-white w-5 h-5" />
+            <Link href="/" className="flex items-center gap-2 group">
+              <div className="w-10 h-10 bg-primary rounded-xl flex items-center justify-center shadow-lg shadow-primary/20 group-hover:scale-110 transition-transform shrink-0">
+                <Sparkles className="text-white w-6 h-6" />
               </div>
               <span className="text-2xl font-bold tracking-tight text-white">
-                AI Prompt Nest
+                AIPromptNest
               </span>
             </Link>
             <p className="text-white/50 text-sm leading-relaxed max-w-sm">
@@ -290,7 +289,7 @@ export default function Footer() {
               </div>
               <div className="space-y-3 max-w-3xl">
                 <p className="text-xs leading-relaxed text-white/45">
-                  <strong className="text-white font-semibold">AI Prompt Nest</strong> is a free AI prompt library helping users discover high-quality prompts for Gemini, ChatGPT, Claude, Midjourney, and other generative AI tools. Explore thousands of categorized prompts for writing, coding, marketing, business, education, productivity, image generation, and more.
+                  <strong className="text-white font-semibold">AIPromptNest</strong> is a free AI prompt library helping users discover high-quality prompts for Gemini, ChatGPT, Claude, Midjourney, and other generative AI tools. Explore thousands of categorized prompts for writing, coding, marketing, business, education, productivity, image generation, and more.
                 </p>
                 <p className="text-xs leading-relaxed text-white/45">
                   Our growing prompt database is updated regularly with trending prompts, expert-curated collections, and community favorites to help you get better AI-generated results.
@@ -326,7 +325,7 @@ export default function Footer() {
         {/* Bottom copyright & socials */}
         <div className="mt-12 pt-8 border-t border-white/[0.04] flex flex-col sm:flex-row items-center justify-between gap-6">
           <p className="text-xs text-white/35">
-            © 2026 AI Prompt Nest. All rights reserved.
+            © 2026 AIPromptNest. All rights reserved.
           </p>
 
           <div className="flex flex-wrap items-center justify-center gap-x-3 gap-y-2 text-xs text-white/40">
