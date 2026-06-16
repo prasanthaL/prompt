@@ -1,10 +1,11 @@
 "use client";
 
-import React, { useState, useTransition } from "react";
+import React, { useState, useRef, useTransition } from "react";
 import PromptCard from "@/components/PromptCard";
 import Link from "next/link";
 import { Sparkles, ChevronDown, Loader2 } from "lucide-react";
 import type { Prompt } from "@/lib/json-db";
+import { fetchPromptsByCategory } from "@/lib/client-prompts";
 
 const PAGE_SIZE = 8;
 
@@ -13,7 +14,7 @@ interface CategoryPromptsClientProps {
   initialPrompts: Prompt[];
   /** Total number of prompts available for this category */
   totalCount: number;
-  /** Lowercase category key used to fetch more from the API */
+  /** Lowercase category key used to load more prompts */
   categoryKey: string;
   displayName: string;
 }
@@ -28,19 +29,30 @@ export default function CategoryPromptsClient({
   const [isPending, startTransition] = useTransition();
   const [error, setError] = useState<string | null>(null);
 
+  /**
+   * Full category array, loaded once on first "See More" click and cached
+   * in the module-level Map inside client-prompts.ts. Subsequent clicks are
+   * instant — no network request needed.
+   */
+  const allPromptsRef = useRef<Prompt[] | null>(null);
+
   const hasMore = prompts.length < totalCount;
 
   const loadMore = () => {
     startTransition(async () => {
       try {
         setError(null);
+
+        // Load (or retrieve from cache) the full list for this category
+        if (!allPromptsRef.current) {
+          allPromptsRef.current = await fetchPromptsByCategory(categoryKey);
+        }
+
+        const all = allPromptsRef.current;
         const offset = prompts.length;
-        const res = await fetch(
-          `/api/category-prompts?category=${encodeURIComponent(categoryKey)}&offset=${offset}&limit=${PAGE_SIZE}`
-        );
-        if (!res.ok) throw new Error("Failed to load more prompts");
-        const data: Prompt[] = await res.json();
-        setPrompts((prev) => [...prev, ...data]);
+        const next = all.slice(offset, offset + PAGE_SIZE);
+
+        setPrompts((prev) => [...prev, ...next]);
       } catch (err) {
         setError("Could not load more prompts. Please try again.");
         console.error(err);

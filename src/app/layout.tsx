@@ -115,6 +115,7 @@ export const metadata: Metadata = {
   },
 };
 
+
 /* WebSite JSON-LD — enables Google Sitelinks Search Box */
 const websiteJsonLd = {
   "@context": "https://schema.org",
@@ -133,6 +134,26 @@ const websiteJsonLd = {
   },
 };
 
+const webPageSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  name: "AIPromptNest",
+  headline: "Free Gemini AI Prompt Library",
+  description:
+    "Browse thousands of free Gemini AI prompts for image generation. Find trending, popular, and category-based prompts for anime, fantasy, cinematic photography, portraits, architecture, and more.",
+  url: "https://www.aipromptnest.com",
+  inLanguage: "en",
+  isPartOf: {
+    "@type": "WebSite",
+    name: "AIPromptNest",
+    url: "https://www.aipromptnest.com",
+  },
+  about: {
+    "@type": "Thing",
+    name: "Gemini AI Prompts",
+  },
+};
+
 const organizationJsonLd = {
   "@context": "https://schema.org",
   "@type": "Organization",
@@ -140,6 +161,68 @@ const organizationJsonLd = {
   url: siteUrl,
   logo: `${siteUrl}/logo.png`,
 };
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "What is AIPromptNest?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "AIPromptNest is a free directory of Gemini AI prompts that helps users discover, browse, and use high-quality prompts for AI image generation.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What are Gemini AI prompts?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Gemini AI prompts are text instructions that guide Google's Gemini AI to generate images in specific styles, themes, and compositions.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Are the prompts on AIPromptNest free to use?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes. All prompts available on AIPromptNest can be browsed and used for free with Gemini AI.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What types of Gemini AI prompts can I find?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "You can find prompts for anime art, cinematic photography, fantasy illustrations, sci-fi concepts, realistic portraits, architecture, product photography, landscapes, characters, and more.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How do I use a Gemini AI prompt?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Simply copy a prompt from AIPromptNest and paste it into Gemini AI. You can also customize the prompt to match your creative goals and preferred image style.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How often are new prompts added?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "New Gemini AI prompts are added regularly to help users discover fresh ideas, trending styles, and creative inspiration.",
+      },
+    },
+  ],
+};
+
+const schemas = [
+  organizationJsonLd,
+  websiteJsonLd,
+  webPageSchema,
+  faqSchema,
+]
 
 
 import { ThemeProvider } from "@/components/ThemeProvider";
@@ -154,13 +237,7 @@ export default function RootLayout({
       <head>
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(organizationJsonLd),
-          }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas) }}
         />
       </head>
       <body className={`${outfit.variable} font-sans antialiased`}>

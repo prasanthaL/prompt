@@ -89,11 +89,22 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         description: categoryMeta.description,
         images: [ogImageUrl],
       },
+      robots: {
+        index: true,
+        follow: true,
+        googleBot: {
+          index: true,
+          follow: true,
+          "max-snippet": -1,
+          "max-image-preview": "large",
+          "max-video-preview": -1,
+        },
+      },
     };
   }
 
-  const fallbackTitle = `${displayName} AI Prompts – Browse Top ${displayName} Prompts | PromptVault`;
-  const fallbackDescription = catConfig?.description || `Explore our curated collection of high-quality ${displayName} AI prompts on PromptVault. Find the perfect prompts for your next creative project and generate stunning artwork with ease.`;
+  const fallbackTitle = `${displayName} AI Prompts – Browse Top ${displayName} Prompts | AiPromptNest`;
+  const fallbackDescription = catConfig?.description || `Explore our curated collection of high-quality ${displayName} AI prompts on AiPromptNest. Find the perfect prompts for your next creative project and generate stunning artwork with ease.`;
 
   return {
     title: fallbackTitle,
@@ -110,6 +121,17 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       description: fallbackDescription,
       images: [ogImageUrl],
     },
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        "max-snippet": -1,
+        "max-image-preview": "large",
+        "max-video-preview": -1,
+      },
+    },
   };
 }
 
@@ -121,7 +143,7 @@ export default async function CategoryPage({ params }: PageProps) {
   // Format the category name for display (e.g., "anime" -> "Anime")
   const decodedCategory = decodeURIComponent(category);
   const key = decodedCategory.toLowerCase();
-  
+
   // Format Display Name elegantly (e.g. "sci-fi" -> "Sci-Fi")
   let displayName = decodedCategory.charAt(0).toUpperCase() + decodedCategory.slice(1);
   if (key === "sci-fi") {
@@ -134,7 +156,7 @@ export default async function CategoryPage({ params }: PageProps) {
   // Look up metadata assets
   const staticMeta = categoryMetaLookup[key];
   const catConfig = categoriesData.find(c => c.name.toLowerCase() === key);
-  
+
   let meta;
   if (staticMeta) {
     meta = staticMeta;
@@ -614,7 +636,7 @@ export default async function CategoryPage({ params }: PageProps) {
                     </span>
                     <ChevronDown className="h-4 w-4 shrink-0 text-foreground/40 transition-transform duration-300 group-open:rotate-180 group-open:text-primary" />
                   </summary>
-                  
+
                   <div className="px-6 pb-5 border-t border-foreground/[0.02]">
                     <p className="text-xs sm:text-sm leading-relaxed text-foreground/45 pt-4">
                       {item.answer}
@@ -683,7 +705,7 @@ export default async function CategoryPage({ params }: PageProps) {
         {/* Striking CTA Banner Section */}
         <section className="relative overflow-hidden rounded-[2.5rem] bg-card/25 border border-foreground/5 px-8 py-16 md:p-20 text-center mb-16">
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[350px] h-[350px] bg-gradient-to-tr from-primary/10 to-accent/10 rounded-full blur-[80px] pointer-events-none" />
-          
+
           <div className="relative z-10 max-w-2xl mx-auto space-y-6">
             <div className="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-[10px] font-bold uppercase tracking-widest">
               <Sparkles className="w-3.5 h-3.5" />

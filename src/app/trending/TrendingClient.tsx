@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useMemo } from "react";
 import Link from "next/link";
 import PromptCard from "@/components/PromptCard";
 import Footer from "@/components/Footer";
@@ -22,6 +22,7 @@ import {
   Camera,
   Code2,
   Play,
+  Loader2,
 } from "lucide-react";
 
 interface Prompt {
@@ -38,8 +39,13 @@ interface Prompt {
   models?: string[];
 }
 
+const PAGE_SIZE = 12;
+
 interface TrendingClientProps {
-  prompts: Prompt[];
+  /** First PAGE_SIZE trending prompts, pre-rendered on the server */
+  initialPrompts: Prompt[];
+  /** Full sorted trending list — passed as a prop so no extra fetch is needed */
+  allTrendingPrompts: Prompt[];
   totalPrompts: number;
 }
 
@@ -181,7 +187,8 @@ const FOOTER_LINKS = {
 };
 
 export default function TrendingClient({
-  prompts,
+  initialPrompts,
+  allTrendingPrompts,
   totalPrompts,
 }: TrendingClientProps) {
   const [activeCategory, setActiveCategory] = useState("all");
@@ -189,30 +196,63 @@ export default function TrendingClient({
   const [timeFilter, setTimeFilter] = useState("This Week");
   const [openFaq, setOpenFaq] = useState<number | null>(null);
   const [email, setEmail] = useState("");
+  // How many prompts of the filtered set to display
+  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
+  const [isLoadingMore, setIsLoadingMore] = useState(false);
 
-  // Get all unique categories that have trending prompts
-  const trendingCategories = Array.from(
-    new Set(prompts.map((p) => p.category).filter(Boolean))
-  ).sort((a, b) => a.localeCompare(b));
+  // All unique categories derived from the full trending list
+  const trendingCategories = useMemo(
+    () =>
+      Array.from(
+        new Set(allTrendingPrompts.map((p) => p.category).filter(Boolean))
+      ).sort((a, b) => a.localeCompare(b)),
+    [allTrendingPrompts]
+  );
 
-  const categories = [
-    { label: "All", id: "all", emoji: "🔥" },
-    ...trendingCategories.map((cat) => {
-      const displayName = CATEGORY_DISPLAY_NAMES[cat.toLowerCase()] || cat;
-      return {
-        label: displayName,
-        id: cat.toLowerCase(),
-        emoji: CATEGORY_EMOJIS[displayName] || "✨",
-      };
-    }),
-  ];
+  const categories = useMemo(
+    () => [
+      { label: "All", id: "all", emoji: "🔥" },
+      ...trendingCategories.map((cat) => {
+        const displayName = CATEGORY_DISPLAY_NAMES[cat.toLowerCase()] || cat;
+        return {
+          label: displayName,
+          id: cat.toLowerCase(),
+          emoji: CATEGORY_EMOJIS[displayName] || "✨",
+        };
+      }),
+    ],
+    [trendingCategories]
+  );
 
-  const filteredPrompts =
-    activeCategory === "all"
-      ? prompts
-      : prompts.filter(
-          (p) => p.category.toLowerCase() === activeCategory.toLowerCase()
-        );
+  // Filter the full list by active category — instant, no network request
+  const filteredPrompts = useMemo(
+    () =>
+      activeCategory === "all"
+        ? allTrendingPrompts
+        : allTrendingPrompts.filter(
+            (p) => p.category.toLowerCase() === activeCategory.toLowerCase()
+          ),
+    [allTrendingPrompts, activeCategory]
+  );
+
+  // The currently displayed slice
+  const displayedPrompts = filteredPrompts.slice(0, visibleCount);
+  const hasMore = visibleCount < filteredPrompts.length;
+
+  const handleCategoryChange = (catId: string) => {
+    setActiveCategory(catId);
+    setVisibleCount(PAGE_SIZE); // reset to first page on category switch
+  };
+
+  const loadMore = () => {
+    setIsLoadingMore(true);
+    // Simulate a brief tick so React can render the loading state,
+    // then expand the slice — data is already in memory, no fetch needed.
+    setTimeout(() => {
+      setVisibleCount((prev) => prev + PAGE_SIZE);
+      setIsLoadingMore(false);
+    }, 150);
+  };
 
   return (
     <div className="min-h-screen" style={{ background: "var(--background)" }}>
@@ -419,7 +459,7 @@ export default function TrendingClient({
               return (
                 <button
                   key={cat.id}
-                  onClick={() => setActiveCategory(cat.id)}
+                  onClick={() => handleCategoryChange(cat.id)}
                   className="flex-shrink-0 flex items-center gap-1.5 px-4 py-2 rounded-full border text-sm font-semibold transition-all duration-200"
                   style={
                     isActive
@@ -502,17 +542,63 @@ export default function TrendingClient({
           </div>
 
           {/* Grid */}
-          {filteredPrompts.length > 0 ? (
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
-              {filteredPrompts.map((p) => (
-                <PromptCard
-                  key={p.id}
-                  {...p}
-                  views={p.views?.toString() || "0"}
-                  likes={p.likes?.toString() || "0"}
-                />
-              ))}
-            </div>
+          {displayedPrompts.length > 0 ? (
+            <>
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
+                {displayedPrompts.map((p) => (
+                  <PromptCard
+                    key={p.id}
+                    {...p}
+                    views={p.views?.toString() || "0"}
+                    likes={p.likes?.toString() || "0"}
+                  />
+                ))}
+              </div>
+
+              {/* Load more / Progress */}
+              {(hasMore || filteredPrompts.length > PAGE_SIZE) && (
+                <div className="flex flex-col items-center gap-4 mt-10">
+                  <p className="text-xs text-foreground/30 font-medium">
+                    Showing{" "}
+                    <span className="text-foreground/60 font-bold">{displayedPrompts.length}</span>{" "}
+                    of{" "}
+                    <span className="text-foreground/60 font-bold">{filteredPrompts.length}</span>{" "}
+                    trending prompts
+                  </p>
+                  <div className="w-full max-w-xs h-1 bg-foreground/10 rounded-full overflow-hidden">
+                    <div
+                      className="h-full bg-gradient-to-r from-primary to-accent rounded-full transition-all duration-500"
+                      style={{
+                        width: `${Math.min(
+                          (displayedPrompts.length / filteredPrompts.length) * 100,
+                          100
+                        )}%`,
+                      }}
+                    />
+                  </div>
+                  {hasMore && (
+                    <button
+                      onClick={loadMore}
+                      disabled={isLoadingMore}
+                      className="group relative inline-flex items-center gap-2.5 px-8 py-3.5 rounded-2xl bg-foreground/5 hover:bg-foreground/10 border border-foreground/10 hover:border-primary/30 text-foreground font-bold text-sm transition-all duration-300 hover:scale-[1.02] active:scale-[0.98] disabled:opacity-60 disabled:cursor-not-allowed cursor-pointer"
+                    >
+                      {isLoadingMore ? (
+                        <>
+                          <Loader2 className="w-4 h-4 animate-spin text-primary" />
+                          <span>Loading more…</span>
+                        </>
+                      ) : (
+                        <>
+                          <ChevronDown className="w-4 h-4 text-foreground/40 group-hover:text-primary transition-colors" />
+                          <span>Load More Trending Prompts</span>
+                        </>
+                      )}
+                      <span className="absolute inset-0 rounded-2xl ring-2 ring-primary/0 group-hover:ring-primary/20 transition-all duration-300 pointer-events-none" />
+                    </button>
+                  )}
+                </div>
+              )}
+            </>
           ) : (
             <div className="text-center py-24 text-foreground/40">
               <TrendingUp className="w-12 h-12 mx-auto mb-4 opacity-20" />

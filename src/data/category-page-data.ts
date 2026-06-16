@@ -49,9 +49,9 @@ export const categoryDescriptions: Record<
 > = {
   anime: {
     title:
-      "Anime AI Art Prompts – Generate Stunning Anime Characters & Scenes | PromptVault",
+      "Anime AI Art Prompts – Generate Stunning Anime Characters & Scenes | AiPromptNest",
     description:
-      "Browse PromptVault's curated anime AI prompts to generate stunning characters, landscapes, and action scenes. Tested across Midjourney, Stable Diffusion, and DALL·E for gallery-worthy results.",
+      "Browse AiPromptNest's curated anime AI prompts to generate stunning characters, landscapes, and action scenes. Tested across Midjourney, Stable Diffusion, and DALL·E for gallery-worthy results.",
     keywords: [
       "anime AI prompts",
       "anime art generator",
@@ -67,15 +67,15 @@ export const categoryDescriptions: Record<
       "anime background prompts",
       "anime concept art",
       "AI art anime style",
-      "PromptVault anime",
+      "AiPromptNest anime",
     ],
   },
 
   cinematic: {
     title:
-      "Cinematic AI Art Prompts – Create Movie-Quality Visuals & Film Stills | PromptVault",
+      "Cinematic AI Art Prompts – Create Movie-Quality Visuals & Film Stills | AiPromptNest",
     description:
-      "Generate Hollywood-grade film stills, dramatic compositions, and cinematic scenes with PromptVault's curated prompts. Engineered for Midjourney, Stable Diffusion XL, and DALL·E 3 with anamorphic lighting and color grading built in.",
+      "Generate Hollywood-grade film stills, dramatic compositions, and cinematic scenes with AiPromptNest's curated prompts. Engineered for Midjourney, Stable Diffusion XL, and DALL·E 3 with anamorphic lighting and color grading built in.",
     keywords: [
       "cinematic AI prompts",
       "movie still AI art",
@@ -91,15 +91,15 @@ export const categoryDescriptions: Record<
       "movie poster AI",
       "anamorphic AI art",
       "cinematic concept art",
-      "PromptVault cinematic",
+      "AiPromptNest cinematic",
     ],
   },
 
   portrait: {
     title:
-      "Portrait AI Art Prompts – Generate Stunning AI Portraits & Headshots | PromptVault",
+      "Portrait AI Art Prompts – Generate Stunning AI Portraits & Headshots | AiPromptNest",
     description:
-      "Create photorealistic headshots, editorial beauty shots, and expressive character portraits with PromptVault's optimized prompts. Validated across Midjourney, Stable Diffusion XL, Flux, and DALL·E 3.",
+      "Create photorealistic headshots, editorial beauty shots, and expressive character portraits with AiPromptNest's optimized prompts. Validated across Midjourney, Stable Diffusion XL, Flux, and DALL·E 3.",
     keywords: [
       "portrait AI prompts",
       "AI headshot generator",
@@ -115,15 +115,15 @@ export const categoryDescriptions: Record<
       "realistic face prompts",
       "portrait concept art",
       "AI avatar prompts",
-      "PromptVault portrait",
+      "AiPromptNest portrait",
     ],
   },
 
   fantasy: {
     title:
-      "Fantasy AI Art Prompts – Create Epic Magical Worlds & Mythical Creatures | PromptVault",
+      "Fantasy AI Art Prompts – Create Epic Magical Worlds & Mythical Creatures | AiPromptNest",
     description:
-      "Summon dragons, mythical heroes, and enchanted worlds with PromptVault's epic fantasy AI prompts. Perfect for D&D campaigns, book covers, and concept art — tested on Midjourney, DALL·E 3, and Leonardo AI.",
+      "Summon dragons, mythical heroes, and enchanted worlds with AiPromptNest's epic fantasy AI prompts. Perfect for D&D campaigns, book covers, and concept art — tested on Midjourney, DALL·E 3, and Leonardo AI.",
     keywords: [
       "fantasy AI prompts",
       "fantasy art generator",
@@ -139,15 +139,15 @@ export const categoryDescriptions: Record<
       "fantasy concept art AI",
       "elven art prompts",
       "fantasy illustration AI",
-      "PromptVault fantasy",
+      "AiPromptNest fantasy",
     ],
   },
 
   "sci-fi": {
     title:
-      "Sci-Fi AI Art Prompts – Generate Futuristic Worlds & Space Art | PromptVault",
+      "Sci-Fi AI Art Prompts – Generate Futuristic Worlds & Space Art | AiPromptNest",
     description:
-      "Explore cyberpunk cities, alien worlds, and deep-space vistas with PromptVault's sci-fi AI prompts. Optimized for Midjourney, Stable Diffusion XL, Flux, and Gemini for maximum visual impact.",
+      "Explore cyberpunk cities, alien worlds, and deep-space vistas with AiPromptNest's sci-fi AI prompts. Optimized for Midjourney, Stable Diffusion XL, Flux, and Gemini for maximum visual impact.",
     keywords: [
       "sci-fi AI prompts",
       "futuristic art generator",
@@ -163,15 +163,15 @@ export const categoryDescriptions: Record<
       "neon city AI art",
       "post-apocalyptic prompts",
       "sci-fi illustration AI",
-      "PromptVault sci-fi",
+      "AiPromptNest sci-fi",
     ],
   },
 
   architecture: {
     title:
-      "Architecture AI Art Prompts – Design Stunning Buildings & Interiors | PromptVault",
+      "Architecture AI Art Prompts – Design Stunning Buildings & Interiors | AiPromptNest",
     description:
-      "Render photorealistic buildings, interiors, and urban landscapes with PromptVault's architecture AI prompts. From Brutalist to parametric design — tested on Midjourney, Stable Diffusion XL, and Leonardo AI.",
+      "Render photorealistic buildings, interiors, and urban landscapes with AiPromptNest's architecture AI prompts. From Brutalist to parametric design — tested on Midjourney, Stable Diffusion XL, and Leonardo AI.",
     keywords: [
       "architecture AI prompts",
       "building design AI art",
@@ -187,15 +187,15 @@ export const categoryDescriptions: Record<
       "parametric design prompts",
       "architectural concept art",
       "real estate render AI",
-      "PromptVault architecture",
+      "AiPromptNest architecture",
     ],
   },
 
   product: {
     title:
-      "Product Photography AI Prompts – Create Professional Product Shots | PromptVault",
+      "Product Photography AI Prompts – Create Professional Product Shots | AiPromptNest",
     description:
-      "Produce studio-quality product shots, lifestyle imagery, and e-commerce hero images with PromptVault's product AI prompts. Optimized for Midjourney, Stable Diffusion XL, and Gemini — no studio required.",
+      "Produce studio-quality product shots, lifestyle imagery, and e-commerce hero images with AiPromptNest's product AI prompts. Optimized for Midjourney, Stable Diffusion XL, and Gemini — no studio required.",
     keywords: [
       "product photography AI prompts",
       "e-commerce product shots AI",
@@ -211,7 +211,223 @@ export const categoryDescriptions: Record<
       "product mockup AI",
       "advertising product shots",
       "product concept art AI",
-      "PromptVault product",
+      "AiPromptNest product",
+    ],
+  },
+
+  men: {
+    title:
+      "Men Portrait AI Prompts – Generate Stunning Male Portraits & Fashion Shots | AiPromptNest",
+    description:
+      "Create powerful, photorealistic male portraits, fashion editorials, and lifestyle shots with AiPromptNest's curated men AI prompts. Tested on Midjourney, Stable Diffusion XL, and DALL·E 3.",
+    keywords: [
+      "men portrait AI prompts",
+      "male model AI art",
+      "men fashion photography AI",
+      "male headshot AI generator",
+      "men lifestyle photography prompts",
+      "AI male portrait Midjourney",
+      "men Stable Diffusion prompts",
+      "professional men portrait AI",
+      "men editorial photography AI",
+      "masculine portrait prompts",
+      "men character design AI",
+      "male face AI generator",
+      "men fashion editorial AI",
+      "men concept art prompts",
+      "AiPromptNest men",
+    ],
+  },
+
+  women: {
+    title:
+      "Women Portrait AI Prompts – Create Stunning Female Portraits & Fashion Art | AiPromptNest",
+    description:
+      "Generate breathtaking female portraits, beauty editorials, and lifestyle imagery with AiPromptNest's women AI prompts. Optimized for Midjourney, Stable Diffusion XL, Flux, and DALL·E 3.",
+    keywords: [
+      "women portrait AI prompts",
+      "female model AI art",
+      "women fashion photography AI",
+      "female headshot AI generator",
+      "women beauty photography prompts",
+      "AI female portrait Midjourney",
+      "women Stable Diffusion prompts",
+      "women editorial photography AI",
+      "beauty portrait AI prompts",
+      "women lifestyle photography AI",
+      "female character design AI",
+      "women face AI generator",
+      "women fashion editorial AI",
+      "women concept art prompts",
+      "AiPromptNest women",
+    ],
+  },
+
+  family: {
+    title:
+      "Family Portrait AI Prompts – Create Heartwarming Family Photos & Group Shots | AiPromptNest",
+    description:
+      "Generate warm, authentic family portraits, group lifestyle shots, and candid moments with AiPromptNest's family AI prompts. Tested on Midjourney, DALL·E 3, and Stable Diffusion XL.",
+    keywords: [
+      "family portrait AI prompts",
+      "family photo AI generator",
+      "group portrait AI art",
+      "family lifestyle photography AI",
+      "family Midjourney prompts",
+      "candid family moment AI",
+      "family photoshoot AI",
+      "parents and children AI portrait",
+      "family outdoor photography AI",
+      "family holiday photo AI",
+      "generational family portrait AI",
+      "family photography prompts",
+      "family concept art AI",
+      "home family scene AI",
+      "AiPromptNest family",
+    ],
+  },
+
+  couple: {
+    title:
+      "Couple Portrait AI Prompts – Generate Romantic & Engagement Photography | AiPromptNest",
+    description:
+      "Create romantic couple portraits, engagement shoots, and scenic pair photography with AiPromptNest's couple AI prompts. Perfect for wedding inspiration — tested on Midjourney, DALL·E 3, and Flux.",
+    keywords: [
+      "couple portrait AI prompts",
+      "romantic AI art prompts",
+      "engagement photography AI",
+      "couple Midjourney prompts",
+      "wedding photography AI prompts",
+      "couple lifestyle photography AI",
+      "romantic scene AI art",
+      "couple photoshoot prompts",
+      "anniversary portrait AI",
+      "couple outdoor photography AI",
+      "love portrait AI generator",
+      "couple concept art AI",
+      "intimate portrait prompts",
+      "couple fashion photography AI",
+      "AiPromptNest couple",
+    ],
+  },
+
+  sport: {
+    title:
+      "Sport AI Art Prompts – Generate Dynamic Action Shots & Athletic Photography | AiPromptNest",
+    description:
+      "Capture high-energy action shots, athletic performance, and dynamic sports photography with AiPromptNest's sport AI prompts. Optimized for Midjourney, Stable Diffusion XL, and DALL·E 3.",
+    keywords: [
+      "sport AI art prompts",
+      "action shot AI generator",
+      "athletic photography AI prompts",
+      "sport Midjourney prompts",
+      "sports Stable Diffusion prompts",
+      "dynamic action AI art",
+      "athlete portrait AI",
+      "sport concept art AI",
+      "football AI photography",
+      "basketball AI art prompts",
+      "running athlete AI image",
+      "sport extreme action AI",
+      "sports editorial photography AI",
+      "athletic training AI art",
+      "AiPromptNest sport",
+    ],
+  },
+
+  "nature-&-landscape": {
+    title:
+      "Nature & Landscape AI Art Prompts – Generate Breathtaking Outdoor Scenery | AiPromptNest",
+    description:
+      "Explore mountains, oceans, forests, and natural wonders with AiPromptNest's nature & landscape AI prompts. Tested on Midjourney, Stable Diffusion XL, and DALL·E 3 for stunning environmental art.",
+    keywords: [
+      "nature landscape AI prompts",
+      "landscape AI art generator",
+      "mountain scenery AI prompts",
+      "nature Midjourney prompts",
+      "forest landscape AI art",
+      "ocean sunset AI prompts",
+      "nature photography AI",
+      "scenic landscape Stable Diffusion",
+      "wildlife habitat AI art",
+      "desert landscape AI prompts",
+      "waterfall scenery AI",
+      "aerial landscape AI art",
+      "nature concept art AI",
+      "environmental art AI prompts",
+      "AiPromptNest nature landscape",
+    ],
+  },
+
+  "animals-&-wildlife": {
+    title:
+      "Animals & Wildlife AI Art Prompts – Generate Stunning Wildlife Photography | AiPromptNest",
+    description:
+      "Create majestic wildlife portraits, animal photography, and pet imagery with AiPromptNest's animals & wildlife AI prompts. Tested on Midjourney, Stable Diffusion XL, and DALL·E 3.",
+    keywords: [
+      "wildlife AI art prompts",
+      "animal photography AI generator",
+      "wildlife Midjourney prompts",
+      "animal portrait AI art",
+      "wildlife Stable Diffusion prompts",
+      "lion portrait AI prompts",
+      "bird photography AI art",
+      "underwater wildlife AI prompts",
+      "pet photography AI",
+      "exotic animal AI art",
+      "wolf portrait AI prompts",
+      "animal concept art AI",
+      "jungle animal AI photography",
+      "macro insect AI art prompts",
+      "AiPromptNest animals wildlife",
+    ],
+  },
+
+  vehicles: {
+    title:
+      "Vehicles AI Art Prompts – Generate Stunning Car & Transportation Concept Art | AiPromptNest",
+    description:
+      "Design sleek sports cars, motorcycles, aircraft, and futuristic transportation concepts with AiPromptNest's vehicles AI prompts. Tested on Midjourney, Stable Diffusion XL, and DALL·E 3.",
+    keywords: [
+      "vehicles AI art prompts",
+      "car concept art AI",
+      "automotive AI photography",
+      "vehicle Midjourney prompts",
+      "sports car AI art",
+      "motorcycle AI prompts",
+      "futuristic vehicle concept AI",
+      "aircraft AI art prompts",
+      "supercar studio shot AI",
+      "vehicles Stable Diffusion prompts",
+      "car design concept AI",
+      "luxury car AI photography",
+      "motorcycle editorial AI",
+      "transportation concept art AI",
+      "AiPromptNest vehicles",
+    ],
+  },
+
+  "digital-art": {
+    title:
+      "Digital Art AI Prompts – Generate Creative Illustrations & Abstract Designs | AiPromptNest",
+    description:
+      "Explore creative digital paintings, abstract illustrations, 3D concepts, and graphic designs with AiPromptNest's digital art AI prompts. Tested on Midjourney, Stable Diffusion XL, and Adobe Firefly.",
+    keywords: [
+      "digital art AI prompts",
+      "abstract illustration AI generator",
+      "digital painting AI prompts",
+      "digital art Midjourney prompts",
+      "abstract AI art",
+      "3D digital concept art AI",
+      "graphic design AI prompts",
+      "digital illustration Stable Diffusion",
+      "concept art AI generator",
+      "surreal digital art AI",
+      "generative art prompts",
+      "glitch art AI prompts",
+      "vaporwave AI art",
+      "digital art concept prompts",
+      "AiPromptNest digital art",
     ],
   },
 };
@@ -285,6 +501,78 @@ export const categoryMetaLookup: Record<
     image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&q=80",
     statCount: "840",
     copies: "18K+",
+  },
+  men: {
+    icon: User,
+    accent: "text-blue-500 bg-blue-500/10 border-blue-500/20",
+    color: "from-blue-500/30 to-indigo-500/30",
+    image: "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=600&q=80",
+    statCount: "720",
+    copies: "16K+",
+  },
+  women: {
+    icon: User,
+    accent: "text-rose-500 bg-rose-500/10 border-rose-500/20",
+    color: "from-rose-500/30 to-pink-500/30",
+    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=600&q=80",
+    statCount: "890",
+    copies: "24K+",
+  },
+  family: {
+    icon: Users,
+    accent: "text-teal-500 bg-teal-500/10 border-teal-500/20",
+    color: "from-teal-500/30 to-emerald-500/30",
+    image: "https://images.unsplash.com/photo-1511895426328-dc8714191300?w=600&q=80",
+    statCount: "540",
+    copies: "12K+",
+  },
+  couple: {
+    icon: Users,
+    accent: "text-red-500 bg-red-500/10 border-red-500/20",
+    color: "from-red-500/30 to-rose-500/30",
+    image: "https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?w=600&q=80",
+    statCount: "610",
+    copies: "14K+",
+  },
+  sport: {
+    icon: Flame,
+    accent: "text-amber-500 bg-amber-500/10 border-amber-500/20",
+    color: "from-amber-500/30 to-yellow-500/30",
+    image: "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=600&q=80",
+    statCount: "760",
+    copies: "19K+",
+  },
+  "nature-&-landscape": {
+    icon: Trees,
+    accent: "text-green-500 bg-green-500/10 border-green-500/20",
+    color: "from-green-500/30 to-emerald-500/30",
+    image: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=600&q=80",
+    statCount: "1,140",
+    copies: "31K+",
+  },
+  "animals-&-wildlife": {
+    icon: Dog,
+    accent: "text-lime-500 bg-lime-500/10 border-lime-500/20",
+    color: "from-lime-500/30 to-green-500/30",
+    image: "https://images.unsplash.com/photo-1472396961693-142e6e269027?w=600&q=80",
+    statCount: "920",
+    copies: "25K+",
+  },
+  vehicles: {
+    icon: Car,
+    accent: "text-slate-400 bg-slate-500/10 border-slate-500/20",
+    color: "from-slate-500/30 to-zinc-500/30",
+    image: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=600&q=80",
+    statCount: "680",
+    copies: "15K+",
+  },
+  "digital-art": {
+    icon: Palette,
+    accent: "text-fuchsia-500 bg-fuchsia-500/10 border-fuchsia-500/20",
+    color: "from-fuchsia-500/30 to-purple-500/30",
+    image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=600&q=80",
+    statCount: "1,050",
+    copies: "28K+",
   },
 };
 
@@ -415,6 +703,159 @@ export const categoryFaqData: Record<
         "Midjourney v6 and Stable Diffusion XL excel at rendering physical properties like frosted glass, metallic chrome, and fluid textures, making them perfect for cosmetics and tech product listings.",
     },
   ],
+  men: [
+    {
+      question: "What are men portrait AI prompts?",
+      answer:
+        "Men portrait AI prompts are carefully crafted text instructions designed to generate powerful, photorealistic male portraits, fashion editorials, athletic shots, and lifestyle imagery using AI models like Midjourney, Stable Diffusion, or DALL·E 3.",
+    },
+    {
+      question: "How do I achieve a professional look in male portrait AI art?",
+      answer:
+        "Use specific lighting setups (e.g., 'dramatic Rembrandt lighting', 'studio three-point lighting'), camera specs (e.g., '85mm lens', 'f/1.4 aperture'), and descriptors like 'sharp jawline', 'confident expression', and 'editorial styling'.",
+    },
+    {
+      question: "Which AI models work best for realistic male portraits?",
+      answer:
+        "Midjourney v6 and Stable Diffusion XL produce highly realistic skin textures and masculine features. Flux and DALL·E 3 are also excellent choices for editorial-style male photography.",
+    },
+  ],
+  women: [
+    {
+      question: "What types of women portraits can I generate with AI?",
+      answer:
+        "You can generate a wide range from professional headshots and beauty editorials to fashion campaigns, fantasy characters, and lifestyle imagery. Our prompts are crafted to produce stunning, high-resolution female portraits.",
+    },
+    {
+      question: "How do I get natural, flattering skin tones in AI-generated women portraits?",
+      answer:
+        "Incorporate specific lighting descriptors (e.g., 'golden hour glow', 'soft diffused light') and camera terms (e.g., 'f/2.0 aperture', 'portrait lens') that guide the model to produce natural skin tones and soft highlights.",
+    },
+    {
+      question: "Can I use these prompts for fashion and beauty brand content?",
+      answer:
+        "Absolutely. Many fashion brands and beauty companies use AI-generated imagery for mood boards, social media content, and advertising concepts. Our prompts are optimized for editorial and commercial quality output.",
+    },
+  ],
+  family: [
+    {
+      question: "What are family portrait AI prompts?",
+      answer:
+        "Family portrait AI prompts are text instructions that guide AI models to generate warm, authentic group portraits, candid family moments, and lifestyle scenes capturing the bonds of family life.",
+    },
+    {
+      question: "How do I make family AI portraits look natural and not staged?",
+      answer:
+        "Use candid-style descriptors like 'candid moment', 'natural lighting', 'outdoor setting', and 'genuine laughter'. Avoid overly formal posing keywords and instead focus on environmental storytelling.",
+    },
+    {
+      question: "Which AI generators are best for diverse family compositions?",
+      answer:
+        "DALL·E 3 and Midjourney handle diverse family groupings, ages, and ethnicities well. Stable Diffusion with appropriate fine-tuned models also produces natural group shots.",
+    },
+  ],
+  couple: [
+    {
+      question: "What makes a great couple portrait AI prompt?",
+      answer:
+        "A great couple prompt blends romantic atmosphere (e.g., 'golden hour light', 'soft bokeh background') with emotional descriptors (e.g., 'tender gaze', 'intimate moment') and a scenic setting to create a compelling and heartfelt image.",
+    },
+    {
+      question: "Can I use these prompts for wedding photography inspiration?",
+      answer:
+        "Yes, many wedding photographers use AI-generated couple images for pre-shoot inspiration, mood board creation, and client presentations to align on the desired aesthetic and lighting style.",
+    },
+    {
+      question: "Which AI models capture romantic lighting best?",
+      answer:
+        "Midjourney excels at atmospheric romantic scenes with soft, dreamy lighting. DALL·E 3 is great for environmental storytelling, while Stable Diffusion allows more granular control over lighting and composition.",
+    },
+  ],
+  sport: [
+    {
+      question: "What are sport AI art prompts?",
+      answer:
+        "Sport AI art prompts are action-focused text instructions that guide AI models to generate high-energy athletic photos, dynamic movement shots, and intense sports scenes with motion blur and dramatic lighting.",
+    },
+    {
+      question: "How do I capture motion and speed in AI sport images?",
+      answer:
+        "Use terms like 'motion blur', 'high-speed shutter', 'explosive movement', 'dynamic composition', and 'low angle action shot' to create a powerful sense of speed and athletic energy.",
+    },
+    {
+      question: "Which AI models are best for sports action photography?",
+      answer:
+        "Midjourney and Stable Diffusion XL produce excellent high-energy action shots. Adding descriptors like 'sports photography', '1/2000s shutter speed', and 'bokeh background' helps achieve a realistic athletic photo look.",
+    },
+  ],
+  "nature-&-landscape": [
+    {
+      question: "What are nature & landscape AI art prompts?",
+      answer:
+        "Nature & landscape AI art prompts are descriptive instructions that guide AI models to generate breathtaking outdoor environments — from mountain peaks and ocean vistas to forest glades and desert dunes.",
+    },
+    {
+      question: "How do I achieve photorealistic outdoor lighting in landscape AI art?",
+      answer:
+        "Use time-of-day descriptors (e.g., 'golden hour', 'blue hour dusk', 'misty morning') and atmospheric keywords (e.g., 'volumetric rays', 'soft fog', 'dramatic cloud formations') to create immersive natural lighting.",
+    },
+    {
+      question: "Which AI models produce the most stunning landscape art?",
+      answer:
+        "Midjourney v6 consistently generates awe-inspiring landscapes. Stable Diffusion XL with landscape-tuned models and DALL·E 3 are also excellent for wide, panoramic nature scenes.",
+    },
+  ],
+  "animals-&-wildlife": [
+    {
+      question: "What are animals & wildlife AI art prompts?",
+      answer:
+        "Animals & wildlife AI art prompts are detailed text instructions used to generate stunning wildlife photography, majestic animal portraits, and habitat scenes using AI models like Midjourney, Stable Diffusion, and DALL·E 3.",
+    },
+    {
+      question: "How do I capture realistic fur and feather textures in animal AI art?",
+      answer:
+        "Use highly specific material descriptors like 'ultra-detailed fur texture', 'individual feather detail', 'wet coat sheen', and photographic terms like 'macro lens', '400mm telephoto', and 'natural lighting'.",
+    },
+    {
+      question: "Can I generate endangered species or exotic animals accurately?",
+      answer:
+        "Yes, AI models like Midjourney and DALL·E 3 have extensive training data on diverse wildlife. Being specific with species names (e.g., 'Siberian tiger', 'blue morpho butterfly') yields far more accurate and detailed results.",
+    },
+  ],
+  vehicles: [
+    {
+      question: "What are vehicles AI art prompts?",
+      answer:
+        "Vehicles AI art prompts are text instructions crafted to generate sleek automotive concept art, sports car renders, motorcycle photography, aircraft designs, and futuristic transportation concepts.",
+    },
+    {
+      question: "How do I achieve realistic paint and chrome finishes in vehicle AI art?",
+      answer:
+        "Use material-specific terms like 'deep gloss lacquer', 'metallic chrome finish', 'matte carbon fiber panel', 'studio lighting reflections', and 'octane render quality' to produce convincing vehicle surface details.",
+    },
+    {
+      question: "Which AI models are best for automotive concept art?",
+      answer:
+        "Midjourney and DALL·E 3 excel at sleek automotive designs with accurate proportions. Stable Diffusion with car-focused LoRA models can produce highly detailed and customizable vehicle renders.",
+    },
+  ],
+  "digital-art": [
+    {
+      question: "What are digital art AI prompts?",
+      answer:
+        "Digital art AI prompts are creative text instructions that guide AI models to produce abstract illustrations, digital paintings, 3D concept designs, generative art patterns, and mixed-media graphic compositions.",
+    },
+    {
+      question: "How do I create truly unique abstract digital art with AI?",
+      answer:
+        "Combine art movement keywords (e.g., 'vaporwave', 'glitch art', 'surrealism') with specific techniques (e.g., 'layered transparency', 'fractured geometry', 'neon color palette') and texture descriptors to push beyond generic results.",
+    },
+    {
+      question: "Which AI tools are best for generative and abstract digital art?",
+      answer:
+        "Midjourney and Adobe Firefly are excellent for abstract generative art. Stable Diffusion with custom models enables deep stylistic experimentation, while DALL·E 3 handles conceptual and surreal digital compositions very well.",
+    },
+  ],
 };
 
 // ---------------------------------------------------------------------------
@@ -469,6 +910,69 @@ export const categoryTipsLookup: Record<string, string[]> = {
     "Describe exact material textures (e.g., frosted glass, metal chrome)",
     "Use photography settings (e.g., macro lens, close-up)",
     "Add styling props (e.g., natural water droplets, organic leaves)",
+  ],
+  men: [
+    "Define specific age range, facial features, and expression",
+    "Use lighting setups (e.g., Rembrandt, dramatic side lighting)",
+    "Specify camera and lens details (e.g., 85mm, f/1.4)",
+    "Add clothing style and grooming details",
+    "Include environment and background context",
+  ],
+  women: [
+    "Describe hair style, color, and texture precisely",
+    "Specify makeup style and beauty descriptors",
+    "Use flattering lighting setups (e.g., golden hour, soft box)",
+    "Include fashion and wardrobe details",
+    "Add emotional tone and expression keywords",
+  ],
+  family: [
+    "Describe the group composition (ages, relationships)",
+    "Use candid, lifestyle-style descriptors for natural poses",
+    "Specify the environment (e.g., park, beach, living room)",
+    "Include lighting and time-of-day for mood",
+    "Add emotional descriptors (e.g., laughter, warmth, togetherness)",
+  ],
+  couple: [
+    "Describe the setting and romantic atmosphere",
+    "Use emotional and relational descriptors (e.g., tender, intimate)",
+    "Specify lighting (e.g., golden hour, candlelight, soft bokeh)",
+    "Include fashion styling and color coordination",
+    "Incorporate environmental storytelling elements",
+  ],
+  sport: [
+    "Use action and motion descriptors (e.g., motion blur, explosive jump)",
+    "Specify sport type and athlete body language",
+    "Add camera terms (e.g., low angle, high shutter speed)",
+    "Include environment and stadium/venue context",
+    "Use dramatic lighting for intensity (e.g., stadium floodlights)",
+  ],
+  "nature-&-landscape": [
+    "Specify time of day and atmospheric conditions",
+    "Describe the geographic setting and terrain type",
+    "Use weather and light descriptors (e.g., golden hour, misty)",
+    "Include foreground, midground, and background elements",
+    "Add volumetric lighting and atmospheric effects",
+  ],
+  "animals-&-wildlife": [
+    "Be specific with the species name for accuracy",
+    "Describe the animal's pose, behavior, and expression",
+    "Use appropriate lens (e.g., 400mm telephoto, macro lens)",
+    "Include natural habitat and environmental context",
+    "Add lighting conditions (e.g., dappled forest light, golden savanna)",
+  ],
+  vehicles: [
+    "Specify make, model era, and design style",
+    "Describe paint finish and surface material (e.g., gloss, matte)",
+    "Use studio or environmental lighting descriptors",
+    "Include shooting angle (e.g., three-quarter view, low-angle)",
+    "Add background and scene context (e.g., mountain road, city night)",
+  ],
+  "digital-art": [
+    "Combine art movements and visual styles (e.g., vaporwave, surrealism)",
+    "Use specific color palette descriptors",
+    "Include texture and material descriptors (e.g., glitch, holographic)",
+    "Specify composition and layout (e.g., symmetrical, chaotic)",
+    "Reference influential artists or design schools for style",
   ],
 };
 
@@ -559,5 +1063,113 @@ export const trendingSearchesLookup: Record<string, string[]> = {
     "frosted glass cosmetics tube",
     "premium camera lens product",
     "handcrafted leather bag mock",
+  ],
+  men: [
+    "bearded gentleman editorial",
+    "athletic male portrait outdoors",
+    "corporate headshot dark suit",
+    "rugged explorer face close-up",
+    "tattooed urban male style",
+    "cinematic male silhouette",
+    "vintage gentleman portrait",
+    "dramatic male side lighting",
+    "surfer male golden hour",
+    "futuristic male cyborg portrait",
+  ],
+  women: [
+    "editorial beauty close-up",
+    "fashion model golden hour",
+    "bohemian woman outdoor portrait",
+    "luxury lifestyle female shot",
+    "cyberpunk neon woman portrait",
+    "vintage Hollywood glamour",
+    "natural beauty no makeup",
+    "empowered woman city backdrop",
+    "fantasy warrior queen portrait",
+    "soft light feminine editorial",
+  ],
+  family: [
+    "family beach sunset portrait",
+    "candid kitchen breakfast scene",
+    "outdoor picnic family moment",
+    "grandmother and grandchild hug",
+    "family holiday christmas morning",
+    "toddler and parent play time",
+    "family hiking mountain trail",
+    "multi-generational family portrait",
+    "siblings laughing in garden",
+    "cozy family living room winter",
+  ],
+  couple: [
+    "golden hour couple silhouette",
+    "engagement shoot flower field",
+    "romantic Paris street scene",
+    "candid couple coffee shop",
+    "wedding dance under fairy lights",
+    "couple hiking mountain peak",
+    "intimate couple portrait bokeh",
+    "couple beach sunrise walk",
+    "anniversary dinner candlelight",
+    "couple laughing rooftop city",
+  ],
+  sport: [
+    "sprinter explosive start track",
+    "basketball slam dunk stadium",
+    "surfer barrel wave ride",
+    "rock climber cliff face",
+    "martial arts flying kick",
+    "cyclist mountain descent blur",
+    "football player touchdown dive",
+    "swimmer underwater race",
+    "gymnast mid-air flip",
+    "skateboarder urban trick shot",
+  ],
+  "nature-&-landscape": [
+    "golden hour mountain ridge",
+    "misty forest morning light",
+    "turquoise ocean aerial view",
+    "desert dunes dramatic shadows",
+    "cherry blossom valley spring",
+    "northern lights arctic panorama",
+    "volcanic eruption dramatic sky",
+    "waterfall rainforest mist",
+    "autumn forest trail carpet",
+    "storm approaching prairie",
+  ],
+  "animals-&-wildlife": [
+    "lion pride golden savanna",
+    "humpback whale ocean surface",
+    "snow leopard mountain rock",
+    "wolf pack winter forest",
+    "eagle in flight dramatic sky",
+    "elephant family waterhole",
+    "red fox autumn leaves",
+    "underwater shark coral reef",
+    "jaguar rainforest portrait",
+    "polar bear arctic ice floe",
+  ],
+  vehicles: [
+    "sports car mountain hairpin",
+    "vintage muscle car neon night",
+    "futuristic concept car studio",
+    "motorcycle desert highway",
+    "fighter jet afterburner launch",
+    "luxury yacht ocean sunset",
+    "cyberpunk hovercraft city",
+    "classic ferrari rolling hills",
+    "electric supercar rain reflections",
+    "steampunk airship clouds",
+  ],
+  "digital-art": [
+    "vaporwave retro grid city",
+    "glitch portrait neon fracture",
+    "surreal floating island dream",
+    "abstract geometric light burst",
+    "holographic crystal sculpture",
+    "dark surrealism melting clock",
+    "cyberpunk neon mandala",
+    "generative wave pattern flow",
+    "art deco poster digital remake",
+    "liquid chrome abstract pour",
   ],
 };

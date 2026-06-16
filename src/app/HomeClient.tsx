@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect, useRef, useCallback } from "react";
+import React, { useState, useEffect, useRef, useCallback, useTransition } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
@@ -9,6 +9,7 @@ import Hero from "@/components/Hero";
 import PromptCard from "@/components/PromptCard";
 import StatsSection from "@/components/StatsSection";
 import Footer from "@/components/Footer";
+import { fetchHomeTabPrompts, HomeTab, HomeTabResult, fetchCategoryCounts } from "@/lib/client-prompts";
 import {
   ArrowRight,
   Search,
@@ -408,90 +409,72 @@ const categoriesData = categoriesDataJson.map((cat) => {
 });
 
 interface HomeClientProps {
-  initialPrompts: Prompt[];
   initialBlogs: Blog[];
 }
 
-type Tab = "all" | "trending" | "popular" | "latest";
-
-export default function HomeClient({ initialPrompts, initialBlogs }: HomeClientProps) {
-  const [activeTab, setActiveTab] = useState<Tab>("trending");
+export default function HomeClient({ initialBlogs }: HomeClientProps) {
+  const [activeTab, setActiveTab] = useState<HomeTab>("trending");
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
-  const [dbPrompts, setDbPrompts] = useState<Prompt[]>(initialPrompts);
+  const [currentPage, setCurrentPage] = useState(1);
   const [openFaq, setOpenFaq] = useState<number | null>(null);
+
+  // ── On-demand data state (mirrors BrowseClient pattern) ─────────────────
+  const [isLoading, setIsLoading] = useState(true);
+  const [fetchError, setFetchError] = useState<string | null>(null);
+  const [tabResult, setTabResult] = useState<HomeTabResult>({
+    prompts: [],
+    totalCount: 0,
+    totalPages: 1,
+    currentPage: 1,
+    categoryCounts: {},
+    tabTotalCount: 0,
+  });
+
+  // Category counts for the Browse by Category section
+  const [allCategoryCounts, setAllCategoryCounts] = useState<Record<string, number>>({});
+
+  const router = useRouter();
 
   const toggleFaq = useCallback((index: number) => {
     setOpenFaq((prev) => (prev === index ? null : index));
   }, []);
 
-  // Pagination States
-  const [currentPage, setCurrentPage] = useState(1);
-  const itemsPerPage = 12;
-
-  const router = useRouter();
-
-  // Tab-sorted prompt lists
-  const allTabPrompts = [...dbPrompts]
-    .sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime());
-
-  const trendingTabPrompts = [...dbPrompts]
-    .filter(p => p.isTrending)
-    .sort((a, b) => (Number(b.views ?? 0) + Number(b.likes ?? 0)) - (Number(a.views ?? 0) + Number(a.likes ?? 0)));
-
-  const popularTabPrompts = [...dbPrompts]
-    .filter(p => p.isFeatured)
-    .sort((a, b) => (Number(b.views ?? 0) + Number(b.likes ?? 0)) - (Number(a.views ?? 0) + Number(a.likes ?? 0)));
-
-  const latestTabPrompts = [...dbPrompts]
-    .filter(p => p.isLatest)
-    .sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime());
-
-  const activePrompts =
-    activeTab === "all"      ? allTabPrompts :
-    activeTab === "trending" ? trendingTabPrompts :
-    activeTab === "popular"  ? popularTabPrompts  :
-    latestTabPrompts;
-
-  // Find which categories actually have prompts in this tab
-  const tabCategoryCounts = React.useMemo(() => {
-    const counts: Record<string, number> = {};
-    for (const p of activePrompts) {
-      if (p.category) {
-        counts[p.category] = (counts[p.category] ?? 0) + 1;
+  // ── Load one page of prompts directly from JSON files ────────────────────
+  const loadTabData = useCallback(
+    async (tab: HomeTab, category: string, page: number) => {
+      setIsLoading(true);
+      setFetchError(null);
+      try {
+        const data = await fetchHomeTabPrompts(tab, category, page);
+        setTabResult(data);
+      } catch (err) {
+        setFetchError("Failed to load prompts. Please try again.");
+        console.error(err);
+      } finally {
+        setIsLoading(false);
       }
-    }
-    return counts;
-  }, [activePrompts]);
+    },
+    []
+  );
+
+  // Re-fetch whenever tab, category, or page changes (identical to BrowseClient)
+  useEffect(() => {
+    loadTabData(activeTab, selectedCategory ?? "", currentPage);
+  }, [activeTab, selectedCategory, currentPage, loadTabData]);
+
+  // Fetch all-category counts once on mount (for Browse by Category section)
+  useEffect(() => {
+    fetchCategoryCounts().then(setAllCategoryCounts);
+  }, []);
+
+  // ── Derived display data ─────────────────────────────────────────────────
+  const { prompts: displayedPrompts, totalPages, currentPage: safePage, categoryCounts: tabCategoryCounts } = tabResult;
 
   const tabCategories = React.useMemo(() => {
-    if (activeTab === "all") {
-      return categoriesData;
-    }
+    if (activeTab === "all") return categoriesData;
     return categoriesData.filter((cat) => (tabCategoryCounts[cat.id] ?? 0) > 0);
   }, [tabCategoryCounts, activeTab]);
 
-  // Filter tab prompts by selected category
-  const filteredPrompts = React.useMemo(() => {
-    if (!selectedCategory) return activePrompts;
-    return activePrompts.filter(
-      (p) => p.category?.toLowerCase() === selectedCategory.toLowerCase()
-    );
-  }, [activePrompts, selectedCategory]);
-
-  // Pagination Logic
-  const totalPages = Math.ceil(filteredPrompts.length / itemsPerPage);
-  const startIndex = (currentPage - 1) * itemsPerPage;
-  const displayedPrompts = filteredPrompts.slice(startIndex, startIndex + itemsPerPage);
-
-
-
-  // Prompt counts per category — used by the Browse by Category section
-  const categoryCounts: Record<string, number> = {};
-  for (const p of dbPrompts) {
-    if (p.category) {
-      categoryCounts[p.category] = (categoryCounts[p.category] ?? 0) + 1;
-    }
-  }
 
   return (
     <main className="min-h-screen mesh-gradient">
@@ -526,26 +509,30 @@ export default function HomeClient({ initialPrompts, initialBlogs }: HomeClientP
         <div className="mb-6">
           <div className="inline-flex items-center gap-1 p-1 rounded-2xl bg-white/[0.04] border border-white/[0.08]">
             {([
-              { id: "trending" as Tab, label: "Trending",  icon: Flame,       iconColor: "text-amber-500", activeClass: "bg-gradient-to-r from-amber-500 to-rose-500 text-white border-amber-500/20 shadow-[0_2px_12px_rgba(245,158,11,0.3)]" },
-              { id: "popular"  as Tab, label: "Popular",   icon: TrendingUp,  iconColor: "text-violet-400", activeClass: "bg-gradient-to-r from-violet-600 to-indigo-600 text-white border-violet-500/20 shadow-[0_2px_12px_rgba(124,58,237,0.3)]" },
-              { id: "latest"  as Tab, label: "Latest",    icon: Sparkles,    iconColor: "text-cyan-400",   activeClass: "bg-gradient-to-r from-cyan-500 to-blue-500 text-white border-cyan-500/20 shadow-[0_2px_12px_rgba(6,182,212,0.3)]" },
-              { id: "all"      as Tab, label: "All",      icon: LayoutGrid,  iconColor: "text-white/40",   activeClass: "bg-white/10 text-white border-white/10 shadow-lg" },
+              { id: "trending" as HomeTab, label: "Trending",  icon: Flame,       iconColor: "text-amber-500", activeClass: "bg-gradient-to-r from-amber-500 to-rose-500 text-white border-amber-500/20 shadow-[0_2px_12px_rgba(245,158,11,0.3)]" },
+              { id: "popular"  as HomeTab, label: "Popular",   icon: TrendingUp,  iconColor: "text-violet-400", activeClass: "bg-gradient-to-r from-violet-600 to-indigo-600 text-white border-violet-500/20 shadow-[0_2px_12px_rgba(124,58,237,0.3)]" },
+              { id: "latest"   as HomeTab, label: "Latest",    icon: Sparkles,    iconColor: "text-cyan-400",   activeClass: "bg-gradient-to-r from-cyan-500 to-blue-500 text-white border-cyan-500/20 shadow-[0_2px_12px_rgba(6,182,212,0.3)]" },
+              { id: "all"      as HomeTab, label: "All",       icon: LayoutGrid,  iconColor: "text-white/40",   activeClass: "bg-white/10 text-white border-white/10 shadow-lg" },
             ] as const).map(({ id, label, icon: Icon, iconColor, activeClass }) => {
               const isActive = activeTab === id;
               return (
                 <button
                   key={id}
+                  disabled={isLoading}
                   onClick={() => {
+                    if (activeTab === id) return;
                     setActiveTab(id);
-                    setCurrentPage(1);
                     setSelectedCategory(null);
+                    setCurrentPage(1);
+                    loadTabData(id, "", 1);
                   }}
                   className={cn(
                     "flex items-center gap-2 px-5 py-2.5 rounded-xl text-sm font-semibold transition-all duration-200 cursor-pointer select-none border",
-                    id === "trending" && "animate-pulse",
+                    id === "trending" && !isLoading && "animate-pulse",
                     isActive
                       ? activeClass
-                      : "text-white/50 hover:text-white/80 hover:bg-white/[0.05] border-transparent"
+                      : "text-white/50 hover:text-white/80 hover:bg-white/[0.05] border-transparent",
+                    isLoading && "opacity-60 cursor-not-allowed"
                   )}
                 >
                   <Icon className={cn("w-4 h-4", isActive ? "text-white" : iconColor)} />
@@ -569,8 +556,10 @@ export default function HomeClient({ initialPrompts, initialBlogs }: HomeClientP
             {/* "All" Pill */}
             <button
               onClick={() => {
+                if (selectedCategory === null) return;
                 setSelectedCategory(null);
                 setCurrentPage(1);
+                loadTabData(activeTab, "", 1);
               }}
               className={cn(
                 "flex items-center gap-2 px-4 py-2 rounded-xl text-xs font-bold transition-all duration-200 border cursor-pointer select-none",
@@ -580,7 +569,7 @@ export default function HomeClient({ initialPrompts, initialBlogs }: HomeClientP
               )}
             >
               <LayoutGrid className="w-3.5 h-3.5" />
-              All Prompts ({activePrompts.length})
+              All Prompts ({tabResult.tabTotalCount})
             </button>
 
             {/* Dynamic Category Pills */}
@@ -591,8 +580,10 @@ export default function HomeClient({ initialPrompts, initialBlogs }: HomeClientP
                 <button
                   key={cat.id}
                   onClick={() => {
-                    setSelectedCategory(isSelected ? null : cat.id);
+                    const next = isSelected ? null : cat.id;
+                    setSelectedCategory(next);
                     setCurrentPage(1);
+                    loadTabData(activeTab, next ?? "", 1);
                   }}
                   className={cn(
                     "flex items-center gap-2 px-4 py-2 rounded-xl text-xs font-bold transition-all duration-200 border cursor-pointer select-none",
@@ -609,8 +600,36 @@ export default function HomeClient({ initialPrompts, initialBlogs }: HomeClientP
           </div>
         </div>
 
+        {/* Error banner */}
+        {fetchError && (
+          <div className="mb-6 flex items-center gap-3 rounded-xl border border-red-500/20 bg-red-500/10 px-5 py-3 text-sm text-red-400">
+            <Search className="w-4 h-4 shrink-0" />
+            {fetchError}
+            <button
+              onClick={() => loadTabData(activeTab, selectedCategory ?? "", currentPage)}
+              className="ml-auto text-xs font-bold underline cursor-pointer"
+            >
+              Retry
+            </button>
+          </div>
+        )}
+
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {displayedPrompts.length > 0 ? (
+          {isLoading ? (
+            // Loading skeleton
+            Array.from({ length: 12 }).map((_, i) => (
+              <div
+                key={i}
+                className="rounded-2xl border border-white/[0.05] bg-white/[0.02] animate-pulse overflow-hidden"
+              >
+                <div className="aspect-[4/3] bg-white/[0.04]" />
+                <div className="p-4 space-y-2">
+                  <div className="h-4 w-3/4 rounded bg-white/[0.06]" />
+                  <div className="h-3 w-1/2 rounded bg-white/[0.04]" />
+                </div>
+              </div>
+            ))
+          ) : displayedPrompts.length > 0 ? (
             displayedPrompts.map((prompt, i) => (
               <div key={prompt.id || i}>
                 <PromptCard
@@ -631,9 +650,12 @@ export default function HomeClient({ initialPrompts, initialBlogs }: HomeClientP
         </div>
 
         <Pagination
-          currentPage={currentPage}
+          currentPage={safePage}
           totalPages={totalPages}
-          onPageChange={setCurrentPage}
+          onPageChange={(page) => {
+            setCurrentPage(page);
+            loadTabData(activeTab, selectedCategory ?? "", page);
+          }}
           scrollTargetId="prompts-section"
         />
       </section>
@@ -714,7 +736,7 @@ export default function HomeClient({ initialPrompts, initialBlogs }: HomeClientP
         {/* Dynamic Card Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 md:gap-5 mt-6">
           {categoriesData.map((cat) => {
-            const count = categoryCounts[cat.id] ?? 0;
+            const count = allCategoryCounts[cat.id] ?? 0;
             return (
               <div
                 key={cat.id}
