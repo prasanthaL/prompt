@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Outfit } from "next/font/google";
 import "./globals.css";
 
@@ -7,36 +7,55 @@ const outfit = Outfit({
   variable: "--font-outfit",
 });
 
-const siteUrl = "https://www.promptvault.ai";
+const siteUrl = "https://www.aipromptnest.com";
+
+export const viewport: Viewport = {
+  themeColor: "#8B5CF6",
+  width: "device-width",
+  initialScale: 1,
+};
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
 
   title: {
-    default: "PromptVault — Free Gemini AI Image Prompts Library",
-    template: "%s | PromptVault",
+    default: "AIPromptNest - Free Gemini AI Image Prompts & Prompt Library",
+    template: "%s | AIPromptNest",
   },
   description:
-    "Browse 1,000+ free, tested AI image prompts for Google Gemini, Midjourney, DALL·E & Stable Diffusion. Cinematic, anime, fantasy, fashion, realistic styles and more.",
+    "Explore 1,000+ free Gemini AI image prompts in one library. Find cinematic, anime, fantasy, realistic, photography, fashion, and creative prompts to generate high-quality AI images.",
 
   keywords: [
     "AI image prompts",
     "Gemini AI prompts",
+    "Gemini image prompts",
+    "Google Gemini prompts",
+    "Google Gemini image prompts",
+    "Gemini AI art prompts",
     "free AI prompts",
-    "Midjourney prompts",
-    "DALL-E prompts",
-    "Stable Diffusion prompts",
+    "AI prompt library",
+    "AI prompt database",
     "AI art prompts",
+    "image generation prompts",
+    "cinematic AI prompts",
     "anime AI prompts",
-    "cinematic prompts",
+    "realistic AI prompts",
     "fantasy AI prompts",
-    "prompt library",
-    "AI prompt marketplace",
+    "fashion AI prompts",
+    "photography AI prompts",
+    "creative AI prompts",
+    "best Gemini prompts",
+    "Gemini prompt collection",
+    "AI image prompt library",
+    "free Gemini image prompts",
   ],
 
-  authors: [{ name: "PromptVault", url: siteUrl }],
-  creator: "PromptVault",
-  publisher: "PromptVault",
+  authors: [{ name: "AIPromptNest", url: siteUrl }],
+  creator: "AIPromptNest",
+  publisher: "AIPromptNest",
+
+  applicationName: "AIPromptNest",
+  category: "AI Prompts",
 
   robots: {
     index: true,
@@ -54,32 +73,40 @@ export const metadata: Metadata = {
     canonical: "/",
   },
 
+  verification: {
+    google: "your-verification-code",
+  },
+
+  manifest: "/site.webmanifest",
+
   openGraph: {
     type: "website",
     locale: "en_US",
     url: siteUrl,
-    siteName: "PromptVault",
-    title: "PromptVault — Free Gemini AI Image Prompts Library",
+    siteName: "AIPromptNest",
+    title: "AIPromptNest - Free Gemini AI Image Prompts Library",
     description:
-      "Browse 1,000+ free, tested AI image prompts for Google Gemini, Midjourney, DALL·E & Stable Diffusion.",
+      "Explore 1,000+ free Gemini AI image prompts. Discover cinematic, anime, fantasy, realistic, photography, fashion and creative prompt collections.",
     images: [
       {
         url: "https://res.cloudinary.com/dfbacu2lw/image/upload/v1781332533/og_yh8di5.webp",
         width: 1200,
         height: 630,
-        alt: "PromptVault — AI Image Prompts Library",
+        alt: "AIPromptNest - Free Gemini AI Image Prompts Library",
       },
     ],
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "PromptVault — Free Gemini AI Image Prompts Library",
+    title: "AIPromptNest - Free Gemini AI Image Prompts Library",
     description:
-      "Browse 1,000+ free, tested AI image prompts for Google Gemini, Midjourney, DALL·E & Stable Diffusion.",
-    images: ["https://res.cloudinary.com/dfbacu2lw/image/upload/v1781332533/og_yh8di5.webp"],
-    creator: "@promptvault",
-    site: "@promptvault",
+      "Explore 1,000+ free Gemini AI image prompts. Discover cinematic, anime, fantasy, realistic, photography, fashion and creative prompt collections.",
+    images: [
+      "https://res.cloudinary.com/dfbacu2lw/image/upload/v1781332533/og_yh8di5.webp",
+    ],
+    creator: "@aipromptnest",
+    site: "@aipromptnest",
   },
 
   icons: {
@@ -92,10 +119,10 @@ export const metadata: Metadata = {
 const websiteJsonLd = {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  name: "PromptVault",
+  name: "AIPromptNest",
   url: siteUrl,
   description:
-    "The world's leading marketplace for high-quality AI image prompts.",
+    "A free AI image prompt library featuring Gemini AI prompts for cinematic, anime, fantasy, realistic, photography, and creative image generation.",
   potentialAction: {
     "@type": "SearchAction",
     target: {
@@ -105,6 +132,15 @@ const websiteJsonLd = {
     "query-input": "required name=search_term_string",
   },
 };
+
+const organizationJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "AIPromptNest",
+  url: siteUrl,
+  logo: `${siteUrl}/logo.png`,
+};
+
 
 import { ThemeProvider } from "@/components/ThemeProvider";
 
@@ -119,6 +155,12 @@ export default function RootLayout({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(organizationJsonLd),
+          }}
         />
       </head>
       <body className={`${outfit.variable} font-sans antialiased`}>
