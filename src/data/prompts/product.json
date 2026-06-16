@@ -838,5 +838,26 @@
     "models": [
       "Gemini AI"
     ]
+  },
+  {
+    "id": "cm7xxbv2cg3",
+    "title": "Eternal Bloom — The Marble Transformation Atelier",
+    "slug": "eternal-bloom-the-marble-transformation-atelier-cnh91",
+    "category": "Product",
+    "fullPrompt": "Cinematic fine-art sculpture atelier, warm golden sunlight through tall window with volumetric god rays and floating dust. Center: unfinished marble sculpture emerging from rough black stone, inspired by the uploaded woman—soft symmetrical face, flowing swept-back hair, elegant floral embroidered sari, holding carved flowers. Left: wooden easel with framed color portrait of the same woman in a peach-pink sari among blooming flowers. Right: only sculptor’s hands visible carving with hammer and chisel. Classical busts blurred in background, stone fragments and tools on workbench. Ultra-realistic marble textures, dramatic rim light, soft shadows, shallow depth of field, museum-quality, transformation from photo to stone, cinematic masterpiece, 8k.",
+    "image": "https://res.cloudinary.com/dfbacu2lw/image/upload/v1781512697/prompts/bjzqobpvlgowe77vpq6q.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-06-15T08:38:16.308Z",
+    "updatedAt": "2026-06-15T08:38:16.308Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
   }
 ]

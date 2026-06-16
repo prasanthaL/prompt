@@ -670,5 +670,68 @@
     "isTrending": true,
     "isLatest": true,
     "isFeatured": true
+  },
+  {
+    "id": "cmm3ziy0jx0",
+    "title": "Omnitrix Ascension — Master of Ten Transformations",
+    "slug": "omnitrix-ascension-master-of-ten-transformations-00f1m",
+    "category": "Fantasy",
+    "fullPrompt": "An Ultra-realstic of young indiam man is depicted in the foreground, he is shown with his arm raised, activating the Omnitrix, which is emitting green energy bolts, messy voluminous spiky brown hair gently blowing the wind. He is wearing a school-style uniform consisting of a white short-sleeved shirt, a dark necktie, and a beige V-neck sweater vest.\n​Emblem: On his sweater vest, there is a shield-shaped crest featuring a stylized green and red design..\n​Alien Transformations: The image includes several of the original alien forms Ben can transform into, including:\n​Four Arms: The large, red, four-armed figure at the top left.\n​Heatblast: The fiery, orange-and-yellow figure at the top right.\n​XLR8: The blue-and-black creature sprinting on the middle right.\n​Diamondhead: The crystalline figure on the middle left.\n​Stinkfly: The winged, insectoid alien hovering in the center.\n​Grey Matter: The small, grey, intelligent alien near the center.\n​Wildmutt: The orange, beast-like creature on the left.\n​Ripjaws: The aquatic, shark-like creature on the right.\n​Cannonbolt: The round, armored alien on the bottom right.\n​Upgrade: The thin, green, technological alien on the middle right.\n​The overall composition uses a bright green background with dynamic energy lines radiating from the Omnitrix, emphasizing the theme of transformation and power.--ar 9:16",
+    "image": "https://res.cloudinary.com/dfbacu2lw/image/upload/v1781510854/prompts/lyfqd8yj74zllyz1yzam.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-06-15T08:07:33.749Z",
+    "updatedAt": "2026-06-15T08:07:33.749Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmh4id5j87p",
+    "title": "THE RDB — Cosmic Ascension",
+    "slug": "the-rdb-cosmic-ascension-gktoi",
+    "category": "Fantasy",
+    "fullPrompt": "Ultra-realistic 22K UHD cinematic fantasy artwork of a 25-year-old stylish man floating in the sky like a mystical sorcerer hero, inspired by cosmic dimension aesthetics. Use my uploaded photo for 100% exact face match, hairstyle, beard, skin tone, and body structure — no changes at all. Signature text: “THE RDB”. Pose: I am levitating high in the air with both hands open, powerful magical aura around me, calm fearless expression, looking toward the glowing cosmic horizon.",
+    "image": "https://res.cloudinary.com/dfbacu2lw/image/upload/v1781511541/prompts/bfy6kzglprekb5yfy5on.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-06-15T08:19:01.474Z",
+    "updatedAt": "2026-06-15T08:19:01.474Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmyct7dmxvn",
+    "title": "Clash of Legends — Esports Royal Ascension (Archer Queen Edition)",
+    "slug": "clash-of-legends-esports-royal-ascension-archer-queen-edition-zb9lx",
+    "category": "Fantasy",
+    "fullPrompt": "Use my uploaded face photo exactly without changing my facial structure, beard, hairstyle, skin tone, or expression. Keep my real identity fully preserved and realistic. Use my uploaded Clash of Clans profile screenshot as the exact background game UI, keeping my real player stats, trophies, league badges, clan info, troop icons, and profile details clearly visible like a real in-game screen.\n\nCreate a hyper-realistic cinematic gaming poster in Facebook/Instagram post size ratio (4:5 vertical, 1080x1350). I am sitting confidently on dark urban stairs at night in front of the giant glowing Clash of Clans profile screen. My pose should be relaxed and powerful, one arm resting on my knee, looking at the camera like a professional esports gamer.\n\nI am wearing a premium black-and-gold Clash of Clans esports jersey, black joggers, and white sneakers. Add realistic cinematic lighting, neon blue and purple glow, holographic gaming atmosphere, dramatic shadows, depth of field, realistic skin texture, ultra-detailed environment, and professional photography quality.\n\nBehind me stands the Clash of Clans Anime Archer Queen in a beautiful semi-realistic anime style. She is hugging me softly from behind with both hands resting on my shoulders. She has glowing purple eyes, long flowing purple hair, elegant fantasy armor, a golden crown, and a calm protective expression. Add emotional chemistry and fantasy romance vibes while keeping it classy and cinematic.\n\nEnvironment should include futuristic neon city lights, graffiti-style Clash of Clans symbols on the stairs, clan war logos, sparks, glowing particles, bokeh lights, and epic esports poster aesthetics. Make it look like an official Clash of Clans promotional artwork mixed with realistic photography. Ultra HD 4K quality, highly detailed, cinematic composition, realistic proportions, professional social media poster design.",
+    "image": "https://res.cloudinary.com/dfbacu2lw/image/upload/v1781512600/prompts/nezulirdrfxkrn8jztzc.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-06-15T08:36:39.559Z",
+    "updatedAt": "2026-06-15T08:36:39.559Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
   }
 ]

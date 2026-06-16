@@ -166,5 +166,26 @@
     "models": [
       "Gemini AI"
     ]
+  },
+  {
+    "id": "cmtoberv12c",
+    "title": "Golden Hour Riverside Multi-Exposure Fashion Portrait",
+    "slug": "golden-hour-riverside-multiexposure-fashion-portrait-jo8kj",
+    "category": "Women",
+    "fullPrompt": "Ultra-realistic cinematic portrait of a stylish young woman featured in a dramatic multi-exposure composite scene beside a calm riverside during golden hour sunset. The composition includes three full-body versions of the  woman — one standing confidently, one sitting gracefully near the riverbank, and one walking naturally along the shoreline.Above them appears a massive semi-transparent close-up portrait of the same woman blended into the sky, creating a dreamy cinematic double-exposure effect. The woman wears a fitted black t-shirt, black high-waisted pants, and clean white sneakers. Stylish black sunglasses enhance the modern fashion look. Her long dark brown hair is styled in a voluminous messy bun with soft face-framing strands gently moving in the breeze.Makeup features winged eyeliner, ultra-defined arched eyebrows, long thick eyelashes, soft peach-glow skin, subtle contouring, and natural rosy nude lipstick. Elegant minimal jewelry including a delicate chain necklace and small earrings. The riverside reflects the warm golden sunlight, creating shimmering highlights across the water. The sky is filled with beautiful orange, pink, and golden sunset tones with soft clouds. Birds fly gracefully in the background, adding motion and atmosphere.Cinematic depth of field, ultra-detailed skin texture, realistic lighting, HDR photography, professional color grading, magazine-quality fashion portrait, highly detailed clothing folds, realistic reflections, masterpiece composition, 8K ultra-realistic photography, dramatic storytelling, dreamy golden-hour ambiance, sharp focus, natural shadows, breathtaking visual impact. ",
+    "image": "https://res.cloudinary.com/dfbacu2lw/image/upload/v1781585132/prompts/nhth5oxwuaov0zkmfqjo.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-06-16T04:45:33.282Z",
+    "updatedAt": "2026-06-16T04:45:33.282Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
   }
 ]
