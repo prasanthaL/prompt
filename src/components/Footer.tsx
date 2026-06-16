@@ -107,9 +107,11 @@ const SECTIONS = [
   {
     title: "Company",
     links: [
-      { name: "About Us", href: "/blog/the-role-of-ai-art-in-modern-game-development" },
-      { name: "Submit Prompt", href: "/premium" },
-      { name: "Sitemap.xml", href: "/sitemap.xml" },
+      { name: "About Us", href: "/about" },
+      { name: "Contact Us", href: "/contact" },
+      { name: "FAQ", href: "/faq" },
+      { name: "Privacy Policy", href: "/privacy-policy" },
+      { name: "Terms of Service", href: "/terms-of-service" },
     ]
   }
 ];
