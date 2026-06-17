@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect, useRef, useCallback, useTransition } from "react";
+import React, { useState, useEffect, useRef, useCallback } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
@@ -22,18 +22,9 @@ import {
   RefreshCw,
   CheckCircle2,
   TrendingUp,
-  Clapperboard,
-  Camera,
-  Moon,
-  Leaf,
-  Zap,
-  Cpu,
-  Droplet,
-  Sparkles,
-  User,
-  Box,
-  Disc,
-  LayoutGrid,
+  Clapperboard, Zap,
+  Cpu, Sparkles,
+  User, LayoutGrid,
   Palette,
   Home as HomeIcon,
   ShoppingBag,
@@ -43,12 +34,11 @@ import {
   Trees,
   Dog,
   Car,
-  PaintBucket,
+  PaintBucket
 } from "lucide-react";
-import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
 import Pagination from "@/components/Pagination";
-import { Prompt, Blog } from "@/lib/json-db";
+import { Blog } from "@/lib/json-db";
 import categoriesDataJson from "@/data/categories.json";
 
 /* ──────────────────────────────────────────────

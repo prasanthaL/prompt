@@ -4,11 +4,9 @@ import { unstable_cache } from "next/cache";
 
 const DATA_DIR = path.join(process.cwd(), "src/data/prompts");
 const BLOGS_FILE = path.join(process.cwd(), "src/data/blogs.json");
-// Simplified: If the KV credentials exist, use them!
-const SHOULD_USE_KV = !!process.env.KV_REST_API_URL;
 
-// Ensure the data directory exists (only locally)
-if (!SHOULD_USE_KV && !fs.existsSync(DATA_DIR)) {
+// Ensure the data directory exists
+if (!fs.existsSync(DATA_DIR)) {
   fs.mkdirSync(DATA_DIR, { recursive: true });
 }
 
@@ -73,27 +71,6 @@ const getLocalPrompts = (): Prompt[] => {
 };
 
 export const getAllPrompts = async (): Promise<Prompt[]> => {
-  if (SHOULD_USE_KV) {
-    try {
-      const { kv } = await import("@vercel/kv");
-      let all = await kv.get<Prompt[]>("all_prompts");
-      
-      // Auto-seed KV from local JSON files if KV is empty
-      if (!all || (Array.isArray(all) && all.length === 0)) {
-        const localData = getLocalPrompts();
-        if (localData.length > 0) {
-          await kv.set("all_prompts", localData);
-          all = localData;
-        }
-      }
-      
-      return (all || []).sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime());
-    } catch (err) {
-      console.error("KV Error, falling back to local files:", err);
-      return getLocalPrompts().sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime());
-    }
-  }
-
   return getLocalPrompts().sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime());
 };
 
@@ -106,7 +83,7 @@ const _getPromptsByCategory = async (category: string): Promise<Prompt[]> => {
 /**
  * Returns all prompts for a given category.
  * Results are cached per-category for 60 seconds to avoid repeated
- * filesystem/KV reads on every request.
+ * filesystem reads on every request.
  */
 export const getPromptsByCategory = (category: string): Promise<Prompt[]> =>
   unstable_cache(
@@ -124,23 +101,6 @@ export const getPromptById = async (id: string): Promise<Prompt | null> => {
 };
 
 export const savePrompt = async (prompt: Prompt) => {
-  if (!SHOULD_USE_KV && (process.env.VERCEL === "1" || process.env.NODE_ENV === "production")) {
-    throw new Error("Vercel KV is not connected. In production, you must connect a KV database via the Vercel Storage tab because the filesystem is read-only.");
-  }
-
-  if (SHOULD_USE_KV) {
-    const { kv } = await import("@vercel/kv");
-    const all = await getAllPrompts();
-    const index = all.findIndex(p => p.id === prompt.id);
-    if (index !== -1) {
-      all[index] = prompt;
-    } else {
-      all.push(prompt);
-    }
-    await kv.set("all_prompts", all);
-    return;
-  }
-
   // Local Saving
   const category = prompt.category.toLowerCase().replace(/\s+/g, '-');
   const filename = `${category}.json`;
@@ -167,14 +127,6 @@ export const savePrompt = async (prompt: Prompt) => {
 };
 
 export const deletePrompt = async (id: string) => {
-  if (SHOULD_USE_KV) {
-    const { kv } = await import("@vercel/kv");
-    const all = await getAllPrompts();
-    const filtered = all.filter(p => p.id !== id);
-    await kv.set("all_prompts", filtered);
-    return;
-  }
-
   // Local Deletion
   const files = fs.readdirSync(DATA_DIR);
   files.forEach(file => {
@@ -252,27 +204,6 @@ const getLocalBlogs = (): Blog[] => {
 };
 
 export const getAllBlogs = async (): Promise<Blog[]> => {
-  if (SHOULD_USE_KV) {
-    try {
-      const { kv } = await import("@vercel/kv");
-      let all = await kv.get<Blog[]>("all_blogs");
-      
-      // Auto-seed KV from local JSON file if KV is empty
-      if (!all || (Array.isArray(all) && all.length === 0)) {
-        const localData = getLocalBlogs();
-        if (localData.length > 0) {
-          await kv.set("all_blogs", localData);
-          all = localData;
-        }
-      }
-      
-      return all || [];
-    } catch (err) {
-      console.error("KV Error for blogs, falling back to local files:", err);
-      return getLocalBlogs();
-    }
-  }
-
   return getLocalBlogs();
 };
 
@@ -287,16 +218,6 @@ export const getBlogBySlug = async (slug: string): Promise<Blog | null> => {
 };
 
 export const saveBlogs = async (blogs: Blog[]) => {
-  if (!SHOULD_USE_KV && (process.env.VERCEL === "1" || process.env.NODE_ENV === "production")) {
-    throw new Error("Vercel KV is not connected. In production, you must connect a KV database via the Vercel Storage tab because the filesystem is read-only.");
-  }
-
-  if (SHOULD_USE_KV) {
-    const { kv } = await import("@vercel/kv");
-    await kv.set("all_blogs", blogs);
-    return;
-  }
-
   // Local Saving
   fs.writeFileSync(BLOGS_FILE, JSON.stringify(blogs, null, 2));
 };

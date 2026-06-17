@@ -1,4 +1,3 @@
-import React from "react";
 import { getActiveBlogs } from "@/lib/json-db";
 import HomeClient from "./HomeClient";
 
