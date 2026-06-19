@@ -3,6 +3,7 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-muted-foreground: var(--muted-foreground);
   --color-primary: #8b5cf6;
   --color-primary-hover: #7c3aed;
   --color-secondary: #1e1e1e;
@@ -23,18 +24,21 @@
   --background: #050505;
   --foreground: #ffffff;
   --border: rgba(255, 255, 255, 0.1);
+  --muted-foreground: rgba(255, 255, 255, 0.5);
 }
 
 [data-theme='light'], .light {
   --background: #ffffff;
   --foreground: #050505;
   --border: rgba(0, 0, 0, 0.1);
+  --muted-foreground: rgba(0, 0, 0, 0.5);
 }
 
 [data-theme='dark'], .dark {
   --background: #050505;
   --foreground: #ffffff;
   --border: rgba(255, 255, 255, 0.1);
+  --muted-foreground: rgba(255, 255, 255, 0.5);
 }
 
 body {

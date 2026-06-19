@@ -25,6 +25,7 @@ import {
   Heart,
   HelpCircle,
   ChevronDown,
+  RefreshCw,
 } from "lucide-react";
 import Link from "next/link";
 import { getAllPrompts } from "@/lib/json-db";
@@ -215,22 +216,12 @@ export default async function CategoriesPage() {
       "position": index + 1,
       "name": cat.name,
       "description": cat.description,
-      "url": `https://www.promptvault.ai${cat.id === "all" ? "/browse" : `/categories/${cat.id.toLowerCase()}`}`,
+      "url": `https://www.aipromptnest.com${cat.id === "all" ? "/browse" : `/categories/${cat.id.toLowerCase()}`}`,
     })),
   };
 
   const totalPromptsCount = allPrompts.length;
   const activeCategoriesCount = categoriesData.length;
-
-  let totalViews = 0;
-  let totalLikes = 0;
-  for (const p of allPrompts) {
-    totalViews += Number(p.views ?? 0);
-    totalLikes += Number(p.likes ?? 0);
-  }
-
-  const displayViews = totalViews > 0 ? `${(totalViews / 1000).toFixed(0)}K+` : "120K+";
-  const displayLikes = totalLikes > 0 ? `${(totalLikes / 1000).toFixed(0)}K+` : "45K+";
 
   const statsConfig = [
     {
@@ -248,24 +239,24 @@ export default async function CategoriesPage() {
       color: "text-pink-400 bg-pink-500/10 border-pink-500/20",
     },
     {
-      label: "Community Views",
-      value: displayViews,
-      description: "Prompt views globally",
-      icon: TrendingUp,
+      label: "Daily Updates",
+      value: "Daily",
+      description: "Fresh prompts added",
+      icon: RefreshCw,
       color: "text-cyan-400 bg-cyan-500/10 border-cyan-500/20",
     },
     {
-      label: "Saved Favorites",
-      value: displayLikes,
-      description: "User-saved prompts",
-      icon: Heart,
+      label: "Free Access",
+      value: "100% Free",
+      description: "Free to copy & use",
+      icon: Sparkles,
       color: "text-amber-400 bg-amber-500/10 border-amber-500/20",
     },
   ];
 
   const faqItems = [
     {
-      question: "How are the categories structured on PromptVault?",
+      question: "How are the categories structured on AIPromptNest?",
       answer: "Our library is organized by creative style and subject matter—including Cinematic, Anime, Portrait, Fantasy, Sci-Fi, Architecture, Product Photography, and more. This makes it easy to find prompts tailored to your specific creative needs.",
     },
     {
@@ -278,7 +269,7 @@ export default async function CategoriesPage() {
     },
     {
       question: "Are the prompts free to copy and use?",
-      answer: "Absolutely. PromptVault is a free, community-first resource. You can copy any prompt in our library with a single click and use it for personal or commercial projects without any attribution required.",
+      answer: "Absolutely. AIPromptNest is a free, community-first resource. You can copy any prompt in our library with a single click and use it for personal or commercial projects without any attribution required.",
     },
     {
       question: "How can I filter prompts within a specific category?",
@@ -316,26 +307,21 @@ export default async function CategoriesPage() {
       <Navbar />
 
       <div className="pt-32 px-4 md:px-8 max-w-7xl mx-auto">
-        <div className="text-center space-y-4 mb-20">
+        <section className="text-center space-y-4 mb-20">
           <div className="inline-flex items-center gap-2 bg-primary/20 border border-primary/30 px-4 py-1 rounded-full text-sm font-bold text-primary">
             <Sparkles className="w-4 h-4" />
             Browse by Style
           </div>
-          <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-foreground">Explore Categories</h1>
+          <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-foreground">Gemini AI Prompt Categories</h1>
           <p className="text-foreground/40 max-w-xl mx-auto">
-            Discover AI prompts organized by style and creative category.
-            Browse cinematic, anime, fantasy, sci-fi, portrait,
-            architecture, product photography, digital art,
-            nature photography and more.
-
-            Whether you're using Gemini, ChatGPT, Midjourney,
-            Flux, Imagen or other AI tools, our categorized prompt
-            library helps you find high-quality prompts faster.
+            Browse thousands of free Gemini AI image prompts organized by category,
+            including Anime, Cinematic, Fantasy, Portrait, Architecture,
+            Product Photography, Nature, Vehicles, and Digital Art.
           </p>
-        </div>
+        </section>
 
         {/* Category Statistics Section */}
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 mb-20">
+        <section className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 mb-20">
           {statsConfig.map((stat, i) => {
             const StatIcon = stat.icon;
             return (
@@ -356,9 +342,9 @@ export default async function CategoriesPage() {
               </div>
             );
           })}
-        </div>
+        </section>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {categories.map((cat) => (
             <Link
               key={cat.id}
@@ -439,10 +425,158 @@ export default async function CategoriesPage() {
               </div>
             </Link>
           ))}
-        </div>
+        </section>
+
+        <section className="mt-24 max-w-5xl mx-auto relative group">
+          {/* Subtle outer glow on hover */}
+          <div className="absolute -inset-px bg-gradient-to-r from-primary/10 via-purple-500/10 to-violet-500/10 rounded-3xl blur-xl opacity-50 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none" />
+          
+          <div className="relative glass-dark border border-white/[0.05] rounded-3xl p-8 md:p-12 shadow-2xl overflow-hidden backdrop-blur-md">
+            {/* Inner background decorative glow */}
+            <div className="absolute top-0 right-0 w-[300px] h-[300px] bg-primary/5 rounded-full blur-[100px] pointer-events-none" />
+            <div className="absolute bottom-0 left-0 w-[200px] h-[200px] bg-violet-600/5 rounded-full blur-[80px] pointer-events-none" />
+
+            <div className="relative z-10 space-y-8">
+              <div className="space-y-3">
+                <div className="inline-flex items-center gap-2 bg-primary/10 border border-primary/20 px-3.5 py-1.5 rounded-full text-xs font-bold text-violet-300">
+                  <Sparkles className="w-3.5 h-3.5 text-primary" />
+                  Category Insights
+                </div>
+                <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-violet-300">
+                  Browse Free Gemini AI Prompt Categories
+                </h2>
+                <div className="h-1 w-20 bg-gradient-to-r from-primary to-transparent rounded-full mt-2" />
+              </div>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-sm md:text-base leading-relaxed text-foreground/70 font-normal">
+                <div className="space-y-6">
+                  <p>
+                    Discover thousands of free Gemini AI prompts organized into specialized
+                    categories to help you create stunning AI-generated images faster. Whether
+                    you're designing cinematic scenes, anime artwork, fantasy worlds,
+                    realistic portraits, product photography, architecture concepts, vehicles,
+                    nature landscapes, or digital illustrations, our curated prompt library
+                    makes it easy to find inspiration for every creative project.
+                  </p>
+
+                  <p>
+                    AIPromptNest provides carefully organized AI image prompts designed for
+                    Gemini, Google AI Studio, Imagen, ChatGPT Image Generation, Midjourney,
+                    Flux, Stable Diffusion, and other popular AI art tools. Each category
+                    contains high-quality prompts created to generate detailed, visually
+                    appealing, and professional results while reducing the time spent
+                    experimenting with prompt wording.
+                  </p>
+                </div>
+
+                <div className="space-y-6">
+                  <p>
+                    Explore popular categories such as Anime Prompts, Cinematic Photography
+                    Prompts, Fantasy Art Prompts, Character Design Prompts, Product
+                    Photography Prompts, Architecture Prompts, Fashion Prompts, Wildlife
+                    Prompts, Vehicle Prompts, and Concept Art Prompts. Every category is
+                    regularly updated with new prompt ideas to help artists, designers,
+                    marketers, content creators, and AI enthusiasts produce unique images for
+                    personal and commercial projects.
+                  </p>
+
+                  <p>
+                    Whether you're looking for realistic photography styles, futuristic sci-fi
+                    environments, magical fantasy landscapes, professional advertising
+                    visuals, or social media content ideas, our organized prompt categories
+                    help you quickly discover the perfect prompt for your next AI-generated
+                    image. Browse by category, find trending prompts, and unlock new creative
+                    possibilities with one of the largest collections of free Gemini AI image
+                    prompts available online.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="mt-12 max-w-5xl mx-auto relative group">
+          {/* Subtle outer glow on hover */}
+          <div className="absolute -inset-px bg-gradient-to-r from-primary/10 via-purple-500/10 to-violet-500/10 rounded-3xl blur-xl opacity-50 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none" />
+          
+          <div className="relative glass-dark border border-white/[0.05] rounded-3xl p-8 md:p-12 shadow-2xl overflow-hidden backdrop-blur-md">
+            {/* Inner background decorative glow */}
+            <div className="absolute top-0 right-0 w-[300px] h-[300px] bg-primary/5 rounded-full blur-[100px] pointer-events-none" />
+            <div className="absolute bottom-0 left-0 w-[200px] h-[200px] bg-violet-600/5 rounded-full blur-[80px] pointer-events-none" />
+
+            <div className="relative z-10 space-y-8">
+              <div className="space-y-3">
+                <div className="inline-flex items-center gap-2 bg-primary/10 border border-primary/20 px-3.5 py-1.5 rounded-full text-xs font-bold text-violet-300">
+                  <Flame className="w-3.5 h-3.5 text-primary" />
+                  Popular Styles
+                </div>
+                <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-violet-300">
+                  Popular AI Prompt Categories
+                </h2>
+                <div className="h-1 w-20 bg-gradient-to-r from-primary to-transparent rounded-full mt-2" />
+              </div>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-sm md:text-base leading-relaxed text-foreground/70 font-normal">
+                <p>
+                  Some of the most popular categories on AIPromptNest include Anime Prompts,
+                  Cinematic Photography Prompts, Fantasy Art Prompts, Character Design Prompts,
+                  Product Photography Prompts, Fashion Prompts, Architecture Prompts, and Nature
+                  Photography Prompts. These categories help creators quickly find prompts
+                  tailored to specific visual styles and creative goals.
+                </p>
+                <p>
+                  Whether you want to generate realistic portraits, cinematic movie scenes,
+                  fantasy landscapes, futuristic concepts, or professional product images,
+                  exploring category-specific prompts can help improve image quality and
+                  consistency while saving time during the creative process.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="mt-12 max-w-5xl mx-auto relative group">
+          {/* Subtle outer glow on hover */}
+          <div className="absolute -inset-px bg-gradient-to-r from-primary/10 via-purple-500/10 to-violet-500/10 rounded-3xl blur-xl opacity-50 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none" />
+          
+          <div className="relative glass-dark border border-white/[0.05] rounded-3xl p-8 md:p-12 shadow-2xl overflow-hidden backdrop-blur-md">
+            {/* Inner background decorative glow */}
+            <div className="absolute top-0 right-0 w-[300px] h-[300px] bg-primary/5 rounded-full blur-[100px] pointer-events-none" />
+            <div className="absolute bottom-0 left-0 w-[200px] h-[200px] bg-violet-600/5 rounded-full blur-[80px] pointer-events-none" />
+
+            <div className="relative z-10 space-y-8">
+              <div className="space-y-3">
+                <div className="inline-flex items-center gap-2 bg-primary/10 border border-primary/20 px-3.5 py-1.5 rounded-full text-xs font-bold text-violet-300">
+                  <Layers className="w-3.5 h-3.5 text-primary" />
+                  Workflow Efficiency
+                </div>
+                <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-violet-300">
+                  Why Use Organized Gemini AI Prompt Categories?
+                </h2>
+                <div className="h-1 w-20 bg-gradient-to-r from-primary to-transparent rounded-full mt-2" />
+              </div>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-sm md:text-base leading-relaxed text-foreground/70 font-normal">
+                <p>
+                  Organized prompt categories make it easier to discover relevant AI prompts
+                  without searching through thousands of unrelated ideas. By grouping prompts
+                  based on themes, styles, and use cases, creators can quickly find inspiration
+                  for personal projects, marketing campaigns, social media content, digital art,
+                  and commercial design work.
+                </p>
+                <p>
+                  Category-based browsing also helps users learn effective prompting techniques,
+                  understand different visual styles, and achieve better results with Gemini,
+                  Imagen, ChatGPT Image Generation, Midjourney, Flux, and other AI image
+                  generation platforms.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
 
         {/* FAQ Section */}
-        <div className="mt-32 max-w-4xl mx-auto space-y-8">
+        <section className="my-32 max-w-4xl mx-auto space-y-8">
           <div className="text-center space-y-3 mb-12">
             <div className="inline-flex items-center gap-2 bg-primary/20 border border-primary/30 px-4 py-1 rounded-full text-sm font-bold text-primary">
               <HelpCircle className="w-4 h-4" />
@@ -475,7 +609,7 @@ export default async function CategoriesPage() {
               </details>
             ))}
           </div>
-        </div>
+        </section>
       </div>
       <Footer />
     </main>

@@ -1,6 +1,4 @@
-"use client";
 
-import React from "react";
 import { ShieldCheck, Zap, RefreshCw, Users } from "lucide-react";
 
 const stats = [

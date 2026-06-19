@@ -189,7 +189,7 @@ export default function Footer() {
               </div>
               <button
                 type="submit"
-                className="absolute right-1.5 top-1/2 -translate-y-1/2 w-8 h-8 bg-blue-600 hover:bg-blue-500 rounded-full flex items-center justify-center text-white transition-all cursor-pointer shadow-md shadow-blue-600/10"
+                className="absolute right-1.5 top-1/2 -translate-y-1/2 w-8 h-8 bg-violet-600 hover:bg-violet-500 rounded-full flex items-center justify-center text-white transition-all cursor-pointer shadow-md shadow-violet-600/10"
               >
                 <ArrowRight className="w-3.5 h-3.5" />
               </button>

@@ -1,10 +1,22 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Sparkles, Grid, Rocket, Users, Download, Layers } from "lucide-react";
+import { Sparkles, Grid, Rocket, Layers, RefreshCw } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
-const Hero = () => {
+interface HeroProps {
+  promptsCount?: number;
+  categoriesCount?: number;
+}
+
+const Hero = ({ promptsCount = 509, categoriesCount = 16 }: HeroProps) => {
+  const formattedPrompts = promptsCount >= 1000
+    ? `${(promptsCount / 1000).toFixed(1)}K+`
+    : promptsCount >= 100
+    ? `${Math.floor(promptsCount / 100) * 100}+`
+    : `${promptsCount}+`;
+
   return (
     <section className="relative pt-32 pb-32 px-4 md:px-8 overflow-hidden bg-background">
       {/* Background Decorative Sparkles */}
@@ -26,11 +38,11 @@ const Hero = () => {
               className="text-5xl md:text-7xl font-bold leading-[1.1] tracking-tight text-foreground"
             >
               <span className="block">
-                Discover. Copy. Inspire.
+                Browse Free <span className="text-primary">Gemini AI</span> Image Prompts
               </span>
 
               <span className="block">
-                Free <span className="text-primary">Gemini AI</span> Image Prompts
+                for Stunning AI Art Creation
               </span>
             </motion.h1>
 
@@ -51,14 +63,20 @@ const Hero = () => {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="flex flex-wrap items-center gap-5"
             >
-              <button className="bg-primary hover:bg-primary-hover text-white px-8 py-4 rounded-2xl font-bold flex items-center gap-3 transition-all shadow-[0_10px_30px_rgba(139,92,246,0.3)] hover:scale-105 active:scale-95">
+              <Link
+                href="/browse"
+                className="bg-primary hover:bg-primary-hover text-white px-8 py-4 rounded-2xl font-bold flex items-center gap-3 transition-all shadow-[0_10px_30px_rgba(139,92,246,0.3)] hover:scale-105 active:scale-95"
+              >
                 <Rocket className="w-5 h-5" />
                 Explore Prompts
-              </button>
-              <button className="bg-foreground/5 border border-border hover:bg-foreground/10 text-foreground px-8 py-4 rounded-2xl font-bold flex items-center gap-3 transition-all hover:border-foreground/20">
+              </Link>
+              <Link
+                href="/categories"
+                className="bg-foreground/5 border border-border hover:bg-foreground/10 text-foreground px-8 py-4 rounded-2xl font-bold flex items-center gap-3 transition-all hover:border-foreground/20"
+              >
                 <Grid className="w-5 h-5" />
                 Browse Categories
-              </button>
+              </Link>
             </motion.div>
 
             <motion.p
@@ -83,7 +101,7 @@ const Hero = () => {
                 <Layers className="w-5 h-5 text-primary" />
               </div>
               <div className="flex flex-col">
-                <span className="text-xl font-bold text-foreground">50K+</span>
+                <span className="text-xl font-bold text-foreground">{formattedPrompts}</span>
                 <span className="text-[10px] uppercase tracking-widest text-foreground/40 font-bold">Prompts</span>
               </div>
             </div>
@@ -93,28 +111,28 @@ const Hero = () => {
                 <Grid className="w-5 h-5 text-primary" />
               </div>
               <div className="flex flex-col">
-                <span className="text-xl font-bold text-foreground">120+</span>
+                <span className="text-xl font-bold text-foreground">{categoriesCount}</span>
                 <span className="text-[10px] uppercase tracking-widest text-foreground/40 font-bold">Categories</span>
               </div>
             </div>
 
             <div className="flex items-center gap-4 group">
               <div className="w-12 h-12 rounded-xl bg-foreground/5 border border-border flex items-center justify-center group-hover:border-primary/50 transition-colors">
-                <Users className="w-5 h-5 text-primary" />
+                <Sparkles className="w-5 h-5 text-primary" />
               </div>
               <div className="flex flex-col">
-                <span className="text-xl font-bold text-foreground">10K+</span>
-                <span className="text-[10px] uppercase tracking-widest text-foreground/40 font-bold">Members</span>
+                <span className="text-xl font-bold text-foreground">100%</span>
+                <span className="text-[10px] uppercase tracking-widest text-foreground/40 font-bold">Free</span>
               </div>
             </div>
 
             <div className="flex items-center gap-4 group">
               <div className="w-12 h-12 rounded-xl bg-foreground/5 border border-border flex items-center justify-center group-hover:border-primary/50 transition-colors">
-                <Download className="w-5 h-5 text-primary" />
+                <RefreshCw className="w-5 h-5 text-primary animate-spin-slow" />
               </div>
               <div className="flex flex-col">
-                <span className="text-xl font-bold text-foreground">2M+</span>
-                <span className="text-[10px] uppercase tracking-widest text-foreground/40 font-bold">Copies</span>
+                <span className="text-xl font-bold text-foreground">Daily</span>
+                <span className="text-[10px] uppercase tracking-widest text-foreground/40 font-bold">Updates</span>
               </div>
             </div>
           </motion.div>
