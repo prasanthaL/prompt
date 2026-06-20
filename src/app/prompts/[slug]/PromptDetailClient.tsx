@@ -196,9 +196,9 @@ export default function PromptDetailClient({ prompt }: PromptDetailClientProps) 
   ];
 
   return (
-    <div className="prompt-detail-root space-y-0">
+    <article className="prompt-detail-root space-y-0">
       {/* ── HEADER BAND ─────────────────────────────────────────── */}
-      <div className="prompt-detail-header">
+      <section className="prompt-detail-header">
         <div className="prompt-detail-header-inner">
           {/* Category badge */}
           <span className="prompt-detail-category-badge">{prompt.category}</span>
@@ -295,7 +295,7 @@ export default function PromptDetailClient({ prompt }: PromptDetailClientProps) 
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
       {/* ── 3-COLUMN BODY ───────────────────────────────────────── */}
       <div className="prompt-detail-body">
@@ -321,7 +321,7 @@ export default function PromptDetailClient({ prompt }: PromptDetailClientProps) 
         </div>
 
         {/* MIDDLE — Prompt Content */}
-        <div className="prompt-detail-content-col">
+        <section className="prompt-detail-content-col">
           <div className="prompt-detail-card">
             <div className="prompt-detail-card-header">
               <div className="flex items-center gap-2">
@@ -348,12 +348,12 @@ export default function PromptDetailClient({ prompt }: PromptDetailClientProps) 
               {copied ? "Copied!" : "Copy"}
             </button>
           </div>
-        </div>
+        </section>
 
         {/* RIGHT — Details + Tags + Share */}
         <div className="prompt-detail-meta-col">
           {/* Prompt Details card */}
-          <div className="prompt-detail-card">
+          <section className="prompt-detail-card">
             <div className="prompt-detail-card-header">
               <div className="flex items-center gap-2">
                 <div className="prompt-detail-card-icon-wrap bg-violet-500/10">
@@ -381,10 +381,10 @@ export default function PromptDetailClient({ prompt }: PromptDetailClientProps) 
                 </li>
               ))}
             </ul>
-          </div>
+          </section>
 
           {/* Share this prompt card */}
-          <div className="prompt-detail-card">
+          <section className="prompt-detail-card">
             <div className="prompt-detail-card-header">
               <div className="flex items-center gap-2">
                 <div className="prompt-detail-card-icon-wrap bg-sky-500/10">
@@ -418,7 +418,7 @@ export default function PromptDetailClient({ prompt }: PromptDetailClientProps) 
                 )
               )}
             </div>
-          </div>
+          </section>
         </div>
       </div>
 
@@ -426,7 +426,7 @@ export default function PromptDetailClient({ prompt }: PromptDetailClientProps) 
       <div className="prompt-detail-bottom-grid">
 
         {/* About This Prompt */}
-        <div className="prompt-detail-card">
+        <section className="prompt-detail-card">
           <div className="prompt-detail-card-header">
             <div className="flex items-center gap-3">
               <div className="prompt-detail-card-icon-wrap bg-primary/10">
@@ -470,10 +470,10 @@ export default function PromptDetailClient({ prompt }: PromptDetailClientProps) 
               </span>
             ))}
           </div>
-        </div>
+        </section>
 
         {/* How To Use */}
-        <div className="prompt-detail-card">
+        <section className="prompt-detail-card">
           <div className="prompt-detail-card-header">
             <div className="flex items-center gap-3">
               <div className="prompt-detail-card-icon-wrap bg-emerald-500/10">
@@ -512,9 +512,9 @@ export default function PromptDetailClient({ prompt }: PromptDetailClientProps) 
               For best results, use this prompt as-is before making edits — the defaults are already optimised.
             </p>
           </div>
-        </div>
+        </section>
 
       </div>
-    </div>
+    </article >
   );
 }
