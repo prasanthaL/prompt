@@ -1,6 +1,6 @@
 import fs from "fs";
 import path from "path";
-import { unstable_cache } from "next/cache";
+import { unstable_cache, revalidateTag } from "next/cache";
 
 const DATA_DIR = path.join(process.cwd(), "src/data/prompts");
 const BLOGS_FILE = path.join(process.cwd(), "src/data/blogs.json");
@@ -70,9 +70,19 @@ const getLocalPrompts = (): Prompt[] => {
   }
 };
 
-export const getAllPrompts = async (): Promise<Prompt[]> => {
+const _getAllPrompts = async (): Promise<Prompt[]> => {
   return getLocalPrompts().sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime());
 };
+
+export const getAllPrompts = (): Promise<Prompt[]> =>
+  unstable_cache(
+    () => _getAllPrompts(),
+    ["all-prompts"],
+    {
+      tags: ["prompts"],
+      revalidate: 60,
+    }
+  )();
 
 // Internal implementation (not cached)
 const _getPromptsByCategory = async (category: string): Promise<Prompt[]> => {
@@ -124,6 +134,7 @@ export const savePrompt = async (prompt: Prompt) => {
   }
   
   fs.writeFileSync(filePath, JSON.stringify(prompts, null, 2));
+  revalidateTag("prompts", "max");
 };
 
 export const deletePrompt = async (id: string) => {
@@ -144,6 +155,7 @@ export const deletePrompt = async (id: string) => {
       }
     }
   });
+  revalidateTag("prompts", "max");
 };
 
 export const updatePrompt = async (id: string, data: Partial<Prompt>) => {
@@ -160,6 +172,7 @@ export const updatePrompt = async (id: string, data: Partial<Prompt>) => {
   };
 
   await savePrompt(updatedPrompt);
+  revalidateTag("prompts", "max");
   return updatedPrompt;
 };
 

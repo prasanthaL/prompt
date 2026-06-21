@@ -300,7 +300,7 @@ export default function PromptDetailClient({ prompt }: PromptDetailClientProps) 
       {/* ── 3-COLUMN BODY ───────────────────────────────────────── */}
       <div className="prompt-detail-body">
         {/* LEFT — Image */}
-        <div className="prompt-detail-image-col">
+        <section className="prompt-detail-image-col">
           <div className="prompt-detail-image-wrap">
             <Image
               src={prompt.image}
@@ -318,7 +318,7 @@ export default function PromptDetailClient({ prompt }: PromptDetailClientProps) 
               View Full Size
             </button>
           </div>
-        </div>
+        </section>
 
         {/* MIDDLE — Prompt Content */}
         <section className="prompt-detail-content-col">
@@ -351,9 +351,9 @@ export default function PromptDetailClient({ prompt }: PromptDetailClientProps) 
         </section>
 
         {/* RIGHT — Details + Tags + Share */}
-        <div className="prompt-detail-meta-col">
+        <section className="prompt-detail-meta-col">
           {/* Prompt Details card */}
-          <section className="prompt-detail-card">
+          <div className="prompt-detail-card">
             <div className="prompt-detail-card-header">
               <div className="flex items-center gap-2">
                 <div className="prompt-detail-card-icon-wrap bg-violet-500/10">
@@ -381,10 +381,10 @@ export default function PromptDetailClient({ prompt }: PromptDetailClientProps) 
                 </li>
               ))}
             </ul>
-          </section>
+          </div>
 
           {/* Share this prompt card */}
-          <section className="prompt-detail-card">
+          <div className="prompt-detail-card">
             <div className="prompt-detail-card-header">
               <div className="flex items-center gap-2">
                 <div className="prompt-detail-card-icon-wrap bg-sky-500/10">
@@ -418,8 +418,8 @@ export default function PromptDetailClient({ prompt }: PromptDetailClientProps) 
                 )
               )}
             </div>
-          </section>
-        </div>
+          </div>
+        </section>
       </div>
 
       {/* ── About This Prompt + How To Use ──────────────────────────── */}

@@ -1,4 +1,3 @@
-import React from "react";
 import Navbar from "@/components/Navbar";
 import { getActiveBlogs, getBlogBySlug } from "@/lib/json-db";
 import {
@@ -16,6 +15,13 @@ import { Metadata } from "next";
 import Footer from "@/components/Footer";
 
 export const revalidate = 60; // Revalidate every minute
+
+export async function generateStaticParams() {
+  const blogs = await getActiveBlogs();
+  return blogs.map((blog) => ({
+    slug: blog.slug,
+  }));
+}
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -36,10 +42,23 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   return {
     title: blog.title,
     description: blog.excerpt,
+    keywords: [
+      blog.category,
+      "AI Prompts",
+      "Prompt Engineering",
+      "AiPromptNest",
+      "AI Art",
+      "Generative AI",
+      blog.author
+    ],
+    alternates: {
+      canonical: `https://www.promptvault.ai/blog/${blog.slug}`,
+    },
     openGraph: {
       title: blog.title,
       description: blog.excerpt,
       type: "article",
+      url: `https://www.promptvault.ai/blog/${blog.slug}`,
       publishedTime: blog.date,
       authors: [blog.author],
       images: [
@@ -85,8 +104,40 @@ export default async function BlogDetail({ params }: PageProps) {
     .filter((b) => b.slug !== slug)
     .slice(0, 3);
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    headline: blog.title,
+    description: blog.excerpt,
+    image: blog.image.startsWith("http") ? blog.image : `https://www.promptvault.ai${blog.image}`,
+    datePublished: blog.date,
+    author: {
+      "@type": "Person",
+      name: blog.author,
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "AiPromptNest",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://www.promptvault.ai/logo.png",
+      },
+    },
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": `https://www.promptvault.ai/blog/${blog.slug}`,
+    },
+  };
+
   return (
     <main className="min-h-screen mesh-gradient text-foreground">
+      {/* Add JSON-LD to your page */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c"),
+        }}
+      />
       <Navbar />
 
       {/* Header / Breadcrumb */}
@@ -149,27 +200,6 @@ export default async function BlogDetail({ params }: PageProps) {
           <div className="prose prose-invert prose-lg max-w-none">
             <div className="text-foreground/80 leading-relaxed space-y-8 text-lg">
               <p>{blog.content}</p>
-
-              <h2 className="text-3xl font-bold text-foreground pt-8">Key Takeaways</h2>
-              <ul className="space-y-4 list-disc pl-6">
-                <li>Understanding the nuances of prompt structure is essential for professional results.</li>
-                <li>Technical parameters (lighting, focal length, styles) give you precise control.</li>
-                <li>Iterative refinement is the core of the creative process in generative AI.</li>
-              </ul>
-
-              <div className="bg-card/50 border border-border p-8 rounded-3xl space-y-4 my-12">
-                <h3 className="text-xl font-bold flex items-center gap-2">
-                  <Share2 className="w-5 h-5 text-primary" />
-                  Pro Tip from {blog.author.split(' ')[0]}
-                </h3>
-                <p className="text-foreground/60">
-                  Always start with a simple base prompt and layer details one at a time. This helps you understand exactly which keyword is influencing the final image the most.
-                </p>
-              </div>
-
-              <p>
-                As AI continues to evolve, the ability to translate creative vision into precise language becomes an invaluable skill. Whether you're a seasoned digital artist or just starting, mastering these prompt engineering techniques will set your work apart in the rapidly growing world of AI art.
-              </p>
             </div>
           </div>
 
@@ -203,25 +233,26 @@ export default async function BlogDetail({ params }: PageProps) {
             <h2 className="text-3xl font-bold">Related Articles</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {relatedPosts.map((post) => (
-                <Link
-                  key={post.id}
-                  href={`/blog/${post.slug}`}
-                  className="group block cursor-pointer space-y-4"
-                >
-                  <div className="aspect-video rounded-2xl overflow-hidden border border-border relative">
-                    <Image
-                      src={post.image}
-                      alt={post.title}
-                      fill
-                      quality={90}
-                      sizes="(max-width: 768px) 100vw, 33vw"
-                      className="object-cover group-hover:scale-105 transition-transform duration-500"
-                    />
-                  </div>
-                  <h3 className="text-lg font-bold leading-tight group-hover:text-primary transition-colors">
-                    {post.title}
-                  </h3>
-                </Link>
+                <article key={post.id}>
+                  <Link
+                    href={`/blog/${post.slug}`}
+                    className="group block cursor-pointer space-y-4"
+                  >
+                    <div className="aspect-video rounded-2xl overflow-hidden border border-border relative">
+                      <Image
+                        src={post.image}
+                        alt={post.title}
+                        fill
+                        quality={90}
+                        sizes="(max-width: 768px) 100vw, 33vw"
+                        className="object-cover group-hover:scale-105 transition-transform duration-500"
+                      />
+                    </div>
+                    <h3 className="text-lg font-bold leading-tight group-hover:text-primary transition-colors">
+                      {post.title}
+                    </h3>
+                  </Link>
+                </article>
               ))}
             </div>
           </div>
