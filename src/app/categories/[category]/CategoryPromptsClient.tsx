@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useRef, useTransition } from "react";
+import { useState, useRef, useTransition } from "react";
 import PromptCard from "@/components/PromptCard";
 import Link from "next/link";
 import { Sparkles, ChevronDown, Loader2 } from "lucide-react";
@@ -85,16 +85,17 @@ export default function CategoryPromptsClient({
   return (
     <div className="space-y-10">
       {/* Prompt grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 md:gap-8">
-        {prompts.map((p) => (
-          <PromptCard
-            key={p.id}
-            {...p}
-            views={p.views?.toString() || "0"}
-            likes={p.likes?.toString() || "0"}
-          />
+      <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 md:gap-8">
+        {prompts.map((prompt) => (
+          <li key={prompt.id}>
+            <PromptCard
+              {...prompt}
+              views={prompt.views?.toString() || "0"}
+              likes={prompt.likes?.toString() || "0"}
+            />
+          </li>
         ))}
-      </div>
+      </ul>
 
       {/* Progress indicator */}
       <div className="flex flex-col items-center gap-4">

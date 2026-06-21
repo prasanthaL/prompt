@@ -116,19 +116,23 @@ const SECTIONS = [
   }
 ];
 
-const POPULAR_SEARCHES = [
-  "Best Gemini Prompts",
-  "Gemini Image Prompts",
-  "Gemini Writing Prompts",
-  "Gemini Coding Prompts",
-  "Gemini Marketing Prompts",
-  "Gemini Business Prompts",
-  "Gemini Education Prompts",
-  "Gemini Cinematic Prompts",
-  "Gemini Anime Prompts",
-  "Gemini Portrait Prompts",
-  "Gemini Fantasy Prompts",
-  "Gemini Sci-Fi Prompts"
+const POPULAR_CATEGORIES = [
+  "Cinematic",
+  "Anime",
+  "Fantasy",
+  "Sci-Fi",
+  "Architecture",
+  "Portrait",
+  "Product",
+  "Men",
+  "Women",
+  "Family",
+  "Couple",
+  "Sport",
+  "Nature & Landscape",
+  "Animals & Wildlife",
+  "Vehicles",
+  "Digital Art"
 ];
 
 const SOCIAL_LINKS = [
@@ -142,7 +146,7 @@ const SOCIAL_LINKS = [
 
 export default function Footer() {
   const [searchQuery, setSearchQuery] = useState("");
-  const [isSearchesExpanded, setIsSearchesExpanded] = useState(false);
+  const [isCategoriesExpanded, setIsCategoriesExpanded] = useState(false);
   const router = useRouter();
 
   const handleSearchSubmit = (e: React.FormEvent) => {
@@ -189,7 +193,7 @@ export default function Footer() {
               </div>
               <button
                 type="submit"
-                className="absolute right-1.5 top-1/2 -translate-y-1/2 w-8 h-8 bg-blue-600 hover:bg-blue-500 rounded-full flex items-center justify-center text-white transition-all cursor-pointer shadow-md shadow-blue-600/10"
+                className="absolute right-1.5 top-1/2 -translate-y-1/2 w-8 h-8 bg-violet-600 hover:bg-violet-500 rounded-full flex items-center justify-center text-white transition-all cursor-pointer shadow-md shadow-violet-600/10"
               >
                 <ArrowRight className="w-3.5 h-3.5" />
               </button>
@@ -236,45 +240,35 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Middle Section: Popular Searches & Summary card */}
+        {/* Middle Section: Popular Categories & Summary card */}
         <div className="border border-white/[0.04] bg-white/[0.01] rounded-2xl p-6 md:p-8 mt-16 space-y-8 backdrop-blur-sm relative">
           <div className="space-y-4">
             <div className="flex items-center justify-between gap-4">
               <div className="flex items-center gap-2">
-                <Search className="w-4 h-4 text-violet-400" />
-                <h3 className="text-base font-bold text-white tracking-tight">Popular Searches</h3>
+                <LayoutGrid className="w-4 h-4 text-violet-400" />
+                <h3 className="text-base font-bold text-white tracking-tight">Popular Categories</h3>
               </div>
               <button 
-                onClick={() => setIsSearchesExpanded(!isSearchesExpanded)}
+                onClick={() => setIsCategoriesExpanded(!isCategoriesExpanded)}
                 className="flex items-center gap-1.5 text-xs font-bold text-white/50 hover:text-white px-3 py-1.5 rounded-lg border border-white/[0.06] bg-white/[0.02] hover:bg-white/[0.04] transition-colors cursor-pointer select-none"
               >
                 View All
-                <ChevronDown className={cn("w-3 h-3 transition-transform duration-200", isSearchesExpanded && "rotate-180")} />
+                <ChevronDown className={cn("w-3 h-3 transition-transform duration-200", isCategoriesExpanded && "rotate-180")} />
               </button>
             </div>
 
-            {/* Searches tag container */}
+            {/* Categories tag container */}
             <div className={cn(
               "flex flex-wrap gap-2 transition-all duration-300 ease-in-out overflow-hidden",
-              isSearchesExpanded ? "max-h-[500px] opacity-100" : "max-h-[82px] sm:max-h-[38px] opacity-90"
+              isCategoriesExpanded ? "max-h-[500px] opacity-100" : "max-h-[82px] sm:max-h-[38px] opacity-90"
             )}>
-              {POPULAR_SEARCHES.map((search) => (
+              {POPULAR_CATEGORIES.map((category) => (
                 <Link
-                  key={search}
-                  href={`/browse?q=${encodeURIComponent(
-                    search
-                      .replace("Best ", "")
-                      .replace(" AI Prompts", "")
-                      .replace(" Prompts", "")
-                      .replace(" Templates", "")
-                      .replace(" Ideas", "")
-                      .replace(" Library", "")
-                      .replace(" Examples", "")
-                      .trim()
-                  )}`}
+                  key={category}
+                  href={`/categories/${category.toLowerCase()}`}
                   className="px-3.5 py-1.5 border border-white/[0.04] hover:border-violet-500/20 bg-white/[0.01] hover:bg-violet-500/10 text-xs font-semibold text-white/50 hover:text-white rounded-lg transition-all"
                 >
-                  {search}
+                  {category} Prompts
                 </Link>
               ))}
             </div>
@@ -302,10 +296,10 @@ export default function Footer() {
             {/* Platform stats aligned horizontally */}
             <div className="flex flex-row items-center justify-between sm:justify-start lg:justify-end gap-6 sm:gap-10 border-t border-white/[0.04] lg:border-t-0 lg:border-l lg:border-white/[0.04] pt-6 lg:pt-0 lg:pl-10 shrink-0">
               {[
-                { icon: FileText, value: "10,000+", label: "Prompts" },
-                { icon: LayoutGrid, value: "50+", label: "Categories" },
-                { icon: Users, value: "500K+", label: "Users" },
-                { icon: Globe, value: "100+", label: "AI Tools" },
+                { icon: FileText, value: "500+", label: "Prompts" },
+                { icon: LayoutGrid, value: "16", label: "Categories" },
+                { icon: Zap, value: "Daily", label: "Updates" },
+                { icon: ShieldCheck, value: "100%", label: "Free" },
               ].map((stat, i) => (
                 <React.Fragment key={i}>
                   <div className="flex flex-col items-center sm:items-start lg:items-center text-center sm:text-left lg:text-center space-y-1.5">

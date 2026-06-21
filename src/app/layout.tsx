@@ -117,7 +117,7 @@ export const metadata: Metadata = {
 
 
 /* WebSite JSON-LD — enables Google Sitelinks Search Box */
-const websiteJsonLd = {
+const webSiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
   name: "AIPromptNest",
@@ -154,7 +154,7 @@ const webPageSchema = {
   },
 };
 
-const organizationJsonLd = {
+const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
   name: "AIPromptNest",
@@ -218,8 +218,8 @@ const faqSchema = {
 };
 
 const schemas = [
-  organizationJsonLd,
-  websiteJsonLd,
+  organizationSchema,
+  webSiteSchema,
   webPageSchema,
   faqSchema,
 ]

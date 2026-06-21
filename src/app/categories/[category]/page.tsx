@@ -1,4 +1,3 @@
-import React from "react";
 import { getPromptsByCategory, getAllPrompts } from "@/lib/json-db";
 import Navbar from "@/components/Navbar";
 import Link from "next/link";
@@ -77,6 +76,9 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       title: categoryMeta.title,
       description: categoryMeta.description,
       keywords: categoryMeta.keywords,
+      alternates: {
+        canonical: `https://www.aipromptnest.com/categories/${key}`,
+      },
       openGraph: {
         title: categoryMeta.title,
         description: categoryMeta.description,
@@ -109,6 +111,9 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   return {
     title: fallbackTitle,
     description: fallbackDescription,
+    alternates: {
+      canonical: `https://www.aipromptnest.com/categories/${key}`,
+    },
     openGraph: {
       title: fallbackTitle,
       description: fallbackDescription,
@@ -308,12 +313,41 @@ export default async function CategoryPage({ params }: PageProps) {
     })),
   };
 
+  const collectionPageSchema = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: `${displayName} Gemini AI Prompts`,
+    description: `Browse free ${displayName} Gemini AI prompts.`,
+    url: `${siteUrl}/categories/${key}`,
+    mainEntity: {
+      "@type": "ItemList",
+      name: `${displayName} AI Prompts`,
+    },
+  };
+
+  const webPageSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    name: `${displayName} Gemini AI Prompts`,
+    url: `${siteUrl}/categories/${key}`,
+  };
+
   return (
     <main className="min-h-screen mesh-gradient pb-20">
       {/* Structured Data – BreadcrumbList */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      {/* Structured Data – CollectionPage */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionPageSchema) }}
+      />
+      {/* Structured Data – WebPage */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }}
       />
       {/* Structured Data – FAQPage */}
       <script
@@ -484,7 +518,7 @@ export default async function CategoryPage({ params }: PageProps) {
             <div className="space-y-1">
               <h2 className="text-2xl md:text-3xl font-extrabold flex items-center gap-3 text-foreground">
                 <span className="w-1.5 h-8 bg-primary rounded-full"></span>
-                Trending {displayName} Prompts
+                Browse {displayName} AI Prompts
               </h2>
               <p className="text-foreground/40 text-xs md:text-sm">Explore our top performing, copy-and-paste ready prompts</p>
             </div>

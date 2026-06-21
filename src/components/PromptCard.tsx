@@ -20,6 +20,8 @@ interface PromptCardProps {
   priority?: boolean;
   tags?: string[];
   models?: string[];
+  description?: string;
+  fullPrompt?: string;
 }
 
 const PromptCard = ({
@@ -37,14 +39,14 @@ const PromptCard = ({
   priority,
   tags,
   models,
+  description,
+  fullPrompt,
 }: PromptCardProps) => {
   const cardHref = href || (slug ? `/prompts/${slug}` : `/prompts/${id}`);
+  const promptDescription = description || fullPrompt;
 
-  const CardContent = (
-    <div
-      onClick={!cardHref ? onClick : undefined}
-      className="group relative bg-foreground/5 border border-border rounded-[2rem] overflow-hidden hover:border-primary/50 transition-all duration-500 hover:shadow-2xl hover:shadow-primary/10 cursor-pointer h-full flex flex-col"
-    >
+  const CardInner = (
+    <>
       {/* Image Container */}
       <div className="aspect-[4/5] relative overflow-hidden shrink-0">
         <Image
@@ -70,14 +72,6 @@ const PromptCard = ({
             {category}
           </div>
         </div>
-
-        {/* Visual Button (Floating on Hover) */}
-        {/* <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 translate-y-4 group-hover:translate-y-0 z-10 pointer-events-none">
-          <div className="bg-primary text-white p-4 rounded-2xl shadow-xl shadow-primary/40 flex items-center gap-2 font-bold transform transition-transform group-hover:scale-105">
-            <Copy className="w-5 h-5" />
-            Copy Prompt
-          </div>
-        </div> */}
       </div>
 
       {/* Content */}
@@ -93,6 +87,12 @@ const PromptCard = ({
             <ArrowUpRight className="w-4 h-4" />
           </div>
         </div>
+
+        {promptDescription && (
+          <p className="text-xs text-foreground/50 line-clamp-2 mt-1">
+            {promptDescription}
+          </p>
+        )}
 
         {/* Models & Tags */}
         {((models && models.length > 0) || (tags && tags.length > 0)) && (
@@ -143,18 +143,26 @@ const PromptCard = ({
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
+
+  const containerClasses = "group relative bg-foreground/5 border border-border rounded-[2rem] overflow-hidden hover:border-primary/50 transition-all duration-500 hover:shadow-2xl hover:shadow-primary/10 cursor-pointer h-full flex flex-col";
 
   if (cardHref) {
     return (
-      <Link href={cardHref} className="block h-full">
-        {CardContent}
-      </Link>
+      <article className={containerClasses}>
+        <Link href={cardHref} className="block h-full">
+          {CardInner}
+        </Link>
+      </article>
     );
   }
 
-  return CardContent;
+  return (
+    <article className={containerClasses} onClick={onClick}>
+      {CardInner}
+    </article>
+  );
 };
 
 export default PromptCard;

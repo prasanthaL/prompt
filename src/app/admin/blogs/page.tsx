@@ -10,7 +10,7 @@ export default async function ManageBlogsPage() {
   return (
     <main className="min-h-screen mesh-gradient pb-32 text-white">
       {/* Navigation */}
-      <nav className="fixed top-0 left-0 right-0 z-50 glass-dark border-b border-white/5 py-4 px-8">
+      <nav className="fixed top-0 left-0 right-0 z-50 glass-dark border-t-0 border-x-0 border-b border-white/5 py-4 px-8">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <div className="flex items-center gap-6">
             <Link
