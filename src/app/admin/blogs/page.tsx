@@ -20,7 +20,7 @@ export default async function ManageBlogsPage() {
               <div className="w-10 h-10 bg-primary rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform">
                 <Sparkles className="text-white w-6 h-6" />
               </div>
-              <span className="text-xl font-bold tracking-tight text-white">PromptVault Admin</span>
+              <span className="text-xl font-bold tracking-tight text-white">PromptNest Admin</span>
             </Link>
 
             <div className="h-6 w-px bg-white/10 hidden md:block" />
