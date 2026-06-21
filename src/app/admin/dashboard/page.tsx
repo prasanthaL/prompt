@@ -517,7 +517,7 @@ function DashboardContent() {
                       }
                     }
                   }}
-                  placeholder="Add custom model (e.g. Midjourney) and press Enter"
+                  placeholder="Add custom model (e.g. Gemini) and press Enter"
                   className="flex-grow bg-white/5 border border-white/10 rounded-2xl py-3.5 px-6 text-sm focus:outline-none focus:ring-2 focus:ring-primary/50 transition-all text-white"
                 />
                 <button
@@ -701,7 +701,7 @@ export default function AdminDashboard() {
               <div className="w-10 h-10 bg-primary rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform">
                 <Sparkles className="text-white w-6 h-6" />
               </div>
-              <span className="text-xl font-bold tracking-tight text-white">PromptVault Admin</span>
+              <span className="text-xl font-bold tracking-tight text-white">PromptNest Admin</span>
             </Link>
 
             <div className="h-6 w-px bg-white/10 hidden md:block" />

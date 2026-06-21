@@ -17,7 +17,7 @@ export default function HomeFaqSection() {
           Frequently Asked Questions
         </h2>
         <p className="text-foreground/40 text-sm max-w-lg mx-auto mt-2">
-          Everything you need to know about PromptVault and our AI prompt library
+          Everything you need to know about PromptNest and our AI prompt library
         </p>
       </div>
 

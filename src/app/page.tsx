@@ -357,7 +357,7 @@ export default async function Home({ searchParams }: PageProps) {
             </h2>
             <div className="space-y-4 text-sm text-foreground/50 leading-relaxed">
               <p>
-                PromptVault is your go-to library for Gemini AI image prompts. Whether you're
+                PromptNest is your go-to library for Gemini AI image prompts. Whether you're
                 creating anime characters, cinematic scenes, fantasy worlds, or realistic portraits,
                 our carefully crafted prompts help you generate stunning AI art with ease.
               </p>

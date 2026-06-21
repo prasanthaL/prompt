@@ -59,7 +59,7 @@ export async function generateMetadata({
 
   if (!prompt) {
     return {
-      title: "Prompt Not Found | PromptVault",
+      title: "Prompt Not Found | PromptNest",
       description: "The requested AI prompt could not be found.",
       robots: { index: false },
     };
@@ -78,24 +78,24 @@ export async function generateMetadata({
   const canonicalSlug = prompt.slug ?? prompt.id;
 
   return {
-    title: `${prompt.title} | PromptVault`,
+    title: `${prompt.title} | PromptNest`,
     description: metaDescription,
     keywords: [
       prompt.title,
       prompt.category,
       "AI prompt",
-      "PromptVault",
+      "PromptNest",
       ...(prompt.tags ?? []),
       ...(prompt.models ?? []),
     ],
     authors: [{ name: prompt.author }],
     robots: { index: true, follow: true },
     openGraph: {
-      title: `${prompt.title} | PromptVault`,
+      title: `${prompt.title} | PromptNest`,
       description: metaDescription,
       type: "article",
       url: `/prompts/${canonicalSlug}`,
-      siteName: "PromptVault",
+      siteName: "PromptNest",
       publishedTime: prompt.createdAt,
       modifiedTime: prompt.updatedAt,
       section: prompt.category,
@@ -111,7 +111,7 @@ export async function generateMetadata({
     },
     twitter: {
       card: "summary_large_image",
-      title: `${prompt.title} | PromptVault`,
+      title: `${prompt.title} | PromptNest`,
       description: metaDescription,
       images: [prompt.image],
     },
@@ -157,7 +157,7 @@ export default async function PromptPage({
         "@type": "WebPage",
         "@id": canonicalUrl,
         url: canonicalUrl,
-        name: `${prompt.title} | PromptVault`,
+        name: `${prompt.title} | PromptNest`,
         description: sdDescription,
         inLanguage: "en-US",
         isPartOf: { "@id": "/" },

@@ -261,7 +261,7 @@ export default async function CategoriesPage() {
     },
     {
       question: "Can I use these prompts across different AI models?",
-      answer: "Yes! While our prompts are optimized and extensively tested for Google Gemini, they are written using descriptive prompt structure that works beautifully across Midjourney, Stable Diffusion, DALL-E, Flux, and other major AI image generators.",
+      answer: "Yes! While our prompts are optimized and extensively tested for Google Gemini, they are written using descriptive prompt structure that works beautifully across Stable Diffusion, Flux, and other major AI image generators.",
     },
     {
       question: "How often are new categories or prompts added?",
@@ -430,7 +430,7 @@ export default async function CategoriesPage() {
         <section className="mt-24 max-w-5xl mx-auto relative group">
           {/* Subtle outer glow on hover */}
           <div className="absolute -inset-px bg-gradient-to-r from-primary/10 via-purple-500/10 to-violet-500/10 rounded-3xl blur-xl opacity-50 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none" />
-          
+
           <div className="relative glass-dark border border-white/[0.05] rounded-3xl p-8 md:p-12 shadow-2xl overflow-hidden backdrop-blur-md">
             {/* Inner background decorative glow */}
             <div className="absolute top-0 right-0 w-[300px] h-[300px] bg-primary/5 rounded-full blur-[100px] pointer-events-none" />
@@ -461,7 +461,7 @@ export default async function CategoriesPage() {
 
                   <p>
                     AIPromptNest provides carefully organized AI image prompts designed for
-                    Gemini, Google AI Studio, Imagen, ChatGPT Image Generation, Midjourney,
+                    Gemini, Google AI Studio, Imagen, ChatGPT Image Generation,
                     Flux, Stable Diffusion, and other popular AI art tools. Each category
                     contains high-quality prompts created to generate detailed, visually
                     appealing, and professional results while reducing the time spent
@@ -498,7 +498,7 @@ export default async function CategoriesPage() {
         <section className="mt-12 max-w-5xl mx-auto relative group">
           {/* Subtle outer glow on hover */}
           <div className="absolute -inset-px bg-gradient-to-r from-primary/10 via-purple-500/10 to-violet-500/10 rounded-3xl blur-xl opacity-50 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none" />
-          
+
           <div className="relative glass-dark border border-white/[0.05] rounded-3xl p-8 md:p-12 shadow-2xl overflow-hidden backdrop-blur-md">
             {/* Inner background decorative glow */}
             <div className="absolute top-0 right-0 w-[300px] h-[300px] bg-primary/5 rounded-full blur-[100px] pointer-events-none" />
@@ -538,7 +538,7 @@ export default async function CategoriesPage() {
         <section className="mt-12 max-w-5xl mx-auto relative group">
           {/* Subtle outer glow on hover */}
           <div className="absolute -inset-px bg-gradient-to-r from-primary/10 via-purple-500/10 to-violet-500/10 rounded-3xl blur-xl opacity-50 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none" />
-          
+
           <div className="relative glass-dark border border-white/[0.05] rounded-3xl p-8 md:p-12 shadow-2xl overflow-hidden backdrop-blur-md">
             {/* Inner background decorative glow */}
             <div className="absolute top-0 right-0 w-[300px] h-[300px] bg-primary/5 rounded-full blur-[100px] pointer-events-none" />
@@ -567,7 +567,7 @@ export default async function CategoriesPage() {
                 <p>
                   Category-based browsing also helps users learn effective prompting techniques,
                   understand different visual styles, and achieve better results with Gemini,
-                  Imagen, ChatGPT Image Generation, Midjourney, Flux, and other AI image
+                  Imagen, ChatGPT Image Generation, Flux, and other AI image
                   generation platforms.
                 </p>
               </div>

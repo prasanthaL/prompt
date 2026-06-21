@@ -268,7 +268,7 @@ export default async function CategoryPage({ params }: PageProps) {
   const genericFaqs = [
     {
       question: `Can I use these prompts with Gemini AI?`,
-      answer: `Yes! All prompts on PromptVault are optimized for Google Gemini AI. They work beautifully with Gemini 1.5 Pro and Gemini 1.5 Flash models to generate stunning visuals, and can also be used in other models like Midjourney or Stable Diffusion.`,
+      answer: `Yes! All prompts on PromptNest are optimized for Google Gemini AI. They work beautifully with Gemini 1.5 Pro and Gemini 1.5 Flash models to generate stunning visuals, and can also be used in other models like Gemini.`,
     },
     {
       question: `Are these ${displayName} prompts free?`,
@@ -302,7 +302,7 @@ export default async function CategoryPage({ params }: PageProps) {
     "@context": "https://schema.org",
     "@type": "ItemList",
     name: `${displayName} AI Prompts`,
-    description: `A curated collection of ${displayName} AI prompts for Gemini, Midjourney, and Stable Diffusion.`,
+    description: `A curated collection of ${displayName} AI prompts for Gemini, and Stable Diffusion.`,
     url: `${siteUrl}/categories/${key}`,
     numberOfItems: prompts.length,
     itemListElement: prompts.slice(0, 50).map((p, index) => ({
@@ -443,7 +443,7 @@ export default async function CategoryPage({ params }: PageProps) {
                   <MetaIcon className="w-5 h-5" />
                 </div>
                 <div className="bg-black/50 backdrop-blur-md text-[9px] text-white/80 font-black tracking-widest uppercase px-3 py-1.5 rounded-full border border-white/10">
-                  PROMPTVault curation
+                  PromptNest curation
                 </div>
               </div>
 
@@ -649,7 +649,7 @@ export default async function CategoryPage({ params }: PageProps) {
               {[
                 {
                   question: `Can I use these prompts with Gemini AI?`,
-                  answer: `Yes! All prompts on PromptVault are optimized for Google Gemini AI. They work beautifully with Gemini 1.5 Pro and Gemini 1.5 Flash models to generate stunning visuals, and can also be used in other models like Midjourney or Stable Diffusion.`,
+                  answer: `Yes! All prompts on PromptNest are optimized for Google Gemini AI. They work beautifully with Gemini 1.5 Pro and Gemini 1.5 Flash models to generate stunning visuals, and can also be used in other models like Gemini.`,
                 },
                 {
                   question: `Are these ${displayName} prompts free?`,

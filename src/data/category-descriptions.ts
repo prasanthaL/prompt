@@ -4,7 +4,7 @@ export const CATEGORY_DESCRIPTIONS: Record<string, {
 }> = {
   all: {
     name: "Browse Prompts",
-    description: "Explore our curated library of high-quality, community-tested AI image prompts optimized for Google Gemini, Midjourney, DALL·E, and Stable Diffusion. Browse by styles, search specific keywords, and copy optimized prompt templates with a single click to kickstart your creative projects instantly."
+    description: "Explore our curated library of high-quality, community-tested AI image prompts optimized for Google Gemini and Stable Diffusion. Browse by styles, search specific keywords, and copy optimized prompt templates with a single click to kickstart your creative projects instantly."
   },
   Cinematic: {
     name: "Cinematic Prompts",

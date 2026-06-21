@@ -2,7 +2,7 @@ import { MetadataRoute } from "next";
 import { getAllPrompts, getActiveBlogs } from "@/lib/json-db";
 import categories from "@/data/categories.json";
 
-const siteUrl = "https://www.promptvault.ai";
+const siteUrl = "https://www.aipromptnest.com";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const now = new Date().toISOString();

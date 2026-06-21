@@ -52,18 +52,18 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       blog.author
     ],
     alternates: {
-      canonical: `https://www.promptvault.ai/blog/${blog.slug}`,
+      canonical: `https://www.aipromptnest.com/blog/${blog.slug}`,
     },
     openGraph: {
       title: blog.title,
       description: blog.excerpt,
       type: "article",
-      url: `https://www.promptvault.ai/blog/${blog.slug}`,
+      url: `https://www.aipromptnest.com/blog/${blog.slug}`,
       publishedTime: blog.date,
       authors: [blog.author],
       images: [
         {
-          url: blog.image.startsWith("http") ? blog.image : `https://www.promptvault.ai${blog.image}`,
+          url: blog.image.startsWith("http") ? blog.image : `https://www.aipromptnest.com${blog.image}`,
           alt: blog.title,
         },
       ],
@@ -72,7 +72,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       card: "summary_large_image",
       title: blog.title,
       description: blog.excerpt,
-      images: [blog.image.startsWith("http") ? blog.image : `https://www.promptvault.ai${blog.image}`],
+      images: [blog.image.startsWith("http") ? blog.image : `https://www.aipromptnest.com${blog.image}`],
     },
   };
 }
@@ -109,7 +109,7 @@ export default async function BlogDetail({ params }: PageProps) {
     "@type": "BlogPosting",
     headline: blog.title,
     description: blog.excerpt,
-    image: blog.image.startsWith("http") ? blog.image : `https://www.promptvault.ai${blog.image}`,
+    image: blog.image.startsWith("http") ? blog.image : `https://www.aipromptnest.com${blog.image}`,
     datePublished: blog.date,
     author: {
       "@type": "Person",
@@ -120,12 +120,12 @@ export default async function BlogDetail({ params }: PageProps) {
       name: "AiPromptNest",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.promptvault.ai/logo.png",
+        url: "https://www.aipromptnest.com/logo.png",
       },
     },
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `https://www.promptvault.ai/blog/${blog.slug}`,
+      "@id": `https://www.aipromptnest.com/blog/${blog.slug}`,
     },
   };
 

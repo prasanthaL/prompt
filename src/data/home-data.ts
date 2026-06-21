@@ -262,7 +262,7 @@ export const howItWorksSteps = [
     step: "03",
     title: "Generate Stunning Art",
     description:
-      "Paste your prompt into Google Gemini, Midjourney, DALL·E, or any AI image generator and watch it come to life. Tweak and iterate to make it uniquely yours — the creative possibilities are limitless.",
+      "Paste your prompt into Google Gemini or any AI image generator and watch it come to life. Tweak and iterate to make it uniquely yours — the creative possibilities are limitless.",
   },
 ];
 

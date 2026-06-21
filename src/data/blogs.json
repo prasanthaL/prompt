@@ -15,7 +15,7 @@
     "id": "2",
     "slug": "how-to-create-hyper-realistic-ai-photos-using-simple-prompts",
     "title": "How to Create Hyper-Realistic AI Photos Using Simple Prompts",
-    "excerpt": "Discover how 'less is more' when it comes to achieving photorealism in tools like Midjourney and DALL-E.",
+    "excerpt": "Discover how 'less is more' when it comes to achieving photorealism in tools like Google Gemini.",
     "date": "2026-05-08",
     "author": "Sarah Chen",
     "category": "Photorealism",
@@ -32,7 +32,7 @@
     "author": "Marcus Thorne",
     "category": "Guides",
     "image": "https://res.cloudinary.com/dfbacu2lw/image/upload/v1781334611/prompt-guide-compressed_dvyalq.webp",
-    "content": "Prompt engineering is the art of communicating effectively with large language and image models. This guide covers the 'Context-Task-Instruction' framework. We explain how to set a persona for the AI, provide specific examples of output formats, and use delimiters to clarify different parts of your prompt. Whether you're using ChatGPT for writing or Midjourney for art, these principles remain constant.",
+    "content": "Prompt engineering is the art of communicating effectively with large language and image models. This guide covers the 'Context-Task-Instruction' framework. We explain how to set a persona for the AI, provide specific examples of output formats, and use delimiters to clarify different parts of your prompt. Whether you're using ChatGPT for writing or Google Gemini for art, these principles remain constant.",
     "active": false
   },
   {
@@ -61,14 +61,14 @@
   },
   {
     "id": "6",
-    "slug": "understanding-aspect-ratios-in-midjourney-and-dall-e",
-    "title": "Understanding Aspect Ratios in Midjourney and DALL-E",
+    "slug": "understanding-aspect-ratios-in-google-gemini",
+    "title": "Understanding Aspect Ratios in Google Gemini",
     "excerpt": "Aspect ratios dictate the canvas size and composition. Master how to frame your AI scenes perfectly.",
     "date": "2026-04-25",
     "author": "Alex Rivera",
     "category": "Tips",
     "image": "https://res.cloudinary.com/dfbacu2lw/image/upload/v1781335600/photo-1550751827-4bd374c3f58b-compressed_upmhde.webp",
-    "content": "Choosing the right aspect ratio is crucial for conveying the right mood. For landscape and cinematic scenes, a wide ratio like 16:9 or 2.39:1 is standard. For portraits, 4:5 or 9:16 is preferred. We will discuss how to write aspect ratio parameters in Midjourney using `--ar` and how DALL-E's model defaults affect composition.",
+    "content": "Choosing the right aspect ratio is crucial for conveying the right mood. For landscape and cinematic scenes, a wide ratio like 16:9 or 2.39:1 is standard. For portraits, 4:5 or 9:16 is preferred. We will discuss how to write aspect ratio parameters in Google Gemini and how different model defaults affect composition.",
     "active": false
   },
   {
@@ -85,14 +85,14 @@
   },
   {
     "id": "8",
-    "slug": "how-to-generate-consistent-characters-in-midjourney-v6",
-    "title": "How to Generate Consistent Characters in Midjourney v6",
+    "slug": "how-to-generate-consistent-characters-in-google-gemini",
+    "title": "How to Generate Consistent Characters in Google Gemini",
     "excerpt": "A complete walkthrough on using character reference parameters to create comic books and stories.",
     "date": "2026-04-18",
     "author": "Marcus Thorne",
     "category": "Techniques",
     "image": "https://res.cloudinary.com/dfbacu2lw/image/upload/v1781335600/photo-1534528741775-53994a69daeb-compressed_pa9orc.webp",
-    "content": "Generating consistent characters across multiple images has always been the holy grail of AI art. With Midjourney v6's new `--cref` parameter, you can now feed an image URL as a character reference. Combined with character weight parameters (`--cw`), you can control whether you copy just the face, the outfit, or the entire look.",
+    "content": "Generating consistent characters across multiple images has always been the holy grail of AI art. With Google Gemini's advanced parameters, you can now feed an image URL as a character reference. Combined with character weight parameters, you can control whether you copy just the face, the outfit, or the entire look.",
     "active": false
   },
   {

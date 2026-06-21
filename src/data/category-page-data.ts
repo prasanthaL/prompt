@@ -51,14 +51,14 @@ export const categoryDescriptions: Record<
     title:
       "Anime AI Art Prompts – Generate Stunning Anime Characters & Scenes | AiPromptNest",
     description:
-      "Browse AiPromptNest's curated anime AI prompts to generate stunning characters, landscapes, and action scenes. Tested across Midjourney, Stable Diffusion, and DALL·E for gallery-worthy results.",
+      "Browse AiPromptNest's curated anime AI prompts to generate stunning characters, landscapes, and action scenes. Tested across Google Gemini and Stable Diffusion for gallery-worthy results.",
     keywords: [
       "anime AI prompts",
       "anime art generator",
       "AI anime characters",
-      "anime Midjourney prompts",
+      "anime Gemini prompts",
       "anime Stable Diffusion prompts",
-      "anime DALL-E prompts",
+      "anime AI image prompts",
       "anime character design",
       "anime wallpaper AI",
       "anime illustration prompts",
@@ -75,12 +75,12 @@ export const categoryDescriptions: Record<
     title:
       "Cinematic AI Art Prompts – Create Movie-Quality Visuals & Film Stills | AiPromptNest",
     description:
-      "Generate Hollywood-grade film stills, dramatic compositions, and cinematic scenes with AiPromptNest's curated prompts. Engineered for Midjourney, Stable Diffusion XL, and DALL·E 3 with anamorphic lighting and color grading built in.",
+      "Generate Hollywood-grade film stills, dramatic compositions, and cinematic scenes with AiPromptNest's curated prompts. Engineered for Google Gemini and Stable Diffusion XL with anamorphic lighting and color grading built in.",
     keywords: [
       "cinematic AI prompts",
       "movie still AI art",
       "film noir prompts",
-      "cinematic Midjourney prompts",
+      "cinematic Gemini prompts",
       "Hollywood AI art",
       "cinematic lighting prompts",
       "AI cinematography",
@@ -99,12 +99,12 @@ export const categoryDescriptions: Record<
     title:
       "Portrait AI Art Prompts – Generate Stunning AI Portraits & Headshots | AiPromptNest",
     description:
-      "Create photorealistic headshots, editorial beauty shots, and expressive character portraits with AiPromptNest's optimized prompts. Validated across Midjourney, Stable Diffusion XL, Flux, and DALL·E 3.",
+      "Create photorealistic headshots, editorial beauty shots, and expressive character portraits with AiPromptNest's optimized prompts. Validated across Google Gemini, Stable Diffusion XL, and Flux.",
     keywords: [
       "portrait AI prompts",
       "AI headshot generator",
       "photorealistic portrait prompts",
-      "AI portrait Midjourney",
+      "AI portrait Gemini",
       "portrait Stable Diffusion prompts",
       "character portrait AI",
       "beauty portrait prompts",
@@ -123,12 +123,12 @@ export const categoryDescriptions: Record<
     title:
       "Fantasy AI Art Prompts – Create Epic Magical Worlds & Mythical Creatures | AiPromptNest",
     description:
-      "Summon dragons, mythical heroes, and enchanted worlds with AiPromptNest's epic fantasy AI prompts. Perfect for D&D campaigns, book covers, and concept art — tested on Midjourney, DALL·E 3, and Leonardo AI.",
+      "Summon dragons, mythical heroes, and enchanted worlds with AiPromptNest's epic fantasy AI prompts. Perfect for D&D campaigns, book covers, and concept art — tested on Google Gemini and Leonardo AI.",
     keywords: [
       "fantasy AI prompts",
       "fantasy art generator",
       "AI fantasy characters",
-      "fantasy Midjourney prompts",
+      "fantasy Gemini prompts",
       "dragon art AI prompts",
       "magical world AI art",
       "D&D character art AI",
@@ -147,13 +147,13 @@ export const categoryDescriptions: Record<
     title:
       "Sci-Fi AI Art Prompts – Generate Futuristic Worlds & Space Art | AiPromptNest",
     description:
-      "Explore cyberpunk cities, alien worlds, and deep-space vistas with AiPromptNest's sci-fi AI prompts. Optimized for Midjourney, Stable Diffusion XL, Flux, and Gemini for maximum visual impact.",
+      "Explore cyberpunk cities, alien worlds, and deep-space vistas with AiPromptNest's sci-fi AI prompts. Optimized for Google Gemini, Stable Diffusion XL, and Flux for maximum visual impact.",
     keywords: [
       "sci-fi AI prompts",
       "futuristic art generator",
       "cyberpunk AI prompts",
       "space art AI prompts",
-      "sci-fi Midjourney prompts",
+      "sci-fi Gemini prompts",
       "spaceship concept art AI",
       "futuristic city prompts",
       "AI space art generator",
@@ -171,13 +171,13 @@ export const categoryDescriptions: Record<
     title:
       "Architecture AI Art Prompts – Design Stunning Buildings & Interiors | AiPromptNest",
     description:
-      "Render photorealistic buildings, interiors, and urban landscapes with AiPromptNest's architecture AI prompts. From Brutalist to parametric design — tested on Midjourney, Stable Diffusion XL, and Leonardo AI.",
+      "Render photorealistic buildings, interiors, and urban landscapes with AiPromptNest's architecture AI prompts. From Brutalist to parametric design — tested on Google Gemini, Stable Diffusion XL, and Leonardo AI.",
     keywords: [
       "architecture AI prompts",
       "building design AI art",
       "interior design prompts",
       "architectural render AI",
-      "architecture Midjourney prompts",
+      "architecture Gemini prompts",
       "modern building AI art",
       "interior design AI generator",
       "AI architecture visualization",
@@ -195,13 +195,13 @@ export const categoryDescriptions: Record<
     title:
       "Product Photography AI Prompts – Create Professional Product Shots | AiPromptNest",
     description:
-      "Produce studio-quality product shots, lifestyle imagery, and e-commerce hero images with AiPromptNest's product AI prompts. Optimized for Midjourney, Stable Diffusion XL, and Gemini — no studio required.",
+      "Produce studio-quality product shots, lifestyle imagery, and e-commerce hero images with AiPromptNest's product AI prompts. Optimized for Google Gemini and Stable Diffusion XL — no studio required.",
     keywords: [
       "product photography AI prompts",
       "e-commerce product shots AI",
       "product render prompts",
       "AI product photography",
-      "product Midjourney prompts",
+      "product Gemini prompts",
       "commercial photography AI",
       "product lifestyle shots AI",
       "Amazon product image AI",
@@ -219,14 +219,14 @@ export const categoryDescriptions: Record<
     title:
       "Men Portrait AI Prompts – Generate Stunning Male Portraits & Fashion Shots | AiPromptNest",
     description:
-      "Create powerful, photorealistic male portraits, fashion editorials, and lifestyle shots with AiPromptNest's curated men AI prompts. Tested on Midjourney, Stable Diffusion XL, and DALL·E 3.",
+      "Create powerful, photorealistic male portraits, fashion editorials, and lifestyle shots with AiPromptNest's curated men AI prompts. Tested on Google Gemini and Stable Diffusion XL.",
     keywords: [
       "men portrait AI prompts",
       "male model AI art",
       "men fashion photography AI",
       "male headshot AI generator",
       "men lifestyle photography prompts",
-      "AI male portrait Midjourney",
+      "AI male portrait Gemini",
       "men Stable Diffusion prompts",
       "professional men portrait AI",
       "men editorial photography AI",
@@ -243,14 +243,14 @@ export const categoryDescriptions: Record<
     title:
       "Women Portrait AI Prompts – Create Stunning Female Portraits & Fashion Art | AiPromptNest",
     description:
-      "Generate breathtaking female portraits, beauty editorials, and lifestyle imagery with AiPromptNest's women AI prompts. Optimized for Midjourney, Stable Diffusion XL, Flux, and DALL·E 3.",
+      "Generate breathtaking female portraits, beauty editorials, and lifestyle imagery with AiPromptNest's women AI prompts. Optimized for Google Gemini, Stable Diffusion XL, and Flux.",
     keywords: [
       "women portrait AI prompts",
       "female model AI art",
       "women fashion photography AI",
       "female headshot AI generator",
       "women beauty photography prompts",
-      "AI female portrait Midjourney",
+      "AI female portrait Gemini",
       "women Stable Diffusion prompts",
       "women editorial photography AI",
       "beauty portrait AI prompts",
@@ -267,13 +267,13 @@ export const categoryDescriptions: Record<
     title:
       "Family Portrait AI Prompts – Create Heartwarming Family Photos & Group Shots | AiPromptNest",
     description:
-      "Generate warm, authentic family portraits, group lifestyle shots, and candid moments with AiPromptNest's family AI prompts. Tested on Midjourney, DALL·E 3, and Stable Diffusion XL.",
+      "Generate warm, authentic family portraits, group lifestyle shots, and candid moments with AiPromptNest's family AI prompts. Tested on Google Gemini and Stable Diffusion XL.",
     keywords: [
       "family portrait AI prompts",
       "family photo AI generator",
       "group portrait AI art",
       "family lifestyle photography AI",
-      "family Midjourney prompts",
+      "family Gemini prompts",
       "candid family moment AI",
       "family photoshoot AI",
       "parents and children AI portrait",
@@ -291,12 +291,12 @@ export const categoryDescriptions: Record<
     title:
       "Couple Portrait AI Prompts – Generate Romantic & Engagement Photography | AiPromptNest",
     description:
-      "Create romantic couple portraits, engagement shoots, and scenic pair photography with AiPromptNest's couple AI prompts. Perfect for wedding inspiration — tested on Midjourney, DALL·E 3, and Flux.",
+      "Create romantic couple portraits, engagement shoots, and scenic pair photography with AiPromptNest's couple AI prompts. Perfect for wedding inspiration — tested on Google Gemini and Flux.",
     keywords: [
       "couple portrait AI prompts",
       "romantic AI art prompts",
       "engagement photography AI",
-      "couple Midjourney prompts",
+      "couple Gemini prompts",
       "wedding photography AI prompts",
       "couple lifestyle photography AI",
       "romantic scene AI art",
@@ -315,12 +315,12 @@ export const categoryDescriptions: Record<
     title:
       "Sport AI Art Prompts – Generate Dynamic Action Shots & Athletic Photography | AiPromptNest",
     description:
-      "Capture high-energy action shots, athletic performance, and dynamic sports photography with AiPromptNest's sport AI prompts. Optimized for Midjourney, Stable Diffusion XL, and DALL·E 3.",
+      "Capture high-energy action shots, athletic performance, and dynamic sports photography with AiPromptNest's sport AI prompts. Optimized for Google Gemini and Stable Diffusion XL.",
     keywords: [
       "sport AI art prompts",
       "action shot AI generator",
       "athletic photography AI prompts",
-      "sport Midjourney prompts",
+      "sport Gemini prompts",
       "sports Stable Diffusion prompts",
       "dynamic action AI art",
       "athlete portrait AI",
@@ -339,12 +339,12 @@ export const categoryDescriptions: Record<
     title:
       "Nature & Landscape AI Art Prompts – Generate Breathtaking Outdoor Scenery | AiPromptNest",
     description:
-      "Explore mountains, oceans, forests, and natural wonders with AiPromptNest's nature & landscape AI prompts. Tested on Midjourney, Stable Diffusion XL, and DALL·E 3 for stunning environmental art.",
+      "Explore mountains, oceans, forests, and natural wonders with AiPromptNest's nature & landscape AI prompts. Tested on Google Gemini and Stable Diffusion XL for stunning environmental art.",
     keywords: [
       "nature landscape AI prompts",
       "landscape AI art generator",
       "mountain scenery AI prompts",
-      "nature Midjourney prompts",
+      "nature Gemini prompts",
       "forest landscape AI art",
       "ocean sunset AI prompts",
       "nature photography AI",
@@ -363,11 +363,11 @@ export const categoryDescriptions: Record<
     title:
       "Animals & Wildlife AI Art Prompts – Generate Stunning Wildlife Photography | AiPromptNest",
     description:
-      "Create majestic wildlife portraits, animal photography, and pet imagery with AiPromptNest's animals & wildlife AI prompts. Tested on Midjourney, Stable Diffusion XL, and DALL·E 3.",
+      "Create majestic wildlife portraits, animal photography, and pet imagery with AiPromptNest's animals & wildlife AI prompts. Tested on Google Gemini and Stable Diffusion XL.",
     keywords: [
       "wildlife AI art prompts",
       "animal photography AI generator",
-      "wildlife Midjourney prompts",
+      "wildlife Gemini prompts",
       "animal portrait AI art",
       "wildlife Stable Diffusion prompts",
       "lion portrait AI prompts",
@@ -387,12 +387,12 @@ export const categoryDescriptions: Record<
     title:
       "Vehicles AI Art Prompts – Generate Stunning Car & Transportation Concept Art | AiPromptNest",
     description:
-      "Design sleek sports cars, motorcycles, aircraft, and futuristic transportation concepts with AiPromptNest's vehicles AI prompts. Tested on Midjourney, Stable Diffusion XL, and DALL·E 3.",
+      "Design sleek sports cars, motorcycles, aircraft, and futuristic transportation concepts with AiPromptNest's vehicles AI prompts. Tested on Google Gemini and Stable Diffusion XL.",
     keywords: [
       "vehicles AI art prompts",
       "car concept art AI",
       "automotive AI photography",
-      "vehicle Midjourney prompts",
+      "vehicle Gemini prompts",
       "sports car AI art",
       "motorcycle AI prompts",
       "futuristic vehicle concept AI",
@@ -411,12 +411,12 @@ export const categoryDescriptions: Record<
     title:
       "Digital Art AI Prompts – Generate Creative Illustrations & Abstract Designs | AiPromptNest",
     description:
-      "Explore creative digital paintings, abstract illustrations, 3D concepts, and graphic designs with AiPromptNest's digital art AI prompts. Tested on Midjourney, Stable Diffusion XL, and Adobe Firefly.",
+      "Explore creative digital paintings, abstract illustrations, 3D concepts, and graphic designs with AiPromptNest's digital art AI prompts. Tested on Google Gemini, Stable Diffusion XL, and Adobe Firefly.",
     keywords: [
       "digital art AI prompts",
       "abstract illustration AI generator",
       "digital painting AI prompts",
-      "digital art Midjourney prompts",
+      "digital art Gemini prompts",
       "abstract AI art",
       "3D digital concept art AI",
       "graphic design AI prompts",
@@ -587,12 +587,12 @@ export const categoryFaqData: Record<
     {
       question: "What are anime AI prompts?",
       answer:
-        "Anime AI prompts are descriptive text instructions used to guide AI art models like Midjourney, Stable Diffusion, or Gemini in generating stunning anime-inspired characters, immersive fantasy backgrounds, and dynamic action scenes.",
+        "Anime AI prompts are descriptive text instructions used to guide AI art models like Stable Diffusion or Gemini in generating stunning anime-inspired characters, immersive fantasy backgrounds, and dynamic action scenes.",
     },
     {
       question: "Which AI models are best for generating anime art?",
       answer:
-        "Midjourney (especially with the --niji model) and Stable Diffusion (using anime-focused checkpoints like Anything, Counterfeit, or AbyssOrange) deliver outstanding anime outputs. Google Gemini also yields crisp, creative anime illustrations.",
+        "Stable Diffusion (using anime-focused checkpoints like Anything, Counterfeit, or AbyssOrange) and Google Gemini deliver outstanding anime outputs.",
     },
     {
       question: "How can I customize these anime prompts?",
@@ -609,7 +609,7 @@ export const categoryFaqData: Record<
     {
       question: "Which AI models produce the best movie-quality visuals?",
       answer:
-        "Midjourney v6 and Stable Diffusion XL (SDXL) are widely regarded as the best tools for cinematic realism. They capture complex film grains, atmospheric fog, and precise color grading exceptionally well.",
+        "Stable Diffusion XL (SDXL) and Google Gemini are widely regarded as the best tools for cinematic realism. They capture complex film grains, atmospheric fog, and precise color grading exceptionally well.",
     },
     {
       question:
@@ -649,7 +649,7 @@ export const categoryFaqData: Record<
     {
       question: "Which generators work best for magical particle effects?",
       answer:
-        "Midjourney and Leonardo AI excel at generating vibrant, complex particle animations, bioluminescent landscapes, and magical glows with realistic reflection and lighting.",
+        "Leonardo AI and Google Gemini excel at generating vibrant, complex particle animations, bioluminescent landscapes, and magical glows with realistic reflection and lighting.",
     },
   ],
   "sci-fi": [
@@ -661,7 +661,7 @@ export const categoryFaqData: Record<
     {
       question: "Which models are recommended for spaceships and vehicles?",
       answer:
-        "Midjourney excels at high-concept spacecraft designs, while DALL-E 3 and Gemini are highly accurate when rendering complex structural hulls, geometric shapes, and clean panel structures.",
+        "Google Gemini is highly accurate when rendering complex structural hulls, geometric shapes, and clean panel structures.",
     },
     {
       question: "Can I generate solarpunk or utopian future designs?",
@@ -683,7 +683,7 @@ export const categoryFaqData: Record<
     {
       question: "Which AI tools are best for interior lighting rendering?",
       answer:
-        "Midjourney and Stable Diffusion produce stunning interior daylight rendering, capturing ray-traced reflections, shadows, and subtle textural behaviors across wood, concrete, and metal surfaces.",
+        "Stable Diffusion and Google Gemini produce stunning interior daylight rendering, capturing ray-traced reflections, shadows, and subtle textural behaviors across wood, concrete, and metal surfaces.",
     },
   ],
   product: [
@@ -700,14 +700,14 @@ export const categoryFaqData: Record<
     {
       question: "Which generators capture glass and metal reflections best?",
       answer:
-        "Midjourney v6 and Stable Diffusion XL excel at rendering physical properties like frosted glass, metallic chrome, and fluid textures, making them perfect for cosmetics and tech product listings.",
+        "Stable Diffusion XL and Google Gemini excel at rendering physical properties like frosted glass, metallic chrome, and fluid textures, making them perfect for cosmetics and tech product listings.",
     },
   ],
   men: [
     {
       question: "What are men portrait AI prompts?",
       answer:
-        "Men portrait AI prompts are carefully crafted text instructions designed to generate powerful, photorealistic male portraits, fashion editorials, athletic shots, and lifestyle imagery using AI models like Midjourney, Stable Diffusion, or DALL·E 3.",
+        "Men portrait AI prompts are carefully crafted text instructions designed to generate powerful, photorealistic male portraits, fashion editorials, athletic shots, and lifestyle imagery using AI models like Google Gemini or Stable Diffusion.",
     },
     {
       question: "How do I achieve a professional look in male portrait AI art?",
@@ -717,7 +717,7 @@ export const categoryFaqData: Record<
     {
       question: "Which AI models work best for realistic male portraits?",
       answer:
-        "Midjourney v6 and Stable Diffusion XL produce highly realistic skin textures and masculine features. Flux and DALL·E 3 are also excellent choices for editorial-style male photography.",
+        "Stable Diffusion XL and Google Gemini produce highly realistic skin textures and masculine features. Flux is also an excellent choice for editorial-style male photography.",
     },
   ],
   women: [
@@ -751,7 +751,7 @@ export const categoryFaqData: Record<
     {
       question: "Which AI generators are best for diverse family compositions?",
       answer:
-        "DALL·E 3 and Midjourney handle diverse family groupings, ages, and ethnicities well. Stable Diffusion with appropriate fine-tuned models also produces natural group shots.",
+        "Google Gemini handles diverse family groupings, ages, and ethnicities well. Stable Diffusion with appropriate fine-tuned models also produces natural group shots.",
     },
   ],
   couple: [
@@ -768,7 +768,7 @@ export const categoryFaqData: Record<
     {
       question: "Which AI models capture romantic lighting best?",
       answer:
-        "Midjourney excels at atmospheric romantic scenes with soft, dreamy lighting. DALL·E 3 is great for environmental storytelling, while Stable Diffusion allows more granular control over lighting and composition.",
+        "Google Gemini excels at atmospheric romantic scenes with soft, dreamy lighting and environmental storytelling, while Stable Diffusion allows more granular control over lighting and composition.",
     },
   ],
   sport: [
@@ -785,7 +785,7 @@ export const categoryFaqData: Record<
     {
       question: "Which AI models are best for sports action photography?",
       answer:
-        "Midjourney and Stable Diffusion XL produce excellent high-energy action shots. Adding descriptors like 'sports photography', '1/2000s shutter speed', and 'bokeh background' helps achieve a realistic athletic photo look.",
+        "Stable Diffusion XL and Google Gemini produce excellent high-energy action shots. Adding descriptors like 'sports photography', '1/2000s shutter speed', and 'bokeh background' helps achieve a realistic athletic photo look.",
     },
   ],
   "nature-&-landscape": [
@@ -802,14 +802,14 @@ export const categoryFaqData: Record<
     {
       question: "Which AI models produce the most stunning landscape art?",
       answer:
-        "Midjourney v6 consistently generates awe-inspiring landscapes. Stable Diffusion XL with landscape-tuned models and DALL·E 3 are also excellent for wide, panoramic nature scenes.",
+        "Google Gemini consistently generates awe-inspiring landscapes. Stable Diffusion XL with landscape-tuned models is also excellent for wide, panoramic nature scenes.",
     },
   ],
   "animals-&-wildlife": [
     {
       question: "What are animals & wildlife AI art prompts?",
       answer:
-        "Animals & wildlife AI art prompts are detailed text instructions used to generate stunning wildlife photography, majestic animal portraits, and habitat scenes using AI models like Midjourney, Stable Diffusion, and DALL·E 3.",
+        "Animals & wildlife AI art prompts are detailed text instructions used to generate stunning wildlife photography, majestic animal portraits, and habitat scenes using AI models like Google Gemini and Stable Diffusion.",
     },
     {
       question: "How do I capture realistic fur and feather textures in animal AI art?",
@@ -819,7 +819,7 @@ export const categoryFaqData: Record<
     {
       question: "Can I generate endangered species or exotic animals accurately?",
       answer:
-        "Yes, AI models like Midjourney and DALL·E 3 have extensive training data on diverse wildlife. Being specific with species names (e.g., 'Siberian tiger', 'blue morpho butterfly') yields far more accurate and detailed results.",
+        "Yes, AI models like Google Gemini have extensive training data on diverse wildlife. Being specific with species names (e.g., 'Siberian tiger', 'blue morpho butterfly') yields far more accurate and detailed results.",
     },
   ],
   vehicles: [
@@ -836,7 +836,7 @@ export const categoryFaqData: Record<
     {
       question: "Which AI models are best for automotive concept art?",
       answer:
-        "Midjourney and DALL·E 3 excel at sleek automotive designs with accurate proportions. Stable Diffusion with car-focused LoRA models can produce highly detailed and customizable vehicle renders.",
+        "Google Gemini excels at sleek automotive designs with accurate proportions. Stable Diffusion with car-focused LoRA models can produce highly detailed and customizable vehicle renders.",
     },
   ],
   "digital-art": [
@@ -853,7 +853,7 @@ export const categoryFaqData: Record<
     {
       question: "Which AI tools are best for generative and abstract digital art?",
       answer:
-        "Midjourney and Adobe Firefly are excellent for abstract generative art. Stable Diffusion with custom models enables deep stylistic experimentation, while DALL·E 3 handles conceptual and surreal digital compositions very well.",
+        "Google Gemini and Adobe Firefly are excellent for abstract generative art. Stable Diffusion with custom models enables deep stylistic experimentation and handles conceptual and surreal digital compositions very well.",
     },
   ],
 };

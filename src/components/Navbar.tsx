@@ -95,15 +95,6 @@ const Navbar = () => {
         {/* Actions */}
         <div className="flex items-center gap-2 md:gap-4">
           <button
-            onClick={() => setTheme(resolvedTheme === "dark" ? "light" : "dark")}
-            className="p-2 text-foreground/70 hover:text-foreground hover:bg-foreground/5 rounded-full transition-all"
-            aria-label="Toggle Theme"
-          >
-            {mounted && (resolvedTheme === "dark" ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />)}
-            {!mounted && <div className="w-5 h-5" />}
-          </button>
-
-          <button
             className="lg:hidden p-2 text-foreground/70 hover:text-foreground"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >

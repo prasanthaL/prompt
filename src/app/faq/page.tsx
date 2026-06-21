@@ -42,8 +42,8 @@ const FAQ_DATA: FAQItem[] = [
   {
     id: "p3",
     category: "prompting",
-    question: "Do these prompts work on other AI generators like Midjourney or ChatGPT?",
-    answer: "While specifically optimized for Google Gemini's rendering nuances, styles, and prompt weights, the core compositional language, subjects, lighting instructions, and descriptors will work well on Midjourney, Stable Diffusion, and DALL-E 3 as well."
+    question: "Do these prompts work on other AI generators like ChatGPT?",
+    answer: "While specifically optimized for Google Gemini's rendering nuances, styles, and prompt weights, the core compositional language, subjects, lighting instructions, and descriptors will work well on Stable Diffusion as well."
   },
   {
     id: "l1",

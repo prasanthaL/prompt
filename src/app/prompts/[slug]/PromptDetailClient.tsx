@@ -491,7 +491,7 @@ export default function PromptDetailClient({ prompt }: PromptDetailClientProps) 
               "Copy the prompt using the \"Copy Prompt\" button above.",
               `Open your preferred AI model (${prompt.models && prompt.models.length > 0
                 ? prompt.models[0]
-                : "Gemini, Midjourney, or DALL·E"
+                : "Gemini or ChatGPT"
               }) and paste the prompt into the input field.`,
               "Optionally, replace bracketed placeholders (e.g. [subject], [style]) with your own values to personalise the output.",
               "Run the prompt and review the result — iterate by tweaking descriptors for different moods or compositions.",

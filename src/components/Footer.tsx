@@ -285,7 +285,7 @@ export default function Footer() {
               </div>
               <div className="space-y-3 max-w-3xl">
                 <p className="text-xs leading-relaxed text-white/45">
-                  <strong className="text-white font-semibold">AIPromptNest</strong> is a free AI prompt library helping users discover high-quality prompts for Gemini, ChatGPT, Claude, Midjourney, and other generative AI tools. Explore thousands of categorized prompts for writing, coding, marketing, business, education, productivity, image generation, and more.
+                  <strong className="text-white font-semibold">AIPromptNest</strong> is a free AI prompt library helping users discover high-quality prompts for Gemini, ChatGPT, Claude and other generative AI tools. Explore thousands of categorized prompts for writing, coding, marketing, business, education, productivity, image generation, and more.
                 </p>
                 <p className="text-xs leading-relaxed text-white/45">
                   Our growing prompt database is updated regularly with trending prompts, expert-curated collections, and community favorites to help you get better AI-generated results.

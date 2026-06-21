@@ -22,7 +22,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Trending AI Prompts (Updated Daily) | AI Prompt Nest",
   description:
-    "Discover the most popular AI prompts trending right now. Explore top-rated ChatGPT, Gemini, Midjourney, Claude, and image generation prompts used by creators, marketers, developers, and designers.",
+    "Discover the most popular AI prompts trending right now. Explore top-rated ChatGPT, Gemini, Claude, and image generation prompts used by creators, marketers, developers, and designers.",
 
   keywords: [
     "trending AI prompts",
@@ -30,7 +30,6 @@ export const metadata: Metadata = {
     "best AI prompts",
     "ChatGPT prompts",
     "Gemini prompts",
-    "Midjourney prompts",
     "Claude prompts",
     "AI image prompts",
     "AI prompt library",
@@ -49,7 +48,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Trending AI Prompts (Updated Daily) | AI Prompt Nest",
     description:
-      "Browse the most viewed and liked AI prompts trending this week. Find top ChatGPT, Gemini, Claude, and Midjourney prompts in one place.",
+      "Browse the most viewed and liked AI prompts trending this week. Find top ChatGPT, Gemini, and Claude prompts in one place.",
     url: "https://www.aipromptnest.com/trending",
     siteName: "AI Prompt Nest",
     type: "website",
@@ -68,7 +67,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Trending AI Prompts (Updated Daily) | AI Prompt Nest",
     description:
-      "Discover today's most popular AI prompts for ChatGPT, Gemini, Claude, Midjourney, and more.",
+      "Discover today's most popular AI prompts for ChatGPT, Gemini, Claude, and more.",
     images: ["https://res.cloudinary.com/dfbacu2lw/image/upload/v1781332533/og_yh8di5.webp"],
   },
 
@@ -106,7 +105,7 @@ const FAQS = [
   },
   {
     q: "Which AI models are supported?",
-    a: "We support all major AI models including ChatGPT, Gemini, Claude, Midjourney, DALL·E, Stable Diffusion, and many more.",
+    a: "We support all major AI models including ChatGPT, Gemini, Claude, Stable Diffusion, and many more.",
   },
   {
     q: "Can I submit my own prompts?",
@@ -246,7 +245,7 @@ export default async function TrendingPage() {
               </h1>
 
               <p className="text-foreground/50 max-w-lg text-base leading-relaxed">
-                Explore today&apos;s most popular ChatGPT, Gemini, Claude, and Midjourney prompts.
+                Explore today&apos;s most popular ChatGPT, Gemini, and Claude prompts.
                 These prompts are ranked based on views, likes, and community engagement.
               </p>
             </div>
@@ -322,7 +321,7 @@ export default async function TrendingPage() {
                 </h2>
                 <p className="text-sm text-foreground/50 leading-relaxed max-w-2xl">
                   Explore the most popular AI prompts trending across categories
-                  including ChatGPT, Gemini, Midjourney, Claude, image
+                  including ChatGPT, Gemini, Claude, image
                   generation, content creation, marketing, coding, business and
                   productivity.
                 </p>

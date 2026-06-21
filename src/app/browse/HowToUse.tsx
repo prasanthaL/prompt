@@ -14,7 +14,7 @@ const HOW_TO_USE_STEPS = [
   {
     step: "03",
     title: "Paste & Generate",
-    description: "Paste the prompt into Gemini, Midjourney, or DALL-E. Customize subjects or details to make the creation unique, then hit generate!"
+    description: "Paste the prompt into your preferred AI generator. Customize subjects or details to make the creation unique, then hit generate!"
   }
 ];
 
@@ -34,7 +34,7 @@ export default function HowToUse() {
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {HOW_TO_USE_STEPS.map((item) => (
-          <div 
+          <div
             key={item.step}
             className="relative p-6 rounded-2xl border border-white/[0.05] bg-[#0c0a15]/20 hover:border-violet-500/30 hover:bg-[#121021]/30 transition-all duration-300 group space-y-4 shadow-[0_4px_20px_rgba(0,0,0,0.15)]"
           >
