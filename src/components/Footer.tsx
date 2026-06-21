@@ -3,25 +3,25 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { 
-  Search, 
-  ArrowRight, 
-  Sparkles, 
-  ShieldCheck, 
-  Zap, 
-  Users, 
-  ChevronRight, 
-  ChevronDown, 
-  FileText, 
-  LayoutGrid, 
-  Globe 
+import {
+  Search,
+  ArrowRight,
+  Sparkles,
+  ShieldCheck,
+  Zap,
+  Users,
+  ChevronRight,
+  ChevronDown,
+  FileText,
+  LayoutGrid,
+  Globe
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 // Custom SVG components for social links matching the mockup
 const XIcon = () => (
   <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
-    <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+    <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
   </svg>
 );
 
@@ -39,7 +39,7 @@ const InstagramIcon = () => (
 
 const YoutubeIcon = () => (
   <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
-    <path d="M23.498 6.163a3.003 3.003 0 00-2.11-2.11C19.518 3.5 12 3.5 12 3.5s-7.518 0-9.388.553a3.003 3.003 0 00-2.11 2.11C0 8.033 0 12 0 12s0 3.967.502 5.837a3.003 3.003 0 002.11 2.11c1.87.553 9.388.553 9.388.553s7.518 0 9.388-.553a3.003 3.003 0 002.11-2.11C24 15.967 24 12 24 12s0-3.967-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+    <path d="M23.498 6.163a3.003 3.003 0 00-2.11-2.11C19.518 3.5 12 3.5 12 3.5s-7.518 0-9.388.553a3.003 3.003 0 00-2.11 2.11C0 8.033 0 12 0 12s0 3.967.502 5.837a3.003 3.003 0 002.11 2.11c1.87.553 9.388.553 9.388.553s7.518 0 9.388-.553a3.003 3.003 0 002.11-2.11C24 15.967 24 12 24 12s0-3.967-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
   </svg>
 );
 
@@ -136,12 +136,12 @@ const POPULAR_CATEGORIES = [
 ];
 
 const SOCIAL_LINKS = [
-  { href: "https://twitter.com", icon: <XIcon /> },
+  // { href: "https://twitter.com", icon: <XIcon /> },
   { href: "https://facebook.com", icon: <FacebookIcon /> },
-  { href: "https://instagram.com", icon: <InstagramIcon /> },
-  { href: "https://youtube.com", icon: <YoutubeIcon /> },
-  { href: "https://discord.com", icon: <DiscordIcon /> },
-  { href: "https://pinterest.com", icon: <PinterestIcon /> },
+  // { href: "https://instagram.com", icon: <InstagramIcon /> },
+  // { href: "https://youtube.com", icon: <YoutubeIcon /> },
+  // { href: "https://discord.com", icon: <DiscordIcon /> },
+  // { href: "https://pinterest.com", icon: <PinterestIcon /> },
 ];
 
 export default function Footer() {
@@ -225,8 +225,8 @@ export default function Footer() {
                 <ul className="flex flex-col gap-1.5">
                   {section.links.map((link, linkIdx) => (
                     <li key={linkIdx}>
-                      <Link 
-                        href={link.href} 
+                      <Link
+                        href={link.href}
                         className="flex items-center gap-1 text-[13px] text-white/45 hover:text-white transition-colors py-0.5 group"
                       >
                         <ChevronRight className="w-3 h-3 text-white/20 group-hover:text-violet-400 transition-colors shrink-0" />
@@ -248,7 +248,7 @@ export default function Footer() {
                 <LayoutGrid className="w-4 h-4 text-violet-400" />
                 <h3 className="text-base font-bold text-white tracking-tight">Popular Categories</h3>
               </div>
-              <button 
+              <button
                 onClick={() => setIsCategoriesExpanded(!isCategoriesExpanded)}
                 className="flex items-center gap-1.5 text-xs font-bold text-white/50 hover:text-white px-3 py-1.5 rounded-lg border border-white/[0.06] bg-white/[0.02] hover:bg-white/[0.04] transition-colors cursor-pointer select-none"
               >
@@ -327,10 +327,10 @@ export default function Footer() {
           <div className="flex flex-wrap items-center justify-center gap-x-3 gap-y-2 text-xs text-white/40">
             {["Free AI Prompts", "Gemini AI Prompts", "Gemini Image Prompts", "Prompt Library"].map((item, i) => (
               <React.Fragment key={item}>
-                <Link 
+                <Link
                   href={`/browse?q=${encodeURIComponent(
                     item.replace("Free ", "").replace("AI ", "").replace("Prompts", "").replace("Library", "").trim()
-                  )}`} 
+                  )}`}
                   className="hover:text-white transition-colors"
                 >
                   {item}
