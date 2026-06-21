@@ -244,8 +244,6 @@ export default async function Home({ searchParams }: PageProps) {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 relative">
-          {/* Connector line (desktop only) */}
-          <div className="hidden md:block absolute top-10 left-[calc(16.66%+1rem)] right-[calc(16.66%+1rem)] h-px bg-gradient-to-r from-transparent via-border to-transparent" />
 
           {howItWorksSteps.map(({ step, title, description }) => (
             <div
