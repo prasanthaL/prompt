@@ -190,12 +190,6 @@ const Hero = ({ promptsCount = 509, categoriesCount = 16 }: HeroProps) => {
               />
               <div className="absolute inset-0 bg-linear-to-t from-black/80 via-transparent to-transparent"></div>
 
-              {/* Featured Badge */}
-              <div className="absolute top-8 left-8 flex items-center gap-2 bg-primary/20 backdrop-blur-md border border-white/20 px-4 py-2 rounded-xl">
-                <Sparkles className="w-4 h-4 text-white" />
-                <span className="text-xs font-bold text-white uppercase tracking-wider">Featured</span>
-              </div>
-
               {/* Floating Info Card */}
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
@@ -213,8 +207,8 @@ const Hero = ({ promptsCount = 509, categoriesCount = 16 }: HeroProps) => {
                   />
                 </div>
                 <div className="flex-1">
-                  <h3 className="font-bold text-foreground text-lg leading-none mb-1">Fantasy Landscape</h3>
-                  <p className="text-foreground/40 text-xs font-medium">Midjourney</p>
+                  <h3 className="font-bold text-foreground text-lg leading-none mb-1">Enchanted Forest</h3>
+                  <p className="text-foreground/40 text-xs font-medium">Gemini AI</p>
                 </div>
                 <div className="w-10 h-10 rounded-full bg-foreground/5 border border-border flex items-center justify-center text-foreground/60 hover:text-foreground hover:bg-primary/20 transition-all cursor-pointer">
                   <Rocket className="w-5 h-5" />
