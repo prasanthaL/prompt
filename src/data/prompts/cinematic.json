@@ -4070,5 +4070,26 @@
     "models": [
       "Gemini AI"
     ]
+  },
+  {
+    "id": "cmgw6j9smlj",
+    "title": "Straw Hat Voyage: Going Merry Figurehead Adventure – Ultra-Realistic Cinematic Crew",
+    "slug": "straw-hat-voyage-going-merry-figurehead-adventure-ultrarealistic-cinematic-crew-5kmfp",
+    "category": "Cinematic",
+    "fullPrompt": "An young indian man at the center of the frame, he is sitting on the ship's iconic sheep figurehead and pointing forward with an enthusiastic expression, messy voluminous spiky brown hair gently blowing the wind and wearing monkey d luffy.\n​Nami: Located on the left, she is leaning with her chin resting on her hand.\n​Sanji: Positioned behind Nami, he is shown wearing a suit with a cigarette in his mouth.\n​Usopp: Located behind Luffy, he has his hand raised in a salute-like gesture.\n​Roronoa Zoro: Positioned on the right, he is wearing a black bandana and has his arms crossed.\n​Style and Setting\n​Art Style: The image features Ultra-realstic render style, emphasizing detailed textures on the ship's wood and the characters' clothing.\n​Environment: The setting is the bow of the Going Merry against a bright, clear blue sky, emphasizing an adventurous atmosphere.\n​Branding: There is a small, distinct emblem visible at the bottom center of the wooden figurehead.--ar 9:16",
+    "image": "https://res.cloudinary.com/dfbacu2lw/image/upload/v1782049965/prompts/klxepuvgsnrlun2cafir.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-06-21T13:52:46.471Z",
+    "updatedAt": "2026-06-21T13:52:46.471Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
   }
 ]

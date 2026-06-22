@@ -518,5 +518,47 @@
     "models": [
       "Gemini AI"
     ]
+  },
+  {
+    "id": "cm71z6k293l",
+    "title": "Sketch to Reality: Enchanted 3D Notebook Illusion Portrait",
+    "slug": "sketch-to-reality-enchanted-3d-notebook-illusion-portrait-5q0az",
+    "category": "Anime",
+    "fullPrompt": "A creative 3D illusion artwork of a cute young girl stepping out of a spiral notebook page placed on a wooden desk. The notebook has lined paper with handwritten text at the top. The girl looks semi-realistic 3D cartoon style, soft wavy brown hair, natural makeup, sweet smile, wearing a pastel crop top and high-waisted light grey jeans with white sneakers. Her lower body appears sketched in pencil on the notebook while the upper body looks realistic and popping out of the page.",
+    "image": "https://res.cloudinary.com/dfbacu2lw/image/upload/v1782049519/prompts/rfadq5rfdgtw8tk7mdrx.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-06-21T13:45:20.073Z",
+    "updatedAt": "2026-06-21T13:45:20.073Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cm5avsmyn8w",
+    "title": "Goop Fusion Hero: Ben 10 Inspired Ultra-Realistic 3D Character Poster – Alien Slime Transformation Scene",
+    "slug": "goop-fusion-hero-ben-10-inspired-ultrarealistic-3d-character-poster-alien-slime-transformation-scene-aex9g",
+    "category": "Anime",
+    "fullPrompt": " An young indian man is shown with his signature messy voluminous spiky brown, hair gently blowing the wind and green eyes. He is wearing a white hooded jacket with a green zipper, green stripes on the sleeves, and the number \"10\" prominently displayed in green on the left side of his chest. He has a confident, slight smirk.\n​The Slime/Goop Element: Ben is partially enveloped by a translucent, vibrant green, viscous substance that resembles slime or the alien form \"Goop.\"\n​This substance wraps around his right arm, which is raised in a claw-like gesture.\n​It also flows around his torso and behind his head, forming a separate, amorphous shape behind him that features two distinct, sharp-angled green eyes.\n​Style and Composition: The art style is polished, reminiscent of modern 3D animated films or high-end character statues. The lighting is soft and professional, highlighting the glossy, reflective texture of the green slime. The background is a solid, muted olive-green, which keeps the focus entirely on the character.--ar 9:16",
+    "image": "https://res.cloudinary.com/dfbacu2lw/image/upload/v1782050053/prompts/uzkldmbrx83mdpukip0u.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-06-21T13:54:13.927Z",
+    "updatedAt": "2026-06-21T13:54:13.927Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
   }
 ]

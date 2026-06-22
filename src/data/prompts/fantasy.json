@@ -733,5 +733,47 @@
     "models": [
       "Gemini AI"
     ]
+  },
+  {
+    "id": "cmoxdxk1i49",
+    "title": "Edge of the World: The Sky Captain’s Final Horizon – Ultra-Cinematic Fantasy Adventure Portrait",
+    "slug": "edge-of-the-world-the-sky-captains-final-horizon-ultracinematic-fantasy-adventure-portrait-lipgp",
+    "category": "Fantasy",
+    "fullPrompt": "Ultra-photorealistic cinematic fantasy adventure portrait, exact my face, 100% identity lock from uploaded photo, stage imaxpro + stage 5 quality, 2:3 vertical composition.\n\nFull-body composition from a dramatic low angle.\n\nStanding at the bow of a colossal flying battleship sailing through a sea of clouds thousands of meters above the world.\n\nThe ship is an impossible fusion of luxury yacht, pirate vessel and advanced sky technology.\n\nMassive sails stretch across the sky.\n\nGolden navigation rings rotate around the ship.\n\nFloating islands drift across the horizon.\n\nPose:\n\nStanding at the very front of the ship.\n\nOne foot elevated slightly on the bow.\n\nOne hand gripping an ornate captain's compass.\n\nThe other resting casually inside a jacket pocket.\n\nDirect eye contact.\n\nCalm confidence.\n\nNo aggression.\n\nNo smile.\n\nOutfit:\n\nPremium sky-captain luxury fashion.\n\nCream aviator jacket with shearling collar.\n\nDark navy pilot shirt.\n\nBrown leather flight harness.\n\nDark tailored cargo trousers.\n\nPremium white expedition boots.\n\nVintage mechanical wristwatch.\n\nExplorer rings.\n\nNo armor.\nNo cape.\nNo crown.\n\nEnvironment:\n\nFlying ships crossing the clouds.\n\nFloating mountain islands.\n\nSky whales gliding through the atmosphere.\n\nAncient cloud temples.\n\nMassive storms visible far away.\n\nGolden sunrise above the cloud layer.\n\nLighting:\n\nWarm sunrise illuminating the face.\n\nGolden reflections across the ship.\n\nBright atmospheric light.\n\nStrong cinematic rim lighting.\n\nEffects:\n\nWind moving clothing and hair.\n\nFlying map fragments.\n\nCompass particles.\n\nCloud mist around the ship.\n\nAtmospheric depth.\n\nMood:\n\nHe isn't searching for treasure.\n\nHe's searching for the edge of the world.\n\nUltra-photorealistic 8K RAW, IMAX 70mm realism, deep focus, global sharpness, realistic skin texture, no blur, no haze, no noise, no CGI look, stage 5 cinematic finish, masterpiece quality.",
+    "image": "https://res.cloudinary.com/dfbacu2lw/image/upload/v1782049632/prompts/ng1mwtwzun7jbowwzmxk.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-06-21T13:47:13.608Z",
+    "updatedAt": "2026-06-21T13:47:13.608Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cm8t0vtftv1",
+    "title": "Giant Director: The Miniature Film Studio – Ultra-Realistic Cinematic Scale Fantasy Scene",
+    "slug": "giant-director-the-miniature-film-studio-ultrarealistic-cinematic-scale-fantasy-scene-6g2hk",
+    "category": "Fantasy",
+    "fullPrompt": "A hyper-realistic cinematic scene of a giant woman filmmaker carefully adjusting a miniature vintage film camera on a tripod, inside a professional studio setup. A tiny elegant woman in a flowing pastel blue dress stands beside the camera like a model on set. Surrounding them are detailed studio lights, softboxes, film reels, cables, and a clapperboard. The giant woman has soft natural makeup, blonde hair tied back, and an intense focused expression.Dramatic soft lighting, shallow depth of field, ultra-detailed textures, 8K, photorealistic, cinematic composition, studio photography, volumetric lighting.Dramatic soft lighting, shallow depth of field, ultra-detailed textures, 8K, photorealistic, cinematic composition, studio photography, volumetric lighting",
+    "image": "https://res.cloudinary.com/dfbacu2lw/image/upload/v1782049800/prompts/cn0rtmxngzjkiofozi84.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-06-21T13:50:01.301Z",
+    "updatedAt": "2026-06-21T13:50:01.301Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
   }
 ]
