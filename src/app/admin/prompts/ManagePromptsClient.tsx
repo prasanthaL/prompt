@@ -135,7 +135,7 @@ export default function ManagePromptsClient({ initialPrompts }: ManagePromptsCli
       </div>
 
       {/* Category Filters */}
-      <div className="flex gap-2 overflow-x-auto pb-2 no-scrollbar">
+      <div className="flex flex-wrap gap-2 pb-2">
         {categories.map(cat => (
           <button
             key={cat}

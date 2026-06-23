@@ -7,7 +7,7 @@
     "date": "2026-05-10",
     "author": "Alex Rivera",
     "category": "Techniques",
-    "image": "https://res.cloudinary.com/dfbacu2lw/image/upload/v1781334609/cinematic-portraits-compressed_jofezb.webp",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782213752/cinematic-portraits-compressed_jofezb_iagbf7.webp",
     "content": "Cinematic portraits are all about emotion, lighting, and depth. To achieve this in AI, you need to go beyond simple descriptions. Key elements include specifying focal lengths (e.g., 85mm), lighting styles (e.g., Rembrandt lighting, volumetric haze), and color grading (e.g., teal and orange, moody cinematic tones). In this guide, we break down the exact keywords you need to transform a flat image into a cinematic masterpiece.",
     "active": false
   },
@@ -19,7 +19,7 @@
     "date": "2026-05-08",
     "author": "Sarah Chen",
     "category": "Photorealism",
-    "image": "https://res.cloudinary.com/dfbacu2lw/image/upload/v1781334609/hyper-realistic-compressed_fifzsz.webp",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782213906/hyper-realistic-compressed_fifzsz_y82fu9.webp",
     "content": "Hyper-realism doesn't always require a paragraph-long prompt. Sometimes, simplicity allows the model's training on real photography to shine. Focus on technical specs like 'Shot on 35mm film', 'f/1.8', and 'natural overcast lighting'. Avoid over-using buzzwords like '4k' or 'ultra-detailed' as they can sometimes lead to a 'plastic' look. We'll explore the balance between descriptive detail and technical instruction.",
     "active": true
   },
@@ -31,7 +31,7 @@
     "date": "2026-05-05",
     "author": "Marcus Thorne",
     "category": "Guides",
-    "image": "https://res.cloudinary.com/dfbacu2lw/image/upload/v1781334611/prompt-guide-compressed_dvyalq.webp",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782213954/prompt-guide-compressed_dvyalq_swkdbl.webp",
     "content": "Prompt engineering is the art of communicating effectively with large language and image models. This guide covers the 'Context-Task-Instruction' framework. We explain how to set a persona for the AI, provide specific examples of output formats, and use delimiters to clarify different parts of your prompt. Whether you're using ChatGPT for writing or Google Gemini for art, these principles remain constant.",
     "active": false
   },
@@ -43,7 +43,7 @@
     "date": "2026-05-01",
     "author": "Elena Rodriguez",
     "category": "Industry",
-    "image": "https://res.cloudinary.com/dfbacu2lw/image/upload/v1781334610/digital-creativity-compressed_nnc94i.webp",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782214003/digital-creativity-compressed_nnc94i_fb5ikr.webp",
     "content": "Digital creativity is undergoing its most significant shift since the invention of the camera. Prompt engineering has turned language into a brush. We discuss how professionals are integrating AI into their workflows, from concept art to copywriting, and why the 'human-in-the-loop' remains the most critical component of high-quality AI output.",
     "active": false
   },
@@ -55,7 +55,7 @@
     "date": "2026-04-28",
     "author": "Jordan Smith",
     "category": "Tips",
-    "image": "https://res.cloudinary.com/dfbacu2lw/image/upload/v1781334610/negative-prompts-compressed_iwmik6.webp",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782214044/negative-prompts-compressed_iwmik6_myu4gm.webp",
     "content": "Negative prompts are a powerful way to prune the AI's search space. From removing unwanted objects to fixing common anatomical issues in portraits, negative prompts are the 'sculpting' tool of AI art. Learn the essential list of negative keywords and how to use weightings to fine-tune your results.",
     "active": false
   },
@@ -67,7 +67,7 @@
     "date": "2026-04-25",
     "author": "Alex Rivera",
     "category": "Tips",
-    "image": "https://res.cloudinary.com/dfbacu2lw/image/upload/v1781335600/photo-1550751827-4bd374c3f58b-compressed_upmhde.webp",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782214113/photo-1550751827-4bd374c3f58b-compressed_upmhde_lx1qte.webp",
     "content": "Choosing the right aspect ratio is crucial for conveying the right mood. For landscape and cinematic scenes, a wide ratio like 16:9 or 2.39:1 is standard. For portraits, 4:5 or 9:16 is preferred. We will discuss how to write aspect ratio parameters in Google Gemini and how different model defaults affect composition.",
     "active": false
   },
@@ -79,7 +79,7 @@
     "date": "2026-04-20",
     "author": "Sarah Chen",
     "category": "Guides",
-    "image": "https://res.cloudinary.com/dfbacu2lw/image/upload/v1781335601/photo-1600585154340-be6161a56a0c-compressed_bkeloj.webp",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782214164/photo-1600585154340-be6161a56a0c-compressed_bkeloj_nv7qi9.webp",
     "content": "Architectural prompting requires precision. Words like 'brutalist', 'Scandinavian minimalism', 'biophilic design', and 'parametric facade' help steer the model. Lighting plays a key role too—specify 'golden hour reflection', 'dusk illumination', or 'diffused natural light' to make your renders look professional.",
     "active": false
   },
@@ -91,7 +91,7 @@
     "date": "2026-04-18",
     "author": "Marcus Thorne",
     "category": "Techniques",
-    "image": "https://res.cloudinary.com/dfbacu2lw/image/upload/v1781335600/photo-1534528741775-53994a69daeb-compressed_pa9orc.webp",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782214200/photo-1534528741775-53994a69daeb-compressed_pa9orc_pw5rzo.webp",
     "content": "Generating consistent characters across multiple images has always been the holy grail of AI art. With Google Gemini's advanced parameters, you can now feed an image URL as a character reference. Combined with character weight parameters, you can control whether you copy just the face, the outfit, or the entire look.",
     "active": false
   },
@@ -103,7 +103,7 @@
     "date": "2026-04-15",
     "author": "Elena Rodriguez",
     "category": "Techniques",
-    "image": "https://res.cloudinary.com/dfbacu2lw/image/upload/v1781335602/photo-1579783902614-a3fb3927b6a5-compressed_yqb5qb.webp",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782214200/photo-1534528741775-53994a69daeb-compressed_pa9orc_pw5rzo.webp",
     "content": "Colors define emotional undertones. A monochrome palette gives a solemn, dramatic feeling, while complementary colors like blue and orange bring dynamic energy. In this article, we explain how to instruct generative models using phrases like 'pastel color scheme', 'analogue color harmony', and 'neon accents on pitch-black background'.",
     "active": true
   },
@@ -115,7 +115,7 @@
     "date": "2026-04-12",
     "author": "Jordan Smith",
     "category": "Techniques",
-    "image": "https://res.cloudinary.com/dfbacu2lw/image/upload/v1781335601/photo-1618005182384-a83a8bd57fbe-compressed_io92r6.webp",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782214275/photo-1618005182384-a83a8bd57fbe-compressed_io92r6_wpgr6u.webp",
     "content": "Stable Diffusion allows unparalleled prompting control through syntactical weighting. Wrapping keywords in parenthesis like `(photo:1.2)` increases its priority in calculations. This guide details how attention weighting works, how token order affects output, and how to use cross-attention control to blend concepts.",
     "active": false
   },
@@ -127,7 +127,7 @@
     "date": "2026-04-09",
     "author": "Alex Rivera",
     "category": "Guides",
-    "image": "https://res.cloudinary.com/dfbacu2lw/image/upload/v1781335600/photo-1509198397868-475647b2a1e5-compressed_hzvkf4.webp",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782214305/photo-1509198397868-475647b2a1e5-compressed_hzvkf4_kdrsth.webp",
     "content": "To get a true cyberpunk aesthetic, details matter. Don't just prompt 'cyberpunk city'. Specify 'dense holographic billboards', 'flying vehicles in gridlock', 'steam rising from street grates', and 'neon lighting reflecting off puddles'. We will go over exact prompts to get incredible, gritty, low-life high-tech cityscapes.",
     "active": false
   },
@@ -139,7 +139,7 @@
     "date": "2026-04-05",
     "author": "Sarah Chen",
     "category": "Tips",
-    "image": "https://res.cloudinary.com/dfbacu2lw/image/upload/v1781335599/photo-1550684848-fac1c5b4e853-compressed_cjut9q.webp",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782214348/photo-1550684848-fac1c5b4e853-compressed_cjut9q_x0cuyj.webp",
     "content": "Vector designs require bold shapes and flat colors. Avoid complex textures or shading in your prompts. Use words like 'flat vector illustration', '2D graphic design', 'bold lines', and 'solid background'. We'll show you how to generate icons, patterns, and background illustrations with absolute clarity.",
     "active": false
   },
@@ -151,7 +151,7 @@
     "date": "2026-04-02",
     "author": "Marcus Thorne",
     "category": "Photorealism",
-    "image": "https://res.cloudinary.com/dfbacu2lw/image/upload/v1781335599/photo-1492633423870-43d1cd2775eb-compressed_wwrqc6.webp",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782214387/photo-1492633423870-43d1cd2775eb-compressed_wwrqc6_ue1oob.webp",
     "content": "Studio photography relies on lighting setups to shape the face. You can use these professional terms in AI prompting. Using 'Rembrandt lighting' yields dramatic shadow triangles on the cheek. 'Butterfly lighting' creates soft shadows under the nose. We demonstrate how different light naming patterns alter character appearance.",
     "active": false
   },
@@ -163,7 +163,7 @@
     "date": "2026-03-29",
     "author": "Elena Rodriguez",
     "category": "Photorealism",
-    "image": "https://res.cloudinary.com/dfbacu2lw/image/upload/v1781335601/photo-1504674900247-0877df9cc836-compressed_vchb9l.webp",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782214455/photo-1504674900247-0877df9cc836-compressed_vchb9l_rigokn.webp",
     "content": "Food looks best under specific conditions. Prompt for 'shallow depth of field', 'macro food shot', and 'bright natural window lighting'. Describing textures like 'glistening glaze', 'crispy golden crust', or 'steaming hot vapor' forces the AI model to add microscopic details that make the food look fresh and appetizing.",
     "active": false
   },
@@ -175,7 +175,7 @@
     "date": "2026-03-25",
     "author": "Jordan Smith",
     "category": "Guides",
-    "image": "https://res.cloudinary.com/dfbacu2lw/image/upload/v1781335602/photo-1620712943543-bcc4688e7485-compressed_wjjqhw.webp",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782214506/photo-1620712943543-bcc4688e7485-compressed_wjjqhw_pljo9v.webp",
     "content": "Imagen 3 has a vastly superior understanding of natural language compared to previous models. In this guide, we explore how Imagen 3 responds to conversational phrasing, text rendering instructions, and complex scene descriptions, making it a stellar model for high-fidelity images.",
     "active": false
   },
@@ -187,7 +187,7 @@
     "date": "2026-03-20",
     "author": "Alex Rivera",
     "category": "Photorealism",
-    "image": "https://res.cloudinary.com/dfbacu2lw/image/upload/v1781335600/photo-1508739773434-c26b3d09e071-compressed_wz5dsb.webp",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782214549/photo-1508739773434-c26b3d09e071-compressed_wz5dsb_xhbdfs.webp",
     "content": "Plastic-looking skin is the dead giveaway of AI portraits. To bypass this, prompt for camera-specific characteristics. Mention 'shot on Kodak Portra 400 film', '35mm format', 'slight chromatic aberration', and 'natural subtle film grain'. This forces the model to synthesize grain overlays and organic imperfections.",
     "active": false
   },
@@ -199,7 +199,7 @@
     "date": "2026-03-15",
     "author": "Sarah Chen",
     "category": "Tips",
-    "image": "https://res.cloudinary.com/dfbacu2lw/image/upload/v1781334610/isometric-illustration-compressed_gkj8hp.webp",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782214594/isometric-illustration-compressed_gkj8hp_qtmt1q.webp",
     "content": "Isometric dioramas are incredibly popular for game design and illustration. The trick is to establish the perspective first. Prompt with phrases like 'isometric 3D model style', 'claymation aesthetic', 'miniature diorama', and 'vibrant volumetric lighting'. We give a library of prompts to build your own mini-rooms.",
     "active": false
   },
@@ -211,7 +211,7 @@
     "date": "2026-03-10",
     "author": "Marcus Thorne",
     "category": "Industry",
-    "image": "https://res.cloudinary.com/dfbacu2lw/image/upload/v1781335600/photo-1538481199705-c710c4e965fc-compressed_vvjzwa.webp",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782214639/photo-1538481199705-c710c4e965fc-compressed_vvjzwa_fixiny.webp",
     "content": "AI is changing game dev pipelines. From drafting rapid concept art to generating tileable textures and UI elements, prompt engineers are working alongside game designers to speed up pre-production. We explore ethical frameworks and practical methodologies for integrating AI into your workflow.",
     "active": true
   },
@@ -223,7 +223,7 @@
     "date": "2026-03-05",
     "author": "Elena Rodriguez",
     "category": "Tips",
-    "image": "https://res.cloudinary.com/dfbacu2lw/image/upload/v1781335602/photo-1626785774573-4b799315345d-compressed_iys7ls.webp",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782214697/photo-1626785774573-4b799315345d-compressed_iys7ls_fqykqs.webp",
     "content": "Logo design is about simplicity and symbolism. When prompting, specify a white background and clean geometries. Avoid gradients, shadows, or text rendering unless necessary. Phrases like 'minimalist logo design', 'simple vector symbol', and 'corporate branding concept' yield the cleanest and most editable shapes.",
     "active": true
   },
@@ -235,7 +235,7 @@
     "date": "2026-03-01",
     "author": "Jordan Smith",
     "category": "Photorealism",
-    "image": "https://res.cloudinary.com/dfbacu2lw/image/upload/v1781335600/photo-1470071459604-3b5ec3a7fe05-compressed_nxyluw.webp",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782214750/photo-1470071459604-3b5ec3a7fe05-compressed_nxyluw_i5peoq.webp",
     "content": "Macro photography is about high magnification and shallow depth of field. Use technical phrases like 'macro photography shot', 'shot on 100mm macro lens', 'extremely shadow depth of field', 'sharp focus on dewdrop', and 'creamy bokeh background' to instruct the model to render fine hairs and textures.",
     "active": false
   }
