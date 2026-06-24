@@ -14,8 +14,8 @@ const Hero = ({ promptsCount = 509, categoriesCount = 16 }: HeroProps) => {
   const formattedPrompts = promptsCount >= 1000
     ? `${(promptsCount / 1000).toFixed(1)}K+`
     : promptsCount >= 100
-    ? `${Math.floor(promptsCount / 100) * 100}+`
-    : `${promptsCount}+`;
+      ? `${Math.floor(promptsCount / 100) * 100}+`
+      : `${promptsCount}+`;
 
   return (
     <section className="relative pt-32 pb-32 px-4 md:px-8 overflow-hidden bg-background">
@@ -149,7 +149,7 @@ const Hero = ({ promptsCount = 509, categoriesCount = 16 }: HeroProps) => {
               className="absolute top-1/2 -translate-y-1/2 left-0 w-[240px] md:w-[300px] aspect-4/5 rounded-4xl overflow-hidden border border-white/10 shadow-2xl z-0 hidden lg:block"
             >
               <Image
-                src="https://res.cloudinary.com/dfbacu2lw/image/upload/v1781333854/cyberpunk-compressed_hm6bd8.webp"
+                src="https://res.cloudinary.com/dxwdgozsp/image/upload/v1782303718/cyberpunk-compressed_hm6bd8_1_m7fuwz.webp"
                 fill
                 sizes="300px"
                 className="object-cover"
@@ -164,7 +164,7 @@ const Hero = ({ promptsCount = 509, categoriesCount = 16 }: HeroProps) => {
               className="absolute top-1/2 -translate-y-1/2 right-0 w-[240px] md:w-[300px] aspect-[4/5] rounded-[2rem] overflow-hidden border border-white/10 shadow-2xl z-0 hidden lg:block"
             >
               <Image
-                src="https://res.cloudinary.com/dfbacu2lw/image/upload/v1781333852/elven-compressed_gbkevm.webp"
+                src="https://res.cloudinary.com/dxwdgozsp/image/upload/v1782303718/elven-compressed_gbkevm_1_d68ccy.webp"
                 fill
                 sizes="300px"
                 className="object-cover"
@@ -180,7 +180,7 @@ const Hero = ({ promptsCount = 509, categoriesCount = 16 }: HeroProps) => {
               className="relative z-10 w-full aspect-[4/5] rounded-[2.5rem] overflow-hidden border border-white/10 shadow-[0_30px_60px_rgba(0,0,0,0.5)] group"
             >
               <Image
-                src="https://res.cloudinary.com/dfbacu2lw/image/upload/v1781333855/fantasy-compressed_vbei79.webp"
+                src="https://res.cloudinary.com/dxwdgozsp/image/upload/v1782303718/fantasy-compressed_vbei79_1_aazv1d.webp"
                 fill
                 priority
                 quality={95}
@@ -199,7 +199,7 @@ const Hero = ({ promptsCount = 509, categoriesCount = 16 }: HeroProps) => {
               >
                 <div className="relative w-14 h-14 rounded-2xl overflow-hidden flex-shrink-0 bg-foreground/5 border border-border flex items-center justify-center p-2">
                   <Image
-                    src="https://res.cloudinary.com/dfbacu2lw/image/upload/v1781333855/fantasy-compressed_vbei79.webp"
+                    src="https://res.cloudinary.com/dxwdgozsp/image/upload/v1782303718/fantasy-compressed_vbei79_1_aazv1d.webp"
                     width={56}
                     height={56}
                     className="object-cover rounded-lg"

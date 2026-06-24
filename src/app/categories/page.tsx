@@ -144,7 +144,7 @@ const categoryConfig = [
     description: "Browse every prompt across all categories in one place.",
     color: "from-violet-500/30 to-fuchsia-500/30",
     accent: "bg-violet-500",
-    image: "https://images.unsplash.com/photo-1541701494587-cb58502866ab?w=600&q=80",
+    image: "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782304497/photo-1541701494587-cb58502866ab_e6iwqd.jpg",
   },
 ];
 

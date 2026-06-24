@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Cinematic",
     "description": "Cinematic style images, movie-like lighting and dramatic compositions.",
-    "image": "/images/categories/cinematic.png",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782303296/cinemati_robzkw.jpg",
     "color": "from-blue-500/30 to-indigo-500/30",
     "accent": "bg-blue-500"
   },
@@ -11,7 +11,7 @@
     "id": 2,
     "name": "Anime",
     "description": "Japanese animation styles, stylized characters and vibrant artwork.",
-    "image": "/images/categories/anime.png",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782303297/anim_mn6izz.jpg",
     "color": "from-pink-500/30 to-rose-500/30",
     "accent": "bg-pink-500"
   },
@@ -19,7 +19,7 @@
     "id": 3,
     "name": "Fantasy",
     "description": "Mythical landscapes, magical creatures and epic otherworldly scenes.",
-    "image": "/images/categories/fantasy.png",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782303296/fantas_pvqqwa.jpg",
     "color": "from-purple-500/30 to-violet-500/30",
     "accent": "bg-purple-500"
   },
@@ -27,7 +27,7 @@
     "id": 4,
     "name": "Sci-Fi",
     "description": "Science fiction, futuristic technology, outer space and cyberpunk aesthetics.",
-    "image": "/images/categories/scifi.png",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782303296/scif_xkrlli.jpg",
     "color": "from-cyan-500/30 to-blue-500/30",
     "accent": "bg-cyan-500"
   },
@@ -35,7 +35,7 @@
     "id": 5,
     "name": "Architecture",
     "description": "Modern buildings, stunning interior designs and realistic structure visualizations.",
-    "image": "/images/categories/architecture.png",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782303296/architectur_wrayds.jpg",
     "color": "from-emerald-500/30 to-teal-500/30",
     "accent": "bg-emerald-500"
   },
@@ -43,7 +43,7 @@
     "id": 6,
     "name": "Portrait",
     "description": "Close-up human photography, expressive faces and professional lighting setups.",
-    "image": "/images/categories/portrait.png",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782303296/portrai_j6xnyb.jpg",
     "color": "from-orange-500/30 to-amber-500/30",
     "accent": "bg-orange-500"
   },
@@ -51,7 +51,7 @@
     "id": 7,
     "name": "Product",
     "description": "Commercial product shots, advertising photography and clean item renders.",
-    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&q=80",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782303296/photo-1523275335684-37898b6baf30_lpkdr2.webp",
     "color": "from-yellow-500/30 to-orange-500/30",
     "accent": "bg-yellow-500"
   },
@@ -59,7 +59,7 @@
     "id": 8,
     "name": "Men",
     "description": "Portraits, fashion and lifestyle photography featuring male subjects.",
-    "image": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=600&q=80",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782303296/photo-1492562080023-ab3db95bfbce_ytot0n.jpg",
     "color": "from-blue-500/30 to-indigo-500/30",
     "accent": "bg-blue-500"
   },
@@ -67,7 +67,7 @@
     "id": 9,
     "name": "Women",
     "description": "Portraits, fashion and lifestyle photography featuring female subjects.",
-    "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=600&q=80",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782303295/photo-1494790108377-be9c29b29330_ki4pjb.jpg",
     "color": "from-rose-500/30 to-pink-500/30",
     "accent": "bg-rose-500"
   },
@@ -75,7 +75,7 @@
     "id": 10,
     "name": "Family",
     "description": "Heartwarming scenes, group portraits and moments of family bonding.",
-    "image": "https://images.unsplash.com/photo-1511895426328-dc8714191300?w=600&q=80",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782303295/photo-1511895426328-dc8714191300_jxlhef.jpg",
     "color": "from-teal-500/30 to-emerald-500/30",
     "accent": "bg-teal-500"
   },
@@ -83,7 +83,7 @@
     "id": 11,
     "name": "Couple",
     "description": "Romantic portraits, engagement shoots and scenic couple photography.",
-    "image": "https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?w=600&q=80",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782303295/photo-1515934751635-c81c6bc9a2d8_eoxgh8.jpg",
     "color": "from-red-500/30 to-rose-500/30",
     "accent": "bg-red-500"
   },
@@ -91,7 +91,7 @@
     "id": 12,
     "name": "Sport",
     "description": "High-energy action shots, athletic training and dynamic sports photography.",
-    "image": "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=600&q=80",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782303295/photo-1517649763962-0c623066013b_qnhs7j.jpg",
     "color": "from-amber-500/30 to-yellow-500/30",
     "accent": "bg-amber-500"
   },
@@ -99,7 +99,7 @@
     "id": 13,
     "name": "Nature & Landscape",
     "description": "Breathtaking outdoor scenery, mountains, oceans, forests and natural wonders.",
-    "image": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=600&q=80",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782303295/photo-1470071459604-3b5ec3a7fe05_lmjcna.jpg",
     "color": "from-green-500/30 to-emerald-500/30",
     "accent": "bg-green-500"
   },
@@ -107,7 +107,7 @@
     "id": 14,
     "name": "Animals & Wildlife",
     "description": "Stunning wildlife photography, majestic animals and pets in their natural environments.",
-    "image": "https://images.unsplash.com/photo-1472396961693-142e6e269027?w=600&q=80",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782303295/photo-1472396961693-142e6e269027_qy6dhp.jpg",
     "color": "from-lime-500/30 to-green-500/30",
     "accent": "bg-lime-500"
   },
@@ -115,7 +115,7 @@
     "id": 15,
     "name": "Vehicles",
     "description": "Automotive design, sports cars, motorcycles, airplanes and transportation concepts.",
-    "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=600&q=80",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782303294/photo-1503376780353-7e6692767b70_mpwmfh.jpg",
     "color": "from-slate-500/30 to-zinc-500/30",
     "accent": "bg-slate-500"
   },
@@ -123,7 +123,7 @@
     "id": 16,
     "name": "Digital Art",
     "description": "Creative digital paintings, abstract illustrations, 3D concepts and graphic designs.",
-    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=600&q=80",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782303294/photo-1618005182384-a83a8bd57fbe_hjdgmw.jpg",
     "color": "from-fuchsia-500/30 to-purple-500/30",
     "accent": "bg-fuchsia-500"
   }
