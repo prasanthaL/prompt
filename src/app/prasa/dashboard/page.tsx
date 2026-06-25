@@ -133,7 +133,7 @@ function DashboardContent() {
 
   const fetchPromptToEdit = async (id: string) => {
     try {
-      const res = await fetch("/api/admin/prompts");
+      const res = await fetch("/api/prasa/prompts");
       if (res.ok) {
         const data = await res.json();
         const prompt = data.find((p: any) => p.id === id);
@@ -196,7 +196,7 @@ function DashboardContent() {
     setCompressionStats(null);
     setTagInput("");
     setCustomModelInput("");
-    router.replace("/admin/dashboard");
+    router.replace("/prasa/dashboard");
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -216,7 +216,7 @@ function DashboardContent() {
         const imageFormData = new FormData();
         imageFormData.append("file", file);
 
-        const uploadRes = await fetch("/api/admin/upload", {
+        const uploadRes = await fetch("/api/prasa/upload", {
           method: "POST",
           body: imageFormData,
         });
@@ -226,7 +226,7 @@ function DashboardContent() {
         imageUrl = uploadData.secure_url;
       }
 
-      const url = editingId ? `/api/admin/prompts/${editingId}` : "/api/admin/prompts";
+      const url = editingId ? `/api/prasa/prompts/${editingId}` : "/api/prasa/prompts";
       const method = editingId ? "PUT" : "POST";
 
       const promptRes = await fetch(url, {
@@ -241,7 +241,7 @@ function DashboardContent() {
           text: editingId ? "Prompt updated successfully!" : "Prompt uploaded successfully!"
         });
         setTimeout(() => {
-          if (editingId) router.push("/admin/prompts");
+          if (editingId) router.push("/prasa/prompts");
           resetForm();
         }, 1500);
       } else {
@@ -662,7 +662,7 @@ function DashboardContent() {
         </div>
 
         <div
-          onClick={() => router.push("/admin/prompts")}
+          onClick={() => router.push("/prasa/prompts")}
           className="glass-dark border border-white/5 rounded-[2.5rem] p-8 shadow-2xl group cursor-pointer hover:border-primary/50 transition-all"
         >
           <div className="w-14 h-14 bg-primary/10 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
@@ -707,19 +707,22 @@ export default function AdminDashboard() {
             <div className="h-6 w-px bg-white/10 hidden md:block" />
 
             <div className="hidden md:flex items-center gap-6 text-sm font-medium">
-              <Link href="/admin/dashboard" className="text-primary border-b-2 border-primary pb-1">
+              <Link href="/prasa/dashboard" className="text-primary border-b-2 border-primary pb-1">
                 Upload Prompt
               </Link>
-              <Link href="/admin/prompts" className="text-white/60 hover:text-white transition-colors">
+              <Link href="/prasa/prompts" className="text-white/60 hover:text-white transition-colors">
                 Manage Prompts
               </Link>
-              <Link href="/admin/blogs" className="text-white/60 hover:text-white transition-colors">
+              <Link href="/prasa/blogs" className="text-white/60 hover:text-white transition-colors">
                 Manage Blogs
               </Link>
             </div>
           </div>
           <button
-            onClick={() => router.push("/admin")}
+            onClick={async () => {
+              await fetch("/api/prasa/logout", { method: "POST" });
+              router.push("/");
+            }}
             className="flex items-center gap-2 text-white/40 hover:text-white transition-colors cursor-pointer"
           >
             <LogOut className="w-5 h-5" />

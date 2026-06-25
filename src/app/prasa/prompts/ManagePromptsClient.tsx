@@ -46,7 +46,7 @@ export default function ManagePromptsClient({ initialPrompts }: ManagePromptsCli
     if (!confirm("Are you sure you want to delete this prompt?")) return;
     setIsDeleting(id);
     try {
-      const res = await fetch(`/api/admin/prompts/${id}`, { method: "DELETE" });
+      const res = await fetch(`/api/prasa/prompts/${id}`, { method: "DELETE" });
       if (res.ok) {
         setPrompts(prev => prev.filter(p => p.id !== id));
       }
@@ -125,7 +125,7 @@ export default function ManagePromptsClient({ initialPrompts }: ManagePromptsCli
             />
           </div>
           <button
-            onClick={() => router.push("/admin/dashboard")}
+            onClick={() => router.push("/prasa/dashboard")}
             className="bg-primary hover:bg-primary-hover text-white px-6 py-3 rounded-xl font-bold flex items-center gap-2 transition-all shadow-lg shadow-primary/20"
           >
             <Plus className="w-4 h-4" />
@@ -208,7 +208,7 @@ export default function ManagePromptsClient({ initialPrompts }: ManagePromptsCli
                     <td className="px-6 py-5 text-right">
                       <div className="flex items-center justify-end gap-2">
                         <button
-                          onClick={() => router.push(`/admin/dashboard?edit=${p.id}`)}
+                          onClick={() => router.push(`/prasa/dashboard?edit=${p.id}`)}
                           className="p-2.5 bg-black hover:bg-primary/20 rounded-xl text-white/40 hover:text-primary transition-all border border-white/5"
                         >
                           <Edit2 className="w-4 h-4" />
@@ -248,7 +248,7 @@ export default function ManagePromptsClient({ initialPrompts }: ManagePromptsCli
 
                 <div className="absolute top-4 right-4 flex flex-col gap-2 opacity-0 group-hover:opacity-100 transition-all translate-x-2 group-hover:translate-x-0">
                   <button
-                    onClick={() => router.push(`/admin/dashboard?edit=${p.id}`)}
+                    onClick={() => router.push(`/prasa/dashboard?edit=${p.id}`)}
                     className="p-2 bg-primary text-white rounded-lg shadow-xl"
                   >
                     <Edit2 className="w-4 h-4" />

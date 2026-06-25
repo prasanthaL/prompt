@@ -19,7 +19,7 @@ export default function AdminLoginPage() {
     // Simple manual login check against .env (passed via client or ideally an API)
     // For now, I'll create a simple API route for this to keep it secure
     try {
-      const res = await fetch("/api/admin/login", {
+      const res = await fetch("/api/prasa/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email, password }),
@@ -28,7 +28,7 @@ export default function AdminLoginPage() {
       if (res.ok) {
         // In a real app, we'd use a cookie/token. 
         // For this demo, I'll just redirect to the dashboard.
-        router.push("/admin/dashboard");
+        router.push("/prasa/dashboard");
       } else {
         setError("Invalid credentials. Please try again.");
       }
@@ -69,7 +69,7 @@ export default function AdminLoginPage() {
                   type="email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  placeholder="admin@promptnest.com"
+                  placeholder="Enter Email Address"
                   className="w-full bg-white/5 border border-white/10 rounded-2xl py-4 pl-12 pr-4 text-sm focus:outline-none focus:ring-2 focus:ring-primary/50 transition-all"
                   required
                 />

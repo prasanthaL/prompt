@@ -40,7 +40,7 @@ export default function ManageBlogsClient({ initialBlogs }: ManageBlogsClientPro
     setTogglingId(id);
     setMessage(null);
     try {
-      const res = await fetch("/api/admin/blogs", {
+      const res = await fetch("/api/prasa/blogs", {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ id, active: !currentActive }),

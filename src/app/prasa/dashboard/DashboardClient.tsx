@@ -173,7 +173,7 @@ export default function DashboardClient({ editPrompt }: DashboardClientProps) {
     setExistingImageUrl(null);
     setMessage({ type: "", text: "" });
     setCompressionStats(null);
-    router.replace("/admin/dashboard");
+    router.replace("/prasa/dashboard");
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -193,7 +193,7 @@ export default function DashboardClient({ editPrompt }: DashboardClientProps) {
         const imageFormData = new FormData();
         imageFormData.append("file", file);
 
-        const uploadRes = await fetch("/api/admin/upload", {
+        const uploadRes = await fetch("/api/prasa/upload", {
           method: "POST",
           body: imageFormData,
         });
@@ -203,7 +203,7 @@ export default function DashboardClient({ editPrompt }: DashboardClientProps) {
         imageUrl = uploadData.secure_url;
       }
 
-      const url = editingId ? `/api/admin/prompts/${editingId}` : "/api/admin/prompts";
+      const url = editingId ? `/api/prasa/prompts/${editingId}` : "/api/prasa/prompts";
       const method = editingId ? "PUT" : "POST";
 
       const promptRes = await fetch(url, {
@@ -218,7 +218,7 @@ export default function DashboardClient({ editPrompt }: DashboardClientProps) {
           text: editingId ? "Prompt updated successfully!" : "Prompt uploaded successfully!"
         });
         setTimeout(() => {
-          if (editingId) router.push("/admin/prompts");
+          if (editingId) router.push("/prasa/prompts");
           resetForm();
         }, 1500);
       } else {
@@ -400,7 +400,7 @@ export default function DashboardClient({ editPrompt }: DashboardClientProps) {
       {/* Right Sidebar: Shortcuts */}
       <div className="space-y-8">
         <div
-          onClick={() => router.push("/admin/prompts")}
+          onClick={() => router.push("/prasa/prompts")}
           className="glass-dark border border-white/5 rounded-[2.5rem] p-8 shadow-2xl group cursor-pointer hover:border-primary/50 transition-all"
         >
           <div className="w-14 h-14 bg-primary/10 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">

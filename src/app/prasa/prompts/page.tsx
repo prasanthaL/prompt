@@ -26,20 +26,20 @@ export default async function ManagePromptsPage() {
             <div className="h-6 w-px bg-white/10 hidden md:block" />
 
             <div className="hidden md:flex items-center gap-6 text-sm font-medium">
-              <Link href="/admin/dashboard" className="text-white/60 hover:text-white transition-colors">
+              <Link href="/prasa/dashboard" className="text-white/60 hover:text-white transition-colors">
                 Upload Prompt
               </Link>
-              <Link href="/admin/prompts" className="text-primary border-b-2 border-primary pb-1">
+              <Link href="/prasa/prompts" className="text-primary border-b-2 border-primary pb-1">
                 Manage Prompts
               </Link>
-              <Link href="/admin/blogs" className="text-white/60 hover:text-white transition-colors">
+              <Link href="/prasa/blogs" className="text-white/60 hover:text-white transition-colors">
                 Manage Blogs
               </Link>
             </div>
           </div>
 
           <Link
-            href="/admin"
+            href="/api/prasa/logout"
             className="flex items-center gap-2 text-white/40 hover:text-white transition-colors"
           >
             <LogOut className="w-5 h-5" />
