@@ -75,7 +75,10 @@ export const metadata: Metadata = {
   },
 
   verification: {
-    google: "your-verification-code",
+    google: "WYjo9RDq1lSf8UPJ4EbjfnE2WtIonLK5PEPJclpGQ74",
+    other: {
+      "p:domain_verify": "a1c3dc227b4f1c15d9a60cd548d23063",
+    },
   },
 
   manifest: "/site.webmanifest",
