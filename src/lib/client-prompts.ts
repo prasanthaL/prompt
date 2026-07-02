@@ -36,7 +36,13 @@ async function importCategoryFile(slug: string): Promise<Prompt[]> {
   try {
     const mod = await import(`../data/prompts/${slug}.json`);
     const data = mod.default ?? mod;
-    return Array.isArray(data) ? (data as Prompt[]) : [];
+    if (Array.isArray(data)) {
+      const prompts = data as Prompt[];
+      return [...prompts].sort(
+        (a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()
+      );
+    }
+    return [];
   } catch {
     return [];
   }

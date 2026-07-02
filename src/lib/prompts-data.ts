@@ -32,7 +32,13 @@ function loadFile(file: string): Prompt[] {
   try {
     const content = fs.readFileSync(path.join(DATA_DIR, file), "utf-8");
     const data = JSON.parse(content);
-    const prompts: Prompt[] = Array.isArray(data) ? data : [];
+    const prompts: Prompt[] = Array.isArray(data) ? (data as Prompt[]) : [];
+    
+    // Sort newest-first to match server-side behavior in json-db
+    prompts.sort(
+      (a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()
+    );
+
     fileCache.set(file, prompts);
     return prompts;
   } catch (e) {
@@ -60,6 +66,11 @@ function loadAllPrompts(): Prompt[] {
     for (const file of files) {
       all.push(...loadFile(file));
     }
+
+    // Sort consolidated array newest-first to match server-side behavior in json-db
+    all.sort(
+      (a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()
+    );
 
     allPromptsCache = all;
     return all;
