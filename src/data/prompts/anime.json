@@ -567,5 +567,47 @@
     "models": [
       "Gemini AI"
     ]
+  },
+  {
+    "id": "cme1u7xrnru",
+    "title": "Epic Fantasy Anime Poster Creation",
+    "slug": "epic-fantasy-anime-poster-creation-qnlih",
+    "category": "Anime",
+    "fullPrompt": "Epic Fantasy Anime Universe Poster, a man (attached photo) standing confidently at the center of a tiny planet covered with lush green grass and colorful flowers, wearing a beige safari jacket, cargo pants, white t-shirt, hiking shoes, and a backpack. The camera uses an extreme fisheye lens with a tiny-planet perspective, showing the entire spherical world beneath him.Around him are anime-inspired adventure characters with expressive faces and dynamic poses: a cheerful straw-hat pirate boy, a spiky-haired martial artist in an orange outfit, a blond ninja in black and orange clothing, a blue robotic cat, and a curious little cartoon boy. The small planet is surrounded by a gigantic fantasy metropolis filled with whimsical architecture, colorful towers, floating balloons, flying ships, steampunk elements, miniature houses, and magical creatures.The lower part of the sphere transitions into outer space, with stars and a visible moon, creating the impression that the entire anime world is floating in the universe. The background features a warm golden-hour sunset, volumetric clouds, cinematic sunlight rays, and atmospheric haze. Composition: centered character, symmetrical balance, dynamic surrounding elements, immersive world-building.Lighting: cinematic golden hour, global illumination, volumetric lighting, soft shadows, rim light, HDR. Style: ultra-realistic, hyper-detailed, fantasy adventure movie poster, Pixar meets anime aesthetics, photorealistic human, highly detailed environment, depth of field, vibrant colors, masterpiece, Unreal Engine 5 render, Octane render, 8K, extremely detailed textures. Detail Tambahan untuk AI Generator Aspect Ratio: 9:16 (vertical poster)Camera: 14mm fisheye lens, aerial top-down shot, tiny planet effect Rendering: cinematic, photorealistic, global illumination, ray tracing Mood: adventurous, magical, nostalgic, epic fantasy Negative Prompt low quality, blurry, low resolution, deformed face, bad anatomy, extra fingers, extra limbs, duplicated characters, poorly drawn hands, cropped, out of frame, text, logo, watermark, oversaturated, noise, distorted perspective, ugly, flat lighting, low detail.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783152245/prompts/zh8h6hoggpkvdjvgpd4g.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-04T08:04:05.470Z",
+    "updatedAt": "2026-07-04T08:04:05.470Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmmi9afizrm",
+    "title": "Chaotic Kitchen Collision: Animation Meets Reality",
+    "slug": "chaotic-kitchen-collision-animation-meets-reality-cuo8h",
+    "category": "Anime",
+    "fullPrompt": "A highly detailed, cinematic 8K resolution action scene featuring Tom and Jerry in a chaotic, high-energy kitchen environment. Tom is mid-air, wearing vintage roller skates and a metallic jetpack, reaching for an open refrigerator door that has a sign reading 'SLO-MO COMEDY!' on it. A chocolate layer cake is flying through the air next to him. To the left, a bottle of milk is spilling, creating a dynamic splash, while broken eggshells and yolks are suspended in the air. In the foreground, Jerry is joyfully riding a large slice of pepperoni pizza through the air. A sliced watermelon is floating nearby, and a cast-iron skillet rests on the tiled floor. A young man tom and jerry bhind him a holding on wok a evil smilng, a wearing Jacket: A cream-colored, cropped jacket with dark green piping along the edges and collar, fastened with dark green buttons.\n​Top: A simple white undershirt or crew-neck t-shirt.\n​Pants: Tailored black trousers.\n​Footwear: Black polished shoes. Jewelry: A layered silver necklace and silver rings.\n​Accents: A unique, bright green, star-studded accessory attached to the pants via a silver chain and messy voluminous spiky brown hair gently blowing the wind.\n​Lighting Style\n​The image utilizes a cinematic contrast between the warm, golden light emitting from the refrigerator and the cool, blue moonlight coming from the exterior.--ar 9:16",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783153299/prompts/juyeaw0sokonpknfk5lb.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-04T08:21:39.525Z",
+    "updatedAt": "2026-07-04T08:21:39.525Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
   }
 ]

@@ -376,5 +376,26 @@
     "models": [
       "Gemini AI"
     ]
+  },
+  {
+    "id": "cm2fridtecj",
+    "title": "Sci-Fi Poster and Collectible Card",
+    "slug": "scifi-poster-and-collectible-card-1dz8m",
+    "category": "Sci-Fi",
+    "fullPrompt": "Use the uploaded poster image ONLY as a reference for composition, lighting, costume arrangement, and collectible-card layout. Do NOT copy or resemble the face of the person in the reference poster. Use the uploaded face reference photo as the ONLY identity source and preserve all facial features and natural proportions accurately. Create an ultra-realistic cinematic sci-fi fantasy poster, vertical portrait (9:16), premium collectible card, masterpiece, 8K Ultra HD. Main character:A futuristic champion named XANDER NOVASTRIKE, known as The Tech Beast Champion, stands confidently in the center. Outfit: matte black tactical suit white futuristic armor plates electric-blue neon details advanced utility harness smart gloves with holographic interfaces lightweight exoskeleton components metallic silver combat boots transparent high-tech visor that reveals the eyes Pose: holding an energy sphere containing digital particles calm, elite, charismatic expressionpremium blockbuster hero pose Companions: • tiny yellow electric creature with holographic sparks • enormous crimson cyber dragon with glowing circuitry wings • sleek purple psychic panther with digital particles • blue crystal tortoise with neon water energy • fluffy brown fox with glowing amber eyes • green bio-mechanical drake with luminous leaves Poster Design: Main Title: XANDER NOVASTRIKE Subtitle: The Tech Beast Champion Tagline: Master of the Digital Frontier Card Number: TB-01 Futuristic HUD graphics Japanese-inspired typography Champion insignias Metallic silver and gold accents Cream-beige premium background Floating holographic interfaces Lighting: Cinematic studio lighting, blue neon glow, rim lighting, glossy reflections, HDR rendering, shallow depth of field, realistic skin texture. Rendering:Ultra realistic, luxury commercial photography, Unreal Engine 5, Octane Render, ray tracing, global illumination, sci-fi blockbuster poster, premium collectible artwork, masterpiece, 8K Ultra HD.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783152629/prompts/zskfdkayjepjdwdkrby0.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-04T08:10:29.911Z",
+    "updatedAt": "2026-07-04T08:10:29.911Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
   }
 ]

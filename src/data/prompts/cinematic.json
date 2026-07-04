@@ -4093,5 +4093,26 @@
     "models": [
       "Gemini AI"
     ]
+  },
+  {
+    "id": "cmp0inlz26s",
+    "title": "Surreal Office Coffee Mug Drag",
+    "slug": "surreal-office-coffee-mug-drag-s6yk0",
+    "category": "Cinematic",
+    "fullPrompt": "Ultra realistic absurd surrealism, vibrant pop lighting, Cinematic motion blur, 8K packed Composition. A man wearing pastel pink bathrobe, stripped socks and fluffy slippers is being dragged across a shiny office floor by a gigantic rolling coffee mug, a huge glossy 3D letters spelling \"DULLER\" slide across the floor like heavy blocks and coffee splashes dramatically behind them like rocket exhaust while colorful doodles of caffeine molecules and alarm clocks explode around the scene.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783151654/prompts/clnxljjoypxlj3dzfutz.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-04T07:54:14.823Z",
+    "updatedAt": "2026-07-04T07:54:14.823Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
   }
 ]

@@ -187,5 +187,68 @@
     "models": [
       "Gemini AI"
     ]
+  },
+  {
+    "id": "cmfk1o0enz9",
+    "title": "Post-Apocalyptic Tribal Fashion Portrait",
+    "slug": "postapocalyptic-tribal-fashion-portrait-vdzf0",
+    "category": "Women",
+    "fullPrompt": "Aspect Ratio: 9:16 Portrait Style: Post-Apocalyptic Fashion | Tribal Streetwear | Editorial Photography Prompt: Create an ultra-realistic portrait of a tribal-inspired fashion model wearing distressed denim patchwork clothing, layered beads, handcrafted accessories, feather ornaments, and artistic blue face paint.Barefoot stance, rugged textures, layered necklaces, avant-garde styling, dark studio background, cinematic fashion photography, highly detailed materials, bold character design, luxury editorial quality, 8K HDR masterpiece.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783152048/prompts/kxck8addbidfthkopwbs.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-04T08:00:49.166Z",
+    "updatedAt": "2026-07-04T08:00:49.166Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmppvkbr9e3",
+    "title": "Girl, Tiger, Forest, Moody Realism",
+    "slug": "girl-tiger-forest-moody-realism-414yy",
+    "category": "Women",
+    "fullPrompt": "Ultra realistic cinematic portrait of a mysterious young alternative girl sitting in a dark foggy pine forest beside a massive Bengal tiger, emotional moody atmosphere, soft cold color grading, deep forest shadows, highly detailed tiger fur texture, realistic human skin pores, melancholic expression, intimate bond between girl and tiger, oversized tiger resting protectively behind her with one giant paw extending forward, girl touching tiger’s face gently,centered symmetrical composition. The girl has long messy black hair with soft bangs, pale skin, subtle makeup, tattooed arms and fingers, wearing an oversized black gothic graphic t shirt, loose faded blue baggy jeans, chunky white sneakers, silver rings, relaxed streetwear aesthetic, indie grunge fashion style. She is sitting on giant concrete numbers “1994” carved like stone blocks.Background filled with tall dark pine trees, misty atmosphere, cinematic fog, wet forest ground, muted grey and blue tones, dramatic natural lighting, shallow depth of field, ultra detailed eyes, realistic whiskers, atmospheric perspective, emotional dark fantasy realism, luxury editorial photography mixed with wildlife fantasy art.Professional fashion photography, ultra sharp focus, 85mm lens, f/1.8 depth of field, volumetric lighting, realistic shadows, desaturated tones, dark moody aesthetic, cinematic composition, high detail texture, photorealistic, masterpiece quality, award winning photography, 8k, ultra realistic, Unreal Engine cinematic render style.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783152855/prompts/stoyre8tovl6rb7wcvj8.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-04T08:14:16.112Z",
+    "updatedAt": "2026-07-04T08:14:16.112Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmr0qly90o6",
+    "title": "Noir Eye Peeking Through Rain",
+    "slug": "noir-eye-peeking-through-rain-bn352",
+    "category": "Women",
+    "fullPrompt": "artoon, anime, illustration, low resolution, blurry eyes, extra eyes, extra face, bad anatomy, overexposed highlights, oversaturated colors, smiling, soft expression, low detail skin, plastic skin, unrealistic rain, watermark, text, logo, duplicate features, distorted face, poor lighting, low contrast.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783153930/prompts/pe30svvvkfz2zayp4qec.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-04T08:32:10.468Z",
+    "updatedAt": "2026-07-04T08:32:10.468Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
   }
 ]

@@ -124,5 +124,68 @@
     "models": [
       "Gemini AI"
     ]
+  },
+  {
+    "id": "cmg7h51hhr4",
+    "title": "Romantic Beach Sunset Double Exposure",
+    "slug": "romantic-beach-sunset-double-exposure-urt7t",
+    "category": "Couple",
+    "fullPrompt": "A realistic cinematic romantic couple portrait on a magical beach sunset. A young man with dark wavy messy hair wearing a white oversized shirt and cream trousers, and a woman with long flowing dark hair wearing an elegant light purple dress. They stand close, forehead touching, she gently holds his face. Barefoot on the beach, ocean waves, palm trees, golden soft light, dreamy fantasy anime romance vibe.Add a double exposure effect with a smaller full-body couple walking together by the shoreline. Ultra realistic faces, soft glow, cinematic 8K photography, emotional love story mood.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783151227/prompts/tqtoetsrx0krr44jjn8v.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-04T07:47:20.138Z",
+    "updatedAt": "2026-07-04T07:47:20.138Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmx1kynw02f",
+    "title": "Romantic Couple's Luxury Poster",
+    "slug": "romantic-couples-luxury-poster-8kddw",
+    "category": "Couple",
+    "fullPrompt": "A romantic cinematic portrait of a stylish couple embracing lovingly, the man wearing black outfit and sunglasses with a well-groomed beard, the woman in an elegant black dress smiling softly, intimate pose with warm emotions. A glowing golden circular halo behind them, dark matte black background with soft vignette shadows. Dramatic studio lighting, shallow depth of field, ultra-realistic skin texture, premium fashion photography style. Elegant typography text at the bottom: “DEANESH” in boldmodern letters and “murali” (or remove if needed) in golden cursive handwritten calligraphy. Minimal, classy, luxury poster aesthetic, 4K resolution, high detail, cinematic mood. ",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783155101/prompts/wovz1ta8tjt59hywuwhx.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-04T08:51:41.537Z",
+    "updatedAt": "2026-07-04T08:51:41.537Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmmoszj0rj8",
+    "title": "Eternal Love – Ultra-Realistic 8K Romantic Couple Collage Portrait",
+    "slug": "eternal-love-ultrarealistic-8k-romantic-couple-collage-portrait-o75do",
+    "category": "Couple",
+    "fullPrompt": "Woman: Long dark wavy hair, radiant glowing skin, soft joyful expression.\nOutfit: Elegant cream floral dress with light flowy fabric.\n4 different pose for couple in one picture\nDon't Change The Face\"\n\"girl And Boy\"\n\"Keep Facial Features Same\nSignature: MJ7\"(on top)",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783155240/prompts/wn1vdfb3hasly7o9edeg.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-04T08:54:00.947Z",
+    "updatedAt": "2026-07-04T08:54:00.947Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
   }
 ]

@@ -775,5 +775,26 @@
     "models": [
       "Gemini AI"
     ]
+  },
+  {
+    "id": "cmmurwrpane",
+    "title": "Warrior, Dragons, and Shrine Portrait",
+    "slug": "warrior-dragons-and-shrine-portrait-qaoss",
+    "category": "Fantasy",
+    "fullPrompt": "Ultra-realistic cinematic portrait of a powerful Japanese warrior standing confidently in front of three colossal blue Eastern guardian dragons, photographed in premium Kodak photography with a Bleach Bypass color grade featuring muted colors, reduced saturation, rich contrast, metallic highlights, preserved film grain, realistic skin texture, and dramatic cinematic lighting. Vertical composition, 9:16.\n\nForeground: Full-body warrior standing firmly with feet shoulder-width apart, body facing slightly to the left while the head turns forward exactly like the reference, left hand clenched into a fist, right hand resting naturally on the thick ceremonial red rope belt. Stern, calm, fearless facial expression with sharp eyes and slightly furrowed brows. Short salt-and-pepper spiky hair with faded sides, thick sideburns connected to a neatly trimmed beard and mustache. Natural masculine makeup with realistic pores, subtle skin imperfections, light facial shine, and authentic beard texture.\n\nThe warrior wears an elaborate traditional Japanese kimono with a white inner robe, black outer kimono featuring intricate embroidered red-and-gold dragon motifs across the shoulders and sleeves, oversized loose sleeves, wide dark navy hakama pants with natural fabric folds, thick twisted crimson ceremonial rope belt wrapped around the waist, multiple large antique gold medallions hanging from blue cords, oversized red tassels with blue knot details, intricate black tribal tattoos covering both forearms, and traditional black zori sandals exposing the feet naturally. Every fabric shows realistic stitching, embroidery, wrinkles, weight, and texture.\n\nMidground: Three gigantic mythical blue Eastern dragons encircle the warrior protectively, their enormous serpentine bodies forming a layered composition. One dragon emerges from the left with its mouth open in a powerful roar, another dominates behind the warrior with an aggressive roaring face, while the third appears lower on the right, creating balanced visual depth. Each dragon features pale blue scales, cream-colored horns, long ivory fangs, flowing whiskers, fierce glowing amber eyes, textured reptilian skin, layered scales, and realistic depth. Soft swirling clouds and mystical smoke weave naturally around their bodies without obscuring the warrior.\n\nBackground: Ancient Japanese shrine architecture with weathered stone structures and traditional wooden temple elements, partially hidden behind atmospheric fog and drifting clouds. Soft natural daylight filters through the mist, creating volumetric lighting, subtle god rays, realistic environmental haze, and strong cinematic depth. Neutral earth tones keep the dragons and warrior as the primary focus.\n\nCaptured from a slightly low-angle camera perspective using an 85mm full-frame lens, f/2.8, shallow depth of field, razor-sharp focus on the warrior, realistic perspective, premium editorial fashion photography, hyper-realistic skin, physically accurate lighting, cinematic composition, highly detailed embroidery, authentic Japanese aesthetics, ultra-photorealistic, HDR, 8K, museum-quality realism, no text, no logo, no watermark, no signature, no extra characters.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783151426/prompts/um8rskjiwye3wlwzzw2r.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-04T07:50:27.222Z",
+    "updatedAt": "2026-07-04T07:50:27.222Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
   }
 ]
