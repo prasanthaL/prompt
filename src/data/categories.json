@@ -126,5 +126,149 @@
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782303294/photo-1618005182384-a83a8bd57fbe_hjdgmw.jpg",
     "color": "from-fuchsia-500/30 to-purple-500/30",
     "accent": "bg-fuchsia-500"
+  },
+  {
+    "id": 17,
+    "name": "Fashion",
+    "description": "High-end runway styling, outfit conceptualization, modern streetwear and modeling photography.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783677562/photo-1483985988355-763728e1935b_b2969l.jpg",
+    "color": "from-rose-500/30 to-orange-500/30",
+    "accent": "bg-rose-500"
+  },
+  {
+    "id": 18,
+    "name": "Food",
+    "description": "Delectable culinary shots, commercial food styling, gourmet presentation and realistic food art.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783677600/photo-1504674900247-0877df9cc836_znj8xv.jpg",
+    "color": "from-amber-500/30 to-orange-500/30",
+    "accent": "bg-amber-500"
+  },
+  {
+    "id": 19,
+    "name": "Travel",
+    "description": "Scenic tourist destinations, wanderlust adventures, aerial photography and cultural explorations.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783677640/photo-1488646953014-85cb44e25828_datzkq.jpg",
+    "color": "from-sky-500/30 to-indigo-500/30",
+    "accent": "bg-sky-500"
+  },
+  {
+    "id": 20,
+    "name": "Interior Design",
+    "description": "Sleek living spaces, modern kitchen layouts, furniture staging and luxury home decor visualization.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783677675/photo-1616486338812-3dadae4b4ace_n21zg2.jpg",
+    "color": "from-stone-500/30 to-neutral-500/30",
+    "accent": "bg-stone-500"
+  },
+  {
+    "id": 21,
+    "name": "Cyberpunk",
+    "description": "Neon-drenched streets, high-tech low-life, cybernetic augmentations and futuristic night aesthetics.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783677727/photo-1515621061946-eff1c2a352bd_ocfnef.jpg",
+    "color": "from-fuchsia-500/30 to-cyan-500/30",
+    "accent": "bg-fuchsia-500"
+  },
+  {
+    "id": 22,
+    "name": "Steampunk",
+    "description": "Victorian-era science fiction, clockwork machinery, steam-powered airships and brass/copper designs.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783677757/photo-1578301978693-85fa9c0320b9_nztiya.jpg",
+    "color": "from-amber-700/30 to-yellow-600/30",
+    "accent": "bg-amber-700"
+  },
+  {
+    "id": 23,
+    "name": "Mecha",
+    "description": "Gigantic robotic armor, sci-fi battle suits, mechanical engineering and tactical combat robots.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783677792/photo-1534447677768-be436bb09401_ik5dzd.jpg",
+    "color": "from-blue-600/30 to-slate-500/30",
+    "accent": "bg-blue-600"
+  },
+  {
+    "id": 24,
+    "name": "Horror",
+    "description": "Spooky gothic settings, psychological thrillers, dark shadows, monsters and eerie ambient lighting.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783677825/photo-1505635552518-3448ff116af3_a27r80.jpg",
+    "color": "from-red-950/40 to-stone-900/40",
+    "accent": "bg-red-900"
+  },
+  {
+    "id": 25,
+    "name": "Surreal",
+    "description": "Dreamlike logic, floating structures, melted physics, visual paradoxes and subconscious art concepts.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783677854/photo-1518709268805-4e9042af9f23_rmlwb4.jpg",
+    "color": "from-indigo-500/30 to-fuchsia-500/30",
+    "accent": "bg-indigo-500"
+  },
+  {
+    "id": 26,
+    "name": "Minimalist",
+    "description": "Clean lines, vast empty spaces, flat design, limited color palettes and simple beautiful forms.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783677885/photo-1507608869274-d3177c8bb4c7_zhxdj5.jpg",
+    "color": "from-zinc-500/30 to-slate-500/30",
+    "accent": "bg-zinc-500"
+  },
+  {
+    "id": 27,
+    "name": "Luxury",
+    "description": "Opulent interiors, premium products, designer apparel, high-end lifestyle and golden accent lighting.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783677915/photo-1540555700478-4be289fbecef_tyz8av.jpg",
+    "color": "from-amber-600/30 to-yellow-500/30",
+    "accent": "bg-amber-600"
+  },
+  {
+    "id": 28,
+    "name": "Wedding",
+    "description": "Romantic marital events, elegant receptions, bride and groom portraits, floral decor and joyous moments.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783677946/photo-1519741497674-611481863552_itx5qb.jpg",
+    "color": "from-rose-400/30 to-pink-300/30",
+    "accent": "bg-rose-400"
+  },
+  {
+    "id": 29,
+    "name": "Logo Design",
+    "description": "Vector style corporate branding, minimalist brand marks, emblems and visual identity concepts.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783677977/photo-1626785774573-4b799315345d_xnvh4u.jpg",
+    "color": "from-indigo-600/30 to-blue-500/30",
+    "accent": "bg-indigo-600"
+  },
+  {
+    "id": 30,
+    "name": "Poster Design",
+    "description": "Graphic movie posters, retro event print layouts, typographic designs and illustrative visual themes.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783678004/photo-1579783902614-a3fb3927b6a5_j6eqo1.jpg",
+    "color": "from-orange-500/30 to-rose-500/30",
+    "accent": "bg-orange-500"
+  },
+  {
+    "id": 31,
+    "name": "Characters",
+    "description": "Detailed character design sheets, gaming avatars, concept art sketches and character portraits.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783678031/photo-1560942485-b2a11cc13456_k5l1nv.jpg",
+    "color": "from-violet-500/30 to-purple-500/30",
+    "accent": "bg-violet-500"
+  },
+  {
+    "id": 32,
+    "name": "Mythology",
+    "description": "Ancient Greek, Norse, and Eastern legends, mythological gods, magical realms and historical epic scenes.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783678061/photo-1608155686393-8fdd966d784d_gdvu8r.jpg",
+    "color": "from-yellow-600/30 to-amber-600/30",
+    "accent": "bg-yellow-600"
+  },
+  {
+    "id": 33,
+    "name": "Space",
+    "description": "Deep cosmic nebula vistas, stellar space exploration, planetary surfaces, astronaut details and galaxy stars.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783678090/photo-1451187580459-43490279c0fa_a6tugl.jpg",
+    "color": "from-blue-900/40 to-purple-900/40",
+    "accent": "bg-blue-900"
+  },
+  {
+    "id": 34,
+    "name": "Vintage",
+    "description": "Retro photo aesthetics, sepia tones, film grain styles, mid-century lifestyle and nostalgia visual themes.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783678120/photo-1526304640581-d334cdbbf45e_ongmjg.jpg",
+    "color": "from-amber-800/30 to-orange-700/30",
+    "accent": "bg-amber-800"
   }
 ]

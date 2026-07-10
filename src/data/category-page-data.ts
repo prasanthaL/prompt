@@ -14,6 +14,23 @@ import {
   Car,
   Palette,
   PaintBucket,
+  Shirt,
+  Utensils,
+  Compass,
+  Sofa,
+  Terminal,
+  Cog,
+  Bot,
+  Skull,
+  Eye,
+  Square,
+  Crown,
+  Heart,
+  PenTool,
+  Image,
+  BookOpen,
+  Rocket,
+  Camera
 } from "lucide-react";
 import type { ComponentType } from "react";
 
@@ -38,6 +55,24 @@ export const ICON_MAP: Record<string, ComponentType<any>> = {
   Vehicles: Car,
   "Digital Art": Palette,
   Graffiti: PaintBucket,
+  Fashion: Shirt,
+  Food: Utensils,
+  Travel: Compass,
+  "Interior Design": Sofa,
+  Cyberpunk: Terminal,
+  Steampunk: Cog,
+  Mecha: Bot,
+  Horror: Skull,
+  Surreal: Eye,
+  Minimalist: Square,
+  Luxury: Crown,
+  Wedding: Heart,
+  "Logo Design": PenTool,
+  "Poster Design": Image,
+  Characters: User,
+  Mythology: BookOpen,
+  Space: Rocket,
+  Vintage: Camera,
 };
 
 // ---------------------------------------------------------------------------
@@ -430,6 +465,96 @@ export const categoryDescriptions: Record<
       "AiPromptNest digital art",
     ],
   },
+  fashion: {
+    title: "Fashion AI Art Prompts – Create Beautiful Outfit Designs & Runway Styling | AiPromptNest",
+    description: "Generate breathtaking runway fashion, streetwear, and designer outfits with AiPromptNest's curated fashion prompts. Optimized for Google Gemini and Stable Diffusion.",
+    keywords: ["fashion AI prompts", "clothing designer AI", "streetwear AI art", "runway fashion prompts", "fashion photography AI", "modeling prompts"],
+  },
+  food: {
+    title: "Food Photography AI Prompts – Generate Delectable Gourmet Shots | AiPromptNest",
+    description: "Create studio-quality commercial food photography, gourmet plates, and delicious desserts with curated food AI prompts.",
+    keywords: ["food photography AI", "food styling prompts", "gourmet food AI", "beverage splash AI", "commercial food art"],
+  },
+  travel: {
+    title: "Travel & Landscape AI Prompts – Generate Scenic Tourist Destinations | AiPromptNest",
+    description: "Explore the world through AI. Generate stunning wanderlust photography, famous landmarks, and landscape vistas.",
+    keywords: ["travel AI prompts", "wanderlust AI photography", "landmark AI art", "aerial landscape prompts", "travel scenery AI"],
+  },
+  "interior-design": {
+    title: "Interior Design AI Prompts – Design Beautiful Modern & Luxury Spaces | AiPromptNest",
+    description: "Render photorealistic living rooms, kitchens, offices, and staging layouts with optimized interior design prompts.",
+    keywords: ["interior design AI prompts", "modern home rendering AI", "living room staging prompts", "kitchen design AI", "furniture design prompts"],
+  },
+  cyberpunk: {
+    title: "Cyberpunk AI Art Prompts – Neon Streets & Futuristic Cities | AiPromptNest",
+    description: "Generate cyberpunk aesthetics, futuristic vehicles, neon streetscapes, and augmented character portraits.",
+    keywords: ["cyberpunk AI prompts", "neon city prompts", "futuristic street photography AI", "cybernetic character design"],
+  },
+  steampunk: {
+    title: "Steampunk AI Art Prompts – Clockwork Machinery & Victorian Sci-Fi | AiPromptNest",
+    description: "Summon steam-powered airships, brass clockwork gear designs, and Victorian fantasy concepts with steampunk prompts.",
+    keywords: ["steampunk AI prompts", "clockwork engine prompts", "steam airship AI art", "brass mechanical designs"],
+  },
+  mecha: {
+    title: "Mecha AI Art Prompts – Giant Robotic Armor & Sci-Fi Battlesuits | AiPromptNest",
+    description: "Design massive military mechs, cybernetic armor suits, and tactical robot concepts with optimized prompts.",
+    keywords: ["mecha AI prompts", "robot design AI", "robotic armor prompts", "sci-fi combat mech art"],
+  },
+  horror: {
+    title: "Horror AI Art Prompts – Spooky Gothic Art & Psychological Terror | AiPromptNest",
+    description: "Generate spooky gothic castles, terrifying monsters, and dark cinematic horror scenes with scary AI prompts.",
+    keywords: ["horror AI prompts", "creepy monster generator AI", "gothic horror art prompts", "scary scene AI design"],
+  },
+  surreal: {
+    title: "Surrealism AI Art Prompts – Dreamlike Landscapes & Sublime Visuals | AiPromptNest",
+    description: "Explore dreamlike physics, visual paradoxes, and floating surreal worlds with creative surrealist prompts.",
+    keywords: ["surreal AI prompts", "dream art generator", "surrealism art prompts", "visual paradox AI", "Salvador Dali style prompts"],
+  },
+  minimalist: {
+    title: "Minimalist AI Art Prompts – Clean Designs & Minimal Aesthetics | AiPromptNest",
+    description: "Generate simple flat illustration styles, clean shapes, negative space, and elegant minimalist art designs.",
+    keywords: ["minimalist AI prompts", "clean line art prompts", "minimal design generator", "flat illustration AI"],
+  },
+  luxury: {
+    title: "Luxury Lifestyle AI Prompts – Opulent Interiors & High-End Products | AiPromptNest",
+    description: "Create premium catalog designs, luxury watches, sportscars, and golden-accented lifestyle photography.",
+    keywords: ["luxury AI prompts", "premium lifestyle photography", "gold accent render prompts", "opulent interior design AI"],
+  },
+  wedding: {
+    title: "Wedding Photography AI Prompts – Romantic Receptions & Portraits | AiPromptNest",
+    description: "Generate stunning bridal photoshoots, wedding flowers, receptions, and romantic moments with couple wedding prompts.",
+    keywords: ["wedding AI prompts", "marriage photography prompts", "bridal portrait AI", "wedding decor design prompts"],
+  },
+  "logo-design": {
+    title: "Logo & Brand Design AI Prompts – Minimalist Vector Brandmarks | AiPromptNest",
+    description: "Create company logo designs, brand symbols, flat vectors, and graphic identity mockups with ease.",
+    keywords: ["logo design AI prompts", "vector brandmark prompts", "minimalist emblem AI", "corporate logo generator"],
+  },
+  "poster-design": {
+    title: "Poster Design AI Prompts – Creative Graphic Prints & Movie Posters | AiPromptNest",
+    description: "Design retro movie posters, promotional layouts, aesthetic typography prints, and flyer concept designs.",
+    keywords: ["poster design AI prompts", "movie poster prompts", "vintage poster art", "graphic print layout prompts"],
+  },
+  characters: {
+    title: "Character Design AI Prompts – Gaming Avatars & Concept Art Sheets | AiPromptNest",
+    description: "Design detailed reference sheets, outfits, fantasy avatars, and character sketches with customizable prompts.",
+    keywords: ["character design AI prompts", "reference sheet AI", "gaming avatar prompts", "concept art characters"],
+  },
+  mythology: {
+    title: "Mythology AI Art Prompts – Ancient Gods & Legendary Scenes | AiPromptNest",
+    description: "Summon Zeus, Odin, magical creatures, and epic mythical battles with detailed mythology prompts.",
+    keywords: ["mythology AI prompts", "ancient gods art prompts", "legendary creatures AI", "epic historical scenes"],
+  },
+  space: {
+    title: "Space & Cosmic AI Prompts – Nebula Vistas & Astronaut Exploration | AiPromptNest",
+    description: "Generate deep space nebulas, galaxy stars, planetary rovers, and astronauts on alien worlds.",
+    keywords: ["space AI prompts", "cosmic nebula generator AI", "galaxy landscape prompts", "astronaut photography prompts"],
+  },
+  vintage: {
+    title: "Vintage Photography AI Prompts – Retro Film Grain & Nostalgic Styles | AiPromptNest",
+    description: "Recreate 1970s film stock, sepia photography, nostalgic family polaroids, and classic vintage visuals.",
+    keywords: ["vintage AI prompts", "retro film grain prompts", "polaroid photo generator AI", "1970s aesthetic prompts"],
+  },
 };
 
 // ---------------------------------------------------------------------------
@@ -573,6 +698,150 @@ export const categoryMetaLookup: Record<
     image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=600&q=80",
     statCount: "1,050",
     copies: "28K+",
+  },
+  fashion: {
+    icon: Shirt,
+    accent: "text-rose-500 bg-rose-500/10 border-rose-500/20",
+    color: "from-rose-500/30 to-orange-500/30",
+    image: "https://images.unsplash.com/photo-1483985988355-763728e1935b?w=600&q=80",
+    statCount: "420",
+    copies: "10K+",
+  },
+  food: {
+    icon: Utensils,
+    accent: "text-amber-500 bg-amber-500/10 border-amber-500/20",
+    color: "from-amber-500/30 to-orange-500/30",
+    image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&q=80",
+    statCount: "380",
+    copies: "8K+",
+  },
+  travel: {
+    icon: Compass,
+    accent: "text-sky-500 bg-sky-500/10 border-sky-500/20",
+    color: "from-sky-500/30 to-indigo-500/30",
+    image: "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=600&q=80",
+    statCount: "510",
+    copies: "12K+",
+  },
+  "interior-design": {
+    icon: Sofa,
+    accent: "text-stone-500 bg-stone-500/10 border-stone-500/20",
+    color: "from-stone-500/30 to-neutral-500/30",
+    image: "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=600&q=80",
+    statCount: "310",
+    copies: "6K+",
+  },
+  cyberpunk: {
+    icon: Terminal,
+    accent: "text-fuchsia-500 bg-fuchsia-500/10 border-fuchsia-500/20",
+    color: "from-fuchsia-500/30 to-cyan-500/30",
+    image: "https://images.unsplash.com/photo-1515621061946-eff1c2a352bd?w=600&q=80",
+    statCount: "480",
+    copies: "9K+",
+  },
+  steampunk: {
+    icon: Cog,
+    accent: "text-amber-700 bg-amber-700/10 border-amber-700/20",
+    color: "from-amber-700/30 to-yellow-600/30",
+    image: "https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?w=600&q=80",
+    statCount: "250",
+    copies: "4K+",
+  },
+  mecha: {
+    icon: Bot,
+    accent: "text-blue-600 bg-blue-600/10 border-blue-600/20",
+    color: "from-blue-600/30 to-slate-500/30",
+    image: "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=600&q=80",
+    statCount: "290",
+    copies: "5K+",
+  },
+  horror: {
+    icon: Skull,
+    accent: "text-red-900 bg-red-900/10 border-red-900/20",
+    color: "from-red-950/40 to-stone-900/40",
+    image: "https://images.unsplash.com/photo-1505635552518-3448ff116af3?w=600&q=80",
+    statCount: "340",
+    copies: "7K+",
+  },
+  surreal: {
+    icon: Eye,
+    accent: "text-indigo-500 bg-indigo-500/10 border-indigo-500/20",
+    color: "from-indigo-500/30 to-fuchsia-500/30",
+    image: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600&q=80",
+    statCount: "410",
+    copies: "8K+",
+  },
+  minimalist: {
+    icon: Square,
+    accent: "text-zinc-500 bg-zinc-500/10 border-zinc-500/20",
+    color: "from-zinc-500/30 to-slate-500/30",
+    image: "https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?w=600&q=80",
+    statCount: "620",
+    copies: "14K+",
+  },
+  luxury: {
+    icon: Crown,
+    accent: "text-amber-600 bg-amber-600/10 border-amber-600/20",
+    color: "from-amber-600/30 to-yellow-500/30",
+    image: "https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=600&q=80",
+    statCount: "350",
+    copies: "8K+",
+  },
+  wedding: {
+    icon: Heart,
+    accent: "text-rose-400 bg-rose-400/10 border-rose-400/20",
+    color: "from-rose-400/30 to-pink-300/30",
+    image: "https://images.unsplash.com/photo-1519741497674-611481863552?w=600&q=80",
+    statCount: "280",
+    copies: "5K+",
+  },
+  "logo-design": {
+    icon: PenTool,
+    accent: "text-indigo-600 bg-indigo-600/10 border-indigo-600/20",
+    color: "from-indigo-600/30 to-blue-500/30",
+    image: "https://images.unsplash.com/photo-1626785774573-4b799315345d?w=600&q=80",
+    statCount: "740",
+    copies: "18K+",
+  },
+  "poster-design": {
+    icon: Image,
+    accent: "text-orange-500 bg-orange-500/10 border-orange-500/20",
+    color: "from-orange-500/30 to-rose-500/30",
+    image: "https://images.unsplash.com/photo-1561070791-26c113006238?w=600&q=80",
+    statCount: "490",
+    copies: "11K+",
+  },
+  characters: {
+    icon: User,
+    accent: "text-violet-500 bg-violet-500/10 border-violet-500/20",
+    color: "from-violet-500/30 to-purple-500/30",
+    image: "https://images.unsplash.com/photo-1560942485-b2a11cc13456?w=600&q=80",
+    statCount: "820",
+    copies: "21K+",
+  },
+  mythology: {
+    icon: BookOpen,
+    accent: "text-yellow-600 bg-yellow-600/10 border-yellow-600/20",
+    color: "from-yellow-600/30 to-amber-600/30",
+    image: "https://images.unsplash.com/photo-1599733589046-9b8308b5b50d?w=600&q=80",
+    statCount: "230",
+    copies: "4K+",
+  },
+  space: {
+    icon: Rocket,
+    accent: "text-blue-900 bg-blue-900/10 border-blue-900/20",
+    color: "from-blue-900/40 to-purple-900/40",
+    image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&q=80",
+    statCount: "580",
+    copies: "15K+",
+  },
+  vintage: {
+    icon: Camera,
+    accent: "text-amber-800 bg-amber-800/10 border-amber-800/20",
+    color: "from-amber-800/30 to-orange-700/30",
+    image: "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?w=600&q=80",
+    statCount: "690",
+    copies: "17K+",
   },
 };
 
@@ -856,6 +1125,60 @@ export const categoryFaqData: Record<
         "Google Gemini and Adobe Firefly are excellent for abstract generative art. Stable Diffusion with custom models enables deep stylistic experimentation and handles conceptual and surreal digital compositions very well.",
     },
   ],
+  fashion: [
+    { question: "What are fashion AI prompts?", answer: "Fashion AI prompts are descriptive texts to generate clothing designs, styling setups, and runway or streetwear lookbooks using AI models." }
+  ],
+  food: [
+    { question: "What are food AI prompts?", answer: "Food AI prompts are structured guidelines for generating mouthwatering culinary photography, commercial product styling, and beverage designs." }
+  ],
+  travel: [
+    { question: "What are travel AI prompts?", answer: "Travel AI prompts generate scenic landscapes, drone aerials, vacation aesthetics, and travel-blog-ready destination captures." }
+  ],
+  "interior-design": [
+    { question: "What are interior design AI prompts?", answer: "Interior design AI prompts are commands to render layout staging, modern/luxury homes, specific furniture setups, and light designs." }
+  ],
+  cyberpunk: [
+    { question: "What makes a cyberpunk prompt work?", answer: "Good cyberpunk prompts combine high-technology (cybernetics, neural links) with retro-futuristic urban decay, rain puddles, neon grids, and night lighting." }
+  ],
+  steampunk: [
+    { question: "What is steampunk AI art?", answer: "Steampunk AI art features alternative historical settings powered by steam, brass clocks, mechanical copper gear aesthetics, and Victorian outfits." }
+  ],
+  mecha: [
+    { question: "How do I generate mecha robots?", answer: "Detail the armored panels, glowing energy nodes, scale, weapon payloads, hangar or combat environments, and structural design." }
+  ],
+  horror: [
+    { question: "How do I create horror AI images?", answer: "Use keywords like chiaroscuro lighting, deep volumetric shadows, gothic elements, eerie mist, and vintage film grain." }
+  ],
+  surreal: [
+    { question: "What are surreal AI prompts?", answer: "Surreal prompts utilize dream logic, physical distortions, floating islands, and symbolic imagery inspired by artists like Salvador Dali." }
+  ],
+  minimalist: [
+    { question: "How do I generate minimalist art?", answer: "Focus on vast negative spaces, a constrained color palette, clean vector lines, and simple geometric compositions." }
+  ],
+  luxury: [
+    { question: "What are luxury AI prompts?", answer: "Luxury prompts focus on premium texture design (marble, gold leaf, silk), professional catalog lighting, and high-end lifestyle staging." }
+  ],
+  wedding: [
+    { question: "Can I generate wedding inspiration?", answer: "Yes, wedding prompts allow you to visualize floral arch arrangements, reception table details, bridal styling, and romantic golden hour portraits." }
+  ],
+  "logo-design": [
+    { question: "How do I prompt a logo design?", answer: "Specify minimalist vector styles, clean shapes, branding emblems, isolated white backgrounds, flat design, and zero text gradients." }
+  ],
+  "poster-design": [
+    { question: "What makes a good poster prompt?", answer: "Combine graphic style keys, bold color contrasts, specific design movements (like Bauhaus, Art Deco), and clear layout descriptors." }
+  ],
+  characters: [
+    { question: "How do I design characters?", answer: "Create detailed designers sheet views, outfits, hair textures, equipment, expressions, and posture styles." }
+  ],
+  mythology: [
+    { question: "What can I generate with mythology prompts?", answer: "Epic mythological deities, creatures like sphinxes or dragons, ancient temple ruins, and glowing magic artifacts." }
+  ],
+  space: [
+    { question: "What space prompts are available?", answer: "Space prompts render gorgeous nebulae, cosmic stardust, space shuttles, astronaut landings, and futuristic solar system colonies." }
+  ],
+  vintage: [
+    { question: "How do I achieve a vintage photo look?", answer: "Describe older camera types (e.g., Polaroid, 35mm film), faded tones, vignette, organic film grain, and warm sepia lighting." }
+  ],
 };
 
 // ---------------------------------------------------------------------------
@@ -974,6 +1297,24 @@ export const categoryTipsLookup: Record<string, string[]> = {
     "Specify composition and layout (e.g., symmetrical, chaotic)",
     "Reference influential artists or design schools for style",
   ],
+  fashion: ["Specify designer influences and fabric types", "Describe styling details and lighting setups"],
+  food: ["Incorporate clean culinary staging settings", "Control highlights and volumetric steam textures"],
+  travel: ["Detail panoramic vistas and landmarks", "Adjust lighting moods to capture travel feelings"],
+  "interior-design": ["Define raw staging materials", "Control glass reflection and warm lighting angles"],
+  cyberpunk: ["Describe glowing neon street reflections", "Define cyborg design details"],
+  steampunk: ["Detail copper machinery elements", "Incorporate Victorian-era lifestyle designs"],
+  mecha: ["Highlight massive robotic scale", "Control combat vehicle metal texture shading"],
+  horror: ["Use dark moody atmospheric fog keywords", "Contrast shadows with intense highlights"],
+  surreal: ["Combine visual paradoxes and floating symbols", "Describe dream logic environment textures"],
+  minimalist: ["Utilize high amounts of negative space", "Constrain color palettes to flat tones"],
+  luxury: ["Specify premium textures (gold, marble, velvet)", "Add high-contrast studio-grade lighting"],
+  wedding: ["Detail floral decor and lace fabrics", "Specify soft warm romantic lighting angles"],
+  "logo-design": ["Mention flat vector design styles", "Request clean white isolated backgrounds"],
+  "poster-design": ["Incorporate typographic layout directions", "Reference classic design schools"],
+  characters: ["Generate design reference sheets", "Describe precise attire and poses"],
+  mythology: ["Detail cosmic elements and armor", "Incorporate ancient historical settings"],
+  space: ["Specify planetary surfaces and starry spaces", "Define astronaut exploration details"],
+  vintage: ["Reference old camera film stocks", "Add warm organic film grain styles"],
 };
 
 // ---------------------------------------------------------------------------
@@ -1172,4 +1513,22 @@ export const trendingSearchesLookup: Record<string, string[]> = {
     "art deco poster digital remake",
     "liquid chrome abstract pour",
   ],
+  fashion: ["high fashion runway pose", "cyberpunk street outfits", "autumn luxury trenchcoat", "editorial beauty clothing design"],
+  food: ["steaming gourmet noodle bowl", "luxury cocktail splash", "chocolate lava cake slice", "minimalist organic salad plate"],
+  travel: ["golden gate bridge sunset aerial", "misty swiss alpine valley", "kyoto bamboo grove morning", "santorini white domes sunrise"],
+  "interior-design": ["mid-century modern living room", "japandi minimalist bedroom design", "industrial loft concrete kitchen", "luxury marble bathroom render"],
+  cyberpunk: ["neo-tokyo rainy night street", "cybernetic hacker terminal setup", "cyberpunk delivery hoverbike", "neon glowing augment portrait"],
+  steampunk: ["steampunk airship clockwork deck", "victorian explorer steam goggles", "mechanical gear pocketwatch closeup", "brass locomotive station morning"],
+  mecha: ["giant robotic mech hangar base", "sci-fi combat battlesuit launch", "mecha pilot cockpit HUD view", "heavy armored mechanical robot"],
+  horror: ["misty gothic cemetery dark gates", "creepy shadows on hallway door", "abandoned sanitarium old wheelchair", "dark forest mystical beast silhouette"],
+  surreal: ["melting clocks over desert dunes", "floating islands with waterfalls", "eye in the clouds cosmic sky", "subconscious visual paradox dream"],
+  minimalist: ["flat vector minimalist landscape", "single geometric circle line art", "negative space portrait simple silhouette", "minimalist organic form design"],
+  luxury: ["luxury sports watch gold studio", "private jet interior lounge cabin", "modern emerald diamond ring macro", "opulent velvet lounge warm lighting"],
+  wedding: ["romantic floral arch beach wedding", "bridal gown detailed lace shot", "fairy lights reception dinner dance", "bride and groom portrait sunset"],
+  "logo-design": ["minimalist abstract geometric logo icon", "vector emblem modern tech startup", "flat corporate brand icon monogram", "isolated shield logo design white back"],
+  "poster-design": ["bauhaus graphic style event poster", "cyberpunk cinematic movie poster art", "minimalist typography print layout retro", "illustrated travel adventure poster"],
+  characters: ["concept art character reference sheet", "gaming avatar knight fantasy profile", "sci-fi pilot tactical armor model", "magical wizard sketch design sheet"],
+  mythology: ["mount olympus thunder zeus battle", "odin norse mythology valhalla throne", "anubis ancient egypt temple tomb guard", "glowing poseidon ocean waves trident"],
+  space: ["deep space pink blue nebula cloud", "planetary rover mars canyon search", "astronaut floating space orbit earth", "futuristic moon colony domes starry"],
+  vintage: ["vintage polaroid group photo outdoor", "1970s style warm retro catalog shot", "sepia toned city street vintage cars", "grainy retro portrait nostalgic color"],
 };

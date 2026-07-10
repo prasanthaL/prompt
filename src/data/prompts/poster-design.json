@@ -1,0 +1,107 @@
+[
+  {
+    "id": "poster-design-p1",
+    "title": "Retro Bauhaus Event Poster",
+    "slug": "retro-bauhaus-event-poster-pd49c",
+    "category": "Poster Design",
+    "fullPrompt": "A vintage retro event poster layout in the Bauhaus design style, featuring bold geometric circles and intersecting lines, muted cream background with red, blue and black elements, textured paper print effect, graphic illustration.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783669871/prompts/nkfwspf2npwzbzusfn3i.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 180,
+    "likes": 65,
+    "createdAt": "2026-07-10T12:00:00.000Z",
+    "updatedAt": "2026-07-10T07:51:12.355Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cm7s1g83rnn",
+    "title": "Futuristic Action Movie Poster Description",
+    "slug": "futuristic-action-movie-poster-descripti-w5wz4",
+    "category": "Poster Design",
+    "fullPrompt": "A breathtaking cinematic action movie poster featuring a fearless hero standing in the center of a futuristic city engulfed in flames, dramatic explosions, helicopters overhead, glowing embers filling the air, intense facial expression, flowing coat, high contrast lighting, bold composition, realistic smoke effects, blockbuster Hollywood poster design, premium typography space at the top and bottom, ultra realistic, photorealistic, masterpiece, 8K.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783669928/prompts/qh5htlqp4agtp0isrvrv.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-10T07:52:08.986Z",
+    "updatedAt": "2026-07-10T07:52:08.986Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cm3h1zhwgd3",
+    "title": "Luxury Fashion Advertising Poster Concept",
+    "slug": "luxury-fashion-advertising-poster-concep-onta8",
+    "category": "Poster Design",
+    "fullPrompt": "An elegant luxury fashion advertising poster featuring a stylish model dressed in a premium black designer suit with gold accessories, standing against a sophisticated minimalist background with soft spotlight lighting, clean editorial layout, luxury branding aesthetic, premium magazine-quality composition, realistic skin textures, cinematic lighting, space reserved for logo and promotional text, ultra detailed, photorealistic, masterpiece, 8K.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783670245/prompts/tzdfv6pahxjecqhxoe9b.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-10T07:57:26.256Z",
+    "updatedAt": "2026-07-10T07:57:26.256Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmp63tn4dhs",
+    "title": "Modern Music Concert Poster Design",
+    "slug": "modern-music-concert-poster-design-e4p2x",
+    "category": "Poster Design",
+    "fullPrompt": "A vibrant modern music concert poster featuring a charismatic singer performing under dazzling stage lights, colorful neon laser beams, energetic crowd silhouettes, dynamic smoke effects, bold typography layout, premium event branding design, futuristic visual effects, dramatic lighting, realistic atmosphere, cinematic composition, ultra detailed, professional promotional poster, masterpiece, 8K.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783671113/prompts/pmjmmwcyouxdwybhmtgf.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-10T08:11:53.600Z",
+    "updatedAt": "2026-07-10T08:11:53.600Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmt61lf1f7f",
+    "title": "Maldives Premium Travel Poster Design",
+    "slug": "maldives-premium-travel-poster-design-sw1ch",
+    "category": "Poster Design",
+    "fullPrompt": "A premium travel destination promotional poster showcasing a breathtaking tropical island with crystal-clear turquoise water, luxurious overwater villas, golden sunset, palm trees gently swaying, elegant modern travel advertisement layout, cinematic color grading, realistic reflections, luxury tourism branding aesthetic, reserved space for destination title and promotional text, photorealistic, ultra detailed, masterpiece, 8K.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783671164/prompts/sithgjiqlcqufc5ezqt4.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": true,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-10T08:12:45.511Z",
+    "updatedAt": "2026-07-10T08:12:45.512Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  }
+]

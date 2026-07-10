@@ -1,0 +1,107 @@
+[
+  {
+    "id": "fashion-p1",
+    "title": "High-End Streetwear Runway Model",
+    "slug": "high-end-streetwear-runway-model-a89f",
+    "category": "Fashion",
+    "fullPrompt": "High-fashion model walking down a minimalist concrete runway, wearing oversized avant-garde techwear jacket with subtle neon pink accents, wide-legged trousers, studio lighting, hyper-realistic photo, 8k resolution, photorealistic.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783677245/prompts/t39cdw6fffdggg1947kk.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 120,
+    "likes": 45,
+    "createdAt": "2026-07-10T12:00:00.000Z",
+    "updatedAt": "2026-07-10T09:54:06.717Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmte0zel1vq",
+    "title": "Luxury Editorial Fashion",
+    "slug": "luxury-editorial-fashion-v9wgx",
+    "category": "Fashion",
+    "fullPrompt": "A sophisticated fashion model wearing an elegant black haute couture gown with intricate gold embroidery, standing inside a luxurious marble hall beneath sparkling crystal chandeliers, dramatic flowing fabric, confident pose, cinematic editorial composition, soft diffused lighting, premium Vogue-style fashion photography, realistic skin textures, shallow depth of field, ultra detailed, photorealistic, masterpiece, 8K.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783677297/prompts/bh0bvghhygv3hqueb4jt.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-10T09:54:57.867Z",
+    "updatedAt": "2026-07-10T09:54:57.868Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmilohp4085",
+    "title": "High-End Streetwear",
+    "slug": "highend-streetwear-cxwko",
+    "category": "Fashion",
+    "fullPrompt": "A stylish young model walking confidently through a futuristic urban street wearing premium oversized streetwear, designer sneakers, layered jackets, luxury accessories, reflective sunglasses, vibrant neon city lights, rain-soaked pavement reflecting colorful lights, cinematic urban fashion photography, realistic textures, dynamic movement, editorial magazine quality, masterpiece, photorealistic, 8K.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783677341/prompts/bt6vzusk5zmfnxcbhnqv.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-10T09:55:41.913Z",
+    "updatedAt": "2026-07-10T09:55:41.913Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmv15nhvaku",
+    "title": "Luxury Runway Fashion Show",
+    "slug": "luxury-runway-fashion-show-spg08",
+    "category": "Fashion",
+    "fullPrompt": "A breathtaking luxury fashion runway featuring a supermodel showcasing an avant-garde designer collection with flowing fabrics, metallic accents, dramatic silhouettes, elegant high heels, bright runway spotlights, photographers capturing every moment, glamorous audience, cinematic composition, Vogue editorial style, realistic fabric textures, premium fashion event, ultra detailed, masterpiece, photorealistic, 8K.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783677385/prompts/wdoncauxtady1jbqimjn.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-10T09:56:26.550Z",
+    "updatedAt": "2026-07-10T09:56:26.550Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmvh1od0bl7",
+    "title": "Elegant Autumn Fashion Portrait",
+    "slug": "elegant-autumn-fashion-portrait-rpjcp",
+    "category": "Fashion",
+    "fullPrompt": "An elegant autumn fashion portrait featuring a sophisticated model wearing a luxurious camel wool coat, cashmere scarf, leather gloves, and classic ankle boots, walking through a tree-lined avenue covered in golden autumn leaves, soft golden-hour sunlight, cinematic color grading, premium editorial photography, realistic facial details, natural depth of field, timeless luxury fashion aesthetic, ultra detailed, photorealistic, masterpiece, 8K.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783677431/prompts/bteodkwzdnxder6cwdmw.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-10T09:57:12.498Z",
+    "updatedAt": "2026-07-10T09:57:12.498Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  }
+]

@@ -26,6 +26,22 @@ import {
   HelpCircle,
   ChevronDown,
   RefreshCw,
+  Shirt,
+  Utensils,
+  Compass,
+  Sofa,
+  Terminal,
+  Cog,
+  Bot,
+  Skull,
+  Eye,
+  Square,
+  Crown,
+  PenTool,
+  Image as ImageIcon,
+  BookOpen,
+  Rocket,
+  Camera
 } from "lucide-react";
 import Link from "next/link";
 import { getAllPrompts } from "@/lib/json-db";
@@ -125,6 +141,24 @@ const ICON_MAP: Record<string, React.ComponentType<any>> = {
   Vehicles: Car,
   "Digital Art": Palette,
   Graffiti: PaintBucket,
+  Fashion: Shirt,
+  Food: Utensils,
+  Travel: Compass,
+  "Interior Design": Sofa,
+  Cyberpunk: Terminal,
+  Steampunk: Cog,
+  Mecha: Bot,
+  Horror: Skull,
+  Surreal: Eye,
+  Minimalist: Square,
+  Luxury: Crown,
+  Wedding: Heart,
+  "Logo Design": PenTool,
+  "Poster Design": ImageIcon,
+  Characters: User,
+  Mythology: BookOpen,
+  Space: Rocket,
+  Vintage: Camera,
 };
 
 const categoryConfig = [

@@ -132,7 +132,25 @@ const POPULAR_CATEGORIES = [
   "Nature & Landscape",
   "Animals & Wildlife",
   "Vehicles",
-  "Digital Art"
+  "Digital Art",
+  "Fashion",
+  "Food",
+  "Travel",
+  "Interior Design",
+  "Cyberpunk",
+  "Steampunk",
+  "Mecha",
+  "Horror",
+  "Surreal",
+  "Minimalist",
+  "Luxury",
+  "Wedding",
+  "Logo Design",
+  "Poster Design",
+  "Characters",
+  "Mythology",
+  "Space",
+  "Vintage"
 ];
 
 const SOCIAL_LINKS = [
@@ -297,7 +315,7 @@ export default function Footer() {
             <div className="flex flex-row items-center justify-between sm:justify-start lg:justify-end gap-6 sm:gap-10 border-t border-white/[0.04] lg:border-t-0 lg:border-l lg:border-white/[0.04] pt-6 lg:pt-0 lg:pl-10 shrink-0">
               {[
                 { icon: FileText, value: "500+", label: "Prompts" },
-                { icon: LayoutGrid, value: "16", label: "Categories" },
+                { icon: LayoutGrid, value: "34", label: "Categories" },
                 { icon: Zap, value: "Daily", label: "Updates" },
                 { icon: ShieldCheck, value: "100%", label: "Free" },
               ].map((stat, i) => (

@@ -1,0 +1,107 @@
+[
+  {
+    "id": "travel-p1",
+    "title": "Misty Santorini Sunrise Vista",
+    "slug": "misty-santorini-sunrise-vista-t39d",
+    "category": "Travel",
+    "fullPrompt": "A breathtaking high-angle view of white domes and houses in Santorini overlooking the Aegean Sea during a golden misty sunrise, soft orange and purple sky hues, professional travel photography, cinematic lighting, 8k resolution.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783676647/prompts/adlfdxuam3324ukcjqsx.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 180,
+    "likes": 65,
+    "createdAt": "2026-07-10T12:00:00.000Z",
+    "updatedAt": "2026-07-10T09:44:08.198Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cm56mz7qi57",
+    "title": "Tropical Paradise Escape",
+    "slug": "tropical-paradise-escape-9r6ce",
+    "category": "Travel",
+    "fullPrompt": "A breathtaking tropical island paradise featuring crystal-clear turquoise waters, pristine white sand beaches, luxurious overwater villas, swaying coconut palm trees, vibrant coral reefs visible beneath the water, a glowing golden sunset reflecting across the ocean, cinematic drone perspective, realistic tropical atmosphere, ultra detailed textures, luxury travel photography, photorealistic, masterpiece, 8K.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783676723/prompts/plkv9oa454mu8jaiehdy.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-10T09:45:24.343Z",
+    "updatedAt": "2026-07-10T09:45:24.343Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cm9l8dqrjnz",
+    "title": "European Fairytale Town",
+    "slug": "european-fairytale-town-wnbc3",
+    "category": "Travel",
+    "fullPrompt": "A charming European fairytale village with colorful historic buildings, cobblestone streets, elegant cafés, flower-filled balconies, an ancient stone bridge crossing a peaceful river, majestic mountains in the distance, warm golden-hour sunlight, cinematic travel photography, realistic architecture, vibrant natural colors, ultra detailed, photorealistic, masterpiece, 8K.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783676782/prompts/lmrwnzpd77cxwerd3ziu.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-10T09:46:22.788Z",
+    "updatedAt": "2026-07-10T09:46:22.788Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmz86w1ph8y",
+    "title": "Luxury Desert Adventure",
+    "slug": "luxury-desert-adventure-rlnj4",
+    "category": "Travel",
+    "fullPrompt": "A luxury desert adventure featuring endless golden sand dunes beneath a dramatic sunset, a caravan of camels walking gracefully across the landscape, an elegant Bedouin-style camp illuminated by glowing lanterns, a breathtaking star-filled sky emerging above, cinematic composition, realistic sand textures, warm golden lighting, ultra detailed, photorealistic travel photography, masterpiece, 8K.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783676825/prompts/rj1f3fznd3a0gezzjizt.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-10T09:47:06.373Z",
+    "updatedAt": "2026-07-10T09:47:06.373Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cm3h5ucl0s1",
+    "title": "Japanese Cherry Blossom Journey",
+    "slug": "japanese-cherry-blossom-journey-3ity8",
+    "category": "Travel",
+    "fullPrompt": "A peaceful springtime journey through Japan featuring an ancient red pagoda surrounded by blooming cherry blossom trees, a tranquil river reflecting pink petals, traditional wooden bridges, distant snow-capped Mount Fuji, visitors dressed in elegant kimonos, soft morning mist, cinematic composition, natural lighting, ultra realistic textures, luxury travel photography, masterpiece, photorealistic, 8K.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783676880/prompts/sgqfw8xglz4ok6isj7ma.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-10T09:48:01.432Z",
+    "updatedAt": "2026-07-10T09:48:01.432Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  }
+]

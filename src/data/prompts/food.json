@@ -1,0 +1,107 @@
+[
+  {
+    "id": "food-p1",
+    "title": "Gourmet Steaming Ramen Bowl Closeup",
+    "slug": "gourmet-steaming-ramen-bowl-closeup-f29e",
+    "category": "Food",
+    "fullPrompt": "Macro shot of a gourmet steaming Japanese ramen bowl, rich broth with glistening oil droplets, perfectly soft-boiled egg, fresh green onions, tender pork belly, moody dark studio background, warm side lighting, culinary photography, 8k resolution, photorealistic.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783676966/prompts/jx5ewx0jksqoypv7qqmr.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 150,
+    "likes": 50,
+    "createdAt": "2026-07-10T12:00:00.000Z",
+    "updatedAt": "2026-07-10T09:49:27.067Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmipr4bh7xi",
+    "title": "Gourmet Steak Dinner",
+    "slug": "gourmet-steak-dinner-rf6lq",
+    "category": "Food",
+    "fullPrompt": "A perfectly grilled premium Wagyu steak served on a handcrafted ceramic plate, topped with melting herb butter, accompanied by roasted baby potatoes, grilled asparagus, fresh rosemary, and colorful vegetables, elegant fine dining presentation, warm ambient candlelight, cinematic food photography, shallow depth of field, realistic steam rising from the steak, ultra detailed textures, photorealistic, masterpiece, 8K.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783677020/prompts/anijlhtliy83rjoxfpko.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-10T09:50:21.408Z",
+    "updatedAt": "2026-07-10T09:50:21.408Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmut6oik49o",
+    "title": "Luxury Dessert Collection",
+    "slug": "luxury-dessert-collection-p11pv",
+    "category": "Food",
+    "fullPrompt": "An elegant luxury dessert display featuring glossy chocolate mousse cakes, colorful French macarons, fresh strawberries, blueberries, edible gold leaf, artisan pastries, beautifully arranged on a marble table, soft natural window light, premium bakery presentation, cinematic composition, realistic reflections, hyper detailed food styling, photorealistic, masterpiece, 8K.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783677070/prompts/j6dnbzyyzc3d8f2aqvei.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-10T09:51:11.126Z",
+    "updatedAt": "2026-07-10T09:51:11.126Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmhrnbi7vgd",
+    "title": "Traditional Asian Feast",
+    "slug": "traditional-asian-feast-7trtj",
+    "category": "Food",
+    "fullPrompt": "A vibrant traditional Asian feast served on a beautifully crafted wooden dining table, featuring sushi, ramen, grilled seafood, dumplings, fresh vegetables, decorative garnishes, ceramic bowls, bamboo chopsticks, warm lantern lighting, authentic restaurant atmosphere, cinematic food photography, ultra realistic textures, rich natural colors, masterpiece, photorealistic, 8K.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783677116/prompts/dys2pxkjhozqjzpx4p32.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-10T09:51:57.011Z",
+    "updatedAt": "2026-07-10T09:51:57.011Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cm9zdnerszo",
+    "title": "Artisan Breakfast Spread",
+    "slug": "artisan-breakfast-spread-9f2z1",
+    "category": "Food",
+    "fullPrompt": "A luxurious artisan breakfast spread featuring buttery croissants, freshly baked sourdough bread, avocado toast, fluffy pancakes topped with maple syrup and berries, perfectly brewed cappuccino with latte art, fresh orange juice, rustic wooden table, soft morning sunlight streaming through a nearby window, cozy café atmosphere, cinematic food photography, realistic textures, ultra detailed, masterpiece, photorealistic, 8K.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783677168/prompts/lhhy0i6mbo4ay1cvd59w.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-10T09:52:49.430Z",
+    "updatedAt": "2026-07-10T09:52:49.431Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  }
+]

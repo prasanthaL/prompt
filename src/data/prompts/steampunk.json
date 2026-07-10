@@ -1,0 +1,107 @@
+[
+  {
+    "id": "steampunk-p1",
+    "title": "Clockwork Steam Locomotive",
+    "slug": "clockwork-steam-locomotive-sp19a",
+    "category": "Steampunk",
+    "fullPrompt": "An intricate brass and copper steam locomotive train chugging through a Victorian-era station, clouds of white steam, large mechanical clockwork gears visible on the side, warm amber lighting, cinematic details, 8k.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783675754/prompts/o5sktveuukate48pnwq2.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 130,
+    "likes": 39,
+    "createdAt": "2026-07-10T12:00:00.000Z",
+    "updatedAt": "2026-07-10T09:29:24.462Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmw9nde4rbu",
+    "title": "Steampunk Airship Captain",
+    "slug": "steampunk-airship-captain-3qeh9",
+    "category": "Steampunk",
+    "fullPrompt": "A fearless steampunk airship captain standing proudly on the deck of a colossal flying battleship above the clouds, wearing an elegant Victorian leather coat, brass mechanical arm, intricate brass goggles, pocket watch, steam-powered machinery surrounding the bridge, rotating gears, copper pipes, giant propellers, cinematic golden sunset, volumetric clouds, ultra realistic metal textures, highly detailed, photorealistic, masterpiece, 8K.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783675825/prompts/pr2hq2tdhmygouytpxdd.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-10T09:30:26.650Z",
+    "updatedAt": "2026-07-10T09:30:26.650Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmxr97i9lhq",
+    "title": "Steampunk City of Brass",
+    "slug": "steampunk-city-of-brass-qxzca",
+    "category": "Steampunk",
+    "fullPrompt": "A magnificent steampunk metropolis built entirely from polished brass, copper, and iron, towering clock towers, massive rotating gears embedded into buildings, steam-powered monorails crossing elegant bridges, glowing gas lamps illuminating cobblestone streets, Victorian architecture blended with futuristic engineering, cinematic atmosphere, warm golden lighting, photorealistic materials, Unreal Engine 5 quality, masterpiece, ultra detailed, 8K.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783675872/prompts/lrqiqga8ecaklt0ijyjw.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-10T09:31:13.608Z",
+    "updatedAt": "2026-07-10T09:31:13.608Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cm8jyaj6c43",
+    "title": "Steampunk Mechanical Owl",
+    "slug": "steampunk-mechanical-owl-8qcod",
+    "category": "Steampunk",
+    "fullPrompt": "An intricately engineered steampunk owl crafted from polished brass, antique bronze, and copper, glowing sapphire crystal eyes, exposed clockwork gears, precision springs, delicate mechanical feathers, perched on an antique Victorian street lamp, swirling steam, warm lantern light, cinematic composition, realistic metallic reflections, highly detailed craftsmanship, photorealistic, masterpiece, 8K.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783675923/prompts/fcuoz4ve5qgoqxsigweu.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-10T09:32:03.878Z",
+    "updatedAt": "2026-07-10T09:32:03.878Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cm9jd7rcw4i",
+    "title": "Steampunk Inventor's Laboratory",
+    "slug": "steampunk-inventors-laboratory-8y49h",
+    "category": "Steampunk",
+    "fullPrompt": "An extraordinary Victorian inventor's laboratory filled with steam-powered machines, enormous rotating gears, glowing Tesla coils, copper pipes, antique scientific instruments, brass robots under construction, floating blueprints, vintage bookshelves, warm Edison bulb lighting, cinematic composition, realistic dust particles, photorealistic textures, ultra detailed engineering, masterpiece, Unreal Engine 5 quality, 8K.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783675971/prompts/i5u8ej3zny66pfpdg7cq.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-10T09:32:52.033Z",
+    "updatedAt": "2026-07-10T09:32:52.033Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  }
+]

@@ -796,5 +796,26 @@
     "models": [
       "Gemini AI"
     ]
+  },
+  {
+    "id": "cman66obpuh",
+    "title": "GTA VI Promotional Poster Design",
+    "slug": "gta-vi-promotional-poster-design-ju3xs",
+    "category": "Fantasy",
+    "fullPrompt": " Transform the provided image into an official GTA VI-inspired promotional game poster featuring the original character in a confident full-body stance, viewed from an extreme low-angle perspective to emphasize power, presence, and heroism. Preserve the subject's facial identity, expression, proportions, clothing, and recognizable pose for instant identification while allowing complete creative freedom in the surrounding composition.\n Design the artwork in Rockstar's modern GTA VI promotional style with a vibrant, high-energy, collage-driven layout. Surround the character with a dynamic blend of neon-lit cityscapes, luxury vehicles, palm trees, dramatic architecture, glowing street lights, tropical skies, subtle action elements, cinematic environmental details, and stylish graphic overlays that enhance the atmosphere without distracting from the main subject.\nUse bold Miami-inspired color grading featuring vivid pinks, oranges, cyan, teal, deep purples, and warm sunset tones, balanced with realistic lighting and natural skin tones. Incorporate dramatic golden-hour rim lighting, soft ambient illumination, volumetric light rays, cinematic shadows, reflective surfaces, and atmospheric depth for a premium, photorealistic finish.\nCompose the poster in a perfectly balanced 1:1 square format with the character dominating the foreground and layered background elements creating depth and visual impact. Apply professional poster design principles including strong focal hierarchy, dynamic perspective, negative space, subtle motion cues, crisp textures, ultra-sharp detail, high dynamic range, realistic materials, and premium AAA video game marketing quality.\nThe final result should look like an authentic next-generation GTA VI official promotional poster with cinematic realism, polished graphic design, and impeccable visual storytelling.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783664399/prompts/dol5ynwmvhdqdac0guu9.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-10T06:20:00.384Z",
+    "updatedAt": "2026-07-10T06:20:00.384Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
   }
 ]

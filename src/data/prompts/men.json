@@ -502,5 +502,26 @@
     "models": [
       "Chat GPT"
     ]
+  },
+  {
+    "id": "cmza5tp3585",
+    "title": "Cinematic Digital Memory Portrait Prompt",
+    "slug": "cinematic-digital-memory-portrait-prompt-p7z5x",
+    "category": "Men",
+    "fullPrompt": "Create a cinematic, hyper-realistic concept portrait of a young man sitting on his bed at night, illuminated only by the warm glow of his smartphone. Hundreds of floating photos and vertical reels emerge from the phone, forming a glowing spiral around him that wraps across the room like a digital memory timeline. The room is dimly lit with soft shadows, cozy blankets, a study desk, and minimalist décor.The floating images emit warm golden light, creating a magical atmosphere with realistic reflections, volumetric lighting, depth of field, ultra-detailed textures, emotional storytelling, premium editorial photography, surreal yet believable composition, 9:16 vertical, 8K resolution.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783664027/prompts/c8ppvumdwy28t8pvrle1.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-10T06:13:48.726Z",
+    "updatedAt": "2026-07-10T06:13:48.726Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
   }
 ]

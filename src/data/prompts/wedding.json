@@ -1,0 +1,111 @@
+[
+  {
+    "id": "wedding-p1",
+    "title": "Rustic Floral Wedding Arch",
+    "slug": "rustic-floral-wedding-arch-wd29a",
+    "category": "Wedding",
+    "fullPrompt": "An elegant rustic wooden wedding arch decorated with white roses, eucalyptus leaves, and flowing sheer white fabric, set on an outdoor grassy lawn during golden hour sunset, romantic warm lighting, high detail, 8k.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783671903/prompts/ahfmieopw2l50sxukxbf.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 130,
+    "likes": 42,
+    "createdAt": "2026-07-10T12:00:00.000Z",
+    "updatedAt": "2026-07-10T08:25:04.849Z",
+    "tags": [
+      "wedding",
+      "flowers",
+      "romantic"
+    ],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cml0vjfigtp",
+    "title": "Photorealistic Royal Wedding Prompt Description",
+    "slug": "photorealistic-royal-wedding-prompt-desc-hipwf",
+    "category": "Wedding",
+    "fullPrompt": "A breathtaking royal wedding ceremony inside a magnificent European palace, an elegant bride wearing a luxurious white gown with an extra-long flowing veil, a handsome groom dressed in a perfectly tailored black tuxedo, crystal chandeliers illuminating the grand ballroom, marble floors, thousands of white roses, golden candlelight, cinematic composition, soft romantic lighting, realistic skin textures, luxurious atmosphere, photorealistic, ultra detailed, masterpiece, 8K.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783672135/prompts/yetfbkwyvq0duutl5ysf.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-10T08:28:55.910Z",
+    "updatedAt": "2026-07-10T08:28:55.910Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmriwogkhra",
+    "title": "Dreamy Sunset Beach Wedding Photography",
+    "slug": "dreamy-sunset-beach-wedding-photography-afzsb",
+    "category": "Wedding",
+    "fullPrompt": "A dreamy beach wedding at golden sunset, a beautiful bride and groom walking hand in hand along the shoreline, soft ocean waves, tropical palm trees, elegant floral arch decorated with white roses and pampas grass, warm golden-hour lighting, cinematic romance, realistic reflections on wet sand, luxurious wedding photography style, shallow depth of field, photorealistic, ultra detailed, masterpiece, 8K.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783672194/prompts/f8glkpuqx4wl6zps6ztx.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-10T08:29:55.338Z",
+    "updatedAt": "2026-07-10T08:29:55.338Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cm33bhizk8q",
+    "title": "Luxury Wedding Portrait Prompt Expansion",
+    "slug": "luxury-wedding-portrait-prompt-expansion-v5d6s",
+    "category": "Wedding",
+    "fullPrompt": "An elegant luxury wedding portrait of a smiling bride and groom embracing beneath a breathtaking floral arch, the bride wearing an intricately embroidered couture wedding dress with sparkling diamonds, the groom dressed in a premium black velvet tuxedo, soft natural lighting, romantic garden background filled with blooming flowers, cinematic composition, realistic facial expressions, high-end editorial wedding photography, ultra detailed, photorealistic, masterpiece, 8K.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783672250/prompts/vrxaxu8a2gkuvlkfb4dj.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-10T08:30:50.487Z",
+    "updatedAt": "2026-07-10T08:30:50.487Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmdc5x8qypo",
+    "title": "Enchanted Forest Wedding Scene Prompt",
+    "slug": "enchanted-forest-wedding-scene-prompt-l5kho",
+    "category": "Wedding",
+    "fullPrompt": "A magical wedding ceremony in an enchanted forest, towering ancient trees wrapped in glowing fairy lights, floating lanterns, thousands of blooming flowers, a bride wearing an ethereal lace wedding gown and a groom in an elegant forest-green suit, soft morning mist, warm sunlight streaming through the trees, cinematic fantasy romance, dreamy atmosphere, volumetric lighting, ultra realistic textures, photorealistic, masterpiece, 8K.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783672312/prompts/tblubbvn1aafytvbxrof.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-10T08:31:52.468Z",
+    "updatedAt": "2026-07-10T08:31:52.468Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  }
+]

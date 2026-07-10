@@ -1,0 +1,107 @@
+[
+  {
+    "id": "interior-design-p1",
+    "title": "Minimalist Japandi Living Room",
+    "slug": "minimalist-japandi-living-room-id49a",
+    "category": "Interior Design",
+    "fullPrompt": "An airy Japandi style living room with light oak wood floors, low-profile linen sofa, potted bonsai tree, sliding shoji screens, soft natural lighting filtering through windows, architectural render, high realism, 8k.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783676340/prompts/ivdl2wmgqovzawyuuip8.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 140,
+    "likes": 48,
+    "createdAt": "2026-07-10T12:00:00.000Z",
+    "updatedAt": "2026-07-10T09:39:01.343Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmmevx87bb5",
+    "title": "Modern Luxury Living Room",
+    "slug": "modern-luxury-living-room-46heh",
+    "category": "Interior Design",
+    "fullPrompt": "A breathtaking modern luxury living room featuring floor-to-ceiling glass windows overlooking a stunning city skyline, elegant Italian marble flooring, premium beige sectional sofa, sculptural coffee table, warm oak wood paneling, designer pendant lighting, indoor tropical plants, minimalist décor, soft ambient lighting, cinematic composition, realistic reflections, photorealistic materials, architectural visualization, Unreal Engine 5 quality, ultra detailed, masterpiece, 8K.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783676427/prompts/dn6zkgmryccw4pyxzwat.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-10T09:40:28.538Z",
+    "updatedAt": "2026-07-10T09:40:28.538Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmevbxubscw",
+    "title": "Scandinavian Bedroom Retreat",
+    "slug": "scandinavian-bedroom-retreat-d2onl",
+    "category": "Interior Design",
+    "fullPrompt": "A serene Scandinavian-inspired bedroom with soft neutral tones, natural oak wood flooring, king-size upholstered bed with luxurious linen bedding, large panoramic windows, flowing sheer curtains, elegant bedside lamps, minimalist artwork, cozy reading chair, warm morning sunlight streaming through the room, Japandi aesthetic, photorealistic textures, cinematic interior photography, masterpiece, ultra detailed, 8K.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783676476/prompts/putbdgsw9is8yithlhft.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-10T09:41:17.183Z",
+    "updatedAt": "2026-07-10T09:41:17.183Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmwzpez4yuo",
+    "title": "Contemporary Luxury Kitchen",
+    "slug": "contemporary-luxury-kitchen-vhhk1",
+    "category": "Interior Design",
+    "fullPrompt": "A sophisticated contemporary luxury kitchen featuring a large white marble island with waterfall edges, matte black cabinetry, brushed brass hardware, integrated smart appliances, elegant pendant lights, natural oak shelving, panoramic windows overlooking lush greenery, soft indirect LED lighting, premium interior styling, photorealistic architectural rendering, cinematic composition, ultra detailed, masterpiece, 8K.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783676533/prompts/muw15rhn0chy26rntrib.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-10T09:42:13.652Z",
+    "updatedAt": "2026-07-10T09:42:13.652Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmdnadvrlud",
+    "title": "Luxury Hotel Lobby",
+    "slug": "luxury-hotel-lobby-aaob4",
+    "category": "Interior Design",
+    "fullPrompt": "A grand five-star hotel lobby with soaring ceilings, magnificent crystal chandeliers, polished marble floors, elegant curved reception desk, luxurious lounge seating, indoor waterfalls, towering decorative plants, warm golden ambient lighting, modern architectural design, premium hospitality interior, cinematic wide-angle composition, realistic reflections, photorealistic materials, Unreal Engine 5 quality, masterpiece, ultra detailed, 8K.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783676585/prompts/swhb4jt3ic3x8whs0lk2.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-10T09:43:06.862Z",
+    "updatedAt": "2026-07-10T09:43:06.862Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  }
+]

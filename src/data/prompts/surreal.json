@@ -1,0 +1,107 @@
+[
+  {
+    "id": "surreal-p1",
+    "title": "Floating Islands of Waterfalls",
+    "slug": "floating-islands-of-waterfalls-sr49a",
+    "category": "Surreal",
+    "fullPrompt": "A dreamlike landscape featuring grassy floating islands with waterfalls pouring water into the clouds below, a massive clock face blended into the blue sky, surrealism art style, vibrant pastel color palette, high detail.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783673007/prompts/ixe1jsxma9qsdetejlsn.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 150,
+    "likes": 55,
+    "createdAt": "2026-07-10T12:00:00.000Z",
+    "updatedAt": "2026-07-10T08:43:28.871Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmupd8zvsh9",
+    "title": "Stairway to the Floating Moon",
+    "slug": "stairway-to-the-floating-moon-p8j20",
+    "category": "Surreal",
+    "fullPrompt": "A surreal dreamscape featuring an endless marble staircase floating through the clouds toward a gigantic glowing full moon, waterfalls cascading upward into the sky, enormous floating islands covered in blooming flowers, giant white birds soaring through golden mist, impossible gravity, cinematic composition, soft ethereal lighting, vibrant pastel colors, volumetric clouds, hyper realistic textures, surreal fantasy atmosphere, masterpiece, ultra detailed, 8K.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783673087/prompts/lydkh2rghqbaprh0soyl.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-10T08:44:50.160Z",
+    "updatedAt": "2026-07-10T08:44:50.160Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmd8ixc5qu0",
+    "title": "The Ocean Above the Sky",
+    "slug": "the-ocean-above-the-sky-f01j7",
+    "category": "Surreal",
+    "fullPrompt": "A breathtaking surreal world where a vast crystal-clear ocean flows across the sky while whales and jellyfish gracefully swim overhead, floating boats drifting among clouds, tiny islands suspended in midair, radiant sunset illuminating the impossible landscape, dreamlike atmosphere, cinematic lighting, photorealistic water effects, vibrant colors, ultra detailed, masterpiece, 8K.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783673168/prompts/xy7ne14fqn9f6ty8ohwk.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-10T08:46:08.865Z",
+    "updatedAt": "2026-07-10T08:46:08.865Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmo6lmnpw0q",
+    "title": "The Giant Clock Forest",
+    "slug": "the-giant-clock-forest-lblyy",
+    "category": "Surreal",
+    "fullPrompt": "A mysterious surreal forest filled with enormous antique clocks growing like ancient trees, glowing golden butterflies flying between floating clock gears, rivers made of liquid light winding through the landscape, soft blue mist, dramatic cinematic lighting, impossible architecture, symbolic dream world, photorealistic textures, highly detailed fantasy environment, masterpiece, 8K.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783673237/prompts/szqe4fknkyqltyvkookk.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-10T08:47:17.519Z",
+    "updatedAt": "2026-07-10T08:47:17.519Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmukfa7jfll",
+    "title": "Mirror Dimension",
+    "slug": "mirror-dimension-0cv82",
+    "category": "Surreal",
+    "fullPrompt": "A surreal mirror dimension where a lone traveler walks across an endless reflective glass surface beneath an upside-down city suspended in the sky, floating crystal fragments orbiting around, glowing portals opening between realities, impossible geometry, cinematic wide-angle composition, dramatic volumetric lighting, vibrant cosmic colors, hyper realistic reflections, dreamlike atmosphere, masterpiece, ultra detailed, 8K.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783673290/prompts/djlpruxoecf55qba14si.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-10T08:48:11.247Z",
+    "updatedAt": "2026-07-10T08:48:11.247Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  }
+]

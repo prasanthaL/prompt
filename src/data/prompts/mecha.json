@@ -1,0 +1,107 @@
+[
+  {
+    "id": "mecha-p1",
+    "title": "Tactical Armored Mech Hangar",
+    "slug": "tactical-armored-mech-hangar-mc29b",
+    "category": "Mecha",
+    "fullPrompt": "A giant tactical robotic mecha suit parked inside a dark military hangar, yellow warning lights flashing, engineers working on scaffolding around the mecha, intricate wire cables, metallic carbon fiber armor, 8k resolution, cinematic.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783674752/prompts/wnblfqb4udq114tbs7j8.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 160,
+    "likes": 55,
+    "createdAt": "2026-07-10T12:00:00.000Z",
+    "updatedAt": "2026-07-10T09:12:32.946Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmpwvzigq5q",
+    "title": "Mecha Dragon",
+    "slug": "mecha-dragon-a2zf2",
+    "category": "Mecha",
+    "fullPrompt": "A colossal mechanical dragon forged from polished titanium and carbon fiber, glowing crimson energy core visible beneath segmented armor plates, razor-sharp metallic wings fully extended, blazing plasma breath illuminating the battlefield, intricate hydraulic joints, advanced mechanical engineering, futuristic city ruins in the background, cinematic lighting, volumetric smoke, photorealistic metal textures, Unreal Engine 5 quality, ultra detailed, masterpiece, 8K.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783675400/prompts/ytasakmi6x7zahcpleai.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-10T09:23:23.165Z",
+    "updatedAt": "2026-07-10T09:23:23.165Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmsw2t4hub9",
+    "title": "Mecha Samurai Warrior",
+    "slug": "mecha-samurai-warrior-e3ct4",
+    "category": "Mecha",
+    "fullPrompt": "A futuristic mecha samurai standing beneath neon-lit skies, wearing intricately engineered titanium armor with glowing blue energy circuits, oversized plasma katana resting on the shoulder, floating holographic interface surrounding the warrior, rain-soaked streets reflecting neon lights, cinematic cyberpunk atmosphere, hyper realistic mechanical details, volumetric lighting, photorealistic, masterpiece, 8K.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783675548/prompts/oi0rtvgygd5eziznlrc9.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-10T09:25:49.653Z",
+    "updatedAt": "2026-07-10T09:25:49.653Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmrxf7bumtz",
+    "title": "Mecha Tiger",
+    "slug": "mecha-tiger-btxl7",
+    "category": "Mecha",
+    "fullPrompt": "A powerful robotic tiger built from matte black alloy and brushed gold armor, glowing amber eyes, segmented mechanical tail, exposed pistons, precision hydraulic legs, energy claws crackling with electricity, futuristic jungle environment illuminated by bioluminescent plants, cinematic action pose, ultra realistic metal textures, dynamic lighting, Unreal Engine 5, masterpiece, highly detailed, 8K.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783675609/prompts/brxuzrfze1ngtxoyi7ct.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-10T09:26:50.684Z",
+    "updatedAt": "2026-07-10T09:26:50.684Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmyjgnlpzf8",
+    "title": "Mecha Guardian Titan",
+    "slug": "mecha-guardian-titan-svnz6",
+    "category": "Mecha",
+    "fullPrompt": "A gigantic humanoid mecha guardian protecting a futuristic megacity, towering over skyscrapers, reinforced titanium armor, glowing blue reactor core embedded in the chest, massive shoulder cannons, articulated mechanical hands, advanced hydraulic systems, flying drones circling overhead, dramatic sunset lighting, volumetric clouds, cinematic scale, photorealistic engineering details, Unreal Engine 5 quality, masterpiece, ultra detailed, 8K.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783675687/prompts/z4knf6cgxpg6k6u2jexe.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-10T09:28:08.492Z",
+    "updatedAt": "2026-07-10T09:28:08.492Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  }
+]

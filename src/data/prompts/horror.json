@@ -1,0 +1,107 @@
+[
+  {
+    "id": "horror-p1",
+    "title": "Misty Haunted Victorian Mansion",
+    "slug": "misty-haunted-victorian-mansion-hr39d",
+    "category": "Horror",
+    "fullPrompt": "An eerie Victorian mansion engulfed in thick white fog at night, dead trees framing the yard, a single window glowing with a dim green light, creepy atmospheric shadows, gothic horror aesthetic, high contrast, 8k.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783673356/prompts/hidmhjzmisjoppj1lpft.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": true,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 190,
+    "likes": 75,
+    "createdAt": "2026-07-10T12:00:00.000Z",
+    "updatedAt": "2026-07-10T08:49:17.857Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmved6cagyn",
+    "title": "The Haunted Manor",
+    "slug": "the-haunted-manor-9bsfj",
+    "category": "Horror",
+    "fullPrompt": "An abandoned Victorian mansion standing alone on a fog-covered hill beneath a blood-red full moon, broken stained-glass windows, twisted dead trees surrounding the estate, glowing lanterns flickering in the darkness, mysterious shadows lurking behind cracked doors, thick rolling mist, cinematic gothic horror atmosphere, dramatic moonlight, ultra realistic textures, volumetric fog, eerie silence, photorealistic, masterpiece, 8K.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783673437/prompts/trdlsmni8moguwpupl11.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-10T08:50:38.104Z",
+    "updatedAt": "2026-07-10T08:50:38.104Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmw8jelc2s7",
+    "title": "The Cursed Forest",
+    "slug": "the-cursed-forest-rtcrz",
+    "category": "Horror",
+    "fullPrompt": "A terrifying ancient forest where towering black trees twist into impossible shapes, glowing crimson eyes watching from the darkness, abandoned stone statues covered in moss, thick supernatural fog crawling across the ground, scattered lanterns casting eerie light, haunting atmosphere, cinematic horror lighting, ultra detailed environment, photorealistic textures, masterpiece, 8K.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783673490/prompts/dtoaahihky88bsnfa84h.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-10T08:51:30.735Z",
+    "updatedAt": "2026-07-10T08:51:30.735Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmajrjbbgko",
+    "title": "The Forgotten Cathedral",
+    "slug": "the-forgotten-cathedral-op85x",
+    "category": "Horror",
+    "fullPrompt": "An ancient abandoned cathedral consumed by darkness, towering gothic architecture, shattered stained-glass windows illuminated by pale moonlight, massive stone gargoyles watching silently, floating candles, mysterious glowing runes carved into the floor, cinematic horror atmosphere, dramatic volumetric lighting, realistic weathered stone textures, hyper detailed, masterpiece, 8K.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783673563/prompts/qseqkmywmlihf5zxk9lc.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-10T08:52:43.415Z",
+    "updatedAt": "2026-07-10T08:52:43.415Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmyw187jma7",
+    "title": "The Ghost Ship",
+    "slug": "the-ghost-ship-ldc6g",
+    "category": "Horror",
+    "fullPrompt": "A massive abandoned ghost ship drifting across a stormy midnight ocean beneath a glowing full moon, torn black sails fluttering in the wind, ancient wooden decks covered in thick mist, mysterious blue ghostly lights emerging from broken windows, crashing waves, cinematic horror atmosphere, dramatic lightning illuminating the vessel, ultra realistic water reflections, photorealistic textures, masterpiece, 8K.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783673610/prompts/vqewikpgxku1xmr11j23.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-10T08:53:31.330Z",
+    "updatedAt": "2026-07-10T08:53:31.330Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  }
+]

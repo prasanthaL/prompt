@@ -1,0 +1,107 @@
+[
+  {
+    "id": "cyberpunk-p1",
+    "title": "Neo-Tokyo Rainy Alleyway",
+    "slug": "neo-tokyo-rainy-alleyway-cp59b",
+    "category": "Cyberpunk",
+    "fullPrompt": "A narrow rain-soaked alleyway in a futuristic Neo-Tokyo city, glowing cyan and magenta holographic advertisements, steam rising from grates, a hovering courier drone passing overhead, high-contrast night lighting, 8k resolution, cinematic.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783676064/prompts/eppqutyw8fuyhpvejvhf.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 210,
+    "likes": 88,
+    "createdAt": "2026-07-10T12:00:00.000Z",
+    "updatedAt": "2026-07-10T09:34:27.464Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmtclxwmgwy",
+    "title": "Neon City Vigilante",
+    "slug": "neon-city-vigilante-pky9q",
+    "category": "Cyberpunk",
+    "fullPrompt": "A mysterious cyberpunk vigilante standing on a rain-soaked rooftop overlooking a sprawling neon megacity at midnight, wearing a sleek black tactical coat with glowing cyan circuitry, advanced cybernetic eye implant, holographic HUD projected around the face, flying vehicles weaving between towering skyscrapers, vibrant pink and blue neon signs reflecting on wet streets, cinematic atmosphere, volumetric rain, ultra realistic textures, Unreal Engine 5 quality, masterpiece, photorealistic, 8K.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783676099/prompts/ereygmjy8zscrxpicahj.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-10T09:35:00.019Z",
+    "updatedAt": "2026-07-10T09:35:00.019Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmwjqt2n1lm",
+    "title": "Cyberpunk Night Market",
+    "slug": "cyberpunk-night-market-ppx1e",
+    "category": "Cyberpunk",
+    "fullPrompt": "A bustling cyberpunk night market filled with glowing holographic advertisements, robotic street vendors, futuristic food stalls, people with advanced cybernetic enhancements, colorful neon lanterns, reflective rain-covered pavement, floating drones delivering packages, cinematic wide-angle composition, vibrant magenta, cyan, and purple lighting, photorealistic environment, highly detailed, masterpiece, 8K.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783676154/prompts/phmmntph1cqqb6yyhyya.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-10T09:35:55.225Z",
+    "updatedAt": "2026-07-10T09:35:55.225Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cm5zrr0cr3k",
+    "title": "Android Assassin",
+    "slug": "android-assassin-rgzwk",
+    "category": "Cyberpunk",
+    "fullPrompt": "A futuristic android assassin with flawless synthetic skin and exposed mechanical components, wearing matte black nano-armor illuminated by glowing red energy lines, dual plasma blades in hand, standing inside a high-tech industrial corridor, holographic interfaces floating nearby, dramatic cinematic lighting, volumetric fog, intricate robotics engineering, photorealistic metal textures, Unreal Engine 5 quality, masterpiece, ultra detailed, 8K.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783676208/prompts/p2ctgramcscefmk6ypjq.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-10T09:36:48.750Z",
+    "updatedAt": "2026-07-10T09:36:48.750Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmedoj23zxa",
+    "title": "Cyberpunk Skyline",
+    "slug": "cyberpunk-skyline-y1fh2",
+    "category": "Cyberpunk",
+    "fullPrompt": "A breathtaking cyberpunk skyline featuring colossal neon skyscrapers, massive holographic billboards, elevated magnetic trains, flying cars, glowing energy towers, dense futuristic cityscape stretching to the horizon beneath a stormy night sky, heavy rain reflecting vibrant neon colors across glass buildings, cinematic composition, volumetric lighting, hyper realistic architecture, photorealistic, masterpiece, 8K.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783676267/prompts/qaywzqpvq7scem5xws8o.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-10T09:37:47.993Z",
+    "updatedAt": "2026-07-10T09:37:47.993Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  }
+]

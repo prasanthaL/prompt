@@ -250,5 +250,47 @@
     "models": [
       "Gemini AI"
     ]
+  },
+  {
+    "id": "cmstio4pyyd",
+    "title": "Ultra-Realistic Studio Portrait Prompt Generation",
+    "slug": "ultrarealistic-studio-portrait-prompt-generation-ze4cy",
+    "category": "Women",
+    "fullPrompt": "Create an ultra-realistic full-body studio portrait using the uploaded image as the identity reference. Preserve the person's exact facial features, face shape, hairstyle, skin tone, eye shape, body proportions, and overall identity with extremely high accuracy. This prompt must work perfectly for both men and women. IMAGE FORMAT: - Instagram Post (4:5 aspect ratio, mandatory) - Vertical composition - 8K Ultra HD - Hyper-realistic - Professional fashion editorial photography POSE:\nThe subject is standing in a relaxed, confident pose with both hands inside the pockets. One leg is naturally crossed in front of the other while leaning slightly to one side, creating a stylish casual fashion pose. The subject is looking directly at the camera with a calm and confident expression. OUTFIT:\nGenerate a premium monochromatic outfit in a single color chosen automatically to complement the person's appearance (examples: burgundy, black, beige, navy, olive, white, charcoal, emerald, cream, etc.). The outfit should consist of: - Oversized sweatshirt or hoodie - Matching jogger pants or tailored casual trousers - Clean white premium sneakers If the uploaded image already contains suitable clothing, recreate it in the same premium style while keeping the monochromatic look. BACKGROUND:\nMinimal luxury studio background with a smooth dark grey gradient. Soft shadows on the floor. Clean premium editorial aesthetic with no distractions. TEXT ELEMENT: Place a large vertical stack of bold 3D white letters beside the subject. The text must read exactly: \"{{YOUR_NAME}}\" (each letter stacked vertically from top to bottom). Examples: MAURYA M A U R Y A The letters should be: - Huge - Thick 3D extruded typography - Matte white finish - Soft realistic shadows\nPositioned on the right side of the subject - Extending almost from the floor to the top of the frame - Perfectly aligned vertically - Premium luxury branding style LIGHTING: Professional studio lighting with: - Large softbox key light - Gentle rim light - Soft fill light - Natural skin tones - High dynamic range - Cinematic contrast - Luxury fashion magazine quality CAMERA: 85mm portrait lens Eye-level camera angle f/2.8 aperture Sharp focus Natural perspective Photorealistic details QUALITY:\nUltra realistic Hyper detailed Editorial fashion photography Luxury studio aesthetic Extremely sharp face Realistic fabric texture Natural skin pores Accurate proportions Photorealistic shadows Premium color grading No watermark No logo No extra people No background clutter",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783664144/prompts/mgbzznrrbuyl0yazug7t.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-10T06:15:44.742Z",
+    "updatedAt": "2026-07-10T06:15:44.742Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmkj4wl73iz",
+    "title": "Hyperrealistic Alice in Wonderland Prompt",
+    "slug": "hyperrealistic-alice-in-wonderland-prompt-ic9gg",
+    "category": "Women",
+    "fullPrompt": "Appearance, skin tone, eyes, and hair are strictly from the FaceID reference. A live person is in the shot, not a photo. The face conveys a state of extreme shock and confusion: wide-eyed, a stiff facial expression, and a mouth open in a silent scream. The skin texture is highly realistic, with subtle pores and a natural, wet sheen.\n\nAction and Pose:\nA dynamic fall into a deep, surreal hole. The girl is in a free-falling, upside-down state, her body flexed, creating the illusion of weightlessness. One hand is desperately extended toward the viewer (a highly cropped perspective), her fingers splayed, as if trying to grasp something. The other hand is thrown to the side. Her hair is blowing violently upward, creating a swirling effect.\n\nEquipment and Materials:\nA classic Victorian dress, tailored from real materials. The blue fabric is thick, matte cotton or fine linen with realistic folds and creases from the wind. The white apron and frills are made of thin, starched lace, with detailed embroidery and visible folds.  The black headband is made of heavy silk or velvet. The socks are striped—a thick knit with a distinct texture. The shoes are made of shiny leather, reflecting the shimmer of the surroundings.\n\nEnvironment and Atmosphere:\nThe space inside a dark, infinite cylindrical hole is filled with a magical mist and floating objects. Surrounding the protagonist, in a chaotic swirl:\n- An antique pocket watch with a gold chain and cracked glass, with detailed gears.\n- A large wooden floor clock with a carved case made of dark wood.\n- Playing cards made of thick, old paper, with gold stamping, scattered like a fan.\n- A fresh red rose with velvety petals, dewdrops, and sharp thorns.\n- Dust particles, flashes, and small particles float in the air, illuminated by a magical light from below.\n\nLighting and Camera:\nComplex cinematic lighting. The main light source is below, inside the hole (bottom lighting), creating dramatic shadows on the face and highlighting the edges of clothing. Soft contrasting light (rim lighting) separates the figure from the dark background.\n\n Camera: Super wide-angle lens (14-24mm) to enhance the fall effect and perspective distortion. Top-down perspective (High angle), viewing the falling figure from behind. Depth of field focuses on the face, blurring foreground and background objects.\n\nStyle and quality:\nRaw, hyperrealistic, 8K, film image, cinematic color grading (dark blue and deep red), detailed skin textures, pores, imperfections, motion blur on flying objects, volumetric light, Unreal Engine 5.2 render style, high dynamic range.\n\nFormat:\n9:16",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783664202/prompts/papy8sta9nms8pdgwebk.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-10T06:16:42.686Z",
+    "updatedAt": "2026-07-10T06:16:42.686Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
   }
 ]

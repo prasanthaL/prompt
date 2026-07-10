@@ -9,8 +9,9 @@ export async function POST(req: Request) {
       return NextResponse.json({ error: "Missing required fields" }, { status: 400 });
     }
 
-    // Simple slug generator
-    const slug = title
+    // Simple slug generator - truncate title to 40 chars to prevent extremely long filenames and Next.js tag errors
+    const truncatedTitle = title.slice(0, 40);
+    const slug = truncatedTitle
       .toLowerCase()
       .replace(/[^\w ]+/g, "")
       .replace(/ +/g, "-") + "-" + Math.random().toString(36).substring(2, 7);

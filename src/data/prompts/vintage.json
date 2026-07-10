@@ -1,0 +1,107 @@
+[
+  {
+    "id": "vintage-p1",
+    "title": "Nostalgic 1970s Polaroid Beach Day",
+    "slug": "nostalgic-1970s-polaroid-beach-day-vt29c",
+    "category": "Vintage",
+    "fullPrompt": "A nostalgic retro Polaroid style snapshot of a group of friends laughing at the beach, faded warm colors, slight vignetting, vintage 1970s film grain, authentic old-school photo vibe, nostalgic analog texture.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783667026/prompts/wvdnzj8wdm6ikhmtua12.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": true,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 140,
+    "likes": 55,
+    "createdAt": "2026-07-10T12:00:00.000Z",
+    "updatedAt": "2026-07-10T07:04:39.947Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmhxcalmg0n",
+    "title": "1940s Gentleman Cinematic Photo Prompt",
+    "slug": "1940s-gentleman-cinematic-photo-prompt-uh1fp",
+    "category": "Vintage",
+    "fullPrompt": "A distinguished gentleman in a perfectly tailored 1940s three-piece suit, wearing a classic fedora and leather gloves, standing beside a polished vintage automobile on a rain-soaked cobblestone street. Warm golden sunset light reflects through old European buildings, cinematic composition, authentic vintage fashion, realistic skin texture, shallow depth of field, Kodak Portra film look, subtle film grain, muted colors, timeless elegance, ultra detailed, photorealistic, 8K masterpiece.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783667163/prompts/rc1iawpjj52f4efokcu5.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-10T07:06:06.837Z",
+    "updatedAt": "2026-07-10T07:06:06.837Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmg5963evo4",
+    "title": "1950s European Town Photography Prompt",
+    "slug": "1950s-european-town-photography-prompt-9zmy9",
+    "category": "Vintage",
+    "fullPrompt": "A charming European town during the 1950s with cobblestone streets, antique street lamps, colorful classic buildings, vintage bicycles, retro cafés, people dressed in elegant period clothing, soft golden-hour sunlight, nostalgic atmosphere, Kodak Ektachrome film style, realistic textures, cinematic perspective, natural lighting, highly detailed, ultra realistic, 8K photography.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783667231/prompts/zueov2ooohwbrkwnxivr.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-10T07:07:11.630Z",
+    "updatedAt": "2026-07-10T07:07:11.630Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cm5xon0dk1n",
+    "title": "1930s Art Deco Living Room",
+    "slug": "1930s-art-deco-living-room-3cpbv",
+    "category": "Vintage",
+    "fullPrompt": "An elegant vintage living room inspired by the 1930s Art Deco era featuring antique leather sofas, polished wooden furniture, brass chandeliers, ornate fireplace, vintage bookshelves, Persian carpet, warm ambient lighting, luxurious classic interior, realistic materials, cinematic composition, soft shadows, film grain, timeless atmosphere, ultra detailed, photorealistic, 8K.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783667292/prompts/ngmqkgxhzzrhng5inowl.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-10T07:08:12.515Z",
+    "updatedAt": "2026-07-10T07:08:12.515Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmh9fn5zfqg",
+    "title": "1920s Steam Train Sunrise Prompt",
+    "slug": "1920s-steam-train-sunrise-prompt-ogdgs",
+    "category": "Vintage",
+    "fullPrompt": "A luxurious 1920s steam train traveling through breathtaking countryside at sunrise, elegant passengers in vintage clothing looking through polished wooden windows, classic brass details, gentle steam rising into the morning sky, cinematic wide-angle composition, nostalgic travel aesthetic, warm golden light, Kodak film color grading, highly detailed environment, photorealistic, masterpiece, ultra realistic, 8K.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783667353/prompts/x1znnpb1j3sr5gfn0ndv.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-10T07:09:14.636Z",
+    "updatedAt": "2026-07-10T07:09:14.636Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  }
+]

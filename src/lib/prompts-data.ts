@@ -110,8 +110,14 @@ export const getCachedPromptBySlugOrId = (identifier: string) =>
       const all = loadAllPrompts();
       return all.find((p) => p.id === identifier || p.slug === identifier) ?? null;
     },
-    [`prompt-${identifier}`],
-    { tags: ["prompts", `prompt-${identifier}`], revalidate: REVALIDATE_SECONDS }
+    [`prompt-${identifier.length > 50 ? identifier.slice(0, 50) + '-' + identifier.slice(-10) : identifier}`],
+    {
+      tags: [
+        "prompts",
+        `prompt-${identifier.length > 50 ? identifier.slice(0, 50) + '-' + identifier.slice(-10) : identifier}`
+      ],
+      revalidate: REVALIDATE_SECONDS
+    }
   )();
 
 /**
