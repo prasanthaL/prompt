@@ -523,5 +523,110 @@
     "models": [
       "Gemini AI"
     ]
+  },
+  {
+    "id": "cmx50w0o287",
+    "title": "Cinematic Double Exposure Portrait Prompt",
+    "slug": "cinematic-double-exposure-portrait-promp-lygn6",
+    "category": "Men",
+    "fullPrompt": "Generate a cinematic double exposure portrait of the uploaded handsome man with stylish hair, peaceful confident expression, looking side upward wearing a pastel yellow textured shirt, black trendy sunglasses. Inside his silhouette, the same man appears full body standing on a rain-soaked rocky beach with both arms spread, smiling gently, looking upward, wearing a open navy blue shirt with rolled up sleeve over a white t-shirt, black trousers, white sneakers, smartwatch. The background inside features faded crashing waves, colorful bougainvillea flowers near the shoreline, wet rocks, drifting sea mist, gentle rainfall, and distant birds. Outer background is softly faded with dreamy rain textures, cool cinematic color grading, ultra-realistic, sharp focus, AR 4:5, 85mm lens, HDR, 8K. Maintain the face exactly the same as the uploaded photo.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783754610/prompts/fmsz18rpjode8vfniwdf.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-11T07:23:31.572Z",
+    "updatedAt": "2026-07-11T07:25:56.829Z",
+    "tags": [],
+    "models": [
+      "Chat GPT"
+    ]
+  },
+  {
+    "id": "cm7l31gdbso",
+    "title": "3D App Icon Grid Design",
+    "slug": "3d-app-icon-grid-design-c6uhp",
+    "category": "Men",
+    "fullPrompt": "A 3D grid layout of 12 distinct square app icons. Each icon features a realistic man (image Uploaded), wearing stylish modern outfits that match the color palette of that specific app. The apps include versions of Spotify, Netflix, TikTok, Gmail, Google, Safari, App Store, Chrome, Clock, Calendar, Instagram, and Notes. The man is interacting with or posing inside the 3D frame of each app icon.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783754819/prompts/jvgdkrkkkp18gnsl3oh5.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-11T07:26:59.889Z",
+    "updatedAt": "2026-07-11T07:26:59.889Z",
+    "tags": [],
+    "models": [
+      "Chat GPT"
+    ]
+  },
+  {
+    "id": "cmjv99ywlh4",
+    "title": "North Indian Men Fashion Editorial",
+    "slug": "north-indian-men-fashion-editorial-xzb3u",
+    "category": "Men",
+    "fullPrompt": "Ultra-realistic premium fashion editorial portrait of six stylish north indian boys 100 % same face (ages 30–32) posing together in a luxury minimalist studio. Warm beige seamless background with soft natural gradient, clean white geometric platforms of different heights, premium children's fashion campaign aesthetic.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783754947/prompts/j1jvp6zbhkmtrpuh4jip.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-11T07:29:07.582Z",
+    "updatedAt": "2026-07-11T07:29:07.582Z",
+    "tags": [],
+    "models": [
+      "Chat GPT"
+    ]
+  },
+  {
+    "id": "cmg26vjs6dc",
+    "title": "Cinematic Biker Scene Image Prompt",
+    "slug": "cinematic-biker-scene-image-prompt-1mvdc",
+    "category": "Men",
+    "fullPrompt": "Ultra realistic cinematic night biker scene on a quiet uknhighway, vertical 9:16 composition. The subject and Pertamina gas station are positioned entirely on the LEFT side of the frame. A real Indonesian man based on my uploaded face photo stands beside a properly parked black sport motorcycle near the roadside shoulder, leaning casually against the side of the bike. Full body visible but camera slightly zoomed in for a more intimate cinematic composition.The subject is looking away from the camera toward the empty highway, off-camera gaze, calm and contemplative mood. Helmet placed naturally on top of the motorcycle fuel tank, not worn. Realistic face, messy black hair, natural skin texture, cinematic lighting. Outfit fully black: black overshirt jacket, black t-shirt, black jeans, black boots.The RIGHT side of the frame is dominated by an empty dark highway with wet asphalt reflections and a highly detailed futuristic navigation map embedded directly into the asphalt road itself, not floating holograms, not transparent UI panels. A glowing golden smart-road route line stretches naturally along the road perspective toward Uk, with realistic illuminated cracks and embedded digital pathways inside the asphalt texture. Detailed road-map elements integrated into the street surface: glowing route line, ETA, duration, distance, speedometer, navigation icons, weather icons, route markers, and subtle location labels “Your” and “Name” appearing directly on the road like advanced future highway technology. The map perspective follows the natural road angle perfectly and emits soft orange reflections onto the wet asphalt.Quiet empty road, sparse distant lights, cinematic orange street lamps, dramatic shadows, realistic photography, moody atmosphere, ultra detailed, low angle cinematic composition, premium movie poster quality. Keep original aspect ratio. ",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783755742/prompts/u53t2iesaa8f8vjewpsd.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-11T07:42:23.109Z",
+    "updatedAt": "2026-07-11T07:42:23.109Z",
+    "tags": [],
+    "models": [
+      "Chat GPT"
+    ]
+  },
+  {
+    "id": "cmauesi5axq",
+    "title": "Futuristic moments in golden light",
+    "slug": "futuristic-moments-in-golden-light-wpvx7",
+    "category": "Men",
+    "fullPrompt": "Use the uploaded image as the identity reference. Preserve the person's face with extremely high accuracy. Do not alter the facial structure, eyes, eyebrows, nose, lips, skin tone, hairstyle (unless it naturally matches the original), facial proportions, age, or overall identity. The generated image must clearly look like the exact same person from the uploaded photo.Create a premium Instagram 4:5 portrait (1080×1350) that looks like a futuristic smartphone gallery interface floating in 3D space. Display five elegant glass photo cards arranged in a curved carousel, with the center card larger and highlighted while the surrounding cards gradually decrease in size and blur slightly to create realistic depth. Each card should feature the same person in different stylish candid poses wearing elegant modern fashion.The background of each photo should represent different premium urban environments during golden hour, blue hour, café moments, rainy streets, luxury shopping districts, rooftop views, or city nightlife. The interface should resemble a high-end smartphone gallery with ultra-clean glassmorphism UI, rounded corners, soft reflections, subtle transparency, glowing edges, realistic shadows, depth of field, and premium lighting.The center card should have a warm golden glow around its border, making it the primary focus. At the top-left, display: Moments 3278 Photos, 142 Videos At the top-right, include a minimalist search icon and three-dot menu. For every photo card, automatically generate realistic metadata such as: Date (e.g. Yesterday, May 17, May 19, etc.) Time Photo title (e.g. Golden Hour, Coffee Time, Rainy Day, City Walk, Evening Lights) Location using randomly selected Indian cities only such as Mumbai, Delhi, Bengaluru, Hyderabad, Chennai, Kolkata, Pune, Jaipur, Ahmedabad, Lucknow, Chandigarh, Kochi, Goa, Udaipur, Shimla, Varanasi, Indore, Surat, Bhopal, Dehradun, Gangtok, Srinagar, Mysuru, Amritsar, etc. Never use non-Indian cities or countries such as Seoul, Tokyo, New York, Paris, London, or Korea. Always display only authentic Indian city names.At the bottom of the interface, include premium navigation icons with the camera button highlighted in the center. Use warm cinematic lighting, luxury editorial photography, realistic reflections, soft bloom, shallow depth of field, photorealistic skin texture, premium UI design, ultra-clean typography, and an Apple-inspired modern interface. Maintain a sophisticated beige, gold, and charcoal color palette with subtle glass effects.The final image should be ultra-realistic, cinematic, highly detailed, luxury UI concept art, photorealistic, 8K quality, masterpiece, HDR, perfectly centered composition, with no logos, watermarks, or copyrighted brand names. Ensure that all displayed locations are automatically chosen from Indian cities only.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783757063/prompts/ku6cp8sdmsgcn1u9mbcj.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-11T08:04:24.815Z",
+    "updatedAt": "2026-07-11T08:04:24.815Z",
+    "tags": [],
+    "models": [
+      "Chat GPT"
+    ]
   }
 ]

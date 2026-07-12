@@ -2518,5 +2518,26 @@
     "models": [
       "Gemini AI"
     ]
+  },
+  {
+    "id": "cmi0kpekp68",
+    "title": "Surreal Impasto Painting Style Prompt",
+    "slug": "surreal-impasto-painting-style-prompt-4j8z3",
+    "category": "Portrait",
+    "fullPrompt": "Use the provided reference photos as the only source of identity for the characters. Preserve the original faces with maximum similarity. Do not change, beautify, stylize, age, smooth, reshape, or reinterpret any facial features. For the male subject (attached), preserve exactly: eyes, eyelids, eyebrows, nose, lips, cheeks, chin, ears, face shape, skin tone, skin texture, age, and natural facial character.For the female subject, preserve exactly: eyes, eyelids, eyebrows, nose, lips, cheeks, chin, ears, face shape, skin tone, skin texture, age, and natural facial character. If any part of this prompt conflicts with the reference photos, the reference faces must override all instructions. Do not mix identities. Do not create a new face. Do not make the face look like another person. SCENE DESCRIPTION:Create a surreal, ultra-realistic impasto 3D painting style photograph in vertical 9:16 aspect ratio. A bearded male artist is standing inside a rustic traditional art studio. He is wearing a white sleeveless top and a black cap. He is holding a wooden painter’s palette in one hand and several paint brushes in the other hand. His facial expression looks amazed, dazzled, and emotionally captivated as he looks directly at the woman’s face. In front of him, a beautiful Asian woman is physically emerging from a large canvas placed on an easel. Her upper body is coming out of the painting into the real world. Both of her hands are gently touching the male artist’s chest in a soft, intimate, emotional gesture. The woman is wearing an elegant white dress. Parts of her dress, skin, back, and body edges are made of thick textured impasto paint, peeling paint layers, splattered paint, and floating gold flakes.The paint texture should look dimensional, tactile, and realistic, as if the canvas is transforming into a living person. The canvas, woman, paint layers, and real studio environment must blend naturally, creating a magical transition between painting and reality. VISUAL STYLE:Surreal impasto 3D painting effect, hyper-realistic photograph, cinematic composition, realistic human anatomy, realistic skin texture, thick oil paint texture, dramatic painterly details, tactile layered paint, gold flakes flying in the air, emotional and ethereal atmosphere, fine art photography, museum-quality visual, 8k quality. LIGHTING AND ENVIRONMENT: Rustic art studio interior, wooden easel, canvas, paint tools, old textured walls, soft natural window light, warm cinematic shadows, realistic depth of field, soft highlights, dramatic but natural lighting, elegant emotional mood. CAMERA AND COMPOSITION: Vertical portrait composition, aspect ratio 9:16. Medium full-body cinematic framing. The male artist and the woman must both be clearly visible. Focus on the emotional interaction between their faces and hands.Keep the woman emerging from the canvas as the main surreal visual element. NEGATIVE PROMPT: 2D flat painting, cartoon, anime, illustration, low realism, plastic skin, fake face, changed identity, beautified face, younger face, older face, mixed identity, different person, distorted face, asymmetrical face, extra limbs, extra arms, extra hands, extra fingers, missing fingers, deformed hands, mutated fingers, bad anatomy, broken body, blurry, low quality, dark lighting, underexposed, overexposed, modern studio, neon colors, messy composition, missing canvas, missing easel, missing palette, missing brushes, watermark, logo, text, caption, frame border. Keep original aspect ratio. ",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783755849/prompts/maua5trwcggjehoeuu1h.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-11T07:44:09.799Z",
+    "updatedAt": "2026-07-11T07:44:09.799Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
   }
 ]
