@@ -154,14 +154,14 @@
     "fullPrompt": "A romantic cinematic portrait of a stylish couple embracing lovingly, the man wearing black outfit and sunglasses with a well-groomed beard, the woman in an elegant black dress smiling softly, intimate pose with warm emotions. A glowing golden circular halo behind them, dark matte black background with soft vignette shadows. Dramatic studio lighting, shallow depth of field, ultra-realistic skin texture, premium fashion photography style. Elegant typography text at the bottom: “DEANESH” in boldmodern letters and “murali” (or remove if needed) in golden cursive handwritten calligraphy. Minimal, classy, luxury poster aesthetic, 4K resolution, high detail, cinematic mood. ",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783155101/prompts/wovz1ta8tjt59hywuwhx.webp",
     "isPremium": false,
-    "isTrending": false,
-    "isLatest": false,
-    "isFeatured": false,
+    "isTrending": true,
+    "isLatest": true,
+    "isFeatured": true,
     "author": "Admin",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-04T08:51:41.537Z",
-    "updatedAt": "2026-07-04T08:51:41.537Z",
+    "updatedAt": "2026-07-15T07:49:28.326Z",
     "tags": [],
     "models": [
       "Gemini AI"
@@ -679,14 +679,14 @@
     "fullPrompt": "A romantic couple inside a colorful hot air balloon floating above misty mountains at sunrise, golden light, dreamy travel atmosphere, cinematic adventure photography, masterpiece, 8K.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783680272/prompts/fadijbjcty0afpbhjsp8.webp",
     "isPremium": false,
-    "isTrending": false,
+    "isTrending": true,
     "isLatest": false,
     "isFeatured": false,
     "author": "Admin",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T10:44:32.858Z",
-    "updatedAt": "2026-07-10T10:44:32.858Z",
+    "updatedAt": "2026-07-15T07:44:51.774Z",
     "tags": [],
     "models": [
       "Gemini AI"
@@ -721,14 +721,14 @@
     "fullPrompt": "A high-fashion, cinematic double-exposure composite. A stylish young couple, man with same dark hair and a groomed goatee is the subject. In the foreground, they are stands full-body on a floating platform, In the background, a massive, RowSemi-transparent close-up portrait of the same couple looking upward. Both wearng matching royal blue pink outfit. The background is a minimalist royal sky with white artistic paint splatter effects framing the edges",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783757487/prompts/ll2ovy8r7bunhnqmyzu6.webp",
     "isPremium": false,
-    "isTrending": false,
+    "isTrending": true,
     "isLatest": false,
     "isFeatured": false,
     "author": "Admin",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-11T08:11:28.297Z",
-    "updatedAt": "2026-07-11T08:11:28.297Z",
+    "updatedAt": "2026-07-15T07:42:13.923Z",
     "tags": [],
     "models": [
       "Chat GPT"
@@ -784,17 +784,59 @@
     "fullPrompt": "Transform this image [Upload Your Image] into a 64K DSLR shot resolution of A creative, low-angle lifestyle photograph of a couple standing outdoors, captured from ground level looking upward toward the sky. A young man (same face as the uploaded image) and woman lean toward each other from opposite sides of the frame, smiling warmly as they form a heart shape together with their hands in the center of the composition. Their fingers meet precisely, creating a symbolic heart silhouette against a soft, overcast sky. The man (same face as the uploaded image) is positioned at the top of the frame, wearing a light beige sleeveless knit top and neutral trousers. He has short, dark hair, a well-groomed beard, light facial stubble, and a cheerful, relaxed expression as he looks down toward the camera. A silver wristwatch is visible on his arm, adding a subtle modern detail. The woman appears at the bottom of the frame,",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783762510/prompts/h9cdiyekewionjymutof.webp",
     "isPremium": false,
-    "isTrending": false,
+    "isTrending": true,
     "isLatest": false,
     "isFeatured": false,
     "author": "Admin",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-11T09:35:10.567Z",
-    "updatedAt": "2026-07-11T09:35:10.567Z",
+    "updatedAt": "2026-07-15T07:41:48.533Z",
     "tags": [],
     "models": [
       "Chat GPT"
+    ]
+  },
+  {
+    "id": "cmtru7gmxpo",
+    "title": "Black-and-White Collage Portrait Creation",
+    "slug": "blackandwhite-collage-portrait-creatio-yyzjm",
+    "category": "Couple",
+    "fullPrompt": "Create a modern black-and-white collage portrait of a stylish young man and woman wearing black sunglasses, a white oversized shirt, and black trousers. The collage should have multiple rounded rectangular frames stacked vertically with soft shadows and a minimal gray studio background",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784103776/prompts/f1weq9fbjzu9gghfllp4.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-15T08:22:55.284Z",
+    "updatedAt": "2026-07-15T08:22:55.284Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmp3szaxad8",
+    "title": "Double Exposure: Boy and Girl",
+    "slug": "double-exposure-boy-and-girl-k4sak",
+    "category": "Couple",
+    "fullPrompt": "A high-resolution cinematic double-exposure concept art. In the foreground, an 18-year-same Indian boy with a same hairstyle. green field during a dramatic sunset. He is wearing a same outfit and black trousers (no earbuds). His arms are wide open, looking up at the sky. In the background, faded into the dramatic cloudy sky, is a giant, ethereal portrait of a beautiful girl covering her face with her hand, . Overall Name Your Name",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784103990/prompts/ltkqa0eihsgv9qneowk0.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-15T08:26:29.674Z",
+    "updatedAt": "2026-07-15T08:26:29.674Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
     ]
   }
 ]

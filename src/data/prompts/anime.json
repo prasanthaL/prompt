@@ -452,14 +452,14 @@
     "views": 0,
     "likes": 0,
     "createdAt": "2026-05-17T16:00:05.934Z",
-    "updatedAt": "2026-06-22T05:55:14.866Z",
+    "updatedAt": "2026-07-15T07:38:39.578Z",
     "tags": [],
     "models": [
       "Gemini AI"
     ],
-    "isTrending": true,
-    "isLatest": true,
-    "isFeatured": true
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false
   },
   {
     "id": "cmrb2m8pf5y",
@@ -597,14 +597,35 @@
     "fullPrompt": "A highly detailed, cinematic 8K resolution action scene featuring Tom and Jerry in a chaotic, high-energy kitchen environment. Tom is mid-air, wearing vintage roller skates and a metallic jetpack, reaching for an open refrigerator door that has a sign reading 'SLO-MO COMEDY!' on it. A chocolate layer cake is flying through the air next to him. To the left, a bottle of milk is spilling, creating a dynamic splash, while broken eggshells and yolks are suspended in the air. In the foreground, Jerry is joyfully riding a large slice of pepperoni pizza through the air. A sliced watermelon is floating nearby, and a cast-iron skillet rests on the tiled floor. A young man tom and jerry bhind him a holding on wok a evil smilng, a wearing Jacket: A cream-colored, cropped jacket with dark green piping along the edges and collar, fastened with dark green buttons.\n​Top: A simple white undershirt or crew-neck t-shirt.\n​Pants: Tailored black trousers.\n​Footwear: Black polished shoes. Jewelry: A layered silver necklace and silver rings.\n​Accents: A unique, bright green, star-studded accessory attached to the pants via a silver chain and messy voluminous spiky brown hair gently blowing the wind.\n​Lighting Style\n​The image utilizes a cinematic contrast between the warm, golden light emitting from the refrigerator and the cool, blue moonlight coming from the exterior.--ar 9:16",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783153299/prompts/juyeaw0sokonpknfk5lb.webp",
     "isPremium": false,
-    "isTrending": false,
+    "isTrending": true,
     "isLatest": false,
     "isFeatured": false,
     "author": "Admin",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-04T08:21:39.525Z",
-    "updatedAt": "2026-07-04T08:21:39.525Z",
+    "updatedAt": "2026-07-15T07:46:12.218Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cm6mt5gt4f5",
+    "title": "Miniature Matchbox World's Humorous Alarm",
+    "slug": "miniature-matchbox-worlds-humorous-alar-pe6a6",
+    "category": "Anime",
+    "fullPrompt": "morning Ultra-realistic cinematic macro miniature photography of a tiny sleeping man resting peacefully on a handcrafted bed made entirely from a giant matchbox, with the matchsticks forming a decorative wooden headboard. The miniature man has a realistic human face, short dark hair, neatly trimmed beard, wearing a beige t-shirt, sleeping soundly under a textured deep-blue blanket with his head resting on a soft white pillow, eyes closed with a calm expression. Behind the bed stands a gigantic vintage black alarm clock transformed into a funny angry character with expressive cartoon-style eyes, thick eyebrows, metallic arms and hands. The alarm clock holds a single burning match close to its bells, trying to create noise and wake the tiny sleeper, while small motion lines around the bells suggest shaking. Despite the commotion, the tiny man continues sleeping peacefully. Beside the bed sits a miniature bedside lamp crafted entirely from wooden matches, glowing with a warm golden light. A tiny wooden ladder leans against the matchbox bed. Several loose matches lie scattered across the wooden desk. In the foreground, a blurred spiral notebook and pencil enhance the macro depth. In the background, a cozy bedroom window reveals a crescent moon and soft city bokeh lights, with a small potted plant on the windowsill.Warm amber cinematic lighting fills the scene, creating a peaceful nighttime atmosphere with humorous storytelling. Extreme macro photography, hyper-realistic textures, cinematic composition, shallow depth of field, creamy bokeh, realistic wood grain, detailed fabric, photorealistic metal reflections, HDR, DSLR quality, 100mm macro lens, f/2.8, ultra-detailed, 8K, realistic proportions, whimsical miniature world, no text, no watermark. ",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784103314/prompts/hslvv2rf03utvim5wwrg.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-15T08:15:13.659Z",
+    "updatedAt": "2026-07-15T08:15:13.659Z",
     "tags": [],
     "models": [
       "Gemini AI"
