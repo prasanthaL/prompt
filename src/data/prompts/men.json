@@ -523,5 +523,171 @@
     "models": [
       "Gemini AI"
     ]
+  },
+  {
+    "id": "cmx50w0o287",
+    "title": "Cinematic Double Exposure Portrait Prompt",
+    "slug": "cinematic-double-exposure-portrait-promp-lygn6",
+    "category": "Men",
+    "fullPrompt": "Generate a cinematic double exposure portrait of the uploaded handsome man with stylish hair, peaceful confident expression, looking side upward wearing a pastel yellow textured shirt, black trendy sunglasses. Inside his silhouette, the same man appears full body standing on a rain-soaked rocky beach with both arms spread, smiling gently, looking upward, wearing a open navy blue shirt with rolled up sleeve over a white t-shirt, black trousers, white sneakers, smartwatch. The background inside features faded crashing waves, colorful bougainvillea flowers near the shoreline, wet rocks, drifting sea mist, gentle rainfall, and distant birds. Outer background is softly faded with dreamy rain textures, cool cinematic color grading, ultra-realistic, sharp focus, AR 4:5, 85mm lens, HDR, 8K. Maintain the face exactly the same as the uploaded photo.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783754610/prompts/fmsz18rpjode8vfniwdf.webp",
+    "isPremium": false,
+    "isTrending": true,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-11T07:23:31.572Z",
+    "updatedAt": "2026-07-15T07:44:07.036Z",
+    "tags": [],
+    "models": [
+      "Chat GPT"
+    ]
+  },
+  {
+    "id": "cm7l31gdbso",
+    "title": "3D App Icon Grid Design",
+    "slug": "3d-app-icon-grid-design-c6uhp",
+    "category": "Men",
+    "fullPrompt": "A 3D grid layout of 12 distinct square app icons. Each icon features a realistic man (image Uploaded), wearing stylish modern outfits that match the color palette of that specific app. The apps include versions of Spotify, Netflix, TikTok, Gmail, Google, Safari, App Store, Chrome, Clock, Calendar, Instagram, and Notes. The man is interacting with or posing inside the 3D frame of each app icon.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783754819/prompts/jvgdkrkkkp18gnsl3oh5.webp",
+    "isPremium": false,
+    "isTrending": true,
+    "isLatest": true,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-11T07:26:59.889Z",
+    "updatedAt": "2026-07-15T07:43:40.953Z",
+    "tags": [],
+    "models": [
+      "Chat GPT"
+    ]
+  },
+  {
+    "id": "cmjv99ywlh4",
+    "title": "North Indian Men Fashion Editorial",
+    "slug": "north-indian-men-fashion-editorial-xzb3u",
+    "category": "Men",
+    "fullPrompt": "Ultra-realistic premium fashion editorial portrait of six stylish north indian boys 100 % same face (ages 30–32) posing together in a luxury minimalist studio. Warm beige seamless background with soft natural gradient, clean white geometric platforms of different heights, premium children's fashion campaign aesthetic.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783754947/prompts/j1jvp6zbhkmtrpuh4jip.webp",
+    "isPremium": false,
+    "isTrending": true,
+    "isLatest": false,
+    "isFeatured": true,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-11T07:29:07.582Z",
+    "updatedAt": "2026-07-15T07:43:06.264Z",
+    "tags": [],
+    "models": [
+      "Chat GPT"
+    ]
+  },
+  {
+    "id": "cmg26vjs6dc",
+    "title": "Cinematic Biker Scene Image Prompt",
+    "slug": "cinematic-biker-scene-image-prompt-1mvdc",
+    "category": "Men",
+    "fullPrompt": "Ultra realistic cinematic night biker scene on a quiet uknhighway, vertical 9:16 composition. The subject and Pertamina gas station are positioned entirely on the LEFT side of the frame. A real Indonesian man based on my uploaded face photo stands beside a properly parked black sport motorcycle near the roadside shoulder, leaning casually against the side of the bike. Full body visible but camera slightly zoomed in for a more intimate cinematic composition.The subject is looking away from the camera toward the empty highway, off-camera gaze, calm and contemplative mood. Helmet placed naturally on top of the motorcycle fuel tank, not worn. Realistic face, messy black hair, natural skin texture, cinematic lighting. Outfit fully black: black overshirt jacket, black t-shirt, black jeans, black boots.The RIGHT side of the frame is dominated by an empty dark highway with wet asphalt reflections and a highly detailed futuristic navigation map embedded directly into the asphalt road itself, not floating holograms, not transparent UI panels. A glowing golden smart-road route line stretches naturally along the road perspective toward Uk, with realistic illuminated cracks and embedded digital pathways inside the asphalt texture. Detailed road-map elements integrated into the street surface: glowing route line, ETA, duration, distance, speedometer, navigation icons, weather icons, route markers, and subtle location labels “Your” and “Name” appearing directly on the road like advanced future highway technology. The map perspective follows the natural road angle perfectly and emits soft orange reflections onto the wet asphalt.Quiet empty road, sparse distant lights, cinematic orange street lamps, dramatic shadows, realistic photography, moody atmosphere, ultra detailed, low angle cinematic composition, premium movie poster quality. Keep original aspect ratio. ",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783755742/prompts/u53t2iesaa8f8vjewpsd.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-11T07:42:23.109Z",
+    "updatedAt": "2026-07-11T07:42:23.109Z",
+    "tags": [],
+    "models": [
+      "Chat GPT"
+    ]
+  },
+  {
+    "id": "cmauesi5axq",
+    "title": "Futuristic moments in golden light",
+    "slug": "futuristic-moments-in-golden-light-wpvx7",
+    "category": "Men",
+    "fullPrompt": "Use the uploaded image as the identity reference. Preserve the person's face with extremely high accuracy. Do not alter the facial structure, eyes, eyebrows, nose, lips, skin tone, hairstyle (unless it naturally matches the original), facial proportions, age, or overall identity. The generated image must clearly look like the exact same person from the uploaded photo.Create a premium Instagram 4:5 portrait (1080×1350) that looks like a futuristic smartphone gallery interface floating in 3D space. Display five elegant glass photo cards arranged in a curved carousel, with the center card larger and highlighted while the surrounding cards gradually decrease in size and blur slightly to create realistic depth. Each card should feature the same person in different stylish candid poses wearing elegant modern fashion.The background of each photo should represent different premium urban environments during golden hour, blue hour, café moments, rainy streets, luxury shopping districts, rooftop views, or city nightlife. The interface should resemble a high-end smartphone gallery with ultra-clean glassmorphism UI, rounded corners, soft reflections, subtle transparency, glowing edges, realistic shadows, depth of field, and premium lighting.The center card should have a warm golden glow around its border, making it the primary focus. At the top-left, display: Moments 3278 Photos, 142 Videos At the top-right, include a minimalist search icon and three-dot menu. For every photo card, automatically generate realistic metadata such as: Date (e.g. Yesterday, May 17, May 19, etc.) Time Photo title (e.g. Golden Hour, Coffee Time, Rainy Day, City Walk, Evening Lights) Location using randomly selected Indian cities only such as Mumbai, Delhi, Bengaluru, Hyderabad, Chennai, Kolkata, Pune, Jaipur, Ahmedabad, Lucknow, Chandigarh, Kochi, Goa, Udaipur, Shimla, Varanasi, Indore, Surat, Bhopal, Dehradun, Gangtok, Srinagar, Mysuru, Amritsar, etc. Never use non-Indian cities or countries such as Seoul, Tokyo, New York, Paris, London, or Korea. Always display only authentic Indian city names.At the bottom of the interface, include premium navigation icons with the camera button highlighted in the center. Use warm cinematic lighting, luxury editorial photography, realistic reflections, soft bloom, shallow depth of field, photorealistic skin texture, premium UI design, ultra-clean typography, and an Apple-inspired modern interface. Maintain a sophisticated beige, gold, and charcoal color palette with subtle glass effects.The final image should be ultra-realistic, cinematic, highly detailed, luxury UI concept art, photorealistic, 8K quality, masterpiece, HDR, perfectly centered composition, with no logos, watermarks, or copyrighted brand names. Ensure that all displayed locations are automatically chosen from Indian cities only.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783757063/prompts/ku6cp8sdmsgcn1u9mbcj.webp",
+    "isPremium": false,
+    "isTrending": true,
+    "isLatest": true,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-11T08:04:24.815Z",
+    "updatedAt": "2026-07-15T07:42:41.506Z",
+    "tags": [],
+    "models": [
+      "Chat GPT"
+    ]
+  },
+  {
+    "id": "cmfhjzokvn1",
+    "title": "Professional CV Headshot Generation",
+    "slug": "professional-cv-headshot-generation-ah24c",
+    "category": "Men",
+    "fullPrompt": "Create a professional corporate CV headshot photograph from the uploaded reference image in a perfect 1:1 square format.\n\nCRITICAL REQUIREMENT — IDENTITY PRESERVATION (HIGHEST PRIORITY):\nThe uploaded reference image is the single source of truth. Preserve the person's exact facial identity with maximum accuracy. Maintain the identical facial structure, skin tone, eye shape, eyebrow shape, nose, lips, jawline, ears, hairline, hairstyle, hair color, facial proportions, age, and natural facial texture. Do NOT beautify, redesign, modify, masculinize, feminize, age, de-age, or replace the face. The final image must look unmistakably like the same person photographed in a professional studio.\n\nSUBJECT:\nYoung professional man.\n\nPOSE:\n• Front-facing portrait\n• Shoulders visible\n• Upper chest and head only\n• Body rotated approximately 5° to the left\n• Head slightly tilted forward\n• Direct eye contact with the camera\n• Relaxed shoulders\n• Natural confident expression\n• Closed-mouth subtle smile\n• Calm, approachable, professional appearance\n\nCAMERA:\n• Eye-level camera angle\n• 85mm full-frame portrait lens look\n• Medium close-up framing\n• Head centered\n• Symmetrical composition\n• Professional corporate headshot\n• Ultra-sharp focus on the eyes\n• Natural shallow depth of field\n\nBACKGROUND:\n• Clean modern photography studio\n• Soft light gray gradient backdrop\n• Smooth seamless background\n• Minimalist\n• No objects\n• No furniture\n• No patterns\n• No text\n• No watermark\n\nCLOTHING:\n• Tailored solid navy blue business blazer\n• Crisp white formal dress shirt\n• Navy or charcoal business tie (optional)\n• Professional corporate attire\n• No logos\n• No flashy accessories\n• Clean and well-groomed appearance\n\nLIGHTING:\n• Large softbox positioned front-left\n• Gentle fill light from front-right\n• Balanced professional studio lighting\n• Natural skin texture\n• Soft catchlights in both eyes\n• No harsh shadows\n• No over-retouching\n\nCOLOR GRADING:\n• Neutral corporate color palette\n• Navy blue\n• White\n• Soft gray\n• Accurate natural skin tones\n• Premium realistic color grading\n\nQUALITY:\n• Ultra-photorealistic\n• High-end DSLR portrait\n• 8K detail\n• LinkedIn-ready corporate headshot\n• HR-approved CV profile photo\n• Natural facial details preserved\n• Realistic skin texture\n• Symmetrical composition\n• Clean, polished, professional finish\n\nNEGATIVE PROMPT:\ndifferent person, identity change, face swap, altered facial structure, beauty filter, glamour portrait, fashion photoshoot, excessive skin smoothing, heavy makeup, beard added or removed, changed hairstyle, changed hair color, cartoon, anime, illustration, CGI, painting, exaggerated smile, teeth showing, side view, profile view, extreme angle, wide-angle lens, fisheye, blur, distortion, unrealistic skin, plastic skin, over-retouching, background objects, cluttered background, text, watermark, logo, cropped forehead, cropped chin, cropped shoulders, low quality, low resolution, duplicate face, asymmetrical eyes",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784103096/prompts/coqqs22mezwyxio0in4k.webp",
+    "isPremium": false,
+    "isTrending": true,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-15T08:11:36.422Z",
+    "updatedAt": "2026-07-15T08:11:36.422Z",
+    "tags": [],
+    "models": []
+  },
+  {
+    "id": "cmrlx7ddcft",
+    "title": "Minimalist Birthday Poster Prompt",
+    "slug": "minimalist-birthday-poster-prompt-tlc6h",
+    "category": "Men",
+    "fullPrompt": "Thes photo prompt ⤵️✨ \"A Happy Birthday too me 🎉💜 Create a premium minimalist birthday poster in ultra-realistic 8K quality. A stylish young man with a well-groomed beard and black sunglasses walks confidently toward the camera. He wears an oversized black t-shirt, light grey trousers, white sneakers, and a luxury wristwatch. Position him on the left side of a clean white background with a bold vertical black stripe behind him for contrast.(100% identical facial features, no face change or smoothing) ",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784106154/prompts/zvukcjmsxn5ipjueboun.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-15T09:02:34.247Z",
+    "updatedAt": "2026-07-15T09:02:34.247Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmz7o1wz9fq",
+    "title": "Luxury Birthday Collage Poster Design",
+    "slug": "luxury-birthday-collage-poster-design-8cbl0",
+    "category": "Men",
+    "fullPrompt": "Create a premium luxury birthday collage poster using the uploaded person's photo while preserving 100% facial identity, hairstyle, skin tone, body proportions, facial structure, age, and all unique facial characteristics. Do not beautify, modify, stylize, or redesign the face in any way. Identity preservation is the highest priority.\n\nOutput:\n• Aspect Ratio: 4:5 Instagram Portrait\n• Resolution: 4096×5120 Ultra HD (8K quality)\n• Style: Luxury Editorial Birthday Poster\n• Quality: Professional Photoshop-level realism\n\nBackground:\nA minimal luxury light gray gradient studio backdrop with subtle depth, soft shadows, elegant lighting falloff, and a premium editorial atmosphere. Clean, uncluttered, and sophisticated.\n\nLayout:\n\nLEFT SECTION\n• Place a full-body cutout of the person sitting confidently on a matte black naked sports motorcycle.\n• Add realistic floor reflections and a soft natural shadow beneath the motorcycle.\n• Outfit: Premium smart-casual fashion in black and gray tones.\n• Black sunglasses.\n• Relaxed confident posture.\n• Studio-quality lighting.\n\nRIGHT SECTION\nInstead of a standard grid of eight identical white-bordered photos, create a premium editorial \"floating memory wall\" collage.\n\nArrange 8 different photos of the same person in an elegant overlapping composition with varying sizes and orientations.\n\nInclude:\n• Large hero portrait near the top\n• Medium close-up portrait\n• Walking full-body shot\n• Side profile\n• Looking left\n• Looking right\n• Smiling portrait\n• Serious expression\n\nDesign Details:\n• Thin white luxury borders\n• Different frame sizes\n• Slight rotations (2–6 degrees)\n• Natural overlapping layout\n• Soft realistic shadows\n• Layered magazine editorial appearance\n• Balanced spacing\n• Clean premium composition\n• No simple square grid\n• Modern luxury fashion magazine style\n\nTOP LEFT\nAdd an elegant realistic monthly calendar.\n\nMonth:\nAugust 2026\n\nDesign:\nMinimal white calendar with subtle shadows and premium typography.\n\nHighlight ONLY:\n17\n\nusing a clean solid red circle.\n\nBOTTOM CENTER\n\nWrite the name:\n\nKamal\n\nusing an elegant luxury handwritten script font in black.\n\nBelow it write:\n\nHappy Birthday!\n\nMay your dreams become your reality,\nyour smile never fade,\nand every new year bring success,\ngood health, happiness, and endless blessings.\n\nHave a wonderful birthday!\n\nUse a premium combination of:\n• Luxury handwritten script\n• Modern serif typography\n\nColor Palette:\n• Black\n• White\n• Light Gray\n• Silver\n\nLighting:\n• Soft studio lighting\n• Editorial luxury lighting\n• Natural skin tones\n• Cinematic contrast\n• Premium fashion photography look\n\nComposition:\n• Spacious luxury layout\n• Perfect visual balance\n• High-end magazine aesthetic\n• Minimal yet elegant\n• Realistic shadows and depth\n• Editorial poster design\n\nRendering:\nHyper realistic\nPhotorealistic skin texture\nUltra sharp details\nPremium color grading\nLuxury editorial finish\nProfessional Photoshop quality\nUltra HD\n8K\nInstagram premium birthday poster\n\nIMPORTANT:\nMaintain 100% facial identity.\nDo not alter the face.\nDo not beautify.\nDo not change hairstyle.\nDo not modify skin tone.\nPreserve exact facial resemblance from the uploaded photo.\nMaximum identity consistency across every portrait.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784106638/prompts/ahvqwqtb5hfhnlig5dcr.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": true,
+    "isFeatured": true,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-15T09:10:37.882Z",
+    "updatedAt": "2026-07-15T09:10:37.882Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
   }
 ]
