@@ -1,5 +1,6 @@
 import { MetadataRoute } from "next";
-import { getAllPrompts, getActiveBlogs } from "@/lib/json-db";
+import { getAllPrompts } from "@/lib/json-db";
+import blogJsonData from "@/data/blog.json";
 import categories from "@/data/categories.json";
 
 const siteUrl = "https://www.aipromptnest.com";
@@ -56,10 +57,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   }));
 
   /* Blog post routes — dynamic active blogs */
-  const activeBlogs = await getActiveBlogs();
-  const blogRoutes: MetadataRoute.Sitemap = activeBlogs.map((blog) => ({
+  const blogRoutes: MetadataRoute.Sitemap = blogJsonData.map((blog) => ({
     url: `${siteUrl}/blog/${blog.slug}`,
-    lastModified: blog.date ? new Date(blog.date).toISOString() : now,
+    lastModified: blog.publishedAt ? new Date(blog.publishedAt).toISOString() : now,
     changeFrequency: "monthly" as const,
     priority: 0.7,
   }));
