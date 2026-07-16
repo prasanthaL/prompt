@@ -1,6 +1,5 @@
 import { Suspense } from "react";
 import Link from "next/link";
-import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import HomeClient from "./HomeClient";
@@ -9,13 +8,14 @@ import HomeFaqSection from "./HomeFaqSection";
 import { faqItems } from "@/data/home-faqs";
 import Footer from "@/components/Footer";
 import { fetchCategoryCounts, type HomeTab } from "@/lib/client-prompts";
-import { getActiveBlogs, getAllPrompts } from "@/lib/json-db";
+import { getAllPrompts } from "@/lib/json-db";
+import blogJsonData from "@/data/blog.json";
+import BlogCard from "@/components/blog/BlogCard";
+import type { BlogCardData } from "@/components/blog/BlogCardFeatured";
 import {
   ArrowRight,
   TrendingUp,
   ImageIcon,
-  Calendar,
-  Clock,
   CheckCircle2,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
@@ -119,14 +119,38 @@ interface PageProps {
   }>;
 }
 
+// ---------------------------------------------------------------------------
+// Map raw blog.json entry → BlogCardData shape
+// ---------------------------------------------------------------------------
+function mapBlogJson(raw: (typeof blogJsonData)[number]): BlogCardData {
+  return {
+    id: raw.id,
+    slug: raw.slug,
+    title: raw.title,
+    excerpt: raw.excerpt,
+    coverImage: raw.coverImage,
+    coverImageAlt: raw.coverImageAlt,
+    publishedAt: raw.publishedAt,
+    readingTime: raw.readingTime,
+    category: raw.category,
+    tags: raw.tags,
+    featured: raw.featured,
+    author: raw.author ? { name: raw.author.name, avatar: raw.author.avatar } : undefined,
+  };
+}
+
 export default async function Home({ searchParams }: PageProps) {
   const resolvedParams = await searchParams;
   const tab = (resolvedParams.tab || "trending") as HomeTab;
   const category = resolvedParams.category || "";
   const page = parseInt(resolvedParams.page || "1", 10) || 1;
 
-  const [blogs, allCategoryCounts, allPrompts] = await Promise.all([
-    getActiveBlogs(),
+  const latestBlogs = (blogJsonData as (typeof blogJsonData)[number][])
+    .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
+    .slice(0, 3)
+    .map(mapBlogJson);
+
+  const [allCategoryCounts, allPrompts] = await Promise.all([
     fetchCategoryCounts(),
     getAllPrompts(),
   ]);
@@ -357,7 +381,7 @@ export default async function Home({ searchParams }: PageProps) {
             </h2>
             <div className="space-y-4 text-sm text-foreground/50 leading-relaxed">
               <p>
-                PromptNest is your go-to library for Gemini AI image prompts. Whether you're
+                PromptNest is your go-to library for Gemini AI image prompts. Whether you&apos;re
                 creating anime characters, cinematic scenes, fantasy worlds, or realistic portraits,
                 our carefully crafted prompts help you generate stunning AI art with ease.
               </p>
@@ -398,62 +422,34 @@ export default async function Home({ searchParams }: PageProps) {
         </div>
       </section>
 
-      {/* Blog Suggestions (Education/Guides) */}
-      <section className="max-w-7xl mx-auto px-4 md:px-8 pb-32">
-        <div className="flex items-center justify-between mb-12">
-          <div className="space-y-1">
-            <h2 className="text-3xl font-bold flex items-center gap-3">
-              <span className="w-2 h-10 bg-primary rounded-full"></span>
-              Latest from our Blog
-            </h2>
-            <p className="text-foreground/40 text-sm">Stay updated with the latest AI prompt engineering trends</p>
-          </div>
-          <Link
-            href="/blog"
-            className="flex items-center gap-2 text-sm font-bold text-primary hover:gap-3 transition-all"
-          >
-            Explore Blog
-            <ArrowRight className="w-4 h-4" />
-          </Link>
+      {/* Latest Blog Posts Section */}
+      <section className="max-w-7xl mx-auto px-4 md:px-8 pb-20">
+        <div className="text-center mb-14 flex flex-col items-center">
+          <p className="text-[10px] font-black uppercase tracking-[0.25em] text-violet-400 mb-2">
+            LEARN PROMPT ENGINEERING
+          </p>
+          <h2 className="text-4xl sm:text-5xl font-black text-white tracking-tight mb-4">
+            Latest Guides &amp; <span className="bg-gradient-to-r from-violet-400 to-fuchsia-500 bg-clip-text text-transparent">Insights</span>
+          </h2>
+          <p className="text-foreground/50 text-sm max-w-xl mx-auto">
+            Master the art of AI image prompting. Discover tips, tutorials, and deep-dive guides for Gemini, Midjourney, and more.
+          </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {blogs.slice(0, 3).map((blog, i) => (
-            <Link
-              key={blog.id}
-              href={`/blog/${blog.slug}`}
-              className="group flex flex-col rounded-3xl border border-border bg-card/30 backdrop-blur-sm overflow-hidden hover:border-primary/50 transition-all duration-300"
-            >
-              <div className="h-52 overflow-hidden relative">
-                <Image
-                  src={blog.image}
-                  alt={blog.title}
-                  fill
-                  priority={i < 2}
-                  sizes="(max-width: 768px) 100vw, 33vw"
-                  className="object-cover group-hover:scale-105 transition-transform duration-500"
-                />
-              </div>
-              <div className="p-6 space-y-4">
-                <div className="flex items-center gap-3 text-xs font-bold text-primary uppercase tracking-wider">
-                  {blog.category}
-                </div>
-                <h3 className="text-xl font-bold leading-snug group-hover:text-primary transition-colors line-clamp-2">
-                  {blog.title}
-                </h3>
-                <div className="flex items-center gap-4 text-xs text-foreground/40">
-                  <div className="flex items-center gap-1">
-                    <Calendar className="w-3 h-3" />
-                    {blog.date}
-                  </div>
-                  <div className="flex items-center gap-1">
-                    <Clock className="w-3 h-3" />
-                    6 min read
-                  </div>
-                </div>
-              </div>
-            </Link>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {latestBlogs.map((blog) => (
+            <BlogCard key={blog.id} blog={blog} />
           ))}
+        </div>
+
+        <div className="mt-12 text-center">
+          <Link
+            href="/blog"
+            className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl border border-white/[0.08] bg-white/[0.02] hover:bg-white/[0.05] hover:border-violet-500/30 text-sm font-bold text-white transition-all duration-300 shadow-lg hover:shadow-violet-500/5 hover:-translate-y-0.5 cursor-pointer"
+          >
+            Visit Our Blog
+            <ArrowRight className="w-4 h-4 text-violet-400" />
+          </Link>
         </div>
       </section>
 
