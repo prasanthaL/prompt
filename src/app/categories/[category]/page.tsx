@@ -333,7 +333,7 @@ export default async function CategoryPage({ params }: PageProps) {
   };
 
   return (
-    <main className="min-h-screen mesh-gradient pb-20">
+    <main className="min-h-screen mesh-gradient">
       {/* Structured Data – BreadcrumbList */}
       <script
         type="application/ld+json"
