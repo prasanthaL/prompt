@@ -28,10 +28,5 @@ export const faqItems = [
     question: "Do I need technical knowledge to use AI prompts?",
     answer:
       "Not at all — PromptNest is designed for everyone, from complete beginners to seasoned AI artists. Every prompt is copy-and-paste ready, meaning there is zero technical setup required on your part. Just choose a prompt you like, copy it to your clipboard, open your preferred AI image generator such as Google Gemini, paste the prompt, and hit generate. Our blog and help center also feature a wealth of beginner-friendly tutorials, style guides, and prompt engineering tips to help you level up your AI art skills at your own pace.",
-  },
-  {
-    question: "Can I submit my own prompts to PromptNest?",
-    answer:
-      "Yes — PromptNest is a community-powered platform and we warmly welcome contributions from prompt creators all over the world. If you've crafted a prompt that consistently produces stunning AI-generated images, we'd love to feature it in our library. Simply submit your prompt through our creator portal, include example outputs and compatible model information, and our editorial team will review it. Approved prompts are published to the marketplace where they can be discovered, copied, and appreciated by thousands of fellow AI art enthusiasts every day.",
-  },
+  }
 ];
