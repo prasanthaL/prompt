@@ -18,12 +18,23 @@ import {
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
-// Custom SVG components for social links matching the mockup
-// const XIcon = () => (
-//   <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
-//     <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
-//   </svg>
-// );
+const XIcon = () => (
+  <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+    <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+  </svg>
+);
+
+const TiktokIcon = () => (
+  <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+    <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64c.29 0 .56.04.82.12V9.4a6.33 6.33 0 0 0-1-.08A6.34 6.34 0 0 0 3 15.66a6.34 6.34 0 0 0 10.86 4.48V13a8.28 8.28 0 0 0 5.73 2.25v-3.71a4.84 4.84 0 0 1-3.77-1.44A4.83 4.83 0 0 1 19.59 6.69z" />
+  </svg>
+);
+
+const ThreadsIcon = () => (
+  <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+    <path d="M12.004 0C5.373 0 0 5.373 0 12.004c0 6.63 5.373 12.004 12.004 12.004 6.63 0 12.004-5.373 12.004-12.004C24.008 5.373 18.634 0 12.004 0zm3.896 13.91c-.139 1.947-1.31 3.518-3.155 4.02-1.845.503-3.76-.118-4.912-1.57-.457.214-.94.382-1.442.502 1.34 1.764 3.541 2.58 5.728 2.062 2.39-.567 4.062-2.73 4.25-5.176.104-1.349-.247-2.678-1.026-3.715.151-.237.288-.485.409-.743.988.889 1.547 2.164 1.548 3.62zM12.004 4.542c-4.12 0-7.462 3.342-7.462 7.462s3.342 7.462 7.462 7.462c1.785 0 3.426-.628 4.717-1.683l-1.077-1.192c-1.002.825-2.274 1.317-3.64 1.317-3.257 0-5.904-2.647-5.904-5.904s2.647-5.904 5.904-5.904c2.81 0 5.17 1.97 5.753 4.606.262 1.185.048 2.428-.604 3.407-.652.979-1.69 1.551-2.843 1.571-1.08.019-2.023-.522-2.45-1.411-.326-.678-.292-1.488.087-2.128.379-.64 1.056-1.037 1.808-1.06 1.05-.032 1.83.676 1.874 1.69l1.558.07c-.078-1.782-1.47-3.174-3.252-3.118-1.32.041-2.507.738-3.173 1.864-.666 1.126-.726 2.548-.153 3.738.75 1.56 2.404 2.508 4.3 2.474 1.848-.032 3.509-.947 4.557-2.515 1.048-1.568 1.391-3.557.971-5.453-.933-4.218-4.708-7.37-9.018-7.37z" />
+  </svg>
+);
 
 const FacebookIcon = () => (
   <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
@@ -154,12 +165,12 @@ const POPULAR_CATEGORIES = [
 ];
 
 const SOCIAL_LINKS = [
-  // { href: "https://twitter.com", icon: <XIcon /> },
-  { href: "https://facebook.com", icon: <FacebookIcon /> },
-  // { href: "https://instagram.com", icon: <InstagramIcon /> },
-  // { href: "https://youtube.com", icon: <YoutubeIcon /> },
-  // { href: "https://discord.com", icon: <DiscordIcon /> },
-  // { href: "https://pinterest.com", icon: <PinterestIcon /> },
+  { href: "https://pin.it/6uUNsspq4", icon: <PinterestIcon />, title: "Pinterest" },
+  { href: "https://x.com/aipromptnestN", icon: <XIcon />, title: "Twitter" },
+  { href: "https://www.threads.com/@ai_promptnest", icon: <ThreadsIcon />, title: "Threads" },
+  { href: "https://www.instagram.com/ai_promptnest/", icon: <InstagramIcon />, title: "Instagram" },
+  { href: "https://www.youtube.com/@AiPromptNest", icon: <YoutubeIcon />, title: "YouTube" },
+  { href: "https://www.tiktok.com/@aipromptnest?lang=en-GB", icon: <TiktokIcon />, title: "TikTok" },
 ];
 
 export default function Footer() {
@@ -342,31 +353,17 @@ export default function Footer() {
             © 2026 AIPromptNest. All rights reserved.
           </p>
 
-          <div className="flex flex-wrap items-center justify-center gap-x-3 gap-y-2 text-xs text-white/40">
-            {["Free AI Prompts", "Gemini AI Prompts", "Gemini Image Prompts", "Prompt Library"].map((item, i) => (
-              <React.Fragment key={item}>
-                <Link
-                  href={`/browse?q=${encodeURIComponent(
-                    item.replace("Free ", "").replace("AI ", "").replace("Prompts", "").replace("Library", "").trim()
-                  )}`}
-                  className="hover:text-white transition-colors"
-                >
-                  {item}
-                </Link>
-                {i < 3 && <span className="text-white/20 select-none">•</span>}
-              </React.Fragment>
-            ))}
-          </div>
-
           <div className="flex items-center gap-3">
             <span className="text-xs text-white/35">Follow us on</span>
-            <div className="flex items-center gap-2">
+            <div className="flex flex-wrap items-center gap-2">
               {SOCIAL_LINKS.map((social, i) => (
                 <a
                   key={i}
                   href={social.href}
                   target="_blank"
                   rel="noopener noreferrer"
+                  title={social.title}
+                  aria-label={social.title}
                   className="w-8 h-8 rounded-full border border-white/[0.08] hover:border-violet-500/20 bg-white/[0.02] hover:bg-violet-500/10 flex items-center justify-center text-white/50 hover:text-white transition-all cursor-pointer"
                 >
                   {social.icon}
