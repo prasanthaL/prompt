@@ -1,5 +1,474 @@
 [
   {
+    "id": "how-to-write-better-ai-image-prompts",
+    "slug": "how-to-write-better-ai-image-prompts",
+    "title": "How to Write Better AI Image Prompts: A Comprehensive Guide",
+    "excerpt": "Master the art of crafting compelling AI image prompts. Learn how to leverage Gemini's native multimodality, structure your descriptions, and avoid common prompting mistakes.",
+    "coverImage": "/images/blog/how-to-write-better-ai-image-prompts-cover.png",
+    "coverImageAlt": "How to Write Better AI Image Prompts: A Comprehensive Guide",
+    "publishedAt": "2026-07-15",
+    "updatedAt": "2026-07-15",
+    "author": {
+      "name": "AI Prompt Site",
+      "avatar": "/images/authors/default.webp"
+    },
+    "readingTime": 8,
+    "category": "Prompt Engineering",
+    "tags": [
+      "AI Prompts",
+      "Image Prompts",
+      "Prompt Engineering",
+      "Gemini",
+      "Midjourney",
+      "DALL-E",
+      "Stable Diffusion"
+    ],
+    "featured": true,
+    "seo": {
+      "title": "How to Write Better AI Image Prompts: A Comprehensive Guide",
+      "description": "Master AI image prompting with our comprehensive guide. Learn prompt structure, photographer techniques, and Google Gemini's native multimodality features.",
+      "canonical": "/blog/how-to-write-better-ai-image-prompts",
+      "keywords": [
+        "AI image prompts",
+        "how to write AI prompts",
+        "Gemini image generation",
+        "prompt engineering",
+        "Midjourney prompts",
+        "DALL-E prompts",
+        "Stable Diffusion prompts"
+      ]
+    },
+    "blocks": [
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "intro",
+        "text": "Introduction"
+      },
+      {
+        "type": "paragraph",
+        "text": "Artificial intelligence has revolutionized the way we create visual content, but there's an art to communicating effectively with these digital artists. Whether you're using Midjourney, DALL-E, Stable Diffusion, or Gemini, the quality of your output depends heavily on the quality of your input."
+      },
+      {
+        "type": "paragraph",
+        "text": "In this guide, we'll explore the nuances of crafting compelling AI image prompts that consistently produce stunning results, with a special focus on Gemini's unique capabilities."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "mindset",
+        "text": "Understanding the AI Mindset"
+      },
+      {
+        "type": "paragraph",
+        "text": "Before diving into prompt construction, it's essential to understand how AI image generators work. These systems have been trained on vast datasets containing billions of images with associated text descriptions. When you provide a prompt, the AI analyzes your text, breaks it down into recognizable concepts, and attempts to generate an image that matches these concepts based on patterns it learned during training."
+      },
+      {
+        "type": "paragraph",
+        "text": "Think of AI as a brilliant but literal-minded assistant. It doesn't understand context, nuance, or implication in the way humans do. Instead, it relies on the precise words and phrases you provide to construct its visual interpretation. This understanding forms the foundation of effective prompt writing."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "gemini-multimodality",
+        "text": "Gemini's Unique Advantage: Native Multimodality"
+      },
+      {
+        "type": "paragraph",
+        "text": "What sets Google's Gemini apart is its native multimodal architecture. Unlike models that rely on separate systems for text and image processing, Gemini was trained from the ground up to process text and images in a single, unified step. This enables powerful capabilities that go beyond simple image generation:"
+      },
+      {
+        "type": "cards",
+        "items": [
+          {
+            "title": "Conversational editing",
+            "description": "Refine images through natural back-and-forth dialogue."
+          },
+          {
+            "title": "Multi-image composition",
+            "description": "Combine elements from multiple photos into one coherent scene."
+          },
+          {
+            "title": "Logical reasoning",
+            "description": "Generate complex scenes that understand real-world relationships."
+          }
+        ]
+      },
+      {
+        "type": "tip",
+        "title": "The Golden Rule of Gemini Prompting",
+        "text": "As Google's developers note, the fundamental principle for Gemini prompting is simple: \"Describe the scene, don't just list keywords.\" The model's deep language understanding means a narrative, descriptive paragraph will almost always produce better results than a disconnected list of words."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "anatomy",
+        "text": "The Anatomy of a Great AI Prompt"
+      },
+      {
+        "type": "paragraph",
+        "text": "A well-constructed prompt typically contains several key elements:"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "1. Subject Matter (The \"What\")"
+      },
+      {
+        "type": "paragraph",
+        "text": "Clearly state what you want to see in the image. Be specific about the main focus, whether it's a person, object, scene, or abstract concept. Instead of \"a dog,\" try \"a golden retriever puppy\" or \"a cyberpunk-themed robotic wolf.\""
+      },
+      {
+        "type": "tip",
+        "title": "Gemini Tip: Subject Consistency",
+        "text": "Use clear reference images to maintain subject consistency. Assign a distinct name to each character or object in your prompt so the model can follow along and maintain their look as you build out scenes."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "2. Style and Medium (The \"How\")"
+      },
+      {
+        "type": "paragraph",
+        "text": "Specify the artistic style or medium you're aiming for. This is where you can get incredibly creative with options like:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Art movements: impressionism, cubism, surrealism, art deco",
+          "Mediums: oil painting, watercolor, charcoal sketch, digital art, 3D render",
+          "Artist inspirations: \"in the style of Salvador Dali\" or \"reminiscent of Studio Ghibli\"",
+          "Photography terms: macro photography, long exposure, bokeh effect, cinematic lighting"
+        ]
+      },
+      {
+        "type": "tip",
+        "title": "Gemini Tip: Style Transfer",
+        "text": "Gemini excels at style transfer – you can apply a style, texture, or design from one concept to another. For example, \"Transform this photograph into the artistic style of Van Gogh's 'Starry Night'.\""
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "3. Composition and Framing (The \"Where\")"
+      },
+      {
+        "type": "paragraph",
+        "text": "Describe how the image should be arranged. Consider elements like:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Perspective: bird's eye view, close-up, wide shot, macro",
+          "Camera angles: low angle, high angle, Dutch angle",
+          "Framing: full body shot, portrait, environmental portrait",
+          "Lighting: dramatic lighting, golden hour, studio lighting, moody atmosphere"
+        ]
+      },
+      {
+        "type": "tip",
+        "title": "Gemini Tip: Photorealistic Template",
+        "text": "The official template for photorealistic scenes in Gemini 2.5 Flash includes specific camera and lens details: \"A photorealistic [shot type] of [subject], [action or expression], set in [environment]. The scene is illuminated by [lighting description], creating a [mood] atmosphere. Captured with a [camera/lens details], emphasizing [key textures and details].\""
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "4. Color and Mood (The \"Feel\")"
+      },
+      {
+        "type": "paragraph",
+        "text": "Paint with words to establish the emotional tone and color palette:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Mood: serene, chaotic, mysterious, joyful, melancholic",
+          "Color schemes: monochromatic, complementary, pastel, vibrant",
+          "Atmosphere: foggy, clear, ethereal, gritty, dreamy"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "gemini-strategies",
+        "text": "Gemini-Specific Prompting Strategies"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "1. Think Like a Photographer"
+      },
+      {
+        "type": "paragraph",
+        "text": "For photorealistic images, Google recommends mentioning camera angles, lens types, lighting, and fine details to guide the model toward realistic results."
+      },
+      {
+        "type": "prompt",
+        "title": "Photorealistic Portrait Prompt Example",
+        "prompt": "A photorealistic close-up portrait of an elderly Japanese ceramicist with deep, sun-etched wrinkles and a warm, knowing smile. He is carefully inspecting a freshly glazed tea bowl. The setting is his rustic, sun-drenched workshop. The scene is illuminated by soft, golden hour light streaming through a window, highlighting the fine texture of the clay. Captured with an 85mm portrait lens, resulting in a soft, blurred background (bokeh). The overall mood is serene and masterful.",
+        "image": "/images/blog/japanese-ceramicist.png"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "2. Leverage Conversational Editing"
+      },
+      {
+        "type": "paragraph",
+        "text": "One of Gemini's standout features is the ability to refine images through conversation. Don't expect perfection on the first try – follow up with prompts like:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "\"That's great, but can you make the lighting a bit warmer?\"",
+          "\"Keep everything the same, but change the character's expression to be more serious.\""
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "3. Use Multi-Image Composition"
+      },
+      {
+        "type": "paragraph",
+        "text": "Gemini can combine up to 14 reference images in a single prompt, maintaining consistency for up to 5 people. This is perfect for creating professional e-commerce fashion photos or creative collages."
+      },
+      {
+        "type": "prompt",
+        "title": "Multi-Image Composition",
+        "prompt": "Create a professional e-commerce fashion photo. Take the blue floral dress from the first image and let the woman from the second image wear it. Generate a realistic, full-body shot of the woman wearing the dress."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "4. Render Text Accurately"
+      },
+      {
+        "type": "paragraph",
+        "text": "Gemini 3.5 Flash and Gemini 3 Pro can render clear, well-placed text in images – ideal for logos, diagrams, and posters. Enclose your desired words in quotes and describe the typography style:"
+      },
+      {
+        "type": "prompt",
+        "title": "Text Rendering Prompt",
+        "prompt": "Create a modern, minimalist logo for a coffee shop called 'The Daily Grind'. The text should be in a clean, bold, sans-serif font."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "5. Use \"Semantic Negative Prompts\""
+      },
+      {
+        "type": "paragraph",
+        "text": "Instead of saying \"no cars,\" describe the desired scene positively: \"an empty, deserted street with no signs of traffic\". This approach works better across all AI generators."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "practical-examples",
+        "text": "Practical Prompt Examples"
+      },
+      {
+        "type": "paragraph",
+        "text": "Let's break down a few examples to see these principles in action:"
+      },
+      {
+        "type": "comparison",
+        "leftTitle": "Basic Prompt",
+        "left": "A beautiful sunset over mountains",
+        "rightTitle": "Improved Prompt",
+        "right": "A majestic sunset painting the sky in vibrant oranges and purples over jagged mountain peaks, with dramatic clouds and golden rays breaking through, highly detailed landscape photography, wide-angle shot, Nikon D850 camera, moody atmosphere, 8K resolution"
+      },
+      {
+        "type": "prompt",
+        "title": "Gemini-Optimized Prompt",
+        "prompt": "A photorealistic wide shot of a majestic mountain range at sunset, with vibrant orange and purple sky colors and dramatic clouds casting golden rays. The scene is illuminated by warm golden hour light creating a moody and serene atmosphere. Captured with a 24mm wide-angle lens at f/8 emphasizing sharp mountain textures and dramatic sky details. 16:9 format.",
+        "image": "/images/blog/mountain-sunset.png"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "six-elements",
+        "text": "The 6 Elements of Constructing Effective Prompts for Gemini"
+      },
+      {
+        "type": "paragraph",
+        "text": "Google's official guidance identifies these key elements for Gemini prompting:"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Element",
+          "Description",
+          "Example"
+        ],
+        "rows": [
+          [
+            "Subject",
+            "Who or what is in the image? Be specific.",
+            "\"a stoic robot barista with glowing blue optics\""
+          ],
+          [
+            "Composition",
+            "How is the shot framed?",
+            "extreme close-up, wide shot, low angle"
+          ],
+          [
+            "Action",
+            "What is happening?",
+            "\"brewing a cup of coffee\""
+          ],
+          [
+            "Location",
+            "Where does the scene take place?",
+            "\"a futuristic cafe on Mars\""
+          ],
+          [
+            "Style",
+            "What is the overall aesthetic?",
+            "3D animation, film noir, watercolor"
+          ],
+          [
+            "Editing Instructions",
+            "For modifying an existing image, be direct and specific.",
+            "\"change the man's tie to green\""
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "advanced-techniques",
+        "text": "Advanced Techniques for Gemini"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Character Consistency Across Generations"
+      },
+      {
+        "type": "paragraph",
+        "text": "Gemini can maintain the likeness of a person or character across different poses, lighting, and environments. Establish a clearly defined character with specific details in your first prompt, then use follow-up prompts to place that same character in new contexts:"
+      },
+      {
+        "type": "prompt",
+        "title": "Prompt 1: Establish the Character",
+        "prompt": "A whimsical illustration of a tiny, glowing mushroom sprite. The sprite has a large, bioluminescent mushroom cap for a hat, wide, curious eyes, and a body made of woven vines."
+      },
+      {
+        "type": "prompt",
+        "title": "Prompt 2: Move to New Context",
+        "prompt": "Now, show the same sprite riding on the back of a friendly, moss-covered snail through a sunny meadow."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Precise Local Edits"
+      },
+      {
+        "type": "paragraph",
+        "text": "Make targeted changes to specific parts of an image without re-generating the entire scene:"
+      },
+      {
+        "type": "prompt",
+        "title": "Local Edit Prompt",
+        "prompt": "Using the provided image, change only the blue sofa to be a vintage, brown leather chesterfield sofa. Keep everything else exactly the same."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Use Logic and Reasoning"
+      },
+      {
+        "type": "paragraph",
+        "text": "Gemini's real-world understanding allows it to predict what comes next in a sequence:"
+      },
+      {
+        "type": "prompt",
+        "title": "Sequence Stage 1",
+        "prompt": "Generate an image of a person holding a 3-tiered cake."
+      },
+      {
+        "type": "prompt",
+        "title": "Sequence Stage 2 (Physics & Context)",
+        "prompt": "Generate an image showing what would happen if they tripped. The model understands the context and physics to simulate a plausible outcome."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "common-mistakes",
+        "text": "Common Mistakes to Avoid"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Being Too Vague: 'Create something beautiful' is essentially useless. Be specific about what beauty means in this context.",
+          "Overcrowding the Prompt: While detail is good, cramming too many elements can confuse the AI. Focus on the most important aspects and let the AI fill in the rest.",
+          "Forgetting About Composition: Many users focus only on subject matter and style, neglecting how the image is framed and composed.",
+          "Not Specifying Aspect Ratio: Gemini works best when you specify your desired format, like 4:3, 1:1, or 16:9."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "platform-considerations",
+        "text": "Platform-Specific Considerations"
+      },
+      {
+        "type": "paragraph",
+        "text": "Different AI image generators interpret prompts differently:"
+      },
+      {
+        "type": "cards",
+        "items": [
+          {
+            "title": "Gemini (2.5 Flash & 3 Pro)",
+            "description": "Responds exceptionally well to narrative, descriptive prompts. Excels at conversational editing and refinement, multi-image composition, character consistency, and text rendering."
+          },
+          {
+            "title": "Midjourney",
+            "description": "Uses natural language prompts effectively. Appreciates artistic references and mood descriptors. Has specific parameters like --stylize and --chaos."
+          },
+          {
+            "title": "DALL-E",
+            "description": "Handles detailed descriptions well. Excels at conceptual combinations. Responds well to style-specific terminology."
+          },
+          {
+            "title": "Stable Diffusion",
+            "description": "More technical prompts often work better. Benefits from specific camera and lens references. Negative prompts are particularly important."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "conclusion",
+        "text": "Conclusion"
+      },
+      {
+        "type": "paragraph",
+        "text": "Mastering AI image prompts is a journey of continuous learning and experimentation. Start with clear, well-structured descriptions, gradually incorporate more sophisticated techniques, and most importantly, practice regularly. Each generation provides valuable feedback that helps you better understand how to communicate your visual ideas to the AI."
+      },
+      {
+        "type": "paragraph",
+        "text": "With Gemini's native multimodal architecture, you have powerful tools at your disposal – from conversational editing and multi-image composition to precise local edits and text rendering. Remember the golden rule: describe the scene, don't just list keywords. Provide context and intent, iterate and refine, and don't be afraid to experiment with different prompting strategies."
+      },
+      {
+        "type": "paragraph",
+        "text": "As these AI systems continue to evolve, the possibilities for creative expression will only expand, making this an exciting time to explore the intersection of language and visual art. Keep experimenting, maintain a curious mindset, and don't be afraid to try unconventional approaches. The most impressive AI images often come from prompts that break the rules in interesting ways. Happy prompting!"
+      },
+      {
+        "type": "relatedPrompts",
+        "title": "Explore More Prompt Collections",
+        "ids": [
+          "portrait-prompts",
+          "cinematic-prompts",
+          "landscape-prompts",
+          "cyberpunk-prompts",
+          "fantasy-prompts"
+        ]
+      }
+    ]
+  },
+  {
     "id": "ultimate-ai-image-prompt-guide-2026",
     "slug": "ultimate-ai-image-prompt-guide-2026",
     "title": "The Ultimate AI Image Prompt Guide for Beginners (2026)",
@@ -1850,6 +2319,1157 @@
             "answer": "Yes, these prompts are designed to be universally understood by Midjourney, Gemini, FLUX, and Stable Diffusion, though each model will add its own unique stylistic flavor."
           }
         ]
+      },
+      {
+        "type": "relatedPrompts",
+        "title": "Explore More Prompt Collections",
+        "ids": [
+          "portrait-prompts",
+          "cinematic-prompts",
+          "landscape-prompts",
+          "cyberpunk-prompts",
+          "fantasy-prompts"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "common-ai-image-prompt-mistakes-and-how-to-avoid-them",
+    "slug": "common-ai-image-prompt-mistakes-and-how-to-avoid-them",
+    "title": "Common AI Image Prompt Mistakes and How to Avoid Them",
+    "excerpt": "Artificial intelligence has democratized visual creation, but predictable prompt mistakes can sabotage your results. Learn the most common AI image prompt traps and how to avoid them to consistently generate images that match your vision.",
+    "coverImage": "/images/blog/common-ai-image-prompt-mistakes-cover.png",
+    "coverImageAlt": "Common AI Image Prompt Mistakes and How to Avoid Them",
+    "publishedAt": "2026-07-15",
+    "updatedAt": "2026-07-15",
+    "author": {
+      "name": "AI Prompt Site",
+      "avatar": "/images/authors/default.webp"
+    },
+    "readingTime": 10,
+    "category": "Prompt Engineering",
+    "tags": [
+      "AI Prompts",
+      "Image Prompts",
+      "Prompt Engineering",
+      "Gemini",
+      "Midjourney",
+      "DALL-E",
+      "Stable Diffusion"
+    ],
+    "featured": true,
+    "seo": {
+      "title": "Common AI Image Prompt Mistakes and How to Avoid Them",
+      "description": "Learn the most common AI image prompting mistakes and how to fix them. Avoid vagueness, overcrowding, and generic styles in Midjourney, DALL-E, and Gemini.",
+      "canonical": "/blog/common-ai-image-prompt-mistakes-and-how-to-avoid-them",
+      "keywords": [
+        "AI image prompt mistakes",
+        "common prompting mistakes",
+        "AI image generation errors",
+        "Gemini image prompts",
+        "Midjourney prompt mistakes",
+        "DALL-E prompt mistakes"
+      ]
+    },
+    "blocks": [
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "intro",
+        "text": "Introduction"
+      },
+      {
+        "type": "paragraph",
+        "text": "Artificial intelligence has democratized visual creation, putting the power of a digital art studio into anyone's hands. Yet, despite the incredible capabilities of tools like Midjourney, DALL-E, Stable Diffusion, and Google Gemini, many users find themselves frustrated by outputs that fall far short of their imagination. The images are blurry, the compositions are awkward, the colors are muddy, or the subject simply doesn't look right."
+      },
+      {
+        "type": "paragraph",
+        "text": "More often than not, the problem isn't the AI—it's the prompt. Even experienced users fall into predictable traps that sabotage their results. In this comprehensive guide, we'll dissect the most common AI image prompt mistakes, explain why they happen, and give you actionable strategies to fix them. By the end, you'll be equipped to consistently generate images that match—and sometimes even exceed—your creative vision."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "mistake-1",
+        "text": "Mistake #1: Being Vague and Overly Generic"
+      },
+      {
+        "type": "callout",
+        "variant": "error",
+        "title": "The Problem",
+        "text": "\"A beautiful landscape\" or \"a cute cat\" might be the most common prompts ever written—and they produce the most generic, forgettable images imaginable. When you're vague, the AI has no choice but to fall back on its most statistically common associations, resulting in images that look like stock photography from 2010."
+      },
+      {
+        "type": "paragraph",
+        "text": "Why It Happens: We naturally think in general terms, especially when we're just exploring an idea. But AI models lack human intuition and context. They don't know whether you want a misty Scottish highland or a sun-baked desert canyon. They don't know if your \"cute cat\" should be a fluffy Persian or a sleek Siamese."
+      },
+      {
+        "type": "paragraph",
+        "text": "How to Fix It: Inject specificity into every major element of your prompt. Instead of \"a beautiful landscape,\" try:"
+      },
+      {
+        "type": "comparison",
+        "leftTitle": "Generic Prompt",
+        "left": "A beautiful landscape",
+        "rightTitle": "Detailed Prompt (Better)",
+        "right": "A dramatic, misty mountain landscape with a winding river through a pine forest at golden hour, with snow-capped peaks in the distance."
+      },
+      {
+        "type": "prompt",
+        "title": "Even Better (Advanced Prompt)",
+        "prompt": "A sweeping aerial view of the Scottish Highlands at sunrise, with dramatic clouds casting moving shadows over rolling green hills, a meandering silver river cutting through the valley, and ancient stone ruins nestled among purple heather."
+      },
+      {
+        "type": "tip",
+        "title": "Gemini-Specific Fix",
+        "text": "Gemini's native multimodal architecture rewards narrative descriptions. Google's official guidance states: \"Describe the scene, don't just list keywords.\" A paragraph with context and detail will consistently outperform a keyword salad."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "mistake-2",
+        "text": "Mistake #2: Overcrowding the Prompt"
+      },
+      {
+        "type": "callout",
+        "variant": "error",
+        "title": "The Problem",
+        "text": "You want to include everything—a dragon, a princess, a castle, a knight, a glowing sword, a full moon, a waterfall, and maybe a unicorn for good measure. The result? A chaotic mess where nothing is rendered properly."
+      },
+      {
+        "type": "paragraph",
+        "text": "Why It Happens: It's tempting to try to get everything in one generation. More elements, you think, means more value. But AI models have limited \"attention\" to distribute across your prompt. When you overwhelm them with too many subjects and details, everything competes for visual real estate, and nothing receives the focus it deserves."
+      },
+      {
+        "type": "paragraph",
+        "text": "How to Fix It: Prioritize your top 2-3 elements and let the AI handle the rest. The \"90/10 rule\" works well: 90% of your prompt's power should go to the most important elements, and 10% to secondary details."
+      },
+      {
+        "type": "comparison",
+        "leftTitle": "Overcrowded",
+        "left": "A cyberpunk city street with flying cars, holographic advertisements, neon signs, rain-slicked pavement, a mysterious woman in a trench coat, a robotic dog, food vendors, skyscrapers, satellites in the sky, and crowded sidewalks.",
+        "rightTitle": "Focused",
+        "right": "A cyberpunk city street at night featuring a mysterious woman in a trench coat standing in the rain beneath towering neon skyscrapers. Cinematic composition with dramatic lighting from holographic billboards."
+      },
+      {
+        "type": "tip",
+        "title": "Gemini-Specific Fix",
+        "text": "Gemini handles complexity better than many models, but even it has limits. If you need multiple elements, consider using Gemini's multi-image composition feature: generate different elements separately and combine them in a subsequent prompt using reference images."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "mistake-3",
+        "text": "Mistake #3: Ignoring Style, Medium, and Technique"
+      },
+      {
+        "type": "callout",
+        "variant": "error",
+        "title": "The Problem",
+        "text": "You describe exactly what you want to see but forget to specify how it should look. The AI defaults to its most generic rendering style, which is usually a bland, overly smooth digital illustration that lacks character."
+      },
+      {
+        "type": "paragraph",
+        "text": "Why It Happens: Many users focus entirely on content and forget about aesthetics. We think \"I want a portrait\" and forget that a portrait can look like a Renaissance oil painting, a gritty black-and-white photograph, a whimsical children's book illustration, or a hyperrealistic 3D render."
+      },
+      {
+        "type": "paragraph",
+        "text": "How to Fix It: Always include at least one style, medium, or technique descriptor in your prompt. Consider these categories:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Art Movements: Impressionism, Cubism, Surrealism, Art Deco, Baroque, Romanticism, Pop Art",
+          "Mediums: Oil painting, watercolor, charcoal sketch, pencil drawing, ink wash, digital art, 3D render, collage",
+          "Photography Terms: Cinematic lighting, bokeh, shallow depth of field, macro, long exposure, HDR, golden hour, chiaroscuro",
+          "Artist Inspirations: \"In the style of Gustav Klimt,\" \"reminiscent of Hayao Miyazaki,\" \"Studio Ghibli aesthetic\"",
+          "Technical Quality: Highly detailed, photorealistic, 8K, ultra-detailed, sharp focus, intricate textures"
+        ]
+      },
+      {
+        "type": "comparison",
+        "leftTitle": "Before",
+        "left": "A portrait of an elderly fisherman",
+        "rightTitle": "After",
+        "right": "A dramatic chiaroscuro oil painting of an elderly fisherman with weathered skin and deep wrinkles, captured with cinematic lighting that emphasizes his contemplative expression, hyperrealistic detail, reminiscent of Rembrandt's portraiture."
+      },
+      {
+        "type": "tip",
+        "title": "Gemini-Specific Fix",
+        "text": "Gemini excels at style transfer. You can literally say, \"Apply the artistic style of Van Gogh's 'Starry Night' to this scene\" and the model will understand and execute the transformation seamlessly."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "mistake-4",
+        "text": "Mistake #4: Neglecting Composition and Framing"
+      },
+      {
+        "type": "callout",
+        "variant": "error",
+        "title": "The Problem",
+        "text": "You describe the subject and style perfectly, but the resulting image has awkward cropping, a boring angle, or elements poorly positioned within the frame."
+      },
+      {
+        "type": "paragraph",
+        "text": "Why It Happens: Composition is an entire discipline of visual art, and many users simply don't think about it. We describe what we see, not how the camera (or eye) should see it."
+      },
+      {
+        "type": "paragraph",
+        "text": "How to Fix It: Treat your prompt like you're directing a photoshoot. Specify:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Shot Type: Close-up, extreme close-up, medium shot, full body shot, wide shot, establishing shot",
+          "Camera Angle: Bird's eye view, high angle, eye level, low angle, worm's eye view, Dutch angle (tilted)",
+          "Perspective: First-person, third-person, overhead, macro, fisheye",
+          "Positioning: Center frame, rule of thirds, leading lines, framing within framing"
+        ]
+      },
+      {
+        "type": "comparison",
+        "leftTitle": "Before",
+        "left": "A knight in armor standing in a field",
+        "rightTitle": "After",
+        "right": "A low-angle, heroic shot of a medieval knight in full plate armor standing in a misty field at dawn, sword planted in the ground, dramatic backlighting creating a silhouette effect, wide composition with the knight positioned in the lower third of the frame."
+      },
+      {
+        "type": "tip",
+        "title": "Gemini-Specific Fix",
+        "text": "Use the official Gemini photorealistic template that includes composition details: \"A photorealistic [shot type] of [subject], set in [environment]. The scene is illuminated by [lighting description]. Captured with a [camera/lens details], emphasizing [key textures and details].\""
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "mistake-5",
+        "text": "Mistake #5: Forgetting to Specify Aspect Ratio"
+      },
+      {
+        "type": "callout",
+        "variant": "error",
+        "title": "The Problem",
+        "text": "Your image comes out perfectly composed but is completely unusable because it's a square (1:1) when you needed a banner (16:9) or a vertical portrait (9:16)."
+      },
+      {
+        "type": "paragraph",
+        "text": "Why It Happens: Most AI generators default to 1:1 unless otherwise specified. Users assume the AI will \"just know\" what aspect ratio fits their needs."
+      },
+      {
+        "type": "paragraph",
+        "text": "How to Fix It: Always specify aspect ratio at the end of your prompt or using the appropriate parameters:"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Platform",
+          "Aspect Ratio Syntax"
+        ],
+        "rows": [
+          [
+            "Midjourney",
+            "--ar 16:9, --ar 3:2, --ar 2:3"
+          ],
+          [
+            "DALL-E",
+            "Specify in prompt or use interface options"
+          ],
+          [
+            "Stable Diffusion",
+            "Use width/height settings or --aspect_ratio"
+          ],
+          [
+            "Gemini",
+            "Specify in natural language: \"Generate a 16:9 image of...\""
+          ]
+        ]
+      },
+      {
+        "type": "tip",
+        "title": "Gemini-Specific Fix",
+        "text": "Gemini works best when you specify your desired format clearly in the prompt. Prompt for aspect ratios like 4:3, 1:1, or 16:9 using natural language. Example: \"Create a cinematic wide landscape (16:9 aspect ratio) of a futuristic city skyline at twilight...\""
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "mistake-6",
+        "text": "Mistake #6: Misusing Negative Prompts"
+      },
+      {
+        "type": "callout",
+        "variant": "error",
+        "title": "The Problem",
+        "text": "You write \"no blurry images, no bad anatomy, no distorted faces, no extra limbs, no watermarks\" and get frustrated when the AI still produces these issues."
+      },
+      {
+        "type": "paragraph",
+        "text": "Why It Happens: Many AI models, especially older ones, struggle with negative prompts. The token \"no\" or \"without\" often gets lost in processing, and the AI may actually generate more of what you're trying to avoid because those concepts are heavily represented in its training data."
+      },
+      {
+        "type": "paragraph",
+        "text": "How to Fix It: Use positive, constructive language instead. Describe what you want the AI to do, not what you want it to avoid."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Ineffective (Negative)",
+          "Effective (Positive)"
+        ],
+        "rows": [
+          [
+            "\"No blurry images\"",
+            "\"Crisp focus, high detail, sharp edges\""
+          ],
+          [
+            "\"No bad anatomy\"",
+            "\"Anatomically correct, perfectly proportioned\""
+          ],
+          [
+            "\"No distorted faces\"",
+            "\"Symmetrical face, clear facial features, photorealistic skin texture\""
+          ],
+          [
+            "\"No extra limbs\"",
+            "\"Natural human anatomy, correct number of limbs\""
+          ]
+        ]
+      },
+      {
+        "type": "tip",
+        "title": "Gemini-Specific Fix",
+        "text": "Google explicitly recommends avoiding \"semantic negative prompts\" that use \"no\" or \"without.\" Instead, use positive descriptions to guide the model toward your desired output. The official documentation states: \"Instead of saying 'no cars,' describe the desired scene positively: 'an empty, deserted street with no signs of traffic.'\""
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "mistake-7",
+        "text": "Mistake #7: Using Vague Emotional or Abstract Terms"
+      },
+      {
+        "type": "callout",
+        "variant": "error",
+        "title": "The Problem",
+        "text": "You write \"a peaceful scene\" or \"a mysterious atmosphere\" and the AI gives you something that feels nothing like what you imagined."
+      },
+      {
+        "type": "paragraph",
+        "text": "Why It Happens: Emotions and abstract concepts are subjective and culturally coded. \"Peaceful\" to you might mean a quiet forest stream; to the AI, it might mean a minimalist room with soft lighting. These terms are too broad to be useful."
+      },
+      {
+        "type": "paragraph",
+        "text": "How to Fix It: Translate emotions and moods into concrete visual descriptors:"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Abstract Term",
+          "Concrete Visual Translation"
+        ],
+        "rows": [
+          [
+            "Peaceful",
+            "Soft morning light, gentle mist, calm water, muted colors, smooth textures"
+          ],
+          [
+            "Mysterious",
+            "Fog, shadows, low-key lighting, hidden faces, obscured details, deep blue tones"
+          ],
+          [
+            "Melancholic",
+            "Overcast sky, desaturated colors, empty spaces, rain, long shadows"
+          ],
+          [
+            "Joyful",
+            "Bright sunlight, vibrant colors, smiles, open spaces, warm golden tones"
+          ],
+          [
+            "Cinematic",
+            "Dramatic lighting, shallow depth of field, film grain, wide aspect ratio"
+          ]
+        ]
+      },
+      {
+        "type": "comparison",
+        "leftTitle": "Before",
+        "left": "A mysterious forest at night",
+        "rightTitle": "After",
+        "right": "A haunting forest at twilight with thick fog creeping between ancient oak trees, deep blue and purple color palette, moonlight breaking through the canopy creating long dramatic shadows, low-key lighting with high contrast, atmospheric and eerie composition."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "mistake-8",
+        "text": "Mistake #8: Writing Too Much or Too Little"
+      },
+      {
+        "type": "callout",
+        "variant": "error",
+        "title": "The Problem",
+        "text": "Your prompt is either a three-word phrase that yields generic results or a paragraph so dense that the AI gets confused and produces visual noise."
+      },
+      {
+        "type": "paragraph",
+        "text": "Why It Happens: Finding the \"sweet spot\" for prompt length is challenging. Different models have different ideal lengths, and over-correction often swings too far in the opposite direction."
+      },
+      {
+        "type": "paragraph",
+        "text": "How to Fix It: Follow these platform-specific guidelines:"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Platform",
+          "Ideal Prompt Length",
+          "Best Practices"
+        ],
+        "rows": [
+          [
+            "Midjourney",
+            "3-8 short phrases (40-80 words)",
+            "Use commas between concepts, parameters at the end"
+          ],
+          [
+            "DALL-E",
+            "1-2 descriptive sentences (20-60 words)",
+            "Natural language works best"
+          ],
+          [
+            "Stable Diffusion",
+            "Detailed paragraphs (75-150 words)",
+            "More technical language often helps"
+          ],
+          [
+            "Gemini",
+            "1-3 narrative sentences (40-100 words)",
+            "Use natural, descriptive language; avoid keyword stuffing"
+          ]
+        ]
+      },
+      {
+        "type": "tip",
+        "title": "Gemini-Specific Fix",
+        "text": "Gemini's native multimodal understanding means it actually prefers well-structured, narrative prompts. Google's official recommendation is to avoid keyword stuffing and instead write descriptively with proper grammar and complete sentences."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "mistake-9",
+        "text": "Mistake #9: Not Respecting Model Limitations"
+      },
+      {
+        "type": "callout",
+        "variant": "error",
+        "title": "The Problem",
+        "text": "You ask for images with complex text, realistic hands, or multiple interacting characters and get frustrated when the results are mangled."
+      },
+      {
+        "type": "paragraph",
+        "text": "Why It Happens: Different AI models have different capabilities and limitations. Text rendering, for example, has historically been a weakness for diffusion models. Hands and fingers—especially multiple hands interacting—remain notoriously difficult."
+      },
+      {
+        "type": "paragraph",
+        "text": "How to Fix It: Know your model's strengths and weaknesses:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Text Rendering: Gemini 2.5 Flash and Gemini 3 Pro excel at rendering clear text. Midjourney and earlier DALL-E versions struggle with it.",
+          "Hands and Anatomy: All models have improved, but complex interactions still challenge them. Try using negative prompts like \"perfectly formed hands\" or generate them separately and composite.",
+          "Multiple Characters: Some models handle group scenes better than others. Use detailed descriptions of each character's position and interaction.",
+          "Action Scenes: Dynamic poses and complex interactions require careful prompting. Use action verbs and specify the sequence of events."
+        ]
+      },
+      {
+        "type": "tip",
+        "title": "Gemini-Specific Fix",
+        "text": "Use Gemini's text rendering capabilities for logos, posters, and diagrams. Enclose your desired words in quotes and describe the typography: \"Create a modern logo for 'The Daily Grind' with bold sans-serif text.\""
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "mistake-10",
+        "text": "Mistake #10: Accepting First Results Without Iteration"
+      },
+      {
+        "type": "callout",
+        "variant": "error",
+        "title": "The Problem",
+        "text": "You run one prompt, get a mediocre result, and give up—assuming the AI \"isn't good enough\" or \"doesn't understand you.\""
+      },
+      {
+        "type": "paragraph",
+        "text": "Why It Happens: We're used to one-shot tools where the first output is supposed to be the final result. AI image generation is fundamentally different—it's an iterative, collaborative process."
+      },
+      {
+        "type": "paragraph",
+        "text": "How to Fix It: Adopt a \"draft and refine\" mindset. Treat each generation as a rough draft:"
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          "Generate a first set of images with your baseline prompt",
+          "Analyze what worked and what didn't",
+          "Refine the prompt by emphasizing successful elements and removing or modifying problematic ones",
+          "Regenerate and repeat until satisfied"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Example Iteration Cycle:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Draft 1: \"A futuristic city\"",
+          "Draft 2: \"A futuristic cyberpunk city at night with neon lights, rain, and flying cars\" (Added specifics)",
+          "Draft 3: \"A futuristic cyberpunk city at night with neon pink and blue lights reflecting on rain-slicked streets, flying cars overhead, cinematic composition, wide angle, dramatic clouds, photorealistic 8K\" (Added style and technical specs)",
+          "Draft 4: \"A futuristic cyberpunk city at night featuring a lone figure in a trench coat walking through neon-lit rain, flying cars overhead, Blade Runner aesthetic, dramatic cinematic lighting, shallow depth of field, 8K photorealistic --ar 16:9\" (Added subject, reference, and aspect ratio)"
+        ]
+      },
+      {
+        "type": "tip",
+        "title": "Gemini-Specific Fix",
+        "text": "Gemini's conversational editing feature is perfect for iteration. Don't generate from scratch each time—follow up with natural language refinements: \"That's great, but can you make the lighting warmer?\" or \"Keep everything the same but change the character's coat color to red.\" or \"Now show me the same scene from a low-angle perspective.\""
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "mistake-11",
+        "text": "Mistake #11: Failing to Use Reference Images"
+      },
+      {
+        "type": "callout",
+        "variant": "error",
+        "title": "The Problem",
+        "text": "You struggle to describe exactly what you want, and the AI's interpretation never quite matches your vision."
+      },
+      {
+        "type": "paragraph",
+        "text": "Why It Happens: Language is imperfect. Some visual concepts—especially specific poses, compositions, or character designs—are incredibly difficult to capture in words alone."
+      },
+      {
+        "type": "paragraph",
+        "text": "How to Fix It: Use image-to-image prompting or reference image features. Most major platforms now support uploading reference images:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Midjourney: Use image prompts with --iw (image weight) parameter",
+          "DALL-E: Upload reference images through the interface",
+          "Stable Diffusion: Use img2img features with denoising strength control",
+          "Gemini: Use multi-image composition to combine elements from multiple references"
+        ]
+      },
+      {
+        "type": "tip",
+        "title": "Gemini-Specific Fix",
+        "text": "Gemini excels at multi-image composition. You can combine up to 14 reference images in a single prompt, maintaining consistency for up to 5 people: \"Create a professional e-commerce fashion photo. Take the blue floral dress from the first image and let the woman from the second image wear it. Generate a realistic, full-body shot of the woman wearing the dress.\""
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "mistake-12",
+        "text": "Mistake #12: Not Adapting to Your Specific Platform"
+      },
+      {
+        "type": "callout",
+        "variant": "error",
+        "title": "The Problem",
+        "text": "You copy a prompt that worked perfectly on Midjourney, paste it into DALL-E or Gemini, and get terrible results."
+      },
+      {
+        "type": "paragraph",
+        "text": "Why It Happens: Each AI platform has been trained differently, uses different architectures, and responds to language in unique ways."
+      },
+      {
+        "type": "paragraph",
+        "text": "How to Fix It: Learn the specific \"dialect\" of your chosen platform:"
+      },
+      {
+        "type": "cards",
+        "items": [
+          {
+            "title": "Midjourney Specifics",
+            "description": "Use natural language with commas separating concepts. Add parameters at the end like --stylize, --chaos, --ar, --iw."
+          },
+          {
+            "title": "DALL-E Specifics",
+            "description": "Handles detailed, full-sentence descriptions well. Excels at conceptual combinations. Responds to style-specific terminology."
+          },
+          {
+            "title": "Stable Diffusion Specifics",
+            "description": "More technical prompts often work better. Benefits from specific camera and lens details. Negative prompts are particularly important."
+          },
+          {
+            "title": "Gemini Specifics",
+            "description": "Responds exceptionally well to narrative, descriptive prompts. Excels at conversational editing and refinement. The golden rule: describe the scene, don't just list keywords."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "mistake-13",
+        "text": "Mistake #13: Forgetting About Lighting and Atmosphere"
+      },
+      {
+        "type": "callout",
+        "variant": "error",
+        "title": "The Problem",
+        "text": "Your images look flat, artificial, and lack depth or emotional resonance."
+      },
+      {
+        "type": "paragraph",
+        "text": "Why It Happens: Lighting is arguably the most important element of visual art, yet it's frequently overlooked in prompting. We describe objects and people but forget how they're illuminated."
+      },
+      {
+        "type": "paragraph",
+        "text": "How to Fix It: Lighting descriptors dramatically improve image quality:"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Lighting Type",
+          "When to Use",
+          "Visual Effect"
+        ],
+        "rows": [
+          [
+            "Golden Hour",
+            "Warm, romantic, nostalgic scenes",
+            "Soft golden light, long shadows, warm tones"
+          ],
+          [
+            "Dramatic/Chiaroscuro",
+            "High contrast, moody, cinematic",
+            "Deep shadows, strong highlights, emotional intensity"
+          ],
+          [
+            "Studio",
+            "Product shots, professional portraits",
+            "Even lighting, soft shadows, high detail"
+          ],
+          [
+            "Volumetric",
+            "Fantasy, atmospheric scenes",
+            "Visible light beams, dust motes, ethereal glow"
+          ],
+          [
+            "Backlighting",
+            "Silhouettes, heroic shots",
+            "Subject outlined with light, dramatic rim lighting"
+          ],
+          [
+            "Overcast/Diffuse",
+            "Moody, melancholic, soft",
+            "Gentle shadows, muted colors, soft contrast"
+          ]
+        ]
+      },
+      {
+        "type": "comparison",
+        "leftTitle": "Before",
+        "left": "A portrait of a woman",
+        "rightTitle": "After",
+        "right": "A dramatic portrait of a woman with striking features, illuminated by warm golden hour light streaming through window blinds, creating dappled shadows across her face, shallow depth of field, soft bokeh background, photorealistic detail."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "conclusion",
+        "text": "Conclusion: The Path to Prompt Mastery"
+      },
+      {
+        "type": "paragraph",
+        "text": "Avoiding these common mistakes is the fastest path to dramatically improving your AI image results. Here's a quick checklist to run through before hitting \"generate\":"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Is my subject specific and clearly described?",
+          "Have I kept the prompt focused on 2-3 key elements?",
+          "Did I specify style, medium, or artistic technique?",
+          "Have I included composition and framing details?",
+          "Is my aspect ratio specified?",
+          "Am I using positive language instead of negative constraints?",
+          "Have I translated abstract concepts into concrete visual terms?",
+          "Is my prompt length appropriate for the platform I'm using?",
+          "Am I respecting the model's capabilities and limitations?",
+          "Have I planned for iteration and refinement?",
+          "Would reference images help communicate my vision?",
+          "Have I adapted my language to my specific platform?",
+          "Did I include lighting and atmosphere descriptors?"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Remember, prompting is a skill, not a formula. It takes practice, experimentation, and a willingness to learn from both successes and failures. The best prompt engineers in the world still get mediocre results sometimes—but they know how to analyze, adjust, and try again."
+      },
+      {
+        "type": "paragraph",
+        "text": "Start with one or two of these fixes today, incorporate more over time, and watch your AI-generated images transform from generic to genuinely impressive. Happy prompting!"
+      },
+      {
+        "type": "relatedPrompts",
+        "title": "Explore More Prompt Collections",
+        "ids": [
+          "portrait-prompts",
+          "cinematic-prompts",
+          "landscape-prompts",
+          "cyberpunk-prompts",
+          "fantasy-prompts"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ai-logo-design-prompts-guide",
+    "slug": "ai-logo-design-prompts-guide",
+    "title": "AI Logo Design Prompts: The Complete Guide to Professional Branding",
+    "excerpt": "Creating a professional logo used to require expensive agencies. Today, generative AI has democratized branding. Learn how to write logo design prompts that deliver professional-quality results.",
+    "coverImage": "/images/blog/ai-logo-design-prompts-cover.png",
+    "coverImageAlt": "AI Logo Design Prompts: The Complete Guide to Professional Branding",
+    "publishedAt": "2026-07-15",
+    "updatedAt": "2026-07-15",
+    "author": {
+      "name": "AI Prompt Site",
+      "avatar": "/images/authors/default.webp"
+    },
+    "readingTime": 12,
+    "category": "Prompt Engineering",
+    "tags": [
+      "AI Prompts",
+      "Logo Prompts",
+      "Branding",
+      "Prompt Engineering",
+      "Recraft V4",
+      "Ideogram",
+      "Flux"
+    ],
+    "featured": true,
+    "seo": {
+      "title": "AI Logo Design Prompts: The Complete Guide to Professional Branding",
+      "description": "Master AI logo prompts with our step-by-step guide. Learn formulas, platform specifics, and browse 20+ copy-paste logo design prompts by style.",
+      "canonical": "/blog/ai-logo-design-prompts-guide",
+      "keywords": [
+        "AI logo prompts",
+        "logo design prompts",
+        "branding prompts",
+        "Recraft V4 logo",
+        "Ideogram logo",
+        "Flux logo"
+      ]
+    },
+    "blocks": [
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "intro",
+        "text": "Introduction"
+      },
+      {
+        "type": "paragraph",
+        "text": "Creating a professional logo used to require years of design training, expensive software, or hiring a costly agency. Today, generative AI has transformed the landscape, putting the power of professional logo design into everyone's hands. Whether you're launching a startup, building a personal brand, or refreshing an existing identity, the right AI logo design prompt can generate stunning, professional results in seconds."
+      },
+      {
+        "type": "paragraph",
+        "text": "But there's a catch. A loose, vague prompt returns generic stock-art shields and forgettable icons. A precise, well-crafted prompt returns something a client actually says yes to. This guide breaks down everything you need to know about crafting AI logo design prompts that deliver professional-quality results."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "anatomy",
+        "text": "What Makes a Great AI Logo Design Prompt?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Before diving into specific prompts, it's essential to understand the anatomy of an effective logo prompt. According to experienced prompt engineers, strong logo prompts read like a designer's brief, not a keyword list. Modern AI image models respond best to natural, descriptive sentences."
+      },
+      {
+        "type": "paragraph",
+        "text": "The six essential ingredients of a strong logo prompt are:"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Ingredient",
+          "Description",
+          "Example"
+        ],
+        "rows": [
+          [
+            "Brand Name",
+            "The name of the business or project",
+            "\"Northbound Coffee\""
+          ],
+          [
+            "Logo Style",
+            "Wordmark, lettermark, monogram, mascot, abstract mark, badge, emblem",
+            "\"Minimalist wordmark\""
+          ],
+          [
+            "Anchor Symbol",
+            "One clear visual element",
+            "\"Mountain peak above the wordmark\""
+          ],
+          [
+            "Color Palette",
+            "1-3 specific colors",
+            "\"Forest green on warm cream\""
+          ],
+          [
+            "Typography Direction",
+            "Serif, sans-serif, hand-lettered, geometric",
+            "\"Bold geometric sans-serif\""
+          ],
+          [
+            "Output Format",
+            "Vector logo, scalable SVG, centered lockup",
+            "\"Vector logo on a clean canvas\""
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Without any of these elements, the AI makes assumptions based on its training data, and the result is rarely what you actually wanted."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "models",
+        "text": "Choosing the Right AI Model for Logo Design"
+      },
+      {
+        "type": "paragraph",
+        "text": "Different AI models have different strengths when it comes to logo generation. Choosing the right one for your specific logo type can dramatically improve your results."
+      },
+      {
+        "type": "cards",
+        "items": [
+          {
+            "title": "Recraft V4: Vector Specialist",
+            "description": "Generates true SVG files that scale, recolor, and edit cleanly inside vector editors. Clean linework, balanced negative space, and on-brand typography."
+          },
+          {
+            "title": "Ideogram 3.0: Typography Champion",
+            "description": "Best for wordmarks, lettermarks, badges, and any logo where in-image text itself is the primary design element."
+          },
+          {
+            "title": "Flux 2 Pro: Concept Explorer",
+            "description": "Excels at exploring concepts early in the process. Useful for sketching directions before committing to a single style."
+          },
+          {
+            "title": "GPT Image 1.5: Obedient Performer",
+            "description": "Respects complex instructions with five or more elements—perfect for symbol-plus-wordmark lockups."
+          }
+        ]
+      },
+      {
+        "type": "tip",
+        "title": "Pro Tip",
+        "text": "Run the same prompt through two or three different models and compare results. The winning option is rarely the first one."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "steps",
+        "text": "How to Write AI Logo Design Prompts: Step-by-Step"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Step 1: Project Your Brand Identity"
+      },
+      {
+        "type": "paragraph",
+        "text": "Before generating your first logo, develop a clear understanding of your brand. Start by telling the AI about the brand, group, or project you're creating the logo for. Describe its values (e.g., innovation, sustainability, creativity) and its personality (e.g., playful, minimalist, trustworthy, bold)."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Step 2: Define the Design Aesthetic"
+      },
+      {
+        "type": "paragraph",
+        "text": "Include words and phrases that describe the overall look and feel:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Modern and clean",
+          "Calm and organic",
+          "Elegant and minimalist",
+          "Bold and edgy",
+          "Vintage and nostalgic"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Step 3: Specify Design Details"
+      },
+      {
+        "type": "paragraph",
+        "text": "Add specifics about:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Color: vibrant palette, muted tones, monochrome, earthy tones, neon colors",
+          "Composition: circular emblem, wordmark, abstract icon, lettermark, monogram",
+          "Texture: matte finish, glossy finish, brushed metal, paper texture, watercolor texture",
+          "Lighting: soft lighting, glow effect, rim lighting, shadowless"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Step 4: Iterate and Refine"
+      },
+      {
+        "type": "paragraph",
+        "text": "Generating a professional-looking logo with AI is an iterative process. If a prompt gives you results that are close to what you want, try producing several variations before rewriting it. Most tools create slightly different images each time. When fine-tuning, adjust one detail at a time so you can see what's changing the output."
+      },
+      {
+        "type": "tip",
+        "title": "Handling Negatives",
+        "text": "If the model keeps adding unwanted elements, try using negative instructions such as \"no shadows,\" \"no text,\" or \"no background.\""
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Step 5: Test and Validate"
+      },
+      {
+        "type": "paragraph",
+        "text": "Before using an AI-generated logo, make sure it doesn't infringe on any existing trademarks. An attorney can help with trademark clearance for logos."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "prompts-by-style",
+        "text": "20 AI Logo Design Prompts by Style"
+      },
+      {
+        "type": "paragraph",
+        "text": "Here are ready-to-use logo prompts organized by style. Swap the brand name, palette, or symbol to make any one of them yours."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Minimalist Wordmarks"
+      },
+      {
+        "type": "prompt",
+        "title": "Tech Consultancy",
+        "prompt": "A modern wordmark logo for a tech consultancy named 'Vela,' clean geometric sans-serif with generous letter spacing, single ink color in deep navy on white, vector logo on a clean canvas."
+      },
+      {
+        "type": "prompt",
+        "title": "Fashion Label",
+        "prompt": "An editorial serif wordmark for a fashion label named 'Maren,' high-contrast Didot-style serif with tight tracking, warm black ink on a soft cream background, vector lockup centered."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Lettermarks and Monograms"
+      },
+      {
+        "type": "prompt",
+        "title": "Interlocking Monogram",
+        "prompt": "A geometric monogram logo with two interlocking initials 'M' and 'K,' consistent line weight, contained inside a clean circle frame, single-color black on white, vector."
+      },
+      {
+        "type": "prompt",
+        "title": "Vintage Lettermark",
+        "prompt": "A vintage lettermark badge with the oversized initial 'B,' ornamental flourishes, badge border, muted earth tones in rust, cream, and deep brown, slight aged texture, vector."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Abstract and Geometric Marks"
+      },
+      {
+        "type": "prompt",
+        "title": "Fintech Abstract Symbol",
+        "prompt": "A modern abstract symbol for a fintech brand, geometric shape suggesting motion and layering, single hue in electric blue, no typography, balanced negative space, vector on white."
+      },
+      {
+        "type": "prompt",
+        "title": "Startup Lockup",
+        "prompt": "A symbol-plus-wordmark lockup for a startup named 'Stack,' simple geometric mark of three triangles nested together paired with the brand name in a clean sans-serif, horizontal layout, two-tone palette in slate and white, vector."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Mascots and Characters"
+      },
+      {
+        "type": "prompt",
+        "title": "Friendly Mascot",
+        "prompt": "A friendly mascot logo for a pet brand named 'Pip,' small round fox character with rounded shapes and a kind expression, three-color flat illustration in cream, terracotta, and forest green, mascot above the wordmark, vector."
+      },
+      {
+        "type": "prompt",
+        "title": "Sports Mascot",
+        "prompt": "A bold sports mascot logo for a fitness club named 'Ironworks,' stylized ram head front-on with thick outlines and aggressive geometric construction, two-color palette in black and gold, contained inside a shield frame."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Vintage and Retro Badges"
+      },
+      {
+        "type": "prompt",
+        "title": "Coffee Shop Badge",
+        "prompt": "A vintage coffee shop badge for a roastery named 'Halcyon,' brand name curved along a circular border, established date 2019 and tagline 'small-batch roasters' in small caps, central linework illustration of a coffee bean, muted vintage palette, single-color print-ready vector."
+      },
+      {
+        "type": "prompt",
+        "title": "Retro Wordmark Emblem",
+        "prompt": "A retro emblem with sunburst rays radiating from the wordmark 'Driftline,' banner ribbon beneath for the tagline, muted 70s palette in mustard, rust, and cream, screen-print aesthetic, square format."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Vector Icons"
+      },
+      {
+        "type": "prompt",
+        "title": "Continuous Line Icon",
+        "prompt": "A single-line continuous icon for an app named 'Tide,' one unbroken stroke forming a wave shape, uniform stroke weight, single brand color in deep teal, square canvas, scalable SVG."
+      },
+      {
+        "type": "prompt",
+        "title": "App Icon",
+        "prompt": "A filled-shape app icon designed to read at 32 by 32 pixels, single geometric shape forming the brand symbol, two-color palette in white and coral, rounded square frame, high contrast, vector."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "industry-prompts",
+        "text": "8 Industry-Specific Logo Prompts"
+      },
+      {
+        "type": "paragraph",
+        "text": "Different industries have different visual languages. These prompts are dialed to the defaults for specific sectors."
+      },
+      {
+        "type": "prompt",
+        "title": "Tech and SaaS",
+        "prompt": "A logo for a SaaS brand named 'Linq,' abstract geometric symbol suggesting connection and speed, clean sans-serif wordmark, two-tone palette in electric blue and slate, horizontal lockup, vector."
+      },
+      {
+        "type": "prompt",
+        "title": "Coffee and Specialty Food",
+        "prompt": "A circular badge logo for a roastery named 'Northbound,' small linework illustration of a kettle inside the badge, brand name curved along the top, established date in small caps along the bottom, warm cream and deep brown, single-color vector."
+      },
+      {
+        "type": "prompt",
+        "title": "Beauty and Wellness",
+        "prompt": "A refined logo for a skincare brand named 'Saorla,' delicate serif wordmark with extra letter spacing, small botanical leaf symbol above the name, soft neutral palette in sage, blush, and ivory, vector on a calm background."
+      },
+      {
+        "type": "prompt",
+        "title": "Fitness and Athletic",
+        "prompt": "A bold logo for a training studio named 'Forge,' angular geometric mark suggesting forward motion, heavy-weight sans-serif wordmark, two-color palette in black and electric red, horizontal lockup, vector."
+      },
+      {
+        "type": "prompt",
+        "title": "Eco and Sustainability",
+        "prompt": "An organic-feeling logo for an eco brand named 'Rooted,' hand-drawn sprout symbol, rounded humanist sans-serif wordmark, earthy palette in forest green, terracotta, and warm cream, vector."
+      },
+      {
+        "type": "prompt",
+        "title": "Real Estate and Architecture",
+        "prompt": "A structured logo for an architecture firm named 'Hearth & Stone,' geometric symbol referencing a roofline above a doorway, refined serif wordmark, two-tone palette in deep charcoal and warm gold, centered vertical lockup."
+      },
+      {
+        "type": "prompt",
+        "title": "Kids and Education",
+        "prompt": "A playful logo for a children's learning brand named 'Sprout Lab,' soft mascot character of a smiling seedling, rounded display sans-serif wordmark, bright primary palette in yellow, coral, teal, and white, flat illustration, vector."
+      },
+      {
+        "type": "prompt",
+        "title": "Studio and Creative Agency",
+        "prompt": "A confident logo for a creative agency named 'Studio Asterisk,' single geometric asterisk shape used as the primary mark, paired with a modern sans-serif wordmark, balanced negative space, monochrome palette in charcoal and white, refined and minimalist."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "template",
+        "text": "Quick Prompt Template"
+      },
+      {
+        "type": "paragraph",
+        "text": "Use this template structure to create your own custom logo prompts:"
+      },
+      {
+        "type": "formula",
+        "text": "Logo Style + Brand Name + Industry + Personality Traits + Symbol Description + Color Palette + Mood/Feeling + Typography + Output Format Requirements"
+      },
+      {
+        "type": "prompt",
+        "title": "Example Filled Template",
+        "prompt": "A minimalist wordmark logo for a coffee shop named 'Northbound' in the specialty coffee industry. The brand is warm, artisanal, and community-focused. Incorporate a small mountain peak symbol above the wordmark. Use forest green and warm cream colors in a natural aesthetic. Bold geometric sans-serif typography. Vector logo on a clean white background. No text beyond the brand name."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "faq",
+        "text": "FAQ: AI Logo Design Prompts"
+      },
+      {
+        "type": "faq",
+        "items": [
+          {
+            "question": "Can AI logo generators be used without a watermark?",
+            "answer": "Yes, most reputable AI logo generators, including Quillbot's free AI logo generator, produce images without watermarks."
+          },
+          {
+            "question": "What are some good logo fonts?",
+            "answer": "Popular logo fonts include sans-serifs like Futura and Helvetica for clean looks, serifs like Bodoni and Didot for elegance, slab serifs for strength, scripts for creativity, and display fonts for bold statements."
+          },
+          {
+            "question": "What size should a logo be?",
+            "answer": "A common website logo size is about 250-400 pixels wide by 70-100 pixels high. The most important thing is to design in vector format (e.g., SVG) so it scales cleanly to any size."
+          },
+          {
+            "question": "What is a good logo file format?",
+            "answer": "PNG is excellent for logos because it supports transparent backgrounds, allowing you to place your logo cleanly on any design without a visible box around it. PNG also uses lossless compression, preserving sharp edges and clear text."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "takeaways",
+        "text": "Key Takeaways for AI Logo Design Prompts"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Be specific: A prompt like \"minimalist coffee shop logo\" returns generic results. A detailed prompt with brand name, style, symbol, color, typography, and format delivers professional results.",
+          "Use the six-ingredient formula: Every strong logo prompt should include: Brand Name, Logo Style, Anchor Symbol, Color Palette, Typography Direction, and Output Format.",
+          "Choose the right AI model: Recraft V4 for vector logos, Ideogram 3.0 for typography-heavy designs, Flux 2 Pro for concept exploration, and GPT Image 1.5 for complex prompts.",
+          "Iterate and refine: Generate multiple variations, adjust one detail at a time, and use negative instructions to remove unwanted elements.",
+          "Test across models: Run the same prompt through two or three different AI models to find the best result.",
+          "Verify trademarks: Before using your AI-generated logo, ensure it doesn't infringe on any existing trademarks."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "conclusion",
+        "text": "Conclusion"
+      },
+      {
+        "type": "paragraph",
+        "text": "AI has made professional logo design accessible to everyone, but the quality of your results depends entirely on the quality of your prompts. By following the six-ingredient formula, choosing the right AI model for your needs, and iterating based on results, you can generate logos that look like they came from a professional design studio."
+      },
+      {
+        "type": "paragraph",
+        "text": "Remember: the difference between a forgettable stock-art shield and a logo that builds brand equity often comes down to one thing—the specificity of your prompt. Start with detailed prompts, refine through iteration, and watch your brand identity come to life."
       },
       {
         "type": "relatedPrompts",

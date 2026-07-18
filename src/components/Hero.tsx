@@ -182,7 +182,8 @@ const Hero = ({ promptsCount = 509, categoriesCount = 16 }: HeroProps) => {
               <Image
                 src="https://res.cloudinary.com/dxwdgozsp/image/upload/v1782303718/fantasy-compressed_vbei79_1_aazv1d.webp"
                 fill
-                priority
+                loading="eager"
+                fetchPriority="high"
                 quality={95}
                 sizes="(max-width: 500px) 100vw, 500px"
                 className="object-cover transition-transform duration-700 group-hover:scale-110"
@@ -202,6 +203,7 @@ const Hero = ({ promptsCount = 509, categoriesCount = 16 }: HeroProps) => {
                     src="https://res.cloudinary.com/dxwdgozsp/image/upload/v1782303718/fantasy-compressed_vbei79_1_aazv1d.webp"
                     width={56}
                     height={56}
+                    loading="eager"
                     className="object-cover rounded-lg"
                     alt="Mini"
                   />
