@@ -817,5 +817,47 @@
     "models": [
       "Gemini AI"
     ]
+  },
+  {
+    "id": "cmourmvuxc0",
+    "title": "Chasing Tiny Cartoon Self",
+    "slug": "chasing-tiny-cartoon-self-vfr2l",
+    "category": "Fantasy",
+    "fullPrompt": "Create an image using the uploaded image. Preserve the subject's exact facial identity, facial structure, bone anatomy, proportions, age appearance, skin tone, eye shape, eyebrow shape, nose structure, lip shape, jawline, hairstyle, messy voluminous spiky brown hair gently blowing the wind color, and all unique facial characteristics with 100% facial similarity. Do not beautify, alter, or replace the subject. Maintain natural facial proportions and realistic skin texture. Create a dramatic ultra-photorealistic cinematic \"subject chasing his or her tiny cartoon self\" scene on a bustling downtown city street. The full-size subject is captured in an energetic forward sprint, reaching desperately toward an adorable miniature chibi version of his or her that is happily running away just ahead. The scene is viewed from an extremely low ground-level perspective using an ultra-wide cinematic lens, making the foreground feel enormous while emphasizing speed, depth, and scale. The miniature character perfectly matches the uploaded subject with identical hair color, hairstyle, facial features, skin tone, outfit, and expression, but is rendered in an expressive premium 3D animated style with oversized eyes, slightly exaggerated proportions, soft rounded facial features, and highly detailed Pixar-inspired realism. The tiny character appears approximately 8-12 inches tall, creating a striking size contrast while remaining highly believable. Dress both versions in identical modern casual clothing consisting of a fitted olive blue athletic tank top, light blue distressed wide-leg jeans with ripped knees, and clean white sneakers. Clothing should feature realistic stitching, denim texture, natural folds, wrinkles, shadows, and subtle fabric movement created by running. Capture the larger subject mid-stride with one foot dominating the foreground, creating a dramatic forced-perspective effect. One arm is extended forward with fingers reaching toward the miniature character while the opposite arm swings naturally for balance. Hair flows dynamically behind the subject from motion, conveying urgency, excitement, and playful determination. Render extraordinary skin realism including visible pores, subtle complexion variation, realistic highlights, natural muscle definition, fine hairs, accurate fingernails, and lifelike facial detail. Hair should display individually resolved strands, layered volume, realistic movement, flyaway hairs, and natural shine. Eyes should contain crisp irises, realistic reflections, eyelashes, and convincing moisture. The city environment features towering buildings, storefronts, taxis, parked vehicles, crosswalks, traffic, colorful billboards, reflective windows, and bustling urban architecture with realistic depth and scale. Use bright midday sunlight with cinematic HDR lighting, natural shadows, warm highlights, volumetric atmosphere, subtle lens flare, and physically accurate reflections throughout the scene. Emphasize dynamic motion using slight environmental motion blur while keeping both the large subject and miniature character razor-sharp. Create an immersive sense of action with realistic foot placement, believable body mechanics, perspective distortion, and convincing interaction between both characters. Photorealistic, cinematic action photography, ultra-high detail, 8K quality, HDR, IMAX realism, shallow depth of field, premium commercial photography, extraordinary realism, crisp textures, realistic color grading, dramatic storytelling, masterpiece quality. --ar 9:16 Vertical portrait composition, full frame height emphasis, cinematic poster layout.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784545841/prompts/xaqcjkjffanaexy72ure.webp",
+    "isPremium": false,
+    "isTrending": true,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-20T11:10:42.279Z",
+    "updatedAt": "2026-07-20T11:10:42.279Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmrt8875fcq",
+    "title": "Prehistoric danger at sunset",
+    "slug": "prehistoric-danger-at-sunset-x2p8s",
+    "category": "Fantasy",
+    "fullPrompt": "3D Comic Cinematic Adventure\nA spectacular cinematic 3D comic illustration inspired by the atmosphere of Jurassic World Rebirth. The main character is a man in his 30s whose appearance matches the uploaded reference image with the highest possible identity consistency. Preserve facial proportions, hairstyle, eyebrows, eye color, nose shape, lips, jawline, ears, beard (if present), skin tone, body proportions, posture and overall likeness while naturally integrating him into the artwork.\nHe is wearing a sleeveless hoodie in black and dark brown with an open front zipper, hood down but slightly folded behind his neck. Underneath he wears a fitted short-sleeved shirt in neutral dark colors, comfortable outdoor shorts reaching above the knees, rugged adventure shoes featuring the official Jurassic World logo on the sides, tactical fingerless gloves and a lightweight outdoor backpack.\nThe character sits inside a small motorboat navigating through an\nancient tropical river deep inside a forgotten dinosaur ecosystem. Towering jungle trees rise above the mist while enormous vines hang from the cliffs. Dense fog floats above the dark green water.\nSuddenly several gigantic Spinosauruses slowly emerge from both sides of the river. One swims silently beneath the water while only its enormous sail breaks the surface. Another steps out of the jungle onto a muddy riverbank. A third Spinosaurus towers behind the boat with its jaws partially open.\nWater splashes dramatically around the boat. Reflections ripple across the river. Massive prehistoric crocodiles disappear beneath the surface. Flying prehistoric reptiles circle overhead.\nThe lighting combines warm golden sunset light with cool blue jungle shadows. Volumetric light rays penetrate the rainforest canopy. Atmospheric fog creates depth while cinematic reflections dance across the water.\nUnreal Engine 5 quality, Pixar-inspired facial realism mixed with blockbuster visual\neffects, stylized yet highly detailed anatomy, dramatic composition, IMAX framing, HDR, ray tracing, global illumination, ultra-detailed jungle vegetation, 8K resolution, masterpiece quality, cinematic storytelling.\n",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784547506/prompts/hul3jnigxr2vtamzv2sa.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": true,
+    "isFeatured": true,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-20T11:38:27.557Z",
+    "updatedAt": "2026-07-20T11:38:27.557Z",
+    "tags": [],
+    "models": [
+      "Chat GPT"
+    ]
   }
 ]

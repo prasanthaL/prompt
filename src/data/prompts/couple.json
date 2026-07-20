@@ -838,5 +838,26 @@
     "models": [
       "Gemini AI"
     ]
+  },
+  {
+    "id": "cmzdejx2z0l",
+    "title": "Photorealistic Collage Pre-Wedding Poster",
+    "slug": "photorealistic-collage-prewedding-poste-ylvo2",
+    "category": "Couple",
+    "fullPrompt": "Ultra-realistic vertical 4:5 romantic pre-wedding poster, torn-paper collage, 3 photos. Preserve uploaded faces exactly—identity, skin tone, features unchanged. Top: large soft-focus couple, woman leans in forehead-to-nose with man, arm on his shoulder, intimate smiling gaze. Diagonal torn strip reveals B&W duplicate: waist-up, foreheads touching, loving smile.Bottom-right: couple on rock, man behind woman embracing her waist, her eyes closed smiling, barefoot elegant pose.Background: purple-gray haze, faint skyline/monument silhouettes, fog, dark rocks, forest. Woman: white sweetheart-neckline gown, pearls, ribbon hair tie. Man: white shirt, cream trousers, groomed beard, watch. Golden backlight, soft bloom, pastel highlights, cinematic glow. Script text \"Everything\" with flourish and red heart, small white quote line at bottom. 85mm DSLR look, shallow DOF, photorealistic, 8K, faces 100% accurate to reference photos. No cartoon/CGI/extra limbs/watermarks.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784547018/prompts/ykgtidbg4mlwzsskl2pc.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-20T11:30:19.498Z",
+    "updatedAt": "2026-07-20T11:30:19.498Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
   }
 ]

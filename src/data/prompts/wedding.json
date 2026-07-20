@@ -107,5 +107,26 @@
     "models": [
       "Gemini AI"
     ]
+  },
+  {
+    "id": "cmfzloult3f",
+    "title": "Indian Bride Double Exposure Collage",
+    "slug": "indian-bride-double-exposure-collage-w2xs8",
+    "category": "Wedding",
+    "fullPrompt": "Creative bridal double-exposure collage, main subject is an Indian bride in deep red heavily embroidered lehenga with gold zari border and matching dupatta veil traditional jewelry maang tikka nath choker red-white bangles, holding a beige pearl-handle clutch, full body on right side in color, left side large faded black-and-white close-up portrait of same bride looking over shoulder, soft bokeh forest outdoor background in desaturated tones, dreamy cinematic wedding album poster style",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784547445/prompts/ubleifqrylsnh2yw5uac.webp",
+    "isPremium": false,
+    "isTrending": true,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-20T11:37:26.832Z",
+    "updatedAt": "2026-07-20T11:37:26.832Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
   }
 ]
