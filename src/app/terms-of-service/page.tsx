@@ -1,8 +1,7 @@
-import React from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Link from "next/link";
-import { FileText, Sparkles } from "lucide-react";
+import { FileText } from "lucide-react";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -17,10 +16,10 @@ export default function TermsOfServicePage() {
   const lastUpdated = "June 16, 2026";
 
   return (
-    <main className="min-h-screen mesh-gradient text-foreground pb-20">
+    <main className="min-h-screen mesh-gradient text-foreground">
       <Navbar />
 
-      <div className="max-w-4xl mx-auto px-4 md:px-8 pt-32 md:pt-40">
+      <div className="max-w-4xl mx-auto px-4 md:px-8 pt-32 md:pt-40 mb-10">
         {/* Breadcrumbs */}
         <div className="flex items-center gap-2 text-[10px] font-black text-foreground/20 uppercase tracking-[0.2em] mb-8">
           <Link href="/" className="hover:text-primary transition-colors">Home</Link>
@@ -139,7 +138,7 @@ export default function TermsOfServicePage() {
               8. Support & Feedback
             </h2>
             <p>
-              For any clarification regarding these terms, permissions, or license inquiries, please navigate to our <Link href="/contact" className="text-primary hover:underline font-semibold">Contact Us</Link> page or send an inquiry to <a href="mailto:terms@aipromptnest.com" className="text-primary hover:underline font-semibold">terms@aipromptnest.com</a>.
+              For any clarification regarding these terms, permissions, or license inquiries, please navigate to our <Link href="/contact" className="text-primary hover:underline font-semibold">Contact Us</Link> page or send an inquiry to <a href="mailto:hello.aipromptnest@gmail.com" className="text-primary hover:underline font-semibold">hello.aipromptnest@gmail.com</a>.
             </p>
           </section>
         </div>

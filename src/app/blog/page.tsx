@@ -7,8 +7,6 @@ import BlogCardFeatured from "@/components/blog/BlogCardFeatured";
 import BlogCard from "@/components/blog/BlogCard";
 import type { BlogCardData } from "@/components/blog/BlogCardFeatured";
 
-export const revalidate = 60; // Revalidate every minute
-
 export const metadata: Metadata = {
   title: "AI PromptNest Blog - Insights, Guides & Prompt Engineering Tips",
   description:
@@ -34,7 +32,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     images: [
       {
-        url: "https://www.aipromptnest.com/og-blog.jpg",
+        url: "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784359048/how-to-write-better-ai-image-prompts_ou8phb.webp",
         width: 1200,
         height: 630,
         alt: "AI PromptNest Blog",
@@ -46,7 +44,7 @@ export const metadata: Metadata = {
     title: "AI PromptNest Blog - Insights, Guides & Prompt Engineering Tips",
     description:
       "Master prompt engineering with guides and insights from the AIPromptNest blog.",
-    images: ["https://www.aipromptnest.com/og-blog.jpg"],
+    images: ["https://res.cloudinary.com/dxwdgozsp/image/upload/v1784359048/how-to-write-better-ai-image-prompts_ou8phb.webp"],
   },
   robots: {
     index: true,

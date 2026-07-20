@@ -20,7 +20,7 @@ import RelatedPostsBlock from "./blocks/RelatedPostsBlock";
 export type Block =
   | { type: "paragraph"; text: string }
   | { type: "heading"; level: 2 | 3 | 4; text: string; id?: string }
-  | { type: "prompt"; title?: string; prompt: string; image?: string; inGrid?: boolean }
+  | { type: "prompt"; title?: string; prompt: string; image?: string; inGrid?: boolean; slug?: string; href?: string; category?: string }
   | { type: "comparison"; leftTitle?: string; left: string; rightTitle?: string; right: string }
   | { type: "list"; items: string[]; ordered?: boolean }
   | { type: "table"; headers: string[]; rows: string[][] }
@@ -57,7 +57,17 @@ export default function BlogBlock({ block }: BlogBlockProps) {
       return <HeadingBlock level={block.level} text={block.text} id={block.id} />;
 
     case "prompt":
-      return <PromptBlock title={block.title} prompt={block.prompt} image={block.image} inGrid={block.inGrid} />;
+      return (
+        <PromptBlock
+          title={block.title}
+          prompt={block.prompt}
+          image={block.image}
+          inGrid={block.inGrid}
+          slug={block.slug}
+          href={block.href}
+          category={block.category}
+        />
+      );
 
     case "comparison":
       return (

@@ -491,15 +491,15 @@ export const popularSearches = [
 ];
 
 export const seoPropositionFeatures = [
-  { icon: Copy, label: "Easy to Copy", sub: "One-click copy" },
-  { icon: Share2, label: "SEO Friendly", sub: "Well structured" },
-  { icon: RefreshCw, label: "Regular Updates", sub: "Fresh prompts weekly" },
+  { icon: Copy, label: "Easy to Copy", sub: "Instant 1-click copy" },
+  { icon: Sparkles, label: "Well Structured", sub: "Optimized prompt syntax" },
+  { icon: RefreshCw, label: "Regular Updates", sub: "Fresh prompts added daily" },
 ];
 
 export const whyChooseUs = [
-  "Save time and get better results",
-  "Professionally crafted and tested",
-  "Optimized for Gemini AI",
-  "Perfect for artists, designers & creators",
-  "Free to explore and use",
+  "Optimized specifically for Google Gemini image generation",
+  "Includes precise camera, lighting, and style parameters",
+  "100% free with instant one-click copying — no registration required",
+  "Curated for artists, designers, marketers & AI enthusiasts",
+  "Continuously expanded with new trending aesthetic styles",
 ];
