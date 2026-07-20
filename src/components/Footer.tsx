@@ -18,12 +18,23 @@ import {
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
-// Custom SVG components for social links matching the mockup
-// const XIcon = () => (
-//   <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
-//     <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
-//   </svg>
-// );
+const XIcon = () => (
+  <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+    <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+  </svg>
+);
+
+const TiktokIcon = () => (
+  <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+    <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64c.29 0 .56.04.82.12V9.4a6.33 6.33 0 0 0-1-.08A6.34 6.34 0 0 0 3 15.66a6.34 6.34 0 0 0 10.86 4.48V13a8.28 8.28 0 0 0 5.73 2.25v-3.71a4.84 4.84 0 0 1-3.77-1.44A4.83 4.83 0 0 1 19.59 6.69z" />
+  </svg>
+);
+
+const ThreadsIcon = () => (
+  <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+    <path d="M19 7.5c-1.333 -1 -3 -1.5 -5 -1.5c-5 0 -8 2.5 -8 7.5s3 7.5 8 7.5c3.5 0 6.5 -1.5 7 -5c.5 -3.5 -1.5 -5 -4 -5c-2.5 0 -3 1.5 -3 2.5c0 2.5 4.5 2.5 4.5 -1c0 -1.5 -1.5 -2.5 -3.5 -2.5c-3.5 0 -4.5 2.5 -4.5 4.5s1 4.5 3.5 4.5c2.5 0 3.5 -1.5 3.5 -2.5" />
+  </svg>
+);
 
 const FacebookIcon = () => (
   <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
@@ -154,12 +165,12 @@ const POPULAR_CATEGORIES = [
 ];
 
 const SOCIAL_LINKS = [
-  // { href: "https://twitter.com", icon: <XIcon /> },
-  { href: "https://facebook.com", icon: <FacebookIcon /> },
-  // { href: "https://instagram.com", icon: <InstagramIcon /> },
-  // { href: "https://youtube.com", icon: <YoutubeIcon /> },
-  // { href: "https://discord.com", icon: <DiscordIcon /> },
-  // { href: "https://pinterest.com", icon: <PinterestIcon /> },
+  { href: "https://pin.it/6uUNsspq4", icon: <PinterestIcon />, title: "Pinterest" },
+  { href: "https://x.com/aipromptnestN", icon: <XIcon />, title: "Twitter" },
+  { href: "https://www.threads.com/@ai_promptnest", icon: <ThreadsIcon />, title: "Threads" },
+  { href: "https://www.instagram.com/ai_promptnest/", icon: <InstagramIcon />, title: "Instagram" },
+  { href: "https://www.youtube.com/@AiPromptNest", icon: <YoutubeIcon />, title: "YouTube" },
+  { href: "https://www.tiktok.com/@aipromptnest?lang=en-GB", icon: <TiktokIcon />, title: "TikTok" },
 ];
 
 export default function Footer() {
@@ -342,31 +353,17 @@ export default function Footer() {
             © 2026 AIPromptNest. All rights reserved.
           </p>
 
-          <div className="flex flex-wrap items-center justify-center gap-x-3 gap-y-2 text-xs text-white/40">
-            {["Free AI Prompts", "Gemini AI Prompts", "Gemini Image Prompts", "Prompt Library"].map((item, i) => (
-              <React.Fragment key={item}>
-                <Link
-                  href={`/browse?q=${encodeURIComponent(
-                    item.replace("Free ", "").replace("AI ", "").replace("Prompts", "").replace("Library", "").trim()
-                  )}`}
-                  className="hover:text-white transition-colors"
-                >
-                  {item}
-                </Link>
-                {i < 3 && <span className="text-white/20 select-none">•</span>}
-              </React.Fragment>
-            ))}
-          </div>
-
           <div className="flex items-center gap-3">
             <span className="text-xs text-white/35">Follow us on</span>
-            <div className="flex items-center gap-2">
+            <div className="flex flex-wrap items-center gap-2">
               {SOCIAL_LINKS.map((social, i) => (
                 <a
                   key={i}
                   href={social.href}
                   target="_blank"
                   rel="noopener noreferrer"
+                  title={social.title}
+                  aria-label={social.title}
                   className="w-8 h-8 rounded-full border border-white/[0.08] hover:border-violet-500/20 bg-white/[0.02] hover:bg-violet-500/10 flex items-center justify-center text-white/50 hover:text-white transition-all cursor-pointer"
                 >
                   {social.icon}

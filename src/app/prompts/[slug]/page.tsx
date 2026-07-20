@@ -222,7 +222,7 @@ export default async function PromptPage({
   };
 
   return (
-    <main className="min-h-screen mesh-gradient pb-20">
+    <main className="min-h-screen mesh-gradient">
       {/* Inject JSON-LD for Google rich results */}
       <script
         type="application/ld+json"

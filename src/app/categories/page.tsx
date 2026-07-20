@@ -333,7 +333,7 @@ export default async function CategoriesPage() {
   ];
 
   return (
-    <main className="min-h-screen mesh-gradient pb-20">
+    <main className="min-h-screen mesh-gradient">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas) }}
