@@ -5,38 +5,35 @@ import TrendingClient, { CATEGORY_DISPLAY_NAMES } from "./TrendingClient";
 import Link from "next/link";
 import {
   TrendingUp,
-  Eye,
-  Heart,
-  Users,
   Star,
   ChevronRight,
   Plus,
   Minus,
   Zap,
-  Award,
   BookOpen,
+  ShieldCheck,
+  RefreshCw,
+  HelpCircle,
 } from "lucide-react";
 
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Trending AI Prompts (Updated Daily) | AI Prompt Nest",
+  title: "Trending Gemini AI Prompts (Updated Daily) | AI Prompt Nest",
   description:
-    "Discover the most popular AI prompts trending right now. Explore top-rated ChatGPT, Gemini, Claude, and image generation prompts used by creators, marketers, developers, and designers.",
+    "Discover the most popular Gemini AI image prompts trending right now. Explore top-rated prompts for cinematic photos, anime, portraits, and digital art.",
 
   keywords: [
-    "trending AI prompts",
-    "popular AI prompts",
-    "best AI prompts",
-    "ChatGPT prompts",
-    "Gemini prompts",
-    "Claude prompts",
+    "trending Gemini AI prompts",
+    "popular Gemini prompts",
+    "best Gemini AI prompts",
+    "Gemini image prompts",
+    "Gemini prompts library",
     "AI image prompts",
-    "AI prompt library",
     "AI prompt collection",
-    "viral AI prompts",
+    "viral Gemini prompts",
     "prompt engineering",
-    "free AI prompts",
+    "free Gemini AI prompts",
     "top AI prompts",
     "AI Prompt Nest",
   ],
@@ -46,9 +43,9 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title: "Trending AI Prompts (Updated Daily) | AI Prompt Nest",
+    title: "Trending Gemini AI Prompts (Updated Daily) | AI Prompt Nest",
     description:
-      "Browse the most viewed and liked AI prompts trending this week. Find top ChatGPT, Gemini, and Claude prompts in one place.",
+      "Browse the most viewed and liked Gemini AI image prompts trending this week. Find top-rated prompts for Google Gemini in one place.",
     url: "https://www.aipromptnest.com/trending",
     siteName: "AI Prompt Nest",
     type: "website",
@@ -65,9 +62,9 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Trending AI Prompts (Updated Daily) | AI Prompt Nest",
+    title: "Trending Gemini AI Prompts (Updated Daily) | AI Prompt Nest",
     description:
-      "Discover today's most popular AI prompts for ChatGPT, Gemini, Claude, and more.",
+      "Discover today's most popular AI image prompts engineered specifically for Google Gemini.",
     images: ["https://res.cloudinary.com/dfbacu2lw/image/upload/v1781332533/og_yh8di5.webp"],
   },
 
@@ -105,45 +102,41 @@ const FAQS = [
   },
   {
     q: "Which AI models are supported?",
-    a: "We support all major AI models including ChatGPT, Gemini, Claude, Stable Diffusion, and many more.",
-  },
-  {
-    q: "Can I submit my own prompts?",
-    a: "Absolutely! Create an account and submit your own prompts. If they gain traction, they might just show up on this trending page.",
+    a: "We currently specialize exclusively in Google Gemini AI. All prompts on AIPromptNest are meticulously crafted, tested, and optimized specifically for Gemini AI to ensure high-quality and consistent results.",
   },
 ];
 
 const EXPLORE_CARDS = [
   {
     icon: Zap,
-    title: "Latest Prompts",
-    description: "Browse the most recently added prompts",
+    title: "Browse Prompts",
+    description: "Explore the full library of Gemini AI prompts",
     href: "/browse",
     color: "from-blue-500/20 to-cyan-500/20",
     iconColor: "text-blue-400",
     border: "border-blue-500/20",
   },
   {
-    icon: Award,
-    title: "Top Rated Prompts",
-    description: "Browse the highest rated prompts by our team",
-    href: "/browse?sort=top",
+    icon: BookOpen,
+    title: "AI Guides & Blog",
+    description: "Learn prompt engineering tips and tutorials",
+    href: "/blog",
+    color: "from-purple-500/20 to-violet-500/20",
+    iconColor: "text-purple-400",
+    border: "border-purple-500/20",
+  },
+  {
+    icon: HelpCircle,
+    title: "Help & FAQ",
+    description: "Find answers to common questions and guides",
+    href: "/faq",
     color: "from-amber-500/20 to-orange-500/20",
     iconColor: "text-amber-400",
     border: "border-amber-500/20",
   },
   {
     icon: Star,
-    title: "Featured Prompts",
-    description: "Hand-picked prompts by our team",
-    href: "/browse?filter=featured",
-    color: "from-purple-500/20 to-violet-500/20",
-    iconColor: "text-purple-400",
-    border: "border-purple-500/20",
-  },
-  {
-    icon: BookOpen,
-    title: "Collections",
+    title: "Categories & Collections",
     description: "Curated collections for every workflow",
     href: "/categories",
     color: "from-emerald-500/20 to-teal-500/20",
@@ -169,7 +162,7 @@ export default async function TrendingPage() {
     "@type": "ItemList",
     name: "Trending AI Prompts",
     description:
-      "Explore today's most popular ChatGPT, Gemini AI prompts. These prompts are ranked based on views, likes, and community engagement.",
+      "Explore today's top-trending Gemini AI image prompts. These prompts are ranked based on views, likes, and community engagement.",
     url: "https://www.aipromptnest.com/trending",
     numberOfItems: allTrending.length,
     itemListElement: allTrending.map((prompt, index) => ({
@@ -245,8 +238,7 @@ export default async function TrendingPage() {
               </h1>
 
               <p className="text-foreground/50 max-w-lg text-base leading-relaxed">
-                Explore today&apos;s most popular ChatGPT, Gemini, and Claude prompts.
-                These prompts are ranked based on views, likes, and community engagement.
+                Explore today&apos;s top-trending Gemini AI image prompts, engineered for stunning visual generation. Ranked by real-time community views, likes, and engagement to elevate your creative workflow.
               </p>
             </div>
 
@@ -265,7 +257,7 @@ export default async function TrendingPage() {
                   This Week
                 </div>
                 <div className="text-3xl font-black text-foreground">
-                  {allPrompts.length.toLocaleString()}
+                  {allTrending.length.toLocaleString()}
                 </div>
                 <div
                   className="text-xs font-semibold mt-1"
@@ -320,10 +312,8 @@ export default async function TrendingPage() {
                   About Trending AI Prompts
                 </h2>
                 <p className="text-sm text-foreground/50 leading-relaxed max-w-2xl">
-                  Explore the most popular AI prompts trending across categories
-                  including ChatGPT, Gemini, Claude, image
-                  generation, content creation, marketing, coding, business and
-                  productivity.
+                  Explore the most popular Gemini AI image prompts trending across top visual categories
+                  including cinematic photography, anime art, portraits, fantasy worlds, digital illustration, and 3D design.
                 </p>
                 <p className="text-sm text-foreground/40 leading-relaxed max-w-2xl">
                   These prompts are chosen based on real-time engagement
@@ -337,32 +327,32 @@ export default async function TrendingPage() {
               <div className="flex flex-wrap gap-3 lg:flex-nowrap lg:items-center">
                 {[
                   {
-                    icon: Eye,
-                    label: "1M+",
-                    sub: "Total Views",
+                    icon: Zap,
+                    label: `${allTrending.length}+`,
+                    sub: "Trending Prompts",
+                    color: "text-amber-400",
+                    bg: "rgba(245,158,11,0.1)",
+                  },
+                  {
+                    icon: BookOpen,
+                    label: `${trendingCategories.length}+`,
+                    sub: "Categories",
                     color: "text-purple-400",
                     bg: "rgba(139,92,246,0.1)",
                   },
                   {
-                    icon: Heart,
-                    label: "250K+",
-                    sub: "Likes",
-                    color: "text-rose-400",
-                    bg: "rgba(244,63,94,0.1)",
-                  },
-                  {
-                    icon: Users,
-                    label: "150K+",
-                    sub: "Contributors",
-                    color: "text-blue-400",
-                    bg: "rgba(59,130,246,0.1)",
-                  },
-                  {
-                    icon: Star,
-                    label: "10K+",
-                    sub: "Contributions",
+                    icon: ShieldCheck,
+                    label: "100%",
+                    sub: "Free Access",
                     color: "text-emerald-400",
                     bg: "rgba(16,185,129,0.1)",
+                  },
+                  {
+                    icon: RefreshCw,
+                    label: "Daily",
+                    sub: "Fresh Updates",
+                    color: "text-blue-400",
+                    bg: "rgba(59,130,246,0.1)",
                   },
                 ].map((stat, i) => (
                   <div

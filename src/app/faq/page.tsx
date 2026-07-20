@@ -56,18 +56,6 @@ const FAQ_DATA: FAQItem[] = [
     category: "licensing",
     question: "Do I need to attribute or credit AIPromptNest?",
     answer: "No attribution is required. You are completely free to use the prompts for personal and commercial endeavors. However, sharing AIPromptNest with other creators or giving us a shout-out is always greatly appreciated!"
-  },
-  {
-    id: "s1",
-    category: "submissions",
-    question: "How do I submit my own prompts to the platform?",
-    answer: "We welcome contributions from prompt designers! Navigate to our Submit Page (Premium Vault section) to submit your custom prompts, details, categories, and reference images. Our curation team will review it, test the prompt, and publish it if it passes quality guidelines."
-  },
-  {
-    id: "s2",
-    category: "submissions",
-    question: "What are the requirements for prompt approval?",
-    answer: "Prompts must be original, yield high-quality and reliable outputs in Gemini, use structured syntax (avoiding messy keyword stuffing), and include a high-definition reference image showing the prompt's output. We avoid duplicate styles to keep our database unique."
   }
 ];
 

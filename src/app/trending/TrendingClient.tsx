@@ -73,8 +73,6 @@ export default function TrendingClient({
   allTrendingPrompts,
 }: TrendingClientProps) {
   const [activeCategory, setActiveCategory] = useState("all");
-  const [sortBy, setSortBy] = useState("Most Popular");
-  const [timeFilter, setTimeFilter] = useState("This Week");
   // How many prompts of the filtered set to display
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
   const [isLoadingMore, setIsLoadingMore] = useState(false);
@@ -191,47 +189,6 @@ export default function TrendingClient({
               />
               Trending Prompts
             </h2>
-
-            <div className="flex items-center gap-2">
-              {/* Time Filter */}
-              <div className="relative">
-                <select
-                  value={timeFilter}
-                  onChange={(e) => setTimeFilter(e.target.value)}
-                  className="appearance-none text-xs font-semibold px-3 py-2 pr-7 rounded-lg border cursor-pointer focus:outline-none"
-                  style={{
-                    background: "rgba(255,255,255,0.05)",
-                    borderColor: "rgba(255,255,255,0.1)",
-                    color: "rgba(255,255,255,0.7)",
-                  }}
-                >
-                  <option>This Week</option>
-                  <option>This Month</option>
-                  <option>All Time</option>
-                </select>
-                <ChevronDown className="absolute right-2 top-1/2 -translate-y-1/2 w-3 h-3 text-foreground/40 pointer-events-none" />
-              </div>
-
-              {/* Sort Filter */}
-              <div className="relative">
-                <select
-                  value={sortBy}
-                  onChange={(e) => setSortBy(e.target.value)}
-                  className="appearance-none text-xs font-semibold px-3 py-2 pr-7 rounded-lg border cursor-pointer focus:outline-none"
-                  style={{
-                    background: "rgba(255,255,255,0.05)",
-                    borderColor: "rgba(255,255,255,0.1)",
-                    color: "rgba(255,255,255,0.7)",
-                  }}
-                >
-                  <option>Most Popular</option>
-                  <option>Most Viewed</option>
-                  <option>Most Liked</option>
-                  <option>Newest</option>
-                </select>
-                <ChevronDown className="absolute right-2 top-1/2 -translate-y-1/2 w-3 h-3 text-foreground/40 pointer-events-none" />
-              </div>
-            </div>
           </div>
 
           {/* Grid */}
