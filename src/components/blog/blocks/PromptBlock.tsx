@@ -9,9 +9,12 @@ interface PromptBlockProps {
   prompt: string;
   image?: string;
   inGrid?: boolean;
+  slug?: string;
+  href?: string;
+  category?: string;
 }
 
-export default function PromptBlock({ title, prompt, image, inGrid }: PromptBlockProps) {
+export default function PromptBlock({ title, prompt, image, inGrid, slug, href, category }: PromptBlockProps) {
   const [copied, setCopied] = useState(false);
 
   const handleCopy = () => {
@@ -22,17 +25,19 @@ export default function PromptBlock({ title, prompt, image, inGrid }: PromptBloc
 
   if (image) {
     // Generate a safe ID for the PromptCard
-    const safeId = title ? title.toLowerCase().replace(/[^a-z0-9]+/g, "-") : "anime-prompt";
+    const safeId = title ? title.toLowerCase().replace(/[^a-z0-9]+/g, "-") : "portrait-prompt";
     const cardElement = (
       <PromptCard
         id={safeId}
-        title={title ?? "Anime AI Prompt"}
-        category="Anime"
+        title={title ?? "AI Image Prompt"}
+        category={category ?? "Portrait"}
         author="Admin"
         image={image}
         views={100}
         likes={50}
         fullPrompt={prompt}
+        slug={slug}
+        href={href}
       />
     );
 
