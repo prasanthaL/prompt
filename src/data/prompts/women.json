@@ -563,5 +563,89 @@
     "models": [
       "Chat GPT"
     ]
+  },
+  {
+    "id": "cmjc0wsr7fv",
+    "title": "Joyful moments in a rainy city",
+    "slug": "joyful-moments-in-a-rainy-city-tdvcw",
+    "category": "Women",
+    "fullPrompt": "A triple-exposure cinematic photo of a joyful Indian woman in a light blue floral dress enjoying monsoon rain. The composition features three vertical layers: top layer looking up and laughing; middle blowing a kiss; bottom walking barefoot with a transparent umbrella. Wet city street, blurred auto-rickshaws, glowing lights, cinematic lighting: realistic. ",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784652119/prompts/do3ay9l4dj6f9pczysu3.webp",
+    "isPremium": false,
+    "isTrending": true,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-21T16:41:59.471Z",
+    "updatedAt": "2026-07-21T16:41:59.471Z",
+    "tags": [],
+    "models": [
+      "Chat GPT"
+    ]
+  },
+  {
+    "id": "cmxzofbgl17",
+    "title": "Timeless elegance and grace",
+    "slug": "timeless-elegance-and-grace-bess3",
+    "category": "Women",
+    "fullPrompt": "A luxury fashion editorial poster featuring a multi-portrait collage of an ultra-realistic young Indian woman. She has glowing skin with hyper-detailed realistic texture, an expressive smile, and long silky black hair adorned with fresh jasmine flowers. She is wearing an elegant silk saree in soft baby brown and blue gradients, accessorized with a diamond choker necklace and matching earrings.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784652205/prompts/flilljvzamzwkalt7vfv.webp",
+    "isPremium": false,
+    "isTrending": true,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-21T16:43:26.024Z",
+    "updatedAt": "2026-07-21T16:43:26.024Z",
+    "tags": [],
+    "models": [
+      "Chat GPT"
+    ]
+  },
+  {
+    "id": "cm1uehmko5z",
+    "title": "Playful doodles and shadows in the street",
+    "slug": "playful-doodles-and-shadows-in-the-stree-4l2el",
+    "category": "Women",
+    "fullPrompt": "\"scene\":\"A mischievous doodle shadow mimics with exaggerated funny poses while she stands in modern trendy clothes.\",\n\"kumala\":{\"outfit\":\"fashionable oversized shirt, cargo pants, sneakers\",\"expression\":\"confused\"},\n\"quality\":\"8K\",\n\"footer\":\"pmx\"",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784652542/prompts/xrzkt0v47pcquo9gws3x.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-21T16:49:02.453Z",
+    "updatedAt": "2026-07-21T16:49:02.453Z",
+    "tags": [],
+    "models": [
+      "Chat GPT"
+    ]
+  },
+  {
+    "id": "cmc714b80ht",
+    "title": "Woman with plush bird mascot",
+    "slug": "woman-with-plush-bird-mascot-t5ikb",
+    "category": "Women",
+    "fullPrompt": "Ultra-realistic studio portrait with a clean monochromatic sky-blue background. A beautiful stylish young Korean woman with authentic East Asian facial features, long silky dark brown hair, flawless skin, soft natural makeup, and a gentle smile stands casually with one leg crossed. She wears an oversized textured blue knit sweater, fitted blue jeans, and clean white sneakers. Beside her stands an adorable giant fluffy round blue bird character, nearly waist-high, with ultra-soft fur, oversized expressive eyes, a small yellow-orange beak, tiny wings, and cute feather tufts on top. The woman casually rests one arm on the bird, creating a playful friendship pose. Everything follows a harmonious blue-on-blue color palette with subtle orange accents from the bird's beak and feet. Soft diffused studio lighting, smooth shadows, premium fashion photography mixed with Pixar-quality character design, highly detailed fur and realistic skin texture, centered composition, elegant minimalism, vibrant yet soft colors, cinematic quality, magazine cover aesthetic, 85mm lens look, shallow depth of field, extremely cute and visually appealing, photorealistic.\n",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784653793/prompts/icjoyuxkcfk2cdlgcgda.webp",
+    "isPremium": false,
+    "isTrending": true,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-21T17:09:54.316Z",
+    "updatedAt": "2026-07-21T17:09:54.316Z",
+    "tags": [],
+    "models": [
+      "Chat GPT"
+    ]
   }
 ]

@@ -794,5 +794,110 @@
     "models": [
       "Chat GPT"
     ]
+  },
+  {
+    "id": "cmwp6xm1581",
+    "title": "Moody vintage portrait collage",
+    "slug": "moody-vintage-portrait-collage-ak31p",
+    "category": "Men",
+    "fullPrompt": "A creative double exposure style movie poster featuring a stylish man [100% same face from reference]. The composition includes three views of him: one full-body shot standing on an old wooden platform wearing a brown blazer, cream turtleneck and vintage trousers, a medium close-up with a gentle smile, and a large profile view wearing retro round sunglasses. The background is warm beige with coffee-colored paint splashes and film grain textures. Vintage cinematic poster aesthetic, soft lighting, artistic composition. Text \"EDITING BY Your Name\" ratio 4:5.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784651419/prompts/s7jtjbwoq6tny1sygsns.webp",
+    "isPremium": false,
+    "isTrending": true,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-21T16:30:21.466Z",
+    "updatedAt": "2026-07-21T16:30:21.466Z",
+    "tags": [],
+    "models": [
+      "Chat GPT"
+    ]
+  },
+  {
+    "id": "cmlb0wh8d9g",
+    "title": "Sophisticated portrait with marble pedestal",
+    "slug": "sophisticated-portrait-with-marble-pedes-0lwfj",
+    "category": "Men",
+    "fullPrompt": "A creative double exposure style movie poster featuring a stylish man [100% same face from reference]. The composition includes three views of him: one full-body shot standing on a marble platform wearing a white suit with a cream shirt, a medium close-up smiling softly at the camera, and a large profile view wearing elegant gold-rim sunglasses. The background is soft white and silver with artistic ink splash effects and subtle light rays. Luxury editorial fashion style, clean composition, cinematic photography. Text \"EDITING BY Your Name\" ratio 4:5.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784651549/prompts/rpproi3bb9n96mmnuufg.webp",
+    "isPremium": false,
+    "isTrending": true,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-21T16:32:30.135Z",
+    "updatedAt": "2026-07-21T16:32:30.135Z",
+    "tags": [],
+    "models": [
+      "Chat GPT"
+    ]
+  },
+  {
+    "id": "cmnm7na7639",
+    "title": "Biker Portrait With Identity Lock",
+    "slug": "biker-portrait-with-identity-lock-irwbp",
+    "category": "Men",
+    "fullPrompt": "Use the uploaded image ONLY as the character identity reference.\n\nSTRICT IDENTITY LOCK:\nPreserve the uploaded person's face 100% exactly. Do NOT change facial structure, eyes, eyebrows, nose, lips, ears, hairstyle, hairline, skin tone, age, expression, body proportions, hands, or any unique facial details. No beautification, face reshaping, skin smoothing, AI face replacement, or identity alteration. Maintain complete identity accuracy.\n\nTASK:\nRecreate the exact same cinematic biker portrait composition while replacing ONLY the character identity with the uploaded person.\n\nCOMPOSITION (MUST MATCH EXACTLY):\n* Vertical 4:5 portrait.\n* Subject sitting on a premium modern naked sports motorcycle.\n* Body turned slightly toward the camera.\n* Both hands resting naturally on the handlebars.\n* Left foot on the footpeg, right leg relaxed downward.\n* Straight posture with relaxed shoulders.\n* Looking directly into the camera.\n* Natural confident smile.\n* Full motorcycle completely visible.\n* A giant semi-transparent upper-body portrait of the same person positioned directly behind the motorcycle, perfectly centered.\n* The large portrait occupies approximately 75% of the frame height.\n* Riding version positioned in the lower center.\n* Preserve the exact framing, camera distance, spacing, perspective, proportions, scale, and layout.\n\nOUTFIT:\n* White full-sleeve shirt.\n* Black slim-fit jeans.\n* White sneakers.\n* Black stylish sunglasses.\n\nACCESSORIES:\nNatural accessories only (watch, earrings, sunglasses). Do not add anything unnecessary.\n\nMOTORCYCLE:\nPremium modern white-and-black naked street motorcycle with bright orange alloy wheels, realistic metallic finish, detailed reflections, parked on an empty asphalt road.\n\nBACKGROUND:\n* Clear blue sky.\n* Distant green landscape.\n* Natural horizon.\n* Minimal distractions.\n* Small flock of birds on one side of the sky.\n\nLIGHTING:\nBright natural daylight, soft sunlight, balanced exposure, realistic shadows, natural skin tones.\n\nCAMERA:\nProfessional DSLR, 85mm lens, eye-level angle, ultra-sharp focus, shallow depth of field, HDR, cinematic color grading.\n\nQUALITY:\nUltra-realistic, photorealistic, extremely detailed, realistic skin texture, ultra-high facial detail, realistic motorcycle reflections, 8K UHD, professional photography, crisp focus, no blur, no noise.\n\nIMPORTANT:\nDo not modify the composition, motorcycle angle, framing, background placement, or layout. The ONLY thing that changes is the identity of the uploaded person. Everything else must remain visually identical to the reference composition.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784651974/prompts/byii9qjbkphglrgwwdwr.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": true,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-21T16:39:34.852Z",
+    "updatedAt": "2026-07-21T16:39:34.852Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmaivl688b1",
+    "title": "Golden hour park portrait collage",
+    "slug": "golden-hour-park-portrait-collage-s81d6",
+    "category": "Men",
+    "fullPrompt": "Create an ultra-realistic 16K cinematic vertical photo collage featuring the same young South Asian man in three stylish poses inside a lush green park during golden hour. Preserve the exact facial features, textured black hair, trimmed beard, warm smile, skin tone, and black rectangular sunglasses. He wears a light pastel green oversized chunky knit sweater, white cargo pants, white sneakers",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784653187/prompts/q8bqvu3il9lhooyqfip0.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-21T16:59:48.268Z",
+    "updatedAt": "2026-07-21T16:59:48.268Z",
+    "tags": [],
+    "models": [
+      "Chat GPT"
+    ]
+  },
+  {
+    "id": "cmb73hx40c1",
+    "title": "Happy birthday Liam: stylish collage design",
+    "slug": "happy-birthday-liam-stylish-collage-des-iochz",
+    "category": "Men",
+    "fullPrompt": "Beautiful artistie Instagram poster collage of a stylish young South Indian man \"name....\ndifferent poses and fashionable outfits\narranged in an elegant organic floral\ncom position layout, Soft textured watercolor background , sky blue, dusty pink, and muted grey tones with artistie paimt s plashes and abstra et brush textures. Liam",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784653307/prompts/jrkohew3irlfkqudkgtd.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": true,
+    "isFeatured": true,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-21T17:01:48.039Z",
+    "updatedAt": "2026-07-21T17:01:48.039Z",
+    "tags": [],
+    "models": [
+      "Chat GPT"
+    ]
   }
 ]

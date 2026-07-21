@@ -859,5 +859,68 @@
     "models": [
       "Gemini AI"
     ]
+  },
+  {
+    "id": "cmnge9sdbfm",
+    "title": "Romantic rainy day memories",
+    "slug": "romantic-rainy-day-memories-qoo9o",
+    "category": "Couple",
+    "fullPrompt": "Ultra-realistic, photorealistic, 8K, vertical 9:16, five torn-paper collage, romantic pre-wedding, monsoon rain, uploaded couple faces only, identity locked, consistent faces, unique poses, bench umbrella, walking hand-in-hand, flower bouquet, blooming pink flowers, close-up raindrops, rear embrace skyline, blue-pink ombre saree, sleeveless white blouse, silver jhumkas, nose ring, bangles, waist chain, white shirt, cream trousers, 85mm DSLR, shallow DOF, cinematic lighting, wet reflections,dreamy bokeh, luxury editorial, wedding album.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784651832/prompts/tmcx2ud41zoxcehqodgf.webp",
+    "isPremium": false,
+    "isTrending": true,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-21T16:37:12.944Z",
+    "updatedAt": "2026-07-21T16:37:12.944Z",
+    "tags": [],
+    "models": [
+      "Chat GPT"
+    ]
+  },
+  {
+    "id": "cmzwar1kgd6",
+    "title": "Romantic moments in green hues",
+    "slug": "romantic-moments-in-green-hues-aoljd",
+    "category": "Couple",
+    "fullPrompt": "Black and white border necklace earrings saree stunning young Indian woman, man wight silky shirt casual couple with fair glowing skin, long wavy dark hair, soft makeup, pink lips, and a small black bindi, wearing an elegant green transparent sequined saree. Real senimatick Romantic movie poster featuring a large close-up portrait and a stylish full-body pose. Traditional jhumka earrings, sunglasses, and wristwatch editing text neon logo design my face 8k 9:16",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784652361/prompts/xplmyljvuwnehwuodjpe.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-21T16:46:01.975Z",
+    "updatedAt": "2026-07-21T16:46:01.975Z",
+    "tags": [],
+    "models": [
+      "Chat GPT"
+    ]
+  },
+  {
+    "id": "cmalxtvj1db",
+    "title": "Romantic ride through lavender fields",
+    "slug": "romantic-ride-through-lavender-fields-kwxwp",
+    "category": "Couple",
+    "fullPrompt": "A cinematic, photorealistic movie poster in stunning 8k resolution. A romantic couple on a classic vintage motorcycle. The man is driving, has neat dark hair, a beard, and wears glasses, a white t-shirt, and a purple denim jacket. The woman sits behind him, hugging his chest, smiling joyfully, wearing a purple dress and traditional silver jewelry. The motorcycle features a large, glowing yellow round headlight.The entire scene is set against a dreamy, soft-focus background of a purple lavender field with mist. Below the bike, the image splits into a montage of three smaller romantic vignettes: on the left, the couple gently touching foreheads; in the middle, the woman in a beautiful purple sari and heavy silver jewelry smiling; on the right, the man smiling warmly in a purple patterned kurta. The entire composition has a harmonious purple color palette, soft studio lighting, ultra-sharp focus, hyper-detailed textures, and a magical, romantic atmosphere. \n",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784653038/prompts/bepsy1rhnnrchbvvqold.webp",
+    "isPremium": false,
+    "isTrending": true,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-21T16:57:19.260Z",
+    "updatedAt": "2026-07-21T16:57:19.260Z",
+    "tags": [],
+    "models": [
+      "Chat GPT"
+    ]
   }
 ]
