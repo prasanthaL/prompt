@@ -859,5 +859,26 @@
     "models": [
       "Chat GPT"
     ]
+  },
+  {
+    "id": "cmfufug3tcm",
+    "title": "Bond of dragon and woman",
+    "slug": "bond-of-dragon-and-woman-880le",
+    "category": "Fantasy",
+    "fullPrompt": "Ultra-realistic dark fantasy portrait, masterpiece, cinematic fine art photography, 16K UHD, hyperrealism, Unreal Engine 5, Octane Render, HDR, ray tracing, volumetric moonlight, dramatic blue color grading, museum-quality realism, ultra-sharp focus, intricate textures, physically accurate lighting, realistic anatomy, shallow depth of field, soft floating magical particles, ethereal atmosphere.\nAn intimate side-profile portrait of a breathtaking young dragon rider standing face-to-face with her ancient dragon companion. Their foreheads gently touch in a silent gesture of trust, loyalty, and lifelong friendship. Both keep their eyes softly open, gazing only at one another, creating an intensely emotional connection.\nThe woman has luminous porcelain skin with subtle natural texture, delicate features, and a faint healed scar running diagonally across one cheek, hinting at countless shared battles. Her long dark auburn hair is intricately braided near the crown before cascading in loose, flowing waves over her shoulders. Every strand is individually rendered with photorealistic detail and softly illuminated by cool moonlight.\nShe wears an elegant midnight-blue fantasy cloak woven with shimmering metallic threads that resemble dragon scales. Fine embroidery catches the light with subtle silver highlights while the fabric flows naturally around her shoulders.\nThe dragon fills nearly half the composition. Its enormous face is covered in richly textured obsidian-black scales with deep sapphire undertones. Every scale shows microscopic detail, weathering, and realistic reflections. Long black horns sweep backward gracefully while tiny ridges frame its powerful face.\nIts single visible eye glows with brilliant icy blue bioluminescence, casting soft light across the woman's face. The pupil is sharp and intelligent, filled with ancient wisdom, kindness, and unwavering devotion.\nThe lighting is entirely cinematic, with cool moonlight outlining both faces while soft blue rim lighting emphasizes every contour. Tiny glowing embers, drifting dust, magical fireflies, and sparkling particles float through the air, adding depth and atmosphere.\nThe background fades into an enchanted nighttime forest filled with soft bokeh lights, distant mist, ancient trees, and faint magical haze. The environment remains blurred to keep complete focus on the emotional connection between woman and dragon.\nMood: quiet, powerful, protective, ancient friendship, loyalty stronger than words, fantasy realism, emotionally moving, intimate, mystical, timeless.\nNegative Prompt: cartoon, anime, CGI look, low resolution, blurry, extra eyes, extra limbs, duplicate dragon, distorted anatomy, malformed hands, poorly rendered face, flat lighting, oversaturated colors, text, watermark, logo, cropped composition, unrealistic proportions, plastic skin, noisy image, artifacts.\nSignature: small metallic silver handwritten brush-script watermark reading “mommycarter2” accompanied by a delicate phoenix icon, placed unobtrusively in the bottom corner.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784700254/prompts/hwj5s6fxl7ssktolg1ei.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-22T06:04:15.379Z",
+    "updatedAt": "2026-07-22T06:04:15.379Z",
+    "tags": [],
+    "models": [
+      "Chat GPT"
+    ]
   }
 ]

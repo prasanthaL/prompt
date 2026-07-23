@@ -128,5 +128,26 @@
     "models": [
       "Gemini AI"
     ]
+  },
+  {
+    "id": "cmcyqqxtojq",
+    "title": "Luxury Sri Lankan Bridal Portrait",
+    "slug": "luxury-sri-lankan-bridal-portrait-fefwl",
+    "category": "Wedding",
+    "fullPrompt": "📸 Ultra-realistic 8K luxury bridal portrait using the uploaded face reference.\n\n🔒 Strict Identity Preservation:\nPreserve the uploaded girl's exact facial identity with 100% facial resemblance. Match the exact face shape, eyes, eyebrows, nose, lips, jawline, ears, skin tone, hairstyle, hairline, hair texture, and facial proportions. Do NOT change the hairstyle or facial features. The generated bride must look exactly like the uploaded face.\n\n👰 Subject:\nA beautiful young Sri Lankan bride with a warm, genuine smile, elegant posture, and graceful expression, radiating happiness on her wedding day.\n\n🤍 Bridal Outfit:\nA luxurious white Sri Lankan bridal saree with delicate floral embroidery, premium lace sleeves, elegant pleats, and a sophisticated modern bridal design. The saree should look expensive, classy, and timeless without being overly extravagant.\n\n💎 Accessories:\nElegant bridal jewelry including a delicate necklace, matching earrings, a graceful bridal headpiece, and a simple bracelet. Everything should be tasteful, premium, and suitable for a modern Sri Lankan bride.\n\n💐 Bouquet:\nHolding a stunning bouquet of fresh white roses, white orchids, baby's breath, eucalyptus leaves, and soft pastel flowers, arranged in a luxurious wedding style.\n\n🌿 Background:\nA beautifully landscaped luxury garden wedding venue with lush green lawns, elegant trees, soft flowers, and tasteful wedding decorations. The background should have creamy natural bokeh with no buildings or distractions.\n\n☀️ Lighting:\nSoft golden-hour sunlight with warm natural tones, creating a dreamy romantic glow. Realistic skin tones, gentle highlights, soft shadows, and premium HDR quality.\n\n📷 Camera:\nVertical 9:16 portrait, waist-up composition, DSLR 85mm lens, f/1.4 aperture, shallow depth of field, ultra-realistic 8K quality, professional wedding photography.\n\n✨ Style:\nLuxury Sri Lankan bridal portrait, elegant, timeless, premium wedding photography, natural beauty, realistic textures, authentic emotions, cinematic color grading, magazine-quality finish.\n\n🚫 Negative Prompt:\nWatermark, logo, text, signature, blur, low quality, AI face, cartoon, CGI, overedited skin, unrealistic proportions, extra fingers, extra limbs, duplicated flowers, distorted anatomy, heavy makeup, plastic skin, distracting background.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784703953/prompts/z2wcetjkpbhkkg3wenef.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-22T07:05:54.506Z",
+    "updatedAt": "2026-07-22T07:05:54.506Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
   }
 ]

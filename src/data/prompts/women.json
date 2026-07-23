@@ -647,5 +647,551 @@
     "models": [
       "Chat GPT"
     ]
+  },
+  {
+    "id": "cm43otrizmo",
+    "title": "Sketching in the subway car",
+    "slug": "sketching-in-the-subway-car-1u9nq",
+    "category": "Women",
+    "fullPrompt": "Use the uploaded reference image of the woman as the one and only facial identity source. Preserve the face with absolute accuracy and do not modify it in any way. Maintain the exact facial structure, face shape, eyes, nose, lips, eyebrows, jawline, chin, skin tone, natural smile, age, ethnicity, and all unique facial proportions. The face identity is locked and must remain 100% identical to the reference. Do not beautify, stylize, idealize, age, de-age, or replace the face.\n\nCreate an ultra-realistic candid photograph inside a modern subway train. The woman is sitting naturally beside the window with a relaxed yet dominant and subtly seductive presence. She casually tilts her head slightly while resting her chin on one hand, making calm, confident eye contact with the camera with a soft, teasing smile.\n\nShe has long silky ash-grey hair, perfectly straight with gentle soft waves at the ends, flowing naturally over her shoulders. A pair of luxury sunglasses rests elegantly on top of her head. She wears a sleeveless fitted black dress that enhances her elegant silhouette while remaining classy and sophisticated. Complete the look with a luxury wristwatch on one wrist and elegant bracelets on the other, creating a refined high-fashion appearance. Her makeup is soft glamorous with flawless natural skin, glossy nude lips, subtle contouring, and perfectly manicured nails.\n\nIn front of her, a talented artist is holding a large sketchbook and carefully drawing an extremely detailed graphite portrait that almost perfectly replicates her face, expression, hairstyle, and candid pose. The composition clearly shows the woman, the artist's hands holding the pencil, the drawing process, and the sketchbook containing the highly realistic portrait simultaneously.\n\nThe subway interior is modern, clean, and minimalist with cinematic natural daylight streaming through the window, producing soft highlights and realistic shadows. The atmosphere feels intimate, artistic, warm, inspiring, and emotionally engaging.\n\nUltra-photorealistic, documentary-style photography, cinematic composition, natural window lighting, realistic skin pores, ultra-detailed fabric texture, premium jewelry reflections, accurate hand and finger anatomy, shallow depth of field, authentic candid moment, RAW DSLR quality, Ultra HD, 8K, hyper-realistic, vertical 9:16.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784698833/prompts/pt7kuyt3dy98fowo8xp9.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-22T05:40:35.044Z",
+    "updatedAt": "2026-07-22T05:40:35.044Z",
+    "tags": [],
+    "models": [
+      "Chat GPT"
+    ]
+  },
+  {
+    "id": "cmcxy6fwko0",
+    "title": "Golden Hour Beach Portrait",
+    "slug": "golden-hour-beach-portrait-i6eh2",
+    "category": "Women",
+    "fullPrompt": "Create a portrait captures a young woman standing gracefully in the shallow water at the beach during a warm, golden sunset.\n * *Attire:* She is wearing a flowing, off-the-shoulder white maxi dress featuring delicate blue geometric patterns along the hem. The dress is light and ethereal, catching the gentle breeze.\n * *Pose & Anatomy:* The subject is turned to look back toward the camera with a gentle, clear, and engaging expression. Her physique is naturally curvaceous and feminine, featuring a well-proportioned, hourglass silhouette with well-developed, prominent breasts and shapely hips. Her anatomy is captured with 100% precision, ensuring a balanced, athletic, and realistic form that radiates confidence.\n * *Setting:* The backdrop is a serene ocean scene during the golden hour, with the sun casting a warm, soft glow across the water and the distant horizon. The lighting is flattering, highlighting her silhouette and the soft textures of the waves.\n * *Details:* The image is exceptionally sharp, focusing on her clear, expressive facial features and the elegant drape of her dress.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784699103/prompts/ogatvxkhi8j3qmzyp6ln.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-22T05:45:04.017Z",
+    "updatedAt": "2026-07-22T05:45:04.017Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmcp7th0lzm",
+    "title": "Confident Woman Poses On Chair",
+    "slug": "confident-woman-poses-on-chair-nzd0e",
+    "category": "Women",
+    "fullPrompt": "Create a portrait features a young woman posing confidently while seated on a wooden chair.\n * *Attire:* She is wearing a black lace bodysuit with intricate detailing and a sheer, mesh midsection, which highlights her frame.\n * *Pose & Anatomy:* The subject is seated in a relaxed, side-facing pose, looking directly at the camera with an engaging gaze and bright blue eyes. Her body structure is curvaceous and feminine, characterized by a well-defined hourglass silhouette, shapely hips, and prominent, well-developed breasts that are captured with 100% anatomical accuracy. Her posture, with one arm resting on the chair back and her legs crossed, emphasizes a natural and balanced physique.\n * *Setting:* The indoor setting features a dual-toned background of solid blue and lime green walls, creating a bold, contemporary look. The lighting is soft, highlighting the textures of the lace and the subject’s features.\n * *Details:* The image is sharp and focused.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784699345/prompts/hzpus5h6x3mnlscvoezy.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-22T05:49:06.271Z",
+    "updatedAt": "2026-07-22T05:49:06.271Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmk015xxyyn",
+    "title": "Neon Pink Dusk Urban Portrait",
+    "slug": "neon-pink-dusk-urban-portrait-kyv1o",
+    "category": "Women",
+    "fullPrompt": "Create an image features a woman posing confidently in an outdoor setting at dusk, illuminated by vibrant neon-pink accent lighting.\n * *Attire:* She is wearing a form-fitting, brown spaghetti-strap top paired with slim-fit blue jeans. She carries a stylish black, quilted handbag with a gold chain strap.\n * *Pose & Anatomy:* The subject stands in a poised, relaxed stance, looking slightly away from the camera. Her physique is curvaceous and feminine, characterized by an hourglass silhouette, including well-developed, prominent breasts and a balanced, shapely form. Her anatomy is captured with 100% precision, highlighting a natural and proportionate figure.\n * *Setting:* The background is an outdoor urban space with metallic architectural details and neon lighting that adds a modern, moody atmosphere.\n * *Details:* The focus remains sharp on the subject, capturing her confident expression.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784699458/prompts/bsjxykf6uz3xgkg7qzua.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-22T05:50:59.566Z",
+    "updatedAt": "2026-07-22T05:50:59.566Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmw54wecoge",
+    "title": "Confident Woman Poses In Kitchen",
+    "slug": "confident-woman-poses-in-kitchen-jtip3",
+    "category": "Women",
+    "fullPrompt": "Create an image captures a confident woman in a kitchen setting, posed gracefully for the camera.\n * *Attire:* She is wearing a form-fitting, sleeveless purple mini dress that features a textured fabric. Her look is complemented by a bold, shimmering bracelet on her wrist and elegant hoop earrings.\n * *Pose & Anatomy:* The subject is standing with a relaxed yet poised demeanor, one hand gently brushing her dark, wavy hair. Her physique is notably curvaceous and feminine, characterized by an hourglass silhouette with well-developed, prominent breasts and soft, natural curves. Her anatomy is captured with 100% precision, highlighting a balanced and proportionate figure.\n * *Setting:* The background is a bright, clean kitchen featuring white cabinetry and dark countertops. The lighting is soft and flattering, emphasizing the subject's features and the vibrant color of her attire.\n * *Details:* The focus is entirely on the woman, capturing her direct, engaging gaze.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784699596/prompts/nu3dheh3yufyscsovdm4.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-22T05:53:17.662Z",
+    "updatedAt": "2026-07-22T05:53:17.662Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmbaxntydp2",
+    "title": "Elegant Saree Portrait: Young Woman",
+    "slug": "elegant-saree-portrait-young-woman-othm0",
+    "category": "Women",
+    "fullPrompt": "Create a portrait captures a young woman in an outdoor setting, elegantly presented in traditional attire.\n * *Attire:* She is wearing a vibrant, solid royal blue saree draped classically over her shoulder, accentuating her form. The ensemble is styled with matching blue bangles, subtle earrings, and a single white flower tucked behind her ear. She has bare waist midriff and belly button at maximum. \n * *Pose & Anatomy:* The subject stands with a gentle, downward gaze, her hand resting gracefully on her shoulder. Her physique is naturally curvaceous and feminine, featuring well-developed, proportionate breasts and a soft, shapely midriff. Her body structure is rendered with 100% anatomical accuracy, maintaining a balanced, graceful, and hourglass silhouette.\n * *Setting:* The background is a softly blurred outdoor environment with neutral, earthy tones, keeping the focus entirely on the subject. The lighting is soft and flattering, emphasizing the rich, bold color of her saree.\n * *Details:* The image is clear, sharp, and focused on her features.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784699660/prompts/v1cdre8ravah2uqlnvia.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-22T05:54:21.128Z",
+    "updatedAt": "2026-07-22T05:54:21.128Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmrmc811kea",
+    "title": "Sunrise Mountain Cloud View Photography",
+    "slug": "sunrise-mountain-cloud-view-photography-amq8z",
+    "category": "Women",
+    "fullPrompt": "ultra-realistic smartphone travel photography, photorealistic, 8K UHD, HDR, RAW mobile camera, cinematic outdoor lifestyle, authentic smartphone image, editorial travel photography, realistic human anatomy, vertical composition, aspect ratio 9:16.\nA beautiful young woman with long silky ash grey hair, naturally straight with soft waves near the ends, standing on a mountain viewpoint during sunrise above a sea of clouds.\nShe wears a black oversized hoodie (unzipped) over a black sports bra/cropped top, loose dark gray cargo pants, white sneakers, a knitted beanie, and fluffy earmuffs.\nShe stands with both arms stretched wide open, head tilted slightly upward, eyes gently closed, enjoying the fresh mountain air. Her pose conveys freedom, peace, and admiration of nature, closely matching the reference composition.\nBehind her is a breathtaking volcanic mountain landscape rising above thick morning clouds, warm golden sunrise illuminating the mist, lush green hills, dramatic cliffs, and tree branches naturally framing the top of the composition.\nCamera perspective: handheld smartphone positioned several meters away, slightly low angle, full-body framing with the majestic mountain dominating the background, matching the perspective of the reference image.\nLighting is authentic golden-hour sunrise with soft volumetric rays, atmospheric haze, realistic cloud depth, and balanced HDR exposure.\nSmartphone camera: iPhone 16 Pro / Samsung Galaxy S25 Ultra equivalent, 24mm wide lens, RAW HDR.\nFilter: premium travel cinematic filter, warm sunrise highlights, cool shadow tones, soft contrast, natural color grading, slight film texture, Xiaohongshu-inspired outdoor aesthetic, ultra realistic, no AI look, authentic smartphone photography.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784699873/prompts/bcy4wdtwkar0jvel2srn.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-22T05:57:54.427Z",
+    "updatedAt": "2026-07-22T05:57:54.427Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cm7jws3h930",
+    "title": "Fashion Portrait: Magenta to Purple Gown",
+    "slug": "fashion-portrait-magenta-to-purple-gown-yhv3f",
+    "category": "Women",
+    "fullPrompt": "Create an 8K, Ultra-HD, Hyper-detailed, Photorealistic, Portrait image. Full-length young woman, dark brown eyes, long wavy dark hair. Wearing a form-fitting satin gown gradient magenta to deep purple, cowl neck, high slit. Elegant pose, leg forward, gold chandelier earrings, silver heels. Modern hotel room background, soft lighting, cinematic high-end fashion photography. --ar 3:4 --style raw --v 6.0",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784700510/prompts/bk762wja7r7h81oeq9hk.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-22T06:08:31.222Z",
+    "updatedAt": "2026-07-22T06:08:31.222Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmd0dg2po4o",
+    "title": "AI Generates Lifestyle Portrait",
+    "slug": "ai-generates-lifestyle-portrait-cs56k",
+    "category": "Women",
+    "fullPrompt": "Just upload a photo of yourself and transform it into a breathtaking lifestyle portrait with golden-hour lighting, dreamy flower fields, soft depth of field, cinematic colors, natural skin tones, and premium editorial styling.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784700827/prompts/vs9b6bycrbagsibloya1.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-22T06:13:48.218Z",
+    "updatedAt": "2026-07-22T06:13:48.218Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cm0nci5dnt0",
+    "title": "Golden Hour Lace Portrait",
+    "slug": "golden-hour-lace-portrait-0xvjv",
+    "category": "Women",
+    "fullPrompt": "A stunning, high-resolution portrait of a young woman with long, wavy chestnut-brown hair, captured in a soft, ethereal golden hour glow. She is wearing an off-the-shoulder, intricate pale pink lace dress that highlights her elegant posture. Her expression is gentle and serene, with soft features and natural makeup that accentuates her light eyes. The background is a blurred, sun-drenched field, creating a dreamy and romantic atmosphere with warm, golden light backlighting her hair and casting a soft halo effect around her silhouette. The photography style is professional, with a shallow depth of field that keeps the focus entirely on her face and intricate details of the lace.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784701173/prompts/kllpgsulxrhjm3hiibmj.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-22T06:19:36.080Z",
+    "updatedAt": "2026-07-22T06:19:36.080Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmsf2jop915",
+    "title": "Fashion Portrait Studio Session",
+    "slug": "fashion-portrait-studio-session-vw67o",
+    "category": "Women",
+    "fullPrompt": "Create image A cinematic, high-fashion studio portrait of a confident woman sitting elegantly on a modern white minimalist chair. She is wearing a tailored, sharp crimson red pantsuit with a matching blazer and trousers, paired with a crisp white collared dress shirt and a sleek black necktie. Her pose is powerful and commanding, with one arm resting on the chair. She has long dark hair, bold red lipstick, and an assertive expression, The background is a minimalist plain grey studio wall with dramatic, sharp diagonal shadows casting across the scene. Studio lighting, photorealistic, 8k resolution, intricate details on fabric texture, professional fashion photography style.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784701277/prompts/mqdivxpoksng7dnvze5l.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-22T06:21:18.195Z",
+    "updatedAt": "2026-07-22T06:21:18.195Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cm098bvlmmh",
+    "title": "Realistic Portrait Generation",
+    "slug": "realistic-portrait-generation-4jkip",
+    "category": "Women",
+    "fullPrompt": "Use my photo for face features, pose, composition, reflection effect, & overall beauty. Create ultra-realistic portrait of beautiful woman resting her head on her folded arms beside glossy reflective water surface. She has long soft wavy dark hair, luminous skin, natural makeup, expressive brown eyes, & delicate feminine features with stunning blue-and-yellow orchids, 1 tucked into her hair & another placed beside her hand with perfect reflection in water.\nUltra-realistic cinematic full-body portrait of a stylish young man standing in a modern café doorway, holding a takeaway coffee cup. Red-and-white checkered shirt over a black t-shirt, black cargo joggers, black sneakers with white soles, black backpack, black sunglasses, wavy hair, groomed beard, wristwatch, confident pose, soft natural daylight, urban lifestyle aesthetic, shallow depth of field, creamy bokeh, professional fashion photography, 85mm lens, ultra-detailed, 8K.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784701796/prompts/whnqxdewhyga5pryexto.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-22T06:29:56.690Z",
+    "updatedAt": "2026-07-22T06:29:56.690Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmeb3fuke68",
+    "title": "Woman in Wooden Nook Cafe",
+    "slug": "woman-in-wooden-nook-cafe-zjrm8",
+    "category": "Women",
+    "fullPrompt": "A high-quality, vibrant indoor lifestyle photograph of a young woman(face match) sitting in a casual, relaxed pose inside a large circular wooden nook built into the wall. She is looking slightly downward, gently holding a fresh bouquet of flowers. She is wearing a stylish rose-pink long-sleeve blouse tucked into chic cream high-waist trousers, accessorized with a white Apple Watch, delicate rings, and trendy chunky white sneakers. The setting is a cozy modern cafe with hanging potted plants, warm neon light. 4:5 aspect ratio.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784701876/prompts/fuawqxrz3bibykgauiji.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-22T06:31:16.755Z",
+    "updatedAt": "2026-07-22T06:31:16.755Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cm935706wpc",
+    "title": "Luxury Pinterest Collage Generation",
+    "slug": "luxury-pinterest-collage-generation-yk9jp",
+    "category": "Women",
+    "fullPrompt": "Create a premium aesthetic 5-photo collage using the uploaded face reference.\n\n🔒 STRICT IDENTITY PRESERVATION (Highest Priority):\nThe uploaded face reference is the highest priority. Preserve the exact facial identity with 100% accuracy. Match the exact face shape, eyes, eyebrows, nose, lips, jawline, skin tone, hairstyle, hairline, hair texture, hair volume, and facial proportions. Do NOT beautify or replace the face. The girl must look exactly like the uploaded person. Only the poses and camera angles should change.\n\nCreate a luxury Pinterest-style collage consisting of 5 different photos arranged exactly like a modern editorial mood board.\n\n👩 Subject:\n18-year-old beautiful Sri Lankan girl.\nNatural beauty, soft feminine appearance.\nLong natural black hair with realistic flowing strands.\nMinimal natural makeup.\nSoft pink lips.\nElegant facial expression.\n\n👕 Outfit:\nOversized white linen button-up shirt with loose sleeves.\nBlack trousers (partially visible).\nSimple black wristwatch.\nMinimal black pendant necklace.\nMatte black rectangular sunglasses.\n\n📸 Photos:\n1. Looking down with one hand resting on her cheek.\n2. Looking to the side while gently touching her hair.\n3. Sitting casually with one hand on top of her head.\n4. Looking directly at the camera while slightly lowering the sunglasses.\n5. Relaxed candid portrait with soft smile looking downward.\n\n🌞 Lighting:\nSoft golden window light.\nWarm natural indoor sunlight.\nLuxury editorial lighting.\nRealistic shadows.\n\n🏡 Background:\nModern minimalist room with a large window.\nSoft beige and white interior.\nBlurred luxury apartment aesthetic.\nClean neutral background with natural sunlight.\nShallow depth of field.\n\n🎨 Collage Layout:\nPremium Pinterest aesthetic.\nFive rounded-corner photos.\nLarge portrait on the right.\nTwo smaller photos stacked on the left.\nOne landscape photo at the bottom-right.\nThin white borders.\nMinimal elegant composition.\nSoft butterfly decoration.\nNeutral black, white and beige color palette.\nDo NOT add any text, quotes, logos, watermarks, usernames, or UI elements.\n\n📷 Camera:\n85mm DSLR lens.\nUltra realistic.\nNatural skin texture.\n8K HDR.\nPhotorealistic.\nPremium fashion editorial photography.\nSoft bokeh.\n\nNegative Prompt:\nDifferent face, different hairstyle, AI face, cartoon, anime, CGI, plastic skin, heavy makeup, extra fingers, extra arms, distorted body, blurry, low quality, watermark, logo, text, caption, frame artifacts, unrealistic lighting.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784702194/prompts/b0ocezlc9dp1nyhm4sdf.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-22T06:36:35.056Z",
+    "updatedAt": "2026-07-22T06:36:35.056Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmedlaqr6i8",
+    "title": "Detailed Portrait Generation Request",
+    "slug": "detailed-portrait-generation-request-rr41w",
+    "category": "Women",
+    "fullPrompt": "📸 Create an ultra-realistic 8K cinematic outdoor portrait using the uploaded face reference.\n\n👩 The girl's face must naturally match the uploaded face exactly (100% face match), preserving the same facial features, skin tone, hairstyle, facial proportions, and beautiful natural smile. Only the face should resemble the uploaded person while everything else is newly created.\n\n🌸 She is sitting naturally on a soft green field during a bright sunny afternoon, looking directly at the camera with a sweet, confident smile. Her posture should be relaxed, elegant, and natural, creating a fresh and youthful lifestyle portrait.\n\n👕 Outfit:\nShe is wearing a premium light blue denim jacket over a soft pastel printed T-shirt, paired with black fitted jeans. Minimal accessories including a delicate silver necklace and a simple bracelet. The outfit should look modern, modest, fashionable, and suitable for a stylish young Sri Lankan woman.\n\n💇 Hair:\nNatural black hair tied into a neat high ponytail with a few soft strands framing her face. The hairstyle should look clean, elegant, and realistic.\n\n🌿 Background:\nA beautiful open grassy field with soft green trees and modern buildings in the distance. The background should have a creamy DSLR-style bokeh with warm sunlight creating a peaceful outdoor atmosphere.\n\n☀️ Lighting:\nBright natural golden sunlight with soft highlights, realistic skin tones, gentle shadows, and premium cinematic color grading.\n\n📱 Camera:\nLooks exactly like it was captured on an iPhone 16 Pro Max in Portrait Mode with Apple Smart HDR, ultra-sharp details, realistic skin texture, creamy background blur, shallow depth of field, premium Apple image processing, vertical 9:16 composition.\n\n✨ Style:\nUltra-photorealistic, DSLR-quality, highly detailed, luxury lifestyle photography, realistic lighting, elegant composition, Instagram-worthy, TikTok aesthetic, premium portrait photography, 8K quality.\n\n🔒 Consistency:\nKeep the pose, outfit, hairstyle, lighting, camera angle, framing, and background style exactly the same in every generation. Only the uploaded face should change.\n\n🚫 Negative Prompt:\nWatermark, logo, text, signature, AI artifacts, cartoon, anime, CGI, blur, low quality, extra fingers, distorted face, unrealistic body proportions, duplicate limbs, heavy makeup, oversaturated colors, messy background, additional people.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784702481/prompts/mrfjde1xr0fcelj3rzgy.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-22T06:41:22.524Z",
+    "updatedAt": "2026-07-22T06:41:22.524Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cm4yr6hjzcp",
+    "title": "Sri Lankan Woman, European Street Portrait",
+    "slug": "sri-lankan-woman-european-street-portra-qqpd8",
+    "category": "Women",
+    "fullPrompt": "📸 Create an ultra-realistic 8K cinematic portrait using the uploaded face reference.\n👩 The girl's face must naturally match the uploaded face exactly, preserving the same facial features, skin tone, hairstyle, facial proportions, and soft natural smile. Only the face should resemble the uploaded person while everything else is newly created.\n\n🚶 She is standing naturally beside a beautiful city street during golden hour, turning slightly back toward the camera with a gentle smile while one hand softly touches her hair. Her pose should look elegant, relaxed, feminine, and natural.\n\n👗 Outfit:\nA premium long-sleeve charcoal grey midi dress with a flattering fit, paired with elegant white sneakers or nude heels. She is wearing a delicate silver necklace, a slim silver bracelet, and minimal jewelry. The overall look should be classy, modern, and suitable for a stylish young Sri Lankan woman.\n\n🌆 Background:\nA luxurious European-style city street during sunset, featuring elegant old buildings, a quiet roadside, decorative street lamps, stone walkways, and a peaceful atmosphere. The background should have a beautiful creamy DSLR-style bokeh while keeping the architecture recognizable and elegant.\n\n☀️ Lighting:\nWarm golden-hour sunset lighting with soft orange and golden tones illuminating her face naturally, creating realistic skin tones, cinematic shadows, and a dreamy evening atmosphere.\n\n📱 Camera:\nLooks exactly like it was captured on an iPhone 16 Pro Max in Portrait Mode using the 3x telephoto lens. Apple Smart HDR, ultra-realistic colors, premium skin texture, creamy background blur, shallow depth of field, luxury portrait photography, vertical 9:16 composition.\n\n✨ Style:\nUltra-photorealistic, DSLR-quality, highly detailed, luxury lifestyle photography, elegant composition, authentic travel aesthetic, Instagram-worthy, TikTok aesthetic, realistic lighting, premium cinematic color grading, 8K quality.\n\n🔒 Consistency:\nKeep the pose, camera angle, lighting, composition, background style, and outfit identical in every generation. Only the uploaded face should change.\n\n🚫 Negative Prompt:\nWatermark, logo, text, signature, AI artifacts, cartoon, anime, CGI, blur, low quality, extra fingers, distorted face, unrealistic body proportions, duplicate limbs, messy background, crowds, heavy makeup, oversaturated colors, noise.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784702905/prompts/harbsx8wez2l9axhyiji.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-22T06:48:25.891Z",
+    "updatedAt": "2026-07-22T06:48:25.891Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmf4t8vtcji",
+    "title": "Sri Lankan Woman's Mirror Selfie",
+    "slug": "sri-lankan-womans-mirror-selfie-e1yr9",
+    "category": "Women",
+    "fullPrompt": "📸 Create an ultra-realistic 8K cinematic mirror selfie using the uploaded face reference.\n\n👩 The girl's face must naturally match the uploaded face exactly, preserving the same facial features, skin tone, hairstyle, facial proportions, and soft natural smile. Only the face should resemble the uploaded person while everything else is newly created.\n\n🤳 She is standing in front of a clean full-length mirror, holding an iPhone naturally in one hand while taking a casual mirror selfie. Her head is slightly tilted with a gentle smile, creating a cute, elegant, and confident look.\n\n👚 Outfit:\nShe is wearing a premium oversized pastel pink T-shirt with a relaxed fit, paired with light blue high-waisted denim jeans. She is wearing a delicate butterfly necklace, simple silver rings, and minimal accessories. The outfit should look modern, fashionable, modest, and suitable for a stylish young Sri Lankan woman.\n\n💇 Hair:\nSoft shoulder-length black hair with loose natural waves, neatly styled with a few front strands framing her face beautifully.\n\n🏠 Background:\nA bright modern bedroom with clean white walls, minimal interior design, a small indoor green plant in the corner, and a spotless mirror. The background should have a soft creamy blur while remaining elegant and realistic.\n\n☀️ Lighting:\nSoft natural daylight coming through a nearby window, creating smooth skin tones, gentle shadows, and a warm, cozy indoor atmosphere.\n\n📱 Camera:\nLooks like it was captured on an iPhone 16 Pro Max front camera in Mirror Selfie Mode with Apple Smart HDR, realistic colors, ultra-sharp details, natural skin texture, shallow depth of field, premium Apple image processing, vertical 9:16 composition.\n\n✨ Style:\nUltra-photorealistic, DSLR-quality, luxury lifestyle photography, highly detailed, Instagram aesthetic, TikTok aesthetic, realistic lighting, authentic indoor atmosphere, premium composition, 8K quality.\n\n🚫 Negative Prompt:\nWatermark, logo, text, signature, AI artifacts, cartoon, anime, CGI, blur, low quality, extra fingers, distorted face, unrealistic body proportions, duplicate limbs, messy room, dirty mirror, harsh lighting, oversaturated colors, heavy makeup.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784703061/prompts/cd6cn99chckiaupfphs0.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-22T06:51:02.366Z",
+    "updatedAt": "2026-07-22T06:51:02.366Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmgwm6x44ad",
+    "title": "Sri Lankan Beach Golden Hour Portrait",
+    "slug": "sri-lankan-beach-golden-hour-portrait-4kq7f",
+    "category": "Women",
+    "fullPrompt": "📸 Create an ultra-realistic 8K cinematic portrait using the uploaded face reference.\n\n👩 The girl's face must naturally match the uploaded face exactly, preserving the same facial features, skin tone, hairstyle, facial proportions, and natural smile. Only the face should resemble the uploaded person while everything else is newly created.\n\n🏖️ A beautiful young Sri Lankan woman is sitting naturally on a large rock beside a breathtaking Sri Lankan beach during golden hour. She is smiling softly while looking slightly toward the camera, creating a relaxed, elegant, and natural vacation vibe.\n\n👕 Outfit:\nA premium oversized white linen shirt worn casually over a fitted light beige top, paired with light blue high-waisted straight-fit denim jeans. White casual sneakers or simple white sandals. A classy silver wristwatch, a delicate silver necklace, and minimal accessories. The outfit should look fashionable, modest, elegant, and suitable for a stylish young Sri Lankan woman.\n\n🌊 Background:\nA stunning tropical Sri Lankan beach with golden sand, crystal-clear turquoise ocean water, gentle waves, coconut trees, natural rocks, and a breathtaking orange-pink sunset reflecting beautifully on the sea. Soft creamy background blur (Portrait Mode) with a luxurious travel atmosphere.\n\n☀️ Lighting:\nWarm golden-hour evening sunlight with soft natural highlights, realistic skin tones, cinematic shadows, and beautiful reflections from the ocean.\n\n📱 Camera:\nLooks like it was captured on an iPhone 16 Pro Max in Portrait Mode. Natural HDR, ultra-sharp details, realistic colors, shallow depth of field, premium Apple camera processing, luxury travel photography, vertical 9:16 composition, 8K quality.\n\n✨ Style:\nElegant, premium, natural, photorealistic, luxury lifestyle photography, authentic Sri Lankan beach atmosphere, Instagram-worthy, TikTok aesthetic, highly detailed, realistic skin texture.\n\n🚫 Negative Prompt:\nWatermark, logo, text, signature, AI artifacts, cartoon, anime, CGI, blur, low quality, extra fingers, distorted face, unrealistic body proportions, duplicate limbs, heavy makeup, oversized jewelry, crowds, litter, buildings, plastic skin.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784703280/prompts/tcjnzdz6top6qnykvxbf.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-22T06:54:41.155Z",
+    "updatedAt": "2026-07-22T06:54:41.155Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmqh5753wvq",
+    "title": "Parisian Golden Hour Luxury Travel Photo",
+    "slug": "parisian-golden-hour-luxury-travel-photo-vp2tt",
+    "category": "Women",
+    "fullPrompt": "📸 Create an ultra-realistic 8K cinematic portrait using the uploaded face reference.\n👩 The girl's face must naturally match the uploaded face exactly, preserving the same facial features, skin tone, facial proportions, hairstyle, and natural smile. Only the face should resemble the uploaded person while the rest of the image is newly created.\n\n🗼 She is gracefully sitting on a beautiful stone bench in front of the Eiffel Tower in Paris, creating the feeling of a genuine travel photograph. Her pose should be elegant, relaxed, and natural with a soft smile while looking slightly to the side.\n\n👗 Dress her in a premium, elegant long pastel-colored dress (cream, light pink, baby blue, or lavender). The dress should look expensive, classy, modest, and fashionable, perfectly suited for a stylish young Sri Lankan girl.\n\n🌸 The surroundings should capture the true beauty of Paris with charming French architecture, colorful flower gardens, classic Parisian streets, decorative street lamps, cozy cafés, lush greenery, and the iconic Eiffel Tower clearly visible in the background.\n\n🌅 The photo should be taken during golden hour in the early evening, with warm sunset light illuminating the scene. The atmosphere should feel romantic, peaceful, luxurious, and like a real vacation in France.\n\n📱 The image should look like it was captured on a flagship smartphone in Portrait Mode with natural HDR colors, realistic skin texture, creamy background bokeh, shallow depth of field, and premium cinematic color grading.\n\n✨ Ultra-photorealistic, DSLR-quality, highly detailed, elegant composition, realistic lighting, luxury travel photography, authentic Paris atmosphere, 8K quality.\n\n🚫 Negative Prompt: watermark, logo, text, signature, AI artifacts, cartoon style, blur, low quality, extra fingers, distorted face, unrealistic body proportions, duplicate limbs, oversaturated colors, tourists blocking the Eiffel Tower.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784703495/prompts/n8my4fwuxzzsllg3fgpj.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-22T06:58:16.770Z",
+    "updatedAt": "2026-07-22T06:58:16.770Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmolcbp5q1q",
+    "title": "Realistic Portrait Garden Scene",
+    "slug": "realistic-portrait-garden-scene-shz30",
+    "category": "Women",
+    "fullPrompt": "📸 Create an ultra-realistic 8K cinematic portrait using the uploaded face reference.\n\n👩 The girl's face must naturally match the uploaded face exactly, keeping the same facial features, skin tone, hairstyle, facial proportions, and natural smile. Only the face should resemble the uploaded person while the rest of the image is newly created.\n\n🌸 She is sitting peacefully in a beautiful flower garden filled with blooming soft pink flowers, gently holding a cluster of flowers with both hands while looking down with a sweet natural smile.\n\n🌿 Remove the flower crown/headband completely. Nothing should be on her head. Let her long black hair flow naturally with a few soft loose strands moving gently in the breeze.\n\n👗 Replace the outfit with a premium, elegant, modest long maxi dress in soft pastel floral colors (light blue, blush pink, lavender, or cream). The dress should look expensive, classy, fashionable, and suitable for a beautiful young Sri Lankan girl without being overly glamorous.\n\n🌳 The background should remain a lush botanical flower garden with vibrant greenery, blooming flowers, warm golden-hour evening sunlight, soft natural lighting, creamy background bokeh, and a peaceful romantic atmosphere.\n\n📱 The image should look like it was captured on a flagship smartphone in Portrait Mode with natural HDR colors, realistic skin texture, shallow depth of field, premium color grading, and authentic Sri Lankan outdoor aesthetics.\n\n✨ Ultra-photorealistic, DSLR-quality, cinematic composition, highly detailed, elegant, realistic, 8K quality.\n\n🚫 Negative Prompt: flower crown, headband, tiara, watermark, logo, text, signature, AI artifacts, cartoon style, blur, low quality, extra fingers, distorted face, duplicate flowers, unrealistic body proportions.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784703663/prompts/idycdiqwknkulom5fi3d.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-22T07:01:04.103Z",
+    "updatedAt": "2026-07-22T07:01:04.103Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmzjo97571t",
+    "title": "Sri Lankan Woman Portrait Generation",
+    "slug": "sri-lankan-woman-portrait-generation-0dugp",
+    "category": "Women",
+    "fullPrompt": "📸 Create an ultra-realistic 8K cinematic portrait using the uploaded face reference.\n\n🔒 Strict Identity Preservation:\nKeep the uploaded person's face exactly the same. Match the exact facial structure, eyes, eyebrows, nose, lips, jawline, skin tone, hairstyle, hairline, and facial proportions with 100% accuracy. Only replace the face while keeping the entire composition consistent. The result must look like a real photo of the uploaded person.\n\n👩 Subject:\nA beautiful young Sri Lankan woman with a soft natural smile, looking slightly to her left with a calm, elegant expression. Her right hand is gently touching her earring and hair in a graceful, natural pose.\n\n👗 Outfit:\nA premium light blush pink long dress with full sleeves, made from elegant flowing fabric. The dress has a modest round neckline, delicate pearl-style buttons down the front, a beautifully fitted waist with subtle silver embroidery, and soft premium textures. The outfit should look classy, expensive, feminine, and suitable for Sri Lankan fashion without being overly glamorous.\n\n💎 Accessories:\nElegant medium-sized silver drop earrings, a thin silver bracelet, and a small delicate pendant necklace. Keep the accessories simple and tasteful.\n\n💇 Hair:\nLong, silky black hair styled half-up and half-down with soft front strands framing the face naturally.\n\n🌴 Background:\nA lush tropical garden filled with green palm leaves and natural plants, softly blurred with creamy bokeh. The background should feel peaceful, luxurious, and natural, similar to a high-end outdoor portrait location in Sri Lanka.\n\n🌅 Lighting:\nWarm golden-hour evening sunlight softly illuminating the face from one side, creating natural skin tones, gentle highlights, and soft shadows.\n\n📱 Camera:\nLooks like a genuine high-end smartphone portrait (not studio). Vertical 9:16 composition, waist-up framing, shallow depth of field, realistic HDR, premium phone camera quality.\n\n✨ Style:\nElegant, timeless, natural Sri Lankan outdoor portrait. Highly detailed skin texture, realistic fabric folds, premium color grading, authentic atmosphere, magazine-quality finish.\n\n🚫 Negative Prompt:\nNo watermark, logo, text, signature, AI artifacts, cartoon style, CGI, blur, low quality, oversharpening, overprocessed skin, exaggerated makeup, extra fingers, extra limbs, distorted anatomy, unrealistic jewelry, duplicated objects, unrealistic lighting, plastic skin, or background distractions.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784703763/prompts/k6fj74nxlpsry7ujmk6k.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-22T07:02:43.971Z",
+    "updatedAt": "2026-07-22T07:02:43.971Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmb0w3uq3kc",
+    "title": "Sri Lankan Woman Portrait Under Arch",
+    "slug": "sri-lankan-woman-portrait-under-arch-si7xu",
+    "category": "Women",
+    "fullPrompt": "📸 Ultra-realistic 8K cinematic outdoor portrait using the uploaded face reference.\n\n🔒 Strict Identity Preservation:\nPreserve the uploaded girl's exact facial identity with 100% facial resemblance. Match the exact face shape, eyes, eyebrows, nose, lips, jawline, ears, skin tone, hairstyle, hairline, hair texture, and facial proportions. Do NOT change the hairstyle or facial features. The generated person must look exactly like the uploaded face.\n\n👩 Subject:\nA beautiful young Sri Lankan woman with a soft natural smile and a calm, elegant expression.\n\n👗 Outfit:\nA simple yet elegant mustard-yellow midi dress with puff half sleeves, a fitted waist, and a flowing skirt below the knees. The dress should look premium, modest, and stylish, perfect for a Sri Lankan outdoor photoshoot. Minimal accessories with natural makeup.\n\n🌿 Pose:\nStanding gracefully beneath a lush green vine-covered archway. Both hands are gently holding the hanging vines on either side. Body facing forward with one leg slightly crossed in front of the other. Head turned slightly to one side while smiling naturally.\n\n🌺 Background:\nA beautiful natural arch completely covered with dense green leaves and a few small yellow flowers. A modern house entrance is softly visible behind the arch. Fresh greenery, vibrant colors, and a clean garden environment with cinematic background blur (bokeh).\n\n☀️ Lighting:\nSoft natural daylight with bright yet balanced lighting, realistic skin tones, gentle shadows, and rich green colors.\n\n📷 Camera:\nVertical 9:16 portrait, full-body shot, DSLR 85mm lens, f/1.8 aperture, shallow depth of field, ultra-realistic 8K quality, HDR, professional color grading.\n\n✨ Style:\nPremium outdoor fashion portrait, elegant, natural, authentic Sri Lankan photography, highly detailed, realistic textures, professional composition.\n\n🚫 Negative Prompt:\nWatermark, logo, text, signature, low quality, blur, AI face, cartoon, anime, CGI, overedited skin, extra fingers, extra limbs, distorted body, unrealistic colors, oversized jewelry, heavy makeup.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784704445/prompts/x9bpw5vz4botyx3psyur.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-22T07:14:07.309Z",
+    "updatedAt": "2026-07-22T07:14:07.309Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmkq54jkjop",
+    "title": "Realistic Women Portrait Generation",
+    "slug": "realistic-women-portrait-generation-6r7iz",
+    "category": "Women",
+    "fullPrompt": "📸 Ultra-realistic 8K outdoor portrait using the uploaded face reference.\n\n🔒 Strict Identity Preservation:\nPreserve the uploaded person's exact facial identity with 100% facial resemblance. Match the exact face shape, eyes, eyebrows, nose, lips, jawline, ears, skin tone, hairstyle, hairline, hair texture, hair volume, and facial proportions. Do NOT change the hairstyle or facial features. The generated person must look exactly like the uploaded face.\n\n👩 Subject:\nA beautiful young Sri Lankan woman with a warm natural smile and elegant appearance.\n\n👕 Outfit:\nA premium fitted sleeveless black top with a modest neckline, paired with high-waisted blue denim jeans. Simple black hair tie on the wrist, no heavy jewellery, minimal natural makeup.\n\n✨ Pose:\nStanding naturally with the body turned slightly sideways. One hand gently touching the hair near the ear while smiling and looking slightly away from the camera. The other arm relaxed naturally by the side.\n\n🌳 Background:\nA beautiful tree-lined Sri Lankan street during golden hour with soft green trees and a clean walkway. The background should be heavily blurred with creamy DSLR bokeh while keeping the subject perfectly sharp.\n\n☀️ Lighting:\nSoft golden-hour sunlight illuminating the face with warm natural skin tones, cinematic highlights, and realistic shadows.\n\n📷 Camera:\nVertical 9:16 portrait, waist-up framing, DSLR 85mm lens, f/1.8 aperture, shallow depth of field, HDR, ultra-realistic 8K quality, professional color grading.\n\n✨ Style:\nPremium Instagram portrait, elegant, modern, authentic Sri Lankan lifestyle photography, highly realistic.\n\n🚫 Negative Prompt:\nDifferent face, different hairstyle, AI-looking face, cartoon, anime, CGI, watermark, logo, text, blur, low quality, heavy makeup, oversized jewellery, extra fingers, distorted body, unrealistic lighting.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784704883/prompts/j8kvgcybhdfaofpycjzm.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-22T07:21:24.835Z",
+    "updatedAt": "2026-07-22T07:21:24.836Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmwivph0zue",
+    "title": "Luxury Women Portrait Studio Shot",
+    "slug": "luxury-women-portrait-studio-shot-ymopz",
+    "category": "Women",
+    "fullPrompt": "📸 Ultra-realistic 8K luxury portrait using the uploaded face reference.\n\n🔒 Strict Identity Preservation:\nPreserve the uploaded person's exact facial identity with 100% facial resemblance. Match the exact face shape, eyes, eyebrows, nose, lips, jawline, ears, skin tone, hairstyle, hairline, hair texture, hair volume, and facial proportions. Do NOT change the hairstyle or facial features. The generated person must look exactly like the uploaded face.\n\n👩 Subject:\nA beautiful young Sri Lankan woman with a warm natural smile, elegant posture, and graceful appearance.\n\n👗 Outfit:\nWearing an elegant full-length luxury evening gown suitable for Sri Lankan style. The gown is made of premium satin and soft chiffon fabric in pearl white or champagne white, with delicate lace sleeves and a modest round neckline. The design is classy, expensive-looking, simple, and sophisticated without heavy decorations or excessive sparkle.\n\n💎 Accessories:\nSmall elegant stud earrings, a simple thin necklace, a classy wristwatch, and a delicate bracelet. Minimal natural makeup.\n\n✨ Pose:\nStanding gracefully with one arm folded across the waist while the other hand gently rests under the chin, smiling naturally and looking directly at the camera.\n\n🌟 Background:\nLuxury dark studio background with soft warm golden rim lighting, subtle orange glow on one side, soft purple fill light on the other side, premium portrait atmosphere with creamy background blur.\n\n☀️ Lighting:\nProfessional studio lighting, soft beauty light, realistic skin tones, cinematic highlights, HDR.\n\n📷 Camera:\nVertical 9:16 portrait, waist-up composition, DSLR 85mm lens, f/1.8 aperture, shallow depth of field, ultra-realistic 8K quality, premium color grading.\n\n✨ Style:\nLuxury studio portrait, elegant, timeless, high-end fashion photography, authentic Sri Lankan beauty.\n\n🚫 Negative Prompt:\nDifferent face, different hairstyle, revealing dress, oversized jewelry, heavy makeup, bindi, cartoon, anime, CGI, watermark, logo, text, blur, low quality, extra fingers, distorted body, unrealistic lighting.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784705124/prompts/s6uomub2ybdwp7wbqsbf.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-22T07:25:25.292Z",
+    "updatedAt": "2026-07-22T07:25:25.292Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmdrslyg34m",
+    "title": "Elegant UK Woman Portrait Generation",
+    "slug": "elegant-uk-woman-portrait-generation-pbstc",
+    "category": "Women",
+    "fullPrompt": "📸 Ultra-realistic cinematic portrait using the uploaded face reference.\n\n🔒 Strict Identity Preservation:\nPreserve the uploaded person's exact facial identity with 100% facial resemblance. Match the exact face shape, eyes, eyebrows, nose, lips, jawline, ears, skin tone, hairstyle, hairline, hair texture, and facial proportions. Do NOT change the face or hairstyle. The generated person must look exactly like the uploaded face.\n\n👩 Subject:\nA beautiful young UK woman with a natural smile and elegant appearance.\n\n👗 Outfit:\nA modest, elegant full-length flowing white dress suitable for a UKgirl. The dress has short puff sleeves, a fitted waist, soft flowing fabric, and reaches the ankles. No revealing design, no earrings, no forehead dot (bindi), minimal natural makeup, and a simple bracelet or watch.\n\n✨ Pose:\nStanding on a beautiful tree-lined walkway, body slightly turned away from the camera while looking back with a bright natural smile. One arm raised gracefully above the head, the other hand gently holding the raised arm, recreating the same elegant pose as the reference image.\n\n🌿 Background:\nA clean, modern UK park or garden pathway with tall trees, lush green plants, soft natural light, and creamy DSLR background blur (bokeh). Peaceful and premium atmosphere.\n\n☀️ Lighting:\nSoft golden-hour sunlight with realistic skin tones and cinematic highlights.\n\n📷 Camera:\nVertical 9:16 portrait, full-body framing, DSLR 85mm lens, f/1.8 aperture, shallow depth of field, ultra-realistic 8K quality, professional color grading.\n\n✨ Style:\nPremium lifestyle photography, elegant, graceful, natural, Instagram-worthy, authentic UK look.\n\n🚫 Negative Prompt:\nDifferent face, different hairstyle, earrings, forehead bindi, short dress, revealing clothes, cartoon, anime, AI-looking face, blur, low quality, watermark, text, extra fingers, distorted body, unrealistic lighting.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784705250/prompts/ry4b9ehlbdyh2njkzj7r.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-22T07:27:30.903Z",
+    "updatedAt": "2026-07-22T07:27:30.903Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmejyrtjx3v",
+    "title": "Realistic Portrait in Paddy Field",
+    "slug": "realistic-portrait-in-paddy-field-nf2jm",
+    "category": "Women",
+    "fullPrompt": "📸 Ultra-realistic outdoor portrait using the uploaded face reference.\n\n🔒 Strict Identity Preservation:\nPreserve the uploaded girl's exact facial identity with 100% facial resemblance. Match the exact face shape, eyes, eyebrows, nose, lips, jawline, skin tone, hairstyle, hairline, hair texture, hair volume, and facial proportions. Do NOT change the hairstyle or facial features. The generated girl must look exactly like the uploaded face.\n\n👩 Subject:\nA beautiful young USA woman with a natural, joyful smile and a relaxed, confident appearance.\n\n💇 Hair:\nLong, naturally straight dark hair flowing gently with the breeze, exactly matching the uploaded hairstyle.\n\n👕 Outfit:\nA fitted grey sleeveless crop top under an oversized open white printed shirt with a stylish black-and-white graphic pattern, paired with high-waisted light blue denim jeans. A thin silver necklace and a simple bracelet. No heavy jewelry.\n\n✨ Pose:\nStanding naturally in the middle of a lush green Sri Lankan paddy field with both arms stretched out wide, palms facing upward, smiling happily while looking directly at the camera, creating a peaceful and free-spirited feeling.\n\n🌾 Background:\nA beautiful misty Sri Lankan paddy field during the early morning with soft fog, fresh green grass, distant trees fading into the mist, and creamy DSLR background blur (bokeh). The scene should feel calm, fresh, natural, and cinematic.\n\n☀️ Lighting:\nSoft natural morning light with realistic skin tones, gentle shadows, and a cool cinematic color palette.\n\n📷 Camera:\nVertical 4:5 portrait, waist-up composition, DSLR 85mm lens, f/1.8 aperture, shallow depth of field, ultra-realistic, HDR, 8K, crisp focus, professional color grading.\n\n✨ Style:\nPremium, elegant, photorealistic, Instagram-worthy, WhatsApp profile quality, authentic USA countryside atmosphere.\n\n🚫 Negative Prompt:\nDifferent face, different hairstyle, AI-looking face, cartoon, anime, CGI, floating flowers, flower rain, petals, fantasy effects, watermark, logo, text, blur, low quality, extra fingers, distorted body, heavy makeup, unrealistic lighting.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784705375/prompts/vsel1qspr9y63gicbylv.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-22T07:29:36.563Z",
+    "updatedAt": "2026-07-22T07:29:36.563Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
   }
 ]
