@@ -65,13 +65,35 @@ export default function PromptDetailClient({ prompt }: PromptDetailClientProps) 
     return () => document.removeEventListener("mousedown", handleClickAway);
   }, [showShareMenu]);
 
-  const handleCopy = () => {
-    navigator.clipboard.writeText(prompt.fullPrompt);
-    setCopied(true);
-    setTimeout(() => setCopied(false), 2000);
+  const handleCopy = async () => {
+    try {
+      await navigator.clipboard.writeText(prompt.fullPrompt);
+
+      window.gtag?.("event", "prompt_copy", {
+        prompt_id: prompt.id,
+        prompt_title: prompt.title,
+        prompt_category: prompt.category,
+      });
+
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    } catch (error) {
+      console.error("Failed to copy prompt:", error);
+    }
+  };
+
+  const handleShare = (method: string) => {
+    if (prompt) {
+      window.gtag?.("event", "prompt_share", {
+        prompt_id: prompt.id,
+        prompt_title: prompt.title,
+        method,
+      });
+    }
   };
 
   const handleCopyLink = () => {
+    handleShare("copy_link");
     navigator.clipboard.writeText(currentUrl);
     setLinkCopied(true);
     setTimeout(() => setLinkCopied(false), 2000);
@@ -82,25 +104,28 @@ export default function PromptDetailClient({ prompt }: PromptDetailClientProps) 
       name: "WhatsApp",
       icon: MessageCircle,
       color: "hover:bg-emerald-500/20 hover:text-emerald-500",
-      href: `https://wa.me/?text=${encodeURIComponent(`Check out this AI prompt: ${prompt.title} - ${currentUrl}`)}`
+      href: `https://wa.me/?text=${encodeURIComponent(`Check out this AI prompt: ${prompt.title} - ${currentUrl}`)}`,
+      onClick: () => handleShare("whatsapp"),
     },
     {
       name: "Facebook",
       icon: Facebook,
       color: "hover:bg-blue-600/20 hover:text-blue-600",
-      href: `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(currentUrl)}`
+      href: `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(currentUrl)}`,
+      onClick: () => handleShare("facebook"),
     },
     {
       name: "Twitter",
       icon: Twitter,
       color: "hover:bg-sky-500/20 hover:text-sky-500",
-      href: `https://twitter.com/intent/tweet?url=${encodeURIComponent(currentUrl)}&text=${encodeURIComponent(`Check out this AI prompt: ${prompt.title}`)}`
+      href: `https://twitter.com/intent/tweet?url=${encodeURIComponent(currentUrl)}&text=${encodeURIComponent(`Check out this AI prompt: ${prompt.title}`)}`,
+      onClick: () => handleShare("twitter"),
     },
     {
       name: "Copy Link",
       icon: linkCopied ? Check : Link2,
       color: "hover:bg-primary/20 hover:text-primary",
-      onClick: handleCopyLink
+      onClick: handleCopyLink,
     }
   ];
 
@@ -190,6 +215,7 @@ export default function PromptDetailClient({ prompt }: PromptDetailClientProps) 
                           href={option.href}
                           target="_blank"
                           rel="noopener noreferrer"
+                          onClick={option.onClick}
                           className={cn(
                             "flex items-center gap-3 px-3 py-2 rounded-lg text-xs font-bold transition-all text-foreground/70",
                             option.color

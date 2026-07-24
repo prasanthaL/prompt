@@ -65,6 +65,11 @@ const Hero = ({ promptsCount = 509, categoriesCount = 16 }: HeroProps) => {
             >
               <Link
                 href="/browse"
+                onClick={() => {
+                  window.gtag?.("event", "homepage_cta_click", {
+                    cta_name: "explore_prompts",
+                  });
+                }}
                 className="bg-primary hover:bg-primary-hover text-white px-8 py-4 rounded-2xl font-bold flex items-center gap-3 transition-all shadow-[0_10px_30px_rgba(139,92,246,0.3)] hover:scale-105 active:scale-95"
               >
                 <Rocket className="w-5 h-5" />
@@ -72,6 +77,11 @@ const Hero = ({ promptsCount = 509, categoriesCount = 16 }: HeroProps) => {
               </Link>
               <Link
                 href="/categories"
+                onClick={() => {
+                  window.gtag?.("event", "homepage_cta_click", {
+                    cta_name: "browse_categories",
+                  });
+                }}
                 className="bg-foreground/5 border border-border hover:bg-foreground/10 text-foreground px-8 py-4 rounded-2xl font-bold flex items-center gap-3 transition-all hover:border-foreground/20"
               >
                 <Grid className="w-5 h-5" />

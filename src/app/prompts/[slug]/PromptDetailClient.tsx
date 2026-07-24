@@ -22,6 +22,7 @@ import {
   Lightbulb,
   CheckCircle2,
   AlertCircle,
+  X,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
@@ -112,6 +113,7 @@ export default function PromptDetailClient({ prompt }: PromptDetailClientProps) 
   const [showShareMenu, setShowShareMenu] = React.useState(false);
   const [linkCopied, setLinkCopied] = React.useState(false);
   const [currentUrl, setCurrentUrl] = React.useState("");
+  const [isFullSizeOpen, setIsFullSizeOpen] = React.useState(false);
   const shareMenuRef = React.useRef<HTMLDivElement>(null);
 
   React.useEffect(() => {
@@ -128,13 +130,56 @@ export default function PromptDetailClient({ prompt }: PromptDetailClientProps) 
     return () => document.removeEventListener("mousedown", handleClickAway);
   }, [showShareMenu]);
 
-  const handleCopy = () => {
-    navigator.clipboard.writeText(prompt.fullPrompt);
+  React.useEffect(() => {
+    if (isFullSizeOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "";
+    }
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [isFullSizeOpen]);
+
+  React.useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === "Escape") {
+        setIsFullSizeOpen(false);
+      }
+    };
+    if (isFullSizeOpen) {
+      window.addEventListener("keydown", handleKeyDown);
+    }
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, [isFullSizeOpen]);
+
+const handleCopy = async () => {
+  try {
+    await navigator.clipboard.writeText(prompt.fullPrompt);
+
+    window.gtag?.("event", "prompt_copy", {
+      prompt_id: prompt.id,
+      prompt_title: prompt.title,
+      prompt_category: prompt.category,
+    });
+
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
+  } catch (error) {
+    console.error("Failed to copy prompt:", error);
+  }
+};
+
+  const handleShare = (method: string) => {
+    window.gtag?.("event", "prompt_share", {
+      prompt_id: prompt.id,
+      prompt_title: prompt.title,
+      method,
+    });
   };
 
   const handleCopyLink = () => {
+    handleShare("copy_link");
     navigator.clipboard.writeText(currentUrl);
     setLinkCopied(true);
     setTimeout(() => setLinkCopied(false), 2000);
@@ -171,6 +216,7 @@ export default function PromptDetailClient({ prompt }: PromptDetailClientProps) 
       bg: "bg-black",
       color: "text-white",
       href: `https://twitter.com/intent/tweet?url=${encodeURIComponent(currentUrl)}&text=${encodeURIComponent(`Check out this AI prompt: ${prompt.title}`)}`,
+      onClick: () => handleShare("twitter"),
     },
     {
       label: "Facebook",
@@ -178,6 +224,7 @@ export default function PromptDetailClient({ prompt }: PromptDetailClientProps) 
       bg: "bg-[#1877f2]",
       color: "text-white",
       href: `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(currentUrl)}`,
+      onClick: () => handleShare("facebook"),
     },
     {
       label: "Pinterest",
@@ -185,6 +232,7 @@ export default function PromptDetailClient({ prompt }: PromptDetailClientProps) 
       bg: "bg-[#e60023]",
       color: "text-white",
       href: `https://pinterest.com/pin/create/button/?url=${encodeURIComponent(currentUrl)}&description=${encodeURIComponent(prompt.title)}`,
+      onClick: () => handleShare("pinterest"),
     },
     {
       label: "WhatsApp",
@@ -192,6 +240,7 @@ export default function PromptDetailClient({ prompt }: PromptDetailClientProps) 
       bg: "bg-[#25d366]",
       color: "text-white",
       href: `https://wa.me/?text=${encodeURIComponent(`Check out this AI prompt: ${prompt.title} - ${currentUrl}`)}`,
+      onClick: () => handleShare("whatsapp"),
     },
   ];
 
@@ -256,6 +305,7 @@ export default function PromptDetailClient({ prompt }: PromptDetailClientProps) 
                             href={s.href}
                             target="_blank"
                             rel="noopener noreferrer"
+                            onClick={s.onClick}
                             className="prompt-share-item"
                           >
                             <span className={cn("prompt-share-icon-wrap", s.bg, s.color)}>
@@ -301,7 +351,10 @@ export default function PromptDetailClient({ prompt }: PromptDetailClientProps) 
       <div className="prompt-detail-body">
         {/* LEFT — Image */}
         <section className="prompt-detail-image-col">
-          <div className="prompt-detail-image-wrap">
+          <div
+            className="prompt-detail-image-wrap cursor-pointer group"
+            onClick={() => setIsFullSizeOpen(true)}
+          >
             <Image
               src={prompt.image}
               alt={prompt.title}
@@ -309,11 +362,17 @@ export default function PromptDetailClient({ prompt }: PromptDetailClientProps) 
               priority
               quality={95}
               sizes="(max-width: 768px) 100vw, 33vw"
-              className="object-cover"
+              className="object-cover transition-transform duration-500 group-hover:scale-105"
               style={{ backfaceVisibility: "hidden" }}
             />
             <div className="prompt-detail-image-overlay" />
-            <button className="prompt-detail-fullsize-btn">
+            <button
+              onClick={(e) => {
+                e.stopPropagation();
+                setIsFullSizeOpen(true);
+              }}
+              className="prompt-detail-fullsize-btn group-hover:bg-black/80"
+            >
               <Maximize2 className="w-4 h-4" />
               View Full Size
             </button>
@@ -401,6 +460,7 @@ export default function PromptDetailClient({ prompt }: PromptDetailClientProps) 
                     href={s.href}
                     target="_blank"
                     rel="noopener noreferrer"
+                    onClick={s.onClick}
                     title={s.label}
                     className={cn("prompt-detail-social-btn", s.bg, s.color)}
                   >
@@ -515,6 +575,69 @@ export default function PromptDetailClient({ prompt }: PromptDetailClientProps) 
         </section>
 
       </div>
-    </article >
+
+      {/* ── FULL SIZE IMAGE MODAL (LIGHTBOX) ────────────────────── */}
+      <AnimatePresence>
+        {isFullSizeOpen && (
+          <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 md:p-8 isolate">
+            {/* Backdrop */}
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              onClick={() => setIsFullSizeOpen(false)}
+              className="absolute inset-0 bg-black/90 backdrop-blur-md cursor-pointer"
+            />
+
+            {/* Modal Container */}
+            <motion.div
+              initial={{ opacity: 0, scale: 0.95 }}
+              animate={{ opacity: 1, scale: 1 }}
+              exit={{ opacity: 0, scale: 0.95 }}
+              transition={{ duration: 0.25, ease: [0.16, 1, 0.3, 1] }}
+              className="relative z-10 max-w-7xl max-h-[92vh] w-full flex flex-col items-center justify-center pointer-events-none"
+            >
+              {/* Top Controls Header */}
+              <div className="w-full flex items-center justify-between gap-4 mb-3 px-2 pointer-events-auto">
+                <div className="flex items-center gap-3 min-w-0">
+                  <span className="shrink-0 bg-primary/20 text-primary border border-primary/30 px-2.5 py-1 rounded-full text-xs font-bold uppercase tracking-wider">
+                    {prompt.category}
+                  </span>
+                  <h3 className="text-white font-bold text-base md:text-lg truncate">
+                    {prompt.title}
+                  </h3>
+                </div>
+
+                <div className="flex items-center gap-2 shrink-0">
+                  <button
+                    onClick={() => setIsFullSizeOpen(false)}
+                    className="p-2 bg-white/10 hover:bg-white/20 text-white rounded-xl transition-colors border border-white/10 cursor-pointer"
+                    aria-label="Close full size view"
+                  >
+                    <X className="w-5 h-5" />
+                  </button>
+                </div>
+              </div>
+
+              {/* Main Full-Size Image Container */}
+              <div className="relative w-full flex-1 min-h-0 flex items-center justify-center rounded-2xl overflow-hidden bg-black/60 border border-white/10 shadow-2xl pointer-events-auto">
+                <div className="relative w-full h-[75vh] md:h-[82vh]">
+                  <Image
+                    src={prompt.image}
+                    alt={prompt.title}
+                    fill
+                    unoptimized
+                    priority
+                    quality={100}
+                    className="object-contain"
+                  />
+                </div>
+              </div>
+            </motion.div>
+          </div>
+        )}
+      </AnimatePresence>
+    </article>
   );
 }
+

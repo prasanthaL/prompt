@@ -17,10 +17,21 @@ interface PromptBlockProps {
 export default function PromptBlock({ title, prompt, image, inGrid, slug, href, category }: PromptBlockProps) {
   const [copied, setCopied] = useState(false);
 
-  const handleCopy = () => {
-    navigator.clipboard.writeText(prompt);
-    setCopied(true);
-    setTimeout(() => setCopied(false), 2000);
+  const handleCopy = async () => {
+    try {
+      await navigator.clipboard.writeText(prompt);
+
+      window.gtag?.("event", "prompt_copy", {
+        prompt_id: slug || title || "blog_prompt",
+        prompt_title: title || "Prompt Example",
+        prompt_category: category || "Blog",
+      });
+
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    } catch (error) {
+      console.error("Failed to copy prompt:", error);
+    }
   };
 
   if (image) {
