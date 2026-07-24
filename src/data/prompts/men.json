@@ -1007,7 +1007,7 @@
   },
   {
     "id": "cm2g3tdmoyg",
-    "title": "Sri Lankan Man Golden Hour Portrait",
+    "title": "Elegant Man Golden Hour Portrait",
     "slug": "sri-lankan-man-golden-hour-portrait-k811a",
     "category": "Men",
     "fullPrompt": "📸 Create an ultra-realistic 8K cinematic portrait using the uploaded face reference.\n👨 The young man's face must naturally match the uploaded face exactly, preserving the same facial features, skin tone, hairstyle, facial proportions, beard (if any), and natural confident expression. Only the face should resemble the uploaded person while everything else is newly created.\n\n🌳 He is confidently leaning against a large, beautiful tree trunk in a peaceful green park. One hand is casually inside his jeans pocket while the other hand is gently holding the frame of his stylish black sunglasses, as if adjusting them naturally. His posture should look relaxed, confident, and effortlessly stylish.\n\n👕 Outfit:\nA premium white long-sleeve button-up shirt with the sleeves neatly rolled to the forearms, paired with dark blue slim-fit denim jeans. He is wearing a luxury silver wristwatch on his left wrist and stylish black sunglasses. The outfit should look clean, elegant, modern, and suitable for a fashionable young Sri Lankan man.\n\n🌿 Background:\nA massive natural tree trunk should be clearly visible behind him, with lush green leaves and a beautiful park environment. The background must have a creamy DSLR-style blur (bokeh), making the tree and the subject stand out beautifully while keeping the surroundings soft and cinematic.\n\n☀️ Lighting:\nSoft golden-hour evening sunlight filtering through the leaves, creating warm highlights, realistic skin tones, gentle shadows, and a premium cinematic atmosphere.\n\n📱 Camera:\nLooks like it was captured on an iPhone 16 Pro Max in Portrait Mode using the 3x telephoto lens. Natural HDR, realistic colors, ultra-sharp details, shallow depth of field, premium Apple camera processing, luxury portrait photography, vertical 9:16 composition.\n\n✨ Style:\nUltra-photorealistic, DSLR-quality, highly detailed, luxury lifestyle photography, realistic skin texture, premium composition, Instagram-worthy, TikTok aesthetic, authentic Sri Lankan outdoor atmosphere, 8K quality.\n\n🚫 Negative Prompt:\nWatermark, logo, text, signature, AI artifacts, cartoon, anime, CGI, blur, low quality, extra fingers, distorted face, unrealistic body proportions, duplicate limbs, messy hair, overexposed lighting, heavy editing, oversaturated colors, crowded background, distracting objects.",
@@ -1020,7 +1020,7 @@
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-22T06:52:25.041Z",
-    "updatedAt": "2026-07-22T06:52:25.041Z",
+    "updatedAt": "2026-07-24T02:59:19.490Z",
     "tags": [],
     "models": [
       "Gemini AI"
@@ -1129,6 +1129,111 @@
     "tags": [],
     "models": [
       "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmz4vhfz707",
+    "title": "Heroic elegance in golden haze",
+    "slug": "heroic-elegance-in-golden-haze-5t2hg",
+    "category": "Men",
+    "fullPrompt": "A vibrant, high-resolution cinematic multi-panel poster collage featuring a stylish South Asian man with well-groomed dark hair, a neat beard, and a confident smile. The layout is dynamically divided into geometric diagonal panels separated by glowing golden-yellow light beams over a bright, softly blurred background. In the prominent central panel, a close-up portrait shows the man wearing golden-framed aviator sunglasses, a white denim jacket with a popped collar over a black t-shirt, and a layered gold chain, with warm sunlight creating subtle lens flare overhead.Directly below in the lower center, a low-angle full-body shot depicts him walking forward through light white ground fog, dressed in a sharp white suit jacket, open-collar dark shirt, white trousers, and a black luxury watch.The left diagonal panel shows a casual view of him under a bright blue sky in a plain black crew-neck t-shirt with a gold pendant necklace. The right diagonal panel highlights a fashion shot in a bold red-and-white patterned button-up shirt with a gold chain. The bottom portion fades into a clean white gradient featuring the stylized text \"james\" in bold black lettering, flanked by a launching rocket graphic on the left and a rising stock chart beside a golf flag on the right.High contrast, sharp detail, vivid colors, warm directional lighting, and an energetic hero movie poster aesthetic.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784868165/prompts/jrnm02vus5yxlpw9dzpp.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-24T04:42:45.131Z",
+    "updatedAt": "2026-07-24T04:42:45.131Z",
+    "tags": [],
+    "models": [
+      "Chat GPT"
+    ]
+  },
+  {
+    "id": "cmvljd79cyp",
+    "title": "Birthday celebration poster with stylish design",
+    "slug": "birthday-celebration-poster-with-stylish-ggjp3",
+    "category": "Men",
+    "fullPrompt": "Ultra-realistic birthday poster of a stylish young South Asian man with voluminous textured black hair, light beard, and transparent eyeglasses. Double exposure composition featuring a large monochrome close-up portrait on the left side with a soft smile and a smaller full-body walking pose on the right side. He is wearing a trendy black-and-white graphic jacket over a white t-shirt, black cargo pants, smartwatch, and stylish sneakers. Minimal aesthetic background with cool blue-grey tones,\n",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784868487/prompts/mmbvrlhqplk4xaw0xlwt.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-24T04:48:06.232Z",
+    "updatedAt": "2026-07-24T04:48:06.232Z",
+    "tags": [],
+    "models": [
+      "Chat GPT"
+    ]
+  },
+  {
+    "id": "cmwyixv2zvj",
+    "title": "Cinematic portrait collage in urban setting",
+    "slug": "cinematic-portrait-collage-in-urban-sett-fdooi",
+    "category": "Men",
+    "fullPrompt": "Create an ultra-realistic 8K cinematic vertica1 collage poster featuring the same stylish young South Asian man in three dynamic\nCompositions. Preserve the exact facial\nfeatures, warm smile, medium-brown skin tone, and trans parent grey rectangular sunglasses, He wears an oversiged\nenocolate-pink linen shirt with the top buttons\nopen, light grey relaxed- fit jeans, wnite\nsnealrers, a black smartwaten.Include a large side-profile portrait, a rearoview standing pose.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784868978/prompts/krstwldf5uxmatiqxctd.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-24T04:56:18.132Z",
+    "updatedAt": "2026-07-24T04:56:18.132Z",
+    "tags": [],
+    "models": [
+      "Chat GPT"
+    ]
+  },
+  {
+    "id": "cm7fljickqg",
+    "title": "Mystical tunes in the forest",
+    "slug": "mystical-tunes-in-the-forest-zchg3",
+    "category": "Men",
+    "fullPrompt": "Create a dark fashion portrait of the same person walking through a shadowy forest path, shot from a low-angle telephoto view. Wear an oversized dark textured shirt, white pants, and chunky white sneakers. Mid-step with one hand raised toward glowing music cards in a semi-circle. Deep desaturated greens, soft light through trees, blurred background, subtle haze, cinematic shadows, shallow depth of field, ultra-detailed 4K, mysterious editorial photography, 4:5.\n",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784869219/prompts/yu7qolkfibaxyftsavsa.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-24T05:00:19.137Z",
+    "updatedAt": "2026-07-24T05:00:19.137Z",
+    "tags": [],
+    "models": [
+      "Chat GPT"
+    ]
+  },
+  {
+    "id": "cm70wy7h3p9",
+    "title": "Tropical rescue under the sunset skies",
+    "slug": "tropical-rescue-under-the-sunset-skies-4m1rm",
+    "category": "Men",
+    "fullPrompt": "Ultra-realistic cinematic macro miniature photography, a tiny terrified man with short black hair and a trimmed beard hanging from a bright pink cocktail umbrella, desperately gripping the wooden handle while dangling from the rim of a giant frosty tropical orange cocktail filled with crystal-clear ice cubes. His left foot struggles to stay on the slippery glass edge while water droplets drip from his clothes and shoes. He wears a colorful tropical Hawaiian shirt, beige shorts, white sneakers, and a silver wristwatch. A giant human hand holds the umbrella from above, creating the illusion of rescuing him. Fresh mint leaves emerge from the drink, with a sliced lime, cherry, and miniature lifebuoy resting on the wooden table. Warm golden sunset lighting, tropical beach atmosphere, cinematic orange and teal color grading, shallow depth of field, creamy bokeh lights, ultra-detailed skin texture, realistic glass condensation, HDR, volumetric lighting, dramatic expression, humorous adventure, hyper-realistic, 8K, DSLR macro photography, 85mm macro lens, f/1.8, razor-sharp focus on the miniature character, premium commercial food photography.\n\n",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784869387/prompts/hhr538nq8gfkpxniar5a.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-24T05:03:06.246Z",
+    "updatedAt": "2026-07-24T05:03:06.246Z",
+    "tags": [],
+    "models": [
+      "Chat GPT"
     ]
   }
 ]
