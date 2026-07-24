@@ -16,7 +16,7 @@ import Link from "next/link";
 import { Search } from "lucide-react";
 
 import Navbar from "@/components/Navbar";
-import PromptCard from "@/components/PromptCard";
+import RelatedPrompts from "@/components/RelatedPrompts";
 import Footer from "@/components/Footer";
 
 // Collocated client shell (handles copy, share, framer-motion, etc.)
@@ -287,16 +287,10 @@ export default async function PromptPage({
               </Link>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-              {similarPrompts.map((p) => (
-                <PromptCard
-                  key={p.id}
-                  {...p}
-                  views={p.views.toString()}
-                  likes={p.likes.toString()}
-                />
-              ))}
-            </div>
+            <RelatedPrompts
+              sourcePromptId={prompt.id}
+              similarPrompts={similarPrompts}
+            />
           </div>
         )}
       </div>

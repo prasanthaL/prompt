@@ -151,7 +151,7 @@ const PromptCard = ({
   if (cardHref) {
     return (
       <article className={containerClasses}>
-        <Link href={cardHref} className="block h-full">
+        <Link href={cardHref} onClick={onClick} className="block h-full">
           {CardInner}
         </Link>
       </article>

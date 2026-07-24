@@ -33,6 +33,10 @@ const Navbar = () => {
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
     if (searchQuery.trim()) {
+      // Track search in Google Analytics
+      window.gtag?.("event", "search", {
+        search_term: searchQuery.trim(),
+      });
       router.push(`/browse?q=${encodeURIComponent(searchQuery.trim())}`);
       setSearchQuery("");
       setIsMobileMenuOpen(false);
