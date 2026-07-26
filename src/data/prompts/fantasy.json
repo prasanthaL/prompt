@@ -880,5 +880,68 @@
     "models": [
       "Chat GPT"
     ]
+  },
+  {
+    "id": "cmv3oqf1bfi",
+    "title": "Fashion Portrait With Pokémon Companion",
+    "slug": "fashion-portrait-with-pokmon-companion-m45g4",
+    "category": "Fantasy",
+    "fullPrompt": "Use the face from the uploaded photo as reference.\n\nCreate a hyper-realistic editorial fashion portrait of a slim person standing on a glossy reflective floor. Preserve the facial identity from the uploaded image with high accuracy while giving the subject a confident, luxury fashion pose.\n\nThe outfit is premium streetwear inspired by a random Fire-type Pokémon. Use a bold color palette of fiery orange, deep red, black, glowing ember accents, flame graphics, lava textures, subtle ash details, premium sneakers, layered accessories, and futuristic fashion styling.\n\nBeside the person stands one random Fire-type Pokémon from any generation (do not choose Charizard every time), recreated as a photorealistic living creature with realistic skin, scales, fur, eyes, and natural proportions while remaining instantly recognizable.\n\nThe background features a smooth cinematic gradient based on the Pokémon's colors with floating sparks, subtle smoke, glowing embers, and atmospheric haze.\n\nUltra-realistic editorial photography, cinematic dramatic lighting, volumetric light rays, shallow depth of field, HDR, razor-sharp focus on the face, ultra-detailed skin texture, premium fashion magazine quality, reflections on the floor, 85mm lens, f/1.8, 8K, masterpiece, highly detailed.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784909183/prompts/bzze3kro4satprcyczn4.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-24T16:06:23.961Z",
+    "updatedAt": "2026-07-24T16:06:23.961Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cme7o52r4p2",
+    "title": "Tidal Elegance — Luxury Water Pokémon Editorial Fashion Portrait",
+    "slug": "tidal-elegance-luxury-water-pokmon-ed-heuz5",
+    "category": "Fantasy",
+    "fullPrompt": "Use the face from the uploaded photo as reference.\n\nCreate a hyper-realistic editorial fashion portrait of a slim person standing on a glossy reflective floor. Preserve the facial identity from the uploaded image with high accuracy while giving the subject a confident luxury fashion pose.\n\nThe outfit is premium streetwear inspired by a random Water-type Pokémon. Use shades of ocean blue, aqua, turquoise, white, silver, flowing wave patterns, translucent water textures, glossy waterproof fabrics, premium sneakers, futuristic accessories, and elegant aquatic design elements.\n\nBeside the person stands one random Water-type Pokémon from any generation (avoid using Gyarados or Blastoise every time), recreated as a photorealistic living creature with realistic skin, scales, wet textures, reflections, expressive eyes, and natural anatomy while remaining instantly recognizable.\n\nThe background features a cinematic blue gradient inspired by the Pokémon's palette with flowing water, splashes, mist, bubbles, light refraction, and subtle ocean atmosphere.\n\nUltra-realistic editorial photography, cinematic dramatic lighting, volumetric lighting, shallow depth of field, HDR, razor-sharp facial focus, ultra-detailed skin texture, luxury fashion magazine quality, glossy reflective floor, realistic water reflections, 85mm lens, f/1.8, 8K, masterpiece, highly detailed.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784909294/prompts/i8uushz4px0jpv69jetd.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-24T16:08:14.582Z",
+    "updatedAt": "2026-07-24T16:08:14.582Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmrpls6utf7",
+    "title": "Title: Verdant Vogue — Luxury Grass Pokémon Editorial Fashion Portrait",
+    "slug": "title-verdant-vogue-luxury-grass-pok-fsgst",
+    "category": "Fantasy",
+    "fullPrompt": "Use the face from the uploaded photo as reference.\n\nCreate a hyper-realistic editorial fashion portrait of a slim person standing confidently on a glossy reflective floor. Preserve the facial identity from the uploaded image with maximum accuracy while presenting the subject in a high-fashion editorial pose.\n\nThe outfit is luxury streetwear inspired by a random Grass-type Pokémon. Feature rich emerald green, olive, lime, earthy brown, and soft cream tones with botanical embroidery, leaf motifs, vine-inspired patterns, moss-like textures, organic fabrics, layered utility pieces, premium sneakers, and nature-inspired accessories for a modern couture aesthetic.\n\nBeside the person stands one random Grass-type Pokémon from any generation (avoid using Venusaur every time), recreated as a photorealistic living creature with realistic fur, bark, leaves, petals, vines, natural textures, expressive eyes, and believable anatomy while remaining instantly recognizable.\n\nThe background features a lush green cinematic gradient matching the Pokémon's palette with soft sunlight filtering through leaves, floating petals, tiny pollen particles, vines, gentle forest mist, and subtle bokeh for a magical woodland atmosphere.\n\nUltra-realistic editorial photography, cinematic dramatic lighting, volumetric sun rays, shallow depth of field, HDR, razor-sharp facial focus, ultra-detailed skin texture, premium fashion magazine quality, glossy reflective floor, realistic reflections, 85mm lens, f/1.8, 8K, masterpiece, photorealistic, highly detailed.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784909417/prompts/i6xxiyal6a0jx8pzdx7q.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-24T16:10:18.255Z",
+    "updatedAt": "2026-07-24T16:10:18.255Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
   }
 ]

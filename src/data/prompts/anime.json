@@ -630,5 +630,320 @@
     "models": [
       "Gemini AI"
     ]
+  },
+  {
+    "id": "cm1f0f4yuuo",
+    "title": "Elaine: a sweet, curious girl",
+    "slug": "elaine-a-sweet-curious-girl-d1zad",
+    "category": "Anime",
+    "fullPrompt": "Name: Elaine\nColor: pink\nCreate a premium Pixar-style 3D cartoon character showcase banner for [CHARACTER NAME].\n\nIMAGE TYPE:\n3D animated character presentation poster, modern cartoon branding banner, Pixar-style character showcase.\n\nTOPIC:\n[CARTOON CHARACTER / ANIMATION MASCOT / CHILDREN’S HERO / GAME CHARACTER / STORYBOOK CHARACTER]\n\nSTYLE & ART DIRECTION:\n\nSame exact visual identity and composition style as the reference image\n\nPixar-inspired 3D cartoon rendering\n\nCute stylized proportions\n\nSoft cinematic animation lighting\n\nMinimal modern presentation\n\nDreamy pastel atmosphere\n\nToy-like smooth textures\n\nFamily-friendly animation mood\n\nBehance-quality character design showcase\n\nMAIN SUBJECT / HERO ELEMENT:\n\nOne adorable stylized 3D cartoon character\n\nLarge expressive eyes\n\nOversized head proportions\n\nCute playful pose\n\nDetailed clothing and accessories\n\nSoft glossy textures\n\nCharming facial expression\n\nAnimation-film quality rendering\n\nLAYOUT & COMPOSITION:\n\nWide horizontal cinematic banner\n\nCharacter centered in composition\n\nGiant oversized typography behind character\n\nSmall secondary characters blurred in background\n\nMinimal spacious arrangement\n\nStrong visual hierarchy\n\nClean modern alignment\n\nBalanced negative space\n\nTEXT & TYPOGRAPHY:\n\nHuge faded backdrop typography\n\nBold sans-serif lettering\n\nMinimal subtitle placement\n\nElegant small descriptive text\n\nModern animation branding hierarchy\n\nDEPTH & LIGHTING:\n\nSoft cinematic lighting\n\nGentle ambient glow\n\nSmooth character highlights\n\nDreamy animation shadows\n\nSubtle depth-of-field blur\n\nHigh-end Pixar-style rendering\n\nEXTRA DESIGN DETAILS:\n\nSoft gradient backgrounds\n\nTiny supporting characters\n\nSmooth floor shadows\n\nMinimal UI corner icons\n\nRounded soft aesthetic\n\nContemporary animation mood\n\nElegant pastel tones\n\nCOLOR PALETTE:\n\nPastel purple\n\nSoft beige\n\nMint green\n\nCream white\n\nSoft pastel gradients\n\nCAMERA & RENDERING:\n\nCinematic wide-angle composition\n\nCharacter-centered framing\n\nPixar-style rendering quality\n\nHigh-resolution animated textures\n\nModern animated-film perspective\n\nQUALITY CONTROLS:\n\nPixar-quality 3D rendering\n\nBehance-quality character presentation\n\nUltra clean composition\n\nPremium animation aesthetics\n\nSame exact layout hierarchy as reference\n\nUltra high resolution",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784898868/prompts/mt1k8fmywtjghbfvm5bw.webp",
+    "isPremium": false,
+    "isTrending": true,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-24T13:14:29.019Z",
+    "updatedAt": "2026-07-24T13:14:29.019Z",
+    "tags": [],
+    "models": [
+      "Chat GPT"
+    ]
+  },
+  {
+    "id": "cm7aimwq44r",
+    "title": "Anime Action Figure Product Showcase",
+    "slug": "anime-action-figure-product-showcase-xf3zc",
+    "category": "Anime",
+    "fullPrompt": "Create a high-quality, anime-style action figure of person using my attached photo as a reference, a dynamic pose on a black display base. The character's outfit is detailed base on the original image. Next to the figure is a professionally designed retail box featuring matching character artwork and stylized branding, on top of the box writed \"(YOUR NAME)\".For background: iMac on gaming desk, with cozy feel working space for a photographer as a background with soft lighting for a clean product showcase. Generate the image in 1080x1920 format.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784906897/prompts/oi7lolvixgfa5vlm557n.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-24T15:28:18.441Z",
+    "updatedAt": "2026-07-24T15:28:18.441Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmowgosx9ls",
+    "title": "Anime Park Portrait, Makoto Shinkai Style",
+    "slug": "anime-park-portrait-makoto-shinkai-styl-l9i47",
+    "category": "Anime",
+    "fullPrompt": "masterpiece, best quality, anime style, Makoto Shinkai style, 1girl, long black hair, brown eyes, smiling, wearing a white t-shirt and blue jeans, background is a sunny park with green trees, soft natural lighting, vibrant colors, detailed anime art style, sharp focus, beautiful lighting, 20k, highres",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784907362/prompts/bopcreszn7ci5ppei123.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-24T15:36:03.315Z",
+    "updatedAt": "2026-07-24T15:36:03.315Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmqob7oqw53",
+    "title": "Chibi Girl Collage: Joyful Poses",
+    "slug": "chibi-girl-collage-joyful-poses-th462",
+    "category": "Anime",
+    "fullPrompt": "Digital illustration in ultra-detailed 3D anime chibi style, 8K quality, soft cinematic lighting, vibrant pastel colors and premium finish. Create a unique and dynamic collage with six versions of the same chibi girl. The main character is an adorable girl with fair skin, long slightly brown hair, with natural volume and soft strands framing her face, and large bright brown eyes full of expression and tenderness. Each version appears jumping in a different, playful pose, conveying joy and energy: Making a peace sign and winking. Jumping with arms wide open and a big smile. Spinning in the air with a fun expression. Jumping with one hand raised and the other extended. Posing from behind, looking over her shoulder with a sweet smile. Taking a small jump with a surprised, excited expression. Each character wears different, adorable outfits, such as: Pink pants with a heart-print T-shirt. Oversized hoodie and pastel cargo pants. Denim overalls with colorful sneakers. Lilac outfit with a short jacket. Wide-leg jeans and a floral t-shirt. Casual mint-green toned outfit. Include different hairstyles while keeping the hair long and straight,loose, with small hair clips, half-up ponytail, messy bun, and strands adorned with flowers or stars.Minimalist cream-colored background with small hearts, stars, golden sparkles, kawaii doodles, and motion lines, creating a cheerful and magical composition. Add small decorative notes with positive handwritten phrases. Vertical poster-style composition, full-body characters, dynamic poses, very tender expressions, professional digital art, extremely detailed and unique. ",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784907678/prompts/ux5dfq4l7efxwcfpa1on.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-24T15:41:18.657Z",
+    "updatedAt": "2026-07-24T15:41:18.657Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmr42wz12vx",
+    "title": "Fisheye Selfie With Anime Friends",
+    "slug": "fisheye-selfie-with-anime-friends-ge6y4",
+    "category": "Anime",
+    "fullPrompt": "Create Ultra-realistic 9:16 vertical format fisheye selfie of me with [shinchan, Doraemon, Naruto, Nobita]. We’re all making funny and silly faces. The background is a small, bright living room with mostly white colors. The camera is placed high, and the fisheye effect should make everything look curved. Use soft, movie-style lighting, and make the anime characters look realistic but still keep their original cartoon style.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784907880/prompts/dvmhl0hk4vmhyz0xz729.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-24T15:44:41.055Z",
+    "updatedAt": "2026-07-24T15:44:41.055Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmag6jzw57d",
+    "title": "Anime Man Portrait, Painterly Style",
+    "slug": "anime-man-portrait-painterly-style-2arci",
+    "category": "Anime",
+    "fullPrompt": "Vibrant, dynamic painterly portrait of an exuberant anime-inspired man (image Uploaded), in a straw hat, wide laughing grin with visible teeth, tilted upward perspective, bold impasto brushstrokes and energetic paint splatters, saturated warm yellow background, high-contrast cinematic rim lighting, textured canvas feel, glossy reflective lenses catching light, worn straw hat details, red jacket and dark shirt with golden emblem, fragmented shards of color and motion debris around the figure, rich painterly palette, expressive exaggerated features, high detail on face and clothing, chaotic yet controlled composition, tall vertical format, intense, joyful mood, --ar 9:16",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784907959/prompts/f3nhttqjjl6tf16jptkf.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-24T15:45:59.649Z",
+    "updatedAt": "2026-07-24T15:45:59.649Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cm4awxp5kaf",
+    "title": "Electric Sorcerer Anime Portrait",
+    "slug": "electric-sorcerer-anime-portrait-2l2yi",
+    "category": "Anime",
+    "fullPrompt": "Ultra-detailed cinematic anime portrait of a mysterious white-haired sorcerer with glowing round glasses, surrounded by flowing electric-blue energy and ethereal plasma strands, side profile, dramatic soft lighting, dark teal background, highly detailed skin and hair, luminous aura wrapping around the face and hand, fingers glowing with supernatural power, shallow depth of field, futuristic fantasy aesthetic, volumetric lighting,dynamic energy motion, ultra realistic anime render, high contrast, 8k, masterpiece quality, inspired by modern anime movie posters and cyber-fantasy art styles.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784908175/prompts/r9vvtuhkctf33p4mv8d8.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-24T15:49:35.893Z",
+    "updatedAt": "2026-07-24T15:49:35.893Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmnigd08frx",
+    "title": "Collectible Doll Action Figure Creation",
+    "slug": "collectible-doll-action-figure-creation-4isez",
+    "category": "Anime",
+    "fullPrompt": "Create a version of a collectible doll using my attached photo as a reference. The doll is wearing clothes as per the photo. The doll must follow the style of Japanese action figures, such as SHFiguarts and Figma. The doll must have joints in the elbows, wrists, knees, and feet. It must be on an articulated base and in a dynamic pose. Place it on a table and in the blurred background (a room with a TV playing a game from the 90s, create a cozy and comfortable environment) only the doll and its base are in focus and with soft lighting.\nMake the entire scene and setting as realistic as possible following the descriptions above, not forgetting that the doll is made of plastic or resin material without many details despite being a collectible.\nGenerate the image in 1080x1920 format.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784908275/prompts/hq6dtkevcc2ev1ldl0nd.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-24T15:51:16.431Z",
+    "updatedAt": "2026-07-24T15:51:16.431Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cm8775tzl7d",
+    "title": "Creative mindset and motivation sketch",
+    "slug": "creative-mindset-and-motivation-sketch-vvw6n",
+    "category": "Anime",
+    "fullPrompt": "Generate an illustration of how you imagine “me”: in a Japanese illustration style, with distinctive character features and a natural, expressive mood. Use a half-body composition with a dynamic pose. Include refined, detailed clothing design. Render it in a hand-drawn doodle style with ink splashes, loose and spontaneous linework, and a mix of pastel tones and ink textures. Aim for a manga sketch-like feel.Set it against a clean white minimalist background, with symbolic decorative elements surrounding the figure. The overall atmosphere should be strong, with high detail and high quality.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784908534/prompts/v9vtvidzlvtv1oimuvps.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-24T15:55:35.091Z",
+    "updatedAt": "2026-07-24T15:55:35.091Z",
+    "tags": [],
+    "models": [
+      "Chat GPT"
+    ]
+  },
+  {
+    "id": "cmff7q80lx2",
+    "title": "Indonesian Hip-Hop Dancer Caricature",
+    "slug": "indonesian-hiphop-dancer-caricature-eohuu",
+    "category": "Anime",
+    "fullPrompt": "Funny caricature, young Indonesian male hip-hop dancer, 25 years old, slick dark hair tied in a bandana, golden hoop earrings, oversized cartoonish head, exaggerated nose and jawline, cool expression with a sideways glance, squatting in freestyle pose, wearing a batik bomber jacket, cargo joggers, and graffiti-painted sneakers, tattoo sleeve visible, vibrant comic caricature style, dynamic lighting, street dance energy, white backdrop --ar 3:4 --style raw ",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784908563/prompts/ah8ncbevf8h305rs0zlq.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-24T15:56:05.831Z",
+    "updatedAt": "2026-07-24T15:56:05.831Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmpp6wk6pi1",
+    "title": "Joyful caricature with bold features",
+    "slug": "joyful-caricature-with-bold-features-76l6m",
+    "category": "Anime",
+    "fullPrompt": "Extreme 3D CGI caricature of [CHARACTER], featuring wildly exaggerated proportions and oversized facial features for maximum comedic impact. Create a head-and-shoulders portrait with an enormous head, tiny body, and highly expressive face showing an over-the-top dramatic emotion (laughing, shocked, smug, or confused). Render in a premium stylized 3D animation style with ultra-smooth matte materials, clean topology, and high-end CGI quality. Use a slightly low-angle character perspective for a bold, heroic appearance. Place the character against a vibrant, saturated background with strong color contrast that makes the subject pop. Illuminate the scene with soft cinematic studio lighting, subtle rim lighting, and realistic ambient shadows to enhance depth and dimension. Ultra-detailed textures, crisp edges, expressive eyes, exaggerated smile, vibrant colors, professional Pixar-inspired character design, octane-quality rendering, 8K, ultra-sharp, playful, humorous, highly polished.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784908803/prompts/ngmuuz9ojqxvxgrec5y6.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-24T16:00:04.639Z",
+    "updatedAt": "2026-07-24T16:00:04.639Z",
+    "tags": [],
+    "models": [
+      "Chat GPT"
+    ]
+  },
+  {
+    "id": "cm1m0egrgcx",
+    "title": "Romantic Couple Flower Shop Illustration",
+    "slug": "romantic-couple-flower-shop-illustration-wbhmd",
+    "category": "Anime",
+    "fullPrompt": "Soft, romantic hand-drawn digital illustration of a young couple with the same facial features as the uploaded man and woman (100% face match), standing in front of a local flower shop in a vibrant flower market.\nMan in a light green shirt and dark trousers, rolled sleeves slightly messy hair, calm loving expression.\nWoman in a lavender glittering outfit, elegant look, long flowing hair, gentle romantic smile.\nPastel tones, soft daylight, dreamy romantic mood, flowers like roses and lilies in the background.\nSmooth brush strokes, delicate outlines, subtle glow, high-resolution, Instagram-worthy romantic artwork.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784908834/prompts/ezmym9p12v59nrxq291s.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-24T16:00:35.124Z",
+    "updatedAt": "2026-07-24T16:00:35.124Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cma5rcln1ad",
+    "title": "Dreamy Anime Collage Creation",
+    "slug": "dreamy-anime-collage-creation-k5714",
+    "category": "Anime",
+    "fullPrompt": "create a dreamy anime-style collage with exact face match, no face change, and perfect facial consistency. Add cute chibi versions around the main girl wearing pastel lehenga and saree outfits, floral accessories, glossy eyes, soft curls, fairy lights, glowing stars, magical sparkles, kawaii atmosphere, aesthetic quotes, cinematic lighting, ultra-detailed textures, 8K ultra HD quality, vertical 9:16 ratio.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784908969/prompts/nprm5x6ydgws5ezq7ty2.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-24T16:02:50.167Z",
+    "updatedAt": "2026-07-24T16:02:50.167Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmy29bvlwdf",
+    "title": "Chibi boy in a gamer room",
+    "slug": "chibi-boy-in-a-gamer-room-n1fro",
+    "category": "Anime",
+    "fullPrompt": "A stylized 3D chibi-Style cute Boy leans casually against a small three-dimensional name \" Sam\" designed in sleek black and red. He has black hair and playful smile.He is dressed the exacat outfit in the reference image,paired with white sneakers. The background is a dark bedroom, enhancing the vibrant colors and cozy atmosphere of the scene",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784909000/prompts/yomvyn1ne2eartvkyvuh.webp",
+    "isPremium": false,
+    "isTrending": true,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-24T16:03:20.884Z",
+    "updatedAt": "2026-07-24T16:03:20.884Z",
+    "tags": [],
+    "models": [
+      "Chat GPT"
+    ]
+  },
+  {
+    "id": "cmy59e27nnn",
+    "title": "Exaggerated Caricature of Umesh Character",
+    "slug": "exaggerated-caricature-of-umesh-characte-50lyp",
+    "category": "Anime",
+    "fullPrompt": " Use the locked Umesh character exactly. Preserve his facial features, curly black hair, trimmed beard, rectangular glasses, warm skin tone, body proportions, and identity with NO changes. Transform only into an ultra-exaggerated premium caricature while keeping him instantly recognizable Create a premium ultra-exaggerated caricature portrait with a massive joyful smile, oversized sparkling teeth, expressive closed happy eyes, slightly enlarged ears, elongated neck, oversized head (75% of the frame), tiny shoulders, soft painterly rendering, and polished editorial illustration quality. Character Umesh wearing a vibrant emerald-green polo T-shirt with subtle geometric texture. Orange collar and sleeve piping for strong color contrast. Small modern \"UVM\" chest emblem.Minimal silver chain. Smartwatch. Confident, cheerful, wholesome personality. Looking straight at the camera with the biggest infectious smile possible. Background Clean minimalist warm cream-to-light beige gradient. Soft paper texture. Tiny colorful confetti dots. Floating sparkles. Minimal abstract paint strokes. Clean premium composition with lots of negative space. Lighting Soft studio lighting. Warm rim light. Smooth skin shading. Bright glossy teeth. Catchlights in the eyes. High dynamic range. Style Ultra-premium caricature illustration. Editorial digital painting. Semi-realistic cartoon. Oversized facial proportions. Extremely expressive smile. Clean brushwork. Rich color harmony. Soft painterly texture. Crisp edges. High detail. 9:16 vertical. Ultra HD 16K. No watermark. No text. Preserve the locked Umesh identity exactly. Fun, positive, energetic, and highly shareable social-media profile artwork.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784919452/prompts/wmqdwfj2tyaoobvtyv77.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-07-24T18:57:33.877Z",
+    "updatedAt": "2026-07-24T18:57:33.877Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
   }
 ]
