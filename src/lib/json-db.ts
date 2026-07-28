@@ -80,7 +80,7 @@ export const getAllPrompts = (): Promise<Prompt[]> =>
     ["all-prompts"],
     {
       tags: ["prompts"],
-      revalidate: 60,
+      revalidate: 86400,
     }
   )();
 
@@ -101,7 +101,7 @@ export const getPromptsByCategory = (category: string): Promise<Prompt[]> =>
     [`category-prompts-${category.toLowerCase()}`],
     {
       tags: ["prompts", `category-${category.toLowerCase()}`],
-      revalidate: 60,
+      revalidate: 86400,
     }
   )();
 
@@ -172,7 +172,6 @@ export const updatePrompt = async (id: string, data: Partial<Prompt>) => {
   };
 
   await savePrompt(updatedPrompt);
-  revalidateTag("prompts", "max");
   return updatedPrompt;
 };
 

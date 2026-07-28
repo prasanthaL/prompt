@@ -16,7 +16,7 @@ import BlogCard from "@/components/blog/BlogCard";
 import type { BlogCardData } from "@/components/blog/BlogCardFeatured";
 import type { Block } from "@/components/blog/BlogBlock";
 
-export const revalidate = 60;
+export const revalidate = 86400;
 
 // ---------------------------------------------------------------------------
 // Types for the rich blog.json shape

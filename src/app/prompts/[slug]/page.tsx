@@ -34,7 +34,7 @@ import {
    ISR: revalidate static pages every hour.
    Cache can be purged instantly via revalidateTag('prompts').
    ───────────────────────────────────────────────────────────── */
-export const revalidate = 3600;
+export const revalidate = 86400;
 
 /* ─────────────────────────────────────────────────────────────
    SSG: emit one static page for every prompt slug at build time

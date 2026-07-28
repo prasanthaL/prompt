@@ -85,7 +85,7 @@ function loadAllPrompts(): Prompt[] {
 // These wrap async versions of the sync helpers so Next.js can honour the
 // `revalidate` export on the consuming page (ISR / on-demand revalidation).
 
-const REVALIDATE_SECONDS = 3600; // 1 hour — matches page.tsx `revalidate`
+const REVALIDATE_SECONDS = 86400; // 1 hour — matches page.tsx `revalidate`
 
 /**
  * Cached async version of getAllPromptsSync.
