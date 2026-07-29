@@ -99,7 +99,7 @@ export async function GET(request: NextRequest) {
       {
         headers: {
           // Cache in the browser & CDN: 60 s fresh, serve stale for 2 min while revalidating
-          "Cache-Control": "public, s-maxage=60, stale-while-revalidate=120",
+          "Cache-Control": "public, s-maxage=600, stale-while-revalidate=3600",
         },
       }
     );

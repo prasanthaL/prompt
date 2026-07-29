@@ -255,16 +255,10 @@ const categoriesData = categoriesDataJson.map((cat) => {
 
 interface HomeClientProps {
   initialTabResult: HomeTabResult;
-  initialTab: HomeTab;
-  initialCategory: string | null;
-  initialPage: number;
 }
 
 export default function HomeClient({
   initialTabResult,
-  initialTab,
-  initialCategory,
-  initialPage,
 }: HomeClientProps) {
   const router = useRouter();
   const searchParams = useSearchParams();
@@ -273,9 +267,9 @@ export default function HomeClient({
   const categoryParam = searchParams.get("category");
   const pageParam = searchParams.get("page");
 
-  const [activeTab, setActiveTab] = useState<HomeTab>(tabParam || initialTab || "trending");
-  const [selectedCategory, setSelectedCategory] = useState<string | null>(categoryParam || initialCategory || null);
-  const [currentPage, setCurrentPage] = useState(pageParam ? parseInt(pageParam, 10) : initialPage || 1);
+  const [activeTab, setActiveTab] = useState<HomeTab>(tabParam || "trending");
+  const [selectedCategory, setSelectedCategory] = useState<string | null>(categoryParam || null);
+  const [currentPage, setCurrentPage] = useState(pageParam ? parseInt(pageParam, 10) : 1);
 
   // ── On-demand data state (mirrors BrowseClient pattern) ─────────────────
   const [isLoading, setIsLoading] = useState(false);
@@ -302,21 +296,18 @@ export default function HomeClient({
 
   const isFirstRender = React.useRef(true);
 
-  // Re-fetch whenever tab, category, or page changes (identical to BrowseClient)
   useEffect(() => {
+    // The server always pre-renders trending/page1. If the URL has different
+    // params on first mount (e.g. user navigated to /?tab=popular), fetch
+    // the correct data immediately.
     if (isFirstRender.current) {
       isFirstRender.current = false;
-      // Skip initial load if parameters match what was pre-fetched on the server
-      if (
-        activeTab === initialTab &&
-        selectedCategory === initialCategory &&
-        currentPage === initialPage
-      ) {
-        return;
+      if (activeTab === "trending" && !selectedCategory && currentPage === 1) {
+        return; // matches server-rendered default — no re-fetch needed
       }
     }
     loadTabData(activeTab, selectedCategory ?? "", currentPage);
-  }, [activeTab, selectedCategory, currentPage, loadTabData, initialTab, initialCategory, initialPage]);
+  }, [activeTab, selectedCategory, currentPage, loadTabData]);
 
   // Sync URL search-params into state
   useEffect(() => {

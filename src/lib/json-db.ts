@@ -92,8 +92,7 @@ const _getPromptsByCategory = async (category: string): Promise<Prompt[]> => {
 
 /**
  * Returns all prompts for a given category.
- * Results are cached per-category for 60 seconds to avoid repeated
- * filesystem reads on every request.
+ * Results are cached per-category via unstable_cache.
  */
 export const getPromptsByCategory = (category: string): Promise<Prompt[]> =>
   unstable_cache(
@@ -134,7 +133,6 @@ export const savePrompt = async (prompt: Prompt) => {
   }
   
   fs.writeFileSync(filePath, JSON.stringify(prompts, null, 2));
-  revalidateTag("prompts", "max");
 };
 
 export const deletePrompt = async (id: string) => {
@@ -155,7 +153,6 @@ export const deletePrompt = async (id: string) => {
       }
     }
   });
-  revalidateTag("prompts", "max");
 };
 
 export const updatePrompt = async (id: string, data: Partial<Prompt>) => {

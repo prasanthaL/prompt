@@ -9,8 +9,6 @@ import type { Metadata } from "next";
 import { getAllPrompts } from "@/lib/json-db";
 import { CATEGORY_DESCRIPTIONS } from "@/data/category-descriptions";
 
-export const dynamic = "force-dynamic";
-
 const siteUrl = "https://www.aipromptnest.com";
 
 interface PageProps {

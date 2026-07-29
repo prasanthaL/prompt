@@ -34,7 +34,8 @@ interface PageProps {
   };
 }
 
-
+// ISR: re-render category pages at most once per day
+export const revalidate = 86400;
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { category } = await params;
@@ -384,7 +385,7 @@ export default async function CategoryPage({ params }: PageProps) {
             </div>
 
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight leading-[1.1] text-foreground">
-              {displayName} <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">Gemini AI Prompts</span>
+              {displayName} <span className="text-transparent bg-clip-text bg-linear-to-r from-primary to-accent">Gemini AI Prompts</span>
             </h1>
 
             <div className="text-foreground/50 text-sm md:text-base leading-relaxed space-y-4 max-w-3xl">
@@ -416,9 +417,9 @@ export default async function CategoryPage({ params }: PageProps) {
           </div>
 
           {/* Right: Glassmorphic Visual Cover Card */}
-          <div className="lg:col-span-5 relative group w-full aspect-[4/3] lg:aspect-[5/6] rounded-[2.5rem] overflow-hidden border border-white/[0.08] shadow-2xl hover:border-white/[0.15] transition-all duration-500">
+          <div className="lg:col-span-5 relative group w-full aspect-4/3 lg:aspect-5/6 rounded-[2.5rem] overflow-hidden border border-white/8 shadow-2xl hover:border-white/15 transition-all duration-500">
             {/* Color accent glow behind cover */}
-            <div className="absolute -inset-4 bg-gradient-to-r from-primary/10 to-accent/10 rounded-[3rem] blur-3xl opacity-50 group-hover:opacity-75 transition-opacity duration-700 pointer-events-none" />
+            <div className="absolute -inset-4 bg-linear-to-r from-primary/10 to-accent/10 rounded-[3rem] blur-3xl opacity-50 group-hover:opacity-75 transition-opacity duration-700 pointer-events-none" />
 
             <div className="absolute inset-0 z-0">
               <Image
@@ -433,8 +434,8 @@ export default async function CategoryPage({ params }: PageProps) {
             </div>
 
             {/* Premium overlays */}
-            <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/35 to-transparent z-10" />
-            <div className="absolute inset-0 bg-gradient-to-br from-black/25 to-transparent z-10" />
+            <div className="absolute inset-0 bg-linear-to-t from-black/90 via-black/35 to-transparent z-10" />
+            <div className="absolute inset-0 bg-linear-to-br from-black/25 to-transparent z-10" />
 
             {/* Inner Floating Details */}
             <div className="absolute inset-0 z-20 p-8 flex flex-col justify-between">
@@ -565,7 +566,7 @@ export default async function CategoryPage({ params }: PageProps) {
         {/* Layout Row 2: Three-Column Navigation Block */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-8 mb-16">
           {/* Column 1: Trending Searches */}
-          <div className="lg:col-span-5 glass-dark border border-foreground/5 p-8 rounded-[2rem] space-y-6">
+          <div className="lg:col-span-5 glass-dark border border-foreground/5 p-8 rounded-4xl space-y-6">
             <h3 className="text-lg font-bold text-foreground flex items-center gap-2">
               <TrendingUp className="w-5 h-5 text-primary" />
               Trending Searches
@@ -581,7 +582,7 @@ export default async function CategoryPage({ params }: PageProps) {
           </div>
 
           {/* Column 2: Related Categories */}
-          <div className="lg:col-span-4 glass-dark border border-foreground/5 p-8 rounded-[2rem] space-y-6">
+          <div className="lg:col-span-4 glass-dark border border-foreground/5 p-8 rounded-4xl space-y-6">
             <div className="flex justify-between items-center">
               <h3 className="text-lg font-bold text-foreground flex items-center gap-2">
                 <FolderOpen className="w-5 h-5 text-primary" />
@@ -598,7 +599,7 @@ export default async function CategoryPage({ params }: PageProps) {
                   <Link
                     key={item.key}
                     href={`/categories/${item.key}`}
-                    className="flex items-center justify-between p-3.5 rounded-2xl bg-foreground/[0.02] border border-foreground/5 hover:border-primary/20 hover:bg-primary/[0.02] transition-all group"
+                    className="flex items-center justify-between p-3.5 rounded-2xl bg-foreground/2 border border-foreground/5 hover:border-primary/20 hover:bg-primary/2 transition-all group"
                   >
                     <div className="flex items-center gap-3">
                       <div className="w-10 h-10 rounded-xl bg-foreground/5 flex items-center justify-center text-foreground/40 group-hover:text-primary group-hover:bg-primary/10 transition-colors">
@@ -621,7 +622,7 @@ export default async function CategoryPage({ params }: PageProps) {
           </div>
 
           {/* Column 3: How to Use Callout Card */}
-          <div className="lg:col-span-3 glass-dark border border-foreground/5 p-8 rounded-[2rem] flex flex-col justify-between h-full bg-primary/[0.01]">
+          <div className="lg:col-span-3 glass-dark border border-foreground/5 p-8 rounded-4xl flex flex-col justify-between h-full bg-primary/1">
             <div className="space-y-4">
               <h3 className="text-lg font-bold text-foreground">How to Use {displayName} Prompts</h3>
               <p className="text-xs leading-relaxed text-foreground/45">
@@ -671,7 +672,7 @@ export default async function CategoryPage({ params }: PageProps) {
                     <ChevronDown className="h-4 w-4 shrink-0 text-foreground/40 transition-transform duration-300 group-open:rotate-180 group-open:text-primary" />
                   </summary>
 
-                  <div className="px-6 pb-5 border-t border-foreground/[0.02]">
+                  <div className="px-6 pb-5 border-t border-foreground/2">
                     <p className="text-xs sm:text-sm leading-relaxed text-foreground/45 pt-4">
                       {item.answer}
                     </p>
@@ -699,7 +700,7 @@ export default async function CategoryPage({ params }: PageProps) {
                   <Link
                     key={p.id}
                     href={cardHref}
-                    className="flex items-center justify-between p-4 rounded-[1.5rem] bg-foreground/[0.02] border border-foreground/5 hover:border-primary/25 hover:bg-primary/[0.01] transition-all group"
+                    className="flex items-center justify-between p-4 rounded-[1.5rem] bg-foreground/2 border border-foreground/5 hover:border-primary/25 hover:bg-primary/1 transition-all group"
                   >
                     <div className="flex items-center gap-4 min-w-0">
                       <div className="w-14 h-14 relative rounded-xl overflow-hidden shrink-0 border border-foreground/5">
@@ -738,7 +739,7 @@ export default async function CategoryPage({ params }: PageProps) {
 
         {/* Striking CTA Banner Section */}
         <section className="relative overflow-hidden rounded-[2.5rem] bg-card/25 border border-foreground/5 px-8 py-16 md:p-20 text-center mb-16">
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[350px] h-[350px] bg-gradient-to-tr from-primary/10 to-accent/10 rounded-full blur-[80px] pointer-events-none" />
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-87.5 h-87.5 bg-linear-to-tr from-primary/10 to-accent/10 rounded-full blur-[80px] pointer-events-none" />
 
           <div className="relative z-10 max-w-2xl mx-auto space-y-6">
             <div className="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-[10px] font-bold uppercase tracking-widest">
