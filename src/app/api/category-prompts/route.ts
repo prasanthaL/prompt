@@ -27,7 +27,7 @@ export async function GET(request: NextRequest) {
     return NextResponse.json(slice, {
       headers: {
         // Cache for 60 s in the browser so rapid "See More" clicks don't re-hit the server
-        "Cache-Control": "public, s-maxage=60, stale-while-revalidate=120",
+        "Cache-Control": "public, s-maxage=600, stale-while-revalidate=3600",
       },
     });
   } catch (err) {

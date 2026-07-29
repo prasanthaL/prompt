@@ -4,11 +4,9 @@
  * Data layer for prompt detail pages.
  * Reads ALL JSON files from src/data/prompts/ directly — no API routes.
  *
- * Two levels of caching:
- *  1. Module-level Map  — survives for the lifetime of the Node.js process
- *     (hot between requests in production; resets on server restart / redeploy).
- *  2. next/cache unstable_cache — honours the page-level `revalidate` setting
- *     so ISR pages re-fetch when they expire without a full redeploy.
+ * Caching:
+ *  Module-level Map — survives for the lifetime of the Node.js process
+ *  (hot between requests in production; resets on server restart / redeploy).
  *
  * Safe in Server Components, generateStaticParams, and generateMetadata.
  */
@@ -85,7 +83,7 @@ function loadAllPrompts(): Prompt[] {
 // These wrap async versions of the sync helpers so Next.js can honour the
 // `revalidate` export on the consuming page (ISR / on-demand revalidation).
 
-const REVALIDATE_SECONDS = 86400; // 1 hour — matches page.tsx `revalidate`
+const REVALIDATE_SECONDS = 86400; // 24 hours — matches page.tsx `revalidate`
 
 /**
  * Cached async version of getAllPromptsSync.

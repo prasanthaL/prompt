@@ -7,7 +7,7 @@ import StatsSection from "@/components/StatsSection";
 import HomeFaqSection from "./HomeFaqSection";
 import { faqItems } from "@/data/home-faqs";
 import Footer from "@/components/Footer";
-import { fetchCategoryCounts, type HomeTab } from "@/lib/client-prompts";
+import { fetchCategoryCounts } from "@/lib/client-prompts";
 import { getAllPrompts } from "@/lib/json-db";
 import blogJsonData from "@/data/blog.json";
 import BlogCard from "@/components/blog/BlogCard";
@@ -28,58 +28,54 @@ import {
 } from "@/data/home-data";
 import type { Metadata } from "next";
 
-export async function generateMetadata({ searchParams }: PageProps): Promise<Metadata> {
-  const resolvedParams = await searchParams;
+// ISR: re-render the home page at most once per day.
+// searchParams are intentionally NOT read here — that makes the page dynamic
+// and triggers an ISR write on every unique URL combination.
+// The HomeClient handles tab/category/page state entirely on the client.
+export const revalidate = 86400;
 
-  // Noindex when filters or tabs or paginated sub-pages are active on the home page
-  const hasTab = !!resolvedParams.tab;
-  const hasCategory = !!resolvedParams.category;
-  const hasPage = !!resolvedParams.page;
-  const shouldNoindex = hasTab || hasCategory || hasPage;
-
-  return {
-    metadataBase: new URL("https://www.aipromptnest.com"),
-    title: "AIPromptNest - Free Gemini AI Image Prompts Library",
+export const metadata: Metadata = {
+  metadataBase: new URL("https://www.aipromptnest.com"),
+  title: "AIPromptNest - Free Gemini AI Image Prompts Library",
+  description: "Discover free Gemini AI image prompts for cinematic photos, anime art, fantasy worlds, portraits, product photography, and creative AI images.",
+  alternates: {
+    canonical: "/"
+  },
+  openGraph: {
+    title: "AIPromptNest - Free Gemini AI Image Prompts",
+    description: "Explore a growing collection of Gemini AI prompts for stunning AI generated images.",
+    url: "https://www.aipromptnest.com",
+    type: "website",
+    images: [
+      {
+        url: "https://res.cloudinary.com/dfbacu2lw/image/upload/v1781332533/og_yh8di5.webp",
+        width: 1200,
+        height: 630
+      }
+    ]
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "AIPromptNest - Free Gemini AI Image Prompts",
     description: "Discover free Gemini AI image prompts for cinematic photos, anime art, fantasy worlds, portraits, product photography, and creative AI images.",
-    alternates: {
-      canonical: "/"
-    },
-    openGraph: {
-      title: "AIPromptNest - Free Gemini AI Image Prompts",
-      description: "Explore a growing collection of Gemini AI prompts for stunning AI generated images.",
-      url: "https://www.aipromptnest.com",
-      type: "website",
-      images: [
-        {
-          url: "https://res.cloudinary.com/dfbacu2lw/image/upload/v1781332533/og_yh8di5.webp",
-          width: 1200,
-          height: 630
-        }
-      ]
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: "AIPromptNest - Free Gemini AI Image Prompts",
-      description: "Discover free Gemini AI image prompts for cinematic photos, anime art, fantasy worlds, portraits, product photography, and creative AI images.",
-      images: [
-        "https://res.cloudinary.com/dfbacu2lw/image/upload/v1781332533/og_yh8di5.webp",
-      ],
-      creator: "@aipromptnest",
-      site: "@aipromptnest",
-    },
-    robots: {
-      index: !shouldNoindex,
+    images: [
+      "https://res.cloudinary.com/dfbacu2lw/image/upload/v1781332533/og_yh8di5.webp",
+    ],
+    creator: "@aipromptnest",
+    site: "@aipromptnest",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
       follow: true,
-      googleBot: {
-        index: !shouldNoindex,
-        follow: true,
-        "max-snippet": -1,
-        "max-image-preview": "large",
-        "max-video-preview": -1,
-      },
+      "max-snippet": -1,
+      "max-image-preview": "large",
+      "max-video-preview": -1,
     },
-  };
-}
+  },
+};
 
 /* JSON-LD structured data for FAQPage (SEO rich results) */
 const faqJsonLd = {
@@ -109,16 +105,6 @@ const websiteSchema = {
   }
 }
 
-export const dynamic = "force-dynamic";
-
-interface PageProps {
-  searchParams: Promise<{
-    tab?: string;
-    category?: string;
-    page?: string;
-  }>;
-}
-
 // ---------------------------------------------------------------------------
 // Map raw blog.json entry → BlogCardData shape
 // ---------------------------------------------------------------------------
@@ -139,68 +125,40 @@ function mapBlogJson(raw: (typeof blogJsonData)[number]): BlogCardData {
   };
 }
 
-export default async function Home({ searchParams }: PageProps) {
-  const resolvedParams = await searchParams;
-  const tab = (resolvedParams.tab || "trending") as HomeTab;
-  const category = resolvedParams.category || "";
-  const page = parseInt(resolvedParams.page || "1", 10) || 1;
-
+export default async function Home() {
   const latestBlogs = (blogJsonData as (typeof blogJsonData)[number][])
     .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
     .slice(0, 3)
     .map(mapBlogJson);
 
+  // Pre-render the default "trending" tab (page 1) for fast first paint.
+  // All other tabs/categories/pages are handled entirely client-side by
+  // HomeClient via useSearchParams, so the Server Component never reads
+  // searchParams and can be statically cached by ISR.
   const [allCategoryCounts, allPrompts] = await Promise.all([
     fetchCategoryCounts(),
     getAllPrompts(),
   ]);
 
-  // 1. Apply the tab filter
-  let tabFiltered = allPrompts;
-  if (tab === "trending") {
-    tabFiltered = allPrompts
-      .filter((p) => p.isTrending)
-      .sort((a, b) => (Number(b.views ?? 0) + Number(b.likes ?? 0)) - (Number(a.views ?? 0) + Number(a.likes ?? 0)));
-  } else if (tab === "popular") {
-    tabFiltered = allPrompts
-      .filter((p) => p.isFeatured)
-      .sort((a, b) => (Number(b.views ?? 0) + Number(b.likes ?? 0)) - (Number(a.views ?? 0) + Number(a.likes ?? 0)));
-  } else if (tab === "latest") {
-    tabFiltered = allPrompts
-      .filter((p) => p.isLatest)
-      .sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime());
-  } else if (tab === "all") {
-    tabFiltered = allPrompts; // already sorted newest-first
-  }
+  const trendingPrompts = allPrompts
+    .filter((p) => p.isTrending)
+    .sort((a, b) => (Number(b.views ?? 0) + Number(b.likes ?? 0)) - (Number(a.views ?? 0) + Number(a.likes ?? 0)));
 
-  // 2. Compute category counts within the tab (excluding category filter itself, but including tab filter)
-  const tabCategoryCounts: Record<string, number> = {};
-  for (const p of tabFiltered) {
+  const trendingCategoryCounts: Record<string, number> = {};
+  for (const p of trendingPrompts) {
     if (p.category) {
-      tabCategoryCounts[p.category] = (tabCategoryCounts[p.category] ?? 0) + 1;
+      trendingCategoryCounts[p.category] = (trendingCategoryCounts[p.category] ?? 0) + 1;
     }
   }
 
-  // 3. Apply category sub-filter if set
-  const source = category && category !== "all"
-    ? tabFiltered.filter((p) => p.category?.toLowerCase() === category.toLowerCase())
-    : tabFiltered;
-
-  // 4. Paginate
   const PAGE_SIZE = 12;
-  const totalCount = source.length;
-  const totalPages = Math.max(1, Math.ceil(totalCount / PAGE_SIZE));
-  const safePage = Math.min(Math.max(1, page), totalPages);
-  const start = (safePage - 1) * PAGE_SIZE;
-  const paginatedPrompts = source.slice(start, start + PAGE_SIZE);
-
   const initialTabResult = {
-    prompts: paginatedPrompts,
-    totalCount,
-    totalPages,
-    currentPage: safePage,
-    categoryCounts: tabCategoryCounts,
-    tabTotalCount: tabFiltered.length,
+    prompts: trendingPrompts.slice(0, PAGE_SIZE),
+    totalCount: trendingPrompts.length,
+    totalPages: Math.max(1, Math.ceil(trendingPrompts.length / PAGE_SIZE)),
+    currentPage: 1,
+    categoryCounts: trendingCategoryCounts,
+    tabTotalCount: trendingPrompts.length,
   };
 
   const featuredPromptsForSchema = allPrompts
@@ -244,9 +202,6 @@ export default async function Home({ searchParams }: PageProps) {
       }>
         <HomeClient
           initialTabResult={initialTabResult}
-          initialTab={tab}
-          initialCategory={category}
-          initialPage={page}
         />
       </Suspense>
 

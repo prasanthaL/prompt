@@ -219,7 +219,7 @@ export default async function BlogDetail({ params }: PageProps) {
             </div>
 
             {/* ── Cover Image ─────────────────────────────────────────── */}
-            <div className="relative rounded-3xl overflow-hidden border border-border aspect-[21/9]">
+            <div className="relative rounded-3xl overflow-hidden border border-border aspect-21/9">
               <Image
                 src={rich.coverImage}
                 alt={rich.coverImageAlt ?? rich.title}
