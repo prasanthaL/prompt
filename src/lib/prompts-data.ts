@@ -4,15 +4,19 @@
  * Data layer for prompt detail pages.
  * Reads ALL JSON files from src/data/prompts/ directly — no API routes.
  *
- * Caching:
- *  Module-level Map — survives for the lifetime of the Node.js process
- *  (hot between requests in production; resets on server restart / redeploy).
+ * Caching strategy:
+ *  - Module-level Map (fileCache / allPromptsCache) — survives for the
+ *    lifetime of the Node.js process. Zero filesystem reads after warmup.
+ *  - getCachedAllPrompts uses unstable_cache (one shared Vercel ISR entry).
+ *  - getCachedPromptBySlugOrId / getCachedSimilarPrompts are plain async
+ *    wrappers — they rely solely on the module-level cache so they do NOT
+ *    create per-slug ISR cache entries on Vercel.
  *
  * Safe in Server Components, generateStaticParams, and generateMetadata.
  */
 
 import type { Prompt } from "@/lib/json-db";
-import { unstable_cache } from "next/cache";
+import { unstable_cache } from "next/cache"; // used only for getCachedAllPrompts
 import fs from "fs";
 import path from "path";
 
@@ -79,15 +83,13 @@ function loadAllPrompts(): Prompt[] {
   }
 }
 
-// ─── Level 2: Next.js unstable_cache wrappers ────────────────────────────────
-// These wrap async versions of the sync helpers so Next.js can honour the
-// `revalidate` export on the consuming page (ISR / on-demand revalidation).
+// ─── Level 2: Next.js cache wrappers ─────────────────────────────────────────
 
 const REVALIDATE_SECONDS = 86400; // 24 hours — matches page.tsx `revalidate`
 
 /**
- * Cached async version of getAllPromptsSync.
- * Revalidates every REVALIDATE_SECONDS seconds via ISR.
+ * getCachedAllPrompts — ONE shared unstable_cache entry for the full list.
+ * Used by pages that need to iterate all prompts (home, sitemap, etc.).
  */
 export const getCachedAllPrompts = unstable_cache(
   async (): Promise<Prompt[]> =>
@@ -99,39 +101,32 @@ export const getCachedAllPrompts = unstable_cache(
 );
 
 /**
- * Cached async version of getPromptBySlugOrIdSync.
- * Each slug gets its own cache entry.
+ * getCachedPromptBySlugOrId — plain async wrapper over the module-level cache.
+ * Does NOT use unstable_cache to avoid creating one Vercel ISR entry per slug.
+ * The module-level allPromptsCache already ensures zero filesystem reads after
+ * the first request in a given server process.
  */
-export const getCachedPromptBySlugOrId = (identifier: string) =>
-  unstable_cache(
-    async (): Promise<Prompt | null> => {
-      const all = loadAllPrompts();
-      return all.find((p) => p.id === identifier || p.slug === identifier) ?? null;
-    },
-    [`prompt-${identifier.length > 50 ? identifier.slice(0, 50) + '-' + identifier.slice(-10) : identifier}`],
-    {
-      tags: [
-        "prompts",
-        `prompt-${identifier.length > 50 ? identifier.slice(0, 50) + '-' + identifier.slice(-10) : identifier}`
-      ],
-      revalidate: REVALIDATE_SECONDS
-    }
-  )();
+export async function getCachedPromptBySlugOrId(
+  identifier: string
+): Promise<Prompt | null> {
+  const all = loadAllPrompts();
+  return all.find((p) => p.id === identifier || p.slug === identifier) ?? null;
+}
 
 /**
- * Cached async version of getSimilarPromptsSync.
+ * getCachedSimilarPrompts — plain async wrapper over the module-level cache.
+ * Does NOT use unstable_cache for the same reason as getCachedPromptBySlugOrId.
  */
-export const getCachedSimilarPrompts = (id: string, category: string, limit = 3) =>
-  unstable_cache(
-    async (): Promise<Prompt[]> => {
-      const all = loadAllPrompts();
-      let similar = all.filter((p) => p.category === category && p.id !== id);
-      if (similar.length === 0) similar = all.filter((p) => p.id !== id);
-      return similar.slice(0, limit);
-    },
-    [`similar-${id}-${category}-${limit}`],
-    { tags: ["prompts", `category-${category.toLowerCase()}`], revalidate: REVALIDATE_SECONDS }
-  )();
+export async function getCachedSimilarPrompts(
+  id: string,
+  category: string,
+  limit = 3
+): Promise<Prompt[]> {
+  const all = loadAllPrompts();
+  let similar = all.filter((p) => p.category === category && p.id !== id);
+  if (similar.length === 0) similar = all.filter((p) => p.id !== id);
+  return similar.slice(0, limit);
+}
 
 // ─── Sync helpers (kept for generateStaticParams / generateMetadata) ─────────
 // These run at build time and don't need Next.js cache wrappers.
