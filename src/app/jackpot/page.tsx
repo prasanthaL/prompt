@@ -3,29 +3,127 @@ import type { Metadata } from "next";
 import { Sparkles, Trophy, HelpCircle, Gift, ShieldCheck } from "lucide-react";
 import JackpotClient from "./JackpotClient";
 
+const siteUrl = "https://www.aipromptnest.com";
+const pageUrl = `${siteUrl}/jackpot`;
+const ogImage = "https://res.cloudinary.com/dfbacu2lw/image/upload/v1781332533/og_yh8di5.webp";
+
+// ISR: regenerate at most once per 24 hours (aligns with daily spin reset)
+export const revalidate = 86400;
+
 export const metadata: Metadata = {
-  title: "🎰 Daily Jackpot Prompt Wheel - Spin & Win AI Prompts | AIPromptNest",
+  title: "🎰 Jackpot Prompt Wheel — Spin & Win Daily AI Prompts Free",
   description:
-    "Spin the AIPromptNest Jackpot Wheel every 24 hours to unlock high-quality Legendary, Epic, and Rare AI prompts for ChatGPT, Midjourney, and Flux!",
+    "Spin the AIPromptNest Jackpot Wheel every 24 hours and unlock Legendary, Epic, Rare & Common AI prompts for Midjourney, ChatGPT, Gemini and Flux. 3 free spins daily — no account needed!",
   keywords: [
-    "Jackpot Prompt Wheel",
-    "AI Prompts",
-    "Daily Free AI Prompts",
-    "Midjourney Prompts",
-    "ChatGPT Prompts",
-    "AIPromptNest",
+    "jackpot AI prompt wheel",
+    "daily free AI prompts",
+    "spin to win AI prompts",
+    "free Midjourney prompts daily",
+    "free ChatGPT prompts",
+    "free Gemini prompts",
+    "AI prompt generator wheel",
+    "legendary AI prompts",
+    "epic AI prompts",
+    "daily prompt spinner",
+    "AIPromptNest jackpot",
+    "free AI art prompts",
+    "random AI prompt generator",
+    "Midjourney prompt wheel",
+    "prompt lucky wheel",
   ],
+  alternates: {
+    canonical: pageUrl,
+  },
   openGraph: {
-    title: "🎰 Daily Jackpot Prompt Wheel - AIPromptNest",
+    title: "🎰 Jackpot Prompt Wheel — Win Daily AI Prompts | AIPromptNest",
     description:
-      "Spin the wheel and unlock premium-quality AI prompts every single day for free!",
+      "Spin the wheel and unlock premium Legendary, Epic, Rare & Common AI prompts every day for free. 3 spins every 24 hours — no signup required!",
     type: "website",
+    url: pageUrl,
+    siteName: "AIPromptNest",
+    images: [
+      {
+        url: ogImage,
+        width: 1200,
+        height: 630,
+        alt: "AIPromptNest Jackpot Prompt Wheel",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "🎰 Jackpot Prompt Wheel — Free Daily AI Prompts",
+    description:
+      "Spin to unlock Legendary, Epic & Rare AI prompts every day. 3 free spins daily, no account needed!",
+    images: [ogImage],
+    creator: "@aipromptnest",
+    site: "@aipromptnest",
+  },
+};
+
+/* JSON-LD Structured Data */
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "When do Jackpot Prompt Wheel spins reset?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Spins reset every 24 hours at midnight local time. You receive 3 free spins every single day with no account required.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How does the 7-Day Lucky Streak work on AIPromptNest?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Spin the Jackpot Wheel at least once per day for 7 consecutive days to trigger the Day 7 Guaranteed Legendary Prompt reward.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Do I need an account to use the Jackpot Prompt Wheel?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "No account or registration is required. Your daily spins and streak are saved automatically using browser cookies and localStorage.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Can I save or copy Jackpot prompts?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes. All claimed prompts can be instantly copied to your clipboard or saved for later use directly from the reward popup.",
+      },
+    },
+  ],
+};
+
+const webPageSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  name: "Jackpot Prompt Wheel — Daily Free AI Prompts",
+  description:
+    "Spin the AIPromptNest Jackpot Wheel daily to win Legendary, Epic, Rare and Common AI prompts for Midjourney, ChatGPT, Gemini and Flux image generation.",
+  url: pageUrl,
+  inLanguage: "en",
+  isPartOf: {
+    "@type": "WebSite",
+    name: "AIPromptNest",
+    url: siteUrl,
   },
 };
 
 export default function JackpotPage() {
   return (
     <div className="min-h-screen bg-slate-950 text-slate-100 pt-24 pb-16 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
+      {/* JSON-LD Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify([faqSchema, webPageSchema]) }}
+      />
       {/* Background Ambient Glow Effects */}
       <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-gradient-to-tr from-amber-500/15 via-purple-500/10 to-indigo-500/10 rounded-full blur-[140px] pointer-events-none" />
 
