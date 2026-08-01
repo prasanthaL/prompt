@@ -12,6 +12,7 @@ import { getAllPrompts } from "@/lib/json-db";
 import blogJsonData from "@/data/blog.json";
 import BlogCard from "@/components/blog/BlogCard";
 import type { BlogCardData } from "@/components/blog/BlogCardFeatured";
+import JackpotHomeBanner from "@/components/JackpotHomeBanner";
 import {
   ArrowRight,
   TrendingUp,
@@ -418,6 +419,9 @@ export default async function Home() {
 
       {/* FAQ Section (Client component) */}
       <HomeFaqSection />
+
+      {/* Jackpot Floating Promotion Banner */}
+      <JackpotHomeBanner />
 
       <Footer />
     </main>

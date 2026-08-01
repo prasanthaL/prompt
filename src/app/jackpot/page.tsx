@@ -1,6 +1,7 @@
 import React from "react";
 import type { Metadata } from "next";
-import { Sparkles, Trophy, HelpCircle, Gift, ShieldCheck } from "lucide-react";
+import { Sparkles, Trophy, HelpCircle, Gift, ShieldCheck, ArrowLeft } from "lucide-react";
+import Link from "next/link";
 import JackpotClient from "./JackpotClient";
 
 const siteUrl = "https://www.aipromptnest.com";
@@ -128,6 +129,20 @@ export default function JackpotPage() {
       <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-gradient-to-tr from-amber-500/15 via-purple-500/10 to-indigo-500/10 rounded-full blur-[140px] pointer-events-none" />
 
       <div className="max-w-5xl mx-auto space-y-12 relative z-10">
+
+        {/* Back to Home */}
+        <div>
+          <Link
+            href="/"
+            className="inline-flex items-center gap-2 text-sm font-semibold text-slate-400 hover:text-amber-400 transition-colors group"
+          >
+            <span className="flex items-center justify-center w-8 h-8 rounded-xl bg-slate-800/80 border border-slate-700/60 group-hover:border-amber-500/40 group-hover:bg-amber-500/10 transition-all">
+              <ArrowLeft className="w-4 h-4" />
+            </span>
+            Back to Home
+          </Link>
+        </div>
+
         {/* Page Hero Header — Static, server-rendered */}
         <div className="text-center space-y-4 max-w-2xl mx-auto">
           <div className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-500/20 via-yellow-500/20 to-amber-500/20 border border-amber-400/40 px-4 py-1.5 rounded-full text-xs font-black text-amber-300 uppercase tracking-widest shadow-lg shadow-amber-500/10 animate-pulse">
