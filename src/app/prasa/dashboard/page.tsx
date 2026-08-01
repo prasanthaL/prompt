@@ -716,6 +716,9 @@ export default function AdminDashboard() {
               <Link href="/prasa/blogs" className="text-white/60 hover:text-white transition-colors">
                 Manage Blogs
               </Link>
+              <Link href="/prasa/jackpot" className="text-white/60 hover:text-amber-400 transition-colors flex items-center gap-1">
+                🎰 Jackpot Prompts
+              </Link>
             </div>
           </div>
           <button

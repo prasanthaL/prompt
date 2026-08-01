@@ -35,6 +35,9 @@ export default async function ManageBlogsPage() {
               <Link href="/prasa/blogs" className="text-primary border-b-2 border-primary pb-1">
                 Manage Blogs
               </Link>
+              <Link href="/prasa/jackpot" className="text-white/60 hover:text-amber-400 transition-colors flex items-center gap-1">
+                🎰 Jackpot Prompts
+              </Link>
             </div>
           </div>
 

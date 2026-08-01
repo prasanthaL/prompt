@@ -48,6 +48,7 @@ const Navbar = () => {
     { name: "Browse", href: "/browse" },
     { name: "Categories", href: "/categories" },
     { name: "Trending", href: "/trending" },
+    { name: "🎰 Jackpot", href: "/jackpot", isHot: true },
     { name: "Blog", href: "/blog" },
   ];
 
@@ -75,9 +76,19 @@ const Navbar = () => {
             <Link
               key={link.name}
               href={link.href}
-              className="text-sm font-medium text-foreground/70 hover:text-foreground transition-colors"
+              className={cn(
+                "text-sm font-medium transition-colors flex items-center gap-1.5",
+                link.isHot
+                  ? "text-amber-400 hover:text-amber-300 font-bold bg-amber-500/10 px-3 py-1 rounded-full border border-amber-500/30 animate-pulse shadow-sm shadow-amber-500/20"
+                  : "text-foreground/70 hover:text-foreground"
+              )}
             >
-              {link.name}
+              <span>{link.name}</span>
+              {link.isHot && (
+                <span className="bg-gradient-to-r from-amber-500 to-yellow-400 text-slate-950 text-[10px] font-black px-1.5 py-0.5 rounded-md uppercase">
+                  FREE
+                </span>
+              )}
             </Link>
           ))}
         </div>
@@ -125,10 +136,18 @@ const Navbar = () => {
               <Link
                 key={link.name}
                 href={link.href}
-                className="text-lg font-medium text-foreground/70 hover:text-foreground"
+                className={cn(
+                  "text-lg font-medium flex items-center justify-between",
+                  link.isHot ? "text-amber-400 font-bold" : "text-foreground/70 hover:text-foreground"
+                )}
                 onClick={() => setIsMobileMenuOpen(false)}
               >
-                {link.name}
+                <span>{link.name}</span>
+                {link.isHot && (
+                  <span className="bg-amber-500 text-slate-950 text-xs font-black px-2 py-0.5 rounded-full uppercase">
+                    3 Spins Daily
+                  </span>
+                )}
               </Link>
             ))}
           </div>
