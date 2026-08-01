@@ -4114,5 +4114,89 @@
     "models": [
       "Gemini AI"
     ]
+  },
+  {
+    "id": "cm473nmzyxk",
+    "title": "Marble and Gold Kintsugi Portrait",
+    "slug": "marble-and-gold-kintsugi-portrait-lrxpo",
+    "category": "Cinematic",
+    "fullPrompt": "Portrait of [hyper-realistict young man], transforming from living human into museum-quality marble sculpture, in the style of a Renaissance master carved in Statuario marble. Face and eyes remain full living detail (natural skin, iris color, catchlights, wrinkles) — do not stylize the eyes or core facial features.Transformation begins at the forehead, temples, and shoulders, spreading outward into polished stone with visible chisel marks and natural veining; blend from skin to marble is seamless and gradual, no cracks or exposed anatomy. A few subtle gold kintsugi seams follow facial contours, brushed and aged, not shiny. Shoulders emerge from a raw unfinished marble block, clothing dissolving into carved classical drapery.Lighting: soft 45° key light, warm overhead museum spotlight, cool rim light, dark charcoal gallery background with faint haze. Mood: dignified, timeless, contemplative. Vertical 9:16, centered, eye-level, shot on medium format, 8K detail, hyperrealistic skin texture with subsurface scattering. Negative prompt: broken statue, exposed flesh, gore, cartoon, anime, plastic/glossy stone, extra limbs, distorted anatomy, watermark, text, blurry eyes.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1785568251/prompts/zkcr3s4dls0igqhv4hs7.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-08-01T07:10:49.595Z",
+    "updatedAt": "2026-08-01T07:10:49.595Z",
+    "tags": [],
+    "models": [
+      "Chat GPT"
+    ]
+  },
+  {
+    "id": "cmn1eet9ubz",
+    "title": "Surreal Beach Sunset Bottle Dream",
+    "slug": "surreal-beach-sunset-bottle-dream-yyg8e",
+    "category": "Cinematic",
+    "fullPrompt": "A young man sleeping peacefully inside a giant clear glass bottle with a metal cap, lying on a soft blue pillow and cushion, wearing a black and grey tracksuit and red and white Nike sneakers, the bottle is lying on a large rock at the beach during golden sunset, ocean waves in background, palm trees, photorealistic surrealism, highly detailed, cinematic lighting --ar 16:9. Add a small stylish text in the bottom left \"Ai Prompt Nest\".",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1785568286/prompts/vndixqkchdgakcudysm0.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-08-01T07:11:25.113Z",
+    "updatedAt": "2026-08-01T07:11:25.113Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmvl9es9zi0",
+    "title": "Cinematic Motivational Poster Design",
+    "slug": "cinematic-motivational-poster-design-bueaa",
+    "category": "Cinematic",
+    "fullPrompt": "Create a premium cinematic motivational poster featuring the same person from the reference image, with thick, voluminous messy black hair, a well-groomed full beard, and a small black stud earring. He is wearing a light grey oversized hoodie, light blue faded jeans, and a black leather strap wristwatch.Use a double-exposure composition: one large close-up portrait with a thoughtful expression, resting his hand near his mouth, and one full-body portrait standing with both hands in pockets, looking down confidently. The background is a dramatic foggy urban street at night with soft bokeh lights, grey tones, and a warm orange glow on the left side.High-end fashion photography, ultra-realistic, HDR, sharp facial details, soft cinematic lighting, shallow depth of field, premium color grading, 8K resolution, luxury editorial poster design.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1785568548/prompts/bxtyntunr5sgmmizo1y0.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-08-01T07:15:47.182Z",
+    "updatedAt": "2026-08-01T07:15:47.182Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmjwh28g8zl",
+    "title": "Futuristic Luxury Headphone Ad",
+    "slug": "futuristic-luxury-headphone-ad-u28l0",
+    "category": "Cinematic",
+    "fullPrompt": "Use the uploaded reference image as the ONLY identity reference.\nPreserve my exact facial identity with maximum accuracy.\nScene:\nA futuristic luxury rooftop. Giant premium wireless headphones stand vertically like a modern monument. One huge version of me sits comfortably on top while a normal-size version walks below. Tiny versions of me interact with different parts of the headphones creating a surreal luxury campaign.\nComposition:\nGiant Me: Sitting on top of the headphones.\nNormal Me: Walking confidently.\nMini Me 1: Sitting inside one earcup.\nMini Me 2: Climbing the headband.\nMini Me 3: Leaning against the ear cushion.\nOutfit:\nLuxury charcoal bomber jacket, oversized white T-shirt, washed black baggy jeans, white sneakers, silver chain, black sunglasses.\nStyle:\nApple Commercial × Sony × GQ × Vogue.\nCamera:\nSony A7R V • 24mm Lens.\nLighting:\nGolden sunset with cinematic reflections.\nQuality:\nHyper realistic luxury advertisement, extremely detailed, razor sharp, 8K masterpiece.\nAspect Ratio:\n4:5\nNegative Prompt:\nNo face change.\nNo hairstyle change.\nNo AI artifacts.\nNo watermark.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1785568739/prompts/jwijogyad5z3rpkbpfms.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-08-01T07:18:58.390Z",
+    "updatedAt": "2026-08-01T07:18:58.390Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
   }
 ]
