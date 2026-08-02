@@ -1,4 +1,5 @@
 import { getPromptsByCategory, getAllPrompts } from "@/lib/json-db";
+import { categoryToSlug, slugToCategoryName } from "@/lib/category-slugs";
 import Navbar from "@/components/Navbar";
 import Link from "next/link";
 import Image from "next/image";
@@ -39,21 +40,16 @@ export const revalidate = 86400;
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { category } = await params;
-  const decoded = decodeURIComponent(category);
-  const key = decoded.toLowerCase();
-
-  // Format Display Name elegantly (e.g. "sci-fi" -> "Sci-Fi")
-  let displayName = decoded.charAt(0).toUpperCase() + decoded.slice(1);
-  if (key === "sci-fi") {
-    displayName = "Sci-Fi";
-  }
+  const displayName = slugToCategoryName(category);
+  const categorySlug = categoryToSlug(displayName);
+  const rawKey = decodeURIComponent(category).toLowerCase();
 
   const siteUrl = "https://www.aipromptnest.com";
   const fallbackOgImage = "https://res.cloudinary.com/dfbacu2lw/image/upload/v1781332533/og_yh8di5.webp";
 
   // Resolve the best OG image for this category
-  const staticMeta = categoryMetaLookup[key];
-  const catConfig = categoriesData.find(c => c.name.toLowerCase() === key);
+  const staticMeta = categoryMetaLookup[categorySlug] ?? categoryMetaLookup[rawKey];
+  const catConfig = categoriesData.find(c => categoryToSlug(c.name) === categorySlug);
   const categoryImagePath = staticMeta?.image ?? catConfig?.image ?? null;
   const ogImageUrl = categoryImagePath
     ? categoryImagePath.startsWith("http")
@@ -70,7 +66,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     },
   ];
 
-  const categoryMeta = categoryDescriptions[key];
+  const categoryMeta = categoryDescriptions[categorySlug] ?? categoryDescriptions[rawKey];
 
   if (categoryMeta) {
     return {
@@ -78,7 +74,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       description: categoryMeta.description,
       keywords: categoryMeta.keywords,
       alternates: {
-        canonical: `https://www.aipromptnest.com/categories/${key}`,
+        canonical: `https://www.aipromptnest.com/categories/${categorySlug}`,
       },
       openGraph: {
         title: categoryMeta.title,
@@ -113,7 +109,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     title: fallbackTitle,
     description: fallbackDescription,
     alternates: {
-      canonical: `https://www.aipromptnest.com/categories/${key}`,
+      canonical: `https://www.aipromptnest.com/categories/${categorySlug}`,
     },
     openGraph: {
       title: fallbackTitle,
@@ -145,23 +141,19 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 export default async function CategoryPage({ params }: PageProps) {
   const { category } = await params;
-
-  // Format the category name for display (e.g., "anime" -> "Anime")
-  const decodedCategory = decodeURIComponent(category);
-  const key = decodedCategory.toLowerCase();
-
-  // Format Display Name elegantly (e.g. "sci-fi" -> "Sci-Fi")
-  let displayName = decodedCategory.charAt(0).toUpperCase() + decodedCategory.slice(1);
-  if (key === "sci-fi") {
-    displayName = "Sci-Fi";
-  }
+  const displayName = slugToCategoryName(category);
+  const categorySlug = categoryToSlug(displayName);
+  const rawKey = decodeURIComponent(category).toLowerCase();
 
   // Fetch prompts for this category via JSON DB
-  const prompts = await getPromptsByCategory(decodedCategory);
+  const prompts = await getPromptsByCategory(categorySlug);
+
+  // Dynamic real metrics calculated directly from database
+  const totalPrompts = prompts.length;
 
   // Look up metadata assets
-  const staticMeta = categoryMetaLookup[key];
-  const catConfig = categoriesData.find(c => c.name.toLowerCase() === key);
+  const staticMeta = categoryMetaLookup[categorySlug] ?? categoryMetaLookup[rawKey];
+  const catConfig = categoriesData.find(c => categoryToSlug(c.name) === categorySlug);
 
   let meta;
   if (staticMeta) {
@@ -175,8 +167,6 @@ export default async function CategoryPage({ params }: PageProps) {
       accent: accentClass,
       color: catConfig.color,
       image: catConfig.image,
-      statCount: prompts.length.toString(),
-      copies: "10K+",
     };
   } else {
     meta = {
@@ -184,33 +174,31 @@ export default async function CategoryPage({ params }: PageProps) {
       accent: "text-primary bg-primary/10 border-primary/20",
       color: "from-primary/30 to-accent/30",
       image: "https://images.unsplash.com/photo-1634017839464-5c339afa60f0?w=600&q=80",
-      statCount: prompts.length.toString(),
-      copies: "10K+",
     };
   }
 
   const MetaIcon = meta.icon;
-  const categoryMeta = categoryDescriptions[key];
+  const categoryMeta = categoryDescriptions[categorySlug] ?? categoryDescriptions[rawKey];
 
   // Fetch all prompts to compute counts dynamically
   const allPrompts = await getAllPrompts();
   const categoryCounts: Record<string, number> = {};
   for (const prompt of allPrompts) {
     if (prompt.category) {
-      const catKey = prompt.category.toLowerCase();
+      const catKey = categoryToSlug(prompt.category);
       categoryCounts[catKey] = (categoryCounts[catKey] ?? 0) + 1;
     }
   }
 
   // Dynamic categories list lookup to fetch counts and icons for related categories
   const relatedCategories = categoriesData
-    .filter(c => c.name.toLowerCase() !== key)
+    .filter(c => categoryToSlug(c.name) !== categorySlug)
     .slice(0, 4)
     .map(c => {
-      const relatedKey = c.name.toLowerCase();
-      const countVal = categoryCounts[relatedKey] ?? 0;
+      const relatedSlug = categoryToSlug(c.name);
+      const countVal = categoryCounts[relatedSlug] ?? 0;
       return {
-        key: relatedKey,
+        key: relatedSlug,
         name: c.name,
         icon: ICON_MAP[c.name] || Sparkles,
         count: countVal.toLocaleString(),
@@ -218,7 +206,7 @@ export default async function CategoryPage({ params }: PageProps) {
     });
 
   // Category specific creation tips
-  const tips = categoryTipsLookup[key] || [
+  const tips = categoryTipsLookup[categorySlug] ?? categoryTipsLookup[rawKey] ?? [
     "Be specific with your visual directives",
     "Specify lighting styles and dynamic angles",
     "Describe environment detail and background colors",
@@ -227,12 +215,12 @@ export default async function CategoryPage({ params }: PageProps) {
   ];
 
   // Category specific trending searches
-  const searches = trendingSearchesLookup[key] || [
+  const searches = trendingSearchesLookup[categorySlug] ?? trendingSearchesLookup[rawKey] ?? [
     "epic art style", "beautiful landscape", "high resolution", "golden hour focus", "neon lighting vibe"
   ];
 
   // Category specific intro paragraph for the Tips Section
-  const categoryIntroText = `${displayName} AI prompts are text instructions used with Gemini AI to generate professional-grade ${decodedCategory}-style visual content. These prompts help you create stunning ${decodedCategory} characters, scenes, and compositions by specifying fine details like subject focus, action poses, mood transitions, lighting, and environmental factors. Use our detailed copy-and-paste prompts to get the best results and bring your creative imagination to life.`;
+  const categoryIntroText = `${displayName} AI prompts are text instructions used with Gemini AI to generate professional-grade ${displayName}-style visual content. These prompts help you create stunning ${displayName} characters, scenes, and compositions by specifying fine details like subject focus, action poses, mood transitions, lighting, and environmental factors. Use our detailed copy-and-paste prompts to get the best results and bring your creative imagination to life.`;
 
   // How many prompts to pre-render on the server (first visible batch)
   const INITIAL_COUNT = 8;
@@ -261,7 +249,7 @@ export default async function CategoryPage({ params }: PageProps) {
         "@type": "ListItem",
         position: 3,
         name: `${displayName} AI Prompts`,
-        item: `${siteUrl}/categories/${key}`,
+        item: `${siteUrl}/categories/${categorySlug}`,
       },
     ],
   };
@@ -282,7 +270,7 @@ export default async function CategoryPage({ params }: PageProps) {
   ];
 
   const allFaqs = [
-    ...(categoryFaqData[key] ?? []),
+    ...(categoryFaqData[categorySlug] ?? categoryFaqData[rawKey] ?? []),
     ...genericFaqs,
   ];
 
@@ -304,7 +292,7 @@ export default async function CategoryPage({ params }: PageProps) {
     "@type": "ItemList",
     name: `${displayName} AI Prompts`,
     description: `A curated collection of ${displayName} AI prompts for Gemini, and Stable Diffusion.`,
-    url: `${siteUrl}/categories/${key}`,
+    url: `${siteUrl}/categories/${categorySlug}`,
     numberOfItems: prompts.length,
     itemListElement: prompts.slice(0, 50).map((p, index) => ({
       "@type": "ListItem",
@@ -319,7 +307,7 @@ export default async function CategoryPage({ params }: PageProps) {
     "@type": "CollectionPage",
     name: `${displayName} Gemini AI Prompts`,
     description: `Browse free ${displayName} Gemini AI prompts.`,
-    url: `${siteUrl}/categories/${key}`,
+    url: `${siteUrl}/categories/${categorySlug}`,
     mainEntity: {
       "@type": "ItemList",
       name: `${displayName} AI Prompts`,
@@ -330,7 +318,7 @@ export default async function CategoryPage({ params }: PageProps) {
     "@context": "https://schema.org",
     "@type": "WebPage",
     name: `${displayName} Gemini AI Prompts`,
-    url: `${siteUrl}/categories/${key}`,
+    url: `${siteUrl}/categories/${categorySlug}`,
   };
 
   return (
@@ -461,21 +449,14 @@ export default async function CategoryPage({ params }: PageProps) {
         </div>
 
         {/* Premium Interactive Stats Bar */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 mb-24">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6 mb-24">
           {[
             {
               label: `${displayName} Prompts`,
-              value: meta.statCount,
+              value: totalPrompts.toLocaleString(),
               description: "Curated templates",
               icon: Layers,
               color: "text-pink-500 bg-pink-500/10",
-            },
-            {
-              label: "Copies / Uses",
-              value: meta.copies,
-              description: "Worldwide uses",
-              icon: TrendingUp,
-              color: "text-violet-500 bg-violet-500/10",
             },
             {
               label: "Update Cycle",
@@ -528,7 +509,7 @@ export default async function CategoryPage({ params }: PageProps) {
           <CategoryPromptsClient
             initialPrompts={initialPrompts}
             totalCount={prompts.length}
-            categoryKey={key}
+            categoryKey={categorySlug}
             displayName={displayName}
           />
         </section>
@@ -626,7 +607,7 @@ export default async function CategoryPage({ params }: PageProps) {
             <div className="space-y-4">
               <h3 className="text-lg font-bold text-foreground">How to Use {displayName} Prompts</h3>
               <p className="text-xs leading-relaxed text-foreground/45">
-                Copy any prompt you like and paste it into Gemini AI. You can modify the prompt to match your imagination and create unique {key} art.
+                Copy any prompt you like and paste it into Gemini AI. You can modify the prompt to match your imagination and create unique {displayName} art.
               </p>
             </div>
             <Link
@@ -688,7 +669,7 @@ export default async function CategoryPage({ params }: PageProps) {
               <h3 className="text-2xl font-extrabold text-foreground">
                 Latest {displayName} Prompts
               </h3>
-              <Link href={`/browse?category=${key}`} className="text-xs font-bold text-primary hover:underline flex items-center gap-0.5">
+              <Link href={`/browse?category=${encodeURIComponent(displayName)}`} className="text-xs font-bold text-primary hover:underline flex items-center gap-0.5">
                 View all
                 <ArrowRight className="w-3.5 h-3.5" />
               </Link>

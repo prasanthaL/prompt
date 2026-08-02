@@ -17,6 +17,7 @@ import {
   Globe
 } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { categoryToSlug } from "@/lib/category-slugs";
 
 const XIcon = () => (
   <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
@@ -205,7 +206,7 @@ export default function Footer() {
               </span>
             </Link>
             <p className="text-white/50 text-sm leading-relaxed max-w-sm">
-              Discover thousands of free AI prompts for Gemini. Find the perfect prompt for writing, coding, marketing, business, education and productivity.
+              Discover hundreds of free AI image prompts for Gemini & ChatGPT. Find the perfect prompt for cinematic art, anime, fantasy, portraits, photography, and digital concepts.
             </p>
 
             {/* Search Input Box */}
@@ -294,7 +295,7 @@ export default function Footer() {
               {POPULAR_CATEGORIES.map((category) => (
                 <Link
                   key={category}
-                  href={`/categories/${category.toLowerCase()}`}
+                  href={`/categories/${categoryToSlug(category)}`}
                   className="px-3.5 py-1.5 border border-white/[0.04] hover:border-violet-500/20 bg-white/[0.01] hover:bg-violet-500/10 text-xs font-semibold text-white/50 hover:text-white rounded-lg transition-all"
                 >
                   {category} Prompts
@@ -314,10 +315,10 @@ export default function Footer() {
               </div>
               <div className="space-y-3 max-w-3xl">
                 <p className="text-xs leading-relaxed text-white/45">
-                  <strong className="text-white font-semibold">AIPromptNest</strong> is a free AI prompt library helping users discover high-quality prompts for Gemini, ChatGPT, Claude and other generative AI tools. Explore thousands of categorized prompts for writing, coding, marketing, business, education, productivity, image generation, and more.
+                  <strong className="text-white font-semibold">AIPromptNest</strong> is a free AI prompt library helping users discover high-quality image prompts for Gemini & ChatGPT. Explore hundreds of categorized prompts for cinematic photography, anime, fantasy, portraits, fashion, digital art, and more.
                 </p>
                 <p className="text-xs leading-relaxed text-white/45">
-                  Our growing prompt database is updated regularly with trending prompts, expert-curated collections, and community favorites to help you get better AI-generated results.
+                  Our growing collection is updated regularly with trending aesthetic styles, expert-curated prompt templates, and community favorites to help you generate breathtaking AI visuals effortlessly.
                 </p>
               </div>
             </div>
@@ -325,7 +326,7 @@ export default function Footer() {
             {/* Platform stats aligned horizontally */}
             <div className="flex flex-row items-center justify-between sm:justify-start lg:justify-end gap-6 sm:gap-10 border-t border-white/[0.04] lg:border-t-0 lg:border-l lg:border-white/[0.04] pt-6 lg:pt-0 lg:pl-10 shrink-0">
               {[
-                { icon: FileText, value: "500+", label: "Prompts" },
+                { icon: FileText, value: "800+", label: "Prompts" },
                 { icon: LayoutGrid, value: "34", label: "Categories" },
                 { icon: Zap, value: "Daily", label: "Updates" },
                 { icon: ShieldCheck, value: "100%", label: "Free" },

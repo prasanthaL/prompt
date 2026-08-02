@@ -1,9 +1,10 @@
 "use client";
 
 import React, { useState, useEffect, useCallback } from "react";
+import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import PromptCard from "@/components/PromptCard";
-import { fetchHomeTabPrompts, HomeTab, HomeTabResult } from "@/lib/client-prompts";
+import { fetchHomeTabPrompts, HomeTab, HomeTabResult, normalizeCategoryName } from "@/lib/client-prompts";
 import {
   ArrowRight,
   Search,
@@ -364,10 +365,24 @@ export default function HomeClient({
   // ── Derived display data ─────────────────────────────────────────────────
   const { prompts: displayedPrompts, totalPages, currentPage: safePage, categoryCounts: tabCategoryCounts } = tabResult;
 
+  const getCategoryCount = useCallback(
+    (catId: string) => {
+      if (tabCategoryCounts[catId] !== undefined) return tabCategoryCounts[catId];
+      const canonical = normalizeCategoryName(catId);
+      if (tabCategoryCounts[canonical] !== undefined) return tabCategoryCounts[canonical];
+      const lower = catId.toLowerCase();
+      for (const [k, v] of Object.entries(tabCategoryCounts)) {
+        if (k.toLowerCase() === lower) return v;
+      }
+      return 0;
+    },
+    [tabCategoryCounts]
+  );
+
   const tabCategories = React.useMemo(() => {
     if (activeTab === "all") return categoriesData;
-    return categoriesData.filter((cat) => (tabCategoryCounts[cat.id] ?? 0) > 0);
-  }, [tabCategoryCounts, activeTab]);
+    return categoriesData.filter((cat) => getCategoryCount(cat.id) > 0);
+  }, [tabCategoryCounts, activeTab, getCategoryCount]);
 
   return (
     <section id="prompts-section" className="max-w-7xl mx-auto px-4 md:px-8 pb-32 pt-12">
@@ -380,13 +395,13 @@ export default function HomeClient({
           </h2>
           <p className="text-foreground/40 text-sm">Handpicked premium prompts from our community</p>
         </div>
-        <button
-          onClick={() => router.push("/browse")}
+        <Link
+          href="/categories"
           className="hidden sm:flex items-center gap-2 text-sm font-bold bg-foreground/5 hover:bg-foreground/10 px-6 py-3 rounded-xl border border-border transition-all text-foreground"
         >
           Browse All
           <ArrowRight className="w-4 h-4" />
-        </button>
+        </Link>
       </div>
 
       {/* Tab bar */}
@@ -396,7 +411,6 @@ export default function HomeClient({
             { id: "trending" as HomeTab, label: "Trending",  icon: Flame,       iconColor: "text-amber-500", activeClass: "bg-gradient-to-r from-amber-500 to-rose-500 text-white border-amber-500/20 shadow-[0_2px_12px_rgba(245,158,11,0.3)]" },
             { id: "popular"  as HomeTab, label: "Popular",   icon: TrendingUp,  iconColor: "text-violet-400", activeClass: "bg-gradient-to-r from-violet-600 to-indigo-600 text-white border-violet-500/20 shadow-[0_2px_12px_rgba(124,58,237,0.3)]" },
             { id: "latest"   as HomeTab, label: "Latest",    icon: Sparkles,    iconColor: "text-cyan-400",   activeClass: "bg-gradient-to-r from-cyan-500 to-blue-500 text-white border-cyan-500/20 shadow-[0_2px_12px_rgba(6,182,212,0.3)]" },
-            { id: "all"      as HomeTab, label: "All",       icon: LayoutGrid,  iconColor: "text-white/40",   activeClass: "bg-white/10 text-white border-white/10 shadow-lg" },
           ] as const).map(({ id, label, icon: Icon, iconColor, activeClass }) => {
             const isActive = activeTab === id;
             return (
@@ -424,7 +438,6 @@ export default function HomeClient({
         </div>
         {/* Subtitle per tab */}
         <p className="mt-3 text-sm text-foreground/40">
-          {activeTab === "all"      && "Browse all prompts from our library"}
           {activeTab === "trending" && "Prompts marked as trending by our curators"}
           {activeTab === "popular"  && "Most viewed & liked prompts from our library"}
           {activeTab === "latest"   && "Freshly added prompts, newest first"}
@@ -453,7 +466,7 @@ export default function HomeClient({
 
           {/* Dynamic Category Pills */}
           {tabCategories.map((cat) => {
-            const count = tabCategoryCounts[cat.id] ?? 0;
+            const count = getCategoryCount(cat.id);
             const isSelected = selectedCategory?.toLowerCase() === cat.id.toLowerCase();
             return (
               <button

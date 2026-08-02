@@ -7,7 +7,7 @@ import StatsSection from "@/components/StatsSection";
 import HomeFaqSection from "./HomeFaqSection";
 import { faqItems } from "@/data/home-faqs";
 import Footer from "@/components/Footer";
-import { fetchCategoryCounts } from "@/lib/client-prompts";
+import { fetchCategoryCounts, normalizeCategoryName } from "@/lib/client-prompts";
 import { getAllPrompts } from "@/lib/json-db";
 import blogJsonData from "@/data/blog.json";
 import BlogCard from "@/components/blog/BlogCard";
@@ -148,7 +148,8 @@ export default async function Home() {
   const trendingCategoryCounts: Record<string, number> = {};
   for (const p of trendingPrompts) {
     if (p.category) {
-      trendingCategoryCounts[p.category] = (trendingCategoryCounts[p.category] ?? 0) + 1;
+      const canonical = normalizeCategoryName(p.category);
+      trendingCategoryCounts[canonical] = (trendingCategoryCounts[canonical] ?? 0) + 1;
     }
   }
 

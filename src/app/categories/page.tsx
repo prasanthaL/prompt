@@ -45,6 +45,7 @@ import {
 } from "lucide-react";
 import Link from "next/link";
 import { getAllPrompts } from "@/lib/json-db";
+import { categoryToSlug } from "@/lib/category-slugs";
 import categoriesData from "@/data/categories.json";
 import Footer from "@/components/Footer";
 
@@ -221,22 +222,27 @@ export default async function CategoriesPage() {
   // Load all prompts directly from JSON files — no API route needed
   const allPrompts = await getAllPrompts();
 
-  // Compute real counts per category from JSON data
-  const categoryCounts: Record<string, number> = { all: allPrompts.length };
+  // Compute real counts per category from JSON data using case-insensitive normalized matching
+  const categoryCounts: Record<string, number> = {};
   for (const prompt of allPrompts) {
     if (prompt.category) {
-      categoryCounts[prompt.category] = (categoryCounts[prompt.category] ?? 0) + 1;
+      const key = prompt.category.trim().toLowerCase();
+      categoryCounts[key] = (categoryCounts[key] ?? 0) + 1;
     }
   }
 
   // Build enriched categories with real counts
-  const categories = categoryConfig.map((cat) => ({
-    ...cat,
-    count:
+  const categories = categoryConfig.map((cat) => {
+    const key = cat.id.trim().toLowerCase();
+    const count =
       cat.id === "all"
         ? allPrompts.length.toLocaleString() + "+"
-        : (categoryCounts[cat.id] ?? 0).toLocaleString(),
-  }));
+        : (categoryCounts[key] ?? 0).toLocaleString();
+    return {
+      ...cat,
+      count,
+    };
+  });
 
   // Generate JSON-LD ItemList schema for categories
   const schemaList = {
@@ -250,7 +256,7 @@ export default async function CategoriesPage() {
       "position": index + 1,
       "name": cat.name,
       "description": cat.description,
-      "url": `https://www.aipromptnest.com${cat.id === "all" ? "/browse" : `/categories/${cat.id.toLowerCase()}`}`,
+      "url": `https://www.aipromptnest.com${cat.id === "all" ? "/browse" : `/categories/${categoryToSlug(cat.name)}`}`,
     })),
   };
 
@@ -382,7 +388,7 @@ export default async function CategoriesPage() {
           {categories.map((cat) => (
             <Link
               key={cat.id}
-              href={cat.id === "all" ? "/browse" : `/categories/${cat.id.toLowerCase()}`}
+              href={cat.id === "all" ? "/browse" : `/categories/${categoryToSlug(cat.name)}`}
               className="group relative block"
             >
               {/* Glow effect behind card */}

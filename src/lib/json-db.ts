@@ -84,25 +84,30 @@ export const getAllPrompts = (): Promise<Prompt[]> =>
     }
   )();
 
+import { categoryToSlug } from "./category-slugs";
+
 // Internal implementation (not cached)
 const _getPromptsByCategory = async (category: string): Promise<Prompt[]> => {
   const all = await getAllPrompts();
-  return all.filter(p => p.category.toLowerCase() === category.toLowerCase());
+  const targetSlug = categoryToSlug(category);
+  return all.filter(p => p.category && categoryToSlug(p.category) === targetSlug);
 };
 
 /**
  * Returns all prompts for a given category.
  * Results are cached per-category via unstable_cache.
  */
-export const getPromptsByCategory = (category: string): Promise<Prompt[]> =>
-  unstable_cache(
+export const getPromptsByCategory = (category: string): Promise<Prompt[]> => {
+  const slug = categoryToSlug(category);
+  return unstable_cache(
     () => _getPromptsByCategory(category),
-    [`category-prompts-${category.toLowerCase()}`],
+    [`category-prompts-${slug}`],
     {
-      tags: ["prompts", `category-${category.toLowerCase()}`],
+      tags: ["prompts", `category-${slug}`],
       revalidate: 86400,
     }
   )();
+};
 
 export const getPromptById = async (id: string): Promise<Prompt | null> => {
   const all = await getAllPrompts();
@@ -133,6 +138,11 @@ export const savePrompt = async (prompt: Prompt) => {
   }
   
   fs.writeFileSync(filePath, JSON.stringify(prompts, null, 2));
+  try {
+    revalidateTag("prompts", "default");
+  } catch (e) {
+    // Ignore cache revalidation errors when called outside Next.js request context
+  }
 };
 
 export const deletePrompt = async (id: string) => {
@@ -147,6 +157,11 @@ export const deletePrompt = async (id: string) => {
         const newPrompts = prompts.filter(p => p.id !== id);
         if (newPrompts.length !== prompts.length) {
           fs.writeFileSync(filePath, JSON.stringify(newPrompts, null, 2));
+          try {
+            revalidateTag("prompts", "default");
+          } catch (e) {
+            // Ignore cache revalidation errors
+          }
         }
       } catch (e) {
         console.error(`Error processing file ${file} for deletion`, e);

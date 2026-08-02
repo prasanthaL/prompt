@@ -3,6 +3,7 @@ import path from "path";
 import Link from "next/link";
 import Image from "next/image";
 import { Copy, Eye, Heart, ArrowUpRight, Tag } from "lucide-react";
+import { categoryToSlug } from "@/lib/category-slugs";
 
 // ---------------------------------------------------------------------------
 // Types
@@ -190,7 +191,7 @@ export default function PromptGridBlock({
                 {category}
               </div>
               <Link
-                href={`/categories/${categoryToFileName(category)}`}
+                href={`/categories/${categoryToSlug(category)}`}
                 className="text-xs text-primary font-semibold hover:underline"
               >
                 View all →

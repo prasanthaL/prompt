@@ -86,7 +86,7 @@ export const categoryDescriptions: Record<
     title:
       "Anime AI Art Prompts – Generate Stunning Anime Characters & Scenes | AiPromptNest",
     description:
-      "Browse AiPromptNest's curated anime AI prompts to generate stunning characters, landscapes, and action scenes. Tested across Google Gemini and Stable Diffusion for gallery-worthy results.",
+      "Browse AiPromptNest's curated anime AI prompts to generate stunning characters, landscapes, and action scenes. Tested across Google Gemini and ChatGPT for gallery-worthy results.",
     keywords: [
       "anime AI prompts",
       "anime art generator",
@@ -110,7 +110,7 @@ export const categoryDescriptions: Record<
     title:
       "Cinematic AI Art Prompts – Create Movie-Quality Visuals & Film Stills | AiPromptNest",
     description:
-      "Generate Hollywood-grade film stills, dramatic compositions, and cinematic scenes with AiPromptNest's curated prompts. Engineered for Google Gemini and Stable Diffusion XL with anamorphic lighting and color grading built in.",
+      "Generate Hollywood-grade film stills, dramatic compositions, and cinematic scenes with AiPromptNest's curated prompts. Engineered for Google Gemini and ChatGPT with anamorphic lighting and color grading built in.",
     keywords: [
       "cinematic AI prompts",
       "movie still AI art",
@@ -134,7 +134,7 @@ export const categoryDescriptions: Record<
     title:
       "Portrait AI Art Prompts – Generate Stunning AI Portraits & Headshots | AiPromptNest",
     description:
-      "Create photorealistic headshots, editorial beauty shots, and expressive character portraits with AiPromptNest's optimized prompts. Validated across Google Gemini, Stable Diffusion XL, and Flux.",
+      "Create photorealistic headshots, editorial beauty shots, and expressive character portraits with AiPromptNest's optimized prompts. Validated across Google Gemini and ChatGPT.",
     keywords: [
       "portrait AI prompts",
       "AI headshot generator",
@@ -158,7 +158,7 @@ export const categoryDescriptions: Record<
     title:
       "Fantasy AI Art Prompts – Create Epic Magical Worlds & Mythical Creatures | AiPromptNest",
     description:
-      "Summon dragons, mythical heroes, and enchanted worlds with AiPromptNest's epic fantasy AI prompts. Perfect for D&D campaigns, book covers, and concept art — tested on Google Gemini and Leonardo AI.",
+      "Summon dragons, mythical heroes, and enchanted worlds with AiPromptNest's epic fantasy AI prompts. Perfect for D&D campaigns, book covers, and concept art — tested on Google Gemini and ChatGPT.",
     keywords: [
       "fantasy AI prompts",
       "fantasy art generator",
@@ -182,7 +182,7 @@ export const categoryDescriptions: Record<
     title:
       "Sci-Fi AI Art Prompts – Generate Futuristic Worlds & Space Art | AiPromptNest",
     description:
-      "Explore cyberpunk cities, alien worlds, and deep-space vistas with AiPromptNest's sci-fi AI prompts. Optimized for Google Gemini, Stable Diffusion XL, and Flux for maximum visual impact.",
+      "Explore cyberpunk cities, alien worlds, and deep-space vistas with AiPromptNest's sci-fi AI prompts. Optimized for Google Gemini and ChatGPT for maximum visual impact.",
     keywords: [
       "sci-fi AI prompts",
       "futuristic art generator",
@@ -206,7 +206,7 @@ export const categoryDescriptions: Record<
     title:
       "Architecture AI Art Prompts – Design Stunning Buildings & Interiors | AiPromptNest",
     description:
-      "Render photorealistic buildings, interiors, and urban landscapes with AiPromptNest's architecture AI prompts. From Brutalist to parametric design — tested on Google Gemini, Stable Diffusion XL, and Leonardo AI.",
+      "Render photorealistic buildings, interiors, and urban landscapes with AiPromptNest's architecture AI prompts. From Brutalist to parametric design — tested on Google Gemini and ChatGPT.",
     keywords: [
       "architecture AI prompts",
       "building design AI art",
@@ -230,7 +230,7 @@ export const categoryDescriptions: Record<
     title:
       "Product Photography AI Prompts – Create Professional Product Shots | AiPromptNest",
     description:
-      "Produce studio-quality product shots, lifestyle imagery, and e-commerce hero images with AiPromptNest's product AI prompts. Optimized for Google Gemini and Stable Diffusion XL — no studio required.",
+      "Produce studio-quality product shots, lifestyle imagery, and e-commerce hero images with AiPromptNest's product AI prompts. Optimized for Google Gemini and ChatGPT — no studio required.",
     keywords: [
       "product photography AI prompts",
       "e-commerce product shots AI",
@@ -254,7 +254,7 @@ export const categoryDescriptions: Record<
     title:
       "Men Portrait AI Prompts – Generate Stunning Male Portraits & Fashion Shots | AiPromptNest",
     description:
-      "Create powerful, photorealistic male portraits, fashion editorials, and lifestyle shots with AiPromptNest's curated men AI prompts. Tested on Google Gemini and Stable Diffusion XL.",
+      "Create powerful, photorealistic male portraits, fashion editorials, and lifestyle shots with AiPromptNest's curated men AI prompts. Tested on Google Gemini and ChatGPT.",
     keywords: [
       "men portrait AI prompts",
       "male model AI art",
@@ -278,7 +278,7 @@ export const categoryDescriptions: Record<
     title:
       "Women Portrait AI Prompts – Create Stunning Female Portraits & Fashion Art | AiPromptNest",
     description:
-      "Generate breathtaking female portraits, beauty editorials, and lifestyle imagery with AiPromptNest's women AI prompts. Optimized for Google Gemini, Stable Diffusion XL, and Flux.",
+      "Generate breathtaking female portraits, beauty editorials, and lifestyle imagery with AiPromptNest's women AI prompts. Optimized for Google Gemini and ChatGPT.",
     keywords: [
       "women portrait AI prompts",
       "female model AI art",
@@ -302,7 +302,7 @@ export const categoryDescriptions: Record<
     title:
       "Family Portrait AI Prompts – Create Heartwarming Family Photos & Group Shots | AiPromptNest",
     description:
-      "Generate warm, authentic family portraits, group lifestyle shots, and candid moments with AiPromptNest's family AI prompts. Tested on Google Gemini and Stable Diffusion XL.",
+      "Generate warm, authentic family portraits, group lifestyle shots, and candid moments with AiPromptNest's family AI prompts. Tested on Google Gemini and ChatGPT.",
     keywords: [
       "family portrait AI prompts",
       "family photo AI generator",
@@ -326,7 +326,7 @@ export const categoryDescriptions: Record<
     title:
       "Couple Portrait AI Prompts – Generate Romantic & Engagement Photography | AiPromptNest",
     description:
-      "Create romantic couple portraits, engagement shoots, and scenic pair photography with AiPromptNest's couple AI prompts. Perfect for wedding inspiration — tested on Google Gemini and Flux.",
+      "Create romantic couple portraits, engagement shoots, and scenic pair photography with AiPromptNest's couple AI prompts. Perfect for wedding inspiration — tested on Google Gemini and ChatGPT.",
     keywords: [
       "couple portrait AI prompts",
       "romantic AI art prompts",
@@ -350,7 +350,7 @@ export const categoryDescriptions: Record<
     title:
       "Sport AI Art Prompts – Generate Dynamic Action Shots & Athletic Photography | AiPromptNest",
     description:
-      "Capture high-energy action shots, athletic performance, and dynamic sports photography with AiPromptNest's sport AI prompts. Optimized for Google Gemini and Stable Diffusion XL.",
+      "Capture high-energy action shots, athletic performance, and dynamic sports photography with AiPromptNest's sport AI prompts. Optimized for Google Gemini and ChatGPT.",
     keywords: [
       "sport AI art prompts",
       "action shot AI generator",
@@ -370,11 +370,34 @@ export const categoryDescriptions: Record<
     ],
   },
 
+  "nature-and-landscape": {
+    title:
+      "Nature & Landscape AI Art Prompts – Generate Breathtaking Outdoor Scenery | AiPromptNest",
+    description:
+      "Explore mountains, oceans, forests, and natural wonders with AiPromptNest's nature & landscape AI prompts. Tested on Google Gemini and ChatGPT for stunning environmental art.",
+    keywords: [
+      "nature landscape AI prompts",
+      "landscape AI art generator",
+      "mountain scenery AI prompts",
+      "nature Gemini prompts",
+      "forest landscape AI art",
+      "ocean sunset AI prompts",
+      "nature photography AI",
+      "scenic landscape Stable Diffusion",
+      "wildlife habitat AI art",
+      "desert landscape AI prompts",
+      "waterfall scenery AI",
+      "aerial landscape AI art",
+      "nature concept art AI",
+      "environmental art AI prompts",
+      "AiPromptNest nature landscape",
+    ],
+  },
   "nature-&-landscape": {
     title:
       "Nature & Landscape AI Art Prompts – Generate Breathtaking Outdoor Scenery | AiPromptNest",
     description:
-      "Explore mountains, oceans, forests, and natural wonders with AiPromptNest's nature & landscape AI prompts. Tested on Google Gemini and Stable Diffusion XL for stunning environmental art.",
+      "Explore mountains, oceans, forests, and natural wonders with AiPromptNest's nature & landscape AI prompts. Tested on Google Gemini and ChatGPT for stunning environmental art.",
     keywords: [
       "nature landscape AI prompts",
       "landscape AI art generator",
@@ -394,11 +417,34 @@ export const categoryDescriptions: Record<
     ],
   },
 
+  "animals-and-wildlife": {
+    title:
+      "Animals & Wildlife AI Art Prompts – Generate Stunning Wildlife Photography | AiPromptNest",
+    description:
+      "Create majestic wildlife portraits, animal photography, and pet imagery with AiPromptNest's animals & wildlife AI prompts. Tested on Google Gemini and ChatGPT.",
+    keywords: [
+      "wildlife AI art prompts",
+      "animal photography AI generator",
+      "wildlife Gemini prompts",
+      "animal portrait AI art",
+      "wildlife Stable Diffusion prompts",
+      "lion portrait AI prompts",
+      "bird photography AI art",
+      "underwater wildlife AI prompts",
+      "pet photography AI",
+      "exotic animal AI art",
+      "wolf portrait AI prompts",
+      "animal concept art AI",
+      "jungle animal AI photography",
+      "macro insect AI art prompts",
+      "AiPromptNest animals wildlife",
+    ],
+  },
   "animals-&-wildlife": {
     title:
       "Animals & Wildlife AI Art Prompts – Generate Stunning Wildlife Photography | AiPromptNest",
     description:
-      "Create majestic wildlife portraits, animal photography, and pet imagery with AiPromptNest's animals & wildlife AI prompts. Tested on Google Gemini and Stable Diffusion XL.",
+      "Create majestic wildlife portraits, animal photography, and pet imagery with AiPromptNest's animals & wildlife AI prompts. Tested on Google Gemini and ChatGPT.",
     keywords: [
       "wildlife AI art prompts",
       "animal photography AI generator",
@@ -422,7 +468,7 @@ export const categoryDescriptions: Record<
     title:
       "Vehicles AI Art Prompts – Generate Stunning Car & Transportation Concept Art | AiPromptNest",
     description:
-      "Design sleek sports cars, motorcycles, aircraft, and futuristic transportation concepts with AiPromptNest's vehicles AI prompts. Tested on Google Gemini and Stable Diffusion XL.",
+      "Design sleek sports cars, motorcycles, aircraft, and futuristic transportation concepts with AiPromptNest's vehicles AI prompts. Tested on Google Gemini and ChatGPT.",
     keywords: [
       "vehicles AI art prompts",
       "car concept art AI",
@@ -446,7 +492,7 @@ export const categoryDescriptions: Record<
     title:
       "Digital Art AI Prompts – Generate Creative Illustrations & Abstract Designs | AiPromptNest",
     description:
-      "Explore creative digital paintings, abstract illustrations, 3D concepts, and graphic designs with AiPromptNest's digital art AI prompts. Tested on Google Gemini, Stable Diffusion XL, and Adobe Firefly.",
+      "Explore creative digital paintings, abstract illustrations, 3D concepts, and graphic designs with AiPromptNest's digital art AI prompts. Tested on Google Gemini and ChatGPT.",
     keywords: [
       "digital art AI prompts",
       "abstract illustration AI generator",
@@ -467,7 +513,7 @@ export const categoryDescriptions: Record<
   },
   fashion: {
     title: "Fashion AI Art Prompts – Create Beautiful Outfit Designs & Runway Styling | AiPromptNest",
-    description: "Generate breathtaking runway fashion, streetwear, and designer outfits with AiPromptNest's curated fashion prompts. Optimized for Google Gemini and Stable Diffusion.",
+    description: "Generate breathtaking runway fashion, streetwear, and designer outfits with AiPromptNest's curated fashion prompts. Optimized for Google Gemini and ChatGPT.",
     keywords: ["fashion AI prompts", "clothing designer AI", "streetwear AI art", "runway fashion prompts", "fashion photography AI", "modeling prompts"],
   },
   food: {
