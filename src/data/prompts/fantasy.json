@@ -943,5 +943,68 @@
     "models": [
       "Gemini AI"
     ]
+  },
+  {
+    "id": "cmdh4yxurmc",
+    "title": "Smoke Figure Coffee Melody",
+    "slug": "smoke-figure-coffee-melody-5zpx0",
+    "category": "Fantasy",
+    "fullPrompt": "Cinematic photograph, ultra-realistic, 8K. A steaming cup of coffee on a worn wooden table in a dim café, blurred background featuring a vintage acoustic guitar leaning against a chair and warm string lights. From the steam, a translucent smoke figure forms — a person in side profile, eyes closed, head tilted back slightly as if lost in a melody, hair flowing into wisps that drift upward.The figure is made entirely of soft layered smoke strands, three-dimensional and glowing faintly from internal warm light. Around the figure, smoke curls form musical notes and gentle sound-wave ripples that rise and dissolve into the air, weaving between the figure's hair and shoulders. Warm, soulful, contemplative mood. Soft highlights, gentle shadows, balanced contrast, clean composition, no artifacts.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1785568072/prompts/ccvzknzc4zw6bzh3dvva.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-08-01T07:07:51.327Z",
+    "updatedAt": "2026-08-01T07:07:51.327Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
+  },
+  {
+    "id": "cmk0rbis7g9",
+    "title": "Paper Hallstatt Travel Diorama",
+    "slug": "paper-hallstatt-travel-diorama-eu2wd",
+    "category": "Fantasy",
+    "fullPrompt": "A highly detailed photorealistic Instagram-worthy travel postcard diorama of Hallstatt, Austria, viewed from a slightly elevated angle. An authentic vintage postcard with rounded corners, premium paper texture, elegant postal stamp, handwritten travel note, and authentic Austrian postmark sits in the foreground. Emerging from the postcard is an intricate 3D papercraft miniature world featuring Hallstatt's lakeside alpine village, the iconic church steeple, and surrounding snow-capped mountains, built from layered paper-cut terrain, charming wooden houses, evergreen forests, crystal-clear lake edges, and detailed mountain contours.\n\nA stylish collectible traveler stands naturally within the papercraft landscape, wearing a warm beige trench coat, knitted scarf, hiking boots, backpack, and camera. The figure has premium cinematic styling, realistic proportions, an expressive pose overlooking the village, and seamlessly integrates into the handcrafted miniature world.\n\nThe background is a softly blurred real-world panoramic view of Hallstatt, creating a dreamy connection between reality and imagination. The postcard remains razor-sharp while the alpine scenery fades into luxurious creamy bokeh.\n\nElegant handwritten text appears naturally on the postcard:\n\nHeader\nHallstatt, Austria\n\nParagraph\nSome places don't ask for attention — they simply stay with you.\n\nA handwritten travel note near the stamp reads:\n\n\"Morning mist drifted across the lake as church bells echoed through the mountains. Hallstatt felt less like a destination and more like a quiet memory waiting to happen.\"\n\nAuthentic Austrian postal marks, vintage stamps, delicate ink sketches of alpine flowers, and subtle travel doodles enhance the composition without cluttering the design.\n\nVisual hierarchy: softly blurred real Hallstatt background → authentic vintage postcard → emerging papercraft alpine village → stylish traveler figurine.\n\nLuxury travel editorial aesthetic, warm golden-hour natural light, shallow depth of field, premium paper textures, handcrafted papercraft construction, realistic shadows, ultra-detailed collectible figurine quality, cinematic color grading, travel-magazine cover quality, Instagram-worthy composition, hidden-gem atmosphere, dreamy storybook travel feeling, photorealistic, 8K, masterpiece.\n\nAspect Ratio: 1:1",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1785569449/prompts/f7qju2yyur1afik3tsjt.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-08-01T07:30:48.291Z",
+    "updatedAt": "2026-08-01T07:30:48.291Z",
+    "tags": [],
+    "models": [
+      "Chat GPT"
+    ]
+  },
+  {
+    "id": "cm6jnryxcpb",
+    "title": "Man Lifts Cartoon Characters",
+    "slug": "man-lifts-cartoon-characters-xmmnb",
+    "category": "Fantasy",
+    "fullPrompt": "Create a hyper-realistic cinematic image using the uploaded face without changing the facial features (100% face preservation). The man is standing confidently on a staircase, wearing a stylish dark red shirt, white pants, and clean white sneakers. He is holding Motu in one hand and Patlu in the other by the backs of their shirts, lifting them into the air. Motu and Patlu have funny, shocked, and scared expressions. Keep their original cartoon appearance, clothes, and proportions.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1785570776/prompts/sgxyd6q1r9tpnt4vo18g.webp",
+    "isPremium": false,
+    "isTrending": true,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-08-01T07:52:55.325Z",
+    "updatedAt": "2026-08-01T07:52:55.325Z",
+    "tags": [],
+    "models": [
+      "Gemini AI"
+    ]
   }
 ]

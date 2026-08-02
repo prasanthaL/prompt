@@ -1,0 +1,379 @@
+[
+  {
+    "id": 117,
+    "title": "Cinematic Wedding Poster Collage",
+    "category": "Photography",
+    "rarity": "legendary",
+    "weight": 2,
+    "prompt": "Create an ultra-realistic cinematic Indian wedding poster collage in 8K resolution.\nScene: A dramatic golden sunset sky over a royal lakeside palace background with glowing lights reflecting in water. The atmosphere is warm, romantic and magical.\nTop section: A large heart shape formed from glowing clouds in the sky. Inside the heart, show a romantic close-up of the bride and groom touching foreheads lovingly, soft golden rim light around them, cinematic glow, dramatic lighting, ultra detailed skin texture.\nMiddle section: Three smaller framed romantic photos of the couple in different poses (holding hands, smiling close, bride laughing), soft depth of field, bokeh lights background.\nBottom section: Full body royal wedding portrait of the couple standing hand in hand on a red carpet walkway decorated with rose petals, lanterns, candles, floral arrangements.\nBride: Wearing a rich red bridal lehenga with heavy gold embroidery, traditional jewelry, elegant hairstyle, glowing bridal makeup.\nGroom: Wearing an ivory sherwani with gold embroidery and red stole, royal turban, confident smile.\nAdd flying rose petals, soft glowing particles, white doves in sky, romantic spark effects.\nText in center:\n\u201cBest Couple Ever\u201d\nStylish bold cinematic typography, blue and golden gradient glow effect, 3D glossy lettering, premium wedding poster style.\nColor tone: Warm golden, high contrast, HDR, ultra detailed, hyper realistic, dramatic cinematic lighting.\nCamera: Portrait lens, shallow depth of field, professional wedding photography style.\nQuality: 8K, ultra HD, highly detailed, photorealistic, movie poster look.\n🔥 ADD THIS LINE FOR FACE MATCHING (VERY IMPORTANT)\nKeep the bride and groom faces 100% exactly matching the uploaded reference photos.\nDo not change facial structure, eyes, nose, lips, or expressions.\nMaintain real identity, natural skin tone, and realistic facial details.\nUltra realistic face preservation,"
+  },
+  {
+    "id": 101,
+    "title": "Royal Cinematic Wedding",
+    "category": "Photography",
+    "rarity": "legendary",
+    "weight": 2,
+    "prompt": "Create an ultra-realistic wedding-style couple portrait inside a glowing floral heart frame. Add white roses, soft drapes, fairy lights, and fog on the ground. Background is a luxury wedding stage blurred bokeh.\nKeep original facial features exactly the same. Signeture aipromptnest\nMake the image very crisp, romantic, premium, and emotional with Cinematic\nlighting.",
+    "tip": "Legendary Tier: Best rendered with Midjourney v6 or Flux Pro."
+  },
+  {
+    "id": 103,
+    "title": "Mythical Golden Dragon",
+    "category": "Fantasy",
+    "rarity": "legendary",
+    "weight": 2,
+    "prompt": "Hyper-realistic fantasy art of an ancient imperial golden dragon perched atop a snowy Himalayan mountain peak at sunrise, shimmering metallic scales, glowing amber eyes, ethereal cloud mist, masterpiece, Unreal Engine 5 render, octanely detailed, majestic mood --ar 16:9",
+    "tip": "Legendary Tier: Guaranteed viral social thumbnail prompt."
+  },
+  {
+    "id": 118,
+    "title": "Epic Cinematic Battle Scene",
+    "category": "Cinematic",
+    "rarity": "legendary",
+    "weight": 2,
+    "prompt": "Ultra-cinematic wide shot of two opposing armies clashing on a stormy medieval battlefield at dusk, lightning splitting the sky, dynamic camera angle tilted 15 degrees, slow-motion dust and ember particles, anamorphic lens flare, IMAX film grain, dramatic orchestral mood, hyperreal detail, --ar 21:9",
+    "tip": "Legendary Tier: Perfect for movie poster thumbnails and epic concept art."
+  },
+  {
+    "id": 119,
+    "title": "Dark Souls Demon King",
+    "category": "Fantasy",
+    "rarity": "legendary",
+    "weight": 2,
+    "prompt": "Hyper-detailed dark fantasy concept art of an immortal Demon King rising from a volcano crater, obsidian armor melting with magma veins, twin burning swords raised, volcanic ash raining, epic dramatic backlight, Unreal Engine 5 cinematic render, masterpiece, dark atmospheric mood --ar 9:16",
+    "tip": "Legendary Tier: Viral-worthy fantasy concept art."
+  },
+  {
+    "id": 104,
+    "title": "Futuristic Hypercar Concept",
+    "category": "Vehicles",
+    "rarity": "epic",
+    "weight": 5,
+    "prompt": "Commercial automotive studio photograph of an aerodynamic futuristic electric hypercar concept, matte carbon fiber body with glowing turquoise LED lightlines, dramatic studio rim lighting, reflections on black polished marble floor, 8k ultra detailed --ar 16:9",
+    "tip": "Epic Tier: Perfect for wallpaper or product render showcases."
+  },
+  {
+    "id": 105,
+    "title": "Ethereal Glassmorphism UI",
+    "category": "UI/UX",
+    "rarity": "epic",
+    "weight": 5,
+    "prompt": "Modern UI design showcase of a mobile crypto wallet app, sleek dark mode glassmorphism interface, vibrant violet and cyan gradient glowing elements, 3D floating icons, clean typography, minimalist layout, Dribbble trending design --ar 4:3",
+    "tip": "Epic Tier: Great starter template for UI/UX designers."
+  },
+  {
+    "id": 106,
+    "title": "Cosmic Astronaut Explorer",
+    "category": "3D Art",
+    "rarity": "epic",
+    "weight": 6,
+    "prompt": "A cute 3D Pixar-style astronaut character floating in space holding a glowing jar of stars, vibrant nebula backdrop, soft cinematic rim light, octane render, trending on ArtStation --ar 1:1",
+    "tip": "Epic Tier: Loved for avatars and 3D character illustrations."
+  },
+  {
+    "id": 107,
+    "title": "Moody Rainforest Coffee Shop",
+    "category": "Architecture",
+    "rarity": "epic",
+    "weight": 7,
+    "prompt": "Architectural interior photography of a modern eco-friendly coffee shop nested inside a tropical rainforest, floor-to-ceiling glass windows, warm pendant lighting, lush hanging greenery, rainy aesthetic outside, photorealistic 35mm lens --ar 16:9",
+    "tip": "Epic Tier: Ideal for interior design inspiration."
+  },
+  {
+    "id": 120,
+    "title": "Neon Cyberpunk Samurai",
+    "category": "Cyberpunk",
+    "rarity": "epic",
+    "weight": 5,
+    "prompt": "Epic digital painting of a cyberpunk samurai warrior standing in neon-drenched rain-soaked Tokyo alleyway, katana reflecting holographic ads, chrome prosthetic arm, glowing circuitry tattoos, dramatic backlit fog, cinematic composition, Blade Runner 2049 mood, ultra detailed 8K --ar 9:16",
+    "tip": "Epic Tier: Trending on ArtStation cyberpunk boards."
+  },
+  {
+    "id": 121,
+    "title": "Viral Anime Key Visual",
+    "category": "Anime",
+    "rarity": "epic",
+    "weight": 5,
+    "prompt": "Studio Ghibli inspired anime key visual of a young girl standing on a floating sky island at sunset, wind blowing her hair, cherry blossom petals swirling, warm golden hour palette, ultra detailed background art, soft anime shading, cinematic framing --ar 16:9",
+    "tip": "Epic Tier: Perfect for anime-style wallpapers and social media."
+  },
+  {
+    "id": 122,
+    "title": "Sci-Fi Space Colony",
+    "category": "Sci-Fi",
+    "rarity": "epic",
+    "weight": 5,
+    "prompt": "Ultra-detailed concept art of a massive orbital space colony station above a gas giant planet, glass dome habitats with green parks and rivers inside, solar array wings extending, Earth reflection below, hard sci-fi realism, Alex McQueen illustration style, 8K --ar 16:9",
+    "tip": "Epic Tier: Stunning sci-fi worldbuilding concept art."
+  },
+  {
+    "id": 123,
+    "title": "Luxury Fashion Editorial",
+    "category": "Fashion",
+    "rarity": "epic",
+    "weight": 5,
+    "prompt": "High fashion editorial photograph of a model wearing an avant-garde couture gown with sculptural metallic origami fabric, standing in a mirrored infinity room, Vogue Italia style, dramatic strobe lighting, medium format film aesthetic, sharp focus --ar 4:5",
+    "tip": "Epic Tier: Ideal for fashion brand campaigns and editorial mood boards."
+  },
+  {
+    "id": 124,
+    "title": "Mythological Zeus Portrait",
+    "category": "Mythology",
+    "rarity": "epic",
+    "weight": 5,
+    "prompt": "Hyperrealistic cinematic portrait of Zeus, king of the Greek gods, sitting on a throne of crackling lightning atop Mount Olympus, silver beard flowing, eagle perched on his shoulder, dramatic storm clouds in background, glowing divine aura, IMAX quality render --ar 3:4",
+    "tip": "Epic Tier: Great for mythology digital art collections."
+  },
+  {
+    "id": 125,
+    "title": "Deep Space Nebula Vista",
+    "category": "Space",
+    "rarity": "epic",
+    "weight": 5,
+    "prompt": "Photorealistic NASA-quality render of a breathtaking emission nebula seen from the cockpit of a lone spacecraft, swirling violet and gold gas clouds, star clusters embedded in dust pillars, cinematic depth of field, James Webb Space Telescope aesthetic, ultra detail --ar 16:9",
+    "tip": "Epic Tier: Jaw-dropping space art for wallpapers and prints."
+  },
+  {
+    "id": 126,
+    "title": "Luxury Gold Wedding Reception",
+    "category": "Wedding",
+    "rarity": "epic",
+    "weight": 5,
+    "prompt": "Luxury wedding reception hall interior photography, thousands of hanging crystal chandeliers, gold and ivory floral centrepieces, blush rose petal aisle, candlelight warmth, ultra-wide 16mm lens, photorealistic render, warm golden hour tones --ar 16:9",
+    "tip": "Epic Tier: Perfect for wedding photographer portfolios and venue promotions."
+  },
+  {
+    "id": 108,
+    "title": "Neon Cyber Cat",
+    "category": "Animals & Wildlife",
+    "rarity": "rare",
+    "weight": 10,
+    "prompt": "Close-up portrait of a sleek black cat wearing miniature glowing cyberpunk goggles, vibrant pink and cyan neon reflection in its pupils, dramatic dark background, sharp focus fur details --ar 1:1",
+    "tip": "Rare Tier: Perfect for profile pictures and stickers."
+  },
+  {
+    "id": 109,
+    "title": "Minimalist Scandinavian Living Room",
+    "category": "Interior Design",
+    "rarity": "rare",
+    "weight": 10,
+    "prompt": "Minimalist Scandinavian interior design, cozy beige sofa with wool throw blanket, oak coffee table with ceramic vase and dried pampas grass, soft morning sunlight through sheer curtains, clean lines --ar 4:3",
+    "tip": "Rare Tier: Photorealistic aesthetic interior."
+  },
+  {
+    "id": 110,
+    "title": "Retro Vaporwave Street",
+    "category": "Nature & Landscape",
+    "rarity": "rare",
+    "weight": 10,
+    "prompt": "1980s synthwave aesthetic street scene, purple sky with a huge neon grid sun, palm trees silhouettes, glowing magenta street lights, retro aesthetic digital painting --ar 16:9",
+    "tip": "Rare Tier: Great for album art and retro backgrounds."
+  },
+  {
+    "id": 111,
+    "title": "Watercolor Botanical Painting",
+    "category": "Digital Art",
+    "rarity": "rare",
+    "weight": 10,
+    "prompt": "Delicate watercolor painting of blooming monstera and eucalyptus leaves, soft pastel green palette, gold foil splatters, white paper texture background, elegant wall art --ar 3:4",
+    "tip": "Rare Tier: High demand for print-on-demand artwork."
+  },
+  {
+    "id": 112,
+    "title": "Steampunk Airship Captain",
+    "category": "Steampunk",
+    "rarity": "rare",
+    "weight": 10,
+    "prompt": "Portrait of a brass-goggled steampunk captain aboard a brass airship, intricate clockwork gear details, copper pipe fittings, warm sunset sky with floating clouds, painterly fantasy illustration --ar 3:4",
+    "tip": "Rare Tier: Detailed character design."
+  },
+  {
+    "id": 113,
+    "title": "Delicious Artisan Gourmet Burger",
+    "category": "Food",
+    "rarity": "common",
+    "weight": 15,
+    "prompt": "Professional food photography of a gourmet double smash burger with melted cheddar, crispy bacon, caramelized onions, toasted brioche bun, studio softbox light, shallow depth of field --ar 1:1",
+    "tip": "Common Tier: High utility food photography prompt."
+  },
+  {
+    "id": 114,
+    "title": "Vintage Film Portrait",
+    "category": "Portrait",
+    "rarity": "common",
+    "weight": 15,
+    "prompt": "35mm Kodak Portra film photography portrait of a smiling young person wearing a vintage denim jacket, golden hour sunlight, natural lens flare, authentic grain --ar 4:5",
+    "tip": "Common Tier: Authentic film aesthetic portrait."
+  },
+  {
+    "id": 115,
+    "title": "Minimalist Monogram Logo",
+    "category": "Logo Design",
+    "rarity": "common",
+    "weight": 15,
+    "prompt": "Vector logo design of an abstract geometric lettermark combining 'A' and 'P', modern luxury brand mark, flat black icon on clean white background, minimalist branding, crisp lines --ar 1:1",
+    "tip": "Common Tier: Essential for branding and vector icons."
+  },
+  {
+    "id": 116,
+    "title": "Cozy Autumn Coffee Cup",
+    "category": "Lifestyle",
+    "rarity": "common",
+    "weight": 15,
+    "prompt": "Top-down flatlay photography of a steaming ceramic coffee mug on a rustic wooden table surrounded by autumn maple leaves and a cozy knitted sweater, warm warm tones --ar 1:1",
+    "tip": "Common Tier: Ideal for seasonal social media content."
+  },
+  {
+    "id": 127,
+    "title": "Golden Hour Male Portrait",
+    "category": "Men",
+    "rarity": "rare",
+    "weight": 10,
+    "prompt": "Professional outdoor portrait of a confident young man in his late 20s wearing a linen shirt, soft golden hour backlight creating a rim light halo, natural bokeh forest background, Fujifilm XT5 aesthetic, sharp eyes, editorial magazine look --ar 4:5",
+    "tip": "Rare Tier: Perfect for LinkedIn profiles and personal branding."
+  },
+  {
+    "id": 128,
+    "title": "Ethereal Women's Fashion Portrait",
+    "category": "Women",
+    "rarity": "rare",
+    "weight": 10,
+    "prompt": "Ethereal high fashion portrait of a woman in a flowing white silk dress, standing in a field of wildflowers at dusk, soft wind blowing fabric, pastel lavender and rose sky, dreamy depth of field, analog film grain, Vogue editorial style --ar 4:5",
+    "tip": "Rare Tier: Great for fashion photography portfolios."
+  },
+  {
+    "id": 129,
+    "title": "Joyful Family Moment",
+    "category": "Family",
+    "rarity": "rare",
+    "weight": 10,
+    "prompt": "Candid family photography of a family of four laughing together on a sunny park blanket, picnic basket, children running playfully, shallow depth of field, warm golden afternoon light, 85mm portrait lens, natural and joyful mood --ar 16:9",
+    "tip": "Rare Tier: Heartwarming for family portrait sessions."
+  },
+  {
+    "id": 130,
+    "title": "Romantic Couple Beach Sunset",
+    "category": "Couple",
+    "rarity": "rare",
+    "weight": 10,
+    "prompt": "Romantic couple photography session on a tropical beach at sunset, couple silhouetted against fiery orange and pink horizon, gentle waves, bare feet in wet sand, natural cinematic framing, 50mm lens warm tones, editorial love story feel --ar 16:9",
+    "tip": "Rare Tier: Perfect for engagement shoots and romantic campaigns."
+  },
+  {
+    "id": 131,
+    "title": "Dynamic Sports Action Shot",
+    "category": "Sport",
+    "rarity": "rare",
+    "weight": 10,
+    "prompt": "High-energy sports action photograph of a professional basketball player mid-dunk above the rim, stadium crowd blurred in background, dramatic court lighting, motion blur on arms, sweat droplets frozen in air, Nike campaign aesthetic, 1/2000s shutter --ar 9:16",
+    "tip": "Rare Tier: Ideal for sports brand campaigns and athletic content."
+  },
+  {
+    "id": 132,
+    "title": "Aerial Mountain Landscape",
+    "category": "Nature & Landscape",
+    "rarity": "rare",
+    "weight": 10,
+    "prompt": "Drone aerial photograph of a dramatic Alpine mountain valley at blue hour, serpentine river reflecting violet sky, pine forest slopes, low-lying mist between peaks, long exposure light trails from a village below, Sony A7R V aesthetic --ar 16:9",
+    "tip": "Rare Tier: Stunning nature photography for print-on-demand."
+  },
+  {
+    "id": 133,
+    "title": "Majestic Bengal Tiger",
+    "category": "Animals & Wildlife",
+    "rarity": "rare",
+    "weight": 10,
+    "prompt": "National Geographic quality wildlife photograph of a Bengal tiger emerging from tall golden grass at sunrise, intense amber eyes locked on camera, shallow depth of field, rim light on fur, 600mm telephoto lens aesthetic, ultra sharp detail --ar 16:9",
+    "tip": "Rare Tier: Stunning wildlife photography prompt."
+  },
+  {
+    "id": 134,
+    "title": "Futuristic Mecha Warrior",
+    "category": "Mecha",
+    "rarity": "rare",
+    "weight": 10,
+    "prompt": "Detailed mecha concept art of a 10-meter tall bipedal combat robot standing in a destroyed city, glowing energy core in chest, hydraulic joints exposed, battle damage scarring, rainwater dripping on armor panels, Evangelion meets Pacific Rim aesthetic --ar 9:16",
+    "tip": "Rare Tier: Top-tier mecha design concept art."
+  },
+  {
+    "id": 135,
+    "title": "Gothic Horror Castle",
+    "category": "Horror",
+    "rarity": "rare",
+    "weight": 10,
+    "prompt": "Dark gothic horror illustration of a crumbling Victorian castle on a cliff edge during a lightning storm, broken stained glass windows glowing red from within, ravens circling, skeletal trees, thick fog below, Tim Burton cinematic style, highly detailed --ar 16:9",
+    "tip": "Rare Tier: Perfect for horror game art and Halloween campaigns."
+  },
+  {
+    "id": 136,
+    "title": "Dreamlike Surreal Landscape",
+    "category": "Surreal",
+    "rarity": "rare",
+    "weight": 10,
+    "prompt": "Hyper-surreal digital painting of a giant glass clock melting over a floating island suspended in clouds, a staircase descending into the ocean below, Salvador Dali and Rene Magritte combined aesthetic, ultra detailed, soft dreamlike color palette --ar 16:9",
+    "tip": "Rare Tier: Iconic surrealist art piece."
+  },
+  {
+    "id": 137,
+    "title": "Clean Minimalist Brand Identity",
+    "category": "Minimalist",
+    "rarity": "common",
+    "weight": 15,
+    "prompt": "Swiss minimalist design poster with a single geometric form — a perfect circle — on a pure white background, one line of clean Helvetica text in light gray below, vast negative space, museum wall print aesthetic, high resolution --ar 3:4",
+    "tip": "Common Tier: Perfect for print design and minimalist aesthetics."
+  },
+  {
+    "id": 138,
+    "title": "Opulent Luxury Watch",
+    "category": "Luxury",
+    "rarity": "rare",
+    "weight": 10,
+    "prompt": "Ultra-premium product photography of a Patek Philippe skeleton watch suspended mid-air with invisible thread, black velvet background, single focused studio spot light revealing intricate gold movement gears, specular highlights, macro lens, 8K --ar 1:1",
+    "tip": "Rare Tier: Perfect for high-end product campaigns."
+  },
+  {
+    "id": 139,
+    "title": "Bold Event Poster Design",
+    "category": "Poster Design",
+    "rarity": "common",
+    "weight": 15,
+    "prompt": "Modern graphic design of a music festival event poster, bold contrast halftone portrait of a DJ silhouette, neon pink and electric yellow color split-tone, geometric layered shapes, gritty textured background, Swiss punk typography --ar 9:16",
+    "tip": "Common Tier: Great for event promotions and print media."
+  },
+  {
+    "id": 140,
+    "title": "Iconic Game Character Design",
+    "category": "Characters",
+    "rarity": "rare",
+    "weight": 10,
+    "prompt": "Full character design concept sheet of a rogue assassin wearing a dark hooded cloak, twin daggers, glowing rune tattoos, multiple angles (front, side, back), facial closeup, color palette swatches, game-ready character art style, ArtStation trending --ar 3:4",
+    "tip": "Rare Tier: Essential for game concept art and character design."
+  },
+  {
+    "id": 141,
+    "title": "Vintage Polaroid Travel Montage",
+    "category": "Vintage",
+    "rarity": "common",
+    "weight": 15,
+    "prompt": "Artistic flat lay of vintage Polaroid travel photographs scattered on a rustic wooden table, old world map, worn leather passport, dried lavender sprigs, sepia and faded color tones, nostalgic travel mood, overhead shot --ar 4:3",
+    "tip": "Common Tier: Great for travel blogs and nostalgic social media content."
+  },
+  {
+    "id": 142,
+    "title": "Tropical Travel Destination",
+    "category": "Travel",
+    "rarity": "common",
+    "weight": 15,
+    "prompt": "Aerial drone photography of a pristine Maldivian overwater bungalow resort at golden hour, turquoise lagoon, crystal clear shallow water revealing coral reef below, wooden jetty walkways, sun setting on horizon, travel magazine editorial quality --ar 16:9",
+    "tip": "Common Tier: Dreamy travel content for Instagram and Pinterest."
+  },
+  {
+    "id": 143,
+    "title": "Premium Product Photography",
+    "category": "Product",
+    "rarity": "common",
+    "weight": 15,
+    "prompt": "Clean commercial product photography of a premium glass skincare serum bottle, white marble surface, single white orchid beside it, soft diffused studio lighting, reflection on polished surface, luxury beauty brand aesthetic --ar 1:1",
+    "tip": "Common Tier: High utility e-commerce and brand photography."
+  }
+]
