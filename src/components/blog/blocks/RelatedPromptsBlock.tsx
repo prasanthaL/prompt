@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { ArrowRight, Layers } from "lucide-react";
-
 import categoriesData from "@/data/categories.json";
+import { categoryToSlug } from "@/lib/category-slugs";
 
 interface RelatedPromptsBlockProps {
   title?: string;
@@ -35,8 +35,8 @@ export default function RelatedPromptsBlock({
 
           // Use matched category details, or fallback to parsed slug values
           const href = category
-            ? `/categories/${encodeURIComponent(category.name.toLowerCase())}`
-            : `/categories/${id}`;
+            ? `/categories/${categoryToSlug(category.name)}`
+            : `/categories/${categoryToSlug(id)}`;
 
           const label = category
             ? `${category.name} Prompts`

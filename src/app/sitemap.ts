@@ -1,5 +1,6 @@
 import { MetadataRoute } from "next";
 import { getAllPrompts } from "@/lib/json-db";
+import { categoryToSlug } from "@/lib/category-slugs";
 import blogJsonData from "@/data/blog.json";
 import categories from "@/data/categories.json";
 
@@ -54,7 +55,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   /* Category routes — read directly from the known categories list */
   const categoryRoutes: MetadataRoute.Sitemap = categories.map((cat) => ({
-    url: `${siteUrl}/categories/${encodeURIComponent(cat.name.toLowerCase())}`,
+    url: `${siteUrl}/categories/${categoryToSlug(cat.name)}`,
     lastModified: stableFallback,
     changeFrequency: "daily" as const,
     priority: 0.85,

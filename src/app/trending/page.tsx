@@ -1,4 +1,5 @@
 import { getTrendingPrompts, getAllPrompts } from "@/lib/json-db";
+import { categoryToSlug } from "@/lib/category-slugs";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import TrendingClient, { CATEGORY_DISPLAY_NAMES } from "./TrendingClient";
@@ -396,7 +397,7 @@ export default async function TrendingPage() {
               return (
                 <Link
                   key={catName}
-                  href={`/categories/${catName.toLowerCase()}`}
+                  href={`/categories/${categoryToSlug(catName)}`}
                   className="px-4 py-2 rounded-full text-xs font-semibold border transition-all duration-200 hover:border-primary/60 hover:text-primary"
                   style={{
                     background: "rgba(255,255,255,0.04)",

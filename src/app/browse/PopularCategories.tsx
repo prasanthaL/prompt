@@ -20,6 +20,7 @@ import {
   Grid
 } from "lucide-react";
 import categoriesData from "@/data/categories.json";
+import { categoryToSlug } from "@/lib/category-slugs";
 
 const ICON_MAP: Record<string, React.ComponentType<any>> = {
   Cinematic: Clapperboard,
@@ -61,7 +62,7 @@ export default function PopularCategories() {
           return (
             <Link
               key={cat.name}
-              href={`/categories/${encodeURIComponent(cat.name.toLowerCase())}`}
+              href={`/categories/${categoryToSlug(cat.name)}`}
               className="group inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full border border-white/[0.04] bg-white/[0.02] hover:border-violet-500/30 hover:bg-violet-500/10 text-[10px] font-bold text-white/60 hover:text-white transition-all cursor-pointer"
             >
               <IconComponent className="w-3 h-3 text-white/40 group-hover:text-violet-400 transition-colors" />

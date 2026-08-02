@@ -137,7 +137,16 @@ const SLUG_TO_DISPLAY: Record<string, string> = {
   "mythology": "Mythology",
   "space": "Space",
   "vintage": "Vintage",
+  "graffiti": "Graffiti",
 };
+
+import { categoryToSlug, categoryToPromptFileSlug, slugToCategoryName } from "./category-slugs";
+
+/** Normalizes any raw category name to its canonical display name matching categories.json. */
+export function normalizeCategoryName(raw: string): string {
+  if (!raw) return raw;
+  return slugToCategoryName(raw);
+}
 
 // ─── Public API ──────────────────────────────────────────────────────────────
 
@@ -242,7 +251,8 @@ export async function fetchHomeTabPrompts(
   const categoryCounts: Record<string, number> = {};
   for (const p of tabFiltered) {
     if (p.category) {
-      categoryCounts[p.category] = (categoryCounts[p.category] ?? 0) + 1;
+      const canonical = normalizeCategoryName(p.category);
+      categoryCounts[canonical] = (categoryCounts[canonical] ?? 0) + 1;
     }
   }
 
@@ -301,18 +311,15 @@ export async function fetchPromptsPage(
   if (category === "all") {
     source = await loadAll();
   } else {
-    const slug = category
-      .toLowerCase()
-      .replace(/\s+/g, "-")
-      .replace(/[^a-z0-9-&]/g, "");
-
-    source = await getCachedCategory(slug);
+    const fileSlug = categoryToPromptFileSlug(category);
+    source = await getCachedCategory(fileSlug);
 
     // If the file was empty, fall back to filtering the "all" pool
     if (source.length === 0) {
       const all = await loadAll();
+      const targetSlug = categoryToSlug(category);
       source = all.filter(
-        (p) => p.category.toLowerCase() === category.toLowerCase()
+        (p) => p.category && categoryToSlug(p.category) === targetSlug
       );
     }
   }
@@ -349,15 +356,14 @@ export async function fetchAllPrompts(): Promise<Prompt[]> {
  * Returns a record of { [displayName]: count } for every category.
  * Loads each category file in parallel (cached after first call).
  */
-export async function fetchCategoryCounts(): Promise<Record<string, number>> {
-  const entries = await Promise.all(
+export function fetchCategoryCounts(): Promise<Record<string, number>> {
+  return Promise.all(
     CATEGORY_SLUGS.map(async (slug) => {
       const data = await getCachedCategory(slug);
-      const displayName = SLUG_TO_DISPLAY[slug] ?? slug;
+      const displayName = SLUG_TO_DISPLAY[slug] ?? slugToCategoryName(slug);
       return [displayName, data.length] as [string, number];
     })
-  );
-  return Object.fromEntries(entries);
+  ).then(Object.fromEntries);
 }
 
 /** Finds a prompt by slug or id across all category JSON files. */
@@ -390,16 +396,13 @@ export async function fetchPromptsByCategory(
 ): Promise<Prompt[]> {
   if (category === "all") return loadAll();
 
-  const slug = category
-    .toLowerCase()
-    .replace(/\s+/g, "-")
-    .replace(/[^a-z0-9-&]/g, "");
-
-  const data = await getCachedCategory(slug);
+  const fileSlug = categoryToPromptFileSlug(category);
+  const data = await getCachedCategory(fileSlug);
   if (data.length > 0) return data;
 
   const all = await loadAll();
+  const targetSlug = categoryToSlug(category);
   return all.filter(
-    (p) => p.category.toLowerCase() === category.toLowerCase()
+    (p) => p.category && categoryToSlug(p.category) === targetSlug
   );
 }

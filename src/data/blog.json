@@ -1,5 +1,618 @@
 [
   {
+    "id": "50-cinematic-ai-image-prompts",
+    "slug": "50-cinematic-ai-image-prompts",
+    "title": "50 Cinematic AI Image Prompts for Movie-Quality Visuals",
+    "excerpt": "Discover 50 copy-and-paste cinematic AI image prompts to generate dramatic, movie-quality artwork with Midjourney, Gemini, DALL-E, and Stable Diffusion.",
+    "coverImage": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782198780/prompts/tcng085gew8kxz0l3zxt.webp",
+    "coverImageAlt": "50 Cinematic AI Image Prompts for Movie-Quality Visuals",
+    "publishedAt": "2026-08-02",
+    "updatedAt": "2026-08-02",
+    "author": {
+      "name": "AI Prompt Site",
+      "avatar": "/images/authors/default.webp"
+    },
+    "readingTime": 22,
+    "category": "Cinematic",
+    "tags": [
+      "Cinematic Prompts",
+      "AI Photography",
+      "Movie Aesthetic",
+      "Gemini AI",
+      "Midjourney",
+      "DALL-E",
+      "Stable Diffusion",
+      "Dramatic Prompts"
+    ],
+    "featured": true,
+    "seo": {
+      "title": "50 Cinematic AI Image Prompts for Movie-Quality Visuals (2026)",
+      "description": "Explore 50 copy-and-paste cinematic AI image prompts for dramatic character portraits, sci-fi scenes, movie posters, and epic lighting with Midjourney & Gemini.",
+      "canonical": "/blog/50-cinematic-ai-image-prompts",
+      "keywords": [
+        "cinematic AI prompts",
+        "50 cinematic prompts",
+        "movie quality AI image prompts",
+        "dramatic AI prompts",
+        "cinematic photography prompts",
+        "Gemini cinematic prompts",
+        "Midjourney cinematic prompts"
+      ]
+    },
+    "blocks": [
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "intro",
+        "text": "Introduction"
+      },
+      {
+        "type": "paragraph",
+        "text": "Cinematic AI image generation is about capturing the weight, emotion, and visual depth of a high-budget movie frame. Whether you are aiming for atmospheric lighting, anamorphic lens flares, moody color palettes, or dramatic character portraits, crafting the right prompt is key."
+      },
+      {
+        "type": "paragraph",
+        "text": "In this collection, we present 50 hand-picked cinematic AI image prompts sourced directly from our curated database. Each prompt is optimized for leading models like Google Gemini, Midjourney, DALL-E, and Stable Diffusion to deliver stunning film-quality results."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "formula",
+        "text": "The Cinematic AI Prompt Formula"
+      },
+      {
+        "type": "formula",
+        "text": "Subject + Cinematic Lighting + Camera/Lens Specs + Composition & Angles + Atmosphere + Color Grading + Quality Modifiers"
+      },
+      {
+        "type": "paragraph",
+        "text": "To get true movie realism, incorporate camera mechanics (such as 85mm f/1.8 lenses, shallow depth of field, anamorphic ratio), directional lighting (chiaroscuro, rim light, volumetric haze), and professional film grain into your prompt descriptions."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "dramatic-portraits",
+        "text": "1. Dramatic Character Portraits & Storytelling"
+      },
+      {
+        "type": "paragraph",
+        "text": "Intense close-ups and character studies with emotive facial features, moody shadows, and cinematic lighting."
+      },
+      {
+        "type": "prompt",
+        "title": "Separation of the Soul",
+        "prompt": "Surreal astral projection, women lying supine on a wooded path, uploaded face as reference, ethereal double arching in mid-air directly above him, same dress eye-level cinematic medium shot, 50mm f/1.8 lens, shallow depth of field, soft diffused natural daylight, lush green forest background, muted earthy color grading, high-resolution digital photography, sharp focus on subjects, detailed textures of rough path and fabric, masterpiece,+ hyper-realistic, 8k",
+        "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782198780/prompts/tcng085gew8kxz0l3zxt.webp",
+        "slug": "separation-of-the-soul-gtgrr",
+        "href": "/prompts/separation-of-the-soul-gtgrr",
+        "category": "Cinematic"
+      },
+      {
+        "type": "prompt",
+        "title": "Miniature Me",
+        "prompt": "cinematic portrait above girl as her miniature version. side by side against textured dark wall, handwritten \"miniature mei\" text. both in matching dresses, hands are folded. woman leans with soft smile; child has cartoon-style face, large expressive eyes. ultra-realistic skin texture, warm soft lighting, shallow depth of field, sharp focus, studio quality.",
+        "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782198511/prompts/grpvctnsrmnkqxmgwelt.webp",
+        "slug": "miniature-me-muo0s",
+        "href": "/prompts/miniature-me-muo0s",
+        "category": "Cinematic"
+      },
+      {
+        "type": "prompt",
+        "title": "Urban Echoes",
+        "prompt": "A retro-urban styled poster featuring a young refference with image artist in multiple poses. He wears a brown casual shirt and cinematic black and white background embroidered on the back. , multiple silver rings and\nbracelets emphasize his flashy. The design is layered with close-up portraits, warm brown tones, bold typography reading prasa and a modern magazine-style collage aesthetic, representing Afrobeat and street culture",
+        "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782198449/prompts/oiri3wuzxmj1egvjamwl.webp",
+        "slug": "urban-echoes-yw1ad",
+        "href": "/prompts/urban-echoes-yw1ad",
+        "category": "Cinematic"
+      },
+      {
+        "type": "prompt",
+        "title": "Echoes Between Sky and Sea",
+        "prompt": "A cinematic surreal montage of a young man with a stylish styled hair. The image features three different poses of the same man in the sky/clouds: one in a grey hoodie, one in an open denim jacket showing on his and one white shirt. Below them, the same man is shown from the back, standing in the middle of a deep blue ocean, pointing one black shirt hand towards the sky. The overall vibe is ethereal with cool teal and turquoise color grading, high contrast, and dramatic lighting.",
+        "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782198370/prompts/ktumhz2jlcphvjxbz9lh.webp",
+        "slug": "echoes-between-sky-and-sea-yfje4",
+        "href": "/prompts/echoes-between-sky-and-sea-yfje4",
+        "category": "Cinematic"
+      },
+      {
+        "type": "prompt",
+        "title": "Chromatic Identity: The Cinematic Split",
+        "prompt": "vertical poster collage design. the background consists of four stacked horizontal rounded rectangles. inside these panels are black and white cinematic shots of a young man with curly hair and sunglasses in various poses. superimposed in the foreground on the left side is a full-color, high-quality cutout of the same man wearing an unbuttoned pink mauve shirt and sunglasses, striking a cool pose. the foreground figure has athick",
+        "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782198287/prompts/mqi2a55wodmcg9ueo1tz.webp",
+        "slug": "chromatic-identity-the-cinematic-split-5a01j",
+        "href": "/prompts/chromatic-identity-the-cinematic-split-5a01j",
+        "category": "Cinematic"
+      },
+      {
+        "type": "prompt",
+        "title": "Emerald Reverie",
+        "prompt": "A cinematic, multi-layered photo collage with a deep emerald light pink theme. In the background, a large, ethereal close-up portrait of a beautiful South Asian woman with long dark hair, wearing traditional silver jhumka earrings and a small green bindi, looking off-camera with a soft smile. In the mid-ground, a full-body shot of the same woman standing elegantly in a sheer green sequined saree. In the foreground, a handsome South Asian man in a dark green button-down shirt is sitting",
+        "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782198016/prompts/z9gwtwcrlopctjv6ys1p.webp",
+        "slug": "emerald-reverie-9aslc",
+        "href": "/prompts/emerald-reverie-9aslc",
+        "category": "Cinematic"
+      },
+      {
+        "type": "prompt",
+        "title": "Small Steps, Big Growth",
+        "prompt": "A young boy sitting on a stool, wearing a beige hoodie and black pants, calm confident expression, surrounded by multiple cute mini cartoon versions of himself in different poses (sitting, climbing rope, taking photos, waving using phone), warm yellow-orange gradient background, modern motivational poster style, soft cinematic lighting, highly detailed face, 3D cartoon characters, depth of field, aesthetic composition, books stacked beside him (self-improvement theme), notebook on floor,",
+        "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782197954/prompts/zkzgqnirx1xmbup6ni72.webp",
+        "slug": "small-steps-big-growth-c51vn",
+        "href": "/prompts/small-steps-big-growth-c51vn",
+        "category": "Cinematic"
+      },
+      {
+        "type": "prompt",
+        "title": "Breaking Through: Digital Identity Escape",
+        "prompt": "Use the reference image as the exact subject identity. Create a scene of the person emerging out of a giant tilted smartphone showing their social media profile. Replace username, profile photo, and posts with the subject’s face and {name}. Dynamic pose stepping through shattered screen glass toward camera, flying shards, strong depth perspective, warm indoor bokeh background, realistic lighting, ultra-detailed skin/clothes, viral Instagram ad aesthetic, photoreal 3D realism.",
+        "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782197884/prompts/hzfhvpxlri4suhw7vtzi.webp",
+        "slug": "breaking-through-digital-identity-escape-wnloj",
+        "href": "/prompts/breaking-through-digital-identity-escape-wnloj",
+        "category": "Cinematic"
+      },
+      {
+        "type": "prompt",
+        "title": "Crimson Wraith Emergence",
+        "prompt": "Keep the person exactly the same same face, pose, outfit, lighting, and 1,background. Add a shadowy, smoke-like demonic entity emerging from behind the person's back, The entity should be made of swirlinc Red smoke, semi-transparent, with glowing white eves, The smoke wraps around the body and filows down to the floor natrally Wanding with the environme Mainam realistic shadows, reflectinnsn and dapth so the creature feela pand the scend Dark, moody mosphere, high contrast, cinematic lighting, ultra-realistic ek quality. No change to fac tures, clothing, or camera anqle Instagrammable 4:5 ratio",
+        "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782197788/prompts/sew7kg4oiugzpgoos3fn.webp",
+        "slug": "crimson-wraith-emergence-407m9",
+        "href": "/prompts/crimson-wraith-emergence-407m9",
+        "category": "Cinematic"
+      },
+      {
+        "type": "prompt",
+        "title": "PROMPT BIT: The Untouchable System",
+        "prompt": "looking upward with a calm untouchable myth-like expression, hair and silhouette dissolving into a double exposure universe with glowing neural networks and AI data streams, floating particles and digital fragments, ink splashes and watercolour diffusion, subtle premium gold energy accents, cinematic layered storytelling inside the silhouette featuring performing on a massive stage with spotlight, crowd silhouettes showing scale and influence, walking through Melbourne CBD as a main character moment, AI holograms and futuristic interfaces, content creation podcast and media presence, all blended seamlessly with smoke, ink, light streaks and soft glitch digital effects, full-body Kanji Low in the lower section standing like a fashion icon in a tailored black suit with subtle gold accents including chain and watch, relaxed confident pose hands in pockets or mid-walk, clean studio lighting with cinematic shadows, background with soft textured off-white and grey canvas, Melbourne skyline fused with global city lights, abstract AI core glow behind the head like a halo, ink brush strokes flowing through the composition with optional subtle cherry blossoms for contrast, typography minimal and iconic with luxury cinematic serif and wide spacing reading PROMPT BIT with subtitle PROMPT ENGINEER and optional line THE STORY BEHIND THE SYSTEM or BUILDING THE FUTURE IN SILENCE, editorial cinematic artistic hybrid style with double exposure storytelling, soft desaturated palette with gold highlights, high-end magazine or Netflix documentary poster feel, legendary untouchable artistic mood that feels like a global figure, ultra-realistic 8K rendering with sharp facial detail, soft edge blending and premium lighting and depth, Face and body exactly same as uploaded image.",
+        "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782197737/prompts/wzspmgkxfutkiuhxcm7g.webp",
+        "slug": "prompt-bit-the-untouchable-system-9du0x",
+        "href": "/prompts/prompt-bit-the-untouchable-system-9du0x",
+        "category": "Cinematic"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "scifi-cyberpunk",
+        "text": "2. Sci-Fi, Cyberpunk & Futuristic Scenes"
+      },
+      {
+        "type": "paragraph",
+        "text": "High-tech environments, neon reflections, holographic interfaces, and dystopian cyberpunk aesthetic frames."
+      },
+      {
+        "type": "prompt",
+        "title": "Azure Spirit: Dragonbound Warrior",
+        "prompt": "A fierce young female warrior standing in a dynamic battle pose, wearing detailed ancient Asian-inspired armor with layered fabrics and leather plates, holding a sword raised behind her back. Her hair is tied in a tight bun, her expression focused and intense. Surrounding her is a glowing, ethereal blue spirit dragon made of swirling energy and mist, coiling around her body in a circular motion. The dragon has a semi-transparent, luminous form with flowing, smoky textures and glowing eyes. Blue energy trails wrap around her legs and arms, with sparks and particles floating in the air. Dark background, cinematic lighting, high contrast, ultra-detailed, photorealistic, dramatic atmosphere, fantasy style, 8K resolution.",
+        "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782197677/prompts/xsbfhpitnirashbe8brn.webp",
+        "slug": "azure-spirit-dragonbound-warrior-n2qna",
+        "href": "/prompts/azure-spirit-dragonbound-warrior-n2qna",
+        "category": "Cinematic"
+      },
+      {
+        "type": "prompt",
+        "title": "Emerald Legacy: The Power Within",
+        "prompt": "Create a dramatic tribute poster with a bold deep emerald green and black monochrome background. The background should feature a faint, large close-up of the man's eyes blended smoothly into the dark green textured backdrop for intensity and depth.\nIn the center, design a clean collage layout with five vertical rectangular panels showing black-and-white portraits of the same stylish man (USE UPLOADED PHOTO FACE % — exact facial structure,real skin texture, original eyes, nose, lips, jawline preserved with full identity accuracy, no alteration, no beautification, no AI reconstruction). Each panel should show different poses and expressions (serious, smiling, side profile, confident look, relaxed casual stance).\nOverlaying the panels in the foreground, place a larger full-color cutout of the same man pointing confidently toward the viewer. He should have  voluminous styled hairstyle, fair face, neatly trimmed beard, and a charismatic expression. Outfit: modern luxury street-formal fusion — fitted black turtleneck, tailored charcoal blazer with subtle texture, slim black trousers, and minimal silver accessories (watch or ring). Stylish and powerful presence. At the bottom, add a bold handwritten script-style signature text reading “Oshan Ranasingha” in large white brush lettering with slight glow effect.\nAdd subtle cinematic rim lighting, dramatic shadows, high contrast, ultra-sharp details, modern fan-made poster aesthetic, shallow depth of field, professional color grading. Overall mood should be powerful, celebratory, stylish, and premium with a strong green-and-black theme.",
+        "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782197613/prompts/xh5j8vihmh2p7czqypsa.webp",
+        "slug": "emerald-legacy-the-power-within-lp7mz",
+        "href": "/prompts/emerald-legacy-the-power-within-lp7mz",
+        "category": "Cinematic"
+      },
+      {
+        "type": "prompt",
+        "title": "Celestial Operator: Ember Protocol",
+        "prompt": "A cinematic side-profile portrait of a rugged man with a tied-back bun and full beard, wearing round dark sunglasses and a textured leather jacket. His skin is detailed and slightly weathered. The background is a futuristic sci-fi interface filled with glowing orange and red data streams, star maps, celestial navigation diagrams, grids, and holographic UI elements. Fiery particle effects and ember-like energy swirl around him, creating a cosmic, high-tech atmosphere.Dark color palette with strong contrast, dramatic lighting, ultra-detailed, sharp focus, 8K, cyberpunk aesthetic, cinematic composition, depth of field",
+        "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782197562/prompts/ogzm2maridcnyiholxf1.webp",
+        "slug": "celestial-operator-ember-protocol-w8jk3",
+        "href": "/prompts/celestial-operator-ember-protocol-w8jk3",
+        "category": "Cinematic"
+      },
+      {
+        "type": "prompt",
+        "title": "Fragments of Me",
+        "prompt": "A modern digital portrait featuring a young man with a cheerful smile and stylish glasses, shown in multiple poses. The main central portrait is large and sharply detailed, with soft warm lighting highlighting his face. Behind him a semi-transparent side profile of the same person blends into a bold red abstract paint stroke background.\nIn the foreground, two smaller full-body versions of the man are included: one standing casually with a relaxed outfit and confident posture, and another sitting cross-legged with a thoughtful pose. The clothing is casual and youthful, with light-colored shirts and jeans.\nThe background combines white and textured elements with vibrant red brush strokes, creating a dynamic and artistic contrast The overall design has a clean, modern poster aesthetic with soft glow effects and smooth blending. At the bottom, a stylish handwritten signature-style \"#\" text is included in elegant red typography. ",
+        "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782197510/prompts/w9qltspe4ch3o7gsn0dl.webp",
+        "slug": "fragments-of-me-mtq27",
+        "href": "/prompts/fragments-of-me-mtq27",
+        "category": "Cinematic"
+      },
+      {
+        "type": "prompt",
+        "title": "Timeless Birthday Editorial",
+        "prompt": "A professional birthday poster design with a white background. In the center, a realistic 25-year-old Indian man with a stylish beard and messy hair, wearing a light blue linen shirt and a black smartwatch, posing confidently. Around him, three diamond-shaped frames featuring different close-up portraits of the same man: one wearing sunglasses and a white blazer and two others laughing in a white knitted sweater. Below the images, the text 'HAPPY BIRTHDAY' in elegant serif font,and 'Add name' in large, stylish white signature-style script with a thin black outline. 8k resolution, cinematic lighting, ultra-realistic",
+        "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782197458/prompts/k74sukyjhdnxos8deiqg.webp",
+        "slug": "timeless-birthday-editorial-rfu4t",
+        "href": "/prompts/timeless-birthday-editorial-rfu4t",
+        "category": "Cinematic"
+      },
+      {
+        "type": "prompt",
+        "title": "PROMPT BIT: The Story Behind The System",
+        "prompt": "looking upward with a calm untouchable myth-like expression, hair and silhouette dissolving into a double exposure universe with glowing neural networks and AI data streams, floating particles and digital fragments, ink splashes and watercolour diffusion, subtle premium gold energy accents, cinematic layered storytelling inside the silhouette featuring performing on a massive stage with spotlight, crowd silhouettes showing scale and influence, walking through Melbourne CBD as a main character moment, AI holograms and futuristic interfaces, content creation podcast and media presence, all blended seamlessly with smoke, ink, light streaks and soft glitch digital effects, full-body Kanji Low in the lower section standing like a fashion icon in a tailored black suit with subtle gold accents including chain and watch, relaxed confident pose hands in pockets or mid-walk, clean studio lighting with cinematic shadows, background with soft textured off-white and grey canvas, Melbourne skyline fused with global city lights, abstract AI core glow behind the head like a halo, ink brush strokes flowing through the composition with optional subtle cherry blossoms for contrast, typography minimal and iconic with luxury cinematic serif and wide spacing reading PROMPT BIT with subtitle PROMPT ENGINEER and optional line THE STORY BEHIND THE SYSTEM or BUILDING THE FUTURE IN SILENCE, editorial cinematic artistic hybrid style with double exposure storytelling, soft desaturated palette with gold highlights, high-end magazine or Netflix documentary poster feel, legendary untouchable artistic mood that feels like a global figure, ultra-realistic 8K rendering with sharp facial detail, soft edge blending and premium lighting and depth, Face and body exactly same as uploaded image.",
+        "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782197390/prompts/a779g52lcllnzxmkik5f.webp",
+        "slug": "prompt-bit-the-story-behind-the-system-4mxdh",
+        "href": "/prompts/prompt-bit-the-story-behind-the-system-4mxdh",
+        "category": "Cinematic"
+      },
+      {
+        "type": "prompt",
+        "title": "Multiplicity: Echoes of Self",
+        "prompt": "Create a surreal, photorealistic studio portrait of a young Caucasian man wearing a mustard yellow hoodie, black ripped jeans, and brown leather boots, sitting cross-legged on the floor against a solid vibrant yellow background. He is centered in the frame, facing forward with a calm, neutral expression.\nHis arms are raised slightly outward, palms facing up, as if balancing miniature versions of himself. Multiple tiny clones of the same man are positioned around him: two standing on each hand, one sitting on his shoulder whispering, one pointing outward, and others sitting and posing around his legs and feet. Each miniature figure wears the same outfit (yellow hoodie, black jeans, brown boots) but in different poses (standing, sitting, thinking, pointing, whispering).\nLighting is soft, even, and studio-quality with minimal shadows. The composition is clean and symmetrical, with a strong monochromatic yellow color theme. The clones are sharply detailed and proportionally smaller, creating a surreal scale contrast.\nStyle & Technical:\nUltra-realistic, high detail, 8K, Studio lighting, soft shadows, 85mm lens, sharp focus, Minimalist background, solid yellow, Surreal concept, multiple identical clones, Clean composition, editorial photography style",
+        "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782197328/prompts/d6xn6lp7g8zynvybubwf.webp",
+        "slug": "multiplicity-echoes-of-self-vlm39",
+        "href": "/prompts/multiplicity-echoes-of-self-vlm39",
+        "category": "Cinematic"
+      },
+      {
+        "type": "prompt",
+        "title": "JOKER: Put On A Happy Face",
+        "prompt": "Create a cinematic psychological thriller movie poster in a narrow European alleyway with wet cobblestone streets and moody overcast lighting. A sharply dressed man in a tailored black suit walks confidently toward the camera while lighting a cigarette, one hand in pocket, serious expression, polished shoes, slick hairstyle, realistic proportions. Low-angle centered composition with strong symmetry from tall buildings on both sides.At the bottom of the street is a large puddle reflecting the man, but in the reflection he appears as a sinister clown figure in a bright red suit, yellow vest, green shirt, white face paint, red lips, green hair, dramatic makeup, twisted smile, creating a dual identity illusion. Reflection perfectly aligned and highly detailed.\nAdd bold distressed movie-poster typography in top right: JOKER with\nsubtitle Put On A Happy Face. Add actor-style text above, release date below, and 2026 NETFLIX logo at bottom left.\nStyle: dark psychological drama, hyper-realistic, ultra detailed, cinematic color grading, gritty atmosphere, shallow depth of field, dramatic shadows, premium poster design, 8K resolution.\nAspect ratio: 2:3 vertical.",
+        "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782197279/prompts/kgpk93pm2jiz74tpvxbt.webp",
+        "slug": "joker-put-on-a-happy-face-bjjos",
+        "href": "/prompts/joker-put-on-a-happy-face-bjjos",
+        "category": "Cinematic"
+      },
+      {
+        "type": "prompt",
+        "title": "Ace of Shadows: Dark Alice Reign",
+        "prompt": "Use the uploaded image as a HIGH-PRIORITY reference for the person’s face and pose. Create an ultra-realistic composition in the format of a playing card “Ace of Spades”, styled as a dark “Alice in Wonderland” universe, combined with Instagram-inspired aesthetics.\n Core requirements: The person in the image must be transformed into a full-body “Dark Alice” character: dark fantasy styling detailed gothic outfit (gender-neutral or adapted to the character) stylized but recognizable hairstyle DO NOT change the original pose Add animals: black panther black lion → both appear realistic, volumetric, emerging from the card Style & composition: The card: → flat 2D illustration (classic poker design) The subject + animals: → hyper-realistic 3D elements emerging\nfrom the card IMPORTANT: ❌ no torn card effect ✅ use floating elements emerging from the card space Add floating 3D elements: Instagram UI: like icons (hearts) comment bubbles share icons camera / interface elements Poker elements: spade symbols mini cards decorative suits → varied scale → layered collage composition Perspective: strong 3D depth overlapping elements subject clearly coming forward from the card Final scene: card placed in a clean white space touching surface at one corner only\nsoft realistic shadow Technical specs: aspect ratio: 3:4 ultra-detailed cinematic lighting high contrast hybrid 2D + 3D style",
+        "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782197230/prompts/emwsmbtvxqkbkilymfll.webp",
+        "slug": "ace-of-shadows-dark-alice-reign-2aj28",
+        "href": "/prompts/ace-of-shadows-dark-alice-reign-2aj28",
+        "category": "Cinematic"
+      },
+      {
+        "type": "prompt",
+        "title": "ECHO: Motion in Luxury",
+        "prompt": "editorial poster. Keep my face, body, pose, outfit, and original background recognizable, but enhance everything into a luxury fashion campaign aesthetic. Add 4 realistic duplicate versions of me across the frame placed naturally like motion-captured walk sequences. Keep the main/front version largest, sharpest, and most detailed, while side clones are slightly faded or motion blurred.\nUse dramatic overhead lighting with a subtle glow, deep shadows, long floor shadows, cool-toned cinematic color grading, strong contrast, glossy highlights, and soft film grain. Make the outfit textures crisp and premium. Add bold oversized magazine-style typography in the top corner with one powerful word related to movement or style (example: MOTION, STATIC, RUSH, ECHO). Include smaller minimal text such as collection year, slogan, barcode, or campaign details.",
+        "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782197159/prompts/rnmtwq60jxzcd722cq7h.webp",
+        "slug": "echo-motion-in-luxury-32xnb",
+        "href": "/prompts/echo-motion-in-luxury-32xnb",
+        "category": "Cinematic"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "fantasy-surreal",
+        "text": "3. Fantasy, Surreal & Mythic Visuals"
+      },
+      {
+        "type": "paragraph",
+        "text": "Ethereal worlds, mystical aura effects, double exposures, and dreamlike cinematic compositions."
+      },
+      {
+        "type": "prompt",
+        "title": "Dual Presence: Rise of Confidence",
+        "prompt": "Hyper-realistic 8K cinematic fashion poster, 9:16 vertical.\nA 17-18-year-old Indian boy, face 100 identical to the reference image (no morphing, no alteration). Dual-portrait composition.\nBackground: large monochrome portrait, confident pose, wearing sunglasses, casual open shirt over dark T-shirt, looking away from camera, warm sunlight flare from one side.\nForeground: full-body color image of the same boy walking stylishly, trendy sunglasses, confident stride",
+        "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782197104/prompts/pwitmd3jsqabedjwqgww.webp",
+        "slug": "dual-presence-rise-of-confidence-mnxsg",
+        "href": "/prompts/dual-presence-rise-of-confidence-mnxsg",
+        "category": "Cinematic"
+      },
+      {
+        "type": "prompt",
+        "title": "Fractured Thoughts: Urban Solitude Double Exposure",
+        "prompt": "A high-contrast, double-exposure editorial portrait of a man with a beard and black-rimmed glasses, looking downward with a pensive expression. The image is creatively segmented into vertical slices of varying heights against a textured off-white parchment background.￼ The Overlay Effect: Within the vertical slices of the man's face, a secondary scene is visible: a lonely figure in a hoodie walking down a rain-slicked city street at night.",
+        "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782196361/prompts/nwyqpsifhknp5kk2hciw.webp",
+        "slug": "fractured-thoughts-urban-solitude-double-exposure-3suh1",
+        "href": "/prompts/fractured-thoughts-urban-solitude-double-exposure-3suh1",
+        "category": "Cinematic"
+      },
+      {
+        "type": "prompt",
+        "title": "Layered Attitude: Dual Tone Editorial Collage",
+        "prompt": "vertical poster collage design. the background consists of four stacked horizontal rounded rectangles. inside these panels are black and white cinematic shots of a young man with curly hair and sunglasses in various poses. superimposed in the foreground on the left side is a full-color, high-quality cutout of the same man wearing an unbuttoned pink mauve shirt and sunglasses, striking a cool pose. the foreground figure has a thick presence.",
+        "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782196235/prompts/t8dqujvxbzyksyafjygd.webp",
+        "slug": "layered-attitude-dual-tone-editorial-collage-1zzis",
+        "href": "/prompts/layered-attitude-dual-tone-editorial-collage-1zzis",
+        "category": "Cinematic"
+      },
+      {
+        "type": "prompt",
+        "title": "Crimson Silence: A Cinematic Youth Portrait",
+        "prompt": " hyper-realistic dark Red portrait cinematic image actions. (uploaded photo 100% face match) of a very handsome 19 years old age boy (followed by given picture face) Soft moody cinematic lighting highlights his facial features naturally. He leans casually pose, wearing oversized red shirt, and he wear wash lose jeans he wear white sleepers. hair simple hair cover his eyebrows, well-fitted complement the serene, The background back-light ",
+        "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782196174/prompts/ywz6qwqrbylto3lkrxbk.webp",
+        "slug": "crimson-silence-a-cinematic-youth-portrait-qhe7v",
+        "href": "/prompts/crimson-silence-a-cinematic-youth-portrait-qhe7v",
+        "category": "Cinematic"
+      },
+      {
+        "type": "prompt",
+        "title": "Phoenix Within: Fire of the Soul",
+        "prompt": "Create a high-resolution cinematic, ultra-realistic portrait of a handsome man ( As attached image ) standing against a dark, minimal background. He has soft, youthful facial features, fair skin, and slightly messy dark hair falling naturally across his forehead. He wears a simple, fitted grey t-shirt, adding to a clean and modern aesthetic.\nThe subject is gently holding his hand out in front of him, palm facing upward, with a calm and introspective expression as he looks down. Floating just above his palm is a glowing, magical phoenix made entirely of fire — its wings spread wide, formed from flickering flames and glowing embers. The fiery bird emits warm orange and golden light, illuminating the subject’s face and hand with soft, dramatic highlights.Cinematic color grading Fantasy realism, magical elements blended naturally. \nTiny sparks and particles drift in the air around the phoenix, adding a sense of motion and magic. The lighting is low-key and moody, with strong contrast between the dark background and the warm glow of the flames. The overall atmosphere feels mystical, emotional, and slightly surreal. Style & Details: Photorealistic, high detail, 8K resolution Dramatic lighting, chiaroscuro effect Warm orange glow vs cool dark background contrast Shallow depth of field, sharp focus on face and phoenix ",
+        "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782196123/prompts/oibyqv3sddc3v1gzsfwy.webp",
+        "slug": "phoenix-within-fire-of-the-soul-niuyy",
+        "href": "/prompts/phoenix-within-fire-of-the-soul-niuyy",
+        "category": "Cinematic"
+      },
+      {
+        "type": "prompt",
+        "title": "Ethereal Bloom: A Royal Pastel Garden Couture Dream",
+        "prompt": "Use my uploaded face reference image as the primary identity source with 100% exact facial match, preserving my real facial structure, skin tone, eye shape, nose, lips, jawline, and natural beauty in every frame.\nCreate an ultra-realistic, high-fashion editorial collage portrait of me in a royal pastel garden princess aesthetic, blending soft feminine luxury with regal couture elegance. I am wearing a breathtaking designer saree crafted from flowing organza, silk, or chiffon in dreamy pastel shades of blush pink, lavender, powder blue, ivory white, and soft gold, adorned with delicate oversized floral embroidery, pearl embellishments, romantic layered draping, and princess-like luxury styling. Pair it with an exquisitely detailed sleeveless couture blouse featuring subtle shimmer, floral embellishments, and refined royal sophistication.\nMy hair is styled in voluminous soft romantic waves with graceful movement, glossy perfection, and luxurious blowout texture, enhanced with delicate floral accessories or pearl details woven subtly for an enchanting princess effect. Makeup is radiant soft glam with glowing luminous skin, rosy-peach blush, glossy nude-pink lips, subtle golden shimmer eyeshadow, fluttery lashes, and an ethereal feminine glow. Accessories include statement oxidized silver or pearl-inspired jhumka earrings, delicate floral jewelry accents, and soft regal styling.\nDesign the composition as a premium celebrity-inspired multi-photo collage layout featuring multiple elegant royal poses of me: graceful downward princess gaze soft dreamy side profile serene upward enchanted look luxury close-up beauty portrait romantic reclining floral pose over-the-shoulder regal shot soft candid princess smile\nBackground should feel like an opulent blooming royal garden featuring: lush rose gardens pastel flower arches palace-inspired pathways fountain details soft golden sunlight butterflies creamy bokeh dreamy pastel skies floral palace estate ambiance luxurious fairytale scenery\nAdd premium scrapbook-inspired editorial elements: watercolor roses soft butterfly overlays gold foil detailing pearl textures elegant geometric magazine lines layered portrait cutouts vintage floral frames subtle translucent white fades Pinterest princess moodboard design luxury fairytale composition\nColor palette: blush pink lavender powder blue ivory white soft gold sage green pastel peach\nOverall style: ultra-detailed cinematic luxury royal fashion magazine Pinterest aesthetic princess couture feminine dreamy regal highly realistic professional photoshoot quality soft luminous natural lighting sharp facial detailing premium celebrity-inspired composition fairytale elegance\nEnsure my face remains fully recognizable, identical to the uploaded image, and flawlessly preserved in every frame with zero distortion.\nFinal output should look like an exclusive celebrity royal pastel floral saree couture editorial photoshoot, blending enchanted princess fantasy with timeless luxury fashion sophistication.",
+        "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782196035/prompts/iuf3rhexo0elpocna4sl.webp",
+        "slug": "ethereal-bloom-a-royal-pastel-garden-couture-dream-o2qns",
+        "href": "/prompts/ethereal-bloom-a-royal-pastel-garden-couture-dream-o2qns",
+        "category": "Cinematic"
+      },
+      {
+        "type": "prompt",
+        "title": "Built Different: Born to Lead",
+        "prompt": "A cinematic poster of a rugged, handsome man with a thick beard and styled hair, wearing black sunglasses and a partially unbuttoned white shirt, showing confidence and dominance. He is sitting on a classic black motorcycle, with a bold attitude. Multiple layered portraits of the same man in the background (front close-up, side pose, and riding pose), creating a dramatic collage effect. Background is a mix of dark textures and red-black grunge style with high contrast lighting.\nMoody atmosphere, sharp details, masculine energy, luxury vibe, strong shadows, depth of field, editorial photoshoot style, ultra-realistic, 8K resolution. Text on side: \"Built Different Made to Lead\" in bold typography. ",
+        "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782195980/prompts/yzn1fyh1gbjyx3enrd1r.webp",
+        "slug": "built-different-born-to-lead-tf1za",
+        "href": "/prompts/built-different-born-to-lead-tf1za",
+        "category": "Cinematic"
+      },
+      {
+        "type": "prompt",
+        "title": "Silent Ascend: The Moment Before Power",
+        "prompt": "A cinematic full-body portrait of a stylish young South Asian man walking forward confidently on a wet, rocky ground surface. His body is centered in frame, captured in a mid-step motion with his left leg forward and right leg slightly behind. He wears a fitted black button-up shirt with sleeves rolled to the forearms, paired with slim grey trousers and polished black formal shoes. He has short, neatly styled dark hair, a clean-shaven face, and wears black aviator sunglasses. His head is slightly tilted downward, giving a calm, focused, mysterious expression. His right hand is raised toward his chin in a thoughtful gesture, fingers lightly touching his face, while his left arm hangs naturally by his side. The left half of his body is dramatically disintegrating into floating particles, dust, and smoky fragments, blending into the background. The disintegration effect includes fine debris, ash-like particles, and swirling white-grey smoke, creating a dynamic transition from solid body to scattered elements. The right half of his body remains fully intact and sharply detailed. Background is dark, moody, and cinematic with a gradient from warm brown tones on the left to deep black on the right. Faint silhouettes of human figures are visible in the far background, blurred and shadowy, adding depth and mystery.\nThe ground is textured with scattered wet stones reflecting subtle light. Lighting is dramatic and directional, highlighting the subject’s front with soft glow while fading into shadow around the edges. High contrast, shallow depth of field, ultra-realistic, sharp focus on subject, cinematic color grading. On the right side of the image, stylized typography text reads: “I AM Silent, I Am Just Waiting\nFor My Time..!!” — mixed fonts with bold uppercase for “I AM” and handwritten script style for “Silent” and “Waiting”, in light grey/white color, slightly textured. Ultra-detailed, 8K resolution, professional poster design, dramatic atmosphere, cinematic composition, particle dispersion effect, smoky visual effects, high realism. Use my picture for reference. Keep my identity 100% original. sample image create",
+        "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782195877/prompts/ze7dunrgthb8d9zo8r1p.webp",
+        "slug": "silent-ascend-the-moment-before-power-b4z8z",
+        "href": "/prompts/silent-ascend-the-moment-before-power-b4z8z",
+        "category": "Cinematic"
+      },
+      {
+        "type": "prompt",
+        "title": "Fragments of a Man",
+        "prompt": "Ultra-realistic cinematic double exposure portrait of a mature South Asian man shown in a dramatic SIDE PROFILE composition, where only about 80% of his face is visible emerging from deep shadows. The main focus is the PRESENT version of the man — emotionally mature, calm, intelligent, slightly tired eyes, masculine aura, realistic skin texture, natural beard shadow, sharp jawline lighting, cinematic emotional expression.The portrait uses a professional double exposure style, where the INSIDE of the man’s shadowed profile contains the memories of his entire life journey seamlessly blended together like emotional fragments of his mind. The outer silhouette of the face remains dark, clean, cinematic, and sharply defined against a moody background. The memories appear naturally INSIDE the shadow area of the profile, not outside the face, not floating randomly, and not like a collage poster.nside the shadow exposure: — CHILDHOOD MEMORY: Warm nostalgic golden scene of a little boy version of the same person running in a village field during sunset, innocent smile, flying kite, emotional warmth, soft dreamy glow, realistic facial resemblance. — SCHOOL LIFE MEMORY: Teenage version wearing school uniform walking through a school corridor with friends, notebooks in hand, nostalgic classroom atmosphere, soft yellow cinematic tones, emotional realism. — COLLEGE MEMORY:Young adult version sitting alone near college campus during light rain, books nearby, thoughtful expression, teal-orange cinematic color grading, emotional transition into maturity. — SPORTS MEMORY: Subtle cinematic cricket imagery blended naturally into the exposure, cricket bat silhouette, stadium lights, dust particles, representing passion, pressure, and competitive spirit. — LOVE MEMORY:Soft emotional silhouette of a romantic moment or comforting hug, subtle and artistic, not overpowering, cinematic emotional warmth. — FUTURE VISION: At the upper side inside the shadow exposure, cool blue futuristic city lights and symbolic future success imagery — luxury skyline, intelligent powerful silhouette walking forward, peaceful modern home atmosphere, ambition and hope. The memories should blend together organically through: cinematic fog, soft smoke, light leaks, glass reflections,rain particles, volumetric lighting, emotional haze, film grain, dreamlike transitions. The PRESENT face outside the exposure remains the strongest visual focus: ultra-realistic eyes, sharp cinematic side profile, deep shadows, soft rim lighting, professional editorial photography quality, Netflix movie poster atmosphere, luxury cinematic color grading, dark emotional aesthetic. Background:minimal dark background with subtle cinematic fog and moody lighting, allowing the double exposure effect to dominate the frame. Lighting style: dramatic side lighting, high contrast shadows, soft glow on facial edges, professional studio cinematic setup, deep blacks, rich emotional tones. Color grading: childhood = warm golden, school = nostalgic yellow, college = teal-orange, present = dark neutral cinematic, future = cold blue luxury. The final image should feel: nostalgic, poetic,emotionally intelligent, cinematic, deeply human, masculine, artistic, thought-provoking, like an award-winning psychological movie poster. Ultra realistic, 8K detail, masterpiece, hyper detailed skin texture, perfect anatomy, perfect facial structure consistency across all ages, same eye DNA, same nose structure, same emotional identity, shallow depth of field, professional cinematic photography, award-winning double exposure art. NEGATIVE PROMPT:anime, cartoon, low quality, blurry face, bad anatomy, extra limbs, extra fingers, duplicate memories, poorly blended double exposure, random collage style, comic bubbles, unrealistic skin, oversaturated colors, flat lighting, plastic face, distorted eyes, asymmetrical face, fake emotions, low resolution, watermark, text, logo, chaotic composition, disconnected memories, unrealistic child face, CGI look, overexposed highlights, messy background, poorly defined silhouette, artificial shadows,stiff pose, exaggerated muscles, low realism, bad proportions, cropped face, cluttered image, fake cinematic effect",
+        "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782195823/prompts/xktboyg9iqgzobsgkfny.webp",
+        "slug": "fragments-of-a-man-1uvzb",
+        "href": "/prompts/fragments-of-a-man-1uvzb",
+        "category": "Cinematic"
+      },
+      {
+        "type": "prompt",
+        "title": "THE GAMBLER KING",
+        "prompt": "Ultra-realistic cinematic portrait of a stylish South Indian man with salt-and-pepper hair and a short beard, wearing black aviator sunglasses and a partially unbuttoned white shirt, standing behind a casino poker table. He extends one hand dramatically toward the camera in forced perspective while playing cards and bullets float in mid-air around him. Ace of spades and king cards spinning with poker chips, dust particles exploding from the table, intense action freeze-frame effect.Moody blue-gray lighting, shallow depth of field, cinematic bokeh background, high contrast, luxury gangster vibe, slow-motion action scene, ultra detailed skin texture, 85mm lens look, teal and orange color grading, realistic motion blur, dramatic composition, 4K, photorealistic, stylish mass hero attitude.",
+        "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782195771/prompts/nbeyirkbisrdgcscad4g.webp",
+        "slug": "the-gambler-king-ip7oy",
+        "href": "/prompts/the-gambler-king-ip7oy",
+        "category": "Cinematic"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "dark-mood-editorial",
+        "text": "4. Dark Mood, Neon & High-Fashion Editorial"
+      },
+      {
+        "type": "paragraph",
+        "text": "Vogue-style high-fashion editorial shots, dark moody contrast, neon lighting, and urban sophistication."
+      },
+      {
+        "type": "prompt",
+        "title": "THE LAST RONIN",
+        "prompt": "He wears traditional black pleated hakama trousers tied at the waist with a thick sash. He holds two Katana swords; one is held low by his side, and the other is tucked into his belt.\n\n​Background Elements (Ukiyo-e Style):\n\nThe background is styled like a vintage, weathered Japanese scroll with a parchment texture. Key elements include:\n\n​The Great Dragon: A large, highly detailed golden and grey dragon winding behind the subject.\n\n​The Rising Sun: A large, solid deep-red circle centered behind the man’s head.\n\n​Calligraphy: Vertical columns of black Japanese kanji characters on both the left and right sides.\n\n​Nature Motifs: Stylized \"Great Wave\" water ripples and large blooming red peonies at the bottom corners.\n\n​Artistic Technique:\n\n​Lighting: Dramatic studio lighting (Chiaroscuro) that emphasizes muscle definition and the texture of the tattoos.\n\n​Color Palette: A sophisticated mix of earthy parchment tones, deep blacks, vibrant crimson, and metallic gold.\n\n​Quality: 8k resolution, hyper-detailed skin textures, vintage paper grain, and sharp focus on the subject with a slight illustrative overlay to bridge the gap between photography and classic art.\n\nAspect ratio is 9:16",
+        "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782195717/prompts/fk1dvaqqbtztiwk5bccy.webp",
+        "slug": "the-last-ronin-q1xmz",
+        "href": "/prompts/the-last-ronin-q1xmz",
+        "category": "Cinematic"
+      },
+      {
+        "type": "prompt",
+        "title": "\"Name\" : CITY OF LIGHTS",
+        "prompt": "A highly realistic 3D illustration of the text “ Name” in large, bold, cinematic capital letters. Each letter is intricately filled with detailed Indian cityscapes featuring glowing skyscrapers, illuminated bridges, luxury streets, neon lights, traffic reflections, and iconic architectural landmarks. The interiors of the letters emit vibrant golden and blue night lighting with a dramatic cinematic glow, creating extreme depth and ultra-realistic detail.se uploaded image as high-priority facial reference\nhairstyle, expression, and identity consistently across all letters. She should appear naturally integrated into the environment, stylishly posed within the glowing city interiors, wearing fashionable modern clothing with cinematic lighting reflecting on her skin and outfit.\n\nThe letters should have glossy metallic edges, realistic reflections, depth shadows, and premium 3D typography styling.Background completely dark black with subtle fog, particles, and atmospheric lighting to enhance the luxury futuristic mood. Hyper-detailed, ultra-realistic, 8K render, octane render, photorealistic lighting, depth of field, cinematic composition, luxury urban aesthetic.",
+        "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782195638/prompts/uzpzdrgrpmt8rpcexfqv.webp",
+        "slug": "name-city-of-lights-nna3n",
+        "href": "/prompts/name-city-of-lights-nna3n",
+        "category": "Cinematic"
+      },
+      {
+        "type": "prompt",
+        "title": "MINI ME: SHADOW EDITION",
+        "prompt": "A conceptual full-body black/gray luxury studio portrait featuring two versions of [uploaded image face 100% match with dark messy hair ], identical in features, hair, and styling. On the right stands the normal-sized mini gibili style subject, wearing a dark gray denim jacket white silky shirt open two bottom stylish silver chain and stylish transparent sunglasses black cargo jeans white and gray chunky sneakers.Their pose is leaning casually against a textured, dark gray/black concrete wall, arms crossed, looking down and to the left with a curious expression. On the left stands a second, miniature version of the same subject, no taller than the adult’s shin.",
+        "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782195560/prompts/phowwf20fd1ystb6qte6.webp",
+        "slug": "mini-me-shadow-edition-2rl0o",
+        "href": "/prompts/mini-me-shadow-edition-2rl0o",
+        "category": "Cinematic"
+      },
+      {
+        "type": "prompt",
+        "title": "ASHES & SHADOWS",
+        "prompt": "A full-body cinematic shot of a young man with intense eyes and wind-swept, messy dark hair, walking confidently toward the camera. He is wearing a dark, layered techwear outfit consisting of a long distressed trench coat, a thick draped scarf, and heavy combat boots.\n​Background & Style: A minimalist, avant-grade poster aesthetic. The composition is split vertically: the left side is a stark, textured white with splatters of black ink and abstract geometric",
+        "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782195425/prompts/gwief6fzycqnkhdrqz8u.webp",
+        "slug": "ashes-shadows-ia7q6",
+        "href": "/prompts/ashes-shadows-ia7q6",
+        "category": "Cinematic"
+      },
+      {
+        "type": "prompt",
+        "title": "BENEATH THE SHADOW",
+        "prompt": "cinematic editorial portrait, young man with messy curly hair covering eyes, three-quarter profile, moody expression, deep shadow casting a strong silhouette on the wall, intense red/orange background with hard directional spotlight beam, high contrast chiaroscuro, warm highlights and deep blacks, realistic skin texture and subtle stubble, matte black t-shirt.",
+        "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782195382/prompts/dsu7tehsr5r7ornqd3up.webp",
+        "slug": "beneath-the-shadow-rjzhk",
+        "href": "/prompts/beneath-the-shadow-rjzhk",
+        "category": "Cinematic"
+      },
+      {
+        "type": "prompt",
+        "title": "EDGE OF THE CITY",
+        "prompt": "Create a hyper-realistic portrait of a boy, sitting in a cliff a of high city building wall, (Used reference photo 100% for Face details) the full shot of a man from the side view, with Wavy Farming massy hair, sitting on the edge of a cliff, bg city town. He is wearing a red Oversized Hoodie (spider symbol) and black oversized pants and white sneakers. A rests on the beside him. In the full dence misty background.",
+        "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782195329/prompts/pnig9rsmyaifcmqo4j74.webp",
+        "slug": "edge-of-the-city-w00i5",
+        "href": "/prompts/edge-of-the-city-w00i5",
+        "category": "Cinematic"
+      },
+      {
+        "type": "prompt",
+        "title": "Golden Light Legacy: Cinematic Multi-Panel Hero Portrait Poster",
+        "prompt": "A cinematic, high-resolution movie poster featuring me. The composition consists of a large, vibrant, full-color portrait of me in the bottom center foreground, wearing a black blazer and black shirt, illuminated by warm, directional golde lighting on his face, looking off to the right. Behind him are five vertical rectangular panels arranged in a staggered, symmetrical formation.",
+        "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782195287/prompts/vhidss07yimvpe5ag4zy.webp",
+        "slug": "golden-light-legacy-cinematic-multipanel-hero-portrait-poster-aisr8",
+        "href": "/prompts/golden-light-legacy-cinematic-multipanel-hero-portrait-poster-aisr8",
+        "category": "Cinematic"
+      },
+      {
+        "type": "prompt",
+        "title": "Ethereal Sky Blue Engagement: Romantic Indian Couple Cinematic Collage Poster",
+        "prompt": "A luxurious Indian engagement collage poster of a young South Asian couple in coordinated pastel sky-blue traditional outfits, romantic outdoor candid photography with soft daylight and dreamy cinematic atmosphere. Bride in embroidered blue lehenga with silver zari border, sheer dupatta, bridal jewelry, bangles, mehndi hands; groom in pastel blue sherwani with modern hairstyle and trimmed beard",
+        "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782195227/prompts/di5wmcv7je5pler7wvkv.webp",
+        "slug": "ethereal-sky-blue-engagement-romantic-indian-couple-cinematic-collage-poster-hmkc3",
+        "href": "/prompts/ethereal-sky-blue-engagement-romantic-indian-couple-cinematic-collage-poster-hmkc3",
+        "category": "Cinematic"
+      },
+      {
+        "type": "prompt",
+        "title": "Born for Speed: Dual Persona Formula 1 Luxury Motorsport",
+        "prompt": "Ultra-realistic cinematic Formula 1 luxury racing poster featuring the same professional racing driver in two dramatic compositions — one wearing a sleek futuristic racing helmet with reflective visor, and another without helmet revealing a sharp masculine face with intense confident expression wearing a futuristic fitted glossy sports sunglasses. The driver stands beside a modern open-wheel Formula race car inside a premium pit garage under moody cinematic lighting.Black and red color palette, glossy carbon fiber textures, subtle smoke atmosphere, dramatic shadows, high-fashion motorsport editorial aesthetic. The helmet version shows the driver in a powerful front-facing pose with crossed arms, illuminated visor reflections, glowing LED accents on the helmet, sponsor branding patches, premium racing suit textures, and aggressive Formula car details in the background. The without-helmet version shows the driver adjusting racing gloves while looking directly at camera with confidence, smooth skin texture, sharp jawline, cinematic rim lighting, luxury watch, subtle tattoos, premium racing suit with realistic embroidered sponsor logos. Large bold typography across the poster: ‘BORN FOR SPEED’ ‘NO FEAR. FULL THROTTLE.’ ‘LEGENDS AREN’T CREATED. THEY RACE.Luxury fictional sponsor branding and logos across suit, helmet, and poster: VELOX PERFORMANCE AURELIAN ENERGY STRATOS RACING NEXORA TECH BLACKLINE MOTORSPORT VORTEX GP.Minimalist modern logo placement, premium motorsport advertising style, dynamic composition, realistic reflections, rain particles, glowing garage lights, shallow depth of field, ultra-detailed Formula car aerodynamics, dramatic cinematic atmosphere, 8k ultra realism, magazine-quality sports campaign, luxury motorsport poster aesthetic.",
+        "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782195179/prompts/prgbx77rjye1rbuu8ray.webp",
+        "slug": "born-for-speed-dual-persona-formula-1-luxury-motorsport-q4cn1",
+        "href": "/prompts/born-for-speed-dual-persona-formula-1-luxury-motorsport-q4cn1",
+        "category": "Cinematic"
+      },
+      {
+        "type": "prompt",
+        "title": "Fire Arrow of the Storm Huntress: Cinematic Rain-Soaked Dark Fantasy Archer",
+        "prompt": "Ultra-realistic cinematic female archer standing in heavy rain at night, intense focused eyes, drawing a glowing fire arrow with a traditional bow, wet skin and soaked dark hair, dramatic blue and orange lighting, fiery energy sparks around the arrow, powerful action pose, detailed muscles and water droplets, dark fantasy atmosphere, moody cyber-cinematic background, shallow depth of field, volumetric rain, high contrast shadows,",
+        "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782195086/prompts/yye6hkvcdwy3exthpz45.webp",
+        "slug": "fire-arrow-of-the-storm-huntress-cinematic-rainsoaked-dark-fantasy-archer-w8rtl",
+        "href": "/prompts/fire-arrow-of-the-storm-huntress-cinematic-rainsoaked-dark-fantasy-archer-w8rtl",
+        "category": "Cinematic"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "action-movie-posters",
+        "text": "5. Action, Motion & Movie Poster Designs"
+      },
+      {
+        "type": "paragraph",
+        "text": "Dynamic action framing, motion blur, dramatic double exposure layouts, and Hollywood poster aesthetics."
+      },
+      {
+        "type": "prompt",
+        "title": "BRASIL 2026: Seleção Elite – High-Fashion World Cup Cinematic Sports Campaign",
+        "prompt": "Create a high-fashion football poster of a male model wearing the Brazil national team kit for the FIFA World Cup 2026. The outfit should feature a modern Brazil jersey in vibrant yellow and green, with subtle blue accents, premium athletic fabric, fitted black joggers or matching track pants, and clean white sneakers. The model should stand confidently in a full-body pose, centered in the composition, with a sleek, cinematic sportswear advertising aesthetic. Design the background with dramatic stadium lighting, smoky atmosphere, textured grunge effects, and a bold energetic Brazilian color palette of yellow, green, blue, and dark shadows. Include subtle football graphics, motion streaks, and a premium Nike-style campaign feel. Add tasteful Brazil-themed typography such as “BRASIL,” “SELEÇÃO,” “COPA 2026,” and small decorative elements like stars, football emblems, and national-inspired details.Make it look like an elite official World Cup fashion campaign, ultra-realistic, high contrast, editorial, dynamic, and visually powerful.",
+        "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782195037/prompts/tcokuhjlwumb4azcmfma.webp",
+        "slug": "brasil-2026-seleo-elite-highfashion-world-cup-cinematic-sports-campaign-z90it",
+        "href": "/prompts/brasil-2026-seleo-elite-highfashion-world-cup-cinematic-sports-campaign-z90it",
+        "category": "Cinematic"
+      },
+      {
+        "type": "prompt",
+        "title": "Boiler Room Nightmare: The Blade-Shadow Horror Cinematic",
+        "prompt": "Create a ​Cinematic movie poster, hyper-realistic horror aesthetic. In the background, a massive, towering Freddy Krueger-style monster with intricate, vein-like scarred skin texture and glowing blue eyes looms over a dark boiler room. He wears a tattered fedora and has long, sharp metal blades for fingers. In the foreground, a gritty, determined man with a goatee and black hair (use uploaded photo don't alter the face or appearance), covered in sweat, holds a high-powered flashlight that emits a piercing, volumetric beam of light. The scene is drenched in deep red and orange embers, with thick smoke and silhouettes of victims fleeing in the distance. Dramatic Chiaroscuro lighting, sharp details, 8k resolution, photorealistic, shot on 35mm lens, industrial atmosphere.",
+        "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782194985/prompts/tipwigutd0z1g3vrmbvp.webp",
+        "slug": "boiler-room-nightmare-the-bladeshadow-horror-cinematic-bryxo",
+        "href": "/prompts/boiler-room-nightmare-the-bladeshadow-horror-cinematic-bryxo",
+        "category": "Cinematic"
+      },
+      {
+        "type": "prompt",
+        "title": "Aqua Flux Street Monarch: Cinematic Urban Water Energy Portrait Edit",
+        "prompt": "Create an ultra-realistic photo edit with dynamic illustrated water effects wrapped around the subject. subject head to toe visible. Subject: Use uploaded face exactly - 100% facial accuracy. Do NOT change facial structure. Preserve natural skin tone. Real skin texture visible. No smoothing. No artificial glow. No reshaping. Subject must remain fully photorealistic and untouched. Pose: Standing casual street pose. Head slightly tilted downword. One hand adjusting the cap brim.Other hand resting behind head. Relaxed shoulders. Confdent, stylish body language. Outfht: Beige baseball cap. Black t-shirt. Light blue denim jacket layered over. Loose black cargo pants. Streetwear aesthetic. Fabric textures sharp and realistie. black sneakers. Environment: Urban industrial setting Dark metal staircase in background. Concrete flooring Hard daylight shadows. Natural sunlight hitting from one side.Special Effect (Main Focus): Add a large illustrated bright blue water swirl wrapping around the subject in a circular motion. Water should look like hand-painted animefcomic style. Bold outlines. High-contrast blue tones. White foam highlights. Dynamic splash droplets flying outward. Water swirl must wrap around torso and extend outward, creating depth. Some water elements in front of subject. Some behind subject. Layered 3D depth illusion. Motion: Water swirl frozen mid-motion.Splash arcs and droplets suspended in air. Energetic. powerful flow. Directional flow from left to right. Lighting Integration: Water highights reflecting sunlight. Subtle blue light reflection on clothing edges. Maintain realistic shadows on subject. Water should glow slightly but not overpower subject. Depth & Composition: Foreground water droplets slightly blurred. Mid-ground subject sharp. Background softly blurred. Cinematic framing Color Treatment: Subject remains natural color.Water bright electric blue. Background neutral and slightly muted for contrast. Style: Realistic portrait + anime-style energy effect. Street fashion meets fantasy power. High impact Instagram edit. Dynamic, bold, viral aesthetic. Mood: Strong. Stylish. Empowered. Urban creative energy. Quality: Ultra high resolution. Sharp edges. Photorealistic subject. No cartoon face. No paintertly distortion on subject. No Al artifacts. Perfect blending between real photo and illustrated water. ",
+        "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782194938/prompts/ggkcr19wo35fnkoqm9t5.webp",
+        "slug": "aqua-flux-street-monarch-cinematic-urban-water-energy-portrait-edit-5nbc6",
+        "href": "/prompts/aqua-flux-street-monarch-cinematic-urban-water-energy-portrait-edit-5nbc6",
+        "category": "Cinematic"
+      },
+      {
+        "type": "prompt",
+        "title": "AMG NOIR: Cyberpunk Street Racing Dominance",
+        "prompt": "Ultra-realistic cyberpunk automotive street poster featuring a powerful tattooed male model wearing black futuristic AMG-inspired tactical fashion, standing in a dominant side-profile pose beside a glossy red Mercedes-AMG GT race car. He wears a luxury black sunglasses, and a serious expression. His outfit is a high-tech black armored jacket covered in futuristic patterns, patches, typography, and AMG performance branding.Background is a gritty urban collage wall layered with torn newspapers, warning signs, barcodes, industrial textures, graffiti, and bold oversized red vertical ‘AMG’ text. Cinematic smoke and steam surround the car, with wet reflective pavement creating dramatic reflections. The red Mercedes-AMG GT features aggressive widebody styling, glossy reflections, black rims, racing aero kit, and studio-quality lighting. Color palette dominated by black, red, gray, and metallic tones.Hyper-detailed textures, cinematic contrast, luxury performance aesthetic, editorial street-racing vibe, dystopian cyberpunk atmosphere, ultra sharp focus, photorealistic, volumetric smoke, dramatic shadows, high-end poster design, 8K, masterpiece, highly detailed.",
+        "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782194896/prompts/vvh6fkvmyd9jsjloiuuw.webp",
+        "slug": "amg-noir-cyberpunk-street-racing-dominance-igna6",
+        "href": "/prompts/amg-noir-cyberpunk-street-racing-dominance-igna6",
+        "category": "Cinematic"
+      },
+      {
+        "type": "prompt",
+        "title": "Ismail: Rose-Gold Library Muse – Cinematic Cottagecore Character",
+        "prompt": "A confident very full hourglass figure woman with long black hair wearing a bright pista green t-shirt and light blue jeans, standing full-body with arms crossed in a warm cozy library studio. Beside her is a vertical stack of glowing 3D rose-gold marquee letters spelling “Ismail,” each letter placed on wooden shelves with miniature versions of the same woman in different poses like reading, drinking coffee, and hugging a teddy bear.Elegant cursive labels under each shelf read: “Modern girl,” “Open hearted,” “Naughty mind,” “Innocent,” “King’s daughter,” and “Arrogant.” Background features bookshelves, wooden desk, vintage lamp, teddy bear chair, cinematic warm lighting, soft bokeh, cottagecore aesthetic, ultra-detailed, portrait orientation --ar 2:3",
+        "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782194846/prompts/tx6ok1ep0shmlmcbe5pd.webp",
+        "slug": "ismail-rosegold-library-muse-cinematic-cottagecore-character-hzc3n",
+        "href": "/prompts/ismail-rosegold-library-muse-cinematic-cottagecore-character-hzc3n",
+        "category": "Cinematic"
+      },
+      {
+        "type": "prompt",
+        "title": "NEON UNDERWORLD: The Street King’s Reign",
+        "prompt": "Ultra realistic cinematic gangster attitude poster of a stylish South Asian man standing confidently in the center of a dark urban street, messy voluminous hair, sharp beard, black luxury streetwear outfit, black oversized jacket, black fitted t-shirt, layered silver chains, rings, black sunglasses, intense fearless expression, powerful mafia boss body language.The man is holding a dangerous futuristic metal baseball bat wrapped with chains and glowing red neon accents, giving a deadly street",
+        "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782194665/prompts/ubkvmfqpkkjyfuxhres3.webp",
+        "slug": "neon-underworld-the-street-kings-reign-s95j8",
+        "href": "/prompts/neon-underworld-the-street-kings-reign-s95j8",
+        "category": "Cinematic"
+      },
+      {
+        "type": "prompt",
+        "title": "THE ROYAL CHALLENGE: RCB Warrior & The Lion King Editorial",
+        "prompt": "FULL-BODY FASHION EDITORIAL SHOT OF A CONFIDENT YOUNG MALE MODEL SITTING ON A ROUGH URBAN CONCRETE LEDGE, LEGS APART IN A RELAXED YET DOMINANT POSE, STARING DIRECTLY INTO THE CAMERA WITH A FEARLESS, INTENSE EXPRESSION. WEARING THE RCB 2025/26 RED-BLACK CRICKET JERSEY, PREMIUM BLACK-RED-GOLD HIGH-TOP SNEAKERS, AND SPORTY LUXURY STREETWEAR STYLING. SLIGHT WIND FLOWING THROUGH HIS HAIR AND FABRIC FOR A CINEMATIC FEEL. BESIDE HIM IS A MASSIVE REALISTIC MALE LION — NOT CARTOON, NOT CGI, NOT ARTIFICIAL — WITH NATURAL GOLDEN FUR, DETAILED MUSCULAR BODY, SHARP EYES, AND A POWERFUL ROYAL PRESENCE. THE LION IS CALMLY INTERACTING WITH THE MODEL LIKE A TRUSTED COMPANION, PERFECTLY BLENDED INTO THE SCENE WITH REALISTIC LIGHTING, SHADOWS, FUR DETAIL, AND NATURAL ANATOMY. HIGH-END FASHION EDITORIAL STYLE, ULTRA REALISTIC, CINEMATIC COLOR GRADING, GOLDEN HOUR LIGHTING, SHALLOW DEPTH OF FIELD, HYPER-DETAILED TEXTURES, LUXURY SPORTS MAGAZINE AESTHETIC, SHOT ON HASSELBLAD X2D, 85MM LENS, 8K UHD, PHOTOREALISTIC, EPIC ATMOSPHERE.",
+        "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782194616/prompts/jqm4gfwq96p5fgu6npj7.webp",
+        "slug": "the-royal-challenge-rcb-warrior-the-lion-king-editorial-e4fh3",
+        "href": "/prompts/the-royal-challenge-rcb-warrior-the-lion-king-editorial-e4fh3",
+        "category": "Cinematic"
+      },
+      {
+        "type": "prompt",
+        "title": "BHOOT BANGLA: Moonlit Haunting of the Phantom Estate",
+        "prompt": "A dark cinematic horror scene featuring an abandoned gothic mansion at midnight under a massive glowing full moon, cracked stone walls covered in ivy, broken windows, eerie blue fog drifting across the ground, Lots of dozens of ghostly spirits with glowing blue eyes floating around the mansion, bats flying through stormy clouds, ultra detailed vintage rusty white and black jeep parked in the center, a stylish 23-year-old young man sitting in stylish pose on the hood.He has athlete physique with 5.11ft height, medium length wavy black Messy hair, short trimmed beard and moustache. He is not looking towards the camera. He is wearing a white shirt with two buttons open both sleeves slighty folded, dark grey faded baggy jeans, puma white sneakers with red accents, a black metallic wristwatch on his left hand and a red wristband in his right hand, moody blue color grading, supernatural atmosphere, creepy haunted estate, volumetric moonlight, cinematic shadows, wet cobblestone pathway, hyper realistic textures, depth of field, horror fantasy aesthetic, Unreal Engine 5 style, photorealistic, ultra sharp focus.i_am_pramod391\n11h\n\n\ndramatic composition, dark fantasy movie poster look, 8K ultra HD, masterpiece, highly detailed, eerie fog glow, realistic reflections, spooky ambience, high contrast lighting, ghost apparition effects, atmospheric perspective. A signboard is hanging on the haunted mansion visible in the background; it reads \"Bhoot Bangla\" (BHOOT BANGLA), and blood appears to be dripping from it. Negative Prompt: low quality, blurry, cartoon, distorted face, extra limbs, bad anatomy, oversaturated, noisy image, flat lighting, watermark, text, cropped, duplicate ghosts, low resolution, deformed vehicle, unrealistic proportions Portrait Orientation. ",
+        "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782194569/prompts/ucq3kq2hzys3wwdlcwjl.webp",
+        "slug": "bhoot-bangla-moonlit-haunting-of-the-phantom-estate-nv39s",
+        "href": "/prompts/bhoot-bangla-moonlit-haunting-of-the-phantom-estate-nv39s",
+        "category": "Cinematic"
+      },
+      {
+        "type": "prompt",
+        "title": "THE MODERN ICON: Minimalist Luxury Editorial – Ram Dixit Vogue Campaign",
+        "prompt": "Ultra-realistic high-fashion editorial campaign, man with medium-length dark hair styled back, sharp jawline and subtle stubble, in tailored oversized wool blazer over a crisp white button-down shirt with open collar, slim-fit wool trousers tucked into black leather Chelsea boots, luxury minimalist leather messenger bag as hero accessory slung over shoulder, minimal staircase set with red-to-brown gradient backdrop, bold powerful Vogue cover aesthetic, photographed by Ram Dixit",
+        "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782194520/prompts/qyeg8f4dymwvewmhjqmb.webp",
+        "slug": "the-modern-icon-minimalist-luxury-editorial-ram-dixit-vogue-campaign-b1kj7",
+        "href": "/prompts/the-modern-icon-minimalist-luxury-editorial-ram-dixit-vogue-campaign-b1kj7",
+        "category": "Cinematic"
+      },
+      {
+        "type": "prompt",
+        "title": "URBAN COLLAGE IDENTITY: Global Street Luxe Editorial Campaign",
+        "prompt": "Create a high-resolution 8K portrait poster in an Urban Fashion Editorial Collage style, blending contemporary street-fashion aesthetics with premium editorial magazine design. The overall composition should feel bold, stylish, modern, and visually layered, combining elements of luxury fashion campaigns, urban culture, and artistic collage experimentation.Incorporate dynamic poster ornaments and decorative elements that strongly reflect the Urban Fashion Editorial Collage aesthetic, such as ripped paper textures, layered magazine cutouts, abstract geometric accents, expressive brush strokes, typography fragments, street-style graphic overlays, halftone textures, tape effects, paint splashes, handwritten scribbles, and fashionable editorial layout compositions. Every decorative element should feel intentional, stylish, and visually balanced rather than overcrowded. Humanity really looked at torn paper and graffiti textures and decided, “yes, this is luxury now.” Somehow it works. The subject’s pose must not resemble the reference photo. Create a completely different body posture and facial expression with a more natural, expressive, and emotionally alive presence. Avoid stiff, awkward, flat, or overly symmetrical posing.The subject should radiate the confident elegance of an international fashion model, with fluid body language, subtle movement, and a cinematic editorial attitude. The expression should feel charismatic, effortless, fashionable, and modern, as if captured during a high-end streetwear magazine photoshoot rather than a static studio portrait.Add slight motion energy through posture, clothing movement, hand placement, camera angle, or gaze direction to make the composition feel more alive and dynamic. The outfit must feature modern casual fashion with a stylish and trendy urban aesthetic. Avoid monotonous clothing design, colors, or materials. Combine fashionable layers, contemporary cuts, unique textures, stylish accessories, and varied color palettes that complement the poster composition.The clothing should feel premium, youthful, and fashion-forward, inspired by global streetwear and luxury casual editorial styling. Mix different fabric materials, patterns, and tones naturally to create visual richness without making the outfit look chaotic or overly exaggerated. Use dramatic editorial lighting with strong contrast and depth to enhance the fashion atmosphere. The background should integrate seamlessly with the collage elements, creating a visually immersive poster composition filled with layered urban energy and modern fashion identity. Maintain a clean balance between subject visibility and decorative complexity so the poster still feels premium and professionally art-directed. \nThe final result should look like a sophisticated international fashion campaign poster with a strong urban editorial character, ultra-detailed textures, crisp focus, cinematic color grading, and highly polished visual quality in ultra-detailed 8K resolution.\n",
+        "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782194472/prompts/hftdvskqq7msnpr69u4p.webp",
+        "slug": "urban-collage-identity-global-street-luxe-editorial-campaign-geu25",
+        "href": "/prompts/urban-collage-identity-global-street-luxe-editorial-campaign-geu25",
+        "category": "Cinematic"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "cinematic-tips",
+        "text": "Pro Tips for Writing Cinematic AI Prompts"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Use camera and lens terminology: Specify 35mm, 50mm, or 85mm f/1.4 for natural bokeh and depth separation.",
+          "Define lighting direction: Call out golden hour, volumetric sunbeams, neon rim lighting, or moody chiaroscuro shadows.",
+          "Specify aspect ratios: Use --ar 16:9 for widescreen movie stills or --ar 2:3 for dramatic vertical poster layouts.",
+          "Incorporate subtle imperfections: Mention gentle film grain, lens flare, motion blur, or volumetric mist for added realism.",
+          "Avoid vague quality terms: Instead of \"high quality\", detail specific camera models (Canon EOS R5, Hasselblad, Leica M10) and film stocks (Kodak Portra 400, Fujifilm)."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "conclusion",
+        "text": "Conclusion"
+      },
+      {
+        "type": "paragraph",
+        "text": "Achieving a truly cinematic aesthetic with AI comes down to directing the scene like a filmmaker. Specify your subject, control the lighting, select the right lens, and craft an unforgettable atmospheric mood."
+      },
+      {
+        "type": "paragraph",
+        "text": "Use these 50 copy-and-paste prompts as inspiration for your next AI art project or customize them to bring your creative vision to life!"
+      },
+      {
+        "type": "relatedPrompts",
+        "text": "Explore More Cinematic & Photo Prompts",
+        "title": "Explore More Cinematic & Photo Prompts",
+        "ids": [
+          "cinematic-prompts",
+          "portrait-prompts",
+          "cyberpunk-prompts",
+          "fantasy-prompts",
+          "landscape-prompts"
+        ]
+      }
+    ]
+  },
+  {
     "id": "ai-photography-prompts-guide-realistic-photos",
     "slug": "ai-photography-prompts-guide-realistic-photos",
     "title": "AI Photography Prompts: Complete Guide to Realistic AI Photos",
