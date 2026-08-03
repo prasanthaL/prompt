@@ -149,5 +149,26 @@
     "models": [
       "Gemini AI"
     ]
+  },
+  {
+    "id": "cm4kybdbzek",
+    "title": "Gilded South Indian Bridal Portrait",
+    "slug": "gilded-south-indian-bridal-portrait-iz1i0",
+    "category": "Wedding",
+    "fullPrompt": "Use the uploaded image as the ONLY facial identity reference. Preserve 100% facial resemblance, including the exact face shape, forehead, eyebrows, deep brown eyes, nose shape, lips, jawline, skin tone, hairline, facial proportions, soft smile, and elegant sideward gaze.Do NOT alter the person's identity in any way.Priority: My Face > Sideward Gaze > Bridal Look > Jewelry > Saree > Hairstyle > Lighting > Floral Background Main Concept Create an ultra-realistic luxury South Indian bridal editorial inspired by Vogue India Brides, Harper's Bazaar Bride, Sabyasachi Mukherjee, Tarun Tahiliani, Kanjeevaram heritage, Dior Haute Couture, Tanishq, and Annie Leibovitz.The mood should be royal, timeless, elegant, cinematic, luxurious, romantic, and devotional, portraying a graceful South Indian bride seated amidst an opulent floral backdrop. Composition Vertical 4:5 luxury editorial portrait Waist-up seated composition Body turned slightly to the left Face looking gracefully to the right Soft, joyful smile Relaxed shoulders Hands resting elegantly on the lap Luxury magazine-cover framing Face & Beauty 100% identical face to the uploaded referenceRich red border with intricate gold zari weaving Matching heavily embroidered elbow-length blouse Modest neckline Beautifully draped pallu Luxurious silk texture Traditional bridal elegance Jewelry Grand temple jewelry set Heavy layered antique gold necklaces Emerald and pearl bridal choker Traditional South Indian maang tikka Elegant bridal nath nose ring) Heavy gold jhumkas Gold kamarband Traditional gold bangles Bridal rings Waist belt with intricate craftsmanship Pose Graceful seated postureSoft sideward gaze Calm, confident smile Elegant feminine posture Natural body proportions Royal bridal presence Background Luxurious floral wall with white, cream, blush pink, lavender, and  green blooms Soft bokeh flowers Elegant wedding décor Warm, premium bridal ambience Fine-art editorial styling Lighting Warm golden cinematic lighting Soft diffused key light Gentle rim light around the hair Natural facial highlights Balanced shadows DSLR-quality realism Premium luxury color grading CameraFull-frame DSLR 85mm portrait lens f/1.8 aperture Ultra-sharp facial details Cinematic depth of field 8K HDR Hyper-realistic skin texture Vogue India bridal editorial quality.\n\n",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1785686548/prompts/claj2fxbspxznadqasak.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-08-02T16:02:27.434Z",
+    "updatedAt": "2026-08-02T16:02:27.434Z",
+    "tags": [],
+    "models": [
+      "Chat GPT"
+    ]
   }
 ]

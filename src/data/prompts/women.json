@@ -1508,5 +1508,68 @@
     "models": [
       "Gemini AI"
     ]
+  },
+  {
+    "id": "cmgwogrc590",
+    "title": "Ananya: Blue Butterfly Elegance",
+    "slug": "ananya-blue-butterfly-elegance-tuml1",
+    "category": "Women",
+    "fullPrompt": "The image features a beautiful collage of a woman named Ananya, wearing a stunning blue saree adorned with intricate patterns and silver embellishments. The background is a dreamy blue with butterflies and sparkling elements, enhancing the ethereal quality of the image. There are multiple pictures of Ananya in different poses, showcasing her elegance and charm. The name \"Ananya\" is artistically integrated into the design.\n",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1785683468/prompts/obmqpnu5swclkauydtlg.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-08-02T15:11:08.587Z",
+    "updatedAt": "2026-08-02T15:11:08.587Z",
+    "tags": [],
+    "models": [
+      "Chat GPT"
+    ]
+  },
+  {
+    "id": "cmly83j565d",
+    "title": "Regal Purple Saree Portrait",
+    "slug": "regal-purple-saree-portrait-a83xt",
+    "category": "Women",
+    "fullPrompt": "A premium royal portrait of an elegant young woman seated gracefully in a luxurious indoor setting, dressed in a deep plum-purple embroidered saree adorned with intricate gold detailing. She wears an opulent diamond and amethyst jewelry set featuring a statement necklace, chandelier earrings, maang tikka, bangles, and a matching ring. Warm candlelight, rich floral décor, and a sophisticated palace-inspired backdrop create a regal, cinematic ambiance.Her radiant smile, refined styling, and luxurious composition.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1785685891/prompts/aogiud0cdxhnsecciptl.webp",
+    "isPremium": false,
+    "isTrending": true,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-08-02T15:51:31.064Z",
+    "updatedAt": "2026-08-02T15:51:31.064Z",
+    "tags": [],
+    "models": [
+      "Chat GPT"
+    ]
+  },
+  {
+    "id": "cmoe1q6o7n5",
+    "title": "Enchanted Lavender Saree Portrait",
+    "slug": "enchanted-lavender-saree-portrait-nleiv",
+    "category": "Women",
+    "fullPrompt": "Ethereal portrait photograph of a young woman with wavy dark hair styled elegantly to one side, cascading down in loose curls with a decorative hair accessory pinned near her crown. She glances back over her shoulder with a warm, radiant smile, showing a bindi on her forehead. She wears an ornate silver/diamond chandelier drop earring and a delicate matching necklace, along with a sparkling bracelet on her wrist. She's dressed in a stunning deep purple/violet saree with intricate sequin and beadwork embellishments throughout, featuring a sheer, delicately embroidered blouse with a low, open back design showing her bare shoulders and back elegantly. The backless blouse has fine crystal and thread detailing along the border. The background is a dreamy, enchanted garden filled with abundant purple wisteria and lavender flowers cascading from above and surrounding her on all sides.Delicate, glowing purple butterflies flutter throughout the scene, adding a magical, whimsical quality. Soft rays of ethereal light beam down diagonally from the upper right corner, creating a luminous, fairy-tale atmosphere. The entire color palette is a rich monochromatic scheme of deep purples, violets, and lavenders with silver sparkle accents. The lighting is soft, mystical, and glowing with a dreamy soft-focus quality throughout.The overall aesthetic is fantastical, romantic, and enchanting with a digital art/fantasy photography style. The mood is magical, elegant, and captivating.\n",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1785686050/prompts/cevta9opkozhfoy5ryas.webp",
+    "isPremium": false,
+    "isTrending": true,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-08-02T15:54:10.529Z",
+    "updatedAt": "2026-08-02T15:54:10.529Z",
+    "tags": [],
+    "models": [
+      "Chat GPT"
+    ]
   }
 ]
