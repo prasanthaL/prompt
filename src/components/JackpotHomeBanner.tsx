@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { Sparkles, X, Zap, Gift, Star } from "lucide-react";
+import { trackEvent } from "@/lib/analytics";
 
 const DELAY_MS = 1200;
 
@@ -100,7 +101,10 @@ export default function JackpotHomeBanner() {
           {/* CTA button */}
           <Link
             href="/jackpot"
-            onClick={dismiss}
+            onClick={() => {
+              dismiss();
+              trackEvent("jackpot_route_click", { source: "home_banner" });
+            }}
             className="shrink-0 px-4 py-2.5 rounded-xl bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-400 hover:to-orange-400 text-slate-950 text-xs font-black uppercase tracking-wider shadow-lg shadow-amber-500/30 hover:scale-105 active:scale-95 transition-all duration-200 cursor-pointer whitespace-nowrap"
           >
             Spin Now →
