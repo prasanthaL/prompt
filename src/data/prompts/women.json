@@ -1571,5 +1571,47 @@
     "models": [
       "Chat GPT"
     ]
+  },
+  {
+    "id": "cm4onbazkao",
+    "title": "Golden-Hour Garden Polaroid Collage",
+    "slug": "goldenhour-garden-polaroid-collage-izp8m",
+    "category": "Women",
+    "fullPrompt": "Create an artistic three-layer collage made from overlapping premium Polaroid photo frames arranged vertically on a warm textured background.\nTop Polaroid:\nClose-up laughing candid portrait with soft natural light and loose wavy hair.\nCenter Polaroid (Largest):\nBeautiful seated portrait wearing a cream floral dress in a blooming garden surrounded by white flowers and warm sunset lighting.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1785912985/prompts/h87idayljhyggzefixbk.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-08-05T06:56:25.863Z",
+    "updatedAt": "2026-08-05T06:56:25.863Z",
+    "tags": [],
+    "models": [
+      "Chat GPT"
+    ]
+  },
+  {
+    "id": "cm0w7xr7a6r",
+    "title": "Playful Doodle Hug Studio Portrait",
+    "slug": "playful-doodle-hug-studio-portrait-hzulq",
+    "category": "Women",
+    "fullPrompt": "Create a premium photorealistic minimalist portrait in a 1:1 square composition featuring a cute young woman seated casually on the floor inside a clean contemporary studio with a seamless light grey backdrop. She wears an oversized dark charcoal hoodie, cream straight-leg pants, white socks, and chunky white sneakers. Her pose is relaxed with naturally crossed legs, shoulders slightly angled toward the camera, one eye playfully winking, and a warm, subtle smile that conveys charm and confidence.Behind her, integrate a large hand-drawn black-and-white doodle character as if it exists in the same space. The whimsical cartoon figure gently hugs her from behind, wrapping its oversized sketch-style arms around her shoulders while softly squeezing one of her cheeks. The interaction should feel affectionate, playful, and seamlessly blended with reality, creating the illusion that the illustrated character is physically embracing her.Use soft diffused studio lighting with natural shadow falloff, subtle rim lighting for separation, realistic skin tones, premium fabric textures, crisp sneaker details, and finely rendered pencil-like doodle lines. Maintain a clean, uncluttered aesthetic with balanced negative space and perfect subject centering.Capture with a full-frame camera, 50mm lens, f/2.8, ISO 100, producing shallow depth of field while keeping the subject and doodle embrace sharply in focus. Ultra-detailed, cinematic, editorial-quality, highly realistic, natural color grading, HDR, 8K resolution.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1785914415/prompts/zhwq7bupugifdedljceu.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-08-05T07:20:16.225Z",
+    "updatedAt": "2026-08-05T07:20:16.225Z",
+    "tags": [],
+    "models": [
+      "Chat GPT"
+    ]
   }
 ]

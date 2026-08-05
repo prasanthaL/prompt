@@ -481,5 +481,26 @@
     "models": [
       "Gemini AI"
     ]
+  },
+  {
+    "id": "cmbzbe6q44w",
+    "title": "Royal Blue and Gold Status Crest",
+    "slug": "royal-blue-and-gold-status-crest-7hcon",
+    "category": "Logo Design",
+    "fullPrompt": "Luxury 3D monogram logo featuring the letters \"S\" and \"P\" intertwined, glossy Bulu enamel finish with polished metallic gold beveled edges, royal premium emblem design, elegant gold ribbon wrapped across the letters engraved with the word \"STATUS.POINT011\" in uppercase serif font, small geometric diamond icon beside the text, ornate golden royal crown centered above the monogram, decorative fleur-de-lis ornament below, smooth champagne beige gradient background, ultra-realistic reflections,",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1785916605/prompts/pgtmhdoqmgvxxngsxxbe.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-08-05T07:56:45.511Z",
+    "updatedAt": "2026-08-05T07:56:45.511Z",
+    "tags": [],
+    "models": [
+      "Chat GPT"
+    ]
   }
 ]

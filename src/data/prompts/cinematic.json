@@ -347,10 +347,10 @@
     "views": 0,
     "likes": 0,
     "createdAt": "2026-05-10T06:41:50.511Z",
-    "updatedAt": "2026-06-23T06:48:49.554Z",
+    "updatedAt": "2026-08-05T06:09:21.364Z",
     "isTrending": false,
     "isLatest": false,
-    "isFeatured": true,
+    "isFeatured": false,
     "tags": [],
     "models": [
       "Gemini AI"
@@ -2867,10 +2867,10 @@
     "views": 0,
     "likes": 0,
     "createdAt": "2026-05-14T12:27:57.578Z",
-    "updatedAt": "2026-06-22T16:40:17.990Z",
+    "updatedAt": "2026-08-05T06:09:40.837Z",
     "isTrending": false,
     "isLatest": false,
-    "isFeatured": true,
+    "isFeatured": false,
     "tags": [],
     "models": [
       "Gemini AI"

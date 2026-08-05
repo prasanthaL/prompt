@@ -2468,10 +2468,10 @@
     "views": 0,
     "likes": 0,
     "createdAt": "2026-05-17T16:15:41.648Z",
-    "updatedAt": "2026-07-15T07:47:09.570Z",
-    "isTrending": true,
+    "updatedAt": "2026-08-05T06:02:44.583Z",
+    "isTrending": false,
     "isLatest": false,
-    "isFeatured": true,
+    "isFeatured": false,
     "tags": [],
     "models": [
       "Gemini AI"
