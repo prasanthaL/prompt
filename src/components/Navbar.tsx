@@ -6,6 +6,7 @@ import { useRouter } from "next/navigation";
 import { Search, Moon, Sun, Menu, X, Sparkles } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useTheme } from "next-themes";
+import { trackEvent } from "@/lib/analytics";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -76,6 +77,11 @@ const Navbar = () => {
             <Link
               key={link.name}
               href={link.href}
+              onClick={() => {
+                if (link.isHot) {
+                  trackEvent("jackpot_route_click", { source: "navbar_desktop" });
+                }
+              }}
               className={cn(
                 "text-sm font-medium transition-colors flex items-center gap-1.5",
                 link.isHot
@@ -140,7 +146,12 @@ const Navbar = () => {
                   "text-lg font-medium flex items-center justify-between",
                   link.isHot ? "text-amber-400 font-bold" : "text-foreground/70 hover:text-foreground"
                 )}
-                onClick={() => setIsMobileMenuOpen(false)}
+                onClick={() => {
+                  setIsMobileMenuOpen(false);
+                  if (link.isHot) {
+                    trackEvent("jackpot_route_click", { source: "navbar_mobile" });
+                  }
+                }}
               >
                 <span>{link.name}</span>
                 {link.isHot && (
