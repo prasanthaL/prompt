@@ -3,7 +3,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { Copy, Eye, Heart, ArrowUpRight } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
 
 interface PromptCardProps {
   id: string;
@@ -116,32 +116,6 @@ const PromptCard = ({
           </div>
         )}
 
-        <div className="mt-auto pt-4 border-t border-border flex items-center justify-between">
-          <div className="flex items-center gap-4 text-[10px] font-bold text-foreground/30 uppercase tracking-widest">
-            <span className="flex items-center gap-1">
-              <Eye className="w-3.5 h-3.5" />
-              {views}
-            </span>
-            <span className="flex items-center gap-1">
-              <Heart className="w-3.5 h-3.5" />
-              {likes}
-            </span>
-          </div>
-
-          <div className="flex -space-x-2">
-            {[1, 2, 3].map((i) => (
-              <div key={i} className="w-6 h-6 rounded-full border-2 border-background bg-foreground/10 overflow-hidden relative">
-                <Image
-                  src={`https://i.pravatar.cc/100?img=${i + 10}`}
-                  alt="user avatar"
-                  width={24}
-                  height={24}
-                  className="object-cover"
-                />
-              </div>
-            ))}
-          </div>
-        </div>
       </div>
     </>
   );

@@ -101,7 +101,10 @@ export default function PrivacyPolicyPage() {
               4. Cookies and Tracking Technologies
             </h2>
             <p>
-              We use functional cookies to save local preference states (such as your chosen display theme - light or dark). Third-party services like Google Analytics may collect cookies and generate analytics to measure general audience patterns. You can manage or disable cookie tracking directly inside your personal browser options.
+              We use functional cookies and browser local storage to deliver core site features, such as saving your display preferences (light or dark mode) and tracking your anonymous user session (via an anonymous session cookie <code className="text-xs bg-white/10 px-1.5 py-0.5 rounded text-amber-300">apn_uid</code>) for our <Link href="/jackpot" className="text-primary hover:underline font-semibold">Jackpot Wheel</Link> daily spins, streak counters, and reward claim history.
+            </p>
+            <p>
+              Third-party services like Google Analytics may also collect cookies and generate aggregated usage analytics to help us measure general audience patterns and improve platform performance. You can manage, block, or delete cookies directly inside your browser settings at any time.
             </p>
           </section>
 
