@@ -251,6 +251,12 @@ export default function RootLayout({
           <CookieBanner />
         </ThemeProvider>
         <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8424254342497536"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
+        <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-B1V1JZQDR3"
           strategy="afterInteractive"
         />
