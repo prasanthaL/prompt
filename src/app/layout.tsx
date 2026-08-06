@@ -230,6 +230,7 @@ const schemas = [
 
 
 import { ThemeProvider } from "@/components/ThemeProvider";
+import CookieBanner from "@/components/CookieBanner";
 
 export default function RootLayout({
   children,
@@ -247,6 +248,7 @@ export default function RootLayout({
       <body className={`${outfit.variable} font-sans antialiased`}>
         <ThemeProvider attribute="class" defaultTheme="dark" forcedTheme="dark">
           {children}
+          <CookieBanner />
         </ThemeProvider>
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-B1V1JZQDR3"
