@@ -4198,5 +4198,26 @@
     "models": [
       "Gemini AI"
     ]
+  },
+  {
+    "id": "cmfwzw7iso8",
+    "title": "Patriotic Poster Description",
+    "slug": "patriotic-poster-description-kwiu9",
+    "category": "Cinematic",
+    "fullPrompt": "Ultra-realistic cinematic 4:5 Independence Day portrait of a handsome young Indian man wrapped in the Indian tricolor flag, partially covering his face with the saffron fabric, intense eye contact, thick messy side-swept black hair, groomed beard, black wristwatch, pure black studio background, dramatic soft lighting, Ashoka Chakra visible, patriotic typography \"15 August – Hindustan Zindabad\", India Gate and Taj Mahal silhouettes, HDR, 8K, DSLR, sharp focus, premium poster  ",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1786217104/prompts/cvb4x0rnexqolp6jggai.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-08-08T19:25:03.270Z",
+    "updatedAt": "2026-08-08T19:25:03.270Z",
+    "tags": [],
+    "models": [
+      "Chat GPT"
+    ]
   }
 ]

@@ -145,5 +145,26 @@
     "models": [
       "Chat GPT"
     ]
+  },
+  {
+    "id": "cmqeedinawj",
+    "title": "Focus, Think, Build: Green Visionary Poster",
+    "slug": "focus-think-build-green-visionary-pos-loxiy",
+    "category": "Poster Design",
+    "fullPrompt": " Create a modern 3D promotional poster using my uploaded photo as the facial reference. Preserve my exact facial features, skin tone, and face shape. Place me sitting confidently on a stylish oversized dark green sculptural chair, wearing dark green sweatshirt and sweatpant outfit with white sneakers. Use a clean gradient green background with soft abstract 3D shapes, floating glossy spheres, and subtle studio lighting",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1786215918/prompts/fcpbfkjlr8idqcjgqpnz.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-08-08T19:05:18.167Z",
+    "updatedAt": "2026-08-08T19:05:18.167Z",
+    "tags": [],
+    "models": [
+      "Chat GPT"
+    ]
   }
 ]

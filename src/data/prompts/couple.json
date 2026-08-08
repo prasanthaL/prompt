@@ -1867,5 +1867,26 @@
     "models": [
       "Chat GPT"
     ]
+  },
+  {
+    "id": "cmbn9qcauli",
+    "title": "Surreal Back-to-Back Portraits with Floral Divider",
+    "slug": "surreal-backtoback-portraits-with-flor-vslh6",
+    "category": "Couple",
+    "fullPrompt": "Creative optical illusion double-profile art, surreal side profile silhouette composition. A man's facial profile looking to the left seamless visually merged back-to-back with a woman's facial profile looking to the right. A wooden beam or architectural wall fragment creates a surreal vertical slice through the man's head, revealing hanging floral garlands and dried flowers drifting in a bright, ethereal background behind them. Soft warm lighting, minimalist bright white backdrop, warm tone color palette, cinematic movie poster aesthetics, ultra-detailed textures, moody atmosphere, 8k resolution, photorealistic studio photography --ar 9:16 Don’t change face",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1786215638/prompts/y0en1qkgxt6qx0xd5rhe.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-08-08T19:00:38.124Z",
+    "updatedAt": "2026-08-08T19:00:38.124Z",
+    "tags": [],
+    "models": [
+      "Chat GPT"
+    ]
   }
 ]
