@@ -1888,5 +1888,47 @@
     "models": [
       "Chat GPT"
     ]
+  },
+  {
+    "id": "cmoynui0j99",
+    "title": "Elegant Emerald Traditional Couple Portrait",
+    "slug": "elegant-emerald-traditional-couple-portr-uw0y9",
+    "category": "Couple",
+    "fullPrompt": "A high-resolution cinematic studio portrait of an attractive Indian couple posing together in matching dark emerald green attire. The woman wears a shimmering, sequined dark emerald green saree with intricate gold embroidered borders and a matching puff-sleeve blouse, styled with an elegant braided crown hairstyle, long straight black hair, subtle gold necklace, traditional jhumka earrings, bangles, and a delicate bindi, posing gracefully with hands gently clasped in front.  ",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1786272486/prompts/c5wexupkneu8wrmpxept.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-08-09T10:48:07.040Z",
+    "updatedAt": "2026-08-09T10:48:07.040Z",
+    "tags": [],
+    "models": [
+      "Chat GPT"
+    ]
+  },
+  {
+    "id": "cmx17h7n6ee",
+    "title": "Romantic Indian Couple in Sunlit Pink Studio",
+    "slug": "romantic-indian-couple-in-sunlit-pink-st-cizxx",
+    "category": "Couple",
+    "fullPrompt": "Ultra-photorealistic same Indian couple from reference images, preserving facial identity. Girl walks slightly ahead while holding the man's hand, looking back over her shoulder with a playful smile; he looks at her affectionately. Pastel-yellow Anarkali and dupatta, jhumkas, bangles, bindi; sage-green shirt and dark blue jeans. Pastel-pink studio, soft romantic shadows, realistic fabric and skin texture, cinematic lighting, 85mm DSLR, shallow depth of field, creamy bokeh, 8K HDR.  ",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1786272930/prompts/yawr4udzoygvmodsk64b.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-08-09T10:55:30.778Z",
+    "updatedAt": "2026-08-09T10:55:30.778Z",
+    "tags": [],
+    "models": [
+      "Chat GPT"
+    ]
   }
 ]
