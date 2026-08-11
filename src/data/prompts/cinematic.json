@@ -4219,26 +4219,5 @@
     "models": [
       "Chat GPT"
     ]
-  },
-  {
-    "id": "cmt51c6hzc8",
-    "title": "Street-fashion Photo Request",
-    "slug": "streetfashion-photo-request-uqous",
-    "category": "Cinematic",
-    "fullPrompt": "A high-quality, realistic photo of a beautiful Indian woman with long, wavy dark hair. She is wearing an elegant white Anarkali gown featuring soft yellow floral prints and a matching sheer dupatta. She is standing outdoors in the courtyard of a luxury modern villa during warm golden hour lighting. Full-body shot, photorealistic, cinematic lighting, 8k resolution, highly detailed texture. \n\n  ",
-    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1786444921/prompts/i6wiovpwcige9jy1bkyu.webp",
-    "isPremium": false,
-    "isTrending": false,
-    "isLatest": false,
-    "isFeatured": false,
-    "author": "Admin",
-    "views": 0,
-    "likes": 0,
-    "createdAt": "2026-08-11T10:42:00.349Z",
-    "updatedAt": "2026-08-11T10:42:00.349Z",
-    "tags": [],
-    "models": [
-      "Chat GPT"
-    ]
   }
 ]
