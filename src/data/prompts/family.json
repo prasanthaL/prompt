@@ -82,5 +82,26 @@
     "models": [
       "Gemini AI"
     ]
+  },
+  {
+    "id": "cmstsuaiz2y",
+    "title": "Moody Cinematic Family Portrait",
+    "slug": "moody-cinematic-family-portrait-e1rhf",
+    "category": "Family",
+    "fullPrompt": "Use the uploaded reference image as the strict visual reference for composition, lighting, posing, camera perspective, body arrangement, mood, tonal treatment, smoke, and overall photographic style. Create a highly realistic professional fine-art family studio portrait in exactly the same visual language. Do not imitate or copy facial identities from the reference; preserve the actual facial features and natural appearance of the people provided for the new image.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1786441262/prompts/xwhpl7ujqwzgtakgbokj.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-08-11T09:41:02.031Z",
+    "updatedAt": "2026-08-11T09:41:02.031Z",
+    "tags": [],
+    "models": [
+      "Chat GPT"
+    ]
   }
 ]
