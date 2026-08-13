@@ -1993,5 +1993,47 @@
     "models": [
       "Chat GPT"
     ]
+  },
+  {
+    "id": "cm0tpu397pp",
+    "title": "A Rose Rejected Under Trees",
+    "slug": "a-rose-rejected-under-trees-zjw5j",
+    "category": "Couple",
+    "fullPrompt": "A HIGH-END CINEMATIC PORTRAIT OF A STYLISH YOUNG INDIAN COUPLE IN A LUSH GREEN OUTDOOR PARK WITH A DARK, \"Sam\" LOGO ON THE TOP LEFT, SOFTLY BLURRED BOKEH BACKGROUND. THE YOUNG MODRN RED GAUN ADULT WOMAN IS KNEELING ON ONE KNEE, EMOTIONALLY OFFERING A SINGLE RED ROSE WITH BOTH HANDS WHILE LOOKING UP HOPEFULLY. THE YOUNG MAN MORDARN CLOTHS STANDS CONFIDENTLY WITH ONE HAND IN HIS POCKET AND THE OTHER HAND RAISED IN A \"STOP\" GESTURE,  LOOKING AWAY WITH A CALM, HEARTBROKEN EXPRESSION.  ",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1786642661/prompts/dxja7g4lhampxjrcqmpa.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-08-13T17:37:41.246Z",
+    "updatedAt": "2026-08-13T17:37:41.246Z",
+    "tags": [],
+    "models": [
+      "Chat GPT"
+    ]
+  },
+  {
+    "id": "cm8wogpaao9",
+    "title": "Romantic Couple in Archway",
+    "slug": "romantic-couple-in-archway-wti9q",
+    "category": "Couple",
+    "fullPrompt": "A stylish young couple posing together in a romantic archway decorated with pink and white flowers. The woman is sitting on a pink bicycle, wearing a black t-shirt with a small red heart, grey jeans, sunglasses, and white sneakers, The man stands next to the bicycle, wearing a black t-shirt with a small white heart, grey jeans, sunglasses, and black sneakers, holding her hand The bicycle features a front basket filled with pink roses",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1786643647/prompts/awjixsrzmlw22qbidxei.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-08-13T17:54:07.182Z",
+    "updatedAt": "2026-08-13T17:54:07.182Z",
+    "tags": [],
+    "models": [
+      "Chat GPT"
+    ]
   }
 ]

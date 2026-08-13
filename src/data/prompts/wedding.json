@@ -191,5 +191,26 @@
     "models": [
       "Chat GPT"
     ]
+  },
+  {
+    "id": "cmwix4yzjtp",
+    "title": "Elegant South Indian Bridal Portrait",
+    "slug": "elegant-south-indian-bridal-portrait-kfr4k",
+    "category": "Wedding",
+    "fullPrompt": "Create image, Beautiful young South Indian bride in a minimalist white studio, wearing a blush pink and gold kanjivaram silk saree with deep maroon blouse sleeves, adorned with heavy traditional temple jewelry, green gemstone details, bangles, waist belt, earrings, and maang tkka.10p.don't changed face as a uploaded imaged.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1786635065/prompts/bjsx70gzsi0s7tmelcba.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-08-13T15:31:05.887Z",
+    "updatedAt": "2026-08-13T15:31:05.887Z",
+    "tags": [],
+    "models": [
+      "Chat GPT"
+    ]
   }
 ]
