@@ -2159,5 +2159,47 @@
     "models": [
       "Chat GPT"
     ]
+  },
+  {
+    "id": "cmvrbhwqafm",
+    "title": "Girl Hugging a Panda Among Golden Sparkles",
+    "slug": "girl-hugging-a-panda-among-golden-sparkl-ch3bd",
+    "category": "Women",
+    "fullPrompt": " Create a Photorealistic high angle shot portrait of a young girl(character in the uploaded photo, no alternate) in a cute smirk expression sitting cross-legged, having a lollipop, warmly hugging a big panda toy and looking towards the camera. She has long brunette dark black hair styled in loose. She wears an yellow hoodie, black pants, and white sneakers.The background is pitch black along with magical sparkles.Hard back lit lighting highlights her hair and the panda, creating a cozy and enchanting atmosphere.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1786698777/prompts/ls01ugptn3mxtwcqtzjm.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-08-14T09:12:56.418Z",
+    "updatedAt": "2026-08-14T09:12:56.418Z",
+    "tags": [],
+    "models": [
+      "Chat GPT"
+    ]
+  },
+  {
+    "id": "cm6c4eu4mu9",
+    "title": "Red Rose in the Monochrome Crowd",
+    "slug": "red-rose-in-the-monochrome-crowd-1n7i9",
+    "category": "Women",
+    "fullPrompt": "A cinematic street portrait of a young woman walking through a crowded city, with the subject perfectly sharp while the surrounding pedestrians are blurred using a dramatic panning motion effect. The entire image is monochrome black and white except for the woman, which remains the only vivid color in the scene. She wears a Sleeveless white textured knit top paired with a flowy white chiffon skirt featuring delicate black floral prints and a bold red bow waist belt.She glances back over her shoulder with a calm, thoughtful expression, loose wind-swept hair, soft natural makeup, and a luxury shoulder bag with a deep-red rose-shaped designer crafted with layered sculpted petals and a matching chain shoulder strap. The busy urban background is filled with fast-moving commuters rendered as ghostly motion blur, emphasizing loneliness amidst the crowd.  Soft overcast daylight, shallow depth of field, subtle film grain, realistic skin texture, cinematic contrast, emotional storytelling, editorial fashion photography, premium fine-art street photography, ultra-photorealistic, Leica M11 look, Kodak Tri-X black and white film aesthetic with selective color, 50mm lens, f/1.8, ISO 100, 1/20s shutter speed, natural ambient lighting, high dynamic range, ultra-detailed, award-winning composition, 8K. Image  ",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1786699877/prompts/oeggnmud1vihghd4bhz7.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-08-14T09:31:16.327Z",
+    "updatedAt": "2026-08-14T09:31:16.327Z",
+    "tags": [],
+    "models": [
+      "Chat GPT"
+    ]
   }
 ]

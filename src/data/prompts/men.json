@@ -4488,5 +4488,131 @@
     "models": [
       "Chat GPT"
     ]
+  },
+  {
+    "id": "cm9t2jul87s",
+    "title": "Portrait Generation Request",
+    "slug": "portrait-generation-request-c6fj2",
+    "category": "Men",
+    "fullPrompt": "Ultra-realistic 8K cinematic fashion portrait using attached face/hair/body reference, 100% facial identity preservation. Medium-full body, confident dominant pose, hands in trouser pockets, chest slightly forward, head slightly back, chin raised, intense direct gaze. Messy textured black hair with slightly wet strands on forehead.Luxury black tailored suit, white shirt partly unbuttoned, loosened red-black striped tie, black trousers, white pocket square, subtle silver chain. Deep crimson-red studio background, dramatic overhead red spotlight, strong red rim light, high-contrast shadows, glossy skin highlights, luxury magazine/editorial aesthetic, realistic skin pores, natural fabric texture, volumetric lighting, shallow DOF, HDR, vibrant reds, 85mm lens, f/1.8, symmetrical composition, photorealistic masterpiece.Negative: blurry, low quality, cartoon, anime, painting, CGI, plastic skin, bad anatomy, deformed hands, extra/missing fingers, distorted face, asymmetrical   eyes, duplicate limbs, wrong proportions, messy clothing, wrong tie, over/underexposed, noise, grain, watermark, logo, text, crop, motion blur, unrealistic colors, artifacts, facial mismatch, hairstyle mismatch, body mismatch, expression mismatch.   ",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1786692269/prompts/xbv7mdoe3krpihgkq60a.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-08-14T07:24:28.631Z",
+    "updatedAt": "2026-08-14T07:24:28.631Z",
+    "tags": [],
+    "models": [
+      "Chat GPT"
+    ]
+  },
+  {
+    "id": "cm5j033o27n",
+    "title": "Photo Request for Scene",
+    "slug": "photo-request-for-scene-ftt8l",
+    "category": "Men",
+    "fullPrompt": "A handsome young Indian man posing casually in front of a glowing LED vanity mirror inside a luxury modern room, warm cinematic lighting, stylish massy hair, beard, oversized red sweatshirt with bold black typography, black trousers, metallic wristwatch, leaning on a dark wooden counter, mirror reflection in background, please keep my same uploaded pic's same face structure,  ",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1786692385/prompts/ueuqmnrio8fgasyrapct.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-08-14T07:26:23.697Z",
+    "updatedAt": "2026-08-14T07:26:23.697Z",
+    "tags": [],
+    "models": [
+      "Chat GPT"
+    ]
+  },
+  {
+    "id": "cmo6cm4cobp",
+    "title": "Rose-Scented Reverie in the Garden",
+    "slug": "rosescented-reverie-in-the-garden-4r8pp",
+    "category": "Men",
+    "fullPrompt": "A cinematic high-fashion portrait shot in a 4:5 aspect ratio. A young handsome man with thick, voluminous curly dark brown hair and a neatly groomed beard with subtle salt-and-pepper highlights, eyes closed gently in a blissful, serene expression. He is holding a single vibrant dark red rose with green leaves near his nose, smelling it gently.Dense wisps of ethereal white smoke rise and curl lazily from the rose bloom up past his face. Styling & Wardrobe: He is wearing an unbuttoned dark black floral shirt patterned with rich red and mauve vintage rose prints, revealing part of his chest with a delicate thin gold chain necklace. On his hand, he wears a prominent silver ring with a dark gemstone, and a black wrist band.Setting & Composition: A medium close-up shot set in a dense, lush garden field filled with hundreds of deep red roses. A shallow depth of field creates soft, dreamy blurred roses in the immediate foreground and background, framing him. Lighting & Camera: Dramatic studio backlight combined with soft moody ambient lighting creates a rim-light glow on his curls and highlights the delicate texture of the smoke.High detail skin texture, atmospheric lighting, moody red and dark tones, professional studio photography quality, shot on 85mm f/1.4 lens, crystal clear focus on the face and rose, 8k resolution. --ar 4:5 Key Elements Breakdown Aspect Ratio: Set to 4:5 (or 2:3 depending on the AI tool used, such as Midjourney or Stable Diffusion). Subject & Expression: Calm, serene, eyes closed, smelling the stem of a single rose. Atmospheric FX: Thick white smoke curling up from the rose bloom.Color Palette: Deep reds, dark blacks, muted greens, and soft white smoke.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1786692834/prompts/bukcwx39c5gbc4jqugfv.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-08-14T07:33:53.118Z",
+    "updatedAt": "2026-08-14T07:33:53.118Z",
+    "tags": [],
+    "models": [
+      "Chat GPT"
+    ]
+  },
+  {
+    "id": "cmzluc3ifmn",
+    "title": "Golden Birthday Watercolour Portrait Poster",
+    "slug": "golden-birthday-watercolour-portrait-pos-57o2m",
+    "category": "Men",
+    "fullPrompt": "Ultra-realistic poster collage, same Boy face as reference, accurate face match, pastel yellow outfit, stylish sunglasses, large artistic close-up portrait on left with watercolor splash effect, elegant full-body standing pose on right, smiling expression, black glass bangles, thin gold neck chain, boots, floral watercolor decorations, soft beige-golden background, premium design.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1786697721/prompts/nfdptgtasqf9hhltzm70.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-08-14T08:55:20.025Z",
+    "updatedAt": "2026-08-14T08:55:20.025Z",
+    "tags": [],
+    "models": [
+      "Chat GPT"
+    ]
+  },
+  {
+    "id": "cm8kw5jrunf",
+    "title": "Neon Portrait Request",
+    "slug": "neon-portrait-request-7wcs2",
+    "category": "Men",
+    "fullPrompt": "Use name as - [Your_Name] Create a highly detailed, cinematic neon portrait based on the uploaded reference image. IMPORTANT: Use the uploaded person’s face and identity as the primary identity reference. Preserve their natural facial features, face shape, skin tone, hairstyle, proportions, and recognizable identity. The result must clearly look like the same person from the uploaded image. Do not change their gender or facial identity.   The concept must work naturally for BOTH MALE AND FEMALE subjects. SUBJECT: A stylish young adult standing against a completely dark black background, facing the camera in a confident, calm, slightly mysterious pose. The subject is wearing a premium oversized black/dark-black shirt with a subtle matte texture. Add a very stylish pair of BEST-QUALITY rounded sunglasses: - perfectly rounded/soft circular or oval lenses - premium modern fashion design - thin elegant frame - dark tinted lenses  - realistic glass reflections - perfectly fitted to the subject’s face - sophisticated, expensive-looking aesthetic - sunglasses must look natural and photorealistic, not cartoonish - do NOT use rectangular, square, sporty, or oversized sunglasses ACCESSORIES: Add a stylish layered silver/chrome chain necklace around the neck and a few subtle silver rings. Keep the accessories fashionable and minimal. Do not add religious accessories, hats, crowns, or unnecessary jewelry. POSE AND COMPOSITION: Create a vertical close-to-medium portrait. The subject occupies the central upper portion of the image, with the face positioned around the upper-middle area. Both arms extend forward toward the camera from the lower portion of the frame. The palms are open and facing upward, as if the subject is presenting or holding the glowing name in their hands. The hands should appear naturally positioned beneath the text, creating the visual impression that the neon name is floating above the palms. Keep the pose elegant and symmetrical enough to resemble a professional fashion/editorial portrait. FACIAL EXPRESSION: Calm, confident, cool, mysterious, slightly serious expression. Natural relaxed lips. No exaggerated smile. The sunglasses should remain clearly visible. LIGHTING: Use dramatic cyberpunk-style neon lighting. Strong purple/magenta neon light should illuminate the front and lower part of the face, neck, shirt, arms, and hands.Add subtle cyan/teal rim lighting from one side of the subject, creating a beautiful purple + cyan color contrast. The lighting should softly reflect across the sunglasses, face, skin, hands, necklace, and clothing. Deep black shadows should remain around the subject. BACKGROUND: Pure black, minimal, clean, empty background. No room, no walls, no scenery, no objects. Only the subject and the glowing typography should be visible. TEXT: Place the name: \"YOUR NAME\" in the center-lower portion of the image, directly above and between the subject’s open palms. The text must be rendered as a large elegant handwritten/calligraphy script similar to premium neon sign typography. Use bright glowing white/light-lavender neon lettering with an intense purple outer glow. The lettering should look like a real physical neon tube sign: - bright white/pale lavender core - strong purple neon glow - soft bloom around the letters    - realistic illumination spilling onto the subject’s shirt and hands - smooth elegant handwritten strokes - highly readable - centered horizontally IMPORTANT TEXT ACCURACY: The ONLY visible main text must be exactly \"YOUR NAME\". Do not add quotes around it. Do not add any additional words, captions, logos, usernames, signatures, or random letters. Replace \"YOUR NAME\" with the exact name I provide. The neon name should visually appear to float just above the subject’s open palms. VISUAL STYLE:   Ultra-realistic professional fashion photography mixed with cyberpunk neon portrait aesthetics. High-end editorial photography. Photorealistic skin texture. Realistic hands and fingers. Realistic fabric. Realistic metallic reflections. Natural facial proportions. Sharp facial details. High dynamic range. Deep blacks. Cinematic contrast. Purple and cyan neon color grading. Soft atmospheric glow. Premium album-cover/poster aesthetic. FRAMING: Instagram portrait composition. 4:5 aspect ratio. Final output MUST be exactly 4:5 portrait format, preferably 1080 × 1350 pixels. Keep the subject, face, sunglasses, neon text, and hands safely inside the frame. Do not crop the head, hands, or text. Maintain the same visual hierarchy as the reference: face at top → upper body → glowing name in center-lower area → open palms underneath. NEGATIVE PROMPT: Do not change the person’s identity. Do not create a different face. Do not make the subject look like another person. No extra people. No extra hands. No malformed fingers. No extra fingers. No missing fingers. No distorted hands. No deformed face. No asymmetrical eyes. No blurry face. No cartoon style. No anime style. No illustration. No plastic-looking skin. No rectangular sunglasses. No square sunglasses. No sporty sunglasses. No cheap-looking sunglasses. No excessive jewelry. No hat. No crown. No religious clothing. No religious accessories. No background objects. No scenery. No text other than the requested name.  No watermark. No logo. No signature. No random letters. No duplicated text. No cropped hands. No cropped head. No horizontal image. OUTPUT: Photorealistic, ultra-HD, highly detailed, cinematic neon portrait, premium Instagram editorial poster, 4:5 vertical composition. ",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1786700131/prompts/oou49qjcfxkvxghyndo5.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-08-14T09:35:30.024Z",
+    "updatedAt": "2026-08-14T09:35:30.024Z",
+    "tags": [],
+    "models": [
+      "Chat GPT"
+    ]
+  },
+  {
+    "id": "cmkubf8o41r",
+    "title": "Purple Lounge with Cat Companion",
+    "slug": "purple-lounge-with-cat-companion-t1cjr",
+    "category": "Men",
+    "fullPrompt": "A high-quality, minimalist studio photograph featuring a monochromatic purple color scheme. A young man with a vibrant purple hoodie and matching purple sweatpants, lounging casually across a row of sleek, purple cabinets. He is wearing dark purple over-ear headphones, with one arm resting behind his head. On his feet are crisp, all-white sneakers. Below him, a fluffy white Persian cat drinks milk from a small purple bowl on the floor.  ",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1786702207/prompts/s981xoyouu028tnblidp.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-08-14T10:10:06.260Z",
+    "updatedAt": "2026-08-14T10:10:06.260Z",
+    "tags": [],
+    "models": [
+      "Chat GPT"
+    ]
   }
 ]
