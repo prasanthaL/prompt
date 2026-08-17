@@ -4614,5 +4614,47 @@
     "models": [
       "Chat GPT"
     ]
+  },
+  {
+    "id": "cmarnr4fiui",
+    "title": "Indonesia Independence Day Poster",
+    "slug": "indonesia-independence-day-poster-i8g6h",
+    "category": "Men",
+    "fullPrompt": "Create a premium cinematic Independence Day portrait poster for **Indonesia – 17 August Independence Day**, inspired by the provided reference image.\n\nUse the uploaded portrait as the main subject and **preserve the person’s facial identity, facial structure, hairstyle, beard, skin tone, expression, and overall appearance accurately**. Do not change the person’s identity.\n\n### Main Portrait\n\nA stylish young man wearing a sophisticated **black outfit**, positioned in the center of the composition. Capture a confident, natural three-quarter portrait pose with cinematic studio lighting. Add subtle warm highlights around the hair and shoulders.\n\n### Background\n\nCreate a dramatic **luxury black background** with a large glowing circular halo behind the subject. Use elegant **red and white lighting**, representing the Indonesian flag. Add subtle golden particles, atmospheric smoke, soft light rays, and premium cinematic glow.\n\nThe overall visual should feel **luxurious, patriotic, elegant, modern, dramatic, and high-end**, similar to a professional Independence Day campaign poster.\n\n### Indonesian Flag Theme\n\nIntegrate the Indonesian colors **red (#FF0000) and white (#FFFFFF)** into the lighting and graphic elements. Add subtle red-and-white brush strokes or flowing flag-inspired accents around the typography without overpowering the portrait.\n\n### Typography\n\nPlace elegant premium typography in the lower-middle section:\n\n**17 AUGUST**\n**INDEPENDENCE DAY**\n**INDONESIA**\n\nMake **“INDONESIA”** large, elegant, and prominent using a luxurious gold metallic handwritten/script style.\n\nBelow it, add:\n\n**MERDEKA!**\nor\n**INDEPENDENT FOREVER**\n\nAdd the person’s name underneath in a sophisticated handwritten signature style if desired.\n\n### Design Style\n\nLuxury cinematic photography, premium editorial poster, dramatic rim lighting, realistic skin texture, high contrast, black and gold luxury aesthetic combined with Indonesian red and white colors, glowing circular halo, subtle film grain, atmospheric particles, sharp details, professional typography, elegant composition, photorealistic, 4K, highly detailed.\n\n### Composition\n\nVertical **4:5 portrait poster**, centered subject, balanced negative space, professional graphic design, social-media-ready composition.\n\n**Important:** Keep the face highly realistic and recognizable. Do not distort facial features, do not alter the person’s identity, and do not add extra people. Ensure all text is spelled correctly and clearly readable.\n",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1786948317/prompts/bux7nmm2jq9eqo1cflrp.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-08-17T06:31:59.480Z",
+    "updatedAt": "2026-08-17T06:31:59.480Z",
+    "tags": [],
+    "models": [
+      "Chat GPT"
+    ]
+  },
+  {
+    "id": "cmw6cakj3s9",
+    "title": "Gabon Independence Day Celebration Poster",
+    "slug": "gabon-independence-day-celebration-poste-cqqa9",
+    "category": "Men",
+    "fullPrompt": "Create a premium cinematic Independence Day portrait poster for **Gabon – 17 August Independence Day**, inspired by the uploaded reference image. \n \nUse the uploaded portrait as the main subject and **preserve the person’s facial identity, facial structure, hairstyle, beard, skin tone, expression, and overall appearance accurately**. Do not change the person’s identity or facial features. \n \n### Main Portrait \n \nA stylish young man wearing a sophisticated **all-black outfit**, positioned prominently in the center of the composition. Use a confident yet natural expression, slightly turned toward the side, with cinematic studio lighting. Preserve the original hairstyle, beard, face shape, and realistic skin texture. \n \n### Background & Lighting \n \nCreate a luxurious **deep black cinematic background** with subtle atmospheric smoke, floating golden particles, soft shadows, and dramatic warm rim lighting. \n \nPlace a large glowing **golden circular neon halo** behind the subject, similar to the reference image. The halo should create a premium luxury portrait effect while keeping the subject sharply separated from the dark background. \n \n### Gabon National Colors \n \nIntegrate the **Gabon national flag colors — green, yellow, and blue** elegantly into the design. \n \nUse subtle green, yellow, and blue illuminated accents around the typography, small paint-brush strokes, light streaks, or decorative elements. Keep the colors sophisticated and premium rather than overly bright. \n \nDo **not** use the Indian flag or Indian saffron/white/green color arrangement. \n \n### Typography \n \nAdd elegant premium gold typography: \n \n**17 AUGUST** \n**INDEPENDENCE DAY** \n \nThen place a large artistic handwritten/script word: \n \n**GABON** \n \nUnderneath, add: \n \n**INDEPENDENT FOREVER** \n \nUse luxurious metallic-gold typography with realistic texture, subtle glow, elegant shadows, and premium embossed details. \n \nAdd a small line below for the personalized name: \n \n**[Sam]** \n \nUse a sophisticated handwritten signature-style font. \n \n### Gabon Symbolic Element \n \nInclude a subtle, elegant **Gabon flag-inspired circular emblem** or small decorative symbol near the bottom of the poster, using green, yellow, and blue. \n \nKeep the national symbolism respectful and visually refined. \n \n### Composition \n \nVertical premium poster layout, similar to a luxury fashion campaign and cinematic Independence Day celebration poster. \n \nSubject centered and dominant. \nLarge glowing golden halo behind the portrait. \nTypography arranged in the lower third. \nStrong visual hierarchy. \nClean negative space. \nPremium black-and-gold aesthetic enhanced with Gabon’s green, yellow, and blue colors. \n \n### Visual Style \n \nUltra-realistic professional photography, cinematic lighting, luxury editorial poster, dramatic contrast, realistic skin texture, sharp facial details, volumetric glow, subtle particles, premium gold foil typography, sophisticated composition, high-end advertising photography, photorealistic, 8K detail. \n \n### Final Text \n \n**17 AUGUST** \n**INDEPENDENCE DAY** \n**GABON** \n**INDEPENDENT FOREVER** \n**[YOUR NAME]** \n \n**Aspect Ratio: 4:5 vertical portrait** \n \nEnsure all text is correctly spelled, clearly readable, professionally aligned, and visually integrated into the poster. \n",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1786948524/prompts/cenqtlahucd1qdxkfqnw.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-08-17T06:35:25.995Z",
+    "updatedAt": "2026-08-17T06:35:25.995Z",
+    "tags": [],
+    "models": [
+      "Chat GPT"
+    ]
   }
 ]
