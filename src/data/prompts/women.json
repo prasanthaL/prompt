@@ -2201,5 +2201,26 @@
     "models": [
       "Chat GPT"
     ]
+  },
+  {
+    "id": "cmu5y7e4abx",
+    "title": "Romantic Pink Blossom Portrait Montage",
+    "slug": "romantic-pink-blossom-portrait-montage-i2b56",
+    "category": "Women",
+    "fullPrompt": "Give the exact same face 8k ultra image A stylized portrait of a woman with, wearing a pink-to-white stone work sari matching 3quatar sleevele blouse with matching simple jewelry churi wear. The composition features a full-body pose leaning against a tree with vibrant pink bougainvillea, alongside a large, faded profile close-up The background is a desaturated, bokeh lit forest.  Artistic cursive textreads Its Kiran with small red heart accents.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1787052207/prompts/jgcvfqgjml6u4kmjd8gj.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-08-18T11:23:27.424Z",
+    "updatedAt": "2026-08-18T11:23:27.424Z",
+    "tags": [],
+    "models": [
+      "Chat GPT"
+    ]
   }
 ]

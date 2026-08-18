@@ -4219,5 +4219,47 @@
     "models": [
       "Chat GPT"
     ]
+  },
+  {
+    "id": "cm47989axhk",
+    "title": "Poster design",
+    "slug": "poster-design-rn5bh",
+    "category": "Cinematic",
+    "fullPrompt": "Create a premium vertical motivational portrait poster with a peaceful minimalist editorial aesthetic. Use the uploaded/reference person as the main subject and preserve his facial features, hairstyle, skin tone, body proportions, and overall identity accurately.\n\nShow the stylish young man sitting casually on a large grassy area in a quiet peaceful park. Instead of sitting on a wall or rooftop, he is sitting naturally on the grass with one knee slightly raised.\n\nA small turtle is slowly walking across the grass in front of him. The man leans slightly forward, watching the turtle with a genuine amused smile.\n\nThe interaction should feel natural, peaceful, and meaningful.\n\nHe wears a stylish casual overshirt, plain t-shirt, relaxed trousers, and clean sneakers.\n\nUse soft afternoon sunlight, subtle blurred trees in the background, warm natural colors, gentle shadows, and large clean negative space at the top of the composition.\n\nAt the top, add:\n\n**Take Your Time**\n\nUse thin elegant handwritten script for **“Take Your”** and large expressive brush-style lettering for **“Time”**.\n\nBelow that, add:\n\n**SLOW PROGRESS IS STILL PROGRESS**\n\nUse clean uppercase modern sans-serif typography.\n\nCreate realistic cinematic lifestyle photography, detailed grass texture, realistic turtle shell, natural skin texture, premium editorial composition, calm emotional atmosphere, minimalist luxury poster design, soft muted colors.\n\nAspect ratio: 4:5 vertical poster.\n\nNegative prompt: distorted face, changed identity, unrealistic turtle, oversized turtle, duplicate animals, extra limbs, extra fingers, bad hands, unnatural pose, cluttered background, cartoon style, low quality, watermark, logo, misspelled typography.\n",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1787051426/prompts/fidnc1c3kimlsaotwybm.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-08-18T11:10:26.658Z",
+    "updatedAt": "2026-08-18T11:10:26.658Z",
+    "tags": [],
+    "models": [
+      "Chat GPT"
+    ]
+  },
+  {
+    "id": "cmw296ebypt",
+    "title": "Be Free: City Dreams Take Flight",
+    "slug": "be-free-city-dreams-take-flight-2hfqu",
+    "category": "Cinematic",
+    "fullPrompt": "Create a premium vertical motivational portrait poster with a clean cinematic urban aesthetic. Use the uploaded/reference person as the main subject and preserve his facial features, hairstyle, skin tone, body proportions, and overall identity accurately.\n\nShow the stylish young man standing alone on a quiet modern city street during soft morning light. His hands are casually placed in his jacket pockets.\n\nSeveral small birds are naturally gathered on the pavement near his feet, while one bird is captured flying upward into the open sky.\n\nThe man is looking upward with a peaceful, thoughtful expression. His pose should feel candid, relaxed, and cinematic.\n\nHe wears a stylish modern jacket, simple t-shirt, relaxed trousers, and fashionable sneakers.\n\nUse clean modern architecture, softly blurred buildings, muted urban colors, subtle natural shadows, and plenty of negative space above the subject.\n\nAt the top, add:\n\n**Be Free**\n\nUse elegant handwritten script for **“Be”** and large expressive brush-style lettering for **“Free”**.\n\nBelow that, add:\n\n**SOME DREAMS NEED WINGS**\n\nUse clean uppercase modern sans-serif typography.\n\nCreate premium urban lifestyle photography, realistic birds, cinematic depth of field, subtle atmospheric lighting, realistic skin texture, editorial fashion photography, clean composition, minimalist motivational poster design.\n\nAspect ratio: 4:5 vertical poster.\n\nNegative prompt: distorted face, changed identity, duplicate person, unrealistic birds, extra wings, distorted body, extra fingers, bad hands, cluttered street, blurry image, cartoon style, watermark, logo, misspelled text.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1787051631/prompts/wym3osqxfawj9pam9yop.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-08-18T11:13:54.230Z",
+    "updatedAt": "2026-08-18T11:13:54.230Z",
+    "tags": [],
+    "models": [
+      "Chat GPT"
+    ]
   }
 ]

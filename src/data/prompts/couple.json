@@ -2203,5 +2203,26 @@
     "models": [
       "Chat GPT"
     ]
+  },
+  {
+    "id": "cm7pehsj7hq",
+    "title": "Mirror Selfie Portrait",
+    "slug": "mirror-selfie-portrait-770gt",
+    "category": "Couple",
+    "fullPrompt": "**Ultra-realistic cinematic couple mirror selfie portrait, vertical 4:5 composition.** A stylish young South Asian couple standing closely together in front of a large minimalist mirror. The woman is standing in the foreground, smiling naturally while taking a mirror selfie with a modern black smartphone held in one hand. The man stands closely behind her, looking at her with a soft, loving and confident expression.\n\nThe woman is wearing an elegant, luxurious **deep burgundy / wine-red floor-length gown** with a fitted patterned bodice, half sleeves, subtle embroidered geometric detailing, a flowing draped skirt, and rich velvet-like fabric cascading naturally to the floor. She wears delicate earrings, a subtle necklace, and a bracelet. Her long dark hair is naturally styled, with realistic skin texture and a warm, beautiful smile.\n\nThe man is wearing a sophisticated **deep burgundy long-sleeve shirt**, slightly fitted, paired with elegant black trousers, a black belt, and a stylish luxury wristwatch. He has neatly styled dark hair, a well-groomed beard and moustache, and stands protectively and naturally behind her.\n\nThe setting is a premium minimalist indoor space with a textured warm beige and dark charcoal wall. Soft golden sunlight enters from the side, creating beautiful dramatic **window-frame shadows and soft tree shadows** across the wall and floor. Warm cinematic lighting, natural shadows, romantic atmosphere, realistic fabric folds, highly detailed clothing textures, realistic hands, accurate body proportions, professional fashion photography, luxury editorial aesthetic, shallow depth of field, sharp facial details, photorealistic, ultra-detailed, 8K quality.\n\n**Camera angle:** full-body mirror selfie, eye-level perspective, slightly intimate composition.\n**Lighting:** soft natural afternoon sunlight with cinematic shadows.\n**Color palette:** deep burgundy, wine red, warm beige, dark charcoal, soft golden highlights.\n**Style:** luxury fashion editorial, romantic couple portrait, realistic photography.\n\n**Negative prompt:** blurry face, distorted hands, extra fingers, duplicate limbs, bad anatomy, unrealistic body proportions, deformed smartphone, messy clothing, oversaturated colors, cartoon, painting, low quality, watermark, text, logo, cropped feet.",
+    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1787057592/prompts/fq8orgsc60mk2hsbz4fq.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-08-18T12:53:13.818Z",
+    "updatedAt": "2026-08-18T12:53:13.818Z",
+    "tags": [],
+    "models": [
+      "Chat GPT"
+    ]
   }
 ]
