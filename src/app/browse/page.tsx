@@ -3,8 +3,6 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import BrowseClient from "./BrowseClient";
 import HowToUse from "./HowToUse";
-import PopularCategories from "./PopularCategories";
-import FaqSection, { BROWSE_FAQS } from "./FaqSection";
 import type { Metadata } from "next";
 import { getAllPrompts } from "@/lib/json-db";
 import { CATEGORY_DESCRIPTIONS } from "@/data/category-descriptions";
@@ -225,30 +223,17 @@ export default async function BrowsePage({ searchParams }: PageProps) {
     })),
   };
 
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: BROWSE_FAQS.map((faq) => ({
-      "@type": "Question",
-      name: faq.question,
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: faq.answer,
-      },
-    })),
-  };
-
   const dynamicSchemas = [
     dynamicWebPageSchema,
     dynamicCollectionPageSchema,
     dynamicBreadcrumbSchema,
     itemListSchema,
-    faqSchema,
   ];
 
   return (
     <>
       <script
+        id="browse-json-ld"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(dynamicSchemas),
@@ -280,10 +265,8 @@ export default async function BrowsePage({ searchParams }: PageProps) {
             </Suspense>
 
             {/* Info Sections */}
-            <div className="mt-20 pt-16 border-t border-white/[0.05] space-y-20">
+            <div className="mt-20 pt-16 border-t border-white/5">
               <HowToUse />
-              <PopularCategories />
-              <FaqSection />
             </div>
           </div>
         </div>

@@ -1,5 +1,1153 @@
 [
   {
+    "id": "ai-negative-prompt-guide",
+    "slug": "ai-negative-prompt-guide",
+    "title": "AI Negative Prompt Guide: Master the Art of Telling AI What NOT to Generate",
+    "excerpt": "Learn how to use negative prompts to eliminate anatomical errors, blurry visuals, watermarks, and unwanted styles in AI image and text generation.",
+    "coverImage": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1787152996/AI_Negative_Prompt_Guide_jzb9en.webp",
+    "coverImageAlt": "AI Negative Prompt Guide",
+    "publishedAt": "2026-08-19",
+    "updatedAt": "2026-08-19",
+    "author": {
+      "name": "Sarah Jenkins",
+      "avatar": "/images/authors/default.webp"
+    },
+    "readingTime": 10,
+    "category": "Prompt Engineering",
+    "tags": [
+      "Negative Prompts",
+      "AI Prompt Engineering",
+      "Stable Diffusion",
+      "Midjourney",
+      "ChatGPT",
+      "AI Photography",
+      "Prompt Guide"
+    ],
+    "featured": true,
+    "seo": {
+      "title": "AI Negative Prompt Guide: What NOT to Generate (2026)",
+      "description": "Master negative prompts in AI image generation. Learn how to exclude blurry visuals, extra fingers, watermarks, and unwanted styles in SDXL, Midjourney & text AI.",
+      "canonical": "/blog/ai-negative-prompt-guide",
+      "keywords": [
+        "AI negative prompt guide",
+        "negative prompts Stable Diffusion",
+        "what to avoid in AI image prompts",
+        "fix extra fingers AI",
+        "remove watermarks AI generator",
+        "negative prompt templates"
+      ]
+    },
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Most people focus entirely on what they want the AI to create. They craft elaborate descriptions of subjects, styles, and settings, then hit generate and hope for the best. When the result comes back with extra fingers, watermark artifacts, or a cluttered background, they sigh and try again."
+      },
+      {
+        "type": "paragraph",
+        "text": "Here's the secret that separates beginners from professionals: telling an AI what NOT to do is just as powerful as telling it what to do."
+      },
+      {
+        "type": "paragraph",
+        "text": "Negative prompting—the practice of explicitly instructing an AI to avoid certain elements—is one of the most underutilized tools in AI image generation. When used correctly, it eliminates entire classes of mistakes more efficiently than any amount of positive guidance."
+      },
+      {
+        "type": "paragraph",
+        "text": "This guide will teach you everything you need to know about negative prompts: what they are, how they work, exactly what to write, and the common pitfalls that can ruin your results."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "what-is-a-negative-prompt",
+        "text": "What Is a Negative Prompt?"
+      },
+      {
+        "type": "paragraph",
+        "text": "A negative prompt is exactly what it sounds like: instructions that tell the AI what to exclude from the generation process. Think of it as a filter that reduces the probability of unwanted elements appearing in your final output."
+      },
+      {
+        "type": "paragraph",
+        "text": "In practical terms, when you generate an image with a positive prompt like \"a professional business portrait,\" the AI might produce results with blurry backgrounds, distorted faces, extra fingers, or random watermarks. Adding a negative prompt such as \"blurry, distorted face, extra fingers, watermark, low quality\" tells the model to actively avoid these problems."
+      },
+      {
+        "type": "paragraph",
+        "text": "It works because the model evaluates both your positive and negative instructions simultaneously. It prioritizes the elements you want while actively suppressing the elements you've excluded."
+      },
+      {
+        "type": "paragraph",
+        "text": "Negative prompts aren't just for images. They're increasingly used for AI writing, video generation, audio platforms, design software, and coding assistance. In writing, you might specify: \"Avoid jargon, passive voice, repetitive phrases, and promotional language\" to create cleaner, more readable content."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "why-negative-prompts-work",
+        "text": "Why Negative Prompts Work"
+      },
+      {
+        "type": "paragraph",
+        "text": "Negative prompts work because they set guardrails rather than just preferences. When you tell the model to avoid something, you're establishing what experts call a \"feasibility boundary\" rather than just a preference gradient."
+      },
+      {
+        "type": "paragraph",
+        "text": "This distinction is important. Positive guidance like \"be concise\" only narrows the output distribution without hard-cutting anything. The model can still produce verbose responses that it subjectively considers \"concise enough.\" Negative constraints like \"avoid sentences over 20 words\" are binary and verifiable. The model either produced a long sentence or it didn't."
+      },
+      {
+        "type": "paragraph",
+        "text": "In image generation, this means if you're tired of seeing deformed hands, adding \"deformed hands, extra fingers, fused fingers\" to your negative prompt gives the model a clear boundary to avoid—something that more vaguely saying \"perfect hands\" doesn't achieve."
+      },
+      {
+        "type": "tip",
+        "title": "The Mechanics of Negative Guidance",
+        "text": "During generation, negative constraints remove entire token sequences from consideration. They create a binary, discrete effect rather than a soft preference. In testing, users who implemented targeted negative prompts reduced post-generation edits from roughly 8 steps down to 3 on portrait batches."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "essential-negative-categories",
+        "text": "Essential Negative Prompt Categories"
+      },
+      {
+        "type": "paragraph",
+        "text": "To build effective negative prompts, it helps to understand the categories of problems you're trying to avoid."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "quality-issues",
+        "text": "Quality Issues"
+      },
+      {
+        "type": "paragraph",
+        "text": "These catch common technical flaws that plague AI generations regardless of subject matter."
+      },
+      {
+        "type": "table",
+        "headers": ["Problem", "Negative Prompt Terms"],
+        "rows": [
+          ["Blurriness", "blurry, soft focus, out of focus, lowres"],
+          ["Noise/Artifacts", "noisy, grainy, overcompressed, jpeg artifacts"],
+          ["Sharpness Issues", "oversharpened, haloing, ringing"],
+          ["Watermarks", "watermark, signature, username, text, caption, logo"],
+          ["Composition", "cropped, cut off, out of frame, off-center"],
+          ["Color Problems", "oversaturated, washed out, monotone, flat lighting"]
+        ]
+      },
+      {
+        "type": "tip",
+        "title": "Baseline Quality Default",
+        "text": "Use these as your baseline quality defaults. Start with a small set like \"blurry, low quality, pixelated, distorted\" for almost every generation."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "anatomy-structure-issues",
+        "text": "Anatomy and Structure Issues"
+      },
+      {
+        "type": "paragraph",
+        "text": "This category is crucial for human subjects but applies broadly to any generation where structural coherence matters."
+      },
+      {
+        "type": "table",
+        "headers": ["Problem", "Negative Prompt Terms"],
+        "rows": [
+          ["Hand Issues", "extra fingers, fused fingers, missing fingers, deformed hands, too many fingers"],
+          ["Limb Problems", "extra limbs, extra arms, extra legs, floating limbs, disconnected limbs"],
+          ["Face Issues", "misaligned eyes, cross-eyed, distorted face, duplicate face, asymmetrical eyes"],
+          ["Body Issues", "bad anatomy, bad proportions, malformed, disfigured, mutated"],
+          ["Structural", "duplicated objects, cloned face, mirrored, collage"]
+        ]
+      },
+      {
+        "type": "callout",
+        "variant": "info",
+        "title": "Targeted Selection Rule",
+        "text": "Don't stack all of these at once. Add the specific terms that match the failures you're actually seeing, then test again."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "style-and-medium-issues",
+        "text": "Style and Medium Issues"
+      },
+      {
+        "type": "paragraph",
+        "text": "When you want a photorealistic image, you might want to exclude styles that don't fit."
+      },
+      {
+        "type": "table",
+        "headers": ["Problem", "Negative Prompt Terms"],
+        "rows": [
+          ["Unwanted Styles", "cartoon, anime, sketch, illustration, painting, 3D render"],
+          ["Unwanted Mediums", "digital art, vector, watercolor, oil painting"]
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "unwanted-content",
+        "text": "Unwanted Content"
+      },
+      {
+        "type": "table",
+        "headers": ["Problem", "Negative Prompt Terms"],
+        "rows": [
+          ["Specific Objects", "[object name], duplicate [object], multiple [object]"],
+          ["Unwanted Themes", "horror, gore, violence, NSFW"],
+          ["Context Issues", "modern, futuristic, vintage (when aiming for specific era)"]
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "how-to-write-effective",
+        "text": "How to Write Effective Negative Prompts"
+      },
+      {
+        "type": "paragraph",
+        "text": "Writing negative prompts isn't difficult, but it requires a different mindset than writing positive prompts. Here are the principles that work:"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "1. Start With Common Issues"
+      },
+      {
+        "type": "paragraph",
+        "text": "Before you can tell the AI what to avoid, you need to know what problems your generations typically produce. Common starting points include:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Blurry visuals",
+          "Extra objects or limbs",
+          "Poor anatomy",
+          "Unrealistic colors",
+          "Watermarks",
+          "Text artifacts"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "2. Use Clear, Specific Terms"
+      },
+      {
+        "type": "paragraph",
+        "text": "Specific language works better than vague descriptors:"
+      },
+      {
+        "type": "table",
+        "headers": ["Vague (Ineffective)", "Specific (Effective)"],
+        "rows": [
+          ["bad", "blurry, distorted, deformed"],
+          ["ugly", "asymmetrical eyes, extra fingers, bad proportions"],
+          ["weird", "duplicate objects, floating limbs, unnatural colors"],
+          ["weird colors", "oversaturated, neon highlights, unrealistic palette"]
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "3. Keep It Concise"
+      },
+      {
+        "type": "paragraph",
+        "text": "More isn't always better. Using too many negative prompts can confuse the model and reduce creativity. Aim for 8-12 terms maximum. If you're listing 20+ things to avoid, your main prompt might need work instead."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "4. Match Negative Strength to Problem Severity"
+      },
+      {
+        "type": "paragraph",
+        "text": "For persistent issues, repetition increases the negative weight without needing numerical controls. If extra fingers are a chronic problem, try: \"extra fingers, too many fingers, deformed fingers\"."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "5. Use Positive + Negative Together"
+      },
+      {
+        "type": "paragraph",
+        "text": "This is where the real power emerges. Combine a clear positive directive with targeted negative constraints:"
+      },
+      {
+        "type": "prompt",
+        "title": "Positive Directive",
+        "prompt": "A professional business portrait in a modern office, natural lighting, sharp focus."
+      },
+      {
+        "type": "prompt",
+        "title": "Targeted Negative Constraint",
+        "prompt": "blurry, low quality, watermark, extra fingers, distorted face, cartoon style"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "the-3-1-rule",
+        "text": "The 3:1 Rule: Positive vs. Negative Balance"
+      },
+      {
+        "type": "paragraph",
+        "text": "An important principle from prompt engineering is that models generally do better with a short positive guide plus a small set of refusals. A commonly recommended ratio is roughly 3:1 positive to negative instructions."
+      },
+      {
+        "type": "formula",
+        "text": "Positive Prompt Length : Negative Prompt Length = 3 : 1"
+      },
+      {
+        "type": "paragraph",
+        "text": "This means if your positive prompt is 75 words, your negative prompt should be around 25 words. Don't let the negative prompt outweigh the positive one."
+      },
+      {
+        "type": "callout",
+        "variant": "warning",
+        "title": "Why Ratio Matters",
+        "text": "Long lists of 'don't do X' can confuse the model. The AI is fundamentally designed to generate what you ask for—it's better at understanding what things are than what they aren't. Give it direction first, then constraints."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "platform-specific",
+        "text": "Platform-Specific Negative Prompting"
+      },
+      {
+        "type": "paragraph",
+        "text": "Different AI tools handle negative prompts differently:"
+      },
+      {
+        "type": "cards",
+        "items": [
+          {
+            "title": "Stable Diffusion (SDXL)",
+            "description": "Words surrounded with [brackets] are read as negative prompts, telling the model to exclude those descriptors from the generation process."
+          },
+          {
+            "title": "Picsart",
+            "description": "Find the 'Advanced settings' or 'Negative prompt' field in the AI Image Generator settings."
+          },
+          {
+            "title": "Z-Image",
+            "description": "Negative prompts apply a separate conditioning stream that pushes away from listed tokens during sampling. Bump guidance (+0.5) if the refiner reintroduces unwanted elements."
+          },
+          {
+            "title": "General Text AI (ChatGPT, Claude, etc.)",
+            "description": "State what to avoid directly in instructions, e.g.: 'Rewrite this professionally. Avoid casual tone, jokes, and emojis.'"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "common-mistakes",
+        "text": "Common Mistakes to Avoid"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "1. Using Too Many Negative Prompts"
+      },
+      {
+        "type": "paragraph",
+        "text": "Adding dozens of restrictions can confuse the model and reduce creativity. Aim for 8-12 terms maximum. In testing, overstuffing the negative prompt beyond roughly 200 characters led to muted contrast and under-detail."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "2. Using Vague Negative Language"
+      },
+      {
+        "type": "paragraph",
+        "text": "Terms like \"bad image\" or \"ugly\" provide little guidance to the model. Be specific about what you're trying to avoid."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "3. Using Conflicting Instructions"
+      },
+      {
+        "type": "comparison",
+        "leftTitle": "Conflicting",
+        "left": "Be detailed. Keep it short.",
+        "rightTitle": "Clear & Actionable",
+        "right": "Be concise in 3-4 sentences. Avoid examples and long introductions."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "4. Using \"Never\" Loosely"
+      },
+      {
+        "type": "paragraph",
+        "text": "AI interprets \"never\" loosely. Use \"avoid,\" \"do not,\" or \"exclude\" instead of absolute terms the model may not respect."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "5. Neglecting Iteration"
+      },
+      {
+        "type": "paragraph",
+        "text": "Prompt engineering is rarely a one-shot process. Review your output, identify remaining flaws, add specific negatives, and regenerate. The best results come from iteration."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "negative-prompt-templates",
+        "text": "Ready-to-Use Negative Prompt Templates"
+      },
+      {
+        "type": "prompt",
+        "title": "General Quality Template",
+        "prompt": "low quality, lowres, blurry, soft focus, out of focus, watermark, signature, text, logo, cropped, cut off, out of frame"
+      },
+      {
+        "type": "prompt",
+        "title": "Portrait Photography Template",
+        "prompt": "extra fingers, fused fingers, missing fingers, deformed hands, distorted face, asymmetrical eyes, duplicate face, bad anatomy, bad proportions, malformed"
+      },
+      {
+        "type": "prompt",
+        "title": "Product Photography Template",
+        "prompt": "watermark, text, logo, signature, low quality, blurry, pixelated, reflections, clutter, low resolution, unrealistic colors"
+      },
+      {
+        "type": "prompt",
+        "title": "Landscape Photography Template",
+        "prompt": "oversaturated colors, low detail, unrealistic sky, poor lighting, grainy, distorted proportions"
+      },
+      {
+        "type": "prompt",
+        "title": "Illustration Style Template",
+        "prompt": "3D render, photorealistic, photo, photograph, realistic, CGI, hyperrealism"
+      },
+      {
+        "type": "prompt",
+        "title": "The \"Minimum Viable\" Template (For Beginners)",
+        "prompt": "blurry, low quality, pixelated, distorted, watermark, text"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "beyond-image-generation",
+        "text": "Beyond Image Generation"
+      },
+      {
+        "type": "paragraph",
+        "text": "Negative prompting extends well beyond visual content. Here are some powerful applications across writing, coding, and tone control:"
+      },
+      {
+        "type": "cards",
+        "items": [
+          {
+            "title": "Writing & Content Generation",
+            "description": "\"Write a beginner-friendly article on cloud computing. Avoid jargon, avoid technical complexity, avoid promotional language.\""
+          },
+          {
+            "title": "Coding Assistance",
+            "description": "\"Generate Python code for data cleaning. Avoid deprecated libraries, avoid unnecessary comments, avoid inefficient loops.\""
+          },
+          {
+            "title": "Professional Tone Control",
+            "description": "\"Rewrite this professionally. Avoid casual tone, jokes, and emojis.\""
+          },
+          {
+            "title": "Hallucination Prevention",
+            "description": "\"Summarize this document. Do not add any information not present in the text.\""
+          },
+          {
+            "title": "Creative Control",
+            "description": "\"Write a short bio. Avoid storytelling. Avoid exaggeration. Just the facts.\""
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "secret-trick",
+        "text": "The Secret Trick: Let Positive + Negative Work Together"
+      },
+      {
+        "type": "paragraph",
+        "text": "This is where power really multiplies. The combined approach shapes tone, structure, length, and constraints simultaneously:"
+      },
+      {
+        "type": "prompt",
+        "title": "Combined Guidance Example",
+        "prompt": "Write a 4-sentence explanation of Kubernetes. Be simple and friendly. Avoid jargon. Avoid technical complexity. Avoid examples unless explicitly asked."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "quick-reference-summary",
+        "text": "Quick Reference Summary"
+      },
+      {
+        "type": "paragraph",
+        "text": "Negative prompts tell AI what to exclude. Use them to:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Eliminate blurry, low-quality outputs",
+          "Prevent anatomical errors (extra fingers, distorted faces)",
+          "Remove unwanted watermarks, text, and logos",
+          "Exclude specific styles or objects",
+          "Reduce hallucinations and irrelevant details"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Write effective negatives by:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Using specific terms, not vague descriptors",
+          "Keeping your list to 8-12 terms maximum",
+          "Starting with common issues, then iterating",
+          "Pairing negatives with clear positive instructions",
+          "Following roughly 3:1 positive-to-negative ratio",
+          "Testing, reviewing, and refining"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Remember: Negative prompts are guardrails, not manifestos. Keep them targeted, test them, prune what doesn't work, and watch your AI generations transform from generic to professional."
+      }
+    ]
+  },
+  {
+    "id": "ai-image-prompt-cheat-sheet-for-beginners",
+    "slug": "ai-image-prompt-cheat-sheet-for-beginners",
+    "title": "AI Image Prompt Cheat Sheet for Beginners",
+    "excerpt": "Learn the essential prompt structure, formulas, lighting tips, camera specs, composition rules, and platform-specific cheat sheets to go from vague prompts to professional AI artwork.",
+    "coverImage": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1787152996/AI_Image_Prompt_Cheat_Sheet_ygdopz.webp",
+    "coverImageAlt": "AI Image Prompt Cheat Sheet for Beginners",
+    "publishedAt": "2026-08-14",
+    "updatedAt": "2026-08-14",
+    "author": {
+      "name": "Alex Morgan",
+      "avatar": "/images/authors/default.webp"
+    },
+    "readingTime": 12,
+    "category": "Prompt Engineering",
+    "tags": [
+      "Prompt Cheat Sheet",
+      "AI Prompt Engineering",
+      "Beginner Guide",
+      "Midjourney",
+      "Gemini AI",
+      "DALL-E",
+      "Stable Diffusion",
+      "Flux"
+    ],
+    "featured": true,
+    "seo": {
+      "title": "AI Image Prompt Cheat Sheet for Beginners (2026 Guide)",
+      "description": "Master AI image prompts with our complete beginner cheat sheet. Learn the core prompt formula, lighting, composition, camera settings, and model-specific tips.",
+      "canonical": "/blog/ai-image-prompt-cheat-sheet-for-beginners",
+      "keywords": [
+        "AI image prompt cheat sheet",
+        "AI prompt structure formula",
+        "beginner prompt guide",
+        "Midjourney prompt cheat sheet",
+        "Gemini image prompts",
+        "DALL-E prompt guide",
+        "Stable Diffusion prompts"
+      ]
+    },
+    "blocks": [
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "the-problem",
+        "text": "The Problem"
+      },
+      {
+        "type": "paragraph",
+        "text": "You've seen the images. Jaw-dropping visuals that look like they belong in a gallery or a high-budget ad campaign. You type a prompt into the same AI tool. What you get back is... disappointing. Flat. Generic. Obviously AI."
+      },
+      {
+        "type": "paragraph",
+        "text": "The difference isn't luck or a secret paid tier. It's the prompt."
+      },
+      {
+        "type": "paragraph",
+        "text": "Most beginners make the same mistake: they treat the AI like a search engine, typing in a few keywords and hoping for the best. But AI image models aren't search engines. They're visual interpreters that need clear, structured instructions to deliver the image in your head. This cheat sheet gives you exactly what you need to go from vague prompts to professional results. No fluff. No jargon. Just actionable techniques you can use right now."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "the-one-rule",
+        "text": "The One Rule to Remember"
+      },
+      {
+        "type": "paragraph",
+        "text": "Every effective prompt has the same basic structure. Think of it as a formula:"
+      },
+      {
+        "type": "formula",
+        "text": "Subject + Setting + Style + Lighting + Composition + Mood"
+      },
+      {
+        "type": "paragraph",
+        "text": "You don't need all of these every time. But the more dimensions you specify, the more control you have over the output."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "what-this-means",
+        "text": "What This Means for You"
+      },
+      {
+        "type": "paragraph",
+        "text": "A blank prompt box is intimidating. Using this structure gives you a starting point. You're not guessing anymore—you're following a proven framework that works across Midjourney, DALL-E, Gemini, Stable Diffusion, and most other major tools."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "core-prompt-structure",
+        "text": "The Core Prompt Structure at a Glance"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "1-the-subject",
+        "text": "1. The Subject: Don't Just Say \"A Woman\""
+      },
+      {
+        "type": "paragraph",
+        "text": "How you describe the main subject shapes everything downstream."
+      },
+      {
+        "type": "table",
+        "headers": ["Instead Of", "Try This"],
+        "rows": [
+          ["\"a woman\"", "\"a woman in her early 40s, relaxed expression, natural makeup, wearing a linen shirt, looking slightly off-camera\""],
+          ["\"a professional\"", "\"a confident man in his 50s, in a well-lit office, slight smile, not looking at the camera\""],
+          ["\"a dog\"", "\"a golden retriever puppy with floppy ears, lying on grass, tongue slightly out\""]
+        ]
+      },
+      {
+        "type": "tip",
+        "title": "What to Specify for Subjects",
+        "text": "Approximate age, expression, posture, clothing style, eye contact direction, and mood."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "2-the-setting",
+        "text": "2. The Setting: Be Specific About the Environment"
+      },
+      {
+        "type": "table",
+        "headers": ["Instead Of", "Try This"],
+        "rows": [
+          ["\"a city street\"", "\"a narrow cobblestone street in an old European city at dusk, ambient yellow streetlights, few pedestrians\""],
+          ["\"nature\"", "\"ancient redwood forest floor, morning mist, shafts of light filtering through the canopy\""],
+          ["\"a room\"", "\"a cozy living room with a fireplace, warm wooden furniture, and a large window showing a snowy landscape\""]
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "3-style",
+        "text": "3. Style: Tell the AI How It Should Look"
+      },
+      {
+        "type": "paragraph",
+        "text": "Style keywords tell the AI which part of its training data to draw from. This is one of the fastest ways to get coherent, distinctive results."
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "Photography Styles"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Documentary",
+          "Candid",
+          "Editorial",
+          "Commercial product",
+          "Fine art",
+          "Street photography",
+          "Fashion editorial",
+          "Portraiture"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "Art & Illustration Styles"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Watercolor",
+          "Flat design",
+          "Vector illustration",
+          "Oil painting",
+          "Charcoal sketch",
+          "Digital illustration",
+          "Pixel art",
+          "Ink drawing"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "Aesthetic References"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Art Deco",
+          "Bauhaus",
+          "Brutalist",
+          "Scandinavian minimalist",
+          "Cottagecore",
+          "Dark academia",
+          "Cyberpunk"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "text": "Camera & Lens References"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Shot on 35mm film",
+          "Leica aesthetic",
+          "Medium format",
+          "Anamorphic lens",
+          "Macro photography",
+          "Tilt-shift"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "4-lighting",
+        "text": "4. Lighting: The Secret to Professional Results"
+      },
+      {
+        "type": "paragraph",
+        "text": "Lighting is the single variable with the biggest impact on whether an image looks professional or amateur. Here's a quick reference:"
+      },
+      {
+        "type": "table",
+        "headers": ["Lighting Type", "What It Creates", "Use For"],
+        "rows": [
+          ["Golden hour", "Warm, directional, soft", "Lifestyle, outdoor, food"],
+          ["Overcast natural light", "Even, diffused, no harsh shadows", "Portraits, products, editorial"],
+          ["Studio lighting", "Clean, controlled", "Products, headshots, commercial"],
+          ["Rim lighting", "Subject outlined by light against dark background", "Dramatic portraits, hero products"],
+          ["Soft box lighting", "Evenly lit, flattering", "Beauty, skincare, food"],
+          ["Dappled light", "Spotted light through leaves", "Nature, café settings, lifestyle"],
+          ["Neon and ambient urban", "Moody, colorful", "Editorial, nightlife, fashion"],
+          ["Low key", "Dark overall, deep shadows", "Dramatic, mysterious, cinematic"],
+          ["High key", "Bright overall, minimal shadow", "Optimistic, clean, commercial"],
+          ["Candle or firelight", "Warm, intimate, flickering quality", "Lifestyle, cozy, interior"]
+        ]
+      },
+      {
+        "type": "tip",
+        "title": "The Catchlight Trick",
+        "text": "For portraits, make sure to add \"catchlight in eyes\" or \"light reflecting in eyes.\" Without this, eyes can look flat or \"dead.\" It's a tiny addition that makes a massive difference."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "5-composition",
+        "text": "5. Composition: Frame the Shot Like a Photographer"
+      },
+      {
+        "type": "table",
+        "headers": ["Term", "What It Does"],
+        "rows": [
+          ["Close-up / extreme close-up", "Fills the frame with subject detail"],
+          ["Wide shot", "Shows the subject in full environmental context"],
+          ["Bird's eye view", "Looking straight down"],
+          ["Worm's eye view", "Looking up at the subject, dramatic perspective"],
+          ["Rule of thirds", "Subject offset to one side, compositionally balanced"],
+          ["Centered / symmetrical", "Formal, architectural feel"],
+          ["Over-the-shoulder", "Implies the perspective of another person in the scene"],
+          ["Negative space", "Significant empty area around the subject—good for text overlay"],
+          ["Leading lines", "Architectural or natural elements that draw the eye toward the subject"]
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "6-mood",
+        "text": "6. Mood: Translate Feelings into Visual Terms"
+      },
+      {
+        "type": "table",
+        "headers": ["Abstract Mood", "Concrete Visual Translation"],
+        "rows": [
+          ["Peaceful", "Soft morning light, gentle mist, muted colors"],
+          ["Mysterious", "Fog, shadows, low-key lighting, hidden faces, deep blue tones"],
+          ["Melancholic", "Overcast sky, desaturated colors, empty spaces, rain, long shadows"],
+          ["Joyful", "Bright sunlight, vibrant colors, open spaces, warm golden tones"],
+          ["Cinematic", "Dramatic lighting, shallow depth of field, film grain, wide aspect ratio"]
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "7-quality-modifiers",
+        "text": "7. Quality Modifiers"
+      },
+      {
+        "type": "paragraph",
+        "text": "Words like \"highly detailed,\" \"photorealistic,\" \"4K resolution,\" \"sharp focus,\" \"hyperrealistic\" can encourage the AI to produce more refined images."
+      },
+      {
+        "type": "prompt",
+        "title": "Example Quality-Enhanced Prompt",
+        "prompt": "A dramatic portrait of a woman with striking features, illuminated by warm golden hour light, highly detailed, sharp focus, photorealistic."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "build-smarter-formula",
+        "text": "Build Smarter: Use the Prompt Formula"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "universal-one-liner",
+        "text": "The Universal One-Liner Template"
+      },
+      {
+        "type": "formula",
+        "text": "Subject, medium, style, lighting, framing, mood, palette."
+      },
+      {
+        "type": "prompt",
+        "title": "Universal One-Liner Example",
+        "prompt": "Portrait of a barista, film photo, soft rim light, 50mm close-up, warm mood, teal-orange palette."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "full-structure-template",
+        "text": "The Full-Structure Template"
+      },
+      {
+        "type": "formula",
+        "text": "A photorealistic [shot type] of [subject], [action or expression], set in [environment]. The scene is illuminated by [lighting description], creating a [mood] atmosphere. Captured with a [camera/lens details], emphasizing [key textures and details]."
+      },
+      {
+        "type": "prompt",
+        "title": "Full-Structure Template Example",
+        "prompt": "A photorealistic close-up portrait of an elderly Japanese ceramicist with deep, sun-etched wrinkles and a warm, knowing smile. He is carefully inspecting a freshly glazed tea bowl. The setting is his rustic, sun-drenched workshop. The scene is illuminated by soft, golden hour light streaming through a window, highlighting the fine texture of the clay. Captured with an 85mm portrait lens, resulting in a soft, blurred background (bokeh). The overall mood is serene and masterful."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "id": "structure-first-approach",
+        "text": "The Structure-First Approach (For DiT Models)"
+      },
+      {
+        "type": "paragraph",
+        "text": "If you're using modern transformer-based models (like Gemini or Flux), the order of your prompt matters. These models generate from whole to part, so framework belongs at the start:"
+      },
+      {
+        "type": "formula",
+        "text": "Composition → Lighting → Depth of Field → Angle → Subject → Environment → Details"
+      },
+      {
+        "type": "prompt",
+        "title": "Structure-First Prompt Example",
+        "prompt": "Asymmetrical composition, subject on left third, soft side lighting, shallow depth of field with focus on eyes, low angle view, a woman with long black hair and red dress, standing in a rainy city street, glowing neon reflections on wet pavement."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "platform-specific-cheat-sheet",
+        "text": "Platform-Specific Cheat Sheet"
+      },
+      {
+        "type": "paragraph",
+        "text": "Different AI models have different strengths. Here's what works best for each:"
+      },
+      {
+        "type": "cards",
+        "items": [
+          {
+            "title": "Gemini (Nano Banana)",
+            "description": "Use full, narrative sentences. A descriptive paragraph will almost always produce better results than a list of keywords. Specify \"high resolution\" for best output."
+          },
+          {
+            "title": "Midjourney",
+            "description": "Use natural language with commas separating concepts. Add parameters at the end such as --ar 16:9, --stylize 250, --chaos 20."
+          },
+          {
+            "title": "DALL-E",
+            "description": "Handles detailed, full-sentence descriptions well. Natural language works best—no special parameters needed."
+          },
+          {
+            "title": "Stable Diffusion",
+            "description": "More technical prompts often work better. Use weighted tokens: (term:1.2) for more emphasis, [term] for less. Negative prompts are particularly important."
+          },
+          {
+            "title": "Flux",
+            "description": "Prompts can be shorter than for other models—the model does heavy lifting. Use Flux Pro for final assets, Flux Dev for rapid iteration."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "negative-prompts",
+        "text": "Negative Prompts: What to Avoid"
+      },
+      {
+        "type": "paragraph",
+        "text": "Some tools have a dedicated negative prompt field. Others respond to plain-language instructions like \"avoid\" or \"do not include\"."
+      },
+      {
+        "type": "callout",
+        "variant": "info",
+        "title": "Positive Prompting Rule",
+        "text": "AI models are better at understanding what things are than what they aren't. Instead of saying \"no blurry,\" describe what you want: \"crisp focus, sharp details\"."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Common Negative Prompts"
+      },
+      {
+        "type": "list",
+        "items": [
+          "No text",
+          "No logos",
+          "No watermarks",
+          "No extra objects",
+          "No distorted hands",
+          "No extra fingers",
+          "No cropped subject",
+          "No unrealistic colors",
+          "No busy background",
+          "No duplicate products",
+          "No blurry details"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Alternative Approach"
+      },
+      {
+        "type": "paragraph",
+        "text": "If the AI keeps adding an element you don't want, use positive prompting instead. Tell the AI what you do want, not what you don't."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "common-mistakes",
+        "text": "Common Mistakes to Avoid"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "1. Being Too Vague"
+      },
+      {
+        "type": "comparison",
+        "leftTitle": "Weak",
+        "left": "A cool car.",
+        "rightTitle": "Better",
+        "right": "A black electric sports car parked on a wet city street at night, neon reflections, low camera angle, cinematic lighting, realistic photography."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "2. Adding Too Many Conflicting Details"
+      },
+      {
+        "type": "comparison",
+        "leftTitle": "Weak",
+        "left": "A minimalist futuristic vintage rustic cyberpunk watercolor photorealistic poster of a coffee shop in a spaceship forest.",
+        "rightTitle": "Better",
+        "right": "A cozy futuristic coffee shop inside a glass space station, warm lighting, realistic cinematic style, view of stars through large windows."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "3. Forgetting the Output Format"
+      },
+      {
+        "type": "paragraph",
+        "text": "If the image is for a real channel, include the format:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Wide hero image",
+          "Square social post",
+          "Vertical story image",
+          "Product card thumbnail",
+          "Email banner",
+          "Blog header"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "4. Asking for Too Much Text"
+      },
+      {
+        "type": "paragraph",
+        "text": "AI image models can struggle with long copy. Keep text short (under 25 characters) or add it later in post-production."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "how-to-iterate",
+        "text": "How to Iterate: From Okay to Great"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Step 1: Start Broad"
+      },
+      {
+        "type": "paragraph",
+        "text": "Generate a basic version of your idea to see what the AI understands."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Step 2: Analyze the Results"
+      },
+      {
+        "type": "paragraph",
+        "text": "What worked? What didn't? What's missing?"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Step 3: Refine One Element at a Time"
+      },
+      {
+        "type": "paragraph",
+        "text": "Add one detail, run again, then add the next. This way you know exactly what improved (or hurt) the output."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Step 4: Use Variations"
+      },
+      {
+        "type": "paragraph",
+        "text": "Generate 4-8 variations of the same prompt. Minor differences in phrasing can yield dramatically different results."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Step 5: Use Your First Results to Write Better Prompts"
+      },
+      {
+        "type": "paragraph",
+        "text": "A great technique is to let the AI write its own prompt. Ask a chatbot to generate a prompt for the image you want, then use that prompt with your image generator. The AI knows exactly what its image generator responds to best."
+      },
+      {
+        "type": "prompt",
+        "title": "Chatbot Prompt Generation Example",
+        "prompt": "I would like to create an image of a sunset over a mountain range. Generate a detailed prompt that I can use to request this image from [AI generator]."
+      },
+      {
+        "type": "paragraph",
+        "text": "The AI will automatically include lighting, style, and composition details you wouldn't have thought to add."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "quick-reference-templates",
+        "text": "Quick Reference: Prompt Templates"
+      },
+      {
+        "type": "prompt",
+        "title": "Template for Any Scene",
+        "prompt": "A [photorealistic] [shot type] of [subject], [action or expression], set in [environment]. The scene is illuminated by [lighting description], creating a [mood] atmosphere. Captured with a [camera/lens details], emphasizing [key textures and details]. [Aspect ratio format]."
+      },
+      {
+        "type": "prompt",
+        "title": "Template for Product Images",
+        "prompt": "A realistic product image of [product] on [surface/background], [lighting], [composition], [style], [mood], no text, no extra objects."
+      },
+      {
+        "type": "prompt",
+        "title": "Template for Blog Headers",
+        "prompt": "A wide blog header image for an article about [topic], showing [main visual], [style], [color palette], [composition], no readable text."
+      },
+      {
+        "type": "prompt",
+        "title": "Template for Social Posts",
+        "prompt": "A square social media image for [brand/category], featuring [subject], [background], [lighting], [mood], space for a short headline."
+      },
+      {
+        "type": "prompt",
+        "title": "Template for Prompt Editing",
+        "prompt": "Use the uploaded image. Keep [subject] unchanged. Change [specific element] to [new element]. Match [lighting/style]. Avoid [things to avoid]."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "final-checklist",
+        "text": "Final Checklist"
+      },
+      {
+        "type": "paragraph",
+        "text": "Run through this before hitting \"generate\":"
+      },
+      {
+        "type": "list",
+        "items": [
+          "✅ Is my subject specific and clearly described?",
+          "✅ Have I kept the prompt focused on 2-3 key elements?",
+          "✅ Did I specify style, medium, or artistic technique?",
+          "✅ Have I included composition and framing details?",
+          "✅ Is my aspect ratio specified?",
+          "✅ Am I using positive language instead of negative constraints?",
+          "✅ Have I translated abstract concepts into concrete visual terms?",
+          "✅ Is my prompt length appropriate for the platform I'm using?",
+          "✅ Did I include lighting and atmosphere descriptors?"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "id": "conclusion",
+        "text": "Conclusion"
+      },
+      {
+        "type": "paragraph",
+        "text": "Writing effective AI image prompts is a skill, not a magic trick. It takes practice, experimentation, and a willingness to learn from both successes and failures."
+      },
+      {
+        "type": "paragraph",
+        "text": "Start with one technique from this cheat sheet on your next prompt. Add a lighting descriptor. Try a structure-first prompt. Use the \"let the AI write its own prompt\" trick. Each improvement brings you closer to images that look like they came from a professional."
+      },
+      {
+        "type": "paragraph",
+        "text": "The models can do it. They just need you to tell them exactly what to do."
+      },
+      {
+        "type": "paragraph",
+        "text": "Happy prompting!"
+      }
+    ]
+  },
+  {
     "id": "50-cinematic-ai-image-prompts",
     "slug": "50-cinematic-ai-image-prompts",
     "title": "50 Cinematic AI Image Prompts for Movie-Quality Visuals",
@@ -9,7 +1157,7 @@
     "publishedAt": "2026-08-02",
     "updatedAt": "2026-08-02",
     "author": {
-      "name": "AI Prompt Site",
+      "name": "Alex Morgan",
       "avatar": "/images/authors/default.webp"
     },
     "readingTime": 22,
@@ -617,12 +1765,12 @@
     "slug": "ai-photography-prompts-guide-realistic-photos",
     "title": "AI Photography Prompts: Complete Guide to Realistic AI Photos",
     "excerpt": "Learn how to write AI photography prompts that produce photorealistic images. Master camera lens specs, lighting styles, composition, texture, and avoid plastic-looking AI renders.",
-    "coverImage": "/images/blog/ai-photography-prompts.png",
+    "coverImage": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1787152995/Captured_Moments_vhaahk.webp",
     "coverImageAlt": "AI Photography Prompts: Complete Guide to Realistic AI Photos",
     "publishedAt": "2026-07-25",
     "updatedAt": "2026-07-25",
     "author": {
-      "name": "AI Prompt Site",
+      "name": "Sarah Jenkins",
       "avatar": "/images/authors/default.webp"
     },
     "readingTime": 12,
@@ -1344,12 +2492,12 @@
     "slug": "chatgpt-vs-gemini-best-ai-for-image-prompts",
     "title": "ChatGPT vs Gemini: Which AI is Best for Image Prompts?",
     "excerpt": "Artificial intelligence has transformed image generation, but choosing the right tool can be overwhelming. Compare OpenAI's ChatGPT (DALL-E) and Google's Gemini (Nano Banana) across prompting styles, quality, consistency, and editing.",
-    "coverImage": "/images/blog/chatgpt-vs-gemini.png",
+    "coverImage": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1787152996/AI_Image_Battle_vor3mv.webp",
     "coverImageAlt": "ChatGPT vs Gemini AI Image Generation Comparison",
     "publishedAt": "2026-07-25",
     "updatedAt": "2026-07-25",
     "author": {
-      "name": "AI Prompt Site",
+      "name": "James Wilson",
       "avatar": "/images/authors/default.webp"
     },
     "readingTime": 10,
@@ -1795,7 +2943,7 @@
     "publishedAt": "2026-07-15",
     "updatedAt": "2026-07-15",
     "author": {
-      "name": "AI Prompt Site",
+      "name": "Alex Morgan",
       "avatar": "/images/authors/default.webp"
     },
     "readingTime": 8,
@@ -2270,7 +3418,7 @@
     "publishedAt": "2026-06-25",
     "updatedAt": "2026-06-25",
     "author": {
-      "name": "AI Prompt Site",
+      "name": "Sarah Jenkins",
       "avatar": "/images/authors/default.webp"
     },
     "readingTime": 18,
@@ -2666,7 +3814,7 @@
     "publishedAt": "2026-07-01",
     "updatedAt": "2026-07-01",
     "author": {
-      "name": "AI Prompt Site",
+      "name": "James Wilson",
       "avatar": "/images/authors/default.webp"
     },
     "readingTime": 20,
@@ -3007,7 +4155,7 @@
     "publishedAt": "2026-07-11",
     "updatedAt": "2026-07-11",
     "author": {
-      "name": "AI Prompt Site",
+      "name": "Alex Morgan",
       "avatar": "/images/authors/default.webp"
     },
     "readingTime": 15,
@@ -3355,7 +4503,7 @@
     "publishedAt": "2026-07-11",
     "updatedAt": "2026-07-11",
     "author": {
-      "name": "AI Prompt Site",
+      "name": "Sarah Jenkins",
       "avatar": "/images/authors/default.webp"
     },
     "readingTime": 35,
@@ -4465,7 +5613,7 @@
     "publishedAt": "2026-07-15",
     "updatedAt": "2026-07-15",
     "author": {
-      "name": "AI Prompt Site",
+      "name": "James Wilson",
       "avatar": "/images/authors/default.webp"
     },
     "readingTime": 10,
@@ -5154,7 +6302,7 @@
     "publishedAt": "2026-07-15",
     "updatedAt": "2026-07-15",
     "author": {
-      "name": "AI Prompt Site",
+      "name": "Alex Morgan",
       "avatar": "/images/authors/default.webp"
     },
     "readingTime": 12,

@@ -122,6 +122,7 @@ export default function JackpotPage() {
     <div className="min-h-screen bg-slate-950 text-slate-100 pt-24 pb-16 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
       {/* JSON-LD Structured Data */}
       <script
+        id="jackpot-json-ld"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify([faqSchema, webPageSchema]) }}
       />

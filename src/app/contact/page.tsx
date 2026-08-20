@@ -107,6 +107,7 @@ export default function ContactPage() {
     <>
       {/* Inject JSON-LD Rich Snippets */}
       <script
+        id="contact-json-ld"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify([contactPageJsonLd, breadcrumbJsonLd, contactFaqJsonLd]),

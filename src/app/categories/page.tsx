@@ -23,8 +23,6 @@ import {
   Layers,
   TrendingUp,
   Heart,
-  HelpCircle,
-  ChevronDown,
   RefreshCw,
   Shirt,
   Utensils,
@@ -294,59 +292,23 @@ export default async function CategoriesPage() {
     },
   ];
 
-  const faqItems = [
-    {
-      question: "How are the categories structured on AIPromptNest?",
-      answer: "Our library is organized by creative style and subject matter—including Cinematic, Anime, Portrait, Fantasy, Sci-Fi, Architecture, Product Photography, and more. This makes it easy to find prompts tailored to your specific creative needs.",
-    },
-    {
-      question: "Can I use these prompts across different AI models?",
-      answer: "Yes! While our prompts are optimized and extensively tested for Google Gemini, they are written using descriptive prompt structure that works beautifully across Stable Diffusion, Flux, and other major AI image generators.",
-    },
-    {
-      question: "How often are new categories or prompts added?",
-      answer: "We add hundreds of fresh prompts to the library every single week. Our prompt engineers constantly monitor the latest trends and updates in AI modeling to ensure categories stay updated with cutting-edge styles.",
-    },
-    {
-      question: "Are the prompts free to copy and use?",
-      answer: "Absolutely. AIPromptNest is a free, community-first resource. You can copy any prompt in our library with a single click and use it for personal or commercial projects without any attribution required.",
-    },
-    {
-      question: "How can I filter prompts within a specific category?",
-      answer: "Simply click on any category card to view its dedicated page. From there, you can view sub-genres, see optimization tips, copy direct visual descriptors, or use search filters to narrow down the prompt collection.",
-    },
-  ];
-
-  const faqJsonLd = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: faqItems.map((item) => ({
-      "@type": "Question",
-      name: item.question,
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: item.answer,
-      },
-    })),
-  };
-
   const schemas = [
     webPageSchema,
     collectionPageJsonLd,
     breadcrumbSchema,
     schemaList,
-    faqJsonLd,
   ];
 
   return (
     <main className="min-h-screen mesh-gradient">
       <script
+        id="categories-json-ld"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas) }}
       />
       <Navbar />
 
-      <div className="pt-32 px-4 md:px-8 max-w-7xl mx-auto">
+      <div className="pt-32 pb-20 px-4 md:px-8 max-w-7xl mx-auto">
         <section className="text-center space-y-4 mb-20">
           <div className="inline-flex items-center gap-2 bg-primary/20 border border-primary/30 px-4 py-1 rounded-full text-sm font-bold text-primary">
             <Sparkles className="w-4 h-4" />
@@ -354,9 +316,7 @@ export default async function CategoriesPage() {
           </div>
           <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-foreground">Gemini AI Prompt Categories</h1>
           <p className="text-foreground/40 max-w-xl mx-auto">
-            Browse thousands of free Gemini AI image prompts organized by category,
-            including Anime, Cinematic, Fantasy, Portrait, Architecture,
-            Product Photography, Nature, Vehicles, and Digital Art.
+            Explore thousands of free AI prompts for Google Gemini and ChatGPT, organized into carefully curated categories to help you find the perfect prompt faster. Discover prompts for AI image generation, creative writing, brainstorming, productivity, and more across popular categories such as Anime, Cinematic, Fantasy, Portrait, Architecture, Product Photography, Nature, Vehicles, Digital Art, and other creative styles. Browse, discover, and copy ready-to-use prompts that you can customize for your next AI project.
           </p>
         </section>
 
@@ -612,42 +572,6 @@ export default async function CategoriesPage() {
                 </p>
               </div>
             </div>
-          </div>
-        </section>
-
-        {/* FAQ Section */}
-        <section className="my-32 max-w-4xl mx-auto space-y-8">
-          <div className="text-center space-y-3 mb-12">
-            <div className="inline-flex items-center gap-2 bg-primary/20 border border-primary/30 px-4 py-1 rounded-full text-sm font-bold text-primary">
-              <HelpCircle className="w-4 h-4" />
-              Frequently Asked Questions
-            </div>
-            <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-white">Categories FAQ</h2>
-            <p className="text-foreground/40 text-sm max-w-xl mx-auto">
-              Have questions about our prompt categories? Find answers to commonly asked questions below.
-            </p>
-          </div>
-
-          <div className="space-y-4">
-            {faqItems.map((item, idx) => (
-              <details
-                key={idx}
-                className="group glass-dark border border-white/[0.05] hover:border-white/[0.12] rounded-2xl transition-all duration-300 [&_summary::-webkit-details-marker]:hidden"
-              >
-                <summary className="flex items-center justify-between gap-4 px-6 py-5 cursor-pointer list-none select-none">
-                  <span className="text-base font-semibold text-white group-hover:text-primary transition-colors">
-                    {item.question}
-                  </span>
-                  <ChevronDown className="h-5 w-5 shrink-0 text-foreground/45 transition-transform duration-300 group-open:rotate-180 group-open:text-primary" />
-                </summary>
-
-                <div className="px-6 pb-6 border-t border-white/[0.02] transition-all">
-                  <p className="text-sm leading-relaxed text-foreground/50 pt-4">
-                    {item.answer}
-                  </p>
-                </div>
-              </details>
-            ))}
           </div>
         </section>
       </div>

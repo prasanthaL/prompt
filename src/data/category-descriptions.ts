@@ -4,7 +4,7 @@ export const CATEGORY_DESCRIPTIONS: Record<string, {
 }> = {
   all: {
     name: "Browse Prompts",
-    description: "Explore our curated library of high-quality, community-tested AI image prompts optimized for Google Gemini and Stable Diffusion. Browse by styles, search specific keywords, and copy optimized prompt templates with a single click to kickstart your creative projects instantly."
+    description: "Discover a growing library of carefully curated AI prompts for Google Gemini and ChatGPT, designed to help you create better results with less effort. Explore prompts across popular categories, creative styles, and use cases, search for specific ideas or keywords, and instantly copy ready-to-use prompts. Whether you're creating AI images, writing content, brainstorming ideas, improving productivity, or exploring new creative possibilities, find practical prompts you can customize and use with Gemini and ChatGPT."
   },
   Cinematic: {
     name: "Cinematic Prompts",

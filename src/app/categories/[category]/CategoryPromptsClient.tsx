@@ -100,17 +100,17 @@ export default function CategoryPromptsClient({
       {/* Progress indicator */}
       <div className="flex flex-col items-center gap-4">
         <p className="text-xs text-foreground/30 font-medium">
-          Showing{" "}
-          <span className="text-foreground/60 font-bold">{prompts.length}</span>{" "}
-          of{" "}
-          <span className="text-foreground/60 font-bold">{totalCount}</span>{" "}
-          {displayName} prompts
+          Showing
+          &nbsp;<span className="text-foreground/60 font-bold">{prompts.length}</span>
+          &nbsp;of
+          &nbsp;<span className="text-foreground/60 font-bold">{totalCount}</span>
+          &nbsp;{displayName} prompts
         </p>
 
         {/* Progress bar */}
         <div className="w-full max-w-xs h-1 bg-foreground/10 rounded-full overflow-hidden">
           <div
-            className="h-full bg-gradient-to-r from-primary to-accent rounded-full transition-all duration-500 ease-out"
+            className="h-full bg-linear-to-r from-primary to-accent rounded-full transition-all duration-500 ease-out"
             style={{ width: `${Math.min((prompts.length / totalCount) * 100, 100)}%` }}
           />
         </div>
@@ -133,7 +133,7 @@ export default function CategoryPromptsClient({
               </>
             ) : (
               <>
-                <ChevronDown className="w-4 h-4 text-foreground/40 group-hover:text-primary transition-colors group-hover:translate-y-0.5 transition-transform" />
+                <ChevronDown className="w-4 h-4 text-foreground/40 group-hover:text-primary transition-colors group-hover:translate-y-0.5" />
                 <span>See More {displayName} Prompts</span>
               </>
             )}

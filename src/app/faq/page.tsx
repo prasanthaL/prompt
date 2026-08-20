@@ -66,6 +66,7 @@ export default function FAQPage() {
     <>
       {/* Inject Structured Data for SEO Rich Snippets */}
       <script
+        id="faq-json-ld"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify([faqJsonLd, breadcrumbJsonLd]),

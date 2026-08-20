@@ -1,23 +1,9 @@
-"use client";
-
-import React, { useState } from "react";
+import React from "react";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
 import {
-  Search,
-  ArrowRight,
   Sparkles,
-  ShieldCheck,
-  Zap,
-  Users,
-  ChevronRight,
-  ChevronDown,
-  FileText,
-  LayoutGrid,
-  Globe
+  ChevronRight
 } from "lucide-react";
-import { cn } from "@/lib/utils";
-import { categoryToSlug } from "@/lib/category-slugs";
 
 const XIcon = () => (
   <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
@@ -67,19 +53,6 @@ const PinterestIcon = () => (
   </svg>
 );
 
-const FileStarIcon = () => (
-  <svg className="w-6 h-6 text-violet-400" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-    <path strokeLinecap="round" strokeLinejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-    <path strokeLinecap="round" strokeLinejoin="round" d="M12 10.5l.588 1.19 1.314.19-1.002.977.236 1.308L12 13.548l-1.136.597.236-1.308-1.002-.977 1.314-.19L12 10.5z" fill="currentColor" />
-  </svg>
-);
-
-const VALUE_STATS = [
-  { icon: Sparkles, title: "100% Free", desc: "Always free to use" },
-  { icon: ShieldCheck, title: "High Quality", desc: "Expert curated prompts" },
-  { icon: Zap, title: "Updated Daily", desc: "Fresh prompts every day" },
-  { icon: Users, title: "Trusted by Millions", desc: "Used by AI enthusiasts" },
-];
 
 const SECTIONS = [
   {
@@ -88,7 +61,7 @@ const SECTIONS = [
       { name: "Cinematic Prompts", href: "/categories/cinematic" },
       { name: "Anime Prompts", href: "/categories/anime" },
       { name: "Fantasy Prompts", href: "/categories/fantasy" },
-      { name: "Sci-Fi Prompts", href: "/categories/sci-fi" },
+      { name: "Couple Prompts", href: "/categories/architecture" },
       { name: "Portrait Prompts", href: "/categories/portrait" },
     ]
   },
@@ -97,23 +70,7 @@ const SECTIONS = [
     links: [
       { name: "Latest Prompts", href: "/browse" },
       { name: "Trending Prompts", href: "/trending" },
-      { name: "Premium Prompts", href: "/premium" },
       { name: "All Categories", href: "/categories" },
-    ]
-  },
-  {
-    title: "AI Tools",
-    links: [
-      { name: "Gemini AI Prompts", href: "/browse" },
-    ]
-  },
-  {
-    title: "Resources",
-    links: [
-      { name: "Prompt Engineering", href: "/blog/how-to-create-hyper-realistic-ai-photos-using-simple-prompts" },
-      { name: "AI Prompt Tips", href: "/blog/the-science-of-color-theory-in-ai-art-generation" },
-      { name: "Game Development Guide", href: "/blog/the-role-of-ai-art-in-modern-game-development" },
-      { name: "Blog & Insights", href: "/blog" },
     ]
   },
   {
@@ -128,42 +85,7 @@ const SECTIONS = [
   }
 ];
 
-const POPULAR_CATEGORIES = [
-  "Cinematic",
-  "Anime",
-  "Fantasy",
-  "Sci-Fi",
-  "Architecture",
-  "Portrait",
-  "Product",
-  "Men",
-  "Women",
-  "Family",
-  "Couple",
-  "Sport",
-  "Nature & Landscape",
-  "Animals & Wildlife",
-  "Vehicles",
-  "Digital Art",
-  "Fashion",
-  "Food",
-  "Travel",
-  "Interior Design",
-  "Cyberpunk",
-  "Steampunk",
-  "Mecha",
-  "Horror",
-  "Surreal",
-  "Minimalist",
-  "Luxury",
-  "Wedding",
-  "Logo Design",
-  "Poster Design",
-  "Characters",
-  "Mythology",
-  "Space",
-  "Vintage"
-];
+
 
 const SOCIAL_LINKS = [
   { href: "https://pin.it/6uUNsspq4", icon: <PinterestIcon />, title: "Pinterest" },
@@ -175,25 +97,13 @@ const SOCIAL_LINKS = [
 ];
 
 export default function Footer() {
-  const [searchQuery, setSearchQuery] = useState("");
-  const [isCategoriesExpanded, setIsCategoriesExpanded] = useState(false);
-  const router = useRouter();
-
-  const handleSearchSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (searchQuery.trim()) {
-      router.push(`/browse?q=${encodeURIComponent(searchQuery.trim())}`);
-      setSearchQuery("");
-    }
-  };
-
   return (
-    <footer className="w-full bg-[#03020a] border-t border-white/[0.05] pt-20 pb-10 px-4 md:px-8 relative overflow-hidden select-none">
+    <footer className="w-full bg-[#03020a] border-t border-white/5 pt-20 pb-10 px-4 md:px-8 relative overflow-hidden select-none">
       {/* Decorative gradient overlay */}
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[300px] rounded-full bg-violet-600/[0.03] blur-[100px] pointer-events-none" />
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-200 h-75 rounded-full bg-violet-600/3 blur-[100px] pointer-events-none" />
 
       <div className="max-w-7xl mx-auto">
-        {/* Top Section: Branding, Search, Value Stats & 5 Columns */}
+        {/* Top Section: Branding, Search, Value Stats & 3 Columns */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
           {/* Left branding area (approx 4/12 wide) */}
           <div className="lg:col-span-4 space-y-6">
@@ -208,45 +118,10 @@ export default function Footer() {
             <p className="text-white/50 text-sm leading-relaxed max-w-sm">
               Discover hundreds of free AI image prompts for Gemini & ChatGPT. Find the perfect prompt for cinematic art, anime, fantasy, portraits, photography, and digital concepts.
             </p>
-
-            {/* Search Input Box */}
-            <form onSubmit={handleSearchSubmit} className="relative flex items-center w-full max-w-sm group">
-              <div className="relative flex-1">
-                <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-white/30 group-focus-within:text-violet-400 transition-colors" />
-                <input
-                  type="text"
-                  placeholder="Search prompts..."
-                  value={searchQuery}
-                  onChange={(e) => setSearchQuery(e.target.value)}
-                  className="w-full bg-white/[0.02] border border-white/[0.08] hover:border-white/[0.15] focus:border-violet-500/50 focus:outline-none rounded-xl py-3 pl-11 pr-12 text-sm text-white placeholder-white/30 transition-all"
-                />
-              </div>
-              <button
-                type="submit"
-                className="absolute right-1.5 top-1/2 -translate-y-1/2 w-8 h-8 bg-violet-600 hover:bg-violet-500 rounded-full flex items-center justify-center text-white transition-all cursor-pointer shadow-md shadow-violet-600/10"
-              >
-                <ArrowRight className="w-3.5 h-3.5" />
-              </button>
-            </form>
-
-            {/* 4 Value proposition stats */}
-            <div className="grid grid-cols-2 gap-4 pt-6 border-t border-white/[0.04] max-w-sm">
-              {VALUE_STATS.map((stat, i) => (
-                <div key={i} className="flex items-start gap-2.5">
-                  <div className="w-8 h-8 rounded-lg bg-white/[0.03] border border-white/[0.06] flex items-center justify-center shrink-0">
-                    <stat.icon className="w-4 h-4 text-violet-400" />
-                  </div>
-                  <div>
-                    <p className="text-xs font-bold text-white/95">{stat.title}</p>
-                    <p className="text-[11px] text-white/40 leading-normal mt-0.5">{stat.desc}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
           </div>
 
           {/* Right Columns (approx 8/12 wide) */}
-          <div className="lg:col-span-8 grid grid-cols-2 sm:grid-cols-5 gap-8">
+          <div className="lg:col-span-8 grid grid-cols-2 sm:grid-cols-3 gap-8">
             {SECTIONS.map((section, idx) => (
               <div key={idx} className="space-y-4">
                 <h4 className="text-xs font-extrabold text-white/80 uppercase tracking-widest leading-none">
@@ -270,86 +145,62 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Middle Section: Popular Categories & Summary card */}
-        <div className="border border-white/[0.04] bg-white/[0.01] rounded-2xl p-6 md:p-8 mt-16 space-y-8 backdrop-blur-sm relative">
-          <div className="space-y-4">
-            <div className="flex items-center justify-between gap-4">
-              <div className="flex items-center gap-2">
-                <LayoutGrid className="w-4 h-4 text-violet-400" />
-                <h3 className="text-base font-bold text-white tracking-tight">Popular Categories</h3>
+        {/* Middle Section: Summary card */}
+        <div className="relative mt-16 rounded-3xl p-6 sm:p-8 md:p-10 border border-violet-500/15 bg-linear-to-br from-violet-950/20 via-white/2 to-purple-950/20 backdrop-blur-xl overflow-hidden shadow-2xl shadow-violet-950/30 group hover:border-violet-500/30 transition-all duration-500">
+          {/* Ambient decorative glow elements */}
+          <div className="absolute -top-24 -right-24 w-72 h-72 rounded-full bg-violet-600/10 blur-[90px] pointer-events-none group-hover:bg-violet-600/15 transition-all duration-500" />
+          <div className="absolute -bottom-24 -left-24 w-72 h-72 rounded-full bg-purple-600/10 blur-[90px] pointer-events-none" />
+
+          <div className="relative z-10 flex flex-col lg:flex-row items-start lg:items-center justify-between gap-8">
+            <div className="flex items-start gap-5 flex-1 max-w-3xl">
+              {/* Premium Glowing Icon Box */}
+              <div className="relative shrink-0">
+                <div className="absolute inset-0 bg-violet-500/20 rounded-2xl blur-md group-hover:blur-lg transition-all" />
+                <div className="relative w-12 h-12 rounded-2xl bg-linear-to-br from-violet-500/20 to-purple-600/20 border border-violet-400/30 flex items-center justify-center shadow-lg shadow-violet-500/10">
+                  <Sparkles className="w-6 h-6 text-violet-400" />
+                </div>
               </div>
-              <button
-                onClick={() => setIsCategoriesExpanded(!isCategoriesExpanded)}
-                className="flex items-center gap-1.5 text-xs font-bold text-white/50 hover:text-white px-3 py-1.5 rounded-lg border border-white/[0.06] bg-white/[0.02] hover:bg-white/[0.04] transition-colors cursor-pointer select-none"
-              >
-                View All
-                <ChevronDown className={cn("w-3 h-3 transition-transform duration-200", isCategoriesExpanded && "rotate-180")} />
-              </button>
-            </div>
 
-            {/* Categories tag container */}
-            <div className={cn(
-              "flex flex-wrap gap-2 transition-all duration-300 ease-in-out overflow-hidden",
-              isCategoriesExpanded ? "max-h-[500px] opacity-100" : "max-h-[82px] sm:max-h-[38px] opacity-90"
-            )}>
-              {POPULAR_CATEGORIES.map((category) => (
-                <Link
-                  key={category}
-                  href={`/categories/${categoryToSlug(category)}`}
-                  className="px-3.5 py-1.5 border border-white/[0.04] hover:border-violet-500/20 bg-white/[0.01] hover:bg-violet-500/10 text-xs font-semibold text-white/50 hover:text-white rounded-lg transition-all"
-                >
-                  {category} Prompts
-                </Link>
-              ))}
-            </div>
-          </div>
+              {/* Title & Body */}
+              <div className="space-y-3">
+                <div className="flex items-center gap-2 flex-wrap">
+                  <span className="text-sm font-bold text-white tracking-wide">
+                    About AIPromptNest
+                  </span>
+                  <span className="px-2.5 py-0.5 rounded-full text-[10px] font-bold bg-violet-500/15 text-violet-300 border border-violet-500/25 uppercase tracking-wider">
+                    Free Library
+                  </span>
+                </div>
 
-          <div className="h-px bg-white/[0.04] w-full" />
-
-          {/* About nest text & platform stats */}
-          <div className="flex flex-col lg:flex-row justify-between items-stretch gap-8">
-            {/* Star-in-folder icon and paragraph */}
-            <div className="flex items-start gap-4 flex-1">
-              <div className="w-11 h-11 rounded-xl bg-violet-500/10 border border-violet-500/20 flex items-center justify-center shrink-0">
-                <FileStarIcon />
-              </div>
-              <div className="space-y-3 max-w-3xl">
-                <p className="text-xs leading-relaxed text-white/45">
-                  <strong className="text-white font-semibold">AIPromptNest</strong> is a free AI prompt library helping users discover high-quality image prompts for Gemini & ChatGPT. Explore hundreds of categorized prompts for cinematic photography, anime, fantasy, portraits, fashion, digital art, and more.
+                <p className="text-xs sm:text-sm leading-relaxed text-white/60 font-normal">
+                  <strong className="text-white font-medium">AIPromptNest</strong> is an expert-curated AI prompt library built to empower creators. Discover high-performing, copy-paste prompts tailored for <span className="text-violet-300 font-medium">Gemini</span>, <span className="text-violet-300 font-medium">ChatGPT</span>, Midjourney, and top AI generators—covering cinematic realism, anime art, 3D renders, fantasy, and luxury aesthetics.
                 </p>
-                <p className="text-xs leading-relaxed text-white/45">
-                  Our growing collection is updated regularly with trending aesthetic styles, expert-curated prompt templates, and community favorites to help you generate breathtaking AI visuals effortlessly.
+
+                <p className="text-xs sm:text-sm leading-relaxed text-white/45">
+                  Updated continuously with community favorites, prompt engineering techniques, and fresh visual concepts so you can produce studio-quality AI artwork effortlessly.
                 </p>
               </div>
             </div>
 
-            {/* Platform stats aligned horizontally */}
-            <div className="flex flex-row items-center justify-between sm:justify-start lg:justify-end gap-6 sm:gap-10 border-t border-white/[0.04] lg:border-t-0 lg:border-l lg:border-white/[0.04] pt-6 lg:pt-0 lg:pl-10 shrink-0">
+            {/* Right feature badges grid */}
+            <div className="grid grid-cols-2 gap-3 w-full lg:w-auto shrink-0 border-t border-white/6 lg:border-t-0 lg:border-l lg:border-white/6 pt-6 lg:pt-0 lg:pl-8">
               {[
-                { icon: FileText, value: "800+", label: "Prompts" },
-                { icon: LayoutGrid, value: "34", label: "Categories" },
-                { icon: Zap, value: "Daily", label: "Updates" },
-                { icon: ShieldCheck, value: "100%", label: "Free" },
-              ].map((stat, i) => (
-                <React.Fragment key={i}>
-                  <div className="flex flex-col items-center sm:items-start lg:items-center text-center sm:text-left lg:text-center space-y-1.5">
-                    <div className="w-9 h-9 rounded-lg bg-white/[0.03] border border-white/[0.06] flex items-center justify-center shrink-0">
-                      <stat.icon className="w-4.5 h-4.5 text-violet-400" />
-                    </div>
-                    <div>
-                      <p className="text-lg font-extrabold text-white tracking-tight leading-none">{stat.value}</p>
-                      <p className="text-[10.5px] font-bold text-white/40 uppercase tracking-widest mt-1">{stat.label}</p>
-                    </div>
-                  </div>
-                  {i < 3 && <div className="hidden sm:block h-10 w-px bg-white/[0.06]" />}
-                </React.Fragment>
+                { label: "100% Free", sub: "No subscriptions" },
+                { label: "Daily Prompts", sub: "Fresh drop daily" },
+                { label: "Copy & Paste", sub: "Ready for AI tools" },
+                { label: "Curated Styles", sub: "High quality art" },
+              ].map((badge, idx) => (
+                <div key={idx} className="p-3 rounded-xl bg-white/2 border border-white/6 hover:border-violet-500/20 hover:bg-violet-500/5 transition-all">
+                  <p className="text-xs font-bold text-white tracking-tight">{badge.label}</p>
+                  <p className="text-[10px] text-white/40 mt-0.5">{badge.sub}</p>
+                </div>
               ))}
             </div>
           </div>
         </div>
 
         {/* Bottom copyright & socials */}
-        <div className="mt-12 pt-8 border-t border-white/[0.04] flex flex-col sm:flex-row items-center justify-between gap-6">
+        <div className="mt-12 pt-8 border-t border-white/4 flex flex-col sm:flex-row items-center justify-between gap-6">
           <p className="text-xs text-white/35">
             © 2026 AIPromptNest. All rights reserved.
           </p>
@@ -365,7 +216,7 @@ export default function Footer() {
                   rel="noopener noreferrer"
                   title={social.title}
                   aria-label={social.title}
-                  className="w-8 h-8 rounded-full border border-white/[0.08] hover:border-violet-500/20 bg-white/[0.02] hover:bg-violet-500/10 flex items-center justify-center text-white/50 hover:text-white transition-all cursor-pointer"
+                  className="w-8 h-8 rounded-full border border-white/8 hover:border-violet-500/20 bg-white/2 hover:bg-violet-500/10 flex items-center justify-center text-white/50 hover:text-white transition-all cursor-pointer"
                 >
                   {social.icon}
                 </a>

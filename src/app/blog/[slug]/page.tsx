@@ -122,7 +122,7 @@ export default async function BlogDetail({ params }: PageProps) {
       image: rich.coverImage,
       datePublished: rich.publishedAt,
       dateModified: rich.updatedAt ?? rich.publishedAt,
-      author: { "@type": "Person", name: rich.author?.name ?? "AI Prompt Nest" },
+      author: { "@type": "Person", name: rich.author?.name ?? "User" },
       publisher: {
         "@type": "Organization",
         name: "AiPromptNest",
@@ -138,6 +138,7 @@ export default async function BlogDetail({ params }: PageProps) {
     return (
       <main className="min-h-screen mesh-gradient text-foreground">
         <script
+          id="blog-detail-json-ld"
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }}
         />

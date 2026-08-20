@@ -225,6 +225,7 @@ export default async function PromptPage({
     <main className="min-h-screen mesh-gradient">
       {/* Inject JSON-LD for Google rich results */}
       <script
+        id="prompt-detail-json-ld"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
@@ -268,7 +269,7 @@ export default async function PromptPage({
 
         {/* Similar Prompts — fully server-rendered */}
         {similarPrompts.length > 0 && (
-          <div className="mt-32 space-y-10">
+          <div className="my-32 space-y-10">
             <div className="flex items-center justify-between">
               <div className="space-y-1">
                 <h2 className="text-3xl font-bold flex items-center gap-3">

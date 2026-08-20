@@ -107,7 +107,7 @@ export default async function BlogListing() {
       datePublished: blog.publishedAt,
       author: {
         "@type": "Person",
-        name: blog.author?.name || "AI Prompt Nest Team",
+        name: blog.author?.name || "User",
       },
       publisher: {
         "@type": "Organization",
@@ -147,6 +147,7 @@ export default async function BlogListing() {
   return (
     <>
       <script
+        id="blog-listing-json-ld"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify([blogSchema, breadcrumbSchema]),
