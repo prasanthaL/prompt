@@ -406,7 +406,7 @@ export default function HomeClient({
 
       {/* Tab bar */}
       <div className="mb-6">
-        <div className="inline-flex items-center gap-1 p-1 rounded-2xl bg-white/[0.04] border border-white/[0.08]">
+        <div className="inline-flex items-center gap-1 p-1 rounded-2xl bg-white/4 border border-white/8">
           {([
             { id: "trending" as HomeTab, label: "Trending",  icon: Flame,       iconColor: "text-amber-500", activeClass: "bg-gradient-to-r from-amber-500 to-rose-500 text-white border-amber-500/20 shadow-[0_2px_12px_rgba(245,158,11,0.3)]" },
             { id: "popular"  as HomeTab, label: "Popular",   icon: TrendingUp,  iconColor: "text-violet-400", activeClass: "bg-gradient-to-r from-violet-600 to-indigo-600 text-white border-violet-500/20 shadow-[0_2px_12px_rgba(124,58,237,0.3)]" },
@@ -426,7 +426,7 @@ export default function HomeClient({
                   id === "trending" && !isLoading && "animate-pulse",
                   isActive
                     ? activeClass
-                    : "text-white/50 hover:text-white/80 hover:bg-white/[0.05] border-transparent",
+                    : "text-white/50 hover:text-white/80 hover:bg-white/5 border-transparent",
                   isLoading && "opacity-60 cursor-not-allowed"
                 )}
               >
@@ -436,12 +436,6 @@ export default function HomeClient({
             );
           })}
         </div>
-        {/* Subtitle per tab */}
-        <p className="mt-3 text-sm text-foreground/40">
-          {activeTab === "trending" && "Prompts marked as trending by our curators"}
-          {activeTab === "popular"  && "Most viewed & liked prompts from our library"}
-          {activeTab === "latest"   && "Freshly added prompts, newest first"}
-        </p>
       </div>
 
       {/* Category Pills (Respective to Active Tab) */}
@@ -457,7 +451,7 @@ export default function HomeClient({
               "flex items-center gap-2 px-4 py-2 rounded-xl text-xs font-bold transition-all duration-200 border cursor-pointer select-none",
               !selectedCategory
                 ? "bg-primary/10 text-primary border-primary/20 shadow-[0_4px_12px_rgba(139,92,246,0.1)]"
-                : "bg-white/[0.02] text-white/50 border-white/[0.06] hover:text-white hover:bg-white/[0.05] hover:border-white/[0.1]"
+                : "bg-white/2 text-white/50 border-white/6 hover:text-white hover:bg-white/5 hover:border-white/10"
             )}
           >
             <LayoutGrid className="w-3.5 h-3.5" />

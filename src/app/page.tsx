@@ -12,7 +12,6 @@ import { getAllPrompts } from "@/lib/json-db";
 import blogJsonData from "@/data/blog.json";
 import BlogCard from "@/components/blog/BlogCard";
 import type { BlogCardData } from "@/components/blog/BlogCardFeatured";
-import JackpotHomeBanner from "@/components/JackpotHomeBanner";
 import {
   ArrowRight,
   TrendingUp,
@@ -37,14 +36,14 @@ export const revalidate = 86400;
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.aipromptnest.com"),
-  title: "AIPromptNest - Free Gemini AI Image Prompts Library",
-  description: "Discover free Gemini AI image prompts for cinematic photos, anime art, fantasy worlds, portraits, product photography, and creative AI images.",
+  title: "AIPromptNest - Free Gemini AI & ChatGPT Image Prompts Library",
+  description: "Discover free Gemini AI & ChatGPT image prompts for cinematic photos, anime art, fantasy worlds, portraits, product photography, and creative AI images.",
   alternates: {
     canonical: "/"
   },
   openGraph: {
-    title: "AIPromptNest - Free Gemini AI Image Prompts",
-    description: "Explore a growing collection of Gemini AI prompts for stunning AI generated images.",
+    title: "AIPromptNest - Free Gemini AI & ChatGPT Image Prompts",
+    description: "Explore a growing collection of Gemini AI & ChatGPT prompts for stunning AI generated images.",
     url: "https://www.aipromptnest.com",
     type: "website",
     images: [
@@ -57,8 +56,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "AIPromptNest - Free Gemini AI Image Prompts",
-    description: "Discover free Gemini AI image prompts for cinematic photos, anime art, fantasy worlds, portraits, product photography, and creative AI images.",
+    title: "AIPromptNest - Free Gemini AI & ChatGPT Image Prompts",
+    description: "Discover free Gemini AI & ChatGPT image prompts for cinematic photos, anime art, fantasy worlds, portraits, product photography, and creative AI images.",
     images: [
       "https://res.cloudinary.com/dfbacu2lw/image/upload/v1781332533/og_yh8di5.webp",
     ],
@@ -171,8 +170,8 @@ export default async function Home() {
   const itemListSchema = {
     "@context": "https://schema.org",
     "@type": "ItemList",
-    name: "Featured Gemini AI Image Prompts",
-    description: "Discover free Gemini AI image prompts for cinematic photos, anime art, fantasy worlds, portraits, product photography, and creative AI images.",
+    name: "Featured Gemini AI & ChatGPT Image Prompts",
+    description: "Discover free Gemini AI & ChatGPT image prompts for cinematic photos, anime art, fantasy worlds, portraits, product photography, and creative AI images.",
     url: "https://www.aipromptnest.com",
     numberOfItems: featuredPromptsForSchema.length,
     itemListElement: featuredPromptsForSchema.map((prompt, index) => ({
@@ -247,13 +246,13 @@ export default async function Home() {
       <section className="max-w-7xl mx-auto px-4 md:px-8 pb-20">
         <div className="text-center mb-10 flex flex-col items-center">
           <p className="text-[10px] font-black uppercase tracking-[0.25em] text-violet-400 mb-2">
-            EXPLORE GEMINI AI PROMPTS
+            EXPLORE GEMINI &amp; CHATGPT AI PROMPTS
           </p>
           <h2 className="text-4xl sm:text-5xl font-black text-white tracking-tight mb-4">
             Find Prompts by <span className="bg-gradient-to-r from-violet-400 to-fuchsia-500 bg-clip-text text-transparent">Category</span>
           </h2>
           <p className="text-foreground/50 text-sm max-w-xl mx-auto">
-            Browse high-quality Gemini AI image prompts organized by category. Discover the perfect aesthetic for your next creation.
+            Browse high-quality Gemini AI &amp; ChatGPT image prompts organized by category. Discover the perfect aesthetic for your next creation.
           </p>
         </div>
 
@@ -266,7 +265,7 @@ export default async function Home() {
                 key={cat.id}
                 href={`/categories/${cat.id.toLowerCase()}`}
                 className={cn(
-                  "group relative flex flex-col rounded-2xl border border-white/[0.06] bg-white/[0.02] hover:-translate-y-1 transition-all duration-300 cursor-pointer p-5",
+                  "group relative flex flex-col rounded-2xl border border-white/6 bg-white/2 hover:-translate-y-1 transition-all duration-300 cursor-pointer p-5",
                   cat.hoverBorder,
                   cat.hoverShadow,
                   cat.hoverBgGrad
@@ -289,7 +288,7 @@ export default async function Home() {
                   <p className="text-xs leading-relaxed text-foreground/40 flex-1 line-clamp-2">
                     {cat.description}
                   </p>
-                  <div className="flex items-center gap-1.5 mt-auto pt-2.5 border-t border-white/[0.02]">
+                  <div className="flex items-center gap-1.5 mt-auto pt-2.5 border-t border-white/2">
                     <ImageIcon className={cn("w-3.5 h-3.5 text-foreground/30 transition-colors shrink-0", cat.hoverText)} />
                     <span className={cn("text-[10px] font-bold uppercase tracking-wider text-foreground/30 transition-colors", cat.hoverText)}>
                       {count.toLocaleString()} Prompts
@@ -302,7 +301,7 @@ export default async function Home() {
         </div>
 
         {/* Popular searches bottom bar */}
-        <div className="mt-8 flex flex-col lg:flex-row items-center justify-between gap-4 p-4 rounded-2xl border border-white/[0.05] bg-[#0c0a15]/30 backdrop-blur-md">
+        <div className="mt-8 flex flex-col lg:flex-row items-center justify-between gap-4 p-4 rounded-2xl border border-white/5 bg-[#0c0a15]/30 backdrop-blur-md">
           <div className="flex items-center gap-2 shrink-0">
             <TrendingUp className="w-4 h-4 text-violet-400" />
             <span className="text-xs font-bold text-white">Popular Style Searches</span>
@@ -312,7 +311,7 @@ export default async function Home() {
               <Link
                 key={search}
                 href={`/browse?q=${encodeURIComponent(search.replace(" Prompts", ""))}`}
-                className="px-3.5 py-1.5 rounded-full border border-white/[0.04] bg-white/[0.02] hover:border-violet-500/30 hover:bg-violet-500/10 text-[10px] font-bold text-foreground/60 hover:text-white transition-all cursor-pointer"
+                className="px-3.5 py-1.5 rounded-full border border-white/4 bg-white/2 hover:border-violet-500/30 hover:bg-violet-500/10 text-[10px] font-bold text-foreground/60 hover:text-white transition-all cursor-pointer"
               >
                 {search}
               </Link>
@@ -334,16 +333,16 @@ export default async function Home() {
           {/* Left column */}
           <div className="p-8 md:p-10 border-b lg:border-b-0 lg:border-r border-border space-y-6">
             <h2 className="text-2xl sm:text-3xl font-bold text-foreground leading-snug">
-              Gemini AI Prompts for Every Imagination
+              Gemini AI &amp; ChatGPT Prompts for Every Imagination
             </h2>
             <div className="space-y-4 text-sm text-foreground/50 leading-relaxed">
               <p>
-                PromptNest is your go-to library for Gemini AI image prompts. Whether you&apos;re
+                PromptNest is your go-to library for Gemini AI &amp; ChatGPT image prompts. Whether you&apos;re
                 creating anime characters, cinematic scenes, fantasy worlds, or realistic portraits,
                 our carefully crafted prompts help you generate stunning AI art with ease.
               </p>
               <p>
-                All prompts are tested and optimized for Gemini AI to deliver the best results.
+                All prompts are tested and optimized for Gemini AI &amp; ChatGPT to deliver the best results.
                 Copy, paste, and bring your imagination to life.
               </p>
             </div>
@@ -412,6 +411,7 @@ export default async function Home() {
 
       {/* JSON-LD SEO schemas script */}
       <script
+        id="home-json-ld"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify([faqJsonLd, websiteSchema, itemListSchema]),
@@ -421,8 +421,6 @@ export default async function Home() {
       {/* FAQ Section (Client component) */}
       <HomeFaqSection />
 
-      {/* Jackpot Floating Promotion Banner */}
-      <JackpotHomeBanner />
 
       <Footer />
     </main>

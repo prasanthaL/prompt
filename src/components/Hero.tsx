@@ -38,7 +38,7 @@ const Hero = ({ promptsCount = 509, categoriesCount = 16 }: HeroProps) => {
               className="text-5xl md:text-7xl font-bold leading-[1.1] tracking-tight text-foreground"
             >
               <span className="block">
-                Browse Free <span className="text-primary">Gemini AI</span> Image Prompts
+                Browse Free <span className="text-primary">Gemini & ChatGPT</span> Image Prompts
               </span>
 
               <span className="block">
@@ -52,7 +52,7 @@ const Hero = ({ promptsCount = 509, categoriesCount = 16 }: HeroProps) => {
               transition={{ duration: 0.6, delay: 0.1, ease: "easeOut" }}
               className="text-foreground/60 text-lg md:text-xl max-w-xl leading-relaxed"
             >
-              Browse cinematic, anime, fantasy, fashion, realistic, and creative prompts for Gemini AI image generation.
+              Browse cinematic, anime, fantasy, fashion, realistic, and creative prompts for Gemini & ChatGPT AI image generation.
             </motion.p>
           </div>
 
@@ -95,7 +95,7 @@ const Hero = ({ promptsCount = 509, categoriesCount = 16 }: HeroProps) => {
               transition={{ duration: 0.6, delay: 0.25 }}
               className="text-foreground/50 text-sm md:text-base max-w-xl leading-relaxed"
             >
-              Explore thousands of Gemini AI prompts for cinematic art, realistic photography, anime characters, cyberpunk scenes, fashion editorials, fantasy worlds, and more.
+              Explore thousands of Gemini & ChatGPT AI prompts for cinematic art, realistic photography, anime characters, cyberpunk scenes, fashion editorials, fantasy worlds, and more.
             </motion.p>
           </div>
 
@@ -220,7 +220,7 @@ const Hero = ({ promptsCount = 509, categoriesCount = 16 }: HeroProps) => {
                 </div>
                 <div className="flex-1">
                   <h3 className="font-bold text-foreground text-lg leading-none mb-1">Enchanted Forest</h3>
-                  <p className="text-foreground/40 text-xs font-medium">Gemini AI</p>
+                  <p className="text-foreground/40 text-xs font-medium">Gemini & ChatGPT AI</p>
                 </div>
                 <div className="w-10 h-10 rounded-full bg-foreground/5 border border-border flex items-center justify-center text-foreground/60 hover:text-foreground hover:bg-primary/20 transition-all cursor-pointer">
                   <Rocket className="w-5 h-5" />

@@ -17,10 +17,7 @@ import {
   Gauge,
   CalendarDays,
   Maximize2,
-  Info,
   BookOpen,
-  Lightbulb,
-  CheckCircle2,
   AlertCircle,
   X,
 } from "lucide-react";
@@ -482,56 +479,8 @@ const handleCopy = async () => {
         </section>
       </div>
 
-      {/* ── About This Prompt + How To Use ──────────────────────────── */}
-      <div className="prompt-detail-bottom-grid">
-
-        {/* About This Prompt */}
-        <section className="prompt-detail-card">
-          <div className="prompt-detail-card-header">
-            <div className="flex items-center gap-3">
-              <div className="prompt-detail-card-icon-wrap bg-primary/10">
-                <Info className="w-4 h-4 text-primary" />
-              </div>
-              <div>
-                <h2 className="prompt-detail-card-title">About This Prompt</h2>
-                <span className="text-[10px] font-bold uppercase tracking-widest text-foreground/30">Auto Generated</span>
-              </div>
-            </div>
-          </div>
-
-          <p className="text-foreground/60 text-sm leading-relaxed">
-            {prompt.about ??
-              `This is a high-quality ${prompt.category} AI prompt crafted by ${prompt.author}. It is designed to produce ${prompt.category === "Cinematic" ? "cinematic, film-quality" :
-                prompt.category === "Fantasy" ? "rich, imaginative fantasy" :
-                  prompt.category === "Anime" ? "detailed anime-style" :
-                    prompt.category === "Portrait" ? "realistic, expressive portrait" :
-                      prompt.category === "Architecture" ? "architecturally precise" :
-                        prompt.category === "Sci-Fi" ? "futuristic sci-fi" :
-                          "stunning"
-              } visuals with minimal iteration. The prompt uses carefully selected descriptors and stylistic cues ${prompt.models && prompt.models.length > 0
-                ? `optimised for ${prompt.models.join(" and ")}`
-                : "compatible with leading AI image models"
-              }, making it ideal for creators who want consistent, professional results.`
-            }
-          </p>
-
-          <div className="flex flex-wrap gap-2">
-            {[
-              { icon: CheckCircle2, label: "Production Ready" },
-              { icon: CheckCircle2, label: "Beginner Friendly" },
-              { icon: Lightbulb, label: "Creative Freedom" },
-            ].map(({ icon: Icon, label }) => (
-              <span
-                key={label}
-                className="inline-flex items-center gap-1.5 bg-primary/10 text-primary text-[11px] font-bold px-3 py-1.5 rounded-full"
-              >
-                <Icon className="w-3.5 h-3.5" />
-                {label}
-              </span>
-            ))}
-          </div>
-        </section>
-
+      {/* ── How To Use ──────────────────────────── */}
+      <div className="mt-5 mb-10">
         {/* How To Use */}
         <section className="prompt-detail-card">
           <div className="prompt-detail-card-header">
@@ -573,7 +522,6 @@ const handleCopy = async () => {
             </p>
           </div>
         </section>
-
       </div>
 
       {/* ── FULL SIZE IMAGE MODAL (LIGHTBOX) ────────────────────── */}

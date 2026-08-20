@@ -134,6 +134,7 @@ export default function AboutPage() {
     <>
       {/* Inject Structured Data for SEO Rich Snippets */}
       <script
+        id="about-json-ld"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify([aboutPageJsonLd, breadcrumbJsonLd, howToJsonLd]),

@@ -1,15 +1,12 @@
 import { getTrendingPrompts, getAllPrompts } from "@/lib/json-db";
-import { categoryToSlug } from "@/lib/category-slugs";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import TrendingClient, { CATEGORY_DISPLAY_NAMES } from "./TrendingClient";
+import TrendingClient from "./TrendingClient";
 import Link from "next/link";
 import {
   TrendingUp,
   Star,
   ChevronRight,
-  Plus,
-  Minus,
   Zap,
   BookOpen,
   ShieldCheck,
@@ -84,29 +81,6 @@ export const metadata: Metadata = {
   category: "Technology",
 };
 
-const FAQS = [
-  {
-    q: "What are trending AI prompts?",
-    a: "Trending AI prompts are the most viewed and liked prompts in our community right now. They're selected based on real-time engagement including views, likes, saves, and community interaction.",
-  },
-  {
-    q: "How are prompts ranked?",
-    a: "Prompts are ranked using a combination of views, likes, saves, and recency. Our algorithm ensures fresh and relevant content always surfaces to the top.",
-  },
-  {
-    q: "Are these prompts free to use?",
-    a: "Yes, all prompts on AIPromptNest are completely free to use. You can copy, customize, and use them for your projects without any cost.",
-  },
-  {
-    q: "How often is the list updated?",
-    a: "The trending list updates in real-time. We recalculate rankings every few minutes to ensure you always see the freshest and most popular content.",
-  },
-  {
-    q: "Which AI models are supported?",
-    a: "We currently specialize exclusively in Google Gemini AI. All prompts on AIPromptNest are meticulously crafted, tested, and optimized specifically for Gemini AI to ensure high-quality and consistent results.",
-  },
-];
-
 const EXPLORE_CARDS = [
   {
     icon: Zap,
@@ -174,24 +148,12 @@ export default async function TrendingPage() {
     })),
   };
 
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: FAQS.map((faq) => ({
-      "@type": "Question",
-      name: faq.q,
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: faq.a,
-      },
-    })),
-  };
-
-  const dynamicSchemas = [itemListSchema, faqSchema];
+  const dynamicSchemas = [itemListSchema];
 
   return (
     <>
       <script
+        id="trending-json-ld"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(dynamicSchemas),
@@ -384,67 +346,6 @@ export default async function TrendingPage() {
 
       {/* ═══════════════════════════════════════════ TRENDING CLIENT ═══════════════════════════════════════════ */}
       <TrendingClient allTrendingPrompts={allTrending} />
-
-      {/* ═══════════════════════════════════════════ POPULAR CATEGORIES ═══════════════════════════════════════════ */}
-      <section className="px-4 md:px-8 pb-16">
-        <div className="max-w-7xl mx-auto">
-          <h2 className="text-base font-bold text-foreground mb-4">
-            Popular Categories
-          </h2>
-          <div className="flex flex-wrap gap-2">
-            {trendingCategories.map((catName) => {
-              const displayName = CATEGORY_DISPLAY_NAMES[catName.toLowerCase()] || catName;
-              return (
-                <Link
-                  key={catName}
-                  href={`/categories/${categoryToSlug(catName)}`}
-                  className="px-4 py-2 rounded-full text-xs font-semibold border transition-all duration-200 hover:border-primary/60 hover:text-primary"
-                  style={{
-                    background: "rgba(255,255,255,0.04)",
-                    borderColor: "rgba(255,255,255,0.1)",
-                    color: "rgba(255,255,255,0.6)",
-                  }}
-                >
-                  {displayName} Prompts
-                </Link>
-              );
-            })}
-          </div>
-        </div>
-      </section>
-
-      {/* ═══════════════════════════════════════════ FAQ ═══════════════════════════════════════════ */}
-      <section className="px-4 md:px-8 pb-16">
-        <div className="max-w-7xl mx-auto">
-          <h2 className="text-2xl font-bold text-foreground mb-6">
-            Frequently Asked Questions
-          </h2>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-            {FAQS.map((faq, i) => (
-              <details
-                key={i}
-                className="group border rounded-xl overflow-hidden transition-all duration-200 [&_summary::-webkit-details-marker]:hidden"
-                style={{
-                  background: "rgba(255,255,255,0.03)",
-                  borderColor: "rgba(255,255,255,0.07)",
-                }}
-              >
-                <summary className="flex items-center justify-between p-5 cursor-pointer list-none select-none gap-4">
-                  <span className="text-sm font-semibold text-foreground group-hover:text-primary transition-colors">
-                    {faq.q}
-                  </span>
-                  <Plus className="w-4 h-4 text-foreground/40 shrink-0 group-open:hidden" />
-                  <Minus className="w-4 h-4 text-primary shrink-0 hidden group-open:block" />
-                </summary>
-                <div className="px-5 pb-5 text-sm text-foreground/50 leading-relaxed border-t border-foreground/5 pt-3">
-                  {faq.a}
-                </div>
-              </details>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* ═══════════════════════════════════════════ EXPLORE MORE ═══════════════════════════════════════════ */}
       <section className="px-4 md:px-8 pb-16">

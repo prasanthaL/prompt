@@ -9,9 +9,7 @@ import categoriesData from "@/data/categories.json";
 import {
   categoryDescriptions,
   categoryMetaLookup,
-  categoryFaqData,
   categoryTipsLookup,
-  trendingSearchesLookup,
   ICON_MAP,
 } from "@/data/category-page-data";
 
@@ -19,11 +17,8 @@ import {
   Sparkles,
   ArrowRight,
   ChevronRight,
-  ChevronDown,
   Clock,
   Layers,
-  ArrowUpRight,
-  TrendingUp,
   Copy,
   FolderOpen,
 } from "lucide-react";
@@ -214,11 +209,6 @@ export default async function CategoryPage({ params }: PageProps) {
     "Experiment, copy and remix prompts freely"
   ];
 
-  // Category specific trending searches
-  const searches = trendingSearchesLookup[categorySlug] ?? trendingSearchesLookup[rawKey] ?? [
-    "epic art style", "beautiful landscape", "high resolution", "golden hour focus", "neon lighting vibe"
-  ];
-
   // Category specific intro paragraph for the Tips Section
   const categoryIntroText = `${displayName} AI prompts are text instructions used with Gemini AI to generate professional-grade ${displayName}-style visual content. These prompts help you create stunning ${displayName} characters, scenes, and compositions by specifying fine details like subject focus, action poses, mood transitions, lighting, and environmental factors. Use our detailed copy-and-paste prompts to get the best results and bring your creative imagination to life.`;
 
@@ -252,39 +242,6 @@ export default async function CategoryPage({ params }: PageProps) {
         item: `${siteUrl}/categories/${categorySlug}`,
       },
     ],
-  };
-
-  const genericFaqs = [
-    {
-      question: `Can I use these prompts with Gemini AI?`,
-      answer: `Yes! All prompts on PromptNest are optimized for Google Gemini AI. They work beautifully with Gemini 1.5 Pro and Gemini 1.5 Flash models to generate stunning visuals, and can also be used in other models like Gemini.`,
-    },
-    {
-      question: `Are these ${displayName} prompts free?`,
-      answer: `Yes, we offer a wide variety of free, copy-and-paste prompts across all categories. Premium prompts with advanced staging and visual instructions are also available for advanced creators.`,
-    },
-    {
-      question: `How can I get better results with these prompts?`,
-      answer: `You can customize prompts by tweaking parameters like subject details, lighting setups, artistic camera angles, and rendering engines. Check our "Tips for Better Results" section for a complete list.`,
-    },
-  ];
-
-  const allFaqs = [
-    ...(categoryFaqData[categorySlug] ?? categoryFaqData[rawKey] ?? []),
-    ...genericFaqs,
-  ];
-
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: allFaqs.map(({ question, answer }) => ({
-      "@type": "Question",
-      name: question,
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: answer,
-      },
-    })),
   };
 
   const itemListSchema = {
@@ -325,26 +282,25 @@ export default async function CategoryPage({ params }: PageProps) {
     <main className="min-h-screen mesh-gradient">
       {/* Structured Data – BreadcrumbList */}
       <script
+        id="cat-breadcrumb-json-ld"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
       {/* Structured Data – CollectionPage */}
       <script
+        id="cat-collection-json-ld"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionPageSchema) }}
       />
       {/* Structured Data – WebPage */}
       <script
+        id="cat-webpage-json-ld"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }}
       />
-      {/* Structured Data – FAQPage */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-      />
       {/* Structured Data – ItemList */}
       <script
+        id="cat-itemlist-json-ld"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }}
       />
@@ -514,56 +470,10 @@ export default async function CategoryPage({ params }: PageProps) {
           />
         </section>
 
-        {/* Layout Row 1: Intro + Tips Block */}
-        <div className="glass-dark border border-foreground/5 p-8 md:p-12 rounded-[2.5rem] mb-12">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 md:gap-12">
-            {/* Left side: Intro description */}
-            <div className="lg:col-span-8 space-y-4">
-              <h2 className="text-2xl font-extrabold text-foreground">
-                What Are {displayName} AI Prompts?
-              </h2>
-              <p className="text-sm sm:text-base leading-relaxed text-foreground/50 text-justify">
-                {categoryIntroText}
-              </p>
-            </div>
-
-            {/* Right side: Tips for better results */}
-            <div className="lg:col-span-4 space-y-4 border-t lg:border-t-0 lg:border-l border-foreground/5 pt-8 lg:pt-0 lg:pl-10">
-              <h3 className="text-lg font-bold text-foreground">
-                Tips for Better Results
-              </h3>
-              <ul className="space-y-3.5">
-                {tips.map((tip, idx) => (
-                  <li key={idx} className="flex items-start text-xs sm:text-sm text-foreground/60 leading-tight">
-                    <span className="text-primary font-black mr-2 select-none">✓</span>
-                    <span>{tip}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        {/* Layout Row 2: Three-Column Navigation Block */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-8 mb-16">
-          {/* Column 1: Trending Searches */}
-          <div className="lg:col-span-5 glass-dark border border-foreground/5 p-8 rounded-4xl space-y-6">
-            <h3 className="text-lg font-bold text-foreground flex items-center gap-2">
-              <TrendingUp className="w-5 h-5 text-primary" />
-              Trending Searches
-            </h3>
-            <div className="grid grid-cols-2 gap-x-6 gap-y-3.5">
-              {searches.map((keyword, idx) => (
-                <div key={idx} className="flex items-center gap-2 text-xs sm:text-sm text-foreground/50 hover:text-primary transition-colors cursor-pointer group">
-                  <ArrowUpRight className="w-3.5 h-3.5 text-foreground/20 group-hover:text-primary transition-colors shrink-0" />
-                  <span className="truncate">{keyword}</span>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          {/* Column 2: Related Categories */}
-          <div className="lg:col-span-4 glass-dark border border-foreground/5 p-8 rounded-4xl space-y-6">
+        {/* Layout Row 2: Related Categories & Latest Prompts */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-16">
+          {/* Related Categories */}
+          <div className="glass-dark border border-foreground/5 p-8 rounded-4xl space-y-6">
             <div className="flex justify-between items-center">
               <h3 className="text-lg font-bold text-foreground flex items-center gap-2">
                 <FolderOpen className="w-5 h-5 text-primary" />
@@ -586,13 +496,8 @@ export default async function CategoryPage({ params }: PageProps) {
                       <div className="w-10 h-10 rounded-xl bg-foreground/5 flex items-center justify-center text-foreground/40 group-hover:text-primary group-hover:bg-primary/10 transition-colors">
                         <RelatedIcon className="w-5 h-5" />
                       </div>
-                      <div>
-                        <div className="text-sm font-bold text-foreground group-hover:text-primary transition-colors">
-                          {item.name} Prompts
-                        </div>
-                        <div className="text-[10px] text-foreground/40 font-medium">
-                          {item.count} Prompts
-                        </div>
+                      <div className="text-sm font-bold text-foreground group-hover:text-primary transition-colors">
+                        {item.name} Prompts
                       </div>
                     </div>
                     <ChevronRight className="w-4 h-4 text-foreground/20 group-hover:text-primary transition-transform group-hover:translate-x-0.5" />
@@ -602,71 +507,11 @@ export default async function CategoryPage({ params }: PageProps) {
             </div>
           </div>
 
-          {/* Column 3: How to Use Callout Card */}
-          <div className="lg:col-span-3 glass-dark border border-foreground/5 p-8 rounded-4xl flex flex-col justify-between h-full bg-primary/1">
-            <div className="space-y-4">
-              <h3 className="text-lg font-bold text-foreground">How to Use {displayName} Prompts</h3>
-              <p className="text-xs leading-relaxed text-foreground/45">
-                Copy any prompt you like and paste it into Gemini AI. You can modify the prompt to match your imagination and create unique {displayName} art.
-              </p>
-            </div>
-            <Link
-              href="/blog"
-              className="w-full inline-flex items-center justify-center gap-2 border border-primary/20 hover:border-primary/50 hover:bg-primary/5 text-primary px-5 py-3 rounded-xl font-bold transition-all text-xs mt-6"
-            >
-              Learn More Guide
-              <ArrowRight className="w-3.5 h-3.5" />
-            </Link>
-          </div>
-        </div>
-
-        {/* Layout Row 3: Split FAQ & Latest Prompts Block */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 md:gap-12 mb-16">
-          {/* Left: Frequently Asked Questions */}
-          <div className="lg:col-span-7 space-y-6">
-            <h3 className="text-2xl font-extrabold text-foreground">
-              Frequently Asked Questions
-            </h3>
-            <div className="space-y-4">
-              {[
-                {
-                  question: `Can I use these prompts with Gemini AI?`,
-                  answer: `Yes! All prompts on PromptNest are optimized for Google Gemini AI. They work beautifully with Gemini 1.5 Pro and Gemini 1.5 Flash models to generate stunning visuals, and can also be used in other models like Gemini.`,
-                },
-                {
-                  question: `Are these ${displayName} prompts free?`,
-                  answer: `Yes, we offer a wide variety of free, copy-and-paste prompts across all categories. Premium prompts with advanced staging and visual instructions are also available for advanced creators.`,
-                },
-                {
-                  question: `How can I get better results with these prompts?`,
-                  answer: `You can customize prompts by tweaking parameters like subject details, lighting setups, artistic camera angles, and rendering engines. Check our "Tips for Better Results" section above for a complete list.`,
-                },
-              ].map((item, idx) => (
-                <details
-                  key={idx}
-                  className="group glass-dark border border-foreground/5 hover:border-foreground/15 rounded-2xl transition-all duration-300 [&_summary::-webkit-details-marker]:hidden"
-                >
-                  <summary className="flex items-center justify-between gap-4 px-6 py-4.5 cursor-pointer list-none select-none">
-                    <span className="text-sm font-semibold text-foreground group-hover:text-primary transition-colors">
-                      {item.question}
-                    </span>
-                    <ChevronDown className="h-4 w-4 shrink-0 text-foreground/40 transition-transform duration-300 group-open:rotate-180 group-open:text-primary" />
-                  </summary>
-
-                  <div className="px-6 pb-5 border-t border-foreground/2">
-                    <p className="text-xs sm:text-sm leading-relaxed text-foreground/45 pt-4">
-                      {item.answer}
-                    </p>
-                  </div>
-                </details>
-              ))}
-            </div>
-          </div>
-
-          {/* Right: Latest Prompts list */}
-          <div className="lg:col-span-5 space-y-6">
+          {/* Latest Prompts */}
+          <div className="glass-dark border border-foreground/5 p-8 rounded-4xl space-y-6">
             <div className="flex justify-between items-center">
-              <h3 className="text-2xl font-extrabold text-foreground">
+              <h3 className="text-lg font-bold text-foreground flex items-center gap-2">
+                <Sparkles className="w-5 h-5 text-primary" />
                 Latest {displayName} Prompts
               </h3>
               <Link href={`/browse?category=${encodeURIComponent(displayName)}`} className="text-xs font-bold text-primary hover:underline flex items-center gap-0.5">
@@ -674,27 +519,27 @@ export default async function CategoryPage({ params }: PageProps) {
                 <ArrowRight className="w-3.5 h-3.5" />
               </Link>
             </div>
-            <div className="space-y-4">
-              {initialPrompts.slice(0, 3).map((p) => {
+            <div className="space-y-3">
+              {initialPrompts.slice(0, 4).map((p) => {
                 const cardHref = p.slug ? `/prompts/${p.slug}` : `/prompts/${p.id}`;
                 return (
                   <Link
                     key={p.id}
                     href={cardHref}
-                    className="flex items-center justify-between p-4 rounded-[1.5rem] bg-foreground/2 border border-foreground/5 hover:border-primary/25 hover:bg-primary/1 transition-all group"
+                    className="flex items-center justify-between p-3.5 rounded-2xl bg-foreground/2 border border-foreground/5 hover:border-primary/25 hover:bg-primary/1 transition-all group"
                   >
                     <div className="flex items-center gap-4 min-w-0">
-                      <div className="w-14 h-14 relative rounded-xl overflow-hidden shrink-0 border border-foreground/5">
+                      <div className="w-10 h-10 relative rounded-xl overflow-hidden shrink-0 border border-foreground/5">
                         <Image
                           src={p.image}
                           alt={p.title}
                           fill
                           quality={90}
                           className="object-cover"
-                          sizes="56px"
+                          sizes="40px"
                         />
                       </div>
-                      <div className="space-y-1 min-w-0">
+                      <div className="space-y-0.5 min-w-0">
                         <h4 className="text-sm font-bold text-foreground group-hover:text-primary transition-colors line-clamp-1">
                           {p.title}
                         </h4>
@@ -708,8 +553,8 @@ export default async function CategoryPage({ params }: PageProps) {
                         </div>
                       </div>
                     </div>
-                    <div className="w-9 h-9 rounded-lg bg-foreground/5 flex items-center justify-center text-foreground/30 group-hover:text-primary group-hover:bg-primary/10 transition-all shrink-0">
-                      <Copy className="w-4 h-4" />
+                    <div className="w-8 h-8 rounded-lg bg-foreground/5 flex items-center justify-center text-foreground/30 group-hover:text-primary group-hover:bg-primary/10 transition-all shrink-0">
+                      <Copy className="w-3.5 h-3.5" />
                     </div>
                   </Link>
                 );
