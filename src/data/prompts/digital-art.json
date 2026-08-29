@@ -18,7 +18,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cml69kyctrk",
@@ -39,7 +41,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmzq1a5zuoj",
@@ -60,7 +64,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm3c39z3ovg",
@@ -81,7 +87,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm8uizor8pa",
@@ -102,6 +110,8 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   }
 ]

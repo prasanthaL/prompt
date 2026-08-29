@@ -4,7 +4,7 @@
     "title": "Minimalist Bird Logo Vector",
     "slug": "minimalist-bird-logo-vector-lg39b",
     "category": "Logo Design",
-    "fullPrompt": "A minimalist flat vector logo design of a flying bird, geometric clean lines, solid blue color, isolated on a clean white background, corporate branding style, emblem concept, no gradients.",
+    "fullPrompt": "A minimalist flat vector logo design of a flying bird, geometric clean lines, solid blue color, isolated on a clean white background, corporate branding style, emblem concept, no gradients. Clean visual composition, balanced graphic layout, harmonious color palette, high-precision vector lines, contemporary design aesthetic.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783671359/prompts/barqnjdqtgfxp9oqlhr5.webp",
     "isPremium": false,
     "isTrending": false,
@@ -18,14 +18,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cmnoy769cj7",
     "title": "Premium Luxury Lion Logo Design",
     "slug": "premium-luxury-lion-logo-design-kgvz8",
     "category": "Logo Design",
-    "fullPrompt": "Design a premium luxury lion logo featuring a majestic lion head with clean geometric lines, elegant golden metallic finish, symmetrical composition, minimal yet powerful design, sophisticated negative space techniques, bold modern branding aesthetic, black matte background, vector-style precision, ultra sharp edges, professional corporate identity, timeless luxury logo, scalable SVG-ready appearance, award-winning branding style, masterpiece, 8K.",
+    "fullPrompt": "Design a premium luxury lion logo featuring a majestic lion head with clean geometric lines, elegant golden metallic finish, symmetrical composition, minimal yet powerful design, sophisticated negative space techniques, bold modern branding aesthetic, black matte background, vector-style precision, ultra sharp edges, professional corporate identity, timeless luxury logo, scalable SVG-ready appearance, award-winning branding style, masterpiece, 8K. Clean visual composition, balanced graphic layout, harmonious color palette, high-precision vector lines, contemporary design aesthetic.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783671412/prompts/nybvczqrnnc0qe1w7lyi.webp",
     "isPremium": false,
     "isTrending": false,
@@ -39,14 +41,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmmyatxmr76",
     "title": "Futuristic AI Technology Logo Design",
     "slug": "futuristic-ai-technology-logo-design-ijskv",
     "category": "Logo Design",
-    "fullPrompt": "Create a futuristic technology company logo featuring an abstract AI-inspired geometric symbol with glowing blue gradients, minimalist flat vector design, clean sharp lines, balanced symmetry, premium startup branding, sleek corporate identity, modern typography placeholder beneath the icon, white background, highly scalable, professional logo presentation, innovative and memorable, award-winning logo design, masterpiece, 8K.",
+    "fullPrompt": "Create a futuristic technology company logo featuring an abstract AI-inspired geometric symbol with glowing blue gradients, minimalist flat vector design, clean sharp lines, balanced symmetry, premium startup branding, sleek corporate identity, modern typography placeholder beneath the icon, white background, highly scalable, professional logo presentation, innovative and memorable, award-winning logo design, masterpiece, 8K. Clean visual composition, balanced graphic layout, harmonious color palette, high-precision vector lines, contemporary design aesthetic.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783671478/prompts/s7mp9hgjf6chmkuasvkr.webp",
     "isPremium": false,
     "isTrending": false,
@@ -60,14 +64,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmn9r6cd8oj",
     "title": "Elegant Coffee Brand Logo Design",
     "slug": "elegant-coffee-brand-logo-design-uwfpo",
     "category": "Logo Design",
-    "fullPrompt": "Design an elegant coffee brand logo featuring a minimalist coffee bean seamlessly combined with a steaming cup using clever negative space, earthy brown and gold color palette, premium café branding, modern flat vector style, clean typography layout, simple yet memorable icon, sophisticated packaging-ready design, professional brand identity presentation, ultra clean, masterpiece, 8K.",
+    "fullPrompt": "Design an elegant coffee brand logo featuring a minimalist coffee bean seamlessly combined with a steaming cup using clever negative space, earthy brown and gold color palette, premium café branding, modern flat vector style, clean typography layout, simple yet memorable icon, sophisticated packaging-ready design, professional brand identity presentation, ultra clean, masterpiece, 8K. Clean visual composition, balanced graphic layout, harmonious color palette, high-precision vector lines, contemporary design aesthetic.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783671527/prompts/wdyzqgbeozor4fkxq0g8.webp",
     "isPremium": false,
     "isTrending": false,
@@ -81,14 +87,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmvbfaz0qf3",
     "title": "Outdoor Adventure Logo Design Description",
     "slug": "outdoor-adventure-logo-design-descriptio-wgmzp",
     "category": "Logo Design",
-    "fullPrompt": "Create a bold outdoor adventure logo featuring stylized mountain peaks, pine trees, and a rising sun integrated into a modern circular badge, minimalist vector illustration, clean geometric shapes, balanced composition, dark green and orange color palette, premium outdoor brand identity, highly scalable, professional logo mockup presentation, timeless emblem design, award-winning branding style, masterpiece, 8K.",
+    "fullPrompt": "Create a bold outdoor adventure logo featuring stylized mountain peaks, pine trees, and a rising sun integrated into a modern circular badge, minimalist vector illustration, clean geometric shapes, balanced composition, dark green and orange color palette, premium outdoor brand identity, highly scalable, professional logo mockup presentation, timeless emblem design, award-winning branding style, masterpiece, 8K. Clean visual composition, balanced graphic layout, harmonious color palette, high-precision vector lines, contemporary design aesthetic.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783671768/prompts/mjbaacfrwilulrgbxrj9.webp",
     "isPremium": false,
     "isTrending": false,
@@ -102,14 +110,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmhykf2kxjc",
     "title": "Futuristic 3D logo with neon lights",
     "slug": "futuristic-3d-logo-with-neon-lights-0lupb",
     "category": "Logo Design",
-    "fullPrompt": "Generate a 3d [Prompt Maker] logo, reflective metal surface, glowing color bloom highlights, studio soft shadows, high-polish brand aesthetic --ar 1:1",
+    "fullPrompt": "A 3D futuristic brand logo for NovaTech rendered with vibrant glowing neon light tubes, frosted dark glass reflections, volumetric ambient occlusion, sleek cybernetic aesthetic. Clean visual composition, balanced graphic layout, harmonious color palette, high-precision vector lines, contemporary design aesthetic.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784893366/prompts/hjainiufbd4pcnkbnsjp.webp",
     "isPremium": false,
     "isTrending": false,
@@ -123,7 +133,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cm6eza6lwgs",
@@ -144,7 +156,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmnea976tde",
@@ -165,7 +179,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmvamtfh9oj",
@@ -186,7 +202,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmafl45f7ir",
@@ -207,7 +225,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmje57sav7k",
@@ -228,7 +248,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm404wuuv1o",
@@ -249,14 +271,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmybpro3nf8",
     "title": "Luxury Gold Logo On Reflective Glass",
     "slug": "luxury-gold-logo-on-reflective-glass-3ilgb",
     "category": "Logo Design",
-    "fullPrompt": "Create a high-end, photorealistic 3D metallic gold logo design on a dark reflective glass wall background. The logo should feature elegant, stylish typography for the brand name \"[Your Brand Name]\" and an optional tagline \"[your Tagline ]\" placed neatly below or around it. Include an icon or symbol that represents the brand’s theme — ( Your Brand logo Details)\nThe logo should have a premium, embossed, and reflective look with realistic lighting, depth, and shadows. Use Soft highlights to make the gold metal texture shine naturally.\nStyle: luxury, professional, modern, and clean — like a premium brand’s office wall logo",
+    "fullPrompt": "An opulent 3D luxury gold emblem for Prestige Atelier mounted on a reflective dark glass wall, subtle warm spotlighting, high-end corporate identity mockup. Clean visual composition, balanced graphic layout, harmonious color palette, high-precision vector lines, contemporary design aesthetic.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784896580/prompts/yqwopsebh1aiaggrmte1.webp",
     "isPremium": false,
     "isTrending": false,
@@ -270,14 +294,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cmg3dq5supb",
     "title": "Luxury Gold Emblem Logo Design",
     "slug": "luxury-gold-emblem-logo-design-u7k05",
     "category": "Logo Design",
-    "fullPrompt": "Luxury logo, premium 3D gold emblem with stylish men (Face exactly match 100% with refefrred image) silhouette wearing sunglasses icon integrated with letters \"S\", circular gold frame, bold elegant gold text \"Smith\" below, luxurious golden ornamental border at bottom, dark navy blue gradient background, high detail, premium branding style.",
+    "fullPrompt": "Luxury logo, premium 3D gold emblem with stylish men (Face exactly match 100% with refefrred image) silhouette wearing sunglasses icon integrated with letters \"S\", circular gold frame, bold elegant gold text \"Smith\" below, luxurious golden ornamental border at bottom, dark navy blue gradient background, high detail, premium branding style. Clean visual composition, balanced graphic layout, harmonious color palette, high-precision vector lines, contemporary design aesthetic.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784896734/prompts/ekg26k5hnwcn4gmvkijn.webp",
     "isPremium": false,
     "isTrending": false,
@@ -291,7 +317,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmd0sb8drdi",
@@ -312,7 +340,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmxxs841cub",
@@ -333,14 +363,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmze3jo5pup",
     "title": "Luxury Brand Logo Design Prompt",
     "slug": "luxury-brand-logo-design-prompt-ecs7c",
     "category": "Logo Design",
-    "fullPrompt": "Design an ultra-premium luxury logo for the brand \"[Brand Name]\". Create an elegant custom emblem with sophisticated typography, polished 24K gold metallic finish, realistic reflections, embossed depth, luxury engraving details, glossy highlights, premium black marble background, cinematic lighting, ultra-high realism, corporate branding style, timeless identity, minimalist yet expensive appearance, award-winning logo design, centered composition, 8K.",
+    "fullPrompt": "A minimalist luxury brand logo for Apex Design featuring clean geometric linework, metallic copper finish, dark matte background, high-resolution vector aesthetic. Clean visual composition, balanced graphic layout, harmonious color palette, high-precision vector lines, contemporary design aesthetic.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784897269/prompts/qt5oje4x8i6coj7a2jec.webp",
     "isPremium": false,
     "isTrending": false,
@@ -354,14 +386,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cmvyw4whfd0",
     "title": "Volcanic Rock Logo Forged In Fire",
     "slug": "volcanic-rock-logo-forged-in-fire-2vf09",
     "category": "Logo Design",
-    "fullPrompt": "Create a hyper-realistic logo made entirely from cracked volcanic rock with molten lava glowing through every crack. The logo should appear forged inside an active volcano, surrounded by smoke, floating embers, burning ash particles, dramatic orange-red lighting, realistic stone texture, cinematic atmosphere, dark background, powerful branding, ultra detailed, photorealistic 8K.",
+    "fullPrompt": "Create a hyper-realistic logo made entirely from cracked volcanic rock with molten lava glowing through every crack. The logo should appear forged inside an active volcano, surrounded by smoke, floating embers, burning ash particles, dramatic orange-red lighting, realistic stone texture, cinematic atmosphere, dark background, powerful branding, ultra detailed, photorealistic 8K. Clean visual composition, balanced graphic layout, harmonious color palette, high-precision vector lines, contemporary design aesthetic.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784897338/prompts/lcizfmtncpirupqfyzz1.webp",
     "isPremium": false,
     "isTrending": false,
@@ -375,14 +409,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmq8v54imaa",
     "title": "Frozen Crystal Logo Design Brief",
     "slug": "frozen-crystal-logo-design-brief-q2qgf",
     "category": "Logo Design",
-    "fullPrompt": "Design a breathtaking frozen crystal logo crafted from transparent ice with intricate frost patterns, glowing blue reflections, frozen mist, snow particles, cold cinematic lighting, frozen glass texture, winter atmosphere, premium typography, magical realism, ultra detailed 8K.",
+    "fullPrompt": "Design a breathtaking frozen crystal logo crafted from transparent ice with intricate frost patterns, glowing blue reflections, frozen mist, snow particles, cold cinematic lighting, frozen glass texture, winter atmosphere, premium typography, magical realism, ultra detailed 8K. Clean visual composition, balanced graphic layout, harmonious color palette, high-precision vector lines, contemporary design aesthetic.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784897899/prompts/ddqr0q9lhrfnfhhoeeby.webp",
     "isPremium": false,
     "isTrending": false,
@@ -396,14 +432,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cmangqcvqbo",
     "title": "Cyberpunk Logo Generation Request",
     "slug": "cyberpunk-logo-generation-request-vgjzl",
     "category": "Logo Design",
-    "fullPrompt": "Generate a futuristic cyberpunk logo featuring glowing neon cyan, purple, and magenta lighting, reflective chrome typography, holographic effects, futuristic city reflections, digital particles, sci-fi atmosphere, glowing edges, ultra-modern branding, premium cyber aesthetic, dark background, photorealistic.",
+    "fullPrompt": "Generate a futuristic cyberpunk logo featuring glowing neon cyan, purple, and magenta lighting, reflective chrome typography, holographic effects, futuristic city reflections, digital particles, sci-fi atmosphere, glowing edges, ultra-modern branding, premium cyber aesthetic, dark background, photorealistic. Clean visual composition, balanced graphic layout, harmonious color palette, high-precision vector lines, contemporary design aesthetic.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784897958/prompts/fwfkzpqe71xrnj5hzytp.webp",
     "isPremium": false,
     "isTrending": false,
@@ -417,14 +455,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cm1a61ksx3s",
     "title": "Ultra-Luxury Diamond Logo Design",
     "slug": "ultraluxury-diamond-logo-design-7d54h",
     "category": "Logo Design",
-    "fullPrompt": "Create an ultra-luxury diamond logo with transparent crystal material, brilliant light refraction, realistic sparkle, gemstone reflections, premium jewelry branding, elegant typography, luxury black velvet background, cinematic lighting, hyper realistic 8K.",
+    "fullPrompt": "Create an ultra-luxury diamond logo with transparent crystal material, brilliant light refraction, realistic sparkle, gemstone reflections, premium jewelry branding, elegant typography, luxury black velvet background, cinematic lighting, hyper realistic 8K. Clean visual composition, balanced graphic layout, harmonious color palette, high-precision vector lines, contemporary design aesthetic.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784898035/prompts/yxabpwu7mb133wjumkg5.webp",
     "isPremium": false,
     "isTrending": false,
@@ -438,14 +478,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cmziast4vvj",
     "title": "Fiery Phoenix Logo Generation",
     "slug": "fiery-phoenix-logo-generation-m49k8",
     "category": "Logo Design",
-    "fullPrompt": "Generate a logo completely formed from living flames. Bright orange, yellow and blue fire, realistic smoke, sparks flying around, glowing heat distortion, dark cinematic background, high-energy branding, photorealistic 8K.",
+    "fullPrompt": "Generate a logo completely formed from living flames. Bright orange, yellow and blue fire, realistic smoke, sparks flying around, glowing heat distortion, dark cinematic background, high-energy branding, photorealistic 8K. Clean visual composition, balanced graphic layout, harmonious color palette, high-precision vector lines, contemporary design aesthetic.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784898186/prompts/h2slic6zn9726wc0w5g1.webp",
     "isPremium": false,
     "isTrending": false,
@@ -459,14 +501,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cmjocuol0xo",
     "title": "Crystal Water Splash Logo Design",
     "slug": "crystal-water-splash-logo-design-8q1tq",
     "category": "Logo Design",
-    "fullPrompt": "Create a logo sculpted from crystal-clear water splashes. Dynamic flowing liquid, realistic water droplets, transparent reflections, blue lighting, elegant branding, premium aquatic atmosphere, ultra realistic, frozen motion photography.",
+    "fullPrompt": "Create a logo sculpted from crystal-clear water splashes. Dynamic flowing liquid, realistic water droplets, transparent reflections, blue lighting, elegant branding, premium aquatic atmosphere, ultra realistic, frozen motion photography. Clean visual composition, balanced graphic layout, harmonious color palette, high-precision vector lines, contemporary design aesthetic.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784898301/prompts/stkrxxoo8omaqnluyfgw.webp",
     "isPremium": false,
     "isTrending": false,
@@ -480,7 +524,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cmbzbe6q44w",
@@ -501,6 +547,8 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   }
 ]

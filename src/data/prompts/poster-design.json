@@ -4,7 +4,7 @@
     "title": "Retro Bauhaus Event Poster",
     "slug": "retro-bauhaus-event-poster-pd49c",
     "category": "Poster Design",
-    "fullPrompt": "A vintage retro event poster layout in the Bauhaus design style, featuring bold geometric circles and intersecting lines, muted cream background with red, blue and black elements, textured paper print effect, graphic illustration.",
+    "fullPrompt": "A vintage retro event poster layout in the Bauhaus design style, featuring bold geometric circles and intersecting lines, muted cream background with red, blue and black elements, textured paper print effect, graphic illustration. Clean visual composition, balanced graphic layout, harmonious color palette, high-precision vector lines, contemporary design aesthetic.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783669871/prompts/nkfwspf2npwzbzusfn3i.webp",
     "isPremium": false,
     "isTrending": false,
@@ -18,7 +18,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cm7s1g83rnn",
@@ -39,14 +41,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm3h1zhwgd3",
     "title": "Luxury Fashion Advertising Poster Concept",
     "slug": "luxury-fashion-advertising-poster-concep-onta8",
     "category": "Poster Design",
-    "fullPrompt": "An elegant luxury fashion advertising poster featuring a stylish model dressed in a premium black designer suit with gold accessories, standing against a sophisticated minimalist background with soft spotlight lighting, clean editorial layout, luxury branding aesthetic, premium magazine-quality composition, realistic skin textures, cinematic lighting, space reserved for logo and promotional text, ultra detailed, photorealistic, masterpiece, 8K.",
+    "fullPrompt": "An elegant luxury fashion advertising poster featuring a stylish model dressed in a premium black designer suit with gold accessories, standing against a sophisticated minimalist background with soft spotlight lighting, clean editorial layout, luxury branding aesthetic, premium magazine-quality composition, realistic skin textures, cinematic lighting, space reserved for logo and promotional text, ultra detailed, photorealistic, masterpiece, 8K. Clean visual composition, balanced graphic layout, harmonious color palette, high-precision vector lines, contemporary design aesthetic.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783670245/prompts/tzdfv6pahxjecqhxoe9b.webp",
     "isPremium": false,
     "isTrending": false,
@@ -60,14 +64,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmp63tn4dhs",
     "title": "Modern Music Concert Poster Design",
     "slug": "modern-music-concert-poster-design-e4p2x",
     "category": "Poster Design",
-    "fullPrompt": "A vibrant modern music concert poster featuring a charismatic singer performing under dazzling stage lights, colorful neon laser beams, energetic crowd silhouettes, dynamic smoke effects, bold typography layout, premium event branding design, futuristic visual effects, dramatic lighting, realistic atmosphere, cinematic composition, ultra detailed, professional promotional poster, masterpiece, 8K.",
+    "fullPrompt": "A vibrant modern music concert poster featuring a charismatic singer performing under dazzling stage lights, colorful neon laser beams, energetic crowd silhouettes, dynamic smoke effects, bold typography layout, premium event branding design, futuristic visual effects, dramatic lighting, realistic atmosphere, cinematic composition, ultra detailed, professional promotional poster, masterpiece, 8K. Clean visual composition, balanced graphic layout, harmonious color palette, high-precision vector lines, contemporary design aesthetic.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783671113/prompts/pmjmmwcyouxdwybhmtgf.webp",
     "isPremium": false,
     "isTrending": false,
@@ -81,14 +87,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmt61lf1f7f",
     "title": "Maldives Premium Travel Poster Design",
     "slug": "maldives-premium-travel-poster-design-sw1ch",
     "category": "Poster Design",
-    "fullPrompt": "A premium travel destination promotional poster showcasing a breathtaking tropical island with crystal-clear turquoise water, luxurious overwater villas, golden sunset, palm trees gently swaying, elegant modern travel advertisement layout, cinematic color grading, realistic reflections, luxury tourism branding aesthetic, reserved space for destination title and promotional text, photorealistic, ultra detailed, masterpiece, 8K.",
+    "fullPrompt": "A premium travel destination promotional poster showcasing a breathtaking tropical island with crystal-clear turquoise water, luxurious overwater villas, golden sunset, palm trees gently swaying, elegant modern travel advertisement layout, cinematic color grading, realistic reflections, luxury tourism branding aesthetic, reserved space for destination title and promotional text, photorealistic, ultra detailed, masterpiece, 8K. Clean visual composition, balanced graphic layout, harmonious color palette, high-precision vector lines, contemporary design aesthetic.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783671164/prompts/sithgjiqlcqufc5ezqt4.webp",
     "isPremium": false,
     "isTrending": false,
@@ -102,7 +110,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmtjrv82w1x",
@@ -123,7 +133,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmrogixxjpf",
@@ -144,7 +156,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmqeedinawj",
@@ -165,6 +179,8 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   }
 ]

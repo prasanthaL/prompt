@@ -18,7 +18,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmii4eib4p6",
@@ -39,7 +41,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmiy4c5voj2",
@@ -60,7 +64,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm1640ek8y8",
@@ -81,7 +87,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm7c1rnjmun",
@@ -102,14 +110,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmfd6qrp5j1",
     "title": "Eid Crew Selfie – Premium 3D Cartoon Animal Group Portrait on Red Studio Background",
     "slug": "eid-crew-selfie-premium-3d-cartoon-animal-group-portrait-on-red-studio-background-l2ubm",
     "category": "Animals & Wildlife",
-    "fullPrompt": "A highly creative premium 3D cartoon-style inspired by modern animated movie aesthetics and playful social-media selfie culture. Create a funny group selfie moment featuring multiple Eid sacrificial animals together on a studio like low saturated red background. We can fully see the characters, full body.",
+    "fullPrompt": "A highly creative premium 3D cartoon-style inspired by modern animated movie aesthetics and playful social-media selfie culture. Create a funny group selfie moment featuring multiple Eid sacrificial animals together on a studio like low saturated red background. We can fully see the characters, full body. Rich visual details, harmonious color palette, professional lighting setup, high-resolution rendering, detailed background atmosphere.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782111536/prompts/xjmrvhlmvfuevhoduzlg.webp",
     "isPremium": false,
     "isTrending": false,
@@ -123,6 +133,8 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   }
 ]

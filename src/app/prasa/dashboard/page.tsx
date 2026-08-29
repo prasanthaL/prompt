@@ -124,13 +124,6 @@ function DashboardContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const editId = searchParams.get("edit");
-
-  useEffect(() => {
-    if (editId) {
-      fetchPromptToEdit(editId);
-    }
-  }, [editId]);
-
   const fetchPromptToEdit = async (id: string) => {
     try {
       const res = await fetch("/api/prasa/prompts");
@@ -158,6 +151,12 @@ function DashboardContent() {
       console.error("Failed to fetch prompt for editing", err);
     }
   };
+
+  useEffect(() => {
+    if (editId) {
+      fetchPromptToEdit(editId);
+    }
+  }, [editId]);
 
   const handleFileChange = async (e: React.ChangeEvent<HTMLInputElement>) => {
     const selectedFile = e.target.files?.[0];

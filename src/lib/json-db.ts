@@ -28,6 +28,8 @@ export interface Prompt {
   updatedAt: string;
   tags?: string[];
   models?: string[];
+  quality?: "high" | "medium" | "low";
+  seoIndex?: boolean;
 }
 
 export interface Blog {
@@ -153,7 +155,7 @@ export const deletePrompt = async (id: string) => {
       const filePath = path.join(DATA_DIR, file);
       try {
         const content = fs.readFileSync(filePath, "utf-8");
-        let prompts: Prompt[] = JSON.parse(content);
+        const prompts: Prompt[] = JSON.parse(content);
         const newPrompts = prompts.filter(p => p.id !== id);
         if (newPrompts.length !== prompts.length) {
           fs.writeFileSync(filePath, JSON.stringify(newPrompts, null, 2));

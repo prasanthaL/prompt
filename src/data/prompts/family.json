@@ -18,7 +18,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmprf482rrn",
@@ -39,7 +41,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm239l81h4u",
@@ -60,7 +64,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmml5zvirdq",
@@ -81,7 +87,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmstsuaiz2y",
@@ -102,6 +110,8 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   }
 ]

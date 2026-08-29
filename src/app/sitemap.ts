@@ -1,6 +1,7 @@
 import { MetadataRoute } from "next";
 import { getAllPrompts } from "@/lib/json-db";
 import { categoryToSlug } from "@/lib/category-slugs";
+import { shouldIndexPrompt } from "@/lib/seo-utils";
 import blogJsonData from "@/data/blog.json";
 import categories from "@/data/categories.json";
 
@@ -63,10 +64,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.7,
   }));
 
-  /* Prompt routes — read directly from JSON files */
+  /* Prompt routes — read directly from JSON files, filtered by indexing quality rules */
   const allPrompts = await getAllPrompts();
   const promptRoutes: MetadataRoute.Sitemap = allPrompts
-    .filter((p) => p.slug || p.id)
+    .filter((p) => (p.slug || p.id) && shouldIndexPrompt(p))
     .map((p) => ({
       url: `${siteUrl}/prompts/${p.slug || p.id}`,
       lastModified: p.updatedAt || p.createdAt || stableFallback,

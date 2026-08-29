@@ -12,6 +12,7 @@ import {
   categoryTipsLookup,
   ICON_MAP,
 } from "@/data/category-page-data";
+import { CATEGORY_GUIDES } from "@/data/category-descriptions";
 
 import {
   Sparkles,
@@ -200,17 +201,18 @@ export default async function CategoryPage({ params }: PageProps) {
       };
     });
 
-  // Category specific creation tips
-  const tips = categoryTipsLookup[categorySlug] ?? categoryTipsLookup[rawKey] ?? [
-    "Be specific with your visual directives",
-    "Specify lighting styles and dynamic angles",
-    "Describe environment detail and background colors",
-    "Define camera parameters like lens size and aperture",
-    "Experiment, copy and remix prompts freely"
+  // Category specific creation tips and guide
+  const customGuide = CATEGORY_GUIDES[categorySlug] ?? CATEGORY_GUIDES[rawKey];
+  const tips = customGuide?.tips ?? categoryTipsLookup[categorySlug] ?? categoryTipsLookup[rawKey] ?? [
+    `Specify distinct lighting and framing for ${displayName} visuals`,
+    `Define key subject features, wardrobe, or environmental textures`,
+    `Incorporate mood, camera angle, and focal length directives`,
+    `Balance primary focal subjects with complementary background elements`,
+    `Experiment, copy, and customize prompts for best results`
   ];
 
   // Category specific intro paragraph for the Tips Section
-  const categoryIntroText = `${displayName} AI prompts are text instructions used with Gemini AI to generate professional-grade ${displayName}-style visual content. These prompts help you create stunning ${displayName} characters, scenes, and compositions by specifying fine details like subject focus, action poses, mood transitions, lighting, and environmental factors. Use our detailed copy-and-paste prompts to get the best results and bring your creative imagination to life.`;
+  const categoryIntroText = customGuide?.guideText ?? `Explore curated ${displayName} AI prompts engineered for Google Gemini, ChatGPT, and Midjourney. Master key directives for subject composition, lighting angles, textures, and style parameters to craft high-impact ${displayName} artwork.`;
 
   // How many prompts to pre-render on the server (first visible batch)
   const INITIAL_COUNT = 8;

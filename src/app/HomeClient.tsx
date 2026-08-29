@@ -326,7 +326,6 @@ export default function HomeClient({
     if (currentPageNum !== currentPage) {
       setCurrentPage(currentPageNum);
     }
-  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [tabParam, categoryParam, pageParam]);
 
   const handleTabChange = (tabId: HomeTab) => {

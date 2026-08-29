@@ -4,7 +4,7 @@
     "title": "Shadow Authority: The Hero Walk",
     "slug": "shadow-authority-the-hero-walk-v0iyn",
     "category": "Fantasy",
-    "fullPrompt": "A cinematic double-exposure portrait of a stylish young man wearing sunglasses. In the foreground, he is confidently walking forward with one hand in pocket and the other adjusting his sunglasses, wearing a black fitted tshirt, black jacket, and dark jeans, expressing a bold and powerful attitude. His pose feels stylish and dominant, like a hero entry.",
+    "fullPrompt": "A cinematic double-exposure portrait of a stylish young man wearing sunglasses. In the foreground, he is confidently walking forward with one hand in pocket and the other adjusting his sunglasses, wearing a black fitted tshirt, black jacket, and dark jeans, expressing a bold and powerful attitude. His pose feels stylish and dominant, like a hero entry. Intricate fantasy textures, magical glowing energy particles, epic atmospheric depth, rich moody color palette, highly detailed digital concept art.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782136452/prompts/rbc9idwu5rrx8fufsxpl.webp",
     "isPremium": false,
     "author": "Admin",
@@ -18,7 +18,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmonrjkt0xo",
@@ -39,7 +41,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cms60798kc7",
@@ -60,7 +64,9 @@
     "tags": [],
     "models": [
       "Flow AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmg6inyjp8o",
@@ -81,7 +87,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmxwv1avjvr",
@@ -102,7 +110,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm7c74pgudq",
@@ -123,7 +133,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmexb7937wk",
@@ -144,7 +156,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmvgx63c39g",
@@ -165,7 +179,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmjgxme467l",
@@ -186,14 +202,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm8dgnmf702",
     "title": "CELESTIAL GRACE : EYES OF THE SOUL",
     "slug": "celestial-grace-eyes-of-the-soul-t3683",
     "category": "Fantasy",
-    "fullPrompt": "human beauty,character portrait of a lovely woman,caricature,spirituality,femininity,kindness,mercy,beauty,softness,big beautiful eyes,out of this world,simple charcoal sketch,soft smile,tinted paper,artstation trend,by Guy Denning,centered,symmetry,drawn,complex,volumetric lighting,beautiful,saturated deep colors masterpiece,sharp focus,super detail,in the style of Dan Mumford and Marc Simonetti,astrophotography\n\nNegative prompt: [bad-hands-5] [worst quality:2], [low quality:2], [normal quality:2], doll, plastic",
+    "fullPrompt": "A majestic celestial angel with radiant silver wings and glowing ethereal eyes, intricate gown, atmospheric light rays, fantasy digital art masterpiece. Intricate fantasy textures, magical glowing energy particles, epic atmospheric depth, rich moody color palette, highly detailed digital concept art.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782135607/prompts/ktq34ruudecgclzcdj3p.webp",
     "isPremium": false,
     "author": "Admin",
@@ -207,7 +225,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cme3faf4tm3",
@@ -228,7 +248,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm06bqqq948",
@@ -249,7 +271,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmtze25ne3d",
@@ -270,7 +294,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmj3b3zyt74",
@@ -291,7 +317,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmtahz1zv6c",
@@ -312,7 +340,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmgnoeg8rah",
@@ -333,7 +363,9 @@
     "tags": [],
     "models": [
       "Flow AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmem80jdlpf",
@@ -354,7 +386,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmbemjsbkl8",
@@ -375,7 +409,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmtv26e0wx1",
@@ -396,7 +432,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmrljw2wc11",
@@ -417,14 +455,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmvvoiokqs3",
     "title": "Jungle Champion — The Pokémon Master’s Arrival",
     "slug": "jungle-champion-the-pokmon-masters-arrival-owqyx",
     "category": "Fantasy",
-    "fullPrompt": "Ultra-realistic 3D render of me as a Pokémon trainer in Ash Ketchum’s outfit, flexing a Roke Ball confidently. Pikachu sparks on my shoulder, with Charizard, Bulbasaur, Squirtle, and Sceptile striking dynamic poses beside me. We’re on a sunlit jungle route, dense with vines and foliage. Cinematic lighting, hyper-detailed textures, 1:1 aspect ratio.",
+    "fullPrompt": "Ultra-realistic 3D render of me as a Pokémon trainer in Ash Ketchum’s outfit, flexing a Roke Ball confidently. Pikachu sparks on my shoulder, with Charizard, Bulbasaur, Squirtle, and Sceptile striking dynamic poses beside me. We’re on a sunlit jungle route, dense with vines and foliage. Cinematic lighting, hyper-detailed textures, 1:1 aspect ratio. Intricate fantasy textures, magical glowing energy particles, epic atmospheric depth, rich moody color palette, highly detailed digital concept art.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782134075/prompts/vqm4pidc7brqiaaowefb.webp",
     "isPremium": false,
     "author": "Admin",
@@ -438,7 +478,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmk6euexbeq",
@@ -459,7 +501,9 @@
     "tags": [],
     "models": [
       "Flow AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm3ps9tkmze",
@@ -480,7 +524,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmhjq7skiz7",
@@ -501,14 +547,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmr5ldaslq2",
     "title": "Primal Escape — Hunt Through the Lost Jungle",
     "slug": "primal-escape-hunt-through-the-lost-jungle-518w3",
     "category": "Fantasy",
-    "fullPrompt": "Ultra-realistic action shot, 9:16. Me (torn green tank, dirty cargos) leaping over a mossy log in a misty historic jungle. Four feathered velociraptors with deadly claws chase through dense ferns and vines. Semi red sunlight filters through ancient trees. Shot on ARRI Alexa 65 with anamorphic lenses -- hyper-detailed, natural lighting, documentary realism. Jurassic Park meets survival horror.",
+    "fullPrompt": "Ultra-realistic action shot, 9:16. Me (torn green tank, dirty cargos) leaping over a mossy log in a misty historic jungle. Four feathered velociraptors with deadly claws chase through dense ferns and vines. Semi red sunlight filters through ancient trees. Shot on ARRI Alexa 65 with anamorphic lenses -- hyper-detailed, natural lighting, documentary realism. Jurassic Park meets survival horror. Intricate fantasy textures, magical glowing energy particles, epic atmospheric depth, rich moody color palette, highly detailed digital concept art.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782133745/prompts/e2cdsewctwcb4gkotlwx.webp",
     "isPremium": false,
     "author": "Admin",
@@ -522,7 +570,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm6jk5zetlf",
@@ -543,7 +593,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmfaz7106g6",
@@ -564,7 +616,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmuw0e6hv48",
@@ -585,7 +639,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmdga04to1b",
@@ -606,7 +662,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm9cjbziogq",
@@ -627,7 +685,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmd1fp9cwkw",
@@ -648,7 +708,9 @@
     ],
     "isTrending": false,
     "isLatest": false,
-    "isFeatured": false
+    "isFeatured": false,
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm38cp6e5q1",
@@ -669,7 +731,9 @@
     ],
     "isTrending": false,
     "isLatest": true,
-    "isFeatured": false
+    "isFeatured": false,
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmm3ziy0jx0",
@@ -690,7 +754,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmh4id5j87p",
@@ -711,7 +777,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmyct7dmxvn",
@@ -732,7 +800,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmoxdxk1i49",
@@ -753,7 +823,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm8t0vtftv1",
@@ -774,7 +846,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmmurwrpane",
@@ -795,7 +869,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cman66obpuh",
@@ -816,7 +892,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmourmvuxc0",
@@ -837,7 +915,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmrt8875fcq",
@@ -858,7 +938,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmfufug3tcm",
@@ -879,7 +961,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmv3oqf1bfi",
@@ -900,7 +984,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cme7o52r4p2",
@@ -921,7 +1007,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmrpls6utf7",
@@ -942,7 +1030,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmdh4yxurmc",
@@ -963,7 +1053,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmk0rbis7g9",
@@ -984,7 +1076,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm6jnryxcpb",
@@ -1005,6 +1099,8 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   }
 ]

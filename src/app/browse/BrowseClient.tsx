@@ -100,7 +100,6 @@ export default function BrowseClient({
     if (currentQuery !== searchQuery) {
       setSearchQuery(currentQuery);
     }
-  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [categoryParam, queryParam]);
 
   const handleCategoryChange = (cat: string) => {

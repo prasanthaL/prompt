@@ -30,6 +30,8 @@ import {
   getCachedSimilarPrompts,
 } from "@/lib/prompts-data";
 
+import { shouldIndexPrompt } from "@/lib/seo-utils";
+
 /* ─────────────────────────────────────────────────────────────
    ISR: revalidate static pages every hour.
    Cache can be purged instantly via revalidateTag('prompts').
@@ -89,7 +91,7 @@ export async function generateMetadata({
       ...(prompt.models ?? []),
     ],
     authors: [{ name: prompt.author }],
-    robots: { index: true, follow: true },
+    robots: { index: shouldIndexPrompt(prompt), follow: true },
     openGraph: {
       title: `${prompt.title} | PromptNest`,
       description: metaDescription,

@@ -143,3 +143,56 @@ export const CATEGORY_DESCRIPTIONS: Record<string, {
     description: "Retro photo aesthetics, sepia tones, film grain styles, mid-century lifestyle, and nostalgia visual themes."
   }
 };
+
+export const CATEGORY_GUIDES: Record<string, { guideText: string; tips: string[] }> = {
+  cinematic: {
+    guideText: "Cinematic prompts focus on dramatic storytelling through movie-still compositions, anamorphic lens choices, volumetric lighting, and mood-driven color grading.",
+    tips: [
+      "Specify camera lenses like 35mm, 50mm, or 85mm anamorphic for depth",
+      "Include volumetric lighting terms like fog, haze, rim light, and key light",
+      "Define distinct color palettes such as teal and orange or moody monochrome",
+      "Describe actor poses and emotional expressions natural to cinematic scenes",
+      "Mention aspect ratios and focal plane depth of field"
+    ]
+  },
+  anime: {
+    guideText: "Anime prompts help generate authentic Japanese animation artwork spanning shonen action, Studio Ghibli landscapes, and sleek cybernetic character designs.",
+    tips: [
+      "Reference specific animation aesthetic eras like 90s retro or modern Kyoto Animation",
+      "Specify linework style such as clean vector outlines or hand-drawn pencil shading",
+      "Describe character outfit details, hair accessories, and expressive eyes",
+      "Add environmental atmosphere like floating sakura petals or sunbeams",
+      "Include key rendering terms like cell shading and vibrant anime color grading"
+    ]
+  },
+  portrait: {
+    guideText: "Portrait prompts engineered for studio headshots, fashion editorials, and realistic human character captures with authentic skin textures.",
+    tips: [
+      "Detail lighting setups like Rembrandt lighting, ring lights, or softbox diffusion",
+      "Specify facial expressions, gaze direction, and subtle skin micro-textures",
+      "Choose aperture settings like f/1.4 or f/1.8 for pleasing background bokeh",
+      "Define wardrobe styling, accessories, and subtle makeup details",
+      "Balance key light with subtle fill and background separation lights"
+    ]
+  },
+  product: {
+    guideText: "Product photography prompts deliver studio-quality commercial renders, e-commerce mockups, and sleek hero packaging shots.",
+    tips: [
+      "Define clean background surfaces such as polished marble, dark slate, or acrylic",
+      "Specify studio spotlighting, soft reflections, and subtle drop shadows",
+      "Describe product material textures like frosted glass, brushed aluminum, or leather",
+      "Incorporate lifestyle props complementary to the featured item",
+      "Keep framing focused and centered with ample commercial negative space"
+    ]
+  },
+  "logo-design": {
+    guideText: "Logo design prompts focus on vector geometry, brandmark minimalism, corporate identity symbols, and sleek emblems.",
+    tips: [
+      "Use vector design terms like minimalist emblem, flat geometric brandmark, or icon",
+      "Limit color palettes to 2-3 harmonious branding colors on solid backdrops",
+      "Avoid overly complex busy backgrounds to ensure clean brand readability",
+      "Specify shape harmony such as circular symmetry, golden ratio, or sharp angles",
+      "Mention negative space techniques for clever dual-meaning symbols"
+    ]
+  }
+};

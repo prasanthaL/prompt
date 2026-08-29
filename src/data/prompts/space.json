@@ -4,7 +4,7 @@
     "title": "Deep Space Nebula Stellar Cloud",
     "slug": "deep-space-nebula-stellar-cloud-sc49d",
     "category": "Space",
-    "fullPrompt": "An awe-inspiring view of a deep space cosmic nebula, glowing gas clouds of deep violet, cyan and magenta, millions of tiny distant stars sparkling, high detailed cosmic dust, astronomical photography, 8k resolution.",
+    "fullPrompt": "An awe-inspiring view of a deep space cosmic nebula, glowing gas clouds of deep violet, cyan and magenta, millions of tiny distant stars sparkling, high detailed cosmic dust, astronomical photography, 8k resolution. Golden hour sunlight, majestic natural atmospheric lighting, expansive wide-angle composition, vivid organic colors, crisp environmental detail, ultra-high resolution photography.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783667431/prompts/alsdiww6rotz5dtpupxu.webp",
     "isPremium": false,
     "isTrending": false,
@@ -18,7 +18,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cmnwibnrrsb",
@@ -39,14 +41,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmi71skqrb0",
     "title": "A colossal futuristic space station orbiting a magnificent blue gas giant, thousands of illuminated windows, massive docking bays filled with advanced spacecraft, holographic traffic control systems, glowing energy shields, cinematic science-fiction architecture, realistic reflections, deep space background, breathtaking scale, ultra detailed, photorealistic, volumetric lighting, masterpiece, 8K.",
     "slug": "colossal-futuristic-space-station-g9i2o",
     "category": "Space",
-    "fullPrompt": "A colossal futuristic space station orbiting a magnificent blue gas giant, thousands of illuminated windows, massive docking bays filled with advanced spacecraft, holographic traffic control systems, glowing energy shields, cinematic science-fiction architecture, realistic reflections, deep space background, breathtaking scale, ultra detailed, photorealistic, volumetric lighting, masterpiece, 8K.",
+    "fullPrompt": "A colossal futuristic space station orbiting a magnificent blue gas giant, thousands of illuminated windows, massive docking bays filled with advanced spacecraft, holographic traffic control systems, glowing energy shields, cinematic science-fiction architecture, realistic reflections, deep space background, breathtaking scale, ultra detailed, photorealistic, volumetric lighting, masterpiece, 8K. Golden hour sunlight, majestic natural atmospheric lighting, expansive wide-angle composition, vivid organic colors, crisp environmental detail, ultra-high resolution photography.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783667603/prompts/obhfsnxj2v7tjv0fewez.webp",
     "isPremium": false,
     "isTrending": false,
@@ -60,14 +64,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmaqoe6xwqu",
     "title": "Bioluminescent Alien Planet Landscape Prompt",
     "slug": "bioluminescent-alien-planet-landscape-prompt-6d2dt",
     "category": "Space",
-    "fullPrompt": "A stunning alien planet featuring floating mountains, glowing rivers of liquid crystal, giant bioluminescent trees, colorful alien vegetation, multiple moons visible in the sky, distant galaxies, magical atmosphere, cinematic wide-angle composition, ultra realistic environment, breathtaking colors, volumetric sunlight, highly detailed textures, photorealistic fantasy sci-fi landscape, masterpiece, 8K.",
+    "fullPrompt": "A stunning alien planet featuring floating mountains, glowing rivers of liquid crystal, giant bioluminescent trees, colorful alien vegetation, multiple moons visible in the sky, distant galaxies, magical atmosphere, cinematic wide-angle composition, ultra realistic environment, breathtaking colors, volumetric sunlight, highly detailed textures, photorealistic fantasy sci-fi landscape, masterpiece, 8K. Golden hour sunlight, majestic natural atmospheric lighting, expansive wide-angle composition, vivid organic colors, crisp environmental detail, ultra-high resolution photography.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783667669/prompts/ehged1nrxy656a1vvlms.webp",
     "isPremium": false,
     "isTrending": false,
@@ -81,14 +87,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmf7j9hh5pe",
     "title": "A massive fleet of futuristic starships traveling through hyperspace toward a brilliant spiral galaxy, glowing warp trails stretching across deep space, highly detailed spacecraft with sleek metallic designs, colorful nebulae, asteroid fields, cinematic science-fiction atmosphere, dramatic lighting, epic scale, photorealistic rendering, Unreal Engine quality, ultra detailed, masterpiece, 8K.",
     "slug": "massive-fleet-futuristic-starships-k9zef",
     "category": "Space",
-    "fullPrompt": "A massive fleet of futuristic starships traveling through hyperspace toward a brilliant spiral galaxy, glowing warp trails stretching across deep space, highly detailed spacecraft with sleek metallic designs, colorful nebulae, asteroid fields, cinematic science-fiction atmosphere, dramatic lighting, epic scale, photorealistic rendering, Unreal Engine quality, ultra detailed, masterpiece, 8K.",
+    "fullPrompt": "A massive fleet of futuristic starships traveling through hyperspace toward a brilliant spiral galaxy, glowing warp trails stretching across deep space, highly detailed spacecraft with sleek metallic designs, colorful nebulae, asteroid fields, cinematic science-fiction atmosphere, dramatic lighting, epic scale, photorealistic rendering, Unreal Engine quality, ultra detailed, masterpiece, 8K. Golden hour sunlight, majestic natural atmospheric lighting, expansive wide-angle composition, vivid organic colors, crisp environmental detail, ultra-high resolution photography.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783667732/prompts/opikyj9hndgrxdjw0vlz.webp",
     "isPremium": false,
     "isTrending": false,
@@ -102,6 +110,8 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   }
 ]

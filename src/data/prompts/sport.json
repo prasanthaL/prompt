@@ -18,7 +18,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmokmzwqrur",
@@ -39,7 +41,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm2cgvl2bn7",
@@ -60,7 +64,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cml3e2ac3nh",
@@ -81,14 +87,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmmrlwbrp9a",
     "title": "Elite Performance – Multi-Layer Cinematic Sports Hero Poster Composition",
     "slug": "elite-performance-multilayer-cinematic-sports-hero-poster-composition-db2ea",
     "category": "Sport",
-    "fullPrompt": "Create a high-impact cinematic sports poster of [ATHLETE NAME], a professional [SPORT TYPE] player.\n\nMain composition:\n- Use a multi-layer collage style with 3 poses:\n1) A large close-up portrait in the background with a focused and determined expression\n2) A medium shot holding [SPORT EQUIPMENT] in a ready stance\n3) A dynamic action pose (jumping / hitting / serving)\n\nStyle & visual treatment:\n- Hyper-realistic, 8K quality\n- High contrast with slightly desaturated tones\n- Dominant color: [PRIMARY COLOR - e.g. red]\n- Background: light gray textured with grain and subtle noise\n- Add dust, particle, or paint splash effects behind the subject\n- Add subtle glow or light effect on shoes or equipment for dramatic emphasis\n\nTypography:\n- Large bold grunge/brush style text: “[ATHLETE NAME]”\n- Smaller clean text below: “[FULL NAME / TITLE]”\n- Add background oversized outline text repeating the name (low opacity)\n\nDetails:\n- Keep the face realistic and recognizable\n- Outfit: official sports uniform with logos and details\n- Lighting: dramatic studio lighting with soft shadows\n- Composition must feel powerful, modern, and professional\n\nMood:\n- Energetic\n- Competitive\n- Heroic sports branding poster\n",
+    "fullPrompt": "An elite sports hero poster of a sprinter exploding out of starting blocks, dynamic motion blur, glowing electric stadium floodlights, bold sports editorial typography. Rich visual details, harmonious color palette, professional lighting setup, high-resolution rendering, detailed background atmosphere.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782117163/prompts/fqafnwjmnr5bgk4kxlfh.webp",
     "isPremium": false,
     "isTrending": false,
@@ -102,7 +110,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cmygpidj7zg",
@@ -123,7 +133,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm9a7qhyk64",
@@ -144,14 +156,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmt3hqu74g6",
     "title": "Unstoppable Legacy: Ultra-Realistic Cinematic Football Hero Poster",
     "slug": "unstoppable-legacy-ultrarealistic-cinematic-football-hero-poster-znqdu",
     "category": "Sport",
-    "fullPrompt": "Create a high-end cinematic football poster using the uploaded image as the exact face reference of the player. Keep the facial structure, hairstyle, skin texture, jawline, beard, expression, and identity realistic, sharp, and fully recognizable. Design the image in a vertical 3:4 aspect ratio with an ultra-detailed dramatic sports collage composition",
+    "fullPrompt": "Create a high-end cinematic football poster using the uploaded image as the exact face reference of the player. Keep the facial structure, hairstyle, skin texture, jawline, beard, expression, and identity realistic, sharp, and fully recognizable. Design the image in a vertical 3:4 aspect ratio with an ultra-detailed dramatic sports collage composition. Rich visual details, harmonious color palette, professional lighting setup, high-resolution rendering, detailed background atmosphere.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782113100/prompts/xcp6jrbkmrd8pt3ii3yp.webp",
     "isPremium": false,
     "isTrending": false,
@@ -165,7 +179,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm4nfg2hopr",
@@ -186,7 +202,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm9lzrd0u9u",
@@ -207,7 +225,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmp0hqwilwr",
@@ -228,7 +248,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cma6sfqzkyu",
@@ -249,7 +271,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cme940tnzup",
@@ -270,7 +294,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm33qchjdpw",
@@ -291,7 +317,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmnrnf9kii5",
@@ -312,14 +340,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmp3jqc3a8n",
     "title": "SURPRISE CAPSULE: Ultra-Realistic National Edition Collectible Football Figure Studio Poster",
     "slug": "surprise-capsule-ultrarealistic-national-edition-collectible-football-figure-studio-poster-vyej8",
     "category": "Sport",
-    "fullPrompt": "Ultra-realistic studio product photograph of a large glossy plastic surprise capsule opened into two halves, placed on a clean matte wooden table against a softly blurred warm indoor background. Premium collectible toy advertisement style.\n\nThe capsule exterior features the official colors of the [COUNTRY NAME] national flag, with the national emblem printed in crisp high detail on the surface. The top half of the capsule is placed beside the bottom half at a slight angle, showcasing the flag design clearly.\n\nInside the bottom half stands a highly detailed collectible action figure inspired by [ATHLETE NAME], wearing the official [COUNTRY NAME] national team jersey, accurate kit colors, number [JERSEY NUMBER], realistic facial features, athletic physique, and a confident dynamic pose (arms open or celebration stance).\n\nThe figure is toy-scaled but hyper-realistic, with lifelike skin texture, fabric detailing, and sharp uniform stitching.\n\nCinematic soft lighting, shallow depth of field, warm tones, professional DSLR quality, 85mm lens look, sharp focus on the figure, creamy bokeh background, ultra-detailed, 8K resolution, commercial toy photography style.",
+    "fullPrompt": "An ultra-realistic collectible football star action figure inside a collector display box, national team jersey, stadium backdrop lights, studio packaging shot. Rich visual details, harmonious color palette, professional lighting setup, high-resolution rendering, detailed background atmosphere.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782112362/prompts/feonhozecy53fhc0gljy.webp",
     "isPremium": false,
     "isTrending": false,
@@ -333,7 +363,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cmtxuv8orah",
@@ -354,7 +386,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmcvp1dzjpy",
@@ -375,6 +409,8 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   }
 ]

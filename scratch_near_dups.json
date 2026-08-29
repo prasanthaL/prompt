@@ -1,0 +1,257 @@
+[
+  {
+    "p1": {
+      "id": "cmpih28hsb2",
+      "file": "cinematic.json",
+      "title": "Chromatic Identity: The Cinematic Split",
+      "category": "Cinematic"
+    },
+    "p2": {
+      "id": "cmwglv15v8v",
+      "file": "cinematic.json",
+      "title": "Layered Attitude: Dual Tone Editorial Collage",
+      "category": "Cinematic"
+    },
+    "sim": 0.94
+  },
+  {
+    "p1": {
+      "id": "cm4b1x1gqkk",
+      "file": "cinematic.json",
+      "title": "Celestial Operator: Ember Protocol",
+      "category": "Cinematic"
+    },
+    "p2": {
+      "id": "cm5zh8ok7yd",
+      "file": "sci-fi.json",
+      "title": "Celestial Navigator — The Cyber Ember Interface",
+      "category": "Sci-Fi"
+    },
+    "sim": 0.971
+  },
+  {
+    "p1": {
+      "id": "cm93gxw5zpg",
+      "file": "cinematic.json",
+      "title": "Crimson Silence: A Cinematic Youth Portrait",
+      "category": "Cinematic"
+    },
+    "p2": {
+      "id": "cmlrnnxnp9p",
+      "file": "portrait.json",
+      "title": "Red Aura Portrait (Cinematic Portrait)",
+      "category": "Portrait"
+    },
+    "sim": 0.912
+  },
+  {
+    "p1": {
+      "id": "cm891l9dt9w",
+      "file": "cinematic.json",
+      "title": "Chrono Fracture — Master of Frozen Time",
+      "category": "Cinematic"
+    },
+    "p2": {
+      "id": "cmcz9xc7hox",
+      "file": "portrait.json",
+      "title": "Shattered Time — The Chrono Illusion Portrait",
+      "category": "Portrait"
+    },
+    "sim": 0.889
+  },
+  {
+    "p1": {
+      "id": "cm0a599skb9",
+      "file": "cinematic.json",
+      "title": "Dual Identity — The Man in Color and Shadow",
+      "category": "Cinematic"
+    },
+    "p2": {
+      "id": "cmidvfg6xgn",
+      "file": "portrait.json",
+      "title": "Dual Persona — The South Indian Split Identity",
+      "category": "Portrait"
+    },
+    "sim": 0.9
+  },
+  {
+    "p1": {
+      "id": "cmtru7gmxpo",
+      "file": "couple.json",
+      "title": "Black-and-White Collage Portrait Creation",
+      "category": "Couple"
+    },
+    "p2": {
+      "id": "cmr13gpe9j9",
+      "file": "women.json",
+      "title": "Modern B&W Collage Portrait Prompt",
+      "category": "Women"
+    },
+    "sim": 0.97
+  },
+  {
+    "p1": {
+      "id": "cmbuqky3ux1",
+      "file": "couple.json",
+      "title": "Romantic walk in the rain",
+      "category": "Couple"
+    },
+    "p2": {
+      "id": "cmxgm02huos",
+      "file": "couple.json",
+      "title": "Romantic stroll through misty road",
+      "category": "Couple"
+    },
+    "sim": 0.961
+  },
+  {
+    "p1": {
+      "id": "cmbuqky3ux1",
+      "file": "couple.json",
+      "title": "Romantic walk in the rain",
+      "category": "Couple"
+    },
+    "p2": {
+      "id": "cmx28dic7zb",
+      "file": "couple.json",
+      "title": "Romantic stroll under misty skies",
+      "category": "Couple"
+    },
+    "sim": 0.961
+  },
+  {
+    "p1": {
+      "id": "cme48qhymqr",
+      "file": "couple.json",
+      "title": "Glamorous Midnight Moon Portrait",
+      "category": "Couple"
+    },
+    "p2": {
+      "id": "cm5ejghyiad",
+      "file": "couple.json",
+      "title": "Glamorous Sherwani and Lehenga Portrait",
+      "category": "Couple"
+    },
+    "sim": 0.826
+  },
+  {
+    "p1": {
+      "id": "cm1ysrtxp4f",
+      "file": "couple.json",
+      "title": "Romantic Love Edit in Bloom",
+      "category": "Couple"
+    },
+    "p2": {
+      "id": "cm4qlqef68w",
+      "file": "couple.json",
+      "title": "Romantic Photo Edit",
+      "category": "Couple"
+    },
+    "sim": 0.889
+  },
+  {
+    "p1": {
+      "id": "cmjylsplulm",
+      "file": "couple.json",
+      "title": "Pre-wedding Beach Portrait",
+      "category": "Couple"
+    },
+    "p2": {
+      "id": "cmaohuo6q7u",
+      "file": "couple.json",
+      "title": "Preshoot-wedding Beach Portrait",
+      "category": "Couple"
+    },
+    "sim": 0.957
+  },
+  {
+    "p1": {
+      "id": "cmiu57y7t0x",
+      "file": "men.json",
+      "title": "Editorial birthday portrait collage",
+      "category": "Men"
+    },
+    "p2": {
+      "id": "cm6cnupzze5",
+      "file": "men.json",
+      "title": "Monochrome Marble Birthday Poster",
+      "category": "Men"
+    },
+    "sim": 0.931
+  },
+  {
+    "p1": {
+      "id": "cm4j6i6tfqg",
+      "file": "men.json",
+      "title": "Maldives Escape: Life by the Ocean",
+      "category": "Men"
+    },
+    "p2": {
+      "id": "cmjcxme7k4a",
+      "file": "men.json",
+      "title": "Escape to Tropical Paradise",
+      "category": "Men"
+    },
+    "sim": 0.989
+  },
+  {
+    "p1": {
+      "id": "cm40i2lpuql",
+      "file": "portrait.json",
+      "title": "Split Soul — Crimson & Sepia Portrait",
+      "category": "Portrait"
+    },
+    "p2": {
+      "id": "cm004grxrwk",
+      "file": "portrait.json",
+      "title": "Dual Echoes — A Moody Split-Tone Portrait",
+      "category": "Portrait"
+    },
+    "sim": 1
+  },
+  {
+    "p1": {
+      "id": "cmbw61edb0h",
+      "file": "portrait.json",
+      "title": "AR Echo — The Digital Message Within",
+      "category": "Portrait"
+    },
+    "p2": {
+      "id": "cm9b7m62qk9",
+      "file": "sci-fi.json",
+      "title": "AR Whisper — The Message That Follows You",
+      "category": "Sci-Fi"
+    },
+    "sim": 0.882
+  },
+  {
+    "p1": {
+      "id": "cmidqa1jao7",
+      "file": "women.json",
+      "title": "Whispers of Elegance",
+      "category": "Women"
+    },
+    "p2": {
+      "id": "cmyi777ptk1",
+      "file": "women.json",
+      "title": "Double Exposure Portrait Creation",
+      "category": "Women"
+    },
+    "sim": 0.904
+  },
+  {
+    "p1": {
+      "id": "cmop53b22bl",
+      "file": "women.json",
+      "title": "Rainy Saree Dreams in the City",
+      "category": "Women"
+    },
+    "p2": {
+      "id": "cm4unueqqle",
+      "file": "women.json",
+      "title": "Joyful Monsoon Saree Portraits",
+      "category": "Women"
+    },
+    "sim": 0.93
+  }
+]

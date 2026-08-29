@@ -18,7 +18,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmiunz1lw66",
@@ -39,7 +41,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm26btcg1f8",
@@ -60,7 +64,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmzk0ycdulo",
@@ -81,7 +87,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmid3webiu8",
@@ -102,7 +110,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmaxiy1ke30",
@@ -123,7 +133,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm3891iv1kg",
@@ -144,7 +156,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm0hpru3al5",
@@ -165,7 +179,9 @@
     "tags": [],
     "models": [
       "Flow AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmy70g4b6rd",
@@ -186,7 +202,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm1ec9uzsww",
@@ -207,7 +225,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmmk55u8n18",
@@ -228,7 +248,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmn4sene9g3",
@@ -249,7 +271,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmom6m5s3w8",
@@ -270,7 +294,9 @@
     "tags": [],
     "models": [
       "Flow AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmhvex5yhkn",
@@ -291,7 +317,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmg1patlfem",
@@ -312,7 +340,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmfxnfvsaxa",
@@ -333,7 +363,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm7xirizr3j",
@@ -354,7 +386,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmqg412mkue",
@@ -375,7 +409,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmd2b7xxyih",
@@ -396,7 +432,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmp4mv60903",
@@ -417,7 +455,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmgn5gmk5w4",
@@ -438,7 +478,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm9eqe0usaj",
@@ -459,14 +501,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmlkr2sxckl",
     "title": "BLUE BLOSSOM WALK: Golden Hour Street Elegance",
     "slug": "blue-blossom-walk-golden-hour-street-elegance-ecx39",
     "category": "Portrait",
-    "fullPrompt": "A full-body cinematic shot of a young man walking down the center of a narrow, picturesque street lined with blue and white flowering trees. He is wearing a black white gradiant shirt over cargo pants and white sneakers. The lighting is bright, featuring a day light golden hour, with a bokeh background, 4k, warm street photography style",
+    "fullPrompt": "A full-body cinematic shot of a young man walking down the center of a narrow, picturesque street lined with blue and white flowering trees. He is wearing a black white gradiant shirt over cargo pants and white sneakers. The lighting is bright, featuring a day light golden hour, with a bokeh background, 4k, warm street photography style. Rich skin textures, subtle facial reflections, studio catchlights in the eyes, sharp focus on facial features, soft blurred background bokeh, professional editorial color grading, 8k resolution photo.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782211241/prompts/d5eo6xugknx2nhkikuo6.webp",
     "isPremium": false,
     "author": "Admin",
@@ -480,7 +524,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmof848a9gg",
@@ -501,7 +547,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmurxfqfkc3",
@@ -522,7 +570,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmwqk92mput",
@@ -543,7 +593,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm6sjqy7d3e",
@@ -564,7 +616,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmkxlh4mx36",
@@ -585,7 +639,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm46mgkqy2m",
@@ -606,7 +662,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmlrnnxnp9p",
@@ -627,14 +685,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "low",
+    "seoIndex": false
   },
   {
     "id": "cmxozjxi0qm",
     "title": "Midnight Flash Portrait (Cinematic Portrait / Street Photography)",
     "slug": "midnight-flash-portrait-cinematic-portrait-street-photography-5rsfh",
     "category": "Portrait",
-    "fullPrompt": "A raw 90s snapshot of a young man, unchanged face, subtle smirk. Wearing a long dark wool overcoat over layered basics. Background deep shadow with a warm amber backlight outlining his shoulders. Flash bright and unforgiving, film grain visible. Moody, late-night street realism.",
+    "fullPrompt": "A raw 90s snapshot of a young man, unchanged face, subtle smirk. Wearing a long dark wool overcoat over layered basics. Background deep shadow with a warm amber backlight outlining his shoulders. Flash bright and unforgiving, film grain visible. Moody, late-night street realism. Rich skin textures, subtle facial reflections, studio catchlights in the eyes, sharp focus on facial features, soft blurred background bokeh, professional editorial color grading, 8k resolution photo.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782210747/prompts/zpj2wt14zsstkclpi2sn.webp",
     "isPremium": false,
     "author": "Admin",
@@ -648,7 +708,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmcf1aclv5r",
@@ -669,7 +731,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmjda9ba0ux",
@@ -690,7 +754,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmrjjmut8r9",
@@ -711,7 +777,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmkufzxmb94",
@@ -732,7 +800,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmhsuut279p",
@@ -753,14 +823,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm2tqgxer30",
     "title": "RAIN UNDER BLOOM : THE CRYSTAL MOUSE",
     "slug": "rain-under-bloom-the-crystal-mouse-v6gck",
     "category": "Portrait",
-    "fullPrompt": "create a high definition image of raining scenery where a mice is under a flower soaking wet in a crystal style art mice is looking up the rain drops from the colorful daisy flower petals with black background\n",
+    "fullPrompt": "create a high definition image of raining scenery where a mice is under a flower soaking wet in a crystal style art mice is looking up the rain drops from the colorful daisy flower petals with black background. Rich skin textures, subtle facial reflections, studio catchlights in the eyes, sharp focus on facial features, soft blurred background bokeh, professional editorial color grading, 8k resolution photo.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782210410/prompts/irav5xizwwj1p1paqa9j.webp",
     "isPremium": false,
     "author": "Admin",
@@ -774,14 +846,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm2ch7z8wex",
     "title": "URBAN DIVINE : CITY OF THE INNER GODDESS",
     "slug": "urban-divine-city-of-the-inner-goddess-z664u",
     "category": "Portrait",
-    "fullPrompt": "high quality, 8K Ultra HD, double exposure, beautifully designed goddess silhouette and big city landscape, minimalist, awesome full color",
+    "fullPrompt": "high quality, 8K Ultra HD, double exposure, beautifully designed goddess silhouette and big city landscape, minimalist, awesome full color. Rich skin textures, subtle facial reflections, studio catchlights in the eyes, sharp focus on facial features, soft blurred background bokeh, professional editorial color grading, 8k resolution photo.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782210356/prompts/cqeekk712dhaufyggjvn.webp",
     "isPremium": false,
     "author": "Admin",
@@ -795,14 +869,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cmqhvjgrs96",
     "title": "LAVENDER HORIZON : INFINITE DRIVE OF LUXURY",
     "slug": "lavender-horizon-infinite-drive-of-luxury-rkpff",
     "category": "Portrait",
-    "fullPrompt": "Wide low angle, Cinematic full body photography, alessandra ambrosio in Gucci dress in a futuristic minimalistic open space with an infinite swimming pool, car white porche panamera on the background, Foggy environment, in the faded light of sunset, complementary colors lavender, kodak 2383 lut",
+    "fullPrompt": "Wide low angle, Cinematic full body photography, alessandra ambrosio in Gucci dress in a futuristic minimalistic open space with an infinite swimming pool, car white porche panamera on the background, Foggy environment, in the faded light of sunset, complementary colors lavender, kodak 2383 lut. Rich skin textures, subtle facial reflections, studio catchlights in the eyes, sharp focus on facial features, soft blurred background bokeh, professional editorial color grading, 8k resolution photo.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782210302/prompts/siged8hvcncxdyrfhzbi.webp",
     "isPremium": false,
     "author": "Admin",
@@ -816,14 +892,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmjjcqkhvp4",
     "title": "THE SMOKEBOUND HEART : ANATOMY OF DREAMFIRE",
     "slug": "the-smokebound-heart-anatomy-of-dreamfire-hxvt4",
     "category": "Portrait",
-    "fullPrompt": "In a fantastic scene that uses 3D Surreal 3D model Anatomical Heart completely made of dense wisps of smoke, very detailed, cinematic, dramatic, effective lighting, play of light and shadow, soaring sparks on the far board, contrasting colors\n",
+    "fullPrompt": "In a fantastic scene that uses 3D Surreal 3D model Anatomical Heart completely made of dense wisps of smoke, very detailed, cinematic, dramatic, effective lighting, play of light and shadow, soaring sparks on the far board, contrasting colors. Rich skin textures, subtle facial reflections, studio catchlights in the eyes, sharp focus on facial features, soft blurred background bokeh, professional editorial color grading, 8k resolution photo.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782210249/prompts/mzhicwxtj20siolxutwj.webp",
     "isPremium": false,
     "author": "Admin",
@@ -837,7 +915,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmqmoxxgy4r",
@@ -858,14 +938,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmhd0sajrcb",
     "title": "CRYSTAL FOX : WHISPERS OF THE TRANSPARENT WILDERNESS",
     "slug": "crystal-fox-whispers-of-the-transparent-wilderness-mqg8i",
     "category": "Portrait",
-    "fullPrompt": "Images of the transparent, glass-like fox gracefully bending to drink from a tranquil creek. The visuals effectively showcase its delicate internal structure within a serene, natural setting.",
+    "fullPrompt": "Images of the transparent, glass-like fox gracefully bending to drink from a tranquil creek. The visuals effectively showcase its delicate internal structure within a serene, natural setting. Rich skin textures, subtle facial reflections, studio catchlights in the eyes, sharp focus on facial features, soft blurred background bokeh, professional editorial color grading, 8k resolution photo.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782210066/prompts/ni7m1ue2nnbfjzxcle5w.webp",
     "isPremium": false,
     "author": "Admin",
@@ -879,14 +961,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cmhkxqdyngj",
     "title": "THE BREAKTHROUGH : FROM CONCRETE TO LEGEND",
     "slug": "the-breakthrough-from-concrete-to-legend-yo5p9",
     "category": "Portrait",
-    "fullPrompt": "A hyper-realistic [CHARACTER] breaking through a cracked concrete wall, emerging in a dynamic and aggressive pose. [CHARACTER DETAILS AND ACTIONS]. Dust and debris flying from the impact, cinematic lighting, high-detail [SKIN / SURFACE / TEXTURES]. Vertical 9:16 composition, white concrete wall in the background with deep cracks and realistic shadows for depth, photorealistic style, sharp focus.",
+    "fullPrompt": "A striking breakdown portrait of a hero bursting through a concrete wall, stone debris floating in mid-air, intense rim lighting, detailed rock textures. Rich skin textures, subtle facial reflections, studio catchlights in the eyes, sharp focus on facial features, soft blurred background bokeh, professional editorial color grading, 8k resolution photo.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782210003/prompts/p72xd1x0j7yxbtlgcdvu.webp",
     "isPremium": false,
     "author": "Admin",
@@ -900,7 +984,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cmdl7cfn8qk",
@@ -921,14 +1007,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmbrlvhnl14",
     "title": "SCREENLIGHT SOUL : THE FACE IN THE DARK",
     "slug": "screenlight-soul-the-face-in-the-dark-bbe6t",
     "category": "Portrait",
-    "fullPrompt": "Ultra-realistic close portrait of a man or woman (from uploaded image), messy hair partially covering one eye, wearing a dark oversized hoodie with the hood slightly up. Face illuminated from below by a cool smartphone screen glow, eyes reflecting the light sharply. Background completely black, moody dramatic lighting, mysterious cinematic atmosphere, ultra realistic skin texture, high detail.",
+    "fullPrompt": "Ultra-realistic close portrait of a man or woman (from uploaded image), messy hair partially covering one eye, wearing a dark oversized hoodie with the hood slightly up. Face illuminated from below by a cool smartphone screen glow, eyes reflecting the light sharply. Background completely black, moody dramatic lighting, mysterious cinematic atmosphere, ultra realistic skin texture, high detail. Rich skin textures, subtle facial reflections, studio catchlights in the eyes, sharp focus on facial features, soft blurred background bokeh, professional editorial color grading, 8k resolution photo.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782209889/prompts/elgzihhuanqajvyuyxoy.webp",
     "isPremium": false,
     "author": "Admin",
@@ -942,7 +1030,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmd0es22elj",
@@ -963,7 +1053,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm4x5afoiut",
@@ -984,35 +1076,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
-  },
-  {
-    "id": "cm8u4mqvhbx",
-    "title": "SOUND RUSH : FEEL THE BASS STATE",
-    "slug": "sound-rush-feel-the-bass-state-pziv0",
-    "category": "Portrait",
-    "fullPrompt": "Create A high-energy, flat vector art illustration of a young man with a short beard wearing a black baseball cap and a black hoodie with orange accents. He is wearing large over-ear headphones, his eyes are closed, and his head is tilted back in a state of musical bliss. The background is a vibrant, solid orange. Dynamic graphic elements surround his head, including jagged lightning bolts, small arrows, and motion lines in black and white to represent the beat. Bold, blocky text is integrated into the composition: 'SOUND RUSH' at the top right, 'BASS MODE' vertically on the left, and 'FEEL IT' at the bottom. The style is clean, 2D, with sharp outlines and cel-shaded coloring.",
-    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782209721/prompts/nxr5xfnmbpslmwd3sn89.webp",
-    "isPremium": false,
-    "author": "Admin",
-    "views": 0,
-    "likes": 0,
-    "createdAt": "2026-05-12T11:07:33.297Z",
-    "updatedAt": "2026-06-23T10:15:21.543Z",
-    "isTrending": false,
-    "isLatest": false,
-    "isFeatured": false,
-    "tags": [],
-    "models": [
-      "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmtsx6zp2vq",
     "title": "Neon Duality — Cyberpunk Split-Screen Portrait",
     "slug": "neon-duality-cyberpunk-splitscreen-portrait-uohj2",
     "category": "Portrait",
-    "fullPrompt": "Cyberpunk Portrait Split-Screen\nTransform this image [Upload Your Image] into a 64K DSLR shot resolution of a vibrant, modern digital portrait of a man (same face as the uploaded image) in side profile with a split-screen effect. The left side features a brightly lit, detailed image of the man (same face as the uploaded image) wearing stylish dark round sunglasses with reflective, colorful lenses, and a collared jacket illuminated by red and orange lighting. He has short, dark hair & a well-groomed beard.The right side shows a darker, more abstract, and textured version of the same profile with a dotted halftone pattern and a teal background. The background transitions from a textured dot pattern to a smooth gradient, emphasizing contrast and depth. The text \"[Add Text]\" appears in large white uppercase letters at the top right, with a small blue \"[Add Text]\" logo in the top left corner. Include a paragraph of placeholder text in white at the bottom, styled in a modern font. The overall aesthetic should be bold, high-contrast, with a cyberpunk and futuristic vibe. Octane render & Unreal Engine 5.",
+    "fullPrompt": "A cyberpunk split-screen portrait of a female cybernetic runner, left side in dramatic monochrome and right side in glowing neon red and cyan, ultra-detailed futuristic aesthetic. Rich skin textures, subtle facial reflections, studio catchlights in the eyes, sharp focus on facial features, soft blurred background bokeh, professional editorial color grading, 8k resolution photo.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782209672/prompts/q8e4vwh6yiifdoivqgqc.webp",
     "isPremium": false,
     "author": "Admin",
@@ -1026,7 +1099,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cmqo4rb1gyw",
@@ -1047,7 +1122,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm1i2opwd08",
@@ -1068,7 +1145,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmbz4l9bqwr",
@@ -1089,7 +1168,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmgkoxy159g",
@@ -1110,14 +1191,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm6ruwv4l75",
     "title": "Ethereal Bloom — Dreamlight Portrait of Ranjeet",
     "slug": "ethereal-bloom-dreamlight-portrait-of-ranjeet-adtjm",
     "category": "Portrait",
-    "fullPrompt": "A soft, dreamy digital portrait of [RANJEET], realistic yet artistic style, smooth pastel tones, soft lighting on the face. Elegant flowing [PATTERN /DESIGN] (like floral swirls, watercolor strokes, golden smoke) blending naturally into the portrait background. Minimalist cream or pastel backdrop. At the bottom, elegant [FONT STYLE] handwritten typography spells [RANJEET]. Fine details, ethereal atmosphere, ultra high resolution, [ASPECT RA",
+    "fullPrompt": "An ethereal portrait of Ranjeet surrounded by blooming glowing lotus flowers, soft golden dreamlight, magical particle effects, intricate floral art style. Rich skin textures, subtle facial reflections, studio catchlights in the eyes, sharp focus on facial features, soft blurred background bokeh, professional editorial color grading, 8k resolution photo.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782209371/prompts/r4tm89qh3epog4vw9owq.webp",
     "isPremium": false,
     "author": "Admin",
@@ -1131,7 +1214,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cm2lfzy6pgz",
@@ -1152,14 +1237,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm6vo8nf2k9",
     "title": "Solitude Under Amber Light — Moody Introspective Portrait",
     "slug": "solitude-under-amber-light-moody-introspective-portrait-878jb",
     "category": "Portrait",
-    "fullPrompt": "Moody, introspective portrait of a young man in a dark undefined background. He wears a black puffer jacket and grey hoodie, standing with bowed head beneath a warm amber spotlight. Subtle highlights on his hair and glasses reflect his solitary state of mind.\",\n\"size\": \"1024x1024\",\n\"n\": 1",
+    "fullPrompt": "Moody, introspective portrait of a young man in a dark undefined background. He wears a black puffer jacket and grey hoodie, standing with bowed head beneath a warm amber spotlight. Subtle highlights on his hair and glasses reflect his solitary state of mind.\",\n\"size\": \"1024x1024\",\n\"n\": 1. Rich skin textures, subtle facial reflections, studio catchlights in the eyes, sharp focus on facial features, soft blurred background bokeh, professional editorial color grading, 8k resolution photo.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782209269/prompts/buvsld6s4xnkabc8e4iy.webp",
     "isPremium": false,
     "author": "Admin",
@@ -1173,7 +1260,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cma3ajavxpw",
@@ -1194,7 +1283,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm7n76q06ty",
@@ -1215,7 +1306,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmqeu6m67eh",
@@ -1236,7 +1329,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm9co0ka7tl",
@@ -1257,7 +1352,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmi1cygvljy",
@@ -1278,7 +1375,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm5tecbg74o",
@@ -1299,14 +1398,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmr4ljs414w",
     "title": "Ethereal Smoke — Cinematic Contemplation Portrait",
     "slug": "ethereal-smoke-cinematic-contemplation-portrait-mt6on",
     "category": "Portrait",
-    "fullPrompt": "Cinematic profile portrait of the male in the uploaded image — head tilted back, eyes closed, full beard, curly hair. Wearing a dark textured sweater under moody light that highlights facial contours and fabric detail. Soft glow around the head, dark smoke swirling for an ethereal feel. Deep dark background for contrast.",
+    "fullPrompt": "Cinematic profile portrait of the male in the uploaded image — head tilted back, eyes closed, full beard, curly hair. Wearing a dark textured sweater under moody light that highlights facial contours and fabric detail. Soft glow around the head, dark smoke swirling for an ethereal feel. Deep dark background for contrast. Rich skin textures, subtle facial reflections, studio catchlights in the eyes, sharp focus on facial features, soft blurred background bokeh, professional editorial color grading, 8k resolution photo.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782208841/prompts/ytviwczzlwqoofkecbvq.webp",
     "isPremium": false,
     "author": "Admin",
@@ -1320,7 +1421,9 @@
     "tags": [],
     "models": [
       "Flow AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmqrxwc1c03",
@@ -1341,7 +1444,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm4a15sudg5",
@@ -1362,7 +1467,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmiq5ef2wkq",
@@ -1383,7 +1490,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmiy5glnw6q",
@@ -1404,7 +1513,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmbbcpzx87z",
@@ -1425,14 +1536,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmy7cnsk71z",
     "title": "Shadow Sharingan — Elite Ninja Portrait",
     "slug": "shadow-sharingan-elite-ninja-portrait-u3h7g",
     "category": "Portrait",
-    "fullPrompt": "Use 100% face above uploaded photo Hyper-realistic portrait of young man in last 27s with black hair and black beard Hatake cosplay, spiky black- hair, Konoha forehead protector, black mask, one brown eye and one glowing red Sharingan with scar, green tactical vest, black fingerless gloves, ninja hand seal, dramatic lighting,8k resolution",
+    "fullPrompt": "Use 100% face above uploaded photo Hyper-realistic portrait of young man in last 27s with black hair and black beard Hatake cosplay, spiky black- hair, Konoha forehead protector, black mask, one brown eye and one glowing red Sharingan with scar, green tactical vest, black fingerless gloves, ninja hand seal, dramatic lighting,8k resolution. Rich skin textures, subtle facial reflections, studio catchlights in the eyes, sharp focus on facial features, soft blurred background bokeh, professional editorial color grading, 8k resolution photo.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782208412/prompts/fpblo0ptvbf0wik9qtbu.webp",
     "isPremium": false,
     "author": "Admin",
@@ -1446,7 +1559,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm3em6vptkz",
@@ -1467,14 +1582,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmnwpeffm48",
     "title": "Pages of Imagination — Surreal Reader Portrait",
     "slug": "pages-of-imagination-surreal-reader-portrait-8ys2r",
     "category": "Portrait",
-    "fullPrompt": "Create a surreal, hyper-detailed, and imaginative portrait of a man — use the exact facial features, hairstyle, glasses, beard, and skin texture from the uploaded image — sitting in a calm, contemplative pose while reading an open book.",
+    "fullPrompt": "Create a surreal, hyper-detailed, and imaginative portrait of a man — use the exact facial features, hairstyle, glasses, beard, and skin texture from the uploaded image — sitting in a calm, contemplative pose while reading an open book. Rich skin textures, subtle facial reflections, studio catchlights in the eyes, sharp focus on facial features, soft blurred background bokeh, professional editorial color grading, 8k resolution photo.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782208253/prompts/vhvuassjflu17jfono4s.webp",
     "isPremium": false,
     "author": "Admin",
@@ -1488,7 +1605,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm40i2lpuql",
@@ -1509,35 +1628,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
-  },
-  {
-    "id": "cm004grxrwk",
-    "title": "Dual Echoes — A Moody Split-Tone Portrait",
-    "slug": "dual-echoes-a-moody-splittone-portrait-waugw",
-    "category": "Portrait",
-    "fullPrompt": "A moody, artistic portrait of a young man with messy, wavy dark hair partially covering his forehead, gazing upward with a confident and intense expression. He wears an unbuttoned dark shirt over bare skin, revealing a thin chain necklace with a small pendant. The image is split vertically down the center—left side with a distressed, textured deep red background and warm shadows, right side with a muted sepia tone background and vintage film grain.The lighting is dramatic, casting strong shadows",
-    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782208074/prompts/gksfsrhwevdu0dsj5h43.webp",
-    "isPremium": false,
-    "author": "Admin",
-    "views": 0,
-    "likes": 0,
-    "createdAt": "2026-05-13T10:56:19.389Z",
-    "updatedAt": "2026-06-23T09:47:54.260Z",
-    "isTrending": false,
-    "isLatest": false,
-    "isFeatured": false,
-    "tags": [],
-    "models": [
-      "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm8oq1iy5ta",
     "title": "Teal Pulse — Bold Contrast Fashion Portrait",
     "slug": "teal-pulse-bold-contrast-fashion-portrait-dri7u",
     "category": "Portrait",
-    "fullPrompt": "Use 100% face above uploaded photo\nA hyperrealistic portrait shot of a young handsome man with black hair and black beard like uploaded photo, head tilted up confidently. He wears a vibrant teal high-neck turtleneck and oversized for men style, thick-framed orange sunglasses with dark reflective lenses. Set against a minimalist, bright orange.",
+    "fullPrompt": "Use 100% face above uploaded photo\nA hyperrealistic portrait shot of a young handsome man with black hair and black beard like uploaded photo, head tilted up confidently. He wears a vibrant teal high-neck turtleneck and oversized for men style, thick-framed orange sunglasses with dark reflective lenses. Set against a minimalist, bright orange. Rich skin textures, subtle facial reflections, studio catchlights in the eyes, sharp focus on facial features, soft blurred background bokeh, professional editorial color grading, 8k resolution photo.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782207985/prompts/rp8zvjv5vbkecm3dj5rq.webp",
     "isPremium": false,
     "author": "Admin",
@@ -1551,7 +1651,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm5702xy1gc",
@@ -1572,7 +1674,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmu2lgrmez8",
@@ -1593,7 +1697,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmnh4ngrhsi",
@@ -1614,7 +1720,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmaw6jv8znp",
@@ -1635,7 +1743,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmwjrl25yki",
@@ -1656,7 +1766,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmhsl7w2f6v",
@@ -1677,7 +1789,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm4tt6wmy4y",
@@ -1698,7 +1812,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm4kfuqv4q9",
@@ -1719,14 +1835,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmboh23aw1w",
     "title": "Urban Velocity — Tunnel Graffiti Cinematic Portrait",
     "slug": "urban-velocity-tunnel-graffiti-cinematic-portrait-jvay8",
     "category": "Portrait",
-    "fullPrompt": "8K vertical shot (9:16) of a confident young man leaning on Adidas-inspired graffiti in a night high-tech tunnel. Low-angle, full-body with crossed legs, wearing varsity jacket, camo cargo pants, and Nike sneakers. Urban elements with bokeh and passing train motion blur. Dramatic clouds, natural warm light, sharp subject focus with 50mm f/1.8 lens. Earthy tones, volumetric dust, realistic shadows.",
+    "fullPrompt": "8K vertical shot (9:16) of a confident young man leaning on Adidas-inspired graffiti in a night high-tech tunnel. Low-angle, full-body with crossed legs, wearing varsity jacket, camo cargo pants, and Nike sneakers. Urban elements with bokeh and passing train motion blur. Dramatic clouds, natural warm light, sharp subject focus with 50mm f/1.8 lens. Earthy tones, volumetric dust, realistic shadows. Rich skin textures, subtle facial reflections, studio catchlights in the eyes, sharp focus on facial features, soft blurred background bokeh, professional editorial color grading, 8k resolution photo.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782205602/prompts/u0fhhvaulr2azttqbiod.webp",
     "isPremium": false,
     "author": "Admin",
@@ -1740,7 +1858,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmfo8nx7h3p",
@@ -1761,14 +1881,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmcz9xc7hox",
     "title": "Shattered Time — The Chrono Illusion Portrait",
     "slug": "shattered-time-the-chrono-illusion-portrait-0mftt",
     "category": "Portrait",
-    "fullPrompt": "Generate an image of the uploaded face of A young man stands still as shattered clock faces hover around him in midair. His pink sunglasses reflect time loops and his black shirt is untouched by chaos. 8K, symbolic of time control.\",\n\"style\": \"conceptual, temporal surrealism\",\n\"resolution\": \"8K\",\n\"lighting\": \"gold + magenta light fragments\",\n\"camera\": \"360 slow spin freeze frame\"",
+    "fullPrompt": "Generate an image of the uploaded face of A young man stands still as shattered clock faces hover around him in midair. His pink sunglasses reflect time loops and his black shirt is untouched by chaos. 8K, symbolic of time control.\",\n\"style\": \"conceptual, temporal surrealism\",\n\"resolution\": \"8K\",\n\"lighting\": \"gold + magenta light fragments\",\n\"camera\": \"360 slow spin freeze frame\". Rich skin textures, subtle facial reflections, studio catchlights in the eyes, sharp focus on facial features, soft blurred background bokeh, professional editorial color grading, 8k resolution photo.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782205497/prompts/ik81jddqiromg5te3md6.webp",
     "isPremium": false,
     "author": "Admin",
@@ -1782,7 +1904,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "low",
+    "seoIndex": false
   },
   {
     "id": "cmxpwnbvped",
@@ -1803,7 +1927,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmk3yz3jewf",
@@ -1824,7 +1950,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmrucodgna5",
@@ -1845,7 +1973,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmkt229tqxy",
@@ -1866,7 +1996,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmxxd4u11ji",
@@ -1887,7 +2019,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmfc99xz251",
@@ -1908,7 +2042,9 @@
     "tags": [],
     "models": [
       "Flow AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm2yh1i7gbm",
@@ -1929,7 +2065,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm7lu2g3njz",
@@ -1950,7 +2088,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm95wl29kau",
@@ -1971,7 +2111,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmxhlezbky1",
@@ -1992,7 +2134,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmofe0bo9rl",
@@ -2013,7 +2157,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmbw61edb0h",
@@ -2034,7 +2180,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmj8gj03soy",
@@ -2055,7 +2203,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmje1u5y5uv",
@@ -2076,7 +2226,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmsowos1b0f",
@@ -2097,7 +2249,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmnqunv6zn6",
@@ -2118,28 +2272,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
-  },
-  {
-    "id": "cmypcafy4g0",
-    "title": "Supra Horizon — Keys to the Golden Drive",
-    "slug": "supra-horizon-keys-to-the-golden-drive-elg0k",
-    "category": "Portrait",
-    "fullPrompt": "A man (uploaded image as reference) sitting-leaning at a Toyota Supra with doors open. He is wearing a Nike t-shirt, black jeans, white sneakers, and sunglasses. He holds a car key in one hand and gazes thoughtfully into the distance. The background shows a dramatic sky with scattered clouds during golden hour lighting, and a scenic ravine in the distance. 4K resolution, realistic style.",
-    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782203185/prompts/ykpifsn35xek0x4g0ire.webp",
-    "isPremium": false,
-    "author": "Admin",
-    "views": 0,
-    "likes": 0,
-    "createdAt": "2026-05-15T02:08:35.100Z",
-    "updatedAt": "2026-06-23T08:26:26.361Z",
-    "isTrending": false,
-    "isLatest": false,
-    "isFeatured": false,
-    "tags": [],
-    "models": [
-      "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm1w633w1fq",
@@ -2160,7 +2295,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmyp58ltkl2",
@@ -2181,7 +2318,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm1dw2kub7e",
@@ -2202,7 +2341,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm37beix4ql",
@@ -2223,7 +2364,9 @@
     "tags": [],
     "models": [
       "Flow AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmidvfg6xgn",
@@ -2244,7 +2387,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "low",
+    "seoIndex": false
   },
   {
     "id": "cm3u127jrqv",
@@ -2265,7 +2410,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm9c2swx8xo",
@@ -2286,7 +2433,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm60dsgiv3g",
@@ -2307,7 +2456,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmhke0gkmdn",
@@ -2328,14 +2479,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm79tsw220w",
     "title": "Color in Motion — The Mid-Stroke Expression",
     "slug": "color-in-motion-the-midstroke-expression-mr4kn",
-    "category": "Portrait",
-    "fullPrompt": "Craft a striking Product Photography shot of a swirling paintbrush captured\nmid-stroke, showcasing the vibrant colors and artistic expression",
+    "category": "Digital Art",
+    "fullPrompt": "Craft a striking Product Photography shot of a swirling paintbrush captured\nmid-stroke, showcasing the vibrant colors and artistic expression. Clean visual composition, balanced graphic layout, harmonious color palette, high-precision vector lines, contemporary design aesthetic.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782202455/prompts/aocxajegyzxkcmr3lrh5.webp",
     "isPremium": false,
     "author": "Admin",
@@ -2349,7 +2502,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "low",
+    "seoIndex": false
   },
   {
     "id": "cmgvc4ukva7",
@@ -2370,7 +2525,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmigttx25dt",
@@ -2391,14 +2548,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmtsf98s9fg",
     "title": "name — Breaking the Instagram Frame",
     "slug": "name-breaking-the-instagram-frame-r9v16",
     "category": "Portrait",
-    "fullPrompt": "A smart young Indian men stepping out through a torn Instagram profile page..account name rk parjapati.. creative social media colage composition, coniidently adjusting styish brown sunglasses, wearing white beige colour coat dark brown shirt and beige colour formal pant and brown formal pant... holding a vibrant bouquet of roses and lilies.",
+    "fullPrompt": "A smart young Indian men stepping out through a torn Instagram profile page..account name rk parjapati.. creative social media colage composition, coniidently adjusting styish brown sunglasses, wearing white beige colour coat dark brown shirt and beige colour formal pant and brown formal pant... holding a vibrant bouquet of roses and lilies. Rich skin textures, subtle facial reflections, studio catchlights in the eyes, sharp focus on facial features, soft blurred background bokeh, professional editorial color grading, 8k resolution photo.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782202264/prompts/gxpzc3zioqntamuvj1ft.webp",
     "isPremium": false,
     "author": "Admin",
@@ -2412,7 +2571,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmtt0ktwjq1",
@@ -2433,7 +2594,9 @@
     "tags": [],
     "models": [
       "Flow AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm6tk2lbpzv",
@@ -2454,7 +2617,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmec1t61pf6",
@@ -2475,7 +2640,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmq3zxoykux",
@@ -2496,14 +2663,16 @@
     "tags": [],
     "models": [
       "Flow AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmude107rlq",
     "title": "Blue Drift — The Minimal Motion Portrait",
     "slug": "blue-drift-the-minimal-motion-portrait-rj9ns",
     "category": "Portrait",
-    "fullPrompt": "A stylish young man standing in a dynamic pose, looking down, wearing oversized blue colour shirt and loose white pants, minimal aesthetic fashion, solid bright white  background, dramatic lighting, motion blur dripping effect around the body, glitch smear effect, soft shadows, high contrast, cinematic look, ultra realistic, 4K, sharp details, editorial fashion photography style.",
+    "fullPrompt": "A stylish young man standing in a dynamic pose, looking down, wearing oversized blue colour shirt and loose white pants, minimal aesthetic fashion, solid bright white  background, dramatic lighting, motion blur dripping effect around the body, glitch smear effect, soft shadows, high contrast, cinematic look, ultra realistic, 4K, sharp details, editorial fashion photography style. Rich skin textures, subtle facial reflections, studio catchlights in the eyes, sharp focus on facial features, soft blurred background bokeh, professional editorial color grading, 8k resolution photo.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782198873/prompts/dlx256l20mrqbmkoce6o.webp",
     "isPremium": false,
     "author": "Admin",
@@ -2517,7 +2686,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmi0kpekp68",
@@ -2538,7 +2709,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmfyyjxorc8",
@@ -2559,6 +2732,8 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   }
 ]

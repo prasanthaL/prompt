@@ -18,7 +18,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmen4pl2uka",
@@ -39,7 +41,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmu6wyw7kag",
@@ -60,7 +64,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmzt9ywtscm",
@@ -81,7 +87,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm4qtyezicr",
@@ -102,7 +110,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmtrfujpmkw",
@@ -123,7 +133,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmcao6gwem3",
@@ -144,7 +156,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmylilrox9n",
@@ -165,7 +179,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmvtep32hnf",
@@ -186,7 +202,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmwf336pvw9",
@@ -207,7 +225,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmkzkd8fxa0",
@@ -228,14 +248,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmre8h77ygh",
     "title": "Stand Awakening — Urban Green Aura Guardian",
     "slug": "stand-awakening-urban-green-aura-guardian-ms9gn",
     "category": "Men",
-    "fullPrompt": "Use reference photo to create a hyper-realistic lifestyle photo of a young man with [Your Face Details] standing in a cool, confident pose on a modern city sidewalk alone street. He is wearing a black oversized hoodie and hoodie man wearing, baggy dark denim wide-leg trousers, white sneakers.\n\nDirectly behind him, a massive, stylized from emerges like a \"Stand\" ghost spirit riko. The ghost full body glowing with an intense dark green psychic aura and holding glowing long axe.",
+    "fullPrompt": "A powerful anime warrior awakening a towering translucent emerald green aura guardian behind him, dramatic urban night backdrop, glowing energy sparks, dynamic perspective. Rich skin textures, subtle facial reflections, studio catchlights in the eyes, sharp focus on facial features, soft blurred background bokeh, professional editorial color grading, 8k resolution photo.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782120620/prompts/byaijvkhdfvxjdttlquy.webp",
     "isPremium": false,
     "isTrending": false,
@@ -249,7 +271,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cmge3v87itp",
@@ -270,7 +294,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmngilkftcp",
@@ -291,7 +317,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm2od98zuwl",
@@ -312,7 +340,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmrit3dozer",
@@ -333,7 +363,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmku6dwioh6",
@@ -354,7 +386,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm0dkc9dh6k",
@@ -375,7 +409,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmo8xx9nd8m",
@@ -396,7 +432,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm0pij6bzja",
@@ -417,7 +455,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmbgieldlwt",
@@ -438,7 +478,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmqqsmjyuvc",
@@ -459,7 +501,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm0zpeue97o",
@@ -480,7 +524,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cms5pcczm6l",
@@ -501,7 +547,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmza5tp3585",
@@ -522,7 +570,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmx50w0o287",
@@ -543,7 +593,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm7l31gdbso",
@@ -564,14 +616,16 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmjv99ywlh4",
     "title": "North Indian Men Fashion Editorial",
     "slug": "north-indian-men-fashion-editorial-xzb3u",
     "category": "Men",
-    "fullPrompt": "Ultra-realistic premium fashion editorial portrait of six stylish north indian boys 100 % same face (ages 30–32) posing together in a luxury minimalist studio. Warm beige seamless background with soft natural gradient, clean white geometric platforms of different heights, premium children's fashion campaign aesthetic.",
+    "fullPrompt": "Ultra-realistic premium fashion editorial portrait of six stylish north indian boys 100 % same face (ages 30–32) posing together in a luxury minimalist studio. Warm beige seamless background with soft natural gradient, clean white geometric platforms of different heights, premium children's fashion campaign aesthetic. Rich skin textures, subtle facial reflections, studio catchlights in the eyes, sharp focus on facial features, soft blurred background bokeh, professional editorial color grading, 8k resolution photo.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783754947/prompts/j1jvp6zbhkmtrpuh4jip.webp",
     "isPremium": false,
     "isTrending": true,
@@ -585,7 +639,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmg26vjs6dc",
@@ -606,7 +662,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmauesi5axq",
@@ -627,7 +685,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmfhjzokvn1",
@@ -646,7 +706,9 @@
     "createdAt": "2026-07-15T08:11:36.422Z",
     "updatedAt": "2026-07-15T08:11:36.422Z",
     "tags": [],
-    "models": []
+    "models": [],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmrlx7ddcft",
@@ -667,7 +729,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmz7o1wz9fq",
@@ -688,7 +752,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm6is489c69",
@@ -709,7 +775,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmnvxbgqmr9",
@@ -730,7 +798,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmovb4xsdhl",
@@ -751,7 +821,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmlcqd9k8ex",
@@ -772,7 +844,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmk4ib6gctg",
@@ -793,7 +867,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmwp6xm1581",
@@ -814,7 +890,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmlb0wh8d9g",
@@ -835,7 +913,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmnm7na7639",
@@ -856,7 +936,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmaivl688b1",
@@ -877,14 +959,16 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmb73hx40c1",
     "title": "Happy birthday Liam: stylish collage design",
     "slug": "happy-birthday-liam-stylish-collage-des-iochz",
     "category": "Men",
-    "fullPrompt": "Beautiful artistie Instagram poster collage of a stylish young South Indian man \"name....\ndifferent poses and fashionable outfits\narranged in an elegant organic floral\ncom position layout, Soft textured watercolor background , sky blue, dusty pink, and muted grey tones with artistie paimt s plashes and abstra et brush textures. Liam",
+    "fullPrompt": "Beautiful artistie Instagram poster collage of a stylish young South Indian man \"name....\ndifferent poses and fashionable outfits\narranged in an elegant organic floral\ncom position layout, Soft textured watercolor background , sky blue, dusty pink, and muted grey tones with artistie paimt s plashes and abstra et brush textures. Liam. Rich skin textures, subtle facial reflections, studio catchlights in the eyes, sharp focus on facial features, soft blurred background bokeh, professional editorial color grading, 8k resolution photo.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784653307/prompts/jrkohew3irlfkqudkgtd.webp",
     "isPremium": false,
     "isTrending": false,
@@ -898,7 +982,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmaivgm0onf",
@@ -919,7 +1005,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmug9d3nl3w",
@@ -940,7 +1028,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm48u6zgp6v",
@@ -961,7 +1051,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmfz846y75c",
@@ -982,7 +1074,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmly96zbp0a",
@@ -1003,7 +1097,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm2g3tdmoyg",
@@ -1024,7 +1120,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmuljzyrv2t",
@@ -1045,7 +1143,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm95373ufag",
@@ -1066,7 +1166,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm0af0hnofb",
@@ -1087,7 +1189,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmr041ejg47",
@@ -1108,7 +1212,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmtowrv6qsy",
@@ -1129,7 +1235,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmz4vhfz707",
@@ -1150,7 +1258,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmvljd79cyp",
@@ -1171,7 +1281,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmwyixv2zvj",
@@ -1192,7 +1304,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm7fljickqg",
@@ -1213,7 +1327,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm70wy7h3p9",
@@ -1234,7 +1350,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmbiwyncgoa",
@@ -1255,7 +1373,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm6s0q9u8i9",
@@ -1276,14 +1396,16 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm2ju1ermze",
     "title": "Polished Blue Suit Portrait",
     "slug": "polished-blue-suit-portrait-98w9x",
     "category": "Men",
-    "fullPrompt": "A premium full-length editorial studio portrait of a confident, stylish man in a tailored navy-blue suit with white sneakers, standing against a soft gradient blue background under cinematic lighting. The image features ultra-realistic details, a luxury fashion aesthetic",
+    "fullPrompt": "A premium full-length editorial studio portrait of a confident, stylish man in a tailored navy-blue suit with white sneakers, standing against a soft gradient blue background under cinematic lighting. The image features ultra-realistic details, a luxury fashion aesthetic. Rich skin textures, subtle facial reflections, studio catchlights in the eyes, sharp focus on facial features, soft blurred background bokeh, professional editorial color grading, 8k resolution photo.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1785569636/prompts/vwobpj2owdltbenlre4k.webp",
     "isPremium": false,
     "isTrending": false,
@@ -1297,7 +1419,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm1gvdkex79",
@@ -1318,7 +1442,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmqxgwlg4x7",
@@ -1339,7 +1465,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm87r9eg8tt",
@@ -1360,7 +1488,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm9l8vcxtml",
@@ -1381,7 +1511,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmonjvrq1yi",
@@ -1402,7 +1534,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmyegm3v4pw",
@@ -1423,7 +1557,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmti7auyk3d",
@@ -1444,7 +1580,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmv7wvk1z9d",
@@ -1465,7 +1603,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmy676d5gcp",
@@ -1486,7 +1626,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm1v9aeksk2",
@@ -1507,7 +1649,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmn8izgrx3q",
@@ -1528,7 +1672,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmsmnxfrxv6",
@@ -1549,7 +1695,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmibwm8pgua",
@@ -1570,7 +1718,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm5cwyekw58",
@@ -1591,7 +1741,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm946sjtge6",
@@ -1612,7 +1764,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmz8877vw3p",
@@ -1633,7 +1787,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmrjsxpi4g6",
@@ -1654,7 +1810,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmiu57y7t0x",
@@ -1675,14 +1833,16 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmizji8yv0x",
     "title": "Golden-Hour Forest Mountain Portrait",
     "slug": "goldenhour-forest-mountain-portrait-h2rck",
     "category": "Men",
-    "fullPrompt": "Photorealistic outdoor portrait collage featuring the same young man in an olive green casual shirt, beige chinos, white sneakers, stylish sunglasses. Three-image collage including oversized portrait, walking pose through a forest trail, and rear-view overlooking mountains. Golden sunlight filtering through trees, cinematic bokeh, highly detailed hair strands, luxury photography, ultra realistic, 8K masterpiece.",
+    "fullPrompt": "Photorealistic outdoor portrait collage featuring the same young man in an olive green casual shirt, beige chinos, white sneakers, stylish sunglasses. Three-image collage including oversized portrait, walking pose through a forest trail, and rear-view overlooking mountains. Golden sunlight filtering through trees, cinematic bokeh, highly detailed hair strands, luxury photography, ultra realistic, 8K masterpiece. Rich skin textures, subtle facial reflections, studio catchlights in the eyes, sharp focus on facial features, soft blurred background bokeh, professional editorial color grading, 8k resolution photo.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1785676100/prompts/ixrgvjdhufvksysvulun.webp",
     "isPremium": false,
     "isTrending": false,
@@ -1696,7 +1856,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm6cnupzze5",
@@ -1715,14 +1877,16 @@
     "createdAt": "2026-08-02T13:09:17.782Z",
     "updatedAt": "2026-08-02T13:09:17.782Z",
     "tags": [],
-    "models": []
+    "models": [],
+    "quality": "low",
+    "seoIndex": false
   },
   {
     "id": "cm8i64uuzqc",
     "title": "Golden Hour Lakeside Portrait Montage",
     "slug": "golden-hour-lakeside-portrait-montage-owvya",
     "category": "Men",
-    "fullPrompt": "Ultra realistic collage of the same handsome man wearing a premium coffee brown linen shirt, dark blue jeans, white sneakers, smartwatch and sunglasses. Huge smiling portrait, confident walking pose, and standing with back facing a beautiful lake. Warm cinematic tones, shallow depth of field, ultra detailed face, fashion editorial photography, DSLR, luxury lifestyle, 8K.",
+    "fullPrompt": "Ultra realistic collage of the same handsome man wearing a premium coffee brown linen shirt, dark blue jeans, white sneakers, smartwatch and sunglasses. Huge smiling portrait, confident walking pose, and standing with back facing a beautiful lake. Warm cinematic tones, shallow depth of field, ultra detailed face, fashion editorial photography, DSLR, luxury lifestyle, 8K. Rich skin textures, subtle facial reflections, studio catchlights in the eyes, sharp focus on facial features, soft blurred background bokeh, professional editorial color grading, 8k resolution photo.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1785682784/prompts/jn04aubla0l6orbgdwrn.webp",
     "isPremium": false,
     "isTrending": false,
@@ -1736,7 +1900,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmqossuq86m",
@@ -1757,7 +1923,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmi2szy2v3e",
@@ -1778,7 +1946,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmejh68rtjs",
@@ -1799,7 +1969,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm23a2dsqt3",
@@ -1820,7 +1992,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmmzq1mqr93",
@@ -1841,7 +2015,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmw5lmd0gta",
@@ -1862,7 +2038,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm4311p3ytw",
@@ -1883,14 +2061,16 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm69z629dy9",
     "title": "Fashion Portrait Collage",
     "slug": "fashion-portrait-collage-xxtaa",
     "category": "Men",
-    "fullPrompt": "High-end fashion portrait collage of the same stylish young man wearing a sky blue oversized shirt, ripped light denim jeans, white sneakers, silver bracelet and sunglasses. Three compositions including close-up portrait, walking confidently on an urban street, and back-view looking toward skyscrapers. Soft natural lighting, premium cinematic color grading, realistic textures, ultra detailed, 8K.",
+    "fullPrompt": "High-end fashion portrait collage of the same stylish young man wearing a sky blue oversized shirt, ripped light denim jeans, white sneakers, silver bracelet and sunglasses. Three compositions including close-up portrait, walking confidently on an urban street, and back-view looking toward skyscrapers. Soft natural lighting, premium cinematic color grading, realistic textures, ultra detailed, 8K. Rich skin textures, subtle facial reflections, studio catchlights in the eyes, sharp focus on facial features, soft blurred background bokeh, professional editorial color grading, 8k resolution photo.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1785911959/prompts/nna3tg2e9dm6oj8k5aqn.webp",
     "isPremium": false,
     "isTrending": false,
@@ -1904,7 +2084,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmqriqdbm25",
@@ -1925,7 +2107,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm7appmkhxq",
@@ -1946,7 +2130,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmt7pxw7uya",
@@ -1967,14 +2153,16 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmlj4np3le6",
     "title": "Birthday Collage Poster Design",
     "slug": "birthday-collage-poster-design-073wk",
     "category": "Men",
-    "fullPrompt": "Create a premium ultra-realistic\nbirthday collage poster using the u ploaded\nperson's face as the exact identity reference .Preserve the original face, hairstyle, beard,skin tone, facial featares, and body\nproportions with 100% accuracy . wear sky blue tshirts Design a clean light grey gradient Background with a modern luxury aesthetic long body height and wear rounded black sunglasses.",
+    "fullPrompt": "Create a premium ultra-realistic\nbirthday collage poster using the u ploaded\nperson's face as the exact identity reference .Preserve the original face, hairstyle, beard,skin tone, facial featares, and body\nproportions with 100% accuracy . wear sky blue tshirts Design a clean light grey gradient Background with a modern luxury aesthetic long body height and wear rounded black sunglasses. Rich skin textures, subtle facial reflections, studio catchlights in the eyes, sharp focus on facial features, soft blurred background bokeh, professional editorial color grading, 8k resolution photo.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1785914689/prompts/djexuwqaizafezd3jwz4.webp",
     "isPremium": false,
     "isTrending": false,
@@ -1988,7 +2176,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm3h49esaqa",
@@ -2009,7 +2199,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmi80f6oio4",
@@ -2030,7 +2222,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmewlmp6j0c",
@@ -2051,7 +2245,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmyys9sga34",
@@ -2072,14 +2268,16 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm0qnyfgkhq",
     "title": "Luxury Birthday Poster Design",
     "slug": "luxury-birthday-poster-design-mymuk",
     "category": "Men",
-    "fullPrompt": "Create a luxury birthday poster using the same person's identical facial features. Large close-up portrait and full-body walking composition. Wearing a brown suede jacket, black fitted t-shirt, dark jeans, brown Chelsea boots, luxury wristwatch. Warm brown color grading, smoke textures, elegant paint splash, sunset city background, premium editorial photography, HDR lighting, realistic beard, sharp eyes, masterpiece, 10K.",
+    "fullPrompt": "Create a luxury birthday poster using the same person's identical facial features. Large close-up portrait and full-body walking composition. Wearing a brown suede jacket, black fitted t-shirt, dark jeans, brown Chelsea boots, luxury wristwatch. Warm brown color grading, smoke textures, elegant paint splash, sunset city background, premium editorial photography, HDR lighting, realistic beard, sharp eyes, masterpiece, 10K. Rich skin textures, subtle facial reflections, studio catchlights in the eyes, sharp focus on facial features, soft blurred background bokeh, professional editorial color grading, 8k resolution photo.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1785918133/prompts/bsmwultqevctnnw1b1jq.webp",
     "isPremium": false,
     "isTrending": false,
@@ -2093,14 +2291,16 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm09gf5j1ja",
     "title": "Golden Hour Fashion Portrait Collage",
     "slug": "golden-hour-fashion-portrait-collage-daup8",
     "category": "Men",
-    "fullPrompt": "Use my uploaded faee only (STRICT FACE LOCK). Greate a viral cinematic eollage with a completely new layout, premium streetwear (pink linen shirt , black T-shirt, beige cargo pants, white sneaters), stylish\nsunglasses, luxury wateh, 5 dynamie poses, central full-body focus, soft golden lighting, ultra realistic , DSLR, 8K, sharp details, clean background, trending Instagram edit, no text.”",
+    "fullPrompt": "Use my uploaded faee only (STRICT FACE LOCK). Greate a viral cinematic eollage with a completely new layout, premium streetwear (pink linen shirt , black T-shirt, beige cargo pants, white sneaters), stylish\nsunglasses, luxury wateh, 5 dynamie poses, central full-body focus, soft golden lighting, ultra realistic , DSLR, 8K, sharp details, clean background, trending Instagram edit, no text.”. Rich skin textures, subtle facial reflections, studio catchlights in the eyes, sharp focus on facial features, soft blurred background bokeh, professional editorial color grading, 8k resolution photo.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1785921185/prompts/myyunlqiegls7psj87f9.webp",
     "isPremium": false,
     "isTrending": false,
@@ -2114,7 +2314,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmv42ge7ny7",
@@ -2135,7 +2337,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm0tt6p8gwk",
@@ -2156,14 +2360,16 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cma2iit81e7",
     "title": "Golden Hour Garden Romance",
     "slug": "golden-hour-garden-romance-tr2vk",
     "category": "Men",
-    "fullPrompt": "Beautiful young Indian couple, woman in an elegant olive green Anarkali suit and man in a premium black suit, Ultra-realistic, holding hands with warm smiles, romantic eye contact, standing beneath a grand vine-covered garden archway, blooming colorful flowers, lush greenery, soft golden morning light, dreamy cinematic atmosphere, premium pre-wedding editorial, DSLR photography, highly detailed, 32K,",
+    "fullPrompt": "Beautiful young Indian couple, woman in an elegant olive green Anarkali suit and man in a premium black suit, Ultra-realistic, holding hands with warm smiles, romantic eye contact, standing beneath a grand vine-covered garden archway, blooming colorful flowers, lush greenery, soft golden morning light, dreamy cinematic atmosphere, premium pre-wedding editorial, DSLR photography, highly detailed, 32K,. Rich skin textures, subtle facial reflections, studio catchlights in the eyes, sharp focus on facial features, soft blurred background bokeh, professional editorial color grading, 8k resolution photo.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1785919066/prompts/dhtjhwh22fhlsalnd8ky.webp",
     "isPremium": false,
     "isTrending": false,
@@ -2177,14 +2383,16 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmg174xac4f",
     "title": "Cinematic Sunset Portrait with Vintage Car",
     "slug": "cinematic-sunset-portrait-with-vintage-c-4xo0n",
     "category": "Men",
-    "fullPrompt": "Young Indian man, messy side-swept black hair, groomed beard, black sunglasses, light-blue shirt, white cargo pants chunky sneakers, 3-layer cinematic fashion collage, golden sunset, stormy clouds, wet reflective road, classic black car,car plate Number \" AM 01 AI Prompt Nest\",dramatic rim light, luxury editorial, ultra-realistic, HDR, 8K, vertical 2:3.",
+    "fullPrompt": "Young Indian man, messy side-swept black hair, groomed beard, black sunglasses, light-blue shirt, white cargo pants chunky sneakers, 3-layer cinematic fashion collage, golden sunset, stormy clouds, wet reflective road, classic black car,car plate Number \" AM 01 AI Prompt Nest\",dramatic rim light, luxury editorial, ultra-realistic, HDR, 8K, vertical 2:3. Rich skin textures, subtle facial reflections, studio catchlights in the eyes, sharp focus on facial features, soft blurred background bokeh, professional editorial color grading, 8k resolution photo.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1785919337/prompts/izb0gdd0e7kli5jbwojw.webp",
     "isPremium": false,
     "isTrending": false,
@@ -2198,7 +2406,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmefg34mt09",
@@ -2219,14 +2429,16 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmf6ax3x9r6",
     "title": "Cinematic Bronze Birthday Portrait Poster",
     "slug": "cinematic-bronze-birthday-portrait-poste-rb333",
     "category": "Men",
-    "fullPrompt": "Large heading: \"HAPPY\" in tall uppercase sans-serif.\nBelow it, \"Birthday\" in large flowing handwritten script.\nSmall subtitle: \"TO YOU\" with thin decorative divider lines.\nBody text: \"Wishing you a day filled with happiness and a year filled with joy.\"\nSignature text: \"Happy Birthday!\"\nRight side vertical quote: \"STAY HAPPY STAY BLESSED\"\nBottom center: \"CHEERS TO AN AMAZING YEAR AHEAD\"",
+    "fullPrompt": "Large heading: \"HAPPY\" in tall uppercase sans-serif.\nBelow it, \"Birthday\" in large flowing handwritten script.\nSmall subtitle: \"TO YOU\" with thin decorative divider lines.\nBody text: \"Wishing you a day filled with happiness and a year filled with joy.\"\nSignature text: \"Happy Birthday!\"\nRight side vertical quote: \"STAY HAPPY STAY BLESSED\"\nBottom center: \"CHEERS TO AN AMAZING YEAR AHEAD\". Rich skin textures, subtle facial reflections, studio catchlights in the eyes, sharp focus on facial features, soft blurred background bokeh, professional editorial color grading, 8k resolution photo.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1785919780/prompts/mkzj507pjheceggyxekb.webp",
     "isPremium": false,
     "isTrending": false,
@@ -2240,7 +2452,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmi7mj4y5se",
@@ -2261,7 +2475,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm88nxvqxse",
@@ -2282,7 +2498,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmu4zrfyv9z",
@@ -2303,7 +2521,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm77qs3ic5j",
@@ -2324,7 +2544,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmciar6bez2",
@@ -2345,7 +2567,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm6m8k4bhdb",
@@ -2366,7 +2590,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmphtnwodou",
@@ -2387,7 +2613,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm0f9n0y5ja",
@@ -2408,7 +2636,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm5hvc0vv6n",
@@ -2429,7 +2659,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmw2nb441ay",
@@ -2450,7 +2682,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmopwl1u15e",
@@ -2471,7 +2705,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmjl6zpvd36",
@@ -2492,7 +2728,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm7msw2kvcg",
@@ -2513,7 +2751,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmx2qe3zuai",
@@ -2534,7 +2774,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmf1qi16cla",
@@ -2555,7 +2797,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmyu9jwoxyt",
@@ -2576,7 +2820,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmr250bgvam",
@@ -2597,7 +2843,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmylud08va4",
@@ -2618,7 +2866,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmyw1adljqu",
@@ -2639,7 +2889,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmnj11r1xqh",
@@ -2660,7 +2912,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmuly2s0l2s",
@@ -2681,7 +2935,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmccu2w5nv7",
@@ -2702,14 +2958,16 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm57bz077zm",
     "title": "Cinematic Portrait Collage in Monochrome Panels",
     "slug": "cinematic-portrait-collage-in-monochrome-hvt4q",
     "category": "Men",
-    "fullPrompt": "Create a premium ultra-realistic cinematic\ncollage poster using my uploaded face without changing facial features (STRICT FACE LOCK).Use one large color portrait in the front and four black-and-white portraits in vertical rounded panels in the background. White linen shirt,\nblack sunglasses, sharp jawline, soft cinematic lighting, dark luxury background, high contrast, realistic skin texture, 8K quality.",
+    "fullPrompt": "Create a premium ultra-realistic cinematic\ncollage poster using my uploaded face without changing facial features (STRICT FACE LOCK).Use one large color portrait in the front and four black-and-white portraits in vertical rounded panels in the background. White linen shirt,\nblack sunglasses, sharp jawline, soft cinematic lighting, dark luxury background, high contrast, realistic skin texture, 8K quality. Rich skin textures, subtle facial reflections, studio catchlights in the eyes, sharp focus on facial features, soft blurred background bokeh, professional editorial color grading, 8k resolution photo.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1786215963/prompts/hxxsys1l9qtkuahtb9t2.webp",
     "isPremium": false,
     "isTrending": false,
@@ -2723,7 +2981,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm2oufbw7o2",
@@ -2744,14 +3004,16 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cml67rxxwpn",
     "title": "Neon Ring Portrait with Sam Boy Text",
     "slug": "neon-ring-portrait-with-sam-boy-text-gq0kh",
     "category": "Men",
-    "fullPrompt": "Create a premium Instagram DP using the provided face reference, with a black background, glowing orange neon circular ring, cinematic lighting, and a confident portrait. Add “sam” in medium-size stylish cursive letters with bright orange-white neon glow, and “Boy” below in a modern brush font with orange glow. Keep the design sharp, clean, trendy, high-contrast, and professional.  ",
+    "fullPrompt": "Create a premium Instagram DP using the provided face reference, with a black background, glowing orange neon circular ring, cinematic lighting, and a confident portrait. Add “sam” in medium-size stylish cursive letters with bright orange-white neon glow, and “Boy” below in a modern brush font with orange glow. Keep the design sharp, clean, trendy, high-contrast, and professional. Rich skin textures, subtle facial reflections, studio catchlights in the eyes, sharp focus on facial features, soft blurred background bokeh, professional editorial color grading, 8k resolution photo.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1786216349/prompts/vkvnlo0bpcxap6tj4ak1.webp",
     "isPremium": false,
     "isTrending": false,
@@ -2765,7 +3027,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmthi40xdwm",
@@ -2786,7 +3050,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmaopajzszo",
@@ -2807,7 +3073,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmo0qnyqr22",
@@ -2828,7 +3096,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmjtyn778fx",
@@ -2849,7 +3119,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmtpsasf22r",
@@ -2870,7 +3142,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmmazg5baza",
@@ -2891,7 +3165,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmwvsip9u8s",
@@ -2912,7 +3188,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmu9z6hzzgd",
@@ -2933,7 +3211,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmszjqb93s4",
@@ -2954,7 +3234,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmwnpt0rclo",
@@ -2975,7 +3257,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmbbwz34oyg",
@@ -2996,7 +3280,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm3a5rmvgl6",
@@ -3017,7 +3303,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmjemnubmow",
@@ -3038,7 +3326,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmifm2p9vco",
@@ -3059,7 +3349,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmyvi26z362",
@@ -3080,14 +3372,16 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmlyvx1kyhe",
     "title": "Ravi’s Designer Creator Portrait Collage",
     "slug": "ravis-designer-creator-portrait-collage-jwx0n",
     "category": "Men",
-    "fullPrompt": "Fair Handsome young Indian man in premium casual and formal outfits, Ultra realistic, stylish multi-photo collage with rounded geometric frames, confident expressions, luxury creator branding poster, modern minimal bright background with soft brush textures, motivational editorial design, elegant typography space, warm cinematic lighting, DSLR photography, ultra-detailed, 32K,",
+    "fullPrompt": "Fair Handsome young Indian man in premium casual and formal outfits, Ultra realistic, stylish multi-photo collage with rounded geometric frames, confident expressions, luxury creator branding poster, modern minimal bright background with soft brush textures, motivational editorial design, elegant typography space, warm cinematic lighting, DSLR photography, ultra-detailed, 32K,. Rich skin textures, subtle facial reflections, studio catchlights in the eyes, sharp focus on facial features, soft blurred background bokeh, professional editorial color grading, 8k resolution photo.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1786270602/prompts/gczowst7rfefcuc4pucx.webp",
     "isPremium": false,
     "isTrending": false,
@@ -3101,7 +3395,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmj2ft3fscq",
@@ -3122,7 +3418,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmte0he195z",
@@ -3143,7 +3441,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmjjpiof7t4",
@@ -3164,7 +3464,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm4j6i6tfqg",
@@ -3185,7 +3487,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmjcxme7k4a",
@@ -3206,7 +3510,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "low",
+    "seoIndex": false
   },
   {
     "id": "cmj1dsf4ym2",
@@ -3227,7 +3533,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmz7hg17tve",
@@ -3248,7 +3556,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmmcetppfq4",
@@ -3269,7 +3579,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmbm9c8t9ud",
@@ -3290,7 +3602,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmkqyykcuws",
@@ -3311,7 +3625,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmm2f1hhiyt",
@@ -3332,7 +3648,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmwxadmel8e",
@@ -3353,7 +3671,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmuvfxezlcp",
@@ -3374,7 +3694,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmfjuxhc9u3",
@@ -3395,7 +3717,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm4d8prafz5",
@@ -3416,14 +3740,16 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm55eeyi47o",
     "title": "Relaxed Editorial Chair Portrait",
     "slug": "relaxed-editorial-chair-portrait-zz8ui",
     "category": "Men",
-    "fullPrompt": "Full-body minimalist menswear editorial of a curly-haired bearded man sitting backwards on a mid-century wooden chair, legs spread, arms folded over the backrest with cheek resting on one hand, calm direct gaze. Pink geometric patterned shirt, dark forest-green striped track pants, white socks and sneakers, warm cream studio backdrop, soft diffused lighting, centered symmetrical composition, clean fashion lookbook aesthetic.",
+    "fullPrompt": "Full-body minimalist menswear editorial of a curly-haired bearded man sitting backwards on a mid-century wooden chair, legs spread, arms folded over the backrest with cheek resting on one hand, calm direct gaze. Pink geometric patterned shirt, dark forest-green striped track pants, white socks and sneakers, warm cream studio backdrop, soft diffused lighting, centered symmetrical composition, clean fashion lookbook aesthetic. Rich skin textures, subtle facial reflections, studio catchlights in the eyes, sharp focus on facial features, soft blurred background bokeh, professional editorial color grading, 8k resolution photo.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1786441142/prompts/db9adhgmbrnhudjnfnje.webp",
     "isPremium": false,
     "isTrending": false,
@@ -3437,7 +3763,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmt24ozox7j",
@@ -3458,7 +3786,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmfzb4n6csc",
@@ -3479,7 +3809,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm7dt7p9hgj",
@@ -3500,7 +3832,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmfpt1m2udu",
@@ -3521,7 +3855,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmb0p342jmm",
@@ -3542,7 +3878,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm656yymo86",
@@ -3563,7 +3901,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmpp8xb7ajr",
@@ -3584,7 +3924,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cme1bltml7y",
@@ -3605,7 +3947,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmpaho898ac",
@@ -3626,7 +3970,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm53k6pquw8",
@@ -3647,7 +3993,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmyp7h6gqh4",
@@ -3668,7 +4016,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmqf9p2msjr",
@@ -3689,7 +4039,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cms5mt8p7ue",
@@ -3710,7 +4062,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmjrhcd2cpj",
@@ -3731,7 +4085,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmmxg41p9o3",
@@ -3752,7 +4108,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmnnor3kj10",
@@ -3773,7 +4131,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmje26qksta",
@@ -3794,7 +4154,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cme9xuhsgdh",
@@ -3815,7 +4177,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmnag0c3tah",
@@ -3836,7 +4200,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm0olaqk6lm",
@@ -3857,7 +4223,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm9fzmj7o1k",
@@ -3878,7 +4246,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmat5ki1x1v",
@@ -3899,7 +4269,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmo8ishyh7v",
@@ -3920,7 +4292,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmnrq0apjtm",
@@ -3941,7 +4315,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm7ugndgynh",
@@ -3962,7 +4338,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm3ljawnjou",
@@ -3983,7 +4361,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmv3dalrvl2",
@@ -4004,7 +4384,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm8spmof4yp",
@@ -4025,14 +4407,16 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm8oyf51cun",
     "title": "Stay Focused: Triple Portrait Montage",
     "slug": "stay-focused-triple-portrait-montage-err53",
     "category": "Men",
-    "fullPrompt": "Create a viral 3-layer AI photo edit from the uploaded male portrait. Keep his face realistic and recognizable. Build a layered composition with one main full-body pose, one close-up portrait layer, and one side-profile layer behind him. Add [BACKGROUND COLOR] gradient, soft shadows, subtle glow, modern [STYLE THEME] graphics, clean cutout edges, realistic clothing texture, Instagram trend layout, optional [TEXT SPACE], and a polished 4:5 vertical composition.",
+    "fullPrompt": "A stylish triple portrait montage of a male model in high-fashion streetwear, sleek color block layout, soft studio key light, modern editorial typography space. Rich skin textures, subtle facial reflections, studio catchlights in the eyes, sharp focus on facial features, soft blurred background bokeh, professional editorial color grading, 8k resolution photo.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1786635493/prompts/ijk7fv4arveydr5rduez.webp",
     "isPremium": false,
     "isTrending": false,
@@ -4046,7 +4430,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cmfo100guo7",
@@ -4067,35 +4453,16 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
-  },
-  {
-    "id": "cmpygj10t9v",
-    "title": "AI Fashion Portrait Request",
-    "slug": "ai-fashion-portrait-request-bucnx",
-    "category": "Men",
-    "fullPrompt": "Create a viral 3-layer AI photo edit from the uploaded male portrait. Keep his face realistic and recognizable. Build a layered composition with one main full-body pose, one close-up portrait layer, and one side-profile layer behind him. Add [BACKGROUND COLOR] gradient, soft shadows, subtle glow, modern [STYLE THEME] graphics, clean cutout edges, realistic clothing texture, Instagram trend layout, optional [TEXT SPACE], and a polished 4:5 vertical composition.",
-    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1786637375/prompts/uhcxsfkzqwmsdieot2er.webp",
-    "isPremium": false,
-    "isTrending": false,
-    "isLatest": false,
-    "isFeatured": false,
-    "author": "Admin",
-    "views": 0,
-    "likes": 0,
-    "createdAt": "2026-08-13T16:09:35.750Z",
-    "updatedAt": "2026-08-13T16:09:35.750Z",
-    "tags": [],
-    "models": [
-      "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm2bwjfdpua",
     "title": "Stacked Brand Capsule Showcase",
     "slug": "stacked-brand-capsule-showcase-98oot",
     "category": "Men",
-    "fullPrompt": "A hyper-realistic miniature photography scene—resembling a cinematic commercial product shot—featuring four giant, capsule-shaped transparent containers arranged diagonally in a vertical composition. Each capsule has a colored outer shell bearing a brand logo and a crystal-clear transparent front revealing a miniature handsome young man alongside food and beverages inside.",
+    "fullPrompt": "A hyper-realistic miniature photography scene—resembling a cinematic commercial product shot—featuring four giant, capsule-shaped transparent containers arranged diagonally in a vertical composition. Each capsule has a colored outer shell bearing a brand logo and a crystal-clear transparent front revealing a miniature handsome young man alongside food and beverages inside. Rich skin textures, subtle facial reflections, studio catchlights in the eyes, sharp focus on facial features, soft blurred background bokeh, professional editorial color grading, 8k resolution photo.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1786638866/prompts/ewa1z0l9ciupt7ld7uvb.webp",
     "isPremium": false,
     "isTrending": false,
@@ -4109,7 +4476,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm5jy81e7og",
@@ -4130,7 +4499,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmj7mmu2dbs",
@@ -4151,14 +4522,16 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmul5obn0bz",
     "title": "Born to Ride at Dusk",
     "slug": "born-to-ride-at-dusk-85uhe",
     "category": "Men",
-    "fullPrompt": "Ultra-realistic cinematic biker poster featuring me using my uploaded reference photo for a 100% exact face match. Preserve my exact facial structure, skin tone, hairstyle exactly as in the reference photo, beard, eyes, and body proportions. I am sitting confidently on a premium matte-black motorcycle in a powerful bad-boy pose, looking back over my shoulder with an intense attitude.",
+    "fullPrompt": "Ultra-realistic cinematic biker poster featuring me using my uploaded reference photo for a 100% exact face match. Preserve my exact facial structure, skin tone, hairstyle exactly as in the reference photo, beard, eyes, and body proportions. I am sitting confidently on a premium matte-black motorcycle in a powerful bad-boy pose, looking back over my shoulder with an intense attitude. Rich skin textures, subtle facial reflections, studio catchlights in the eyes, sharp focus on facial features, soft blurred background bokeh, professional editorial color grading, 8k resolution photo.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1786639493/prompts/w48zsspi2dpr5vmtryjr.webp",
     "isPremium": false,
     "isTrending": false,
@@ -4172,7 +4545,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmkb18x6tbf",
@@ -4193,14 +4568,16 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmauvavpql2",
     "title": "Confident Street Style",
     "slug": "confident-street-style-fue7z",
     "category": "Men",
-    "fullPrompt": "A cinematic, full-body fashion photography of a stylish Indian man with a well-groomed beard and sharp modern haircut. He is wearing an unbuttoned premium burgundy satin shirt, showing his fit physique, paired with high-waisted white pleated trousers, a luxury silver watch, and black leather penny loafers. He is adjusting his stylish dark sunglasses with one hand, walking confidently.",
+    "fullPrompt": "A cinematic, full-body fashion photography of a stylish Indian man with a well-groomed beard and sharp modern haircut. He is wearing an unbuttoned premium burgundy satin shirt, showing his fit physique, paired with high-waisted white pleated trousers, a luxury silver watch, and black leather penny loafers. He is adjusting his stylish dark sunglasses with one hand, walking confidently. Rich skin textures, subtle facial reflections, studio catchlights in the eyes, sharp focus on facial features, soft blurred background bokeh, professional editorial color grading, 8k resolution photo.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1786639907/prompts/opbpskemfwitbqdtsmrq.webp",
     "isPremium": false,
     "isTrending": false,
@@ -4214,7 +4591,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmzyvpkx3t8",
@@ -4235,7 +4614,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm7nke5yen7",
@@ -4256,7 +4637,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmswf8wxg21",
@@ -4277,7 +4660,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm16go5drj5",
@@ -4298,7 +4683,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmv6givic9k",
@@ -4319,7 +4706,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm9rjgj3kuk",
@@ -4340,14 +4729,16 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmpytmm1dnj",
     "title": "Casual Athleisure Studio Portrait",
     "slug": "casual-athleisure-studio-portrait-4p21o",
     "category": "Men",
-    "fullPrompt": "A full-body photograph of a stylish South Asian man with a beard, wearing a black open hooded sweatshirt over a white crew-neck t-shirt, black joggers, and white sneakers, posing with a hand on his jacket collar and a thoughtful gaze, isolated against a plain beige studio background. He wears a black watch and sunglasses.  ",
+    "fullPrompt": "A full-body photograph of a stylish South Asian man with a beard, wearing a black open hooded sweatshirt over a white crew-neck t-shirt, black joggers, and white sneakers, posing with a hand on his jacket collar and a thoughtful gaze, isolated against a plain beige studio background. He wears a black watch and sunglasses. Rich skin textures, subtle facial reflections, studio catchlights in the eyes, sharp focus on facial features, soft blurred background bokeh, professional editorial color grading, 8k resolution photo.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1786642420/prompts/qrf9lnirtodzq1x6nohe.webp",
     "isPremium": false,
     "isTrending": false,
@@ -4361,14 +4752,16 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmrkcamal63",
     "title": "Korean Luxury DP Creation",
     "slug": "korean-luxury-dp-creation-oabf2",
     "category": "Men",
-    "fullPrompt": "Use the uploaded reference image as the ONLY identity reference. Preserve identity exactly. Create a premium Korean luxury creator Independence Day DP. Aspect Ratio: Portrait Composition: • Strict chest-up portrait • Entire character inside circle • Equal margins • Looking sideways • One hand adjusting hoodie • Editorial smile Background: Premium matte black. Centered glowing circular frame.  ",
+    "fullPrompt": "Use the uploaded reference image as the ONLY identity reference. Preserve identity exactly. Create a premium Korean luxury creator Independence Day DP. Aspect Ratio: Portrait Composition: • Strict chest-up portrait • Entire character inside circle • Equal margins • Looking sideways • One hand adjusting hoodie • Editorial smile Background: Premium matte black. Centered glowing circular frame. Rich skin textures, subtle facial reflections, studio catchlights in the eyes, sharp focus on facial features, soft blurred background bokeh, professional editorial color grading, 8k resolution photo.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1786642794/prompts/flnpc3lxxhisolad62zw.webp",
     "isPremium": false,
     "isTrending": false,
@@ -4382,7 +4775,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmgvo67jh6y",
@@ -4403,7 +4798,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmro07nzuqp",
@@ -4424,14 +4821,16 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmz658asaft",
     "title": "Triptych of a Stylish Man in Smoke",
     "slug": "triptych-of-a-stylish-man-in-smoke-jrydi",
     "category": "Men",
-    "fullPrompt": "Three stylish full-body poses in the foreground wearing yellow shirt, white shirt, and black oversized T-shirt with ripped black jeans and sunglasses.Dramatic cloudy smoky background, glossy reflective floor, premium fashion-editorial look, soft cinematic lighting, shallow depth of field, ultra-detailed skin texture, DSLR photography, high contrast, 8K quality, vertical 9:16 composition, stylish modern poster design.  ",
+    "fullPrompt": "Three stylish full-body poses in the foreground wearing yellow shirt, white shirt, and black oversized T-shirt with ripped black jeans and sunglasses.Dramatic cloudy smoky background, glossy reflective floor, premium fashion-editorial look, soft cinematic lighting, shallow depth of field, ultra-detailed skin texture, DSLR photography, high contrast, 8K quality, vertical 9:16 composition, stylish modern poster design. Rich skin textures, subtle facial reflections, studio catchlights in the eyes, sharp focus on facial features, soft blurred background bokeh, professional editorial color grading, 8k resolution photo.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1786643429/prompts/hlqp4yyvhlytvogveuwv.webp",
     "isPremium": false,
     "isTrending": false,
@@ -4445,7 +4844,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm2h610upa7",
@@ -4466,14 +4867,16 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmw142vvu25",
     "title": "Moody Portrait in Dramatic Light",
     "slug": "moody-portrait-in-dramatic-light-dltii",
     "category": "Men",
-    "fullPrompt": "Ultra-realistic cinematic portrait of a stylish young man , sharp beard, , dressed in a textured black winter sweater.Moody dramatic lighting with a beam of sunlight hitting his face, dark modern background panels, soft shadows, shallow depth of field, high fashion editorial look, confident attitude, 8K detail, crisp textures, high contrast, bokeh, natural hair highlights, professional studio photography.  ",
+    "fullPrompt": "Ultra-realistic cinematic portrait of a stylish young man , sharp beard, , dressed in a textured black winter sweater.Moody dramatic lighting with a beam of sunlight hitting his face, dark modern background panels, soft shadows, shallow depth of field, high fashion editorial look, confident attitude, 8K detail, crisp textures, high contrast, bokeh, natural hair highlights, professional studio photography. Rich skin textures, subtle facial reflections, studio catchlights in the eyes, sharp focus on facial features, soft blurred background bokeh, professional editorial color grading, 8k resolution photo.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1786643745/prompts/a8jju2dellhqm9balhxv.webp",
     "isPremium": false,
     "isTrending": false,
@@ -4487,7 +4890,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm9t2jul87s",
@@ -4508,14 +4913,16 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm5j033o27n",
     "title": "Photo Request for Scene",
     "slug": "photo-request-for-scene-ftt8l",
     "category": "Men",
-    "fullPrompt": "A handsome young Indian man posing casually in front of a glowing LED vanity mirror inside a luxury modern room, warm cinematic lighting, stylish massy hair, beard, oversized red sweatshirt with bold black typography, black trousers, metallic wristwatch, leaning on a dark wooden counter, mirror reflection in background, please keep my same uploaded pic's same face structure,  ",
+    "fullPrompt": "A handsome young Indian man posing casually in front of a glowing LED vanity mirror inside a luxury modern room, warm cinematic lighting, stylish massy hair, beard, oversized red sweatshirt with bold black typography, black trousers, metallic wristwatch, leaning on a dark wooden counter, mirror reflection in background, please keep my same uploaded pic's same face structure,. Rich skin textures, subtle facial reflections, studio catchlights in the eyes, sharp focus on facial features, soft blurred background bokeh, professional editorial color grading, 8k resolution photo.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1786692385/prompts/ueuqmnrio8fgasyrapct.webp",
     "isPremium": false,
     "isTrending": false,
@@ -4529,7 +4936,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmo6cm4cobp",
@@ -4550,14 +4959,16 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmzluc3ifmn",
     "title": "Golden Birthday Watercolour Portrait Poster",
     "slug": "golden-birthday-watercolour-portrait-pos-57o2m",
     "category": "Men",
-    "fullPrompt": "Ultra-realistic poster collage, same Boy face as reference, accurate face match, pastel yellow outfit, stylish sunglasses, large artistic close-up portrait on left with watercolor splash effect, elegant full-body standing pose on right, smiling expression, black glass bangles, thin gold neck chain, boots, floral watercolor decorations, soft beige-golden background, premium design.",
+    "fullPrompt": "Ultra-realistic poster collage, same Boy face as reference, accurate face match, pastel yellow outfit, stylish sunglasses, large artistic close-up portrait on left with watercolor splash effect, elegant full-body standing pose on right, smiling expression, black glass bangles, thin gold neck chain, boots, floral watercolor decorations, soft beige-golden background, premium design. Rich skin textures, subtle facial reflections, studio catchlights in the eyes, sharp focus on facial features, soft blurred background bokeh, professional editorial color grading, 8k resolution photo.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1786697721/prompts/nfdptgtasqf9hhltzm70.webp",
     "isPremium": false,
     "isTrending": false,
@@ -4571,14 +4982,16 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm8kw5jrunf",
     "title": "Neon Portrait Request",
     "slug": "neon-portrait-request-7wcs2",
     "category": "Men",
-    "fullPrompt": "Use name as - [Your_Name] Create a highly detailed, cinematic neon portrait based on the uploaded reference image. IMPORTANT: Use the uploaded person’s face and identity as the primary identity reference. Preserve their natural facial features, face shape, skin tone, hairstyle, proportions, and recognizable identity. The result must clearly look like the same person from the uploaded image. Do not change their gender or facial identity.   The concept must work naturally for BOTH MALE AND FEMALE subjects. SUBJECT: A stylish young adult standing against a completely dark black background, facing the camera in a confident, calm, slightly mysterious pose. The subject is wearing a premium oversized black/dark-black shirt with a subtle matte texture. Add a very stylish pair of BEST-QUALITY rounded sunglasses: - perfectly rounded/soft circular or oval lenses - premium modern fashion design - thin elegant frame - dark tinted lenses  - realistic glass reflections - perfectly fitted to the subject’s face - sophisticated, expensive-looking aesthetic - sunglasses must look natural and photorealistic, not cartoonish - do NOT use rectangular, square, sporty, or oversized sunglasses ACCESSORIES: Add a stylish layered silver/chrome chain necklace around the neck and a few subtle silver rings. Keep the accessories fashionable and minimal. Do not add religious accessories, hats, crowns, or unnecessary jewelry. POSE AND COMPOSITION: Create a vertical close-to-medium portrait. The subject occupies the central upper portion of the image, with the face positioned around the upper-middle area. Both arms extend forward toward the camera from the lower portion of the frame. The palms are open and facing upward, as if the subject is presenting or holding the glowing name in their hands. The hands should appear naturally positioned beneath the text, creating the visual impression that the neon name is floating above the palms. Keep the pose elegant and symmetrical enough to resemble a professional fashion/editorial portrait. FACIAL EXPRESSION: Calm, confident, cool, mysterious, slightly serious expression. Natural relaxed lips. No exaggerated smile. The sunglasses should remain clearly visible. LIGHTING: Use dramatic cyberpunk-style neon lighting. Strong purple/magenta neon light should illuminate the front and lower part of the face, neck, shirt, arms, and hands.Add subtle cyan/teal rim lighting from one side of the subject, creating a beautiful purple + cyan color contrast. The lighting should softly reflect across the sunglasses, face, skin, hands, necklace, and clothing. Deep black shadows should remain around the subject. BACKGROUND: Pure black, minimal, clean, empty background. No room, no walls, no scenery, no objects. Only the subject and the glowing typography should be visible. TEXT: Place the name: \"YOUR NAME\" in the center-lower portion of the image, directly above and between the subject’s open palms. The text must be rendered as a large elegant handwritten/calligraphy script similar to premium neon sign typography. Use bright glowing white/light-lavender neon lettering with an intense purple outer glow. The lettering should look like a real physical neon tube sign: - bright white/pale lavender core - strong purple neon glow - soft bloom around the letters    - realistic illumination spilling onto the subject’s shirt and hands - smooth elegant handwritten strokes - highly readable - centered horizontally IMPORTANT TEXT ACCURACY: The ONLY visible main text must be exactly \"YOUR NAME\". Do not add quotes around it. Do not add any additional words, captions, logos, usernames, signatures, or random letters. Replace \"YOUR NAME\" with the exact name I provide. The neon name should visually appear to float just above the subject’s open palms. VISUAL STYLE:   Ultra-realistic professional fashion photography mixed with cyberpunk neon portrait aesthetics. High-end editorial photography. Photorealistic skin texture. Realistic hands and fingers. Realistic fabric. Realistic metallic reflections. Natural facial proportions. Sharp facial details. High dynamic range. Deep blacks. Cinematic contrast. Purple and cyan neon color grading. Soft atmospheric glow. Premium album-cover/poster aesthetic. FRAMING: Instagram portrait composition. 4:5 aspect ratio. Final output MUST be exactly 4:5 portrait format, preferably 1080 × 1350 pixels. Keep the subject, face, sunglasses, neon text, and hands safely inside the frame. Do not crop the head, hands, or text. Maintain the same visual hierarchy as the reference: face at top → upper body → glowing name in center-lower area → open palms underneath. NEGATIVE PROMPT: Do not change the person’s identity. Do not create a different face. Do not make the subject look like another person. No extra people. No extra hands. No malformed fingers. No extra fingers. No missing fingers. No distorted hands. No deformed face. No asymmetrical eyes. No blurry face. No cartoon style. No anime style. No illustration. No plastic-looking skin. No rectangular sunglasses. No square sunglasses. No sporty sunglasses. No cheap-looking sunglasses. No excessive jewelry. No hat. No crown. No religious clothing. No religious accessories. No background objects. No scenery. No text other than the requested name.  No watermark. No logo. No signature. No random letters. No duplicated text. No cropped hands. No cropped head. No horizontal image. OUTPUT: Photorealistic, ultra-HD, highly detailed, cinematic neon portrait, premium Instagram editorial poster, 4:5 vertical composition. ",
+    "fullPrompt": "A futuristic cyberpunk portrait of Marcus bathed in dual cyan and magenta neon glow, dark reflective background, atmospheric rain reflections. Rich skin textures, subtle facial reflections, studio catchlights in the eyes, sharp focus on facial features, soft blurred background bokeh, professional editorial color grading, 8k resolution photo.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1786700131/prompts/oou49qjcfxkvxghyndo5.webp",
     "isPremium": false,
     "isTrending": false,
@@ -4592,7 +5005,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cmkubf8o41r",
@@ -4613,7 +5028,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmarnr4fiui",
@@ -4634,14 +5051,16 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmw6cakj3s9",
     "title": "Gabon Independence Day Celebration Poster",
     "slug": "gabon-independence-day-celebration-poste-cqqa9",
     "category": "Men",
-    "fullPrompt": "Create a premium cinematic Independence Day portrait poster for **Gabon – 17 August Independence Day**, inspired by the uploaded reference image. \n \nUse the uploaded portrait as the main subject and **preserve the person’s facial identity, facial structure, hairstyle, beard, skin tone, expression, and overall appearance accurately**. Do not change the person’s identity or facial features. \n \n### Main Portrait \n \nA stylish young man wearing a sophisticated **all-black outfit**, positioned prominently in the center of the composition. Use a confident yet natural expression, slightly turned toward the side, with cinematic studio lighting. Preserve the original hairstyle, beard, face shape, and realistic skin texture. \n \n### Background & Lighting \n \nCreate a luxurious **deep black cinematic background** with subtle atmospheric smoke, floating golden particles, soft shadows, and dramatic warm rim lighting. \n \nPlace a large glowing **golden circular neon halo** behind the subject, similar to the reference image. The halo should create a premium luxury portrait effect while keeping the subject sharply separated from the dark background. \n \n### Gabon National Colors \n \nIntegrate the **Gabon national flag colors — green, yellow, and blue** elegantly into the design. \n \nUse subtle green, yellow, and blue illuminated accents around the typography, small paint-brush strokes, light streaks, or decorative elements. Keep the colors sophisticated and premium rather than overly bright. \n \nDo **not** use the Indian flag or Indian saffron/white/green color arrangement. \n \n### Typography \n \nAdd elegant premium gold typography: \n \n**17 AUGUST** \n**INDEPENDENCE DAY** \n \nThen place a large artistic handwritten/script word: \n \n**GABON** \n \nUnderneath, add: \n \n**INDEPENDENT FOREVER** \n \nUse luxurious metallic-gold typography with realistic texture, subtle glow, elegant shadows, and premium embossed details. \n \nAdd a small line below for the personalized name: \n \n**[Sam]** \n \nUse a sophisticated handwritten signature-style font. \n \n### Gabon Symbolic Element \n \nInclude a subtle, elegant **Gabon flag-inspired circular emblem** or small decorative symbol near the bottom of the poster, using green, yellow, and blue. \n \nKeep the national symbolism respectful and visually refined. \n \n### Composition \n \nVertical premium poster layout, similar to a luxury fashion campaign and cinematic Independence Day celebration poster. \n \nSubject centered and dominant. \nLarge glowing golden halo behind the portrait. \nTypography arranged in the lower third. \nStrong visual hierarchy. \nClean negative space. \nPremium black-and-gold aesthetic enhanced with Gabon’s green, yellow, and blue colors. \n \n### Visual Style \n \nUltra-realistic professional photography, cinematic lighting, luxury editorial poster, dramatic contrast, realistic skin texture, sharp facial details, volumetric glow, subtle particles, premium gold foil typography, sophisticated composition, high-end advertising photography, photorealistic, 8K detail. \n \n### Final Text \n \n**17 AUGUST** \n**INDEPENDENCE DAY** \n**GABON** \n**INDEPENDENT FOREVER** \n**[YOUR NAME]** \n \n**Aspect Ratio: 4:5 vertical portrait** \n \nEnsure all text is correctly spelled, clearly readable, professionally aligned, and visually integrated into the poster. \n",
+    "fullPrompt": "A vibrant celebration poster for Gabon Independence Day featuring Sam surrounded by national flags, festive fireworks, bold celebratory typography, rich green and yellow color tones. Rich skin textures, subtle facial reflections, studio catchlights in the eyes, sharp focus on facial features, soft blurred background bokeh, professional editorial color grading, 8k resolution photo.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1786948524/prompts/cenqtlahucd1qdxkfqnw.webp",
     "isPremium": false,
     "isTrending": false,
@@ -4655,7 +5074,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cm6ibtvq87r",
@@ -4676,7 +5097,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmyket4rxoo",
@@ -4697,7 +5120,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm75ojvi1un",
@@ -4718,7 +5143,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmx38q9vzjs",
@@ -4739,7 +5166,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm1akq5y88r",
@@ -4760,7 +5189,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm09tvvsnp4",
@@ -4781,7 +5212,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm32rh3w4qq",
@@ -4802,7 +5235,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm4qa0fvytq",
@@ -4823,7 +5258,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmqn8y8hat8",
@@ -4844,7 +5281,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm3yuddozk1",
@@ -4865,7 +5304,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm8z266pl8z",
@@ -4886,7 +5327,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmsvb72fr7w",
@@ -4907,7 +5350,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmig4myze9f",
@@ -4928,7 +5373,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmeowyfjldj",
@@ -4949,7 +5396,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmz7cl59xfr",
@@ -4970,7 +5419,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmdf4iybr1g",
@@ -4991,7 +5442,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmuz8gs1smf",
@@ -5012,7 +5465,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm6d3ecqe34",
@@ -5033,6 +5488,8 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   }
 ]

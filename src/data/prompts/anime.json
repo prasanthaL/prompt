@@ -18,7 +18,9 @@
     ],
     "isTrending": false,
     "isLatest": false,
-    "isFeatured": false
+    "isFeatured": false,
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm39tlem23g",
@@ -39,7 +41,9 @@
     ],
     "isTrending": false,
     "isLatest": false,
-    "isFeatured": false
+    "isFeatured": false,
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmfui3t8v6l",
@@ -60,7 +64,9 @@
     ],
     "isTrending": false,
     "isLatest": false,
-    "isFeatured": false
+    "isFeatured": false,
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmc948im5uq",
@@ -81,7 +87,9 @@
     ],
     "isTrending": false,
     "isLatest": false,
-    "isFeatured": false
+    "isFeatured": false,
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmnsv6q7gyw",
@@ -102,7 +110,9 @@
     ],
     "isTrending": false,
     "isLatest": false,
-    "isFeatured": false
+    "isFeatured": false,
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmulnc6p8ue",
@@ -123,7 +133,9 @@
     ],
     "isTrending": false,
     "isLatest": false,
-    "isFeatured": false
+    "isFeatured": false,
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmzkgozqjik",
@@ -144,7 +156,9 @@
     ],
     "isTrending": false,
     "isLatest": false,
-    "isFeatured": false
+    "isFeatured": false,
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmen2p4ksxl",
@@ -165,14 +179,16 @@
     ],
     "isTrending": false,
     "isLatest": false,
-    "isFeatured": false
+    "isFeatured": false,
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cms7ds57mhq",
     "title": "CRESCENT OF THE FAERIE KINGDOM : ELVEN DAWN IN PURPLE LIGHT",
     "slug": "crescent-of-the-faerie-kingdom-elven-dawn-in-purple-light-ut5tz",
     "category": "Anime",
-    "fullPrompt": "crescent sun of Peaceful faerie Landscape, Insane and Beautiful young Elf woman, front view, filigree design, fairytale, cinematography, manga, best art, insanely detailed and intricate, elegant, hyper realistic, delete super detailed, purple, pink, dark, 8k, trending on artstation",
+    "fullPrompt": "crescent sun of Peaceful faerie Landscape, Insane and Beautiful young Elf woman, front view, filigree design, fairytale, cinematography, manga, best art, insanely detailed and intricate, elegant, hyper realistic, delete super detailed, purple, pink, dark, 8k, trending on artstation. Vibrant cell-shaded colors, clean crisp linework, expressive character detailing, cinematic anime background lighting, high-fidelity digital illustration, Kyoto Animation studio style, masterpiece quality.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782108676/prompts/at9uty9qismy5pdfjhko.webp",
     "isPremium": false,
     "author": "Admin",
@@ -186,14 +202,16 @@
     ],
     "isTrending": false,
     "isLatest": false,
-    "isFeatured": false
+    "isFeatured": false,
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmzsc9fj04c",
     "title": "GLASS PROFILE : NATURE OF SELF",
     "slug": "glass-profile-nature-of-self-cx7q6",
     "category": "Anime",
-    "fullPrompt": "Create a digital art object featuring fashionably dressed in a white t-shirt, short jeans and trainers sitting on top of a rock. The background is a stylised 3D transparent glass  profile page with the username {Your Name} and a profile picture matching the character. The character is surrounded by botanical elements including flowers and a small pond with butterflies.The overall design is minimalistic and aesthetically pleasing",
+    "fullPrompt": "A sleek modern profile portrait of Alex, reflecting on self-identity with ethereal translucent glass layers, glowing light leaks, soft ambient reflections, clean aesthetic. Vibrant cell-shaded colors, clean crisp linework, expressive character detailing, cinematic anime background lighting, high-fidelity digital illustration, Kyoto Animation studio style, masterpiece quality.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782108597/prompts/tbk4lmyihcacahgz7fcr.webp",
     "isPremium": false,
     "author": "Admin",
@@ -207,14 +225,16 @@
     ],
     "isTrending": false,
     "isLatest": false,
-    "isFeatured": false
+    "isFeatured": false,
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cmzgquv9ean",
     "title": "SMOKEBOUND DIVINITY : THE FORM THAT NEVER SETTLES",
     "slug": "smokebound-divinity-the-form-that-never-settles-94nbn",
     "category": "Anime",
-    "fullPrompt": "a highly detailed image of a {персонаж} coloured sculpture made of smoke. The shot should be a full-body zoom with dynamic motion effects, emphasizing the dispersing smoke effect, visually rich portrait art illustration of an uncommon beautiful striking figure, playful body manipulations, (rule of thirds composition), ((detailed environment with strong lines)), best quality, warm and clean aesthetics, vibrant and colorful smoke particles should be depicted floating in the air, The scene should be well-lit with studio lights, maintaining ultra-sharp focus and a high-speed shot aesthetic, bokeh, HDR",
+    "fullPrompt": "A mystical anime sorceress enveloped in swirlings of iridescent spirit smoke, glowing golden runes etched into ethereal armor, dynamic floating pose, cinematic anime studio lighting, masterpiece. Vibrant cell-shaded colors, clean crisp linework, expressive character detailing, cinematic anime background lighting, high-fidelity digital illustration, Kyoto Animation studio style, masterpiece quality.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782108418/prompts/ymqdsbvqfvpnww6cofgu.webp",
     "isPremium": false,
     "author": "Admin",
@@ -228,7 +248,9 @@
     ],
     "isTrending": false,
     "isLatest": false,
-    "isFeatured": false
+    "isFeatured": false,
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cmfs73njp07",
@@ -249,7 +271,9 @@
     ],
     "isTrending": false,
     "isLatest": false,
-    "isFeatured": false
+    "isFeatured": false,
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmkw2mvdrbj",
@@ -270,7 +294,9 @@
     ],
     "isTrending": false,
     "isLatest": false,
-    "isFeatured": false
+    "isFeatured": false,
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cms564kc35f",
@@ -291,7 +317,9 @@
     ],
     "isTrending": false,
     "isLatest": false,
-    "isFeatured": false
+    "isFeatured": false,
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmp206x8dbt",
@@ -312,7 +340,9 @@
     ],
     "isTrending": false,
     "isLatest": false,
-    "isFeatured": false
+    "isFeatured": false,
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm92qv2ij70",
@@ -333,7 +363,9 @@
     ],
     "isTrending": false,
     "isLatest": false,
-    "isFeatured": false
+    "isFeatured": false,
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmkbqqsrje2",
@@ -354,7 +386,9 @@
     ],
     "isTrending": false,
     "isLatest": false,
-    "isFeatured": false
+    "isFeatured": false,
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cma6kryde8x",
@@ -375,7 +409,9 @@
     ],
     "isTrending": false,
     "isLatest": false,
-    "isFeatured": false
+    "isFeatured": false,
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmijtdclz6r",
@@ -396,14 +432,16 @@
     ],
     "isTrending": false,
     "isLatest": false,
-    "isFeatured": false
+    "isFeatured": false,
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm5loz2ldwr",
     "title": "Color Pop Drift — Semi-Illustrated Streetwear Edit",
     "slug": "color-pop-drift-semiillustrated-streetwear-edit-g2wz9",
     "category": "Anime",
-    "fullPrompt": "Edit the uploaded photo of a male model into a semi-illustrated street fashion look.\nKeep the pose, camera angle, and framing exactly the same.\nIllustrate only the jacket and sneakers in bold red, blue, green, yellow, and black color-pop style with clean black outlines.\nAdd colorful doodle motion strokes.\nFace and background remain realistic.\nNot full cartoon.",
+    "fullPrompt": "Edit the uploaded photo of a male model into a semi-illustrated street fashion look.\nKeep the pose, camera angle, and framing exactly the same.\nIllustrate only the jacket and sneakers in bold red, blue, green, yellow, and black color-pop style with clean black outlines.\nAdd colorful doodle motion strokes.\nFace and background remain realistic.\nNot full cartoon. Vibrant cell-shaded colors, clean crisp linework, expressive character detailing, cinematic anime background lighting, high-fidelity digital illustration, Kyoto Animation studio style, masterpiece quality.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782107861/prompts/tifdemimffujjjfhtsbj.webp",
     "isPremium": false,
     "author": "Admin",
@@ -417,7 +455,9 @@
     ],
     "isTrending": false,
     "isLatest": false,
-    "isFeatured": false
+    "isFeatured": false,
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmgrfnyvv7f",
@@ -438,7 +478,9 @@
     ],
     "isTrending": false,
     "isLatest": false,
-    "isFeatured": false
+    "isFeatured": false,
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmn2gd8iseg",
@@ -459,7 +501,9 @@
     ],
     "isTrending": false,
     "isLatest": false,
-    "isFeatured": false
+    "isFeatured": false,
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmrb2m8pf5y",
@@ -480,7 +524,9 @@
     ],
     "isTrending": false,
     "isLatest": false,
-    "isFeatured": false
+    "isFeatured": false,
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm8gi6fc86i",
@@ -503,7 +549,9 @@
     ],
     "isTrending": false,
     "isLatest": false,
-    "isFeatured": false
+    "isFeatured": false,
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmlyas7a4c9",
@@ -524,7 +572,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm71z6k293l",
@@ -545,7 +595,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm5avsmyn8w",
@@ -566,7 +618,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cme1u7xrnru",
@@ -587,7 +641,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmmi9afizrm",
@@ -608,7 +664,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm6mt5gt4f5",
@@ -629,14 +687,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm1f0f4yuuo",
     "title": "Elaine: a sweet, curious girl",
     "slug": "elaine-a-sweet-curious-girl-d1zad",
     "category": "Anime",
-    "fullPrompt": "Name: Elaine\nColor: pink\nCreate a premium Pixar-style 3D cartoon character showcase banner for [CHARACTER NAME].\n\nIMAGE TYPE:\n3D animated character presentation poster, modern cartoon branding banner, Pixar-style character showcase.\n\nTOPIC:\n[CARTOON CHARACTER / ANIMATION MASCOT / CHILDREN’S HERO / GAME CHARACTER / STORYBOOK CHARACTER]\n\nSTYLE & ART DIRECTION:\n\nSame exact visual identity and composition style as the reference image\n\nPixar-inspired 3D cartoon rendering\n\nCute stylized proportions\n\nSoft cinematic animation lighting\n\nMinimal modern presentation\n\nDreamy pastel atmosphere\n\nToy-like smooth textures\n\nFamily-friendly animation mood\n\nBehance-quality character design showcase\n\nMAIN SUBJECT / HERO ELEMENT:\n\nOne adorable stylized 3D cartoon character\n\nLarge expressive eyes\n\nOversized head proportions\n\nCute playful pose\n\nDetailed clothing and accessories\n\nSoft glossy textures\n\nCharming facial expression\n\nAnimation-film quality rendering\n\nLAYOUT & COMPOSITION:\n\nWide horizontal cinematic banner\n\nCharacter centered in composition\n\nGiant oversized typography behind character\n\nSmall secondary characters blurred in background\n\nMinimal spacious arrangement\n\nStrong visual hierarchy\n\nClean modern alignment\n\nBalanced negative space\n\nTEXT & TYPOGRAPHY:\n\nHuge faded backdrop typography\n\nBold sans-serif lettering\n\nMinimal subtitle placement\n\nElegant small descriptive text\n\nModern animation branding hierarchy\n\nDEPTH & LIGHTING:\n\nSoft cinematic lighting\n\nGentle ambient glow\n\nSmooth character highlights\n\nDreamy animation shadows\n\nSubtle depth-of-field blur\n\nHigh-end Pixar-style rendering\n\nEXTRA DESIGN DETAILS:\n\nSoft gradient backgrounds\n\nTiny supporting characters\n\nSmooth floor shadows\n\nMinimal UI corner icons\n\nRounded soft aesthetic\n\nContemporary animation mood\n\nElegant pastel tones\n\nCOLOR PALETTE:\n\nPastel purple\n\nSoft beige\n\nMint green\n\nCream white\n\nSoft pastel gradients\n\nCAMERA & RENDERING:\n\nCinematic wide-angle composition\n\nCharacter-centered framing\n\nPixar-style rendering quality\n\nHigh-resolution animated textures\n\nModern animated-film perspective\n\nQUALITY CONTROLS:\n\nPixar-quality 3D rendering\n\nBehance-quality character presentation\n\nUltra clean composition\n\nPremium animation aesthetics\n\nSame exact layout hierarchy as reference\n\nUltra high resolution",
+    "fullPrompt": "Elaine, a sweet, curious anime girl with large expressive amber eyes and braided honey-blonde hair, sitting in a sunlit meadow of glowing wildflowers, soft studio Ghibli aesthetic, detailed illustration. Vibrant cell-shaded colors, clean crisp linework, expressive character detailing, cinematic anime background lighting, high-fidelity digital illustration, Kyoto Animation studio style, masterpiece quality.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784898868/prompts/mt1k8fmywtjghbfvm5bw.webp",
     "isPremium": false,
     "isTrending": true,
@@ -650,7 +710,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cm7aimwq44r",
@@ -671,14 +733,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmowgosx9ls",
     "title": "Anime Park Portrait, Makoto Shinkai Style",
     "slug": "anime-park-portrait-makoto-shinkai-styl-l9i47",
     "category": "Anime",
-    "fullPrompt": "masterpiece, best quality, anime style, Makoto Shinkai style, 1girl, long black hair, brown eyes, smiling, wearing a white t-shirt and blue jeans, background is a sunny park with green trees, soft natural lighting, vibrant colors, detailed anime art style, sharp focus, beautiful lighting, 20k, highres",
+    "fullPrompt": "masterpiece, best quality, anime style, Makoto Shinkai style, 1girl, long black hair, brown eyes, smiling, wearing a white t-shirt and blue jeans, background is a sunny park with green trees, soft natural lighting, vibrant colors, detailed anime art style, sharp focus, beautiful lighting, 20k, highres. Vibrant cell-shaded colors, clean crisp linework, expressive character detailing, cinematic anime background lighting, high-fidelity digital illustration, Kyoto Animation studio style, masterpiece quality.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784907362/prompts/bopcreszn7ci5ppei123.webp",
     "isPremium": false,
     "isTrending": false,
@@ -692,7 +756,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmqob7oqw53",
@@ -713,7 +779,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmr42wz12vx",
@@ -734,7 +802,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmag6jzw57d",
@@ -755,7 +825,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm4awxp5kaf",
@@ -776,7 +848,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmnigd08frx",
@@ -797,7 +871,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm8775tzl7d",
@@ -818,7 +894,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmff7q80lx2",
@@ -839,14 +917,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmpp6wk6pi1",
     "title": "Joyful caricature with bold features",
     "slug": "joyful-caricature-with-bold-features-76l6m",
     "category": "Anime",
-    "fullPrompt": "Extreme 3D CGI caricature of [CHARACTER], featuring wildly exaggerated proportions and oversized facial features for maximum comedic impact. Create a head-and-shoulders portrait with an enormous head, tiny body, and highly expressive face showing an over-the-top dramatic emotion (laughing, shocked, smug, or confused). Render in a premium stylized 3D animation style with ultra-smooth matte materials, clean topology, and high-end CGI quality. Use a slightly low-angle character perspective for a bold, heroic appearance. Place the character against a vibrant, saturated background with strong color contrast that makes the subject pop. Illuminate the scene with soft cinematic studio lighting, subtle rim lighting, and realistic ambient shadows to enhance depth and dimension. Ultra-detailed textures, crisp edges, expressive eyes, exaggerated smile, vibrant colors, professional Pixar-inspired character design, octane-quality rendering, 8K, ultra-sharp, playful, humorous, highly polished.",
+    "fullPrompt": "A joyful cartoon caricature of a smiling chef with exaggerated friendly features, bold clean outlines, vibrant saturated colors, playful expression, high resolution digital artwork. Vibrant cell-shaded colors, clean crisp linework, expressive character detailing, cinematic anime background lighting, high-fidelity digital illustration, Kyoto Animation studio style, masterpiece quality.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784908803/prompts/ngmuuz9ojqxvxgrec5y6.webp",
     "isPremium": false,
     "isTrending": false,
@@ -860,7 +940,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cm1m0egrgcx",
@@ -881,14 +963,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cma5rcln1ad",
     "title": "Dreamy Anime Collage Creation",
     "slug": "dreamy-anime-collage-creation-k5714",
     "category": "Anime",
-    "fullPrompt": "create a dreamy anime-style collage with exact face match, no face change, and perfect facial consistency. Add cute chibi versions around the main girl wearing pastel lehenga and saree outfits, floral accessories, glossy eyes, soft curls, fairy lights, glowing stars, magical sparkles, kawaii atmosphere, aesthetic quotes, cinematic lighting, ultra-detailed textures, 8K ultra HD quality, vertical 9:16 ratio.",
+    "fullPrompt": "create a dreamy anime-style collage with exact face match, no face change, and perfect facial consistency. Add cute chibi versions around the main girl wearing pastel lehenga and saree outfits, floral accessories, glossy eyes, soft curls, fairy lights, glowing stars, magical sparkles, kawaii atmosphere, aesthetic quotes, cinematic lighting, ultra-detailed textures, 8K ultra HD quality, vertical 9:16 ratio. Vibrant cell-shaded colors, clean crisp linework, expressive character detailing, cinematic anime background lighting, high-fidelity digital illustration, Kyoto Animation studio style, masterpiece quality.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784908969/prompts/nprm5x6ydgws5ezq7ty2.webp",
     "isPremium": false,
     "isTrending": false,
@@ -902,14 +986,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmy29bvlwdf",
     "title": "Chibi boy in a gamer room",
     "slug": "chibi-boy-in-a-gamer-room-n1fro",
     "category": "Anime",
-    "fullPrompt": "A stylized 3D chibi-Style cute Boy leans casually against a small three-dimensional name \" Sam\" designed in sleek black and red. He has black hair and playful smile.He is dressed the exacat outfit in the reference image,paired with white sneakers. The background is a dark bedroom, enhancing the vibrant colors and cozy atmosphere of the scene",
+    "fullPrompt": "A stylized 3D chibi-Style cute Boy leans casually against a small three-dimensional name \" Sam\" designed in sleek black and red. He has black hair and playful smile.He is dressed the exacat outfit in the reference image,paired with white sneakers. The background is a dark bedroom, enhancing the vibrant colors and cozy atmosphere of the scene. Vibrant cell-shaded colors, clean crisp linework, expressive character detailing, cinematic anime background lighting, high-fidelity digital illustration, Kyoto Animation studio style, masterpiece quality.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784909000/prompts/yomvyn1ne2eartvkyvuh.webp",
     "isPremium": false,
     "isTrending": true,
@@ -923,7 +1009,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmy59e27nnn",
@@ -944,6 +1032,8 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   }
 ]

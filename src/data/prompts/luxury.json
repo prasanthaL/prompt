@@ -4,7 +4,7 @@
     "title": "Luxury Gold Chronograph Watch",
     "slug": "luxury-gold-chronograph-watch-lx49c",
     "category": "Luxury",
-    "fullPrompt": "Close-up product shot of a premium gold chronograph watch placed on a dark marble surface, dramatic side studio lighting, sharp gold metal reflections, rich textures, commercial advertising style, 8k resolution.",
+    "fullPrompt": "Close-up product shot of a premium gold chronograph watch placed on a dark marble surface, dramatic side studio lighting, sharp gold metal reflections, rich textures, commercial advertising style, 8k resolution. Commercial studio lighting setup, sleek surface highlights, ultra-sharp product focus, soft drop shadows, clean high-end catalog presentation style, 8k commercial render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783672376/prompts/pkkodetsc2p4acywgi7d.webp",
     "isPremium": false,
     "isTrending": false,
@@ -18,14 +18,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cms6uu3jycl",
     "title": "Luxury Penthouse Architectural Visualization Prompt",
     "slug": "luxury-penthouse-architectural-visualiza-tr5sr",
     "category": "Luxury",
-    "fullPrompt": "A breathtaking luxury penthouse overlooking a dazzling modern city skyline at sunset, floor-to-ceiling glass walls, elegant Italian marble flooring, designer furniture, a grand crystal chandelier, contemporary fireplace, indoor tropical plants, warm ambient lighting, premium interior styling, cinematic composition, realistic reflections, ultra detailed textures, photorealistic architectural visualization, masterpiece, 8K.",
+    "fullPrompt": "A breathtaking luxury penthouse overlooking a dazzling modern city skyline at sunset, floor-to-ceiling glass walls, elegant Italian marble flooring, designer furniture, a grand crystal chandelier, contemporary fireplace, indoor tropical plants, warm ambient lighting, premium interior styling, cinematic composition, realistic reflections, ultra detailed textures, photorealistic architectural visualization, masterpiece, 8K. Commercial studio lighting setup, sleek surface highlights, ultra-sharp product focus, soft drop shadows, clean high-end catalog presentation style, 8k commercial render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783672464/prompts/m6rthzbnytkmenxr8knl.webp",
     "isPremium": false,
     "isTrending": false,
@@ -39,14 +41,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmvehjm3edd",
     "title": "Billionaire Luxury Editorial Photo Prompt",
     "slug": "billionaire-luxury-editorial-photo-promp-o1ni3",
     "category": "Luxury",
-    "fullPrompt": "A sophisticated billionaire dressed in a perfectly tailored navy-blue suit stepping out of a sleek black luxury supercar in front of an exclusive five-star hotel, surrounded by elegant architecture, polished marble entrance, golden evening lighting, luxury wristwatch, premium leather shoes, cinematic composition, shallow depth of field, editorial fashion photography, photorealistic, ultra detailed, masterpiece, 8K.",
+    "fullPrompt": "A sophisticated billionaire dressed in a perfectly tailored navy-blue suit stepping out of a sleek black luxury supercar in front of an exclusive five-star hotel, surrounded by elegant architecture, polished marble entrance, golden evening lighting, luxury wristwatch, premium leather shoes, cinematic composition, shallow depth of field, editorial fashion photography, photorealistic, ultra detailed, masterpiece, 8K. Commercial studio lighting setup, sleek surface highlights, ultra-sharp product focus, soft drop shadows, clean high-end catalog presentation style, 8k commercial render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783672516/prompts/jks77njlk0ykcf3ehepn.webp",
     "isPremium": false,
     "isTrending": false,
@@ -60,14 +64,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmr5h9s7a63",
     "title": "Luxury Yacht Sunset Cruise Prompt",
     "slug": "luxury-yacht-sunset-cruise-prompt-r1tjl",
     "category": "Luxury",
-    "fullPrompt": "An ultra-modern luxury yacht sailing across crystal-clear turquoise waters beneath a vibrant golden sunset, expansive sun deck with premium lounge furniture, infinity jacuzzi, polished teak wood, panoramic ocean views, elegant outdoor dining area, cinematic aerial perspective, realistic water reflections, luxury travel aesthetic, photorealistic, ultra detailed, masterpiece, 8K.",
+    "fullPrompt": "An ultra-modern luxury yacht sailing across crystal-clear turquoise waters beneath a vibrant golden sunset, expansive sun deck with premium lounge furniture, infinity jacuzzi, polished teak wood, panoramic ocean views, elegant outdoor dining area, cinematic aerial perspective, realistic water reflections, luxury travel aesthetic, photorealistic, ultra detailed, masterpiece, 8K. Commercial studio lighting setup, sleek surface highlights, ultra-sharp product focus, soft drop shadows, clean high-end catalog presentation style, 8k commercial render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783672573/prompts/qaeynqmesbeymg5mgpi4.webp",
     "isPremium": false,
     "isTrending": false,
@@ -81,14 +87,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmwx08eeq5t",
     "title": "Luxury Diamond Necklace Advertisement Prompt",
     "slug": "luxury-diamond-necklace-advertisement-pr-45sol",
     "category": "Luxury",
-    "fullPrompt": "An elegant luxury jewelry advertisement featuring a sparkling diamond necklace displayed on rich black velvet, surrounded by soft golden lighting, subtle reflections, premium product photography, refined composition, luxurious branding aesthetic, flawless gemstones, macro detail, cinematic studio lighting, clean advertising layout with space for brand logo and tagline, photorealistic, ultra detailed, masterpiece, 8K.",
+    "fullPrompt": "An elegant luxury jewelry advertisement featuring a sparkling diamond necklace displayed on rich black velvet, surrounded by soft golden lighting, subtle reflections, premium product photography, refined composition, luxurious branding aesthetic, flawless gemstones, macro detail, cinematic studio lighting, clean advertising layout with space for brand logo and tagline, photorealistic, ultra detailed, masterpiece, 8K. Commercial studio lighting setup, sleek surface highlights, ultra-sharp product focus, soft drop shadows, clean high-end catalog presentation style, 8k commercial render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783672632/prompts/bs7nr3c8iop4mhmgo4pi.webp",
     "isPremium": false,
     "isTrending": false,
@@ -102,6 +110,8 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   }
 ]

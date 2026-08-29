@@ -18,7 +18,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmm0xo1lgkd",
@@ -39,7 +41,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmvwkdbfvzy",
@@ -60,14 +64,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmtht24ibev",
     "title": "CYBER-TRUCK – Neon Armored Hyper-Performance Promotional Poster",
     "slug": "cybertruck-neon-armored-hyperperformance-promotional-poster-g4jdy",
     "category": "Vehicles",
-    "fullPrompt": "A dramatic, high-contrast promotional poster layout featuring a centered [Subject: Luxury Vehicle/High-Performance Item] in a studio setting. The background is a deep [Color] gradient fading to black. Massive, bold, glowing [Title Text] is placed behind the subject, dominating the upper half. The lower section includes two smaller, framed profile views (rear and side) of the subject, followed by four key statistical data points. Cinematic, aggressive lighting. Text overlays:ketogenicdieto [Social Handle] and [Call to Action]. --ar 4:5  A high-impact promotional poster featuring a centered, matte black armored Cyberpunk Truck (similar to a Tesla Cybertruck or specialized Humvee) in a dark, neon-lit environment. Maintain the exact composition: the vehicle is centered, slightly angled forward. The background is a dark electric blue gradient, with massive, glowing cyan text reading 'CYBER-TRUCK' positioned behind the vehicle. The lower section includes two framed, smaller profile views (rear and side) of the truck, ketogenicdieto\n14/12/2025\n\nfollowed by four fictional statistical data points (e.g., 1000 HP, 2.9 S). Include text overlays:",
+    "fullPrompt": "A neon-lit cyber truck hyper-performance poster parked on a rain-slicked futuristic highway, glowing blue underglow lights, sleek matte black body, high-contrast night scene. Commercial studio lighting setup, sleek surface highlights, ultra-sharp product focus, soft drop shadows, clean high-end catalog presentation style, 8k commercial render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782111328/prompts/webid62v52zkxtddpeef.webp",
     "isPremium": false,
     "isTrending": false,
@@ -81,6 +87,8 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   }
 ]

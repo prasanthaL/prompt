@@ -4,7 +4,7 @@
     "title": "Neo-Tokyo Rainy Alleyway",
     "slug": "neo-tokyo-rainy-alleyway-cp59b",
     "category": "Cyberpunk",
-    "fullPrompt": "A narrow rain-soaked alleyway in a futuristic Neo-Tokyo city, glowing cyan and magenta holographic advertisements, steam rising from grates, a hovering courier drone passing overhead, high-contrast night lighting, 8k resolution, cinematic.",
+    "fullPrompt": "A narrow rain-soaked alleyway in a futuristic Neo-Tokyo city, glowing cyan and magenta holographic advertisements, steam rising from grates, a hovering courier drone passing overhead, high-contrast night lighting, 8k resolution, cinematic. Futuristic neon highlights, cybernetic metallic reflections, intricate technological details, glowing energy conduit lines, high-tech speculative fiction aesthetic.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783676064/prompts/eppqutyw8fuyhpvejvhf.webp",
     "isPremium": false,
     "isTrending": false,
@@ -18,7 +18,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cmtclxwmgwy",
@@ -39,14 +41,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmwjqt2n1lm",
     "title": "Cyberpunk Night Market",
     "slug": "cyberpunk-night-market-ppx1e",
     "category": "Cyberpunk",
-    "fullPrompt": "A bustling cyberpunk night market filled with glowing holographic advertisements, robotic street vendors, futuristic food stalls, people with advanced cybernetic enhancements, colorful neon lanterns, reflective rain-covered pavement, floating drones delivering packages, cinematic wide-angle composition, vibrant magenta, cyan, and purple lighting, photorealistic environment, highly detailed, masterpiece, 8K.",
+    "fullPrompt": "A bustling cyberpunk night market filled with glowing holographic advertisements, robotic street vendors, futuristic food stalls, people with advanced cybernetic enhancements, colorful neon lanterns, reflective rain-covered pavement, floating drones delivering packages, cinematic wide-angle composition, vibrant magenta, cyan, and purple lighting, photorealistic environment, highly detailed, masterpiece, 8K. Futuristic neon highlights, cybernetic metallic reflections, intricate technological details, glowing energy conduit lines, high-tech speculative fiction aesthetic.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783676154/prompts/phmmntph1cqqb6yyhyya.webp",
     "isPremium": false,
     "isTrending": false,
@@ -60,14 +64,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm5zrr0cr3k",
     "title": "Android Assassin",
     "slug": "android-assassin-rgzwk",
     "category": "Cyberpunk",
-    "fullPrompt": "A futuristic android assassin with flawless synthetic skin and exposed mechanical components, wearing matte black nano-armor illuminated by glowing red energy lines, dual plasma blades in hand, standing inside a high-tech industrial corridor, holographic interfaces floating nearby, dramatic cinematic lighting, volumetric fog, intricate robotics engineering, photorealistic metal textures, Unreal Engine 5 quality, masterpiece, ultra detailed, 8K.",
+    "fullPrompt": "A futuristic android assassin with flawless synthetic skin and exposed mechanical components, wearing matte black nano-armor illuminated by glowing red energy lines, dual plasma blades in hand, standing inside a high-tech industrial corridor, holographic interfaces floating nearby, dramatic cinematic lighting, volumetric fog, intricate robotics engineering, photorealistic metal textures, Unreal Engine 5 quality, masterpiece, ultra detailed, 8K. Futuristic neon highlights, cybernetic metallic reflections, intricate technological details, glowing energy conduit lines, high-tech speculative fiction aesthetic.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783676208/prompts/p2ctgramcscefmk6ypjq.webp",
     "isPremium": false,
     "isTrending": false,
@@ -81,14 +87,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmedoj23zxa",
     "title": "Cyberpunk Skyline",
     "slug": "cyberpunk-skyline-y1fh2",
     "category": "Cyberpunk",
-    "fullPrompt": "A breathtaking cyberpunk skyline featuring colossal neon skyscrapers, massive holographic billboards, elevated magnetic trains, flying cars, glowing energy towers, dense futuristic cityscape stretching to the horizon beneath a stormy night sky, heavy rain reflecting vibrant neon colors across glass buildings, cinematic composition, volumetric lighting, hyper realistic architecture, photorealistic, masterpiece, 8K.",
+    "fullPrompt": "A breathtaking cyberpunk skyline featuring colossal neon skyscrapers, massive holographic billboards, elevated magnetic trains, flying cars, glowing energy towers, dense futuristic cityscape stretching to the horizon beneath a stormy night sky, heavy rain reflecting vibrant neon colors across glass buildings, cinematic composition, volumetric lighting, hyper realistic architecture, photorealistic, masterpiece, 8K. Futuristic neon highlights, cybernetic metallic reflections, intricate technological details, glowing energy conduit lines, high-tech speculative fiction aesthetic.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783676267/prompts/qaywzqpvq7scem5xws8o.webp",
     "isPremium": false,
     "isTrending": false,
@@ -102,6 +110,8 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   }
 ]

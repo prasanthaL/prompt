@@ -4,7 +4,7 @@
     "title": "Odin Norse God Valhalla Throne",
     "slug": "odin-norse-god-valhalla-throne-mt19b",
     "category": "Mythology",
-    "fullPrompt": "An epic cinematic depiction of the Norse god Odin sitting on his stone throne in the golden halls of Valhalla, wearing gold-inlaid armor, a black eyepatch, holding his spear Gungnir, two ravens perched on the throne shoulders, dramatic epic lighting, 8k.",
+    "fullPrompt": "An epic cinematic depiction of the Norse god Odin sitting on his stone throne in the golden halls of Valhalla, wearing gold-inlaid armor, a black eyepatch, holding his spear Gungnir, two ravens perched on the throne shoulders, dramatic epic lighting, 8k. Rich visual details, harmonious color palette, professional lighting setup, high-resolution rendering, detailed background atmosphere.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783668206/prompts/bgjpmn0ioavwvatsohsl.webp",
     "isPremium": false,
     "isTrending": false,
@@ -18,7 +18,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cmfvng6xpk7",
@@ -39,14 +41,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmrjcrvho6n",
     "title": "Ancient Dragon Temple Image Prompt",
     "slug": "ancient-dragon-temple-image-prompt-7g0z4",
     "category": "Mythology",
-    "fullPrompt": "An enormous ancient dragon guarding a forgotten temple hidden deep within mystical mountains, glowing emerald eyes, weathered golden scales, massive stone statues covered in moss, sacred waterfalls, floating magical lanterns, enchanted forest atmosphere, cinematic fantasy lighting, ultra realistic details, epic composition, photorealistic mythology illustration, masterpiece, 8K.",
+    "fullPrompt": "An enormous ancient dragon guarding a forgotten temple hidden deep within mystical mountains, glowing emerald eyes, weathered golden scales, massive stone statues covered in moss, sacred waterfalls, floating magical lanterns, enchanted forest atmosphere, cinematic fantasy lighting, ultra realistic details, epic composition, photorealistic mythology illustration, masterpiece, 8K. Rich visual details, harmonious color palette, professional lighting setup, high-resolution rendering, detailed background atmosphere.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783668594/prompts/pgqnqdxbywddw4kymhfi.webp",
     "isPremium": false,
     "isTrending": false,
@@ -60,14 +64,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmvdybd00jd",
     "title": "Phoenix Rising From Golden Flames",
     "slug": "phoenix-rising-from-golden-flames-hlvl9",
     "category": "Mythology",
-    "fullPrompt": "A magnificent phoenix rising from blazing golden flames beneath an ancient celestial sky, brilliant crimson and gold feathers glowing with divine energy, volcanic mountains in the distance, floating embers, radiant sunrise, cinematic composition, realistic fire effects, volumetric lighting, mythical atmosphere, hyper detailed fantasy realism, masterpiece, ultra realistic, 8K.",
+    "fullPrompt": "A magnificent phoenix rising from blazing golden flames beneath an ancient celestial sky, brilliant crimson and gold feathers glowing with divine energy, volcanic mountains in the distance, floating embers, radiant sunrise, cinematic composition, realistic fire effects, volumetric lighting, mythical atmosphere, hyper detailed fantasy realism, masterpiece, ultra realistic, 8K. Rich visual details, harmonious color palette, professional lighting setup, high-resolution rendering, detailed background atmosphere.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783668740/prompts/rg8rntdpr8y2qnourihv.webp",
     "isPremium": false,
     "isTrending": false,
@@ -81,14 +87,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm6bj61pton",
     "title": "Cinematic Valhalla Gates Prompt Design",
     "slug": "cinematic-valhalla-gates-prompt-design-q9p9z",
     "category": "Mythology",
-    "fullPrompt": "The legendary gates of Valhalla opening beneath the shimmering Aurora Borealis, towering Norse warriors clad in ornate Viking armor, massive wolves and ravens surrounding the entrance, glowing runes carved into ancient stone, divine golden light pouring through colossal gates, epic cinematic fantasy, hyper realistic environment, dramatic atmosphere, highly detailed mythology scene, Unreal Engine 5, masterpiece, 8K.",
+    "fullPrompt": "The legendary gates of Valhalla opening beneath the shimmering Aurora Borealis, towering Norse warriors clad in ornate Viking armor, massive wolves and ravens surrounding the entrance, glowing runes carved into ancient stone, divine golden light pouring through colossal gates, epic cinematic fantasy, hyper realistic environment, dramatic atmosphere, highly detailed mythology scene, Unreal Engine 5, masterpiece, 8K. Rich visual details, harmonious color palette, professional lighting setup, high-resolution rendering, detailed background atmosphere.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783668791/prompts/mxvspxjsu3uhku5cz3zp.webp",
     "isPremium": false,
     "isTrending": false,
@@ -102,6 +110,8 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   }
 ]

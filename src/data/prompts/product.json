@@ -18,7 +18,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm8sfwsb46e",
@@ -39,14 +41,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm6z3meg1m3",
     "title": "PRODUCT NAME — Live Bold",
     "slug": "product-live-bold-rbyff",
     "category": "Product",
-    "fullPrompt": "Create a high-quality 8K portrait poster featuring [PRODUCT], inspired by the energy, vibrancy, and visual richness of premium commercial advertising campaigns. The poster should look like a modern, international fashion or lifestyle advertisement with bold, eye-catching aesthetics, playful textures, and layered graphic elements.\n\nCharacter & Pose:\n\nFeature a confident, charismatic model with expressive, lively facial expressions.\nPose the body with elegance, subtle movement, and natural hand positioning, resembling international fashion editorials.\nDynamic posture that conveys confidence, presence, and lifestyle appeal, suitable for a large-scale advertising poster.\n\nWardrobe & Styling:\n\nOutfit: modern casual streetwear or fashion-forward attire.\nUse layered clothing, subtle patterns, trendy fabric textures, and visually appealing color combinations.\nAccessories: optional hats, bags, or jewelry to enhance the fashionable, premium look.\n\nVisual Composition & Background:\n\nInclude energetic commercial design elements such as abstract shapes, colorful gradients, sticker-like decorations, light streaks, halftone textures, and dynamic framing details.\nTypography: bold, modern, commercial-style text with stylish placement and graphic flourishes.\nBackground should enhance the overall vibe with layered textures and gradients, without overwhelming the main subject.\nOptional supporting accents inspired by premium branding layouts to reinforce the commercial feel.\n\nLighting & Color:\n\nCinematic commercial lighting with balanced highlights and shadows for a polished, editorial look.\nVibrant, highly saturated color grading to make the poster visually rich, energetic, and eye-catching.\nUltra-detailed textures, realistic rendering, and sharp focus for professional advertising quality.\n\nOverall Mood & Quality:\n\nThe poster should feel like a premium lifestyle or fashion campaign, blending playful energy, commercial appeal, and modern editorial aesthetics.\nClean, visually rich, highly detailed composition suitable for ultra-HD 8K printing.\nInclude subtle textures, layered ornaments, and dynamic framing details to enhance the branding atmosphere.\n",
+    "fullPrompt": "A sleek commercial hero shot of an electric sports car model positioned on a polished reflective platform, dramatic rim lighting, vibrant red accent tones, bold product typography. Commercial studio lighting setup, sleek surface highlights, ultra-sharp product focus, soft drop shadows, clean high-end catalog presentation style, 8k commercial render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782125604/prompts/rtvbci37acmnypnqrnrx.webp",
     "isPremium": false,
     "author": "Admin",
@@ -60,14 +64,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cmya6nuqcvt",
     "title": "Emerald Presence: Modern Studio Elegance",
     "slug": "emerald-presence-modern-studio-elegance-t5w3p",
     "category": "Product",
-    "fullPrompt": "Create a studio portrait of the same athletic man (preserving the face 100%). He is wearing a light Green blazer and slim-fit trousers with white sneakers, and a white shirt slightly unbuttoned. He is seated on a tall swivel stool, with a gradient Green background and spotlight lighting, in the style of a fashion photoshoot.",
+    "fullPrompt": "Create a studio portrait of the same athletic man (preserving the face 100%). He is wearing a light Green blazer and slim-fit trousers with white sneakers, and a white shirt slightly unbuttoned. He is seated on a tall swivel stool, with a gradient Green background and spotlight lighting, in the style of a fashion photoshoot. Commercial studio lighting setup, sleek surface highlights, ultra-sharp product focus, soft drop shadows, clean high-end catalog presentation style, 8k commercial render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782125537/prompts/cxwruvqok8bbfj055ejp.webp",
     "isPremium": false,
     "author": "Admin",
@@ -81,7 +87,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm6lfawubfk",
@@ -102,7 +110,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm1bqo8yilu",
@@ -123,14 +133,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmf4xfao7yc",
     "title": "MONOCHROME IDENTITY: Modern Luxury Editorial Branding Campaign",
     "slug": "monochrome-identity-modern-luxury-editorial-branding-campaign-snbat",
     "category": "Product",
-    "fullPrompt": "Create a premium modern editorial branding poster for [BRAND / CAMPAIGN NAME].\n\nTOPIC:\n[EDITORIAL / FASHION / LIFESTYLE THEME]\n\nSTYLE & ART DIRECTION:\n\nContemporary minimalist editorial design\n\nMonochromatic branding aesthetic\n\nClean luxury composition\n\nModern creative-agency visual identity\n\nSoft studio photography style\n\nOversized abstract typography integration\n\nMinimal geometric branding\n\nHigh-end lifestyle campaign aesthetic\n\nScandinavian-inspired visual simplicity\n\nModern art-direction poster design\n\nMAIN SUBJECT:\n\nA stylish realistic [CHARACTER TYPE] seated prominently in a designer chair\n\nFashion-forward outfit matching the monochromatic palette\n\nRelaxed confident pose\n\nContemporary editorial styling\n\nPremium realistic studio photography\n\nModern expressive fashion aesthetic\n\nStrong personality and visual identity\n\nSoft realistic shadows beneath the subject and furniture\n\nLarge designer furniture piece integrated as part of the composition\n\nLAYOUT & COMPOSITION:\n\nSame exact minimalist composition and visual structure as the reference design\n\nLarge oversized abstract letter or typography shape dominating the background\n\nSubject placed asymmetrically in the foreground\n\nSpacious negative space\n\nMinimal branding details in the corners\n\nStrong visual balance between typography and subject\n\nEditorial magazine-inspired hierarchy\n\nClean modern alignment\n\nMinimal clutter and highly refined spacing\n\nTEXT & TYPOGRAPHY:\n\nOversized geometric typography\n\nMinimal branding text\n\nThin modern sans-serif fonts\n\nAbstract letterform integration\n\nSmall editorial metadata text\n\nLuxury contemporary typography hierarchy\n\nDEPTH & LIGHTING:\n\nSoft cinematic studio lighting\n\nGentle monochromatic shadows\n\nSmooth gradient lighting\n\nPremium editorial depth\n\nSoft realistic reflections\n\nContemporary luxury atmosphere\n\nEXTRA DESIGN DETAILS:\n\nMinimal grain texture\n\nClean modern gradients\n\nAbstract geometric branding\n\nSoft monochromatic transitions\n\nDesigner furniture aesthetic\n\nMinimal art-poster mood\n\nCOLOR PALETTE:\n\n[DOMINANT COLOR]\n\nTonal monochromatic variations\n\nSoft neutral highlights\n\nClean editorial contrast\n\nQUALITY:\n\nUltra realistic editorial photography\n\nPremium branding poster\n\nBehance-quality modern composition\n\nContemporary fashion campaign quality\n\nSame exact visual identity and layout as the reference\n\nUltra high resolution",
+    "fullPrompt": "A luxury monochrome fashion editorial campaign poster for Vogue featuring a high-fashion female model in an avant-garde black gown, minimal typography layout, studio lighting. Commercial studio lighting setup, sleek surface highlights, ultra-sharp product focus, soft drop shadows, clean high-end catalog presentation style, 8k commercial render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782125220/prompts/svixak4axc8z5kjo6ybn.webp",
     "isPremium": false,
     "author": "Admin",
@@ -144,7 +156,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cmdh97nydif",
@@ -165,14 +179,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmu0o6m0km1",
     "title": "Hero Focus Premium Product Campaign",
     "slug": "hero-focus-premium-product-campaign-k6u9n",
     "category": "Product",
-    "fullPrompt": "Create a photorealistic premium product campaign poster in a 4:5 vertical aspect ratio.\nProduct: [PRODUCT NAME]\nBrand style: [BRAND / PREMIUM / LUXURY / TECH / BEAUTY / FOOD / DRINK]\nMain subject: A confident model holding or presenting the product close to the camera, with the product in sharp focus and the model slightly behind it. Use a strong perspective angle so the product feels powerful, premium, and hero-like.",
+    "fullPrompt": "A commercial hero photography setup for a luxury smartphone resting on volcanic dark sand, sleek metallic finish, dramatic water droplets, soft studio lighting. Commercial studio lighting setup, sleek surface highlights, ultra-sharp product focus, soft drop shadows, clean high-end catalog presentation style, 8k commercial render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782124969/prompts/euaxx23mqq4qhwozc16u.webp",
     "isPremium": false,
     "author": "Admin",
@@ -186,7 +202,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cmkj59yd6cq",
@@ -207,14 +225,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm8z7qunvzw",
     "title": "MIDNIGHT TIGER : COSMIC SPLATTER",
     "slug": "midnight-tiger-cosmic-splatter-za79a",
     "category": "Product",
-    "fullPrompt": "High quality, starry night blue black tiger, splatter, aesthetics for t-shirt design, high detail, dark tones.only design",
+    "fullPrompt": "High quality, starry night blue black tiger, splatter, aesthetics for t-shirt design, high detail, dark tones.only design. Commercial studio lighting setup, sleek surface highlights, ultra-sharp product focus, soft drop shadows, clean high-end catalog presentation style, 8k commercial render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782124896/prompts/tnld1bchxw8rok0ulwzt.webp",
     "isPremium": false,
     "author": "Admin",
@@ -228,14 +248,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cmlkwtz5eu6",
     "title": "CHROME SIREN : REFLECTIONS OF THE FUTURE",
     "slug": "chrome-siren-reflections-of-the-future-yuosl",
     "category": "Product",
-    "fullPrompt": "3d, Geometric art, geometric abstraction, computational art, concept art: statue of a mermaid made of mirror shine stainless steel, with reflections, next to a pond, in a square of a city, intricate details, extreme high contract, sharp image, 8k resolution, in the style of Anish Kapoor",
+    "fullPrompt": "3d, Geometric art, geometric abstraction, computational art, concept art: statue of a mermaid made of mirror shine stainless steel, with reflections, next to a pond, in a square of a city, intricate details, extreme high contract, sharp image, 8k resolution, in the style of Anish Kapoor. Commercial studio lighting setup, sleek surface highlights, ultra-sharp product focus, soft drop shadows, clean high-end catalog presentation style, 8k commercial render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782124692/prompts/tuwitmxmhsbbfpq52ryd.webp",
     "isPremium": false,
     "author": "Admin",
@@ -249,7 +271,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmxeft34f1w",
@@ -270,14 +294,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmpbdn4qugp",
     "title": "ECHOES BEYOND : AI HOME PAGE",
     "slug": "echoes-beyond-ai-home-page-xlnqy",
     "category": "Product",
-    "fullPrompt": "a web site based on this picture,ui/ux,8k,landing page, dribbble, sleek, black",
+    "fullPrompt": "a web site based on this picture,ui/ux,8k,landing page, dribbble, sleek, black. Commercial studio lighting setup, sleek surface highlights, ultra-sharp product focus, soft drop shadows, clean high-end catalog presentation style, 8k commercial render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782124542/prompts/ui0j4hklv9pdqxwtor5b.webp",
     "isPremium": false,
     "author": "Admin",
@@ -291,14 +317,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "low",
+    "seoIndex": false
   },
   {
     "id": "cmj1p0mrqi1",
     "title": "THE WALLBREAKER : AWAKENING OF THE FORGOTTEN STATUE",
     "slug": "the-wallbreaker-awakening-of-the-forgotten-statue-3sey9",
     "category": "Product",
-    "fullPrompt": "Statue of {персонаж} coming from a wall, almost comes to life; HD, 3D",
+    "fullPrompt": "A colossal stone ancient guardian statue breaking out of an ancient mossy stone wall, crumbling ruins, golden dust particles illuminated by sunbeams, epic cinematic fantasy. Commercial studio lighting setup, sleek surface highlights, ultra-sharp product focus, soft drop shadows, clean high-end catalog presentation style, 8k commercial render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782124423/prompts/phtrx2cnx1znxpbwqfqh.webp",
     "isPremium": false,
     "author": "Admin",
@@ -312,14 +340,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cmp7fwtfvrv",
     "title": "ONYX GODDESS : FRACTURE OF DIVINITY",
     "slug": "onyx-goddess-fracture-of-divinity-ngudc",
     "category": "Product",
-    "fullPrompt": "ultra detailed shot of a shattering sculpture made of black onyx representing a dressed goddess, full body zoomed, ((black glitter explosion)), side view, motion effects, ((shattering sculpture)), colorful cristal particles floating as the sculpture shatter in loads of tiny pieces, studio lights, ultra sharp focus, high speed shot, soft colors",
+    "fullPrompt": "ultra detailed shot of a shattering sculpture made of black onyx representing a dressed goddess, full body zoomed, ((black glitter explosion)), side view, motion effects, ((shattering sculpture)), colorful cristal particles floating as the sculpture shatter in loads of tiny pieces, studio lights, ultra sharp focus, high speed shot, soft colors. Commercial studio lighting setup, sleek surface highlights, ultra-sharp product focus, soft drop shadows, clean high-end catalog presentation style, 8k commercial render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782124362/prompts/byeus91kbtquadz7yabf.webp",
     "isPremium": false,
     "author": "Admin",
@@ -333,7 +363,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm5b48u3p5a",
@@ -354,7 +386,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmiruolbezp",
@@ -375,7 +409,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmg6v9eu5hh",
@@ -396,14 +432,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmomvsh4de7",
     "title": "VIOLET MOMENT : THE ADIDAS STATE OF GRAVITY",
     "slug": "violet-moment-the-adidas-state-of-gravity-pw2qc",
     "category": "Product",
-    "fullPrompt": "Hyper-realistic cinematic full-body fashion portrait of a blonde woman with consistent facial features and hairstyle. Sitting on a bright purple bean bag, leaning forward, wearing an oversized purple trench coat, white pants, chunky sneakers, a silver watch, and black sunglasses. Solid purple background with dramatic studio lighting, high contrast, sharp focus, and Adidas campaign aesthetic.",
+    "fullPrompt": "Hyper-realistic cinematic full-body fashion portrait of a blonde woman with consistent facial features and hairstyle. Sitting on a bright purple bean bag, leaning forward, wearing an oversized purple trench coat, white pants, chunky sneakers, a silver watch, and black sunglasses. Solid purple background with dramatic studio lighting, high contrast, sharp focus, and Adidas campaign aesthetic. Commercial studio lighting setup, sleek surface highlights, ultra-sharp product focus, soft drop shadows, clean high-end catalog presentation style, 8k commercial render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782124076/prompts/oh5o0ne9ipxs0sk9w7np.webp",
     "isPremium": false,
     "author": "Admin",
@@ -417,7 +455,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm6708smb4h",
@@ -438,7 +478,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmlcsh5biqf",
@@ -459,14 +501,16 @@
     "tags": [],
     "models": [
       "Flow AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm71aro6q7l",
     "title": "Sweet Gravity — The Floating Cupcake Shot",
     "slug": "sweet-gravity-the-floating-cupcake-shot-rwghn",
     "category": "Product",
-    "fullPrompt": "Capture a stunning Product Photography image of a delicious cupcake in mid-air,\nshowcasing its irresistible texture and mouthwatering frosting",
+    "fullPrompt": "Capture a stunning Product Photography image of a delicious cupcake in mid-air,\nshowcasing its irresistible texture and mouthwatering frosting. Commercial studio lighting setup, sleek surface highlights, ultra-sharp product focus, soft drop shadows, clean high-end catalog presentation style, 8k commercial render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782123804/prompts/ly9lvspmigewv1z7zhm2.webp",
     "isPremium": false,
     "author": "Admin",
@@ -480,14 +524,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cmz2ehbcktt",
     "title": "Future in Flight — The Floating Smartphone Reveal",
     "slug": "future-in-flight-the-floating-smartphone-reveal-pmfy2",
     "category": "Product",
-    "fullPrompt": "Create an eye-catching Product Photography shot of a sleek smartphone\nsuspended in midair, highlighting its sleek design and cutting-edge features ",
+    "fullPrompt": "Create an eye-catching Product Photography shot of a sleek smartphone\nsuspended in midair, highlighting its sleek design and cutting-edge features. Commercial studio lighting setup, sleek surface highlights, ultra-sharp product focus, soft drop shadows, clean high-end catalog presentation style, 8k commercial render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782123746/prompts/f5ed2wm5m4tdtxfbfokc.webp",
     "isPremium": false,
     "author": "Admin",
@@ -501,14 +547,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cm5wfkpy8e1",
     "title": "Motion Engine — The Mid-Stride Performance Shot",
     "slug": "motion-engine-the-midstride-performance-shot-tkdfj",
     "category": "Product",
-    "fullPrompt": "Craft a dynamic Product Photography image of a running shoe frozen in\nmid-stride, conveying its durability and performance-enhancing qualities ",
+    "fullPrompt": "Craft a dynamic Product Photography image of a running shoe frozen in\nmid-stride, conveying its durability and performance-enhancing qualities. Commercial studio lighting setup, sleek surface highlights, ultra-sharp product focus, soft drop shadows, clean high-end catalog presentation style, 8k commercial render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782123688/prompts/a7x0xlork6pfekjc2a23.webp",
     "isPremium": false,
     "author": "Admin",
@@ -522,14 +570,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cmdj3v8ilps",
     "title": "Spin Pulse — The Mesmerizing Motion Capture",
     "slug": "spin-pulse-the-mesmerizing-motion-capture-dd132",
     "category": "Product",
-    "fullPrompt": "Develop a captivating Product Photography shot of a spinning fidget spinner,\ncapturing its mesmerizing motion and vibrant colors",
+    "fullPrompt": "Develop a captivating Product Photography shot of a spinning fidget spinner,\ncapturing its mesmerizing motion and vibrant colors. Commercial studio lighting setup, sleek surface highlights, ultra-sharp product focus, soft drop shadows, clean high-end catalog presentation style, 8k commercial render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782123604/prompts/adw9l9phv9ewulza2zvl.webp",
     "isPremium": false,
     "author": "Admin",
@@ -543,14 +593,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cmp6wg9niuo",
     "title": "Liquid Aroma — The Art of the Perfect Pour",
     "slug": "liquid-aroma-the-art-of-the-perfect-pour-sqwh4",
     "category": "Product",
-    "fullPrompt": "Design an artistic Product Photography image of a cascading pour of coffee,\nshowcasing the rich aroma and enticing qualities of a gourmet brew",
+    "fullPrompt": "Design an artistic Product Photography image of a cascading pour of coffee,\nshowcasing the rich aroma and enticing qualities of a gourmet brew. Commercial studio lighting setup, sleek surface highlights, ultra-sharp product focus, soft drop shadows, clean high-end catalog presentation style, 8k commercial render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782123487/prompts/mx5zqjwqo6fpigoihboh.webp",
     "isPremium": false,
     "author": "Admin",
@@ -564,14 +616,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cmmrqgjf8zd",
     "title": "Ink in the Air — The Floating Feather Elegance",
     "slug": "ink-in-the-air-the-floating-feather-elegance-mb0rz",
     "category": "Product",
-    "fullPrompt": "Capture an elegant Product Photography shot of a floating feather pen, evoking\na sense of sophistication and timeless style",
+    "fullPrompt": "Capture an elegant Product Photography shot of a floating feather pen, evoking\na sense of sophistication and timeless style. Commercial studio lighting setup, sleek surface highlights, ultra-sharp product focus, soft drop shadows, clean high-end catalog presentation style, 8k commercial render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782123426/prompts/gdabmeqesrcksbejsylv.webp",
     "isPremium": false,
     "author": "Admin",
@@ -585,14 +639,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cmaixdetndq",
     "title": "Liquid Radiance — The Floating Elixir of Beauty",
     "slug": "liquid-radiance-the-floating-elixir-of-beauty-gpa76",
     "category": "Product",
-    "fullPrompt": "Create an alluring Product Photography image of a floating skincare serum\nbottle, emphasizing its luxurious ingredients and rejuvenating properties\n",
+    "fullPrompt": "Create an alluring Product Photography image of a floating skincare serum\nbottle, emphasizing its luxurious ingredients and rejuvenating properties. Commercial studio lighting setup, sleek surface highlights, ultra-sharp product focus, soft drop shadows, clean high-end catalog presentation style, 8k commercial render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782123361/prompts/sxoemd9whmzib4asyqjh.webp",
     "isPremium": false,
     "author": "Admin",
@@ -606,14 +662,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cmyvncfds62",
     "title": "Nature’s Bloom — The Floating Fruit Symphony",
     "slug": "natures-bloom-the-floating-fruit-symphony-rxgay",
     "category": "Product",
-    "fullPrompt": "Develop a vibrant Product Photography image of a floating fruit bowl overflowing\nwith fresh, ripe fruits, highlighting their juiciness and natural beauty ",
+    "fullPrompt": "Develop a vibrant Product Photography image of a floating fruit bowl overflowing\nwith fresh, ripe fruits, highlighting their juiciness and natural beauty. Commercial studio lighting setup, sleek surface highlights, ultra-sharp product focus, soft drop shadows, clean high-end catalog presentation style, 8k commercial render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782123292/prompts/jmtuh8aq1owglyxi71wj.webp",
     "isPremium": false,
     "author": "Admin",
@@ -627,14 +685,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cmdms01kzs2",
     "title": "Skyframe Drift — The Aerial Machine in Motion",
     "slug": "skyframe-drift-the-aerial-machine-in-motion-ttbup",
     "category": "Product",
-    "fullPrompt": "Design a dynamic Product Photography shot of a hovering drone, showcasing its\nadvanced aerial capabilities and capturing the thrill of flight",
+    "fullPrompt": "Design a dynamic Product Photography shot of a hovering drone, showcasing its\nadvanced aerial capabilities and capturing the thrill of flight. Commercial studio lighting setup, sleek surface highlights, ultra-sharp product focus, soft drop shadows, clean high-end catalog presentation style, 8k commercial render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782123229/prompts/qqdiz9pzojocncwsdbpi.webp",
     "isPremium": false,
     "author": "Admin",
@@ -648,14 +708,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cm31pjo32ru",
     "title": "Skybound Celebration — The Floating Balloon Dream",
     "slug": "skybound-celebration-the-floating-balloon-dream-xwa4d",
     "category": "Product",
-    "fullPrompt": "Create a whimsical Product Photography shot of a floating bouquet of balloons,\nconveying a sense ofjoy and celebration",
+    "fullPrompt": "Create a whimsical Product Photography shot of a floating bouquet of balloons,\nconveying a sense ofjoy and celebration. Commercial studio lighting setup, sleek surface highlights, ultra-sharp product focus, soft drop shadows, clean high-end catalog presentation style, 8k commercial render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782123160/prompts/siweqfcwmue1mz3bz8t5.webp",
     "isPremium": false,
     "author": "Admin",
@@ -669,14 +731,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cmvf7dg0aqj",
     "title": "Pages of Wonder — The Levitating Storybook",
     "slug": "pages-of-wonder-the-levitating-storybook-fg4d7",
     "category": "Product",
-    "fullPrompt": "Craft an enchanting Product Photography image of a levitating book, evoking a\nsense of wonder and the power of storytelling",
+    "fullPrompt": "Craft an enchanting Product Photography image of a levitating book, evoking a\nsense of wonder and the power of storytelling. Commercial studio lighting setup, sleek surface highlights, ultra-sharp product focus, soft drop shadows, clean high-end catalog presentation style, 8k commercial render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782123043/prompts/jfouwcc95q9wiazo9axb.webp",
     "isPremium": false,
     "author": "Admin",
@@ -690,14 +754,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cmwkk9uqdc8",
     "title": "Essence in the Air — The Floating Perfume Elegance",
     "slug": "essence-in-the-air-the-floating-perfume-elegance-bvpdd",
     "category": "Product",
-    "fullPrompt": "Develop a captivating Product Photography shot of a levitating perfume bottle,\naccentuating its elegance and captivating fragrance",
+    "fullPrompt": "Develop a captivating Product Photography shot of a levitating perfume bottle,\naccentuating its elegance and captivating fragrance. Commercial studio lighting setup, sleek surface highlights, ultra-sharp product focus, soft drop shadows, clean high-end catalog presentation style, 8k commercial render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782122961/prompts/g9iuos5mvyrra1izimla.webp",
     "isPremium": false,
     "author": "Admin",
@@ -711,14 +777,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cmo74m1ccgk",
     "title": "Palette of Imagination — The Floating Artist’s Touch",
     "slug": "palette-of-imagination-the-floating-artists-touch-5le3a",
     "category": "Product",
-    "fullPrompt": "Design an artistic Product Photography image of a floating paint palette and\nbrushes, capturing the essence of creativity and artistic expression",
+    "fullPrompt": "Design an artistic Product Photography image of a floating paint palette and\nbrushes, capturing the essence of creativity and artistic expression. Commercial studio lighting setup, sleek surface highlights, ultra-sharp product focus, soft drop shadows, clean high-end catalog presentation style, 8k commercial render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782122888/prompts/zulzpue4d8yd3aaum8e7.webp",
     "isPremium": false,
     "author": "Admin",
@@ -732,14 +800,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cmuqhn1iorq",
     "title": "Soundwave Drift — The Floating Audio Experience",
     "slug": "soundwave-drift-the-floating-audio-experience-76fnp",
     "category": "Product",
-    "fullPrompt": "Create a visually engaging Product Photography image of a floating headphones\nset, emphasizing its immersive audio experience and sleek design",
+    "fullPrompt": "Create a visually engaging Product Photography image of a floating headphones\nset, emphasizing its immersive audio experience and sleek design. Commercial studio lighting setup, sleek surface highlights, ultra-sharp product focus, soft drop shadows, clean high-end catalog presentation style, 8k commercial render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782122832/prompts/sdzjl0goe942ydpbhyw2.webp",
     "isPremium": false,
     "author": "Admin",
@@ -753,14 +823,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cm2dergtk9f",
     "title": "Gravity Ride — The Hovering Freedom Board",
     "slug": "gravity-ride-the-hovering-freedom-board-tbrcv",
     "category": "Product",
-    "fullPrompt": "Capture a striking Product Photography shot of a hovering skateboard,\nshowcasing its sleek design and the freedom of motion it offers ",
+    "fullPrompt": "Capture a striking Product Photography shot of a hovering skateboard,\nshowcasing its sleek design and the freedom of motion it offers. Commercial studio lighting setup, sleek surface highlights, ultra-sharp product focus, soft drop shadows, clean high-end catalog presentation style, 8k commercial render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782122749/prompts/pdrufdn915fwdekptrdd.webp",
     "isPremium": false,
     "author": "Admin",
@@ -774,14 +846,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cm25pnxspas",
     "title": "Frozen Impact — The Energy of the Game",
     "slug": "frozen-impact-the-energy-of-the-game-nocwe",
     "category": "Product",
-    "fullPrompt": "Craft a dynamic Product Photography shot of a floating sports ball frozen in\n28\naction, conveying the excitement and energy of athletic pursuit",
+    "fullPrompt": "Craft a dynamic Product Photography shot of a floating sports ball frozen in\n28\naction, conveying the excitement and energy of athletic pursuit. Commercial studio lighting setup, sleek surface highlights, ultra-sharp product focus, soft drop shadows, clean high-end catalog presentation style, 8k commercial render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782122668/prompts/bzglpvogvfbczhbjm1sf.webp",
     "isPremium": false,
     "author": "Admin",
@@ -795,14 +869,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cmzq7urtrt0",
     "title": "Smart Orbit — The Future of Connected Living",
     "slug": "smart-orbit-the-future-of-connected-living-nwpax",
     "category": "Product",
-    "fullPrompt": "Design a futuristic Product Photography shot of a levitating smart home device,\nshowcasing its advanced features and seamless integration into daily life",
+    "fullPrompt": "Design a futuristic Product Photography shot of a levitating smart home device,\nshowcasing its advanced features and seamless integration into daily life. Commercial studio lighting setup, sleek surface highlights, ultra-sharp product focus, soft drop shadows, clean high-end catalog presentation style, 8k commercial render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782121905/prompts/tsekjick9aeyy9png7xw.webp",
     "isPremium": false,
     "author": "Admin",
@@ -816,14 +892,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cmq2bhkusbi",
     "title": "Power in the Air — The Minimal Charge",
     "slug": "power-in-the-air-the-minimal-charge-acizk",
     "category": "Product",
-    "fullPrompt": "Develop a minimalist Product Photography image of a hovering smartphone\ncharger, emphasizing its simplicity and convenience ",
+    "fullPrompt": "Develop a minimalist Product Photography image of a hovering smartphone\ncharger, emphasizing its simplicity and convenience. Commercial studio lighting setup, sleek surface highlights, ultra-sharp product focus, soft drop shadows, clean high-end catalog presentation style, 8k commercial render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782121848/prompts/luc7w8nwo0h3x6ebiaz2.webp",
     "isPremium": false,
     "author": "Admin",
@@ -837,7 +915,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cm7xxbv2cg3",
@@ -858,14 +938,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmp416v5cg6",
     "title": "Modern business card mockup with blue accents",
     "slug": "modern-business-card-mockup-with-blue-ac-xqdcv",
     "category": "Product",
-    "fullPrompt": "Create a modern, premium, professional, and print-ready double-sided visiting card using the information provided below.\n\n## CARD SIZE AND PRINT FORMAT\n\nCard Size: 3.5 × 2 inches\nOrientation: [Landscape / Portrait]\nResolution: 300 DPI\nColor Mode: CMYK print-ready appearance\nInclude 3 mm bleed area and safe margins.\nUse sharp, high-resolution text, icons, logos, and graphics.\n\n## DESIGN STYLE\n\nDesign Theme: [Modern / Corporate / Luxury / Minimal / Creative / Technology]\n\nMain Colors: [Color 01] + [Color 02] + [Color 03]\n\nCreate a clean, elegant, premium, and professional layout with:\n\n* Clear visual hierarchy\n* Balanced spacing\n* Modern professional typography\n* Subtle gradients or abstract shapes\n* Thin decorative lines\n* Soft shadows where appropriate\n* Sufficient white space\n* High readability\n* Proper alignment\n* Premium business branding\n\nDo not make the design overcrowded.\n\nDo not use unnecessary graphics, excessive colors, heavy backgrounds, or difficult-to-read fonts.\n\n## FRONT SIDE\n\nPlace the following information professionally:\n\nLogo: [Upload or describe the logo]\n\nBusiness or Brand Name:\n[BRAND NAME]\n\nTagline:\n[TAGLINE]\n\nUse the logo and brand name as the main visual focus.\n\nAdd a premium abstract background, geometric pattern, gradient, or subtle brand-related graphic.\n\n## BACK SIDE\n\nAdd the following personal and contact information:\n\nFull Name:\n[YOUR FULL NAME]\n\nJob Title / Profession:\n[JOB TITLE]\n\nCompany / Institution:\n[COMPANY NAME]\n\nMobile Number:\n[PHONE NUMBER]\n\nWhatsApp Number:\n[WHATSAPP NUMBER]\n\nEmail Address:\n[EMAIL ADDRESS]\n\nWebsite:\n[WEBSITE ADDRESS]\n\nFacebook Page:\n[FACEBOOK PAGE]\n\nInstagram / TikTok / YouTube:\n[SOCIAL MEDIA NAME]\n\nOffice Address:\n[BUSINESS ADDRESS]\n\nQR Code:\n[WEBSITE / WHATSAPP / FACEBOOK / DIGITAL PROFILE LINK]\n\nUse suitable minimal icons beside the phone number, WhatsApp, email, website, social media, and address.\n\n## QR CODE INSTRUCTIONS\n\nPlace the QR code inside a clean white box.\n\nMaintain enough white space around the QR code.\n\nDo not crop, distort, decorate, blur, or cover the QR code.\n\nThe QR code must remain clearly visible and scannable.\n\n## TYPOGRAPHY\n\nUse a professional and modern font.\n\nMake the person’s name bold and prominent.\n\nDisplay the job title slightly smaller below the name.\n\nKeep all contact information clearly readable.\n\nUse correct spelling, punctuation, capitalization, and spacing.\n\nDo not add or invent any information.\n\nUse only the information provided.\n\n## FINAL OUTPUT\n\nGenerate separate high-resolution images for:\n\n1. Front Side\n2. Back Side\n3. Realistic Visiting Card Mockup\n\nThe final design must look professional, premium, balanced, elegant, and suitable for printing and business use.\n\nPresent the card on a clean background without changing the original card design.\n\nEnsure all text is accurate, sharp, correctly aligned, and clearly readable.",
+    "fullPrompt": "A modern luxury corporate business card mockup with deep blue and metallic gold foil accents, realistic paper texture, soft studio drop shadows, professional branding layout. Commercial studio lighting setup, sleek surface highlights, ultra-sharp product focus, soft drop shadows, clean high-end catalog presentation style, 8k commercial render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784892067/prompts/x2rrvqdmye3bqilgfhqz.webp",
     "isPremium": false,
     "isTrending": false,
@@ -879,6 +961,8 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   }
 ]

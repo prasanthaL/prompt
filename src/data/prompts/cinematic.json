@@ -18,14 +18,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmo7lqspx0p",
     "title": "Miniature Me",
     "slug": "miniature-me-muo0s",
     "category": "Cinematic",
-    "fullPrompt": "cinematic portrait above girl as her miniature version. side by side against textured dark wall, handwritten \"miniature mei\" text. both in matching dresses, hands are folded. woman leans with soft smile; child has cartoon-style face, large expressive eyes. ultra-realistic skin texture, warm soft lighting, shallow depth of field, sharp focus, studio quality.",
+    "fullPrompt": "cinematic portrait above girl as her miniature version. side by side against textured dark wall, handwritten \"miniature mei\" text. both in matching dresses, hands are folded. woman leans with soft smile; child has cartoon-style face, large expressive eyes. ultra-realistic skin texture, warm soft lighting, shallow depth of field, sharp focus, studio quality. Shot on 35mm anamorphic lens, deep dramatic shadows, volumetric atmospheric lighting, cinematic color balance, film grain texture, wide aspect ratio shot, 4K render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782198511/prompts/grpvctnsrmnkqxmgwelt.webp",
     "isPremium": false,
     "author": "Admin",
@@ -39,7 +41,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm85o3ju3i7",
@@ -60,7 +64,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmxw2igkvqu",
@@ -81,7 +87,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmpih28hsb2",
@@ -102,7 +110,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm35b3svlcs",
@@ -123,7 +133,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm4n2nhq0ay",
@@ -144,14 +156,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmqgcx6je92",
     "title": "Breaking Through: Digital Identity Escape",
     "slug": "breaking-through-digital-identity-escape-wnloj",
     "category": "Cinematic",
-    "fullPrompt": "Use the reference image as the exact subject identity. Create a scene of the person emerging out of a giant tilted smartphone showing their social media profile. Replace username, profile photo, and posts with the subject’s face and {name}. Dynamic pose stepping through shattered screen glass toward camera, flying shards, strong depth perspective, warm indoor bokeh background, realistic lighting, ultra-detailed skin/clothes, viral Instagram ad aesthetic, photoreal 3D realism.",
+    "fullPrompt": "A futuristic hacker breaking through glowing blue digital code matrices, holographic identity fragments dispersing into pixelated light, dramatic cybernetic aesthetic. Shot on 35mm anamorphic lens, deep dramatic shadows, volumetric atmospheric lighting, cinematic color balance, film grain texture, wide aspect ratio shot, 4K render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782197884/prompts/hzfhvpxlri4suhw7vtzi.webp",
     "isPremium": false,
     "author": "Admin",
@@ -165,7 +179,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cmuld8e8maw",
@@ -186,7 +202,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm0i7hxnk9n",
@@ -207,7 +225,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmd1ov4t4k7",
@@ -228,7 +248,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm0aqh8us4r",
@@ -249,7 +271,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm4b1x1gqkk",
@@ -270,7 +294,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm6ss03wswb",
@@ -291,7 +317,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmjkjnjr9ox",
@@ -312,28 +340,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
-  },
-  {
-    "id": "cm3k0mnzklj",
-    "title": "PROMPT BIT: The Story Behind The System",
-    "slug": "prompt-bit-the-story-behind-the-system-4mxdh",
-    "category": "Cinematic",
-    "fullPrompt": "looking upward with a calm untouchable myth-like expression, hair and silhouette dissolving into a double exposure universe with glowing neural networks and AI data streams, floating particles and digital fragments, ink splashes and watercolour diffusion, subtle premium gold energy accents, cinematic layered storytelling inside the silhouette featuring performing on a massive stage with spotlight, crowd silhouettes showing scale and influence, walking through Melbourne CBD as a main character moment, AI holograms and futuristic interfaces, content creation podcast and media presence, all blended seamlessly with smoke, ink, light streaks and soft glitch digital effects, full-body Kanji Low in the lower section standing like a fashion icon in a tailored black suit with subtle gold accents including chain and watch, relaxed confident pose hands in pockets or mid-walk, clean studio lighting with cinematic shadows, background with soft textured off-white and grey canvas, Melbourne skyline fused with global city lights, abstract AI core glow behind the head like a halo, ink brush strokes flowing through the composition with optional subtle cherry blossoms for contrast, typography minimal and iconic with luxury cinematic serif and wide spacing reading PROMPT BIT with subtitle PROMPT ENGINEER and optional line THE STORY BEHIND THE SYSTEM or BUILDING THE FUTURE IN SILENCE, editorial cinematic artistic hybrid style with double exposure storytelling, soft desaturated palette with gold highlights, high-end magazine or Netflix documentary poster feel, legendary untouchable artistic mood that feels like a global figure, ultra-realistic 8K rendering with sharp facial detail, soft edge blending and premium lighting and depth, Face and body exactly same as uploaded image.",
-    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782197390/prompts/a779g52lcllnzxmkik5f.webp",
-    "isPremium": false,
-    "author": "Admin",
-    "views": 0,
-    "likes": 0,
-    "createdAt": "2026-05-10T06:40:06.676Z",
-    "updatedAt": "2026-06-23T06:49:51.089Z",
-    "isTrending": false,
-    "isLatest": false,
-    "isFeatured": false,
-    "tags": [],
-    "models": [
-      "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cme1k5wty30",
@@ -354,7 +363,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmat35mz598",
@@ -375,7 +386,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmutkllkn46",
@@ -396,7 +409,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmfcjz7of6b",
@@ -417,7 +432,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmqbfldsg90",
@@ -438,7 +455,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmtkx3b8gza",
@@ -459,7 +478,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmwglv15v8v",
@@ -480,7 +501,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "low",
+    "seoIndex": false
   },
   {
     "id": "cm93gxw5zpg",
@@ -501,7 +524,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmd43dthgis",
@@ -522,7 +547,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmb9xjw4g0f",
@@ -543,7 +570,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmr7ddmitn7",
@@ -564,7 +593,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmtpa2o3yho",
@@ -585,7 +616,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmyvt9hsovj",
@@ -606,7 +639,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm3qeocig9c",
@@ -627,7 +662,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmkvtexjh12",
@@ -648,7 +685,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm7l1h4a8zg",
@@ -669,7 +708,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmzk566yat7",
@@ -690,7 +731,9 @@
     "tags": [],
     "models": [
       "Flow AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cminqtqnoco",
@@ -711,14 +754,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm8lcd2kum7",
     "title": "BENEATH THE SHADOW",
     "slug": "beneath-the-shadow-rjzhk",
     "category": "Cinematic",
-    "fullPrompt": "cinematic editorial portrait, young man with messy curly hair covering eyes, three-quarter profile, moody expression, deep shadow casting a strong silhouette on the wall, intense red/orange background with hard directional spotlight beam, high contrast chiaroscuro, warm highlights and deep blacks, realistic skin texture and subtle stubble, matte black t-shirt.",
+    "fullPrompt": "cinematic editorial portrait, young man with messy curly hair covering eyes, three-quarter profile, moody expression, deep shadow casting a strong silhouette on the wall, intense red/orange background with hard directional spotlight beam, high contrast chiaroscuro, warm highlights and deep blacks, realistic skin texture and subtle stubble, matte black t-shirt. Shot on 35mm anamorphic lens, deep dramatic shadows, volumetric atmospheric lighting, cinematic color balance, film grain texture, wide aspect ratio shot, 4K render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782195382/prompts/dsu7tehsr5r7ornqd3up.webp",
     "isPremium": false,
     "author": "Admin",
@@ -732,7 +777,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm7iegu6nzq",
@@ -753,14 +800,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmkham9s5q0",
     "title": "Golden Light Legacy: Cinematic Multi-Panel Hero Portrait Poster",
     "slug": "golden-light-legacy-cinematic-multipanel-hero-portrait-poster-aisr8",
     "category": "Cinematic",
-    "fullPrompt": "A cinematic, high-resolution movie poster featuring me. The composition consists of a large, vibrant, full-color portrait of me in the bottom center foreground, wearing a black blazer and black shirt, illuminated by warm, directional golde lighting on his face, looking off to the right. Behind him are five vertical rectangular panels arranged in a staggered, symmetrical formation.",
+    "fullPrompt": "A cinematic, high-resolution movie poster featuring me. The composition consists of a large, vibrant, full-color portrait of me in the bottom center foreground, wearing a black blazer and black shirt, illuminated by warm, directional golde lighting on his face, looking off to the right. Behind him are five vertical rectangular panels arranged in a staggered, symmetrical formation. Shot on 35mm anamorphic lens, deep dramatic shadows, volumetric atmospheric lighting, cinematic color balance, film grain texture, wide aspect ratio shot, 4K render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782195287/prompts/vhidss07yimvpe5ag4zy.webp",
     "isPremium": false,
     "author": "Admin",
@@ -774,14 +823,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmtp8msdaj4",
     "title": "Ethereal Sky Blue Engagement: Romantic Indian Couple Cinematic Collage Poster",
     "slug": "ethereal-sky-blue-engagement-romantic-indian-couple-cinematic-collage-poster-hmkc3",
     "category": "Cinematic",
-    "fullPrompt": "A luxurious Indian engagement collage poster of a young South Asian couple in coordinated pastel sky-blue traditional outfits, romantic outdoor candid photography with soft daylight and dreamy cinematic atmosphere. Bride in embroidered blue lehenga with silver zari border, sheer dupatta, bridal jewelry, bangles, mehndi hands; groom in pastel blue sherwani with modern hairstyle and trimmed beard",
+    "fullPrompt": "A luxurious Indian engagement collage poster of a young South Asian couple in coordinated pastel sky-blue traditional outfits, romantic outdoor candid photography with soft daylight and dreamy cinematic atmosphere. Bride in embroidered blue lehenga with silver zari border, sheer dupatta, bridal jewelry, bangles, mehndi hands; groom in pastel blue sherwani with modern hairstyle and trimmed beard. Shot on 35mm anamorphic lens, deep dramatic shadows, volumetric atmospheric lighting, cinematic color balance, film grain texture, wide aspect ratio shot, 4K render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782195227/prompts/di5wmcv7je5pler7wvkv.webp",
     "isPremium": false,
     "author": "Admin",
@@ -795,7 +846,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm39j3dhzv5",
@@ -816,7 +869,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm9ujcdm8hq",
@@ -837,7 +892,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmfj44mzixj",
@@ -858,7 +915,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmj3rko7fb7",
@@ -879,7 +938,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmzrqxsvhgd",
@@ -900,7 +961,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmteof5jd8o",
@@ -921,7 +984,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmjw80pmvxp",
@@ -942,7 +1007,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm5tdiqgtje",
@@ -963,7 +1030,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm16l7wp94c",
@@ -984,7 +1053,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmqkifc9bme",
@@ -1005,7 +1076,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmqrxj9k60e",
@@ -1026,7 +1099,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmenod1pcp9",
@@ -1047,7 +1122,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm11ej9xa7d",
@@ -1068,7 +1145,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmj9bq91vzg",
@@ -1089,7 +1168,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmdgm57w2yp",
@@ -1110,7 +1191,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm5o1jnvpfo",
@@ -1131,7 +1214,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmk41lvrzpm",
@@ -1152,7 +1237,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmg6qg8ft27",
@@ -1173,14 +1260,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmf492y4u92",
     "title": "SONIC REALITY: Floating Music Interface – Dreamlike AR Street Portrait",
     "slug": "sonic-reality-floating-music-interface-dreamlike-ar-street-portrait-882v8",
     "category": "Cinematic",
-    "fullPrompt": "A Subject: me (use uploaded face 100% facial accuracy, no changes), with no extra brightness on the face, keeping my natural facial tone. Dreamlike, movie-quality augmented reality visual where numerous hovering Spotify player interface cards orbit the central figure (the person shown). I am leaning on a street light lamp on a realistic Indian street, holding a phone and looking at the phone in a complete 3D spatial composition, with each music player card strategically placed at varying distances, some prominently positioned in front and partially covering the subject, while others float behind and alongside them. Utilize authentic Apple Music UI / Spotify UI-inspired playback progress indicators and feature songs by [Artist Name].\nAll cards display smooth rounded edges with subtle angular perspective shifts, presenting a translucent frosted-glass aesthetic that radiates a gentle diffused border luminescence with measured cinematic light bloom interacting organically with the ambient lighting of the scene. The composition showcases a cool-to-neutral color palette with rich yet preserved shadow detail, strategic bursts of color from album artwork, medium-high contrast levels with gradual highlight transitions, delicate focal depth variation where nearer cards maintain crisp detail while farther ones receive gentle blur treatment, and understated motion-enhancing accents.\nKeep the subject photorealistic, centrally positioned, and authentically integrated into the physical surroundings. Wear an open yellow hoodie, black jeans, and white sneakers. Realistic Indian street background, cinematic evening atmosphere, soft street-lamp glow, ultra-detailed, realistic reflections, shallow depth of field, premium cinematic color grading, high realism, 4K, vertical composition.",
+    "fullPrompt": "A cinematic dreamlike augmented reality street portrait of Daft Punk standing on a realistic Indian street at twilight, surrounded by hovering translucent Apple Music floating album cards emitting soft neon luminescence. Shot on 35mm anamorphic lens, deep dramatic shadows, volumetric atmospheric lighting, cinematic color balance, film grain texture, wide aspect ratio shot, 4K render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782194115/prompts/fssquadyztnnn60crckv.webp",
     "isPremium": false,
     "author": "Admin",
@@ -1194,7 +1283,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cmt81wr34l8",
@@ -1215,7 +1306,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmuvx5h2glr",
@@ -1236,14 +1329,16 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmgf0tkptp7",
     "title": "FLOATING LIFESTYLE DREAM: Surreal Premium Conceptual Advertising",
     "slug": "floating-lifestyle-dream-surreal-premium-conceptual-advertising-vlqr5",
     "category": "Cinematic",
-    "fullPrompt": "Create a premium conceptual lifestyle advertising poster for [BRAND NAME].\n\nTOPIC:\n[LIFESTYLE / AGE GROUP / PRODUCT CAMPAIGN]\n\nSTYLE & ART DIRECTION:\n\nSurreal lifestyle collage aesthetic\n\nModern conceptual advertising design\n\nMixed-media editorial composition\n\nFloating-object storytelling\n\nPremium commercial branding\n\nCreative visual symbolism\n\nPinterest advertising aesthetic\n\nHigh-end marketing campaign style\n\nModern surreal visual hierarchy\n\nBehance-quality commercial artwork\n\nMAIN SUBJECT:\n\nA realistic person prominently centered in the composition\n\nNatural lifestyle pose connected to the campaign theme\n\nEmotional relatable expression\n\nFashionable realistic styling\n\nSurrounded by floating lifestyle-related objects\n\nCommercial editorial photography quality\n\nStrong storytelling atmosphere\n\nDynamic object interaction\n\nPremium advertising realism\n\nLAYOUT & COMPOSITION:\n\nSame exact conceptual-collage structure and visual hierarchy as the reference design\n\nMonochromatic background color\n\nPerson centered prominently\n\nMultiple floating objects orbiting around the subject\n\nMinimal typography placement\n\nSpacious clean negative space\n\nBalanced surreal collage composition\n\nEditorial advertising hierarchy\n\nStrong visual storytelling\n\nTEXT & TYPOGRAPHY:\n\nMinimal modern typography\n\nEditorial commercial font style\n\nSmall clean headline placement\n\nElegant campaign hierarchy\n\nMain title:\n\"[MAIN CAMPAIGN MESSAGE]\"\n\nSupporting text:\n\"[SECONDARY BRAND MESSAGE]\"\n\nDEPTH & LIGHTING:\n\nSoft commercial studio lighting\n\nRealistic floating shadows\n\nPremium collage depth\n\nEditorial object lighting\n\nSmooth realistic highlights\n\nHigh-end advertising atmosphere\n\nEXTRA DESIGN DETAILS:\n\nFloating lifestyle objects\n\nMinimal geometric accents\n\nAbstract shapes\n\nTiny decorative lines\n\nDynamic layered composition\n\nVisual storytelling elements\n\nEditorial spacing\n\nCOLOR PALETTE:\n\n[PRIMARY BACKGROUND COLOR]\n\nVibrant lifestyle accents\n\nNeutral realistic skin tones\n\nMinimal typography contrast\n\nQUALITY:\n\nUltra realistic commercial photography\n\nPremium conceptual advertising campaign\n\nBehance-level collage composition\n\nPinterest-ready commercial design\n\nSame exact visual identity and layout as the reference\n\nUltra high resolution",
+    "fullPrompt": "A premium conceptual lifestyle advertising poster for Nike featuring a young athlete leaping dynamically, surrounded by floating surreal sports gear, sleek minimalist layout, modern commercial typography, studio lighting. Shot on 35mm anamorphic lens, deep dramatic shadows, volumetric atmospheric lighting, cinematic color balance, film grain texture, wide aspect ratio shot, 4K render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782193799/prompts/ke7hiszeyqlrmpaaw9lr.webp",
     "isPremium": false,
     "author": "Admin",
@@ -1257,7 +1352,9 @@
     "tags": [],
     "models": [
       "Flow AI"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cm58voly6l1",
@@ -1278,7 +1375,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm8rr9brd2k",
@@ -1299,7 +1398,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmhpd81qs08",
@@ -1320,7 +1421,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmxgnvp5ewb",
@@ -1341,7 +1444,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmsdvyipkbq",
@@ -1362,7 +1467,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm5zfjs4905",
@@ -1383,14 +1490,16 @@
     "tags": [],
     "models": [
       "Flow AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmk9awad8jw",
     "title": "LOTUS VOWS: Sage Green Bridal Elegance – Five Panel Cinematic Collage",
     "slug": "lotus-vows-sage-green-bridal-elegance-five-panel-cinematic-collage-uybcv",
     "category": "Cinematic",
-    "fullPrompt": "High-resolution 5-panel vertical bridal collage of a young South Asian woman (same face, glowing skin, soft smile), wearing a pastel sage green lehenga with gold embroidery and traditional jewelry. Warm brown studio background with rose petals, brass decor, soft bokeh lights. Center: extreme close-up, eyes closed, holding pink lotus near cheek. Other panels: side pose, holding petal bowls..",
+    "fullPrompt": "High-resolution 5-panel vertical bridal collage of a young South Asian woman (same face, glowing skin, soft smile), wearing a pastel sage green lehenga with gold embroidery and traditional jewelry. Warm brown studio background with rose petals, brass decor, soft bokeh lights. Center: extreme close-up, eyes closed, holding pink lotus near cheek. Other panels: side pose, holding petal bowls.. Shot on 35mm anamorphic lens, deep dramatic shadows, volumetric atmospheric lighting, cinematic color balance, film grain texture, wide aspect ratio shot, 4K render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782193215/prompts/sefqbaycpnompofo0daj.webp",
     "isPremium": false,
     "author": "Admin",
@@ -1404,14 +1513,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmiqun6j0vd",
     "title": "GEN-Z LEARN LAB: Bright Academic Achievement Social Campaign",
     "slug": "genz-learn-lab-bright-academic-achievement-social-campaign-fjnfm",
     "category": "Cinematic",
-    "fullPrompt": "Create premium youth educational posters with layered typography, playful academic doodles, modern student branding, and Gen-Z social-media aesthetics.\nPerfect for schools, universities, student achievements, online courses, learning campaigns, and educational promotions. 📚\nBright.\nMotivational.\nModern.\nSocial-ready.Create a premium youth educational social-media poster for [BRAND / SCHOOL NAME].\n\nTOPIC:\n[STUDENT ACHIEVEMENT / SCHOOL CAMPAIGN / LEARNING PROMOTION]\n\nSTYLE & ART DIRECTION:\n- Playful educational collage aesthetic\n- Modern youth-oriented advertising style\n- Dynamic student-branding composition\n- Bright monochromatic background\n- Gen-Z school marketing atmosphere\n- Mixed-media educational design\n- Fun academic storytelling\n- Pinterest educational-poster style\n- Bold layered typography composition\n- Modern school social-media branding\n\nMAIN SUBJECT:\n- A realistic smiling student prominently positioned in the center\n- Dynamic expressive pose\n- Interacting with an educational object related to the campaign\n- Friendly energetic facial expression\n- Realistic lifestyle photography\n- Youthful modern styling\n- Commercial educational atmosphere\n- Premium social-media realism\n\nLAYOUT & COMPOSITION:\n- Same exact centered circular composition and visual hierarchy as the reference design\n- Typography overlapping and interacting with the subject\n- Strong monochromatic background\n- Floating educational doodles and icons around the composition\n- Dynamic layered layout\n- Minimal but energetic hierarchy\n- Clean social-media spacing\n- Strong central focus\n- Rounded visual rhythm\n\nTEXT & TYPOGRAPHY:\n- Large bold layered typography\n- Playful academic font style\n- Mixed-size educational lettering\n- Dynamic text integration with the character\n- Main title:\n\"[MAIN EDUCATIONAL MESSAGE]\"\n- Supporting text:\n\"[SECONDARY MOTIVATIONAL MESSAGE]\"\n\nDEPTH & LIGHTING:\n- Bright studio lighting\n- Soft realistic shadows\n- Floating layered depth\n- Premium educational advertising atmosphere\n- Realistic highlights and reflections\n- Clean commercial contrast\n\nEXTRA DESIGN DETAILS:\n- Academic doodles\n- Graduation icons\n- Books\n- Cameras\n- Geometric shapes\n- Floating school elements\n- Scribble graphics\n- Decorative icons\n- Abstract educational symbols\n\nCOLOR PALETTE:\n- [PRIMARY BACKGROUND COLOR]\n- White typography\n- Dark accent colors\n- Bright youthful contrast tones\n\nQUALITY:\n- Ultra realistic educational photography\n- Premium school social-media campaign\n- Behance-quality student advertising\n- Same exact visual identity and composition as the reference\n- Ultra high resolution",
+    "fullPrompt": "A vibrant Gen-Z educational campaign poster for Oxford Academy featuring a smiling student holding an interactive digital tablet, playful academic doodles, bold layered typography, bright teal and yellow color scheme. Shot on 35mm anamorphic lens, deep dramatic shadows, volumetric atmospheric lighting, cinematic color balance, film grain texture, wide aspect ratio shot, 4K render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782191922/prompts/jmzolrvt9ucamhbu0lc9.webp",
     "isPremium": false,
     "author": "Admin",
@@ -1425,7 +1536,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cmeall9kost",
@@ -1446,7 +1559,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmm7febd1bs",
@@ -1467,7 +1582,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmo73pn94sj",
@@ -1488,28 +1605,9 @@
     "tags": [],
     "models": [
       "Flow AI"
-    ]
-  },
-  {
-    "id": "cmno8aws4ip",
-    "title": "Golden Panels Cinematic Movie Poster",
-    "slug": "golden-panels-cinematic-movie-poster-w14go",
-    "category": "Cinematic",
-    "fullPrompt": "A cinematic, high-resolution movie poster featuring me. The composition consists of a large, vibrant, full-color portrait of me in the bottom center foreground, wearing a black blazer and black shirt, illuminated by warm, directional golde lighting on his face, looking off to the right. Behind him are five vertical rectangular panels arranged in a staggered, symmetrical formation.",
-    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782191512/prompts/efgv0ppfrntaag2itytt.webp",
-    "isPremium": false,
-    "author": "Admin",
-    "views": 0,
-    "likes": 0,
-    "createdAt": "2026-05-11T08:14:25.006Z",
-    "updatedAt": "2026-06-23T05:11:53.389Z",
-    "isTrending": false,
-    "isLatest": false,
-    "isFeatured": false,
-    "tags": [],
-    "models": [
-      "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm7awe0u82d",
@@ -1530,7 +1628,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm6cxupxrrd",
@@ -1551,7 +1651,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm2yhajim6l",
@@ -1572,7 +1674,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmfa5hidi8g",
@@ -1593,7 +1697,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmtih6u6vp1",
@@ -1614,7 +1720,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmi1g7cz61g",
@@ -1635,7 +1743,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmvr8evv7sz",
@@ -1656,7 +1766,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmyf2y3vcrj",
@@ -1677,7 +1789,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cme55hf0okp",
@@ -1698,7 +1812,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm108pb2lb4",
@@ -1719,7 +1835,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm36xlzdcwl",
@@ -1740,7 +1858,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm4pu5l6q5f",
@@ -1761,14 +1881,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmgn0sp2bz5",
     "title": "WHISPERS OF THE WILDERNESS",
     "slug": "whispers-of-the-wilderness-7zq1z",
     "category": "Cinematic",
-    "fullPrompt": "Create a captivating double exposure image by blending together a serene forest landscape and the profile of a person. The forest should serve as the underlying backdrop, with its details subtly incorporated into the contours of the person's silhouette,",
+    "fullPrompt": "Create a captivating double exposure image by blending together a serene forest landscape and the profile of a person. The forest should serve as the underlying backdrop, with its details subtly incorporated into the contours of the person's silhouette,. Shot on 35mm anamorphic lens, deep dramatic shadows, volumetric atmospheric lighting, cinematic color balance, film grain texture, wide aspect ratio shot, 4K render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782190324/prompts/cx7wn9pxdnowmbjhuetz.webp",
     "isPremium": false,
     "author": "Admin",
@@ -1782,14 +1904,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmuuw4wpeml",
     "title": "THE COSMIC MOTHER TREE",
     "slug": "the-cosmic-mother-tree-r91w5",
     "category": "Cinematic",
-    "fullPrompt": "A vibrant suspended forest in the universe with a colorful mother tree, the background is a colorful array of sparkling galaxies and stars",
+    "fullPrompt": "A vibrant suspended forest in the universe with a colorful mother tree, the background is a colorful array of sparkling galaxies and stars. Shot on 35mm anamorphic lens, deep dramatic shadows, volumetric atmospheric lighting, cinematic color balance, film grain texture, wide aspect ratio shot, 4K render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782190078/prompts/iq23q53bttsbtagctovg.webp",
     "isPremium": false,
     "author": "Admin",
@@ -1803,14 +1927,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cmtzswetciy",
     "title": "GOLDEN MIST OF THE HIDDEN HILLS",
     "slug": "golden-mist-of-the-hidden-hills-7tybd",
     "category": "Cinematic",
-    "fullPrompt": "A  beautiful scenary in China, at the hills, trees, serene, bright colour, fusion, fantasy, black and white golden hour, water colour, raining, magic, illusion",
+    "fullPrompt": "A  beautiful scenary in China, at the hills, trees, serene, bright colour, fusion, fantasy, black and white golden hour, water colour, raining, magic, illusion. Shot on 35mm anamorphic lens, deep dramatic shadows, volumetric atmospheric lighting, cinematic color balance, film grain texture, wide aspect ratio shot, 4K render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782189993/prompts/avoafeclrb7lbjaayiiq.webp",
     "isPremium": false,
     "author": "Admin",
@@ -1824,14 +1950,16 @@
     "tags": [],
     "models": [
       "Flow AI"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cmg13nzw6ng",
     "title": "LIQUID CHAOS : THE PAINTER OF FORGOTTEN NIGHTMARES",
     "slug": "liquid-chaos-the-painter-of-forgotten-nightmares-igf3v",
     "category": "Cinematic",
-    "fullPrompt": "Painter on action, liquid metal, fluid, full body, body gesture,  horror film 80's, dark art, cloudy,surrealism, postmodern",
+    "fullPrompt": "Painter on action, liquid metal, fluid, full body, body gesture,  horror film 80's, dark art, cloudy,surrealism, postmodern. Shot on 35mm anamorphic lens, deep dramatic shadows, volumetric atmospheric lighting, cinematic color balance, film grain texture, wide aspect ratio shot, 4K render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782189838/prompts/ryisbtms4p1ofrbyylao.webp",
     "isPremium": false,
     "author": "Admin",
@@ -1845,7 +1973,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cmc927i1lyu",
@@ -1866,14 +1996,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmsxvejw4ik",
     "title": "NEON TUNNEL : THE LAST DRIVE OF SILENCE",
     "slug": "neon-tunnel-the-last-drive-of-silence-jwr4o",
     "category": "Cinematic",
-    "fullPrompt": "Ultra-realistic cinematic shot of a man leaning against a luxury sports car inside a glowing mountain tunnel, wearing a fitted black outfit, tunnel lights creating cinematic reflections on the car surface, cold mountain fog visible outside tunnel opening, 8k ultra detail",
+    "fullPrompt": "Ultra-realistic cinematic shot of a man leaning against a luxury sports car inside a glowing mountain tunnel, wearing a fitted black outfit, tunnel lights creating cinematic reflections on the car surface, cold mountain fog visible outside tunnel opening, 8k ultra detail. Shot on 35mm anamorphic lens, deep dramatic shadows, volumetric atmospheric lighting, cinematic color balance, film grain texture, wide aspect ratio shot, 4K render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782189696/prompts/rfuq1qhrijuqtzcgrydx.webp",
     "isPremium": false,
     "author": "Admin",
@@ -1887,7 +2019,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmleesct9ha",
@@ -1908,14 +2042,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmkr29h1i0f",
     "title": "A OF LANKA : THE NATIONAL EMBLEM IN LIGHT",
     "slug": "a-of-lanka-the-national-emblem-in-light-bhfcg",
     "category": "Cinematic",
-    "fullPrompt": "create a letter \"{A}\" bold، the letter has flag of {Sri Lanka}, and famous building، with black background، digital art، fantasy 3d render nature photography، realistic",
+    "fullPrompt": "The grand national emblem of Sri Lanka sculpted in radiant golden light, glowing against a deep royal blue background with intricate lotus patterns and cinematic ambient bloom. Shot on 35mm anamorphic lens, deep dramatic shadows, volumetric atmospheric lighting, cinematic color balance, film grain texture, wide aspect ratio shot, 4K render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782189419/prompts/jla76bpqh5vubuulf3h0.webp",
     "isPremium": false,
     "author": "Admin",
@@ -1929,7 +2065,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cms91qgud16",
@@ -1950,14 +2088,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmrv2ltzb5u",
     "title": "SKY TIGER : THE BEAST ABOVE THE HEAVENS",
     "slug": "sky-tiger-the-beast-above-the-heavens-u4mqp",
     "category": "Cinematic",
-    "fullPrompt": "Create photo, thick white clouds in the shape of a majestic {tiger}, midday sunlight streaming through the clouds, small birds flying, hyperrealistic, intricate details, ultra hd 8k",
+    "fullPrompt": "A majestic golden bengal tiger soaring above cloud-capped mountain peaks, epic sky lighting, ethereal mist, cinematic fantasy wildlife masterpiece. Shot on 35mm anamorphic lens, deep dramatic shadows, volumetric atmospheric lighting, cinematic color balance, film grain texture, wide aspect ratio shot, 4K render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782189185/prompts/kngqfckactpmvsdiiicf.webp",
     "isPremium": false,
     "author": "Admin",
@@ -1971,14 +2111,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cm7bkelhqmk",
     "title": "THE FALLEN TITAN : BONES OF THE ANCIENT DRAGON",
     "slug": "the-fallen-titan-bones-of-the-ancient-dragon-ca93q",
     "category": "Cinematic",
-    "fullPrompt": "Hulking and awe-inspiring, the colossal mythical dragon skeleton looms partially submerged in the desert sand. Its massive jaw and intricately detailed eye sockets hint at a creature of immense power and ancient grandeur. This stunning photograph captures the size and majesty of the whole skeleton of the mythical being, with every intricate detail rendered in vivid clarity\n",
+    "fullPrompt": "Hulking and awe-inspiring, the colossal mythical dragon skeleton looms partially submerged in the desert sand. Its massive jaw and intricately detailed eye sockets hint at a creature of immense power and ancient grandeur. This stunning photograph captures the size and majesty of the whole skeleton of the mythical being, with every intricate detail rendered in vivid clarity. Shot on 35mm anamorphic lens, deep dramatic shadows, volumetric atmospheric lighting, cinematic color balance, film grain texture, wide aspect ratio shot, 4K render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782189127/prompts/jxufk2vnqawuumbt19vg.webp",
     "isPremium": false,
     "author": "Admin",
@@ -1992,14 +2134,16 @@
     "tags": [],
     "models": [
       "Flow AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmjtscgrcml",
     "title": "DIGITAL ROAR : THE SCREEN OF THE WILD",
     "slug": "digital-roar-the-screen-of-the-wild-hkvxa",
     "category": "Cinematic",
-    "fullPrompt": "Generate a cinematic and artistic portrayal of a magnificent tiger, its fur a vivid orange with delicate touches of yellow and brown, shattering a phone screen.The screen, producing a striking illusion of a cracked phone screen, making viewers sense as though their own screen has been fractured.",
+    "fullPrompt": "Generate a cinematic and artistic portrayal of a magnificent tiger, its fur a vivid orange with delicate touches of yellow and brown, shattering a phone screen.The screen, producing a striking illusion of a cracked phone screen, making viewers sense as though their own screen has been fractured. Shot on 35mm anamorphic lens, deep dramatic shadows, volumetric atmospheric lighting, cinematic color balance, film grain texture, wide aspect ratio shot, 4K render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782188988/prompts/lhx4ck0abpgr6k4injt2.webp",
     "isPremium": false,
     "author": "Admin",
@@ -2013,14 +2157,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmz0w45oniy",
     "title": "MICRO LUXE : THE ART OF PRECISION",
     "slug": "micro-luxe-the-art-of-precision-w9b5e",
     "category": "Cinematic",
-    "fullPrompt": "High-resolution advertising photography of a realistic miniature [Product], delicately held between the thumb and forefinger. A crisp, white background, studio lighting, and soft shadows. The hand is well-groomed, naturally skinned, and positioned to highlight the product's shape and detail. The product appears tiny, yet extremely detailed and on-brand, centered in the frame with a shallow depth of field. Mimicking luxury product photography and minimalist commercial style.",
+    "fullPrompt": "A ultra-detailed luxury mechanical wristwatch hovering in mid-air, precision micro-gear mechanics exposed, macro studio lighting, gold and obsidian metal textures, luxury catalog style. Shot on 35mm anamorphic lens, deep dramatic shadows, volumetric atmospheric lighting, cinematic color balance, film grain texture, wide aspect ratio shot, 4K render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782188924/prompts/iomwnkkpsltxkwzpafq3.webp",
     "isPremium": false,
     "author": "Admin",
@@ -2034,14 +2180,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cmgsqyupb7f",
     "title": "Name : URBAN FRAMES OF IDENTITY",
     "slug": "name-urban-frames-of-identity-iy6a9",
     "category": "Cinematic",
-    "fullPrompt": "A retro-urban styled poster featuring a young refference with image artist in multiple puses.\nHe wears a BLACK casual shirt and cinematic black and white background embroidered on the back., multiple silver rings and bracelets emphasize his flashy. The design is layered with close-up portraits, warm brown tones, bold typography reading \"JITESH\", and modern magazine-style collage aestheticrrepresenting",
+    "fullPrompt": "A retro-urban styled poster featuring a young refference with image artist in multiple puses.\nHe wears a BLACK casual shirt and cinematic black and white background embroidered on the back., multiple silver rings and bracelets emphasize his flashy. The design is layered with close-up portraits, warm brown tones, bold typography reading \"JITESH\", and modern magazine-style collage aestheticrrepresenting. Shot on 35mm anamorphic lens, deep dramatic shadows, volumetric atmospheric lighting, cinematic color balance, film grain texture, wide aspect ratio shot, 4K render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782188791/prompts/rbwbkqnmgwjjtnzl8dil.webp",
     "isPremium": false,
     "author": "Admin",
@@ -2055,7 +2203,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm9wb8zi8rc",
@@ -2076,7 +2226,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm0zcwnmjfp",
@@ -2097,7 +2249,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmcwfznbiz8",
@@ -2118,14 +2272,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmkot8ijqze",
     "title": "Stormbound — Cinematic Ocean Warrior",
     "slug": "stormbound-cinematic-ocean-warrior-lun9e",
     "category": "Cinematic",
-    "fullPrompt": "A young man same face looking side wearing grey casual jacket over black t shirt,black pant,white sneaker stands on dark coastal rocks with his arms normally open as powerful ocean waves crash dramatically around him under a cloudy, overcast sky, Cinematic,moody seascape.",
+    "fullPrompt": "A young man same face looking side wearing grey casual jacket over black t shirt,black pant,white sneaker stands on dark coastal rocks with his arms normally open as powerful ocean waves crash dramatically around him under a cloudy, overcast sky, Cinematic,moody seascape. Shot on 35mm anamorphic lens, deep dramatic shadows, volumetric atmospheric lighting, cinematic color balance, film grain texture, wide aspect ratio shot, 4K render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782186734/prompts/yppexyjline3osrfscei.webp",
     "isPremium": false,
     "author": "Admin",
@@ -2139,7 +2295,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmdn3da5ocw",
@@ -2160,14 +2318,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm0ej9jg30z",
     "title": "From Sculpt to Shelf — Studio Figure Showcase",
     "slug": "from-sculpt-to-shelf-studio-figure-showcase-6qq62",
     "category": "Cinematic",
-    "fullPrompt": "Ultra-realistic 1/7 scale figure of an illustrated character, posed naturally with lifelike details. Displayed on a modern desk with a clear acrylic base. On the monitor, show the ZBrush modeling process of the figure. Beside it, place a BANDAI-style packaging box with the character artwork. Use professional lighting and realistic shadows for a high-quality product photo look.",
+    "fullPrompt": "Ultra-realistic 1/7 scale figure of an illustrated character, posed naturally with lifelike details. Displayed on a modern desk with a clear acrylic base. On the monitor, show the ZBrush modeling process of the figure. Beside it, place a BANDAI-style packaging box with the character artwork. Use professional lighting and realistic shadows for a high-quality product photo look. Shot on 35mm anamorphic lens, deep dramatic shadows, volumetric atmospheric lighting, cinematic color balance, film grain texture, wide aspect ratio shot, 4K render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782186628/prompts/bdqwrxkfwolr7etm1lrl.webp",
     "isPremium": false,
     "author": "Admin",
@@ -2181,7 +2341,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmf7zbp0rcq",
@@ -2202,7 +2364,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmzwwzg2g05",
@@ -2223,14 +2387,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmnqzaos7mc",
     "title": "Ocean Eyes — Hyperreal Cinematic Close-Up",
     "slug": "ocean-eyes-hyperreal-cinematic-closeup-uocp7",
     "category": "Cinematic",
-    "fullPrompt": "A hyperrealistic, cinematic close-up portrait of a young, attractive man with light brown skin, symmetrical facial features, and well-groomed stubble. His thick, slightly tousled hair falls naturally with a few strands near his forehead. He has intense, deep blue-green eyes that catch the light.",
+    "fullPrompt": "A hyperrealistic, cinematic close-up portrait of a young, attractive man with light brown skin, symmetrical facial features, and well-groomed stubble. His thick, slightly tousled hair falls naturally with a few strands near his forehead. He has intense, deep blue-green eyes that catch the light. Shot on 35mm anamorphic lens, deep dramatic shadows, volumetric atmospheric lighting, cinematic color balance, film grain texture, wide aspect ratio shot, 4K render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782186337/prompts/w1fmilqqufk2vm108uhf.webp",
     "isPremium": false,
     "author": "Admin",
@@ -2244,7 +2410,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm6bxrztcq6",
@@ -2265,7 +2433,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmyhry8b4e2",
@@ -2286,7 +2456,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmbaa0xqxej",
@@ -2307,7 +2479,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm0gag34g45",
@@ -2328,7 +2502,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm7thkalhzd",
@@ -2349,7 +2525,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmomvf8jcng",
@@ -2370,14 +2548,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmckip4scnq",
     "title": "Frozen Ascent — Hot Air Balloon Expedition",
     "slug": "frozen-ascent-hot-air-balloon-expedition-nzmkk",
     "category": "Cinematic",
-    "fullPrompt": "Ultra-realistic cinematic shot of a man standing beside a landed hot air balloon in a frozen snow valley, wearing a layered winter travel outfit, hands relaxed, colorful balloon fabric moving in icy wind, dramatic mountain backdrop, cinematic realism, 8k detail",
+    "fullPrompt": "Ultra-realistic cinematic shot of a man standing beside a landed hot air balloon in a frozen snow valley, wearing a layered winter travel outfit, hands relaxed, colorful balloon fabric moving in icy wind, dramatic mountain backdrop, cinematic realism, 8k detail. Shot on 35mm anamorphic lens, deep dramatic shadows, volumetric atmospheric lighting, cinematic color balance, film grain texture, wide aspect ratio shot, 4K render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782148498/prompts/yqrb2p2cjjny8cued7ye.webp",
     "isPremium": false,
     "author": "Admin",
@@ -2391,7 +2571,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm0syei22h4",
@@ -2412,7 +2594,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm48bycqh5d",
@@ -2433,7 +2617,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmgksaq2rbf",
@@ -2454,14 +2640,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmbgcjh42h8",
     "title": "zaroon — side by side through time",
     "slug": "zaroon-side-by-side-through-time-k42uu",
     "category": "Cinematic",
-    "fullPrompt": "CINEMATIC PORTRAIT ABOVE Boy AS his MINIATURE VERSION. SIDE BY SIDE AGAINST TEXTURED DARK WALL, HANDWRITTEN cursing signature, ZarOon TEXT. BOTH IN MATCHING DRESSES HANDS ARE FOLDING. 7,19 Men LEANS WITH SOFI SMILE; CHILD HAS CARTOON-STYLE FACE, LARGE EXPRESSIVE EYE ULTRA-REALISTIC SKIN TEXTURE, WARM SOFT LIGHTING, SHALLOW DEPTH OF FIELD, SHARP FOCUS54 STUDIO QUALITY.",
+    "fullPrompt": "CINEMATIC PORTRAIT ABOVE Boy AS his MINIATURE VERSION. SIDE BY SIDE AGAINST TEXTURED DARK WALL, HANDWRITTEN cursing signature, ZarOon TEXT. BOTH IN MATCHING DRESSES HANDS ARE FOLDING. 7,19 Men LEANS WITH SOFI SMILE; CHILD HAS CARTOON-STYLE FACE, LARGE EXPRESSIVE EYE ULTRA-REALISTIC SKIN TEXTURE, WARM SOFT LIGHTING, SHALLOW DEPTH OF FIELD, SHARP FOCUS54 STUDIO QUALITY. Shot on 35mm anamorphic lens, deep dramatic shadows, volumetric atmospheric lighting, cinematic color balance, film grain texture, wide aspect ratio shot, 4K render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782148263/prompts/xirdr2jqpglrkkbuqr1f.webp",
     "isPremium": false,
     "author": "Admin",
@@ -2475,7 +2663,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmijbn1m32h",
@@ -2496,7 +2686,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmtpn1u0txf",
@@ -2517,7 +2709,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm1v5kpw8nd",
@@ -2538,7 +2732,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmb7ed7buxk",
@@ -2559,7 +2755,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmr3afa0jqi",
@@ -2580,7 +2778,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmbyzaac64w",
@@ -2601,7 +2801,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmhyol9ehbz",
@@ -2622,14 +2824,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm891l9dt9w",
     "title": "Chrono Fracture — Master of Frozen Time",
     "slug": "chrono-fracture-master-of-frozen-time-306va",
     "category": "Cinematic",
-    "fullPrompt": "A young man stands still as shattered clock faces hover around him in midair. His pink sunglasses reflect time loops and his black shirt is untouched by chaos. 8K, symbolic of time control.\n\"style\": \"conceptual, temporal surrealism\",\n\"resolution\": \"8K\",\n\"lighting\": \"gold + magenta light fragments\",\n\"camera\": \"360 slow spin freeze frame\"",
+    "fullPrompt": "A young man stands still as shattered clock faces hover around him in midair. His pink sunglasses reflect time loops and his black shirt is untouched by chaos. 8K, symbolic of time control.\n\"style\": \"conceptual, temporal surrealism\",\n\"resolution\": \"8K\",\n\"lighting\": \"gold + magenta light fragments\",\n\"camera\": \"360 slow spin freeze frame\". Shot on 35mm anamorphic lens, deep dramatic shadows, volumetric atmospheric lighting, cinematic color balance, film grain texture, wide aspect ratio shot, 4K render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782147826/prompts/diior1cdvhwtnu3wfb2s.webp",
     "isPremium": false,
     "author": "Admin",
@@ -2643,7 +2847,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmqdtpesbz0",
@@ -2664,7 +2870,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm1jbhf9cuo",
@@ -2685,14 +2893,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmpzcq037zw",
     "title": "Neon Rain Drift — Urban Speed & Confidence",
     "slug": "neon-rain-drift-urban-speed-confidence-f3006",
     "category": "Cinematic",
-    "fullPrompt": "Eye-level, half-body cinematic photo of a confident young man leaning on a Nike graffiti wall in a rainy urban tunnel at evening, wearing a colorblock Nike windcheater, cargo track pants, tousled hair, hands in pockets. Black Ferrari F12berlinetta with glowing headlights beside him, water reflections, moody lighting, sharp focus, bokeh background, hyper-realistic, 8K.",
+    "fullPrompt": "Eye-level, half-body cinematic photo of a confident young man leaning on a Nike graffiti wall in a rainy urban tunnel at evening, wearing a colorblock Nike windcheater, cargo track pants, tousled hair, hands in pockets. Black Ferrari F12berlinetta with glowing headlights beside him, water reflections, moody lighting, sharp focus, bokeh background, hyper-realistic, 8K. Shot on 35mm anamorphic lens, deep dramatic shadows, volumetric atmospheric lighting, cinematic color balance, film grain texture, wide aspect ratio shot, 4K render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782147646/prompts/bvujuswibzb1lbbx0w6z.webp",
     "isPremium": false,
     "author": "Admin",
@@ -2706,7 +2916,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmj47qky04o",
@@ -2727,7 +2939,9 @@
     "tags": [],
     "models": [
       "Flow AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmd0m2jpgxp",
@@ -2748,14 +2962,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmtxgt4uo7g",
     "title": "Retro Future Ascension — Neon Horizon Vision",
     "slug": "retro-future-ascension-neon-horizon-vision-bnhwm",
     "category": "Cinematic",
-    "fullPrompt": "A retro-futuristic portrait of a confident young man with a clean beard, looking upward heroically. He wears pink-tinted aviator glasses and a black t-shirt with glowing grid lines. Behind him is a vintage sci-fi sunset with grid terrain and digital stars.",
+    "fullPrompt": "A retro-futuristic portrait of a confident young man with a clean beard, looking upward heroically. He wears pink-tinted aviator glasses and a black t-shirt with glowing grid lines. Behind him is a vintage sci-fi sunset with grid terrain and digital stars. Shot on 35mm anamorphic lens, deep dramatic shadows, volumetric atmospheric lighting, cinematic color balance, film grain texture, wide aspect ratio shot, 4K render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782147197/prompts/ormwbpvd325r3luvn4me.webp",
     "isPremium": false,
     "author": "Admin",
@@ -2769,28 +2985,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
-  },
-  {
-    "id": "cmcxe1ee278",
-    "title": "Neon Drift — The Turning Moment",
-    "slug": "neon-drift-the-turning-moment-6j43s",
-    "category": "Cinematic",
-    "fullPrompt": "A bold cinematic portrait of a confident young man turning in slow motion, hair and t-shirt caught in strong wind. He wears pink reflective sunglasses. Teal and magenta lights cast sharp glows and shadows as if caught mid-scene in a movie. 8K ultra HD with dramatic movement blur.\",\n\"style\": \"cinematic, dynamic, stylized realism\",\n\"resolution\": \"8K\",\n\"lighting\": \"strong backlight with movement blur\",\n\"camera\": \"rotating side profile shot",
-    "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782147137/prompts/uolsmzuysirv1m2fqfsd.webp",
-    "isPremium": false,
-    "author": "Admin",
-    "views": 0,
-    "likes": 0,
-    "createdAt": "2026-05-14T09:20:34.662Z",
-    "updatedAt": "2026-06-22T16:52:15.989Z",
-    "isTrending": false,
-    "isLatest": false,
-    "isFeatured": false,
-    "tags": [],
-    "models": [
-      "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmhfu6e6ikc",
@@ -2811,7 +3008,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cma4qsb1pkw",
@@ -2832,14 +3031,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmwkme95fih",
     "title": "Wild Bloom Silence — The Orange Field Gaze",
     "slug": "wild-bloom-silence-the-orange-field-gaze-bfg6t",
     "category": "Cinematic",
-    "fullPrompt": "A young man standing in a field of orange wildflowers, looking directly at the camera with a calm, moody expression. The camera angle is low, shurreal, dreamlike atmosphere. High detail, ultra-realistic textures, cinematic lighting, sharp focus on subject, 50mm lens, 8K resolution.",
+    "fullPrompt": "A young man standing in a field of orange wildflowers, looking directly at the camera with a calm, moody expression. The camera angle is low, shurreal, dreamlike atmosphere. High detail, ultra-realistic textures, cinematic lighting, sharp focus on subject, 50mm lens, 8K resolution. Shot on 35mm anamorphic lens, deep dramatic shadows, volumetric atmospheric lighting, cinematic color balance, film grain texture, wide aspect ratio shot, 4K render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782146479/prompts/mc2p3xbqdwxrkdbszzba.webp",
     "isPremium": false,
     "author": "Admin",
@@ -2853,7 +3054,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmtib2kq1ze",
@@ -2874,7 +3077,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmguf5taaf1",
@@ -2895,7 +3100,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmog0we052n",
@@ -2916,7 +3123,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm7nuxvkfij",
@@ -2937,7 +3146,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm0i2ttaiqt",
@@ -2958,14 +3169,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmglb3ralob",
     "title": "Mischief on My Shoulder",
     "slug": "mischief-on-my-shoulder-6txsa",
     "category": "Cinematic",
-    "fullPrompt": "With the reference image A humorous, photorealistic portrait of the person with curly hair wearing a purple shirt. A orange cat sits on his shoulder and playfully covers the man's eyes with its paws. The cat is winking and sticking out its tongue mischievously. Black background, ultra-sharp details, studio lighting, funny scene.",
+    "fullPrompt": "With the reference image A humorous, photorealistic portrait of the person with curly hair wearing a purple shirt. A orange cat sits on his shoulder and playfully covers the man's eyes with its paws. The cat is winking and sticking out its tongue mischievously. Black background, ultra-sharp details, studio lighting, funny scene. Shot on 35mm anamorphic lens, deep dramatic shadows, volumetric atmospheric lighting, cinematic color balance, film grain texture, wide aspect ratio shot, 4K render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782146060/prompts/lvaeucpv7shdpazcem9x.webp",
     "isPremium": false,
     "author": "Admin",
@@ -2979,7 +3192,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm0wlsq6c5p",
@@ -3000,7 +3215,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmzreocp7mt",
@@ -3021,7 +3238,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmypbelrc58",
@@ -3042,7 +3261,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmnt5seehuo",
@@ -3063,7 +3284,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmsbzr7qvt8",
@@ -3084,7 +3307,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmfioolzxal",
@@ -3105,7 +3330,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmy0xd3dcmp",
@@ -3126,7 +3353,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmkswdv7hm7",
@@ -3147,7 +3376,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmlx6mm2ifb",
@@ -3168,7 +3399,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmn8s9l8chz",
@@ -3189,7 +3422,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmv52xt7xfa",
@@ -3210,14 +3445,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmm9f3zx4lr",
     "title": "Midnight Street Glow — Urban Confidence",
     "slug": "midnight-street-glow-urban-confidence-evgrr",
     "category": "Cinematic",
-    "fullPrompt": "A young man in his 20s wearing a mustard jacket, beige sweater, black pants, and white sneakers, standing confidently on a wet city street with warm glowing lights in the background, cinematic street style.",
+    "fullPrompt": "A young man in his 20s wearing a mustard jacket, beige sweater, black pants, and white sneakers, standing confidently on a wet city street with warm glowing lights in the background, cinematic street style. Shot on 35mm anamorphic lens, deep dramatic shadows, volumetric atmospheric lighting, cinematic color balance, film grain texture, wide aspect ratio shot, 4K render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782144736/prompts/ww9vqqdsylrwd6gchhcu.webp",
     "isPremium": false,
     "author": "Admin",
@@ -3231,7 +3468,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cm8vu5vaask",
@@ -3252,14 +3491,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmjwm28cy5d",
     "title": "Shattered Within — The Mirror of Emotions",
     "slug": "shattered-within-the-mirror-of-emotions-su0ey",
     "category": "Cinematic",
-    "fullPrompt": "A surreal conceptual portrait of a young man with serious expression, holding shards of broken mirror floating in mid-air. Each mirror shard reflects a different emotion—calm, anger, sadness, contemplation, and joy—expressed by the same person. Dark moody background, cinematic lighting highlighting facial contours, emotional and psychological depth, symbolism of fractured identity and internal conflict. Hyper-realistic and soft shadows.",
+    "fullPrompt": "A surreal conceptual portrait of a young man with serious expression, holding shards of broken mirror floating in mid-air. Each mirror shard reflects a different emotion—calm, anger, sadness, contemplation, and joy—expressed by the same person. Dark moody background, cinematic lighting highlighting facial contours, emotional and psychological depth, symbolism of fractured identity and internal conflict. Hyper-realistic and soft shadows. Shot on 35mm anamorphic lens, deep dramatic shadows, volumetric atmospheric lighting, cinematic color balance, film grain texture, wide aspect ratio shot, 4K render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782142749/prompts/isw4xhkequzhi2ommwxi.webp",
     "isPremium": false,
     "author": "Admin",
@@ -3273,14 +3514,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmvy2nac98f",
     "title": "Rain of Elegance — Golden Silence in Blue Storm",
     "slug": "rain-of-elegance-golden-silence-in-blue-storm-hf1lv",
     "category": "Cinematic",
-    "fullPrompt": "Cinematic portrait of a young man in elegant attire with gold embroidery, standing in rain under a clear umbrella. Soft lighting, melancholic mood, visible raindrops, and a dark, blurred background. He gazes upward dramatically. Cool blue-teal tones, shallow depth of field, highly detailed and realistic style.",
+    "fullPrompt": "Cinematic portrait of a young man in elegant attire with gold embroidery, standing in rain under a clear umbrella. Soft lighting, melancholic mood, visible raindrops, and a dark, blurred background. He gazes upward dramatically. Cool blue-teal tones, shallow depth of field, highly detailed and realistic style. Shot on 35mm anamorphic lens, deep dramatic shadows, volumetric atmospheric lighting, cinematic color balance, film grain texture, wide aspect ratio shot, 4K render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782142085/prompts/cmrrlqic0rq1mpwcu6kt.webp",
     "isPremium": false,
     "author": "Admin",
@@ -3294,7 +3537,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmnar3p867t",
@@ -3315,14 +3560,16 @@
     "tags": [],
     "models": [
       "Flow AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm0vuonxgjl",
     "title": "Glass Bridge Selfie — Squid Game Survivors Reunion",
     "slug": "glass-bridge-selfie-squid-game-survivors-reunion-r90zl",
     "category": "Cinematic",
-    "fullPrompt": "vertical 9:16 fisheye group selfie with me (player 00, replace face using uploaded photo) in a green tracksuit, surrounded by Squid Game top 5 characters-Gi-hun\n(456), Sang-woo (218), Sae-byeok (067), Ali (199), Il-nam\n(001)-plus 3 masked guards, all smiling on the Season 2 glass bridge arena.",
+    "fullPrompt": "vertical 9:16 fisheye group selfie with me (player 00, replace face using uploaded photo) in a green tracksuit, surrounded by Squid Game top 5 characters-Gi-hun\n(456), Sang-woo (218), Sae-byeok (067), Ali (199), Il-nam\n(001)-plus 3 masked guards, all smiling on the Season 2 glass bridge arena. Shot on 35mm anamorphic lens, deep dramatic shadows, volumetric atmospheric lighting, cinematic color balance, film grain texture, wide aspect ratio shot, 4K render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782141900/prompts/ifixz7o77eeeizixlziz.webp",
     "isPremium": false,
     "author": "Admin",
@@ -3336,7 +3583,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm8yxf633xr",
@@ -3357,14 +3606,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm4xsjnvukr",
     "title": "Breaking the Feed — Escape from the Digital Frame",
     "slug": "breaking-the-feed-escape-from-the-digital-frame-a4ryv",
     "category": "Cinematic",
-    "fullPrompt": "generate a dramatic photo-realistic scene of a man in stylish black clothes confidently walking out of a giant smartphone screen.The phone screen resembles an Instagram profile with the username ‘[username]’ and an anime-style profile picture.The glass of the phone is shattered, with shards flying outward, creating a dynamic, cinematic effect.",
+    "fullPrompt": "A creative visual of a person stepping out of a vertical smartphone frame into a vibrant neon-lit street, digital distortion effects, energetic action pose, high-contrast urban mood. Shot on 35mm anamorphic lens, deep dramatic shadows, volumetric atmospheric lighting, cinematic color balance, film grain texture, wide aspect ratio shot, 4K render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782141763/prompts/ebgpg9vludsgjc2txvfo.webp",
     "isPremium": false,
     "author": "Admin",
@@ -3378,7 +3629,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cmmivd7kasi",
@@ -3399,7 +3652,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm7dtzsm0kl",
@@ -3420,7 +3675,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm9txqrcazl",
@@ -3441,14 +3698,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm2zsbyscv6",
     "title": "The Hairstyle Matrix — 12 Looks, One Identity",
     "slug": "the-hairstyle-matrix-12-looks-one-identity-dbean",
     "category": "Cinematic",
-    "fullPrompt": "a high-resolution 3x4 grid showing a [description of face/person] with 12 different hairstyles. the hairstyles should include: a buzz cut, a pompadour, long wavy hair, a manbun, a side-parted fade, and a messy fringe. maintain the exact same facial features, beard, and neutral lighting across all images. white background, professional studio photography style, hyper-realistic.",
+    "fullPrompt": "A high-fashion hairstyle matrix showcasing 12 distinct stylish haircuts on a male model, clean grid layout, professional studio lighting, neutral grey backdrop, beauty magazine aesthetic. Shot on 35mm anamorphic lens, deep dramatic shadows, volumetric atmospheric lighting, cinematic color balance, film grain texture, wide aspect ratio shot, 4K render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782141496/prompts/bitt5meper3cl4394eql.webp",
     "isPremium": false,
     "author": "Admin",
@@ -3462,7 +3721,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cmcs1odhfpm",
@@ -3483,7 +3744,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmy1of6ixvo",
@@ -3504,7 +3767,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cma1zbqo3zq",
@@ -3525,7 +3790,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmm95wf3xch",
@@ -3546,7 +3813,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cma55twwm8o",
@@ -3567,7 +3836,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmzt4x0pvsm",
@@ -3588,7 +3859,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm0a599skb9",
@@ -3609,14 +3882,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmog5008rux",
     "title": "Supermarket Multiverse — Fisheye Heroes Selfie",
     "slug": "supermarket-multiverse-fisheye-heroes-selfie-73uln",
     "category": "Cinematic",
-    "fullPrompt": "Cinematic fisheye mirror selfie of\nthor, iron man, superman, and a friend inside a brightly lit supermarket. Captured through a circular convex dome mirror with realistic distortion. [the person in the attached picture ] is holding an iPhone for the selfie, both are wearing modern streetwear. Fluorescent ceiling lights, grocery shelves, and store signs in the background. Style: hyper-realistic, candid, mirror reflection.",
+    "fullPrompt": "A wide-angle fisheye selfie of a friendly shopper inside a brightly lit futuristic supermarket, colorful aisles curving in perspective, vibrant lifestyle photography style. Shot on 35mm anamorphic lens, deep dramatic shadows, volumetric atmospheric lighting, cinematic color balance, film grain texture, wide aspect ratio shot, 4K render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782140765/prompts/trlhwkl5crq3vs6cvjd6.webp",
     "isPremium": false,
     "author": "Admin",
@@ -3630,14 +3905,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cmp6amxga0v",
     "title": "Neon Halo — The Silence of Light",
     "slug": "neon-halo-the-silence-of-light-dqqr1",
     "category": "Cinematic",
-    "fullPrompt": "A cinematic portrait of a [young man/woman] in side-profile, wearing a [dark jacket/turtleneck/suit] lit by a glowing neon ring behind their head. The background is a dark, softly gradient backdrop with warm orange and amber tones. The lighting creates strong rim light around the head and shoulders, while the face remains partly in shadow. The image has a dramatic, moody atmosphere — clean, minimal, powerful.",
+    "fullPrompt": "A moody portrait of a stylish young man in a dark turtleneck jacket illuminated by a soft neon halo floating behind his head, subtle shadows, cinematic atmospheric lighting. Shot on 35mm anamorphic lens, deep dramatic shadows, volumetric atmospheric lighting, cinematic color balance, film grain texture, wide aspect ratio shot, 4K render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782140569/prompts/l3pjrzocrccip06zmwu2.webp",
     "isPremium": false,
     "author": "Admin",
@@ -3651,7 +3928,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cm7qi0n7rqi",
@@ -3672,7 +3951,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmd5mz1h82g",
@@ -3693,7 +3974,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmubrsvdq9n",
@@ -3714,7 +3997,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmc0smzscbn",
@@ -3735,7 +4020,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmjcmn4yvz7",
@@ -3756,7 +4043,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmntaav1xq1",
@@ -3777,14 +4066,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmfdqg7g16w",
     "title": "City Heights — The Gucci Skyline Moment",
     "slug": "city-heights-the-gucci-skyline-moment-7vi3c",
     "category": "Cinematic",
-    "fullPrompt": "A fashion portrait of a girl standing near skyscraper, in a urban wear of gucci\nbrand and carrying gucci bag, 80mm f1.4, outdoor photoshoot",
+    "fullPrompt": "A fashion portrait of a girl standing near skyscraper, in a urban wear of gucci\nbrand and carrying gucci bag, 80mm f1.4, outdoor photoshoot. Shot on 35mm anamorphic lens, deep dramatic shadows, volumetric atmospheric lighting, cinematic color balance, film grain texture, wide aspect ratio shot, 4K render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782140062/prompts/mhbcdxvqgbswxkqfv8zg.webp",
     "isPremium": false,
     "author": "Admin",
@@ -3798,14 +4089,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cmhu10t387s",
     "title": "Retro Mirage — The 60s Surreal Couture Model",
     "slug": "retro-mirage-the-60s-surreal-couture-model-qil2i",
     "category": "Cinematic",
-    "fullPrompt": "60's era fashion model, strange nonsensical material, animal, describe colors,face\nwearable, headgear, clothing, full body fashion, hair color, eye colors, glasses or\nnot, hyperrealistic, vivid and vibrant, 4k",
+    "fullPrompt": "60's era fashion model, strange nonsensical material, animal, describe colors,face\nwearable, headgear, clothing, full body fashion, hair color, eye colors, glasses or\nnot, hyperrealistic, vivid and vibrant, 4k. Shot on 35mm anamorphic lens, deep dramatic shadows, volumetric atmospheric lighting, cinematic color balance, film grain texture, wide aspect ratio shot, 4K render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782140007/prompts/ngspm4rhbrsm59bqp1si.webp",
     "isPremium": false,
     "author": "Admin",
@@ -3819,14 +4112,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cmfl4v68u9c",
     "title": "Sunlit Shoreline — The Pink Summer Walk",
     "slug": "sunlit-shoreline-the-pink-summer-walk-o2v2l",
     "category": "Cinematic",
-    "fullPrompt": "A fashion portrait of beautiful girl with blonde hair, twintails, smiling, looking at\nviewer, wearing a short pink summer dress by ZARA brand, walking on a beach in\nday time, full body shot, 50mm f1.4 ",
+    "fullPrompt": "A fashion portrait of beautiful girl with blonde hair, twintails, smiling, looking at\nviewer, wearing a short pink summer dress by ZARA brand, walking on a beach in\nday time, full body shot, 50mm f1.4. Shot on 35mm anamorphic lens, deep dramatic shadows, volumetric atmospheric lighting, cinematic color balance, film grain texture, wide aspect ratio shot, 4K render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782139904/prompts/lm65jlst7ey1zen7llpq.webp",
     "isPremium": false,
     "author": "Admin",
@@ -3840,14 +4135,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cmvtp3olh6y",
     "title": "Neon Glass House — The Yellow Eclipse",
     "slug": "neon-glass-house-the-yellow-eclipse-5lge7",
     "category": "Cinematic",
-    "fullPrompt": "A female model in a designer yellow lace gown with neon leds, in a glass house, in\nthe style of Chad Stahelski",
+    "fullPrompt": "A female model in a designer yellow lace gown with neon leds, in a glass house, in\nthe style of Chad Stahelski. Shot on 35mm anamorphic lens, deep dramatic shadows, volumetric atmospheric lighting, cinematic color balance, film grain texture, wide aspect ratio shot, 4K render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782139847/prompts/ywo4pcaet1gbujlajwrs.webp",
     "isPremium": false,
     "author": "Admin",
@@ -3861,7 +4158,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cm7ohb4hp3v",
@@ -3882,7 +4181,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm6hdpaxl0q",
@@ -3903,7 +4204,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmob8rorkkt",
@@ -3924,7 +4227,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmrj62zrnch",
@@ -3945,7 +4250,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmqzr705a6i",
@@ -3966,7 +4273,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmb9eowr2g8",
@@ -3987,7 +4296,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cma34zw1i2h",
@@ -4008,7 +4319,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmlvyiq5ebp",
@@ -4029,7 +4342,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmltf0tkapg",
@@ -4050,7 +4365,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cme3hnx2fch",
@@ -4071,7 +4388,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmgw6j9smlj",
@@ -4092,7 +4411,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmp0inlz26s",
@@ -4113,14 +4434,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm473nmzyxk",
     "title": "Marble and Gold Kintsugi Portrait",
     "slug": "marble-and-gold-kintsugi-portrait-lrxpo",
     "category": "Cinematic",
-    "fullPrompt": "Portrait of [hyper-realistict young man], transforming from living human into museum-quality marble sculpture, in the style of a Renaissance master carved in Statuario marble. Face and eyes remain full living detail (natural skin, iris color, catchlights, wrinkles) — do not stylize the eyes or core facial features.Transformation begins at the forehead, temples, and shoulders, spreading outward into polished stone with visible chisel marks and natural veining; blend from skin to marble is seamless and gradual, no cracks or exposed anatomy. A few subtle gold kintsugi seams follow facial contours, brushed and aged, not shiny. Shoulders emerge from a raw unfinished marble block, clothing dissolving into carved classical drapery.Lighting: soft 45° key light, warm overhead museum spotlight, cool rim light, dark charcoal gallery background with faint haze. Mood: dignified, timeless, contemplative. Vertical 9:16, centered, eye-level, shot on medium format, 8K detail, hyperrealistic skin texture with subsurface scattering. Negative prompt: broken statue, exposed flesh, gore, cartoon, anime, plastic/glossy stone, extra limbs, distorted anatomy, watermark, text, blurry eyes.",
+    "fullPrompt": "A stunning hyper-realistic portrait of a young man with elegant gold kintsugi cracks along white marble skin, dramatic chiaroscuro lighting, regal high-art editorial aesthetic. Shot on 35mm anamorphic lens, deep dramatic shadows, volumetric atmospheric lighting, cinematic color balance, film grain texture, wide aspect ratio shot, 4K render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1785568251/prompts/zkcr3s4dls0igqhv4hs7.webp",
     "isPremium": false,
     "isTrending": false,
@@ -4134,7 +4457,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cmn1eet9ubz",
@@ -4155,7 +4480,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmvl9es9zi0",
@@ -4176,7 +4503,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmjwh28g8zl",
@@ -4197,7 +4526,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmfwzw7iso8",
@@ -4218,7 +4549,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm47989axhk",
@@ -4239,7 +4572,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmw296ebypt",
@@ -4260,6 +4595,8 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   }
 ]

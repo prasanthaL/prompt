@@ -232,7 +232,7 @@ export const JackpotWheel: React.FC<JackpotWheelProps> = ({ onSpinComplete }) =>
 
     // Pointer is at top (270 deg). Angle offset so center of target segment lands at 270 deg:
     const segmentCenterDeg = targetSegmentIndex * segAngleDeg + segAngleDeg / 2;
-    let targetAngleDeg = 270 - segmentCenterDeg;
+    const targetAngleDeg = 270 - segmentCenterDeg;
 
     // Add 5 to 7 full rotations for suspense
     const extraRotations = (5 + Math.floor(Math.random() * 3)) * 360;

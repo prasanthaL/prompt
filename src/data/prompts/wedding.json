@@ -4,7 +4,7 @@
     "title": "Rustic Floral Wedding Arch",
     "slug": "rustic-floral-wedding-arch-wd29a",
     "category": "Wedding",
-    "fullPrompt": "An elegant rustic wooden wedding arch decorated with white roses, eucalyptus leaves, and flowing sheer white fabric, set on an outdoor grassy lawn during golden hour sunset, romantic warm lighting, high detail, 8k.",
+    "fullPrompt": "An elegant rustic wooden wedding arch decorated with white roses, eucalyptus leaves, and flowing sheer white fabric, set on an outdoor grassy lawn during golden hour sunset, romantic warm lighting, high detail, 8k. Rich visual details, harmonious color palette, professional lighting setup, high-resolution rendering, detailed background atmosphere.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783671903/prompts/ahfmieopw2l50sxukxbf.webp",
     "isPremium": false,
     "isTrending": false,
@@ -22,7 +22,9 @@
     ],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cml0vjfigtp",
@@ -43,14 +45,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmriwogkhra",
     "title": "Dreamy Sunset Beach Wedding Photography",
     "slug": "dreamy-sunset-beach-wedding-photography-afzsb",
     "category": "Wedding",
-    "fullPrompt": "A dreamy beach wedding at golden sunset, a beautiful bride and groom walking hand in hand along the shoreline, soft ocean waves, tropical palm trees, elegant floral arch decorated with white roses and pampas grass, warm golden-hour lighting, cinematic romance, realistic reflections on wet sand, luxurious wedding photography style, shallow depth of field, photorealistic, ultra detailed, masterpiece, 8K.",
+    "fullPrompt": "A dreamy beach wedding at golden sunset, a beautiful bride and groom walking hand in hand along the shoreline, soft ocean waves, tropical palm trees, elegant floral arch decorated with white roses and pampas grass, warm golden-hour lighting, cinematic romance, realistic reflections on wet sand, luxurious wedding photography style, shallow depth of field, photorealistic, ultra detailed, masterpiece, 8K. Rich visual details, harmonious color palette, professional lighting setup, high-resolution rendering, detailed background atmosphere.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783672194/prompts/f8glkpuqx4wl6zps6ztx.webp",
     "isPremium": false,
     "isTrending": false,
@@ -64,7 +68,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm33bhizk8q",
@@ -85,7 +91,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmdc5x8qypo",
@@ -106,7 +114,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmfzloult3f",
@@ -127,7 +137,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmcyqqxtojq",
@@ -148,7 +160,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm4kybdbzek",
@@ -169,7 +183,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmb00rja2lc",
@@ -190,14 +206,16 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmwix4yzjtp",
     "title": "Elegant South Indian Bridal Portrait",
     "slug": "elegant-south-indian-bridal-portrait-kfr4k",
     "category": "Wedding",
-    "fullPrompt": "Create image, Beautiful young South Indian bride in a minimalist white studio, wearing a blush pink and gold kanjivaram silk saree with deep maroon blouse sleeves, adorned with heavy traditional temple jewelry, green gemstone details, bangles, waist belt, earrings, and maang tkka.10p.don't changed face as a uploaded imaged.",
+    "fullPrompt": "Create image, Beautiful young South Indian bride in a minimalist white studio, wearing a blush pink and gold kanjivaram silk saree with deep maroon blouse sleeves, adorned with heavy traditional temple jewelry, green gemstone details, bangles, waist belt, earrings, and maang tkka.10p.don't changed face as a uploaded imaged. Rich visual details, harmonious color palette, professional lighting setup, high-resolution rendering, detailed background atmosphere.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1786635065/prompts/bjsx70gzsi0s7tmelcba.webp",
     "isPremium": false,
     "isTrending": false,
@@ -211,6 +229,8 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   }
 ]

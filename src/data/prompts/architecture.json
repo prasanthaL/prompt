@@ -4,7 +4,7 @@
     "title": "Past & Future: Urban Townhouse Fusion Study",
     "slug": "past-future-urban-townhouse-fusion-study-hrjuw",
     "category": "Architecture",
-    "fullPrompt": "A conceptual architectural illustration of urban townhouse combining an old building with minimalist new features. The entire composition is surrounded by hand-drawn architectural annotations, technical sketches, and typographic elements, resembling a studio design presentation board. Mixed media style blending photorealistic rendering and architectural hand-drawing.",
+    "fullPrompt": "A conceptual architectural illustration of urban townhouse combining an old building with minimalist new features. The entire composition is surrounded by hand-drawn architectural annotations, technical sketches, and typographic elements, resembling a studio design presentation board. Mixed media style blending photorealistic rendering and architectural hand-drawing. Clean geometric architectural lines, elegant ambient lighting, premium material textures like polished concrete, warm timber, and glass, archdaily architectural photography style.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782126466/prompts/balhlezbmietizpsv479.webp",
     "isPremium": false,
     "author": "Admin",
@@ -18,14 +18,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm8x7karh4l",
     "title": "Blueprint of Chaos — Architectural Grunge Portrait",
     "slug": "blueprint-of-chaos-architectural-grunge-portrait-avtl3",
     "category": "Architecture",
-    "fullPrompt": "An architectural-grunge sketch portrait of a man wearing a suit, captured in a mid-up body composition. Use harsh, broken black lines resembling dry-ink strokes, charcoal smudges, and distressed textures. Combine these with thin, technical blueprint scribbles, structural grids, measurement marks, and overlapping mechanical diagrams - all rendered with a worn, scratched, and weathered appearance",
+    "fullPrompt": "An architectural-grunge sketch portrait of a man wearing a suit, captured in a mid-up body composition. Use harsh, broken black lines resembling dry-ink strokes, charcoal smudges, and distressed textures. Combine these with thin, technical blueprint scribbles, structural grids, measurement marks, and overlapping mechanical diagrams - all rendered with a worn, scratched, and weathered appearance. Clean geometric architectural lines, elegant ambient lighting, premium material textures like polished concrete, warm timber, and glass, archdaily architectural photography style.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782126396/prompts/qxrtjab9zjkw8ew6ltvo.webp",
     "isPremium": false,
     "author": "Admin",
@@ -39,7 +41,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmlurnxnuy7",
@@ -60,7 +64,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cms62i7mn4v",
@@ -81,6 +87,8 @@
     "tags": [],
     "models": [
       "Flow AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   }
 ]

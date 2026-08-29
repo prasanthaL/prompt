@@ -18,7 +18,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmjam7z0j70",
@@ -39,7 +41,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm5sabydnkp",
@@ -60,7 +64,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmosx2vwzha",
@@ -81,7 +87,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmye0rw9jea",
@@ -102,7 +110,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmj6vmr1f51",
@@ -123,7 +133,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm128bf760x",
@@ -144,7 +156,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmp2q3vno6s",
@@ -165,7 +179,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmtoberv12c",
@@ -186,7 +202,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmfk1o0enz9",
@@ -207,7 +225,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmppvkbr9e3",
@@ -228,14 +248,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmr0qly90o6",
     "title": "Noir Eye Peeking Through Rain",
     "slug": "noir-eye-peeking-through-rain-bn352",
     "category": "Women",
-    "fullPrompt": "artoon, anime, illustration, low resolution, blurry eyes, extra eyes, extra face, bad anatomy, overexposed highlights, oversaturated colors, smiling, soft expression, low detail skin, plastic skin, unrealistic rain, watermark, text, logo, duplicate features, distorted face, poor lighting, low contrast.",
+    "fullPrompt": "artoon, anime, illustration, low resolution, blurry eyes, extra eyes, extra face, bad anatomy, overexposed highlights, oversaturated colors, smiling, soft expression, low detail skin, plastic skin, unrealistic rain, watermark, text, logo, duplicate features, distorted face, poor lighting, low contrast. Rich skin textures, subtle facial reflections, studio catchlights in the eyes, sharp focus on facial features, soft blurred background bokeh, professional editorial color grading, 8k resolution photo.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783153930/prompts/pe30svvvkfz2zayp4qec.webp",
     "isPremium": false,
     "isTrending": false,
@@ -249,14 +271,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmstio4pyyd",
     "title": "Ultra-Realistic Studio Portrait Prompt Generation",
     "slug": "ultrarealistic-studio-portrait-prompt-generation-ze4cy",
     "category": "Women",
-    "fullPrompt": "Create an ultra-realistic full-body studio portrait using the uploaded image as the identity reference. Preserve the person's exact facial features, face shape, hairstyle, skin tone, eye shape, body proportions, and overall identity with extremely high accuracy. This prompt must work perfectly for both men and women. IMAGE FORMAT: - Instagram Post (4:5 aspect ratio, mandatory) - Vertical composition - 8K Ultra HD - Hyper-realistic - Professional fashion editorial photography POSE:\nThe subject is standing in a relaxed, confident pose with both hands inside the pockets. One leg is naturally crossed in front of the other while leaning slightly to one side, creating a stylish casual fashion pose. The subject is looking directly at the camera with a calm and confident expression. OUTFIT:\nGenerate a premium monochromatic outfit in a single color chosen automatically to complement the person's appearance (examples: burgundy, black, beige, navy, olive, white, charcoal, emerald, cream, etc.). The outfit should consist of: - Oversized sweatshirt or hoodie - Matching jogger pants or tailored casual trousers - Clean white premium sneakers If the uploaded image already contains suitable clothing, recreate it in the same premium style while keeping the monochromatic look. BACKGROUND:\nMinimal luxury studio background with a smooth dark grey gradient. Soft shadows on the floor. Clean premium editorial aesthetic with no distractions. TEXT ELEMENT: Place a large vertical stack of bold 3D white letters beside the subject. The text must read exactly: \"{{YOUR_NAME}}\" (each letter stacked vertically from top to bottom). Examples: MAURYA M A U R Y A The letters should be: - Huge - Thick 3D extruded typography - Matte white finish - Soft realistic shadows\nPositioned on the right side of the subject - Extending almost from the floor to the top of the frame - Perfectly aligned vertically - Premium luxury branding style LIGHTING: Professional studio lighting with: - Large softbox key light - Gentle rim light - Soft fill light - Natural skin tones - High dynamic range - Cinematic contrast - Luxury fashion magazine quality CAMERA: 85mm portrait lens Eye-level camera angle f/2.8 aperture Sharp focus Natural perspective Photorealistic details QUALITY:\nUltra realistic Hyper detailed Editorial fashion photography Luxury studio aesthetic Extremely sharp face Realistic fabric texture Natural skin pores Accurate proportions Photorealistic shadows Premium color grading No watermark No logo No extra people No background clutter",
+    "fullPrompt": "An ultra-realistic studio portrait of Elena Vance with soft natural skin texture, dramatic ring lighting, warm bokeh background, professional headshot. Rich skin textures, subtle facial reflections, studio catchlights in the eyes, sharp focus on facial features, soft blurred background bokeh, professional editorial color grading, 8k resolution photo.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783664144/prompts/mgbzznrrbuyl0yazug7t.webp",
     "isPremium": false,
     "isTrending": false,
@@ -270,7 +294,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cmkj4wl73iz",
@@ -291,7 +317,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmeqpuxqsus",
@@ -312,7 +340,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmnna3te3uz",
@@ -333,7 +363,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmbztyufw1d",
@@ -352,14 +384,16 @@
     "createdAt": "2026-07-15T08:08:07.565Z",
     "updatedAt": "2026-07-15T08:08:07.565Z",
     "tags": [],
-    "models": []
+    "models": [],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmpcyi5q1p0",
     "title": "Luxury Signature Portrait Generation",
     "slug": "luxury-signature-portrait-generation-u12xp",
     "category": "Women",
-    "fullPrompt": "{ \"title\": \"Universal_Unisex_Signature_Poster_ColorPsychology_Master\", \"version\": \"2.0\", \"category\": \"Luxury Signature Poster / Instagram / Premium Branding / Unisex\", \"purpose\": \"Generate a premium luxury signature portrait inspired by the reference composition while preserving only the visual style, framing, hierarchy, and layout.Enhance the entire artwork using advanced color psychology principles to maximize visual impact, premium perception, memorability, and Instagram scroll-stopping appeal. Prioritize elegant contrast, emotional harmony, and luxury aesthetics without copying the original person's identity.\", \"design_principles\": { \"visual_priority\": \"highest\", \"instagram_optimization\": true, \"luxury_branding\": true, \"editorial_design\": true, \"timeless_design\": true, \"premium_visual_weight\": true,\"high_visual_contrast\": true, \"strong_subject_focus\": true, \"minimal_but_bold\": true }, \"image_input\": { \"mode\": \"reference_style_only\", \"replace_subject\": true, \"subject_gender\": \"unisex\", \"preserve_pose\": true, \"preserve_composition\": true, \"preserve_camera_angle\": true, \"preserve_crop\": true, \"preserve_depth\": true, \"preserve_lighting\": true, \"identity_transfer\": false }, \"canvas\": { \"aspect_ratio\": \"4:5\", \"resolution\": \"4096x5120\", \"background\": { \"type\": \"premium_editorial_paper\",\"texture\": \"luxury_soft_fine_grain\", \"noise\": \"extremely_subtle\", \"finish\": \"premium_print_quality\" } }, \"subject\": { \"gender\": \"male_or_female\", \"age\": \"18-35\", \"expression\": \"confident, calm, ambitious\", \"eye_direction\": \"upper_left\", \"head_rotation\": \"45_degree_left\", \"body_rotation\": \"30_degree_left\", \"posture\": \"upright\", \"hair\": \"modern_style\", \"skin\": \"cinematic_editorial_retouch\", \"clothing\": { \"type\": \"premium_plain_black_tshirt_or_top\", \"fabric\": \"matte_soft_cotton\", \"logos\": \"none\",\"patterns\": \"none\" } }, \"composition\": { \"framing\": \"tight_bust\", \"crop\": \"upper_chest\", \"subject_scale\": \"large\", \"headroom\": \"minimal\", \"center_alignment\": true, \"negative_space\": \"balanced_editorial\" }, \"advanced_color_psychology\": { \"enabled\": true, \"objective\": \"Use luxury color psychology to naturally draw attention toward the face, typography, and signature while maintaining elegance and premium aesthetics.\", \"rules\": [ \"Prioritize premium contrast over bright saturation.\", \"Guide the viewer's eyes toward the subject.\", \"Avoid harsh neon colors.\", \"Maintain a sophisticated editorial look.\", \"Use warm neutrals to create emotional comfort.\", \"Use darker accent colors for authority.\", \"Use restrained highlight colors only for focal emphasis.\", \"Preserve overall minimalism.\" ], \"primary_palette\": { \"background\": \"#F6F2EA\", \"meaning\": \"Luxury, calm, trust, sophistication\" }, \"secondary_palette\": { \"rectangle\": \"#0B5D4A\",\"meaning\": \"Success, prestige, confidence\" }, \"accent_palette\": { \"gold\": \"#D8B55B\", \"meaning\": \"Luxury, premium quality, exclusivity\" }, \"text_palette\": { \"primary\": \"#10231E\", \"secondary\": \"#0B5D4A\", \"signature\": \"#0B5D4A\" }, \"dynamic_palette_system\": { \"enabled\": true, \"allow_ai_to_optimize\": true, \"preferred_combinations\": [ { \"name\": \"Luxury Emerald\", \"background\": \"#F6F2EA\", \"rectangle\": \"#0B5D4A\", \"accent\": \"#D8B55B\" }, { \"name\": \"Royal Navy\", \"background\": \"#F5F3EE\", \"rectangle\": \"#13294B\", \"accent\": \"#E3B341\" }, { \"name\": \"Deep Burgundy\", \"background\": \"#F7F3EF\", \"rectangle\": \"#5C1024\", \"accent\": \"#D9B45A\" }, { \"name\": \"Charcoal Luxury\", \"background\": \"#F3F2EF\", \"rectangle\": \"#232323\", \"accent\": \"#CFAF55\" } ] } }, \"background_design\": { \"main_rectangle\": { \"enabled\": true, \"shape\": \"vertical_rectangle\", \"position\": \"center\", \"opacity\": 100, 8\n/\n13\"corner_radius\": \"small\" }, \"outer_background\": { \"style\": \"luxury_editorial_paper\", \"vignette\": \"soft\", \"depth\": \"subtle\" } }, \"lighting\": { \"style\": \"premium_studio_softbox\", \"key_light\": \"45_degree_left\", \"fill_light\": \"low\", \"rim_light\": \"soft_white\", \"contrast\": \"editorial_high\", \"shadow\": \"deep_clean\", \"highlight\": \"controlled\" }, \"color_grading\": { \"style\": \"premium_editorial\", \"subject\": \"black_and_white\", \"background\": \"optimized_from_palette\", \"contrast\": \"high\", \"clarity\": \"high\",\"dynamic_range\": \"wide\", \"black_levels\": \"rich\", \"highlight_rolloff\": \"soft\", \"vignette\": \"subtle\" }, \"typography\": { \"top_text\": { \"enabled\": true, \"content\": \"{{FIRST_NAME}}\", \"font\": \"Montserrat\", \"style\": \"uppercase\", \"tracking\": \"extra_wide\", \"size\": \"small\", \"color\": \"match_primary_palette\" }, \"signature\": { \"enabled\": true, \"content\": \"{{SIGNATURE_NAME}}\", \"font_style\": \"luxury_handwritten\", \"size\": \"very_large\", \"color\": \"match_primary_palette\", \"underline\": true }, \"number\": {\"enabled\": true, \"content\": \"{{NUMBER}}\", \"font\": \"Montserrat\", \"position\": \"lower_right_signature\", \"color\": \"match_primary_palette\" } }, \"camera\": { \"lens\": \"85mm\", \"aperture\": \"f1.8\", \"iso\": 100, \"shutter\": \"1/200\", \"focus\": \"eyes\" }, \"retouching\": { \"editorial_skin_cleanup\": true, \"maintain_skin_texture\": true, \"eye_enhancement\": true, \"hair_cleanup\": true, \"face_symmetry\": \"subtle\", \"frequency_separation\": true, \"dodge_burn\": true }, \"effects\": { \"premium_film_grain\": \"light\",\"glow\": \"minimal\", \"chromatic_aberration\": false, \"motion_blur\": false }, \"quality\": { \"render\": \"ultra_realistic\", \"detail\": \"maximum\", \"photorealism\": \"extreme\", \"sharpness\": \"high\", \"output\": \"8K\" }, \"negative_prompt\": [ \"low quality\", \"cartoon\", \"anime\", \"oversaturated colors\", \"neon colors\", \"poor contrast\", \"multiple people\", \"watermark\", \"logo\", \"busy background\", \"artifacts\", \"extra fingers\", \"bad anatomy\", \"duplicate face\", \"text distortion\" ], \"editable_fields\": { \"subject_gender\": [\"male\", \"female\" ], \"signature_name\": \"{{SIGNATURE_NAME}}\", \"first_name\": \"{{FIRST_NAME}}\", \"number\": \"{{NUMBER}}\", \"shirt_color\": \"black\", \"color_theme\": [ \"Luxury Emerald\", \"Royal Navy\", \"Deep Burgundy\", \"Charcoal Luxury\" ] } }@create image ",
+    "fullPrompt": "A luxury signature portrait of an ambitious young woman in a classic black blazer against a rich emerald and gold editorial paper background, high-contrast studio lighting, timeless Instagram branding style. Rich skin textures, subtle facial reflections, studio catchlights in the eyes, sharp focus on facial features, soft blurred background bokeh, professional editorial color grading, 8k resolution photo.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784103702/prompts/iah4nl5hwyr7xvd6vc7b.webp",
     "isPremium": false,
     "isTrending": false,
@@ -373,7 +407,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cm5glqhzds6",
@@ -394,7 +430,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmnjxxotoij",
@@ -415,7 +453,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmnlkrjnd0s",
@@ -436,7 +476,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmjqmbi7luc",
@@ -457,7 +499,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm0wth5ajc0",
@@ -478,7 +522,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmidqa1jao7",
@@ -499,7 +545,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmyi777ptk1",
@@ -520,7 +568,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "low",
+    "seoIndex": false
   },
   {
     "id": "cmkcuk2oh5w",
@@ -541,7 +591,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmq9ozugk6i",
@@ -562,14 +614,16 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmjc0wsr7fv",
     "title": "Joyful moments in a rainy city",
     "slug": "joyful-moments-in-a-rainy-city-tdvcw",
     "category": "Women",
-    "fullPrompt": "A triple-exposure cinematic photo of a joyful Indian woman in a light blue floral dress enjoying monsoon rain. The composition features three vertical layers: top layer looking up and laughing; middle blowing a kiss; bottom walking barefoot with a transparent umbrella. Wet city street, blurred auto-rickshaws, glowing lights, cinematic lighting: realistic. ",
+    "fullPrompt": "A triple-exposure cinematic photo of a joyful Indian woman in a light blue floral dress enjoying monsoon rain. The composition features three vertical layers: top layer looking up and laughing; middle blowing a kiss; bottom walking barefoot with a transparent umbrella. Wet city street, blurred auto-rickshaws, glowing lights, cinematic lighting: realistic. Rich skin textures, subtle facial reflections, studio catchlights in the eyes, sharp focus on facial features, soft blurred background bokeh, professional editorial color grading, 8k resolution photo.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784652119/prompts/do3ay9l4dj6f9pczysu3.webp",
     "isPremium": false,
     "isTrending": true,
@@ -583,14 +637,16 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmxzofbgl17",
     "title": "Timeless elegance and grace",
     "slug": "timeless-elegance-and-grace-bess3",
     "category": "Women",
-    "fullPrompt": "A luxury fashion editorial poster featuring a multi-portrait collage of an ultra-realistic young Indian woman. She has glowing skin with hyper-detailed realistic texture, an expressive smile, and long silky black hair adorned with fresh jasmine flowers. She is wearing an elegant silk saree in soft baby brown and blue gradients, accessorized with a diamond choker necklace and matching earrings.",
+    "fullPrompt": "A luxury fashion editorial poster featuring a multi-portrait collage of an ultra-realistic young Indian woman. She has glowing skin with hyper-detailed realistic texture, an expressive smile, and long silky black hair adorned with fresh jasmine flowers. She is wearing an elegant silk saree in soft baby brown and blue gradients, accessorized with a diamond choker necklace and matching earrings. Rich skin textures, subtle facial reflections, studio catchlights in the eyes, sharp focus on facial features, soft blurred background bokeh, professional editorial color grading, 8k resolution photo.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784652205/prompts/flilljvzamzwkalt7vfv.webp",
     "isPremium": false,
     "isTrending": true,
@@ -604,14 +660,16 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm1uehmko5z",
     "title": "Playful doodles and shadows in the street",
     "slug": "playful-doodles-and-shadows-in-the-stree-4l2el",
     "category": "Women",
-    "fullPrompt": "\"scene\":\"A mischievous doodle shadow mimics with exaggerated funny poses while she stands in modern trendy clothes.\",\n\"kumala\":{\"outfit\":\"fashionable oversized shirt, cargo pants, sneakers\",\"expression\":\"confused\"},\n\"quality\":\"8K\",\n\"footer\":\"pmx\"",
+    "fullPrompt": "A stylish street fashion portrait of a young woman in an oversized beige shirt and cargo pants, surrounded by playful chalk doodle graphics on the urban sidewalk. Rich skin textures, subtle facial reflections, studio catchlights in the eyes, sharp focus on facial features, soft blurred background bokeh, professional editorial color grading, 8k resolution photo.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784652542/prompts/xrzkt0v47pcquo9gws3x.webp",
     "isPremium": false,
     "isTrending": false,
@@ -625,7 +683,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cmc714b80ht",
@@ -646,7 +706,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm43otrizmo",
@@ -667,7 +729,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmcxy6fwko0",
@@ -688,7 +752,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmcp7th0lzm",
@@ -709,7 +775,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmk015xxyyn",
@@ -730,7 +798,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmw54wecoge",
@@ -751,7 +821,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmbaxntydp2",
@@ -772,7 +844,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmrmc811kea",
@@ -793,14 +867,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm7jws3h930",
     "title": "Fashion Portrait: Magenta to Purple Gown",
     "slug": "fashion-portrait-magenta-to-purple-gown-yhv3f",
     "category": "Women",
-    "fullPrompt": "Create an 8K, Ultra-HD, Hyper-detailed, Photorealistic, Portrait image. Full-length young woman, dark brown eyes, long wavy dark hair. Wearing a form-fitting satin gown gradient magenta to deep purple, cowl neck, high slit. Elegant pose, leg forward, gold chandelier earrings, silver heels. Modern hotel room background, soft lighting, cinematic high-end fashion photography. --ar 3:4 --style raw --v 6.0",
+    "fullPrompt": "Create an 8K, Ultra-HD, Hyper-detailed, Photorealistic, Portrait image. Full-length young woman, dark brown eyes, long wavy dark hair. Wearing a form-fitting satin gown gradient magenta to deep purple, cowl neck, high slit. Elegant pose, leg forward, gold chandelier earrings, silver heels. Modern hotel room background, soft lighting, cinematic high-end fashion photography. --ar 3:4 --style raw --v 6.0. Rich skin textures, subtle facial reflections, studio catchlights in the eyes, sharp focus on facial features, soft blurred background bokeh, professional editorial color grading, 8k resolution photo.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784700510/prompts/bk762wja7r7h81oeq9hk.webp",
     "isPremium": false,
     "isTrending": false,
@@ -814,14 +890,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmd0dg2po4o",
     "title": "AI Generates Lifestyle Portrait",
     "slug": "ai-generates-lifestyle-portrait-cs56k",
     "category": "Women",
-    "fullPrompt": "Just upload a photo of yourself and transform it into a breathtaking lifestyle portrait with golden-hour lighting, dreamy flower fields, soft depth of field, cinematic colors, natural skin tones, and premium editorial styling.",
+    "fullPrompt": "Just upload a photo of yourself and transform it into a breathtaking lifestyle portrait with golden-hour lighting, dreamy flower fields, soft depth of field, cinematic colors, natural skin tones, and premium editorial styling. Rich skin textures, subtle facial reflections, studio catchlights in the eyes, sharp focus on facial features, soft blurred background bokeh, professional editorial color grading, 8k resolution photo.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784700827/prompts/vs9b6bycrbagsibloya1.webp",
     "isPremium": false,
     "isTrending": false,
@@ -835,7 +913,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm0nci5dnt0",
@@ -856,7 +936,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmsf2jop915",
@@ -877,7 +959,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm098bvlmmh",
@@ -898,7 +982,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmeb3fuke68",
@@ -919,7 +1005,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm935706wpc",
@@ -940,7 +1028,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmedlaqr6i8",
@@ -961,7 +1051,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm4yr6hjzcp",
@@ -982,7 +1074,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmf4t8vtcji",
@@ -1003,7 +1097,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmgwm6x44ad",
@@ -1024,7 +1120,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmqh5753wvq",
@@ -1045,7 +1143,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmolcbp5q1q",
@@ -1066,7 +1166,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmzjo97571t",
@@ -1087,7 +1189,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmb0w3uq3kc",
@@ -1108,7 +1212,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmkq54jkjop",
@@ -1129,7 +1235,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmwivph0zue",
@@ -1150,7 +1258,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmdrslyg34m",
@@ -1171,7 +1281,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmejyrtjx3v",
@@ -1192,14 +1304,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmr13gpe9j9",
     "title": "Modern B&W Collage Portrait Prompt",
     "slug": "modern-bw-collage-portrait-prompt-5txke",
     "category": "Women",
-    "fullPrompt": "Create a modern black-and-white collage portrait of a stylish young woman wearing black sunglasses, a white oversized shirt, and black trousers. The collage should have multiple rounded rectangular frames stacked vertically with soft shadows and a minimal gray studio background",
+    "fullPrompt": "Create a modern black-and-white collage portrait of a stylish young woman wearing black sunglasses, a white oversized shirt, and black trousers. The collage should have multiple rounded rectangular frames stacked vertically with soft shadows and a minimal gray studio background. Rich skin textures, subtle facial reflections, studio catchlights in the eyes, sharp focus on facial features, soft blurred background bokeh, professional editorial color grading, 8k resolution photo.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784862159/prompts/ubqkm3d14bdhxxqcuua7.webp",
     "isPremium": false,
     "isTrending": false,
@@ -1213,7 +1327,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "low",
+    "seoIndex": false
   },
   {
     "id": "cmdbl827qe6",
@@ -1234,7 +1350,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmus7hverbf",
@@ -1255,14 +1373,16 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmku8fpyh4f",
     "title": "Dreamy floral portrait collage",
     "slug": "dreamy-floral-portrait-collage-5lz5r",
     "category": "Women",
-    "fullPrompt": "Photo collage of a gorgeous young Indian woman wearing a pink floral printed long gown. Long open hair decorated with small pink flowers. Wearing traditional silver jhumka earrings. Artistic close-up profile crops of her face softly blended into the background with a watercolor paint effect.",
+    "fullPrompt": "Photo collage of a gorgeous young Indian woman wearing a pink floral printed long gown. Long open hair decorated with small pink flowers. Wearing traditional silver jhumka earrings. Artistic close-up profile crops of her face softly blended into the background with a watercolor paint effect. Rich skin textures, subtle facial reflections, studio catchlights in the eyes, sharp focus on facial features, soft blurred background bokeh, professional editorial color grading, 8k resolution photo.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784863177/prompts/dm0r6lkiao7qnpsx1ovx.webp",
     "isPremium": false,
     "isTrending": false,
@@ -1276,7 +1396,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmrc0p60ghn",
@@ -1297,7 +1419,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmhxdw45naf",
@@ -1318,14 +1442,16 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cme5rmg1ju0",
     "title": "Golden birthday wishes collage",
     "slug": "golden-birthday-wishes-collage-1pwcx",
     "category": "Women",
-    "fullPrompt": "Preserve facial identity perfectly Design a premium birthday collage featuring three black-and-white portraits and one full-color portrait Replace the outfit with a royal maroon embroidered Anarkali featuring antique gold embroidery, matching dupatta jhumkas, and bangles\nWarm golden bokeh, luxury editorial color grading, gold \"Happy Birthday sam\" 8K ultra",
+    "fullPrompt": "Preserve facial identity perfectly Design a premium birthday collage featuring three black-and-white portraits and one full-color portrait Replace the outfit with a royal maroon embroidered Anarkali featuring antique gold embroidery, matching dupatta jhumkas, and bangles\nWarm golden bokeh, luxury editorial color grading, gold \"Happy Birthday sam\" 8K ultra. Rich skin textures, subtle facial reflections, studio catchlights in the eyes, sharp focus on facial features, soft blurred background bokeh, professional editorial color grading, 8k resolution photo.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1784868006/prompts/lbv6kezbtxgydpfmaxau.webp",
     "isPremium": false,
     "isTrending": false,
@@ -1339,7 +1465,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmp79fhb39m",
@@ -1360,7 +1488,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm1jvkxgbg5",
@@ -1381,7 +1511,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmififeczp6",
@@ -1402,7 +1534,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmw70r75v1t",
@@ -1423,7 +1557,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm1yi17v69y",
@@ -1444,7 +1580,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cma9er4jr6k",
@@ -1465,7 +1603,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmfl3euq9pz",
@@ -1486,7 +1626,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm13tohzaqt",
@@ -1507,7 +1649,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmgwogrc590",
@@ -1528,7 +1672,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmly83j565d",
@@ -1549,7 +1695,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmoe1q6o7n5",
@@ -1570,14 +1718,16 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm4onbazkao",
     "title": "Golden-Hour Garden Polaroid Collage",
     "slug": "goldenhour-garden-polaroid-collage-izp8m",
     "category": "Women",
-    "fullPrompt": "Create an artistic three-layer collage made from overlapping premium Polaroid photo frames arranged vertically on a warm textured background.\nTop Polaroid:\nClose-up laughing candid portrait with soft natural light and loose wavy hair.\nCenter Polaroid (Largest):\nBeautiful seated portrait wearing a cream floral dress in a blooming garden surrounded by white flowers and warm sunset lighting.",
+    "fullPrompt": "Create an artistic three-layer collage made from overlapping premium Polaroid photo frames arranged vertically on a warm textured background.\nTop Polaroid:\nClose-up laughing candid portrait with soft natural light and loose wavy hair.\nCenter Polaroid (Largest):\nBeautiful seated portrait wearing a cream floral dress in a blooming garden surrounded by white flowers and warm sunset lighting. Rich skin textures, subtle facial reflections, studio catchlights in the eyes, sharp focus on facial features, soft blurred background bokeh, professional editorial color grading, 8k resolution photo.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1785912985/prompts/h87idayljhyggzefixbk.webp",
     "isPremium": false,
     "isTrending": false,
@@ -1591,7 +1741,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm0w7xr7a6r",
@@ -1612,7 +1764,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm5oq3cjpll",
@@ -1633,7 +1787,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmrbfxn7dt3",
@@ -1654,7 +1810,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmi3wel6cpb",
@@ -1675,7 +1833,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmr86ehnnht",
@@ -1696,7 +1856,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmuna8ioesl",
@@ -1717,7 +1879,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmu1mqieuqe",
@@ -1738,7 +1902,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmfgrn85ucd",
@@ -1759,7 +1925,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmop53b22bl",
@@ -1780,7 +1948,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm4unueqqle",
@@ -1801,7 +1971,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "low",
+    "seoIndex": false
   },
   {
     "id": "cm938wl04c7",
@@ -1822,7 +1994,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm0nd122z8s",
@@ -1843,14 +2017,16 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm26jatezf2",
     "title": "Dual Moods in Magenta and Monochrome",
     "slug": "dual-moods-in-magenta-and-monochrome-41mou",
     "category": "Women",
-    "fullPrompt": "Powerful split-emotion portrait of the same woman back-to-back, left side dark monochrome with eyes closed, head resting on hand, expressing sadness; right side glowing magenta-pink, smiling with head tilted back and eyes closed, expressing joy and freedom. Dramatic watercolor and paint-splash transition, cinematic DSLR lighting, ultra-realistic, emotional concept art, soft brush textures, 8K, vertical.",
+    "fullPrompt": "Powerful split-emotion portrait of the same woman back-to-back, left side dark monochrome with eyes closed, head resting on hand, expressing sadness; right side glowing magenta-pink, smiling with head tilted back and eyes closed, expressing joy and freedom. Dramatic watercolor and paint-splash transition, cinematic DSLR lighting, ultra-realistic, emotional concept art, soft brush textures, 8K, vertical. Rich skin textures, subtle facial reflections, studio catchlights in the eyes, sharp focus on facial features, soft blurred background bokeh, professional editorial color grading, 8k resolution photo.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1786440844/prompts/c14wapg7rvvzxyyqkldl.webp",
     "isPremium": false,
     "isTrending": false,
@@ -1864,7 +2040,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmrivzwqd1n",
@@ -1885,7 +2063,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmmxbr62bwm",
@@ -1906,7 +2086,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmasfm87cz9",
@@ -1927,14 +2109,16 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm73r3ibfbk",
     "title": "Golden Bokeh Hat Portrait",
     "slug": "golden-bokeh-hat-portrait-5r9ob",
     "category": "Women",
-    "fullPrompt": "Close-up photorealistic portrait of a beautiful blonde woman with long wavy hair, wearing a light blue wide-brim felt cloche hat with light blue satin ribbon bow, light blue shirt with white polka dots, gold filigree drop earrings, soft glam makeup with glossy pink lips, warm golden bokeh background, studio lighting, ultra-detailed, 8k",
+    "fullPrompt": "Close-up photorealistic portrait of a beautiful blonde woman with long wavy hair, wearing a light blue wide-brim felt cloche hat with light blue satin ribbon bow, light blue shirt with white polka dots, gold filigree drop earrings, soft glam makeup with glossy pink lips, warm golden bokeh background, studio lighting, ultra-detailed, 8k. Rich skin textures, subtle facial reflections, studio catchlights in the eyes, sharp focus on facial features, soft blurred background bokeh, professional editorial color grading, 8k resolution photo.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1786442433/prompts/ktxjkv84wuijlz7g9zqi.webp",
     "isPremium": false,
     "isTrending": false,
@@ -1948,14 +2132,16 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm0cojtapgx",
     "title": "Golden Hat Glamour Portrait",
     "slug": "golden-hat-glamour-portrait-bgy9v",
     "category": "Women",
-    "fullPrompt": "close-up photorealistic portrait of a beautiful brunette woman with long wavy brown hair, wearing a mustard yellow wide-brim felt hat with white satin bow, yellow sheer dress with white polka dots and ruffles, hand holding hat brim, diamond tennis bracelet and gold ring, soft glam makeup, warm golden bokeh background, studio lighting, ultra-detailed",
+    "fullPrompt": "close-up photorealistic portrait of a beautiful brunette woman with long wavy brown hair, wearing a mustard yellow wide-brim felt hat with white satin bow, yellow sheer dress with white polka dots and ruffles, hand holding hat brim, diamond tennis bracelet and gold ring, soft glam makeup, warm golden bokeh background, studio lighting, ultra-detailed. Rich skin textures, subtle facial reflections, studio catchlights in the eyes, sharp focus on facial features, soft blurred background bokeh, professional editorial color grading, 8k resolution photo.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1786442514/prompts/pslp9zbl70yyxb7udymp.webp",
     "isPremium": false,
     "isTrending": false,
@@ -1969,14 +2155,16 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cma32w4kk6n",
     "title": "Elegant Portrait with Pink Hat and Pearls",
     "slug": "elegant-portrait-with-pink-hat-and-pearl-a2096",
     "category": "Women",
-    "fullPrompt": "close-up photorealistic portrait of a beautiful blonde woman with long wavy hair and blue eyes, wearing a dusty pink wide-brim felt hat with long white satin bow, pink and white striped shirt, pearl drop earrings and pearl bracelet, hand touching hat brim, gentle smile, glossy pink lips, warm bokeh background, photorealistic, ultra-detailed",
+    "fullPrompt": "close-up photorealistic portrait of a beautiful blonde woman with long wavy hair and blue eyes, wearing a dusty pink wide-brim felt hat with long white satin bow, pink and white striped shirt, pearl drop earrings and pearl bracelet, hand touching hat brim, gentle smile, glossy pink lips, warm bokeh background, photorealistic, ultra-detailed. Rich skin textures, subtle facial reflections, studio catchlights in the eyes, sharp focus on facial features, soft blurred background bokeh, professional editorial color grading, 8k resolution photo.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1786442570/prompts/rvhdiwna0jcnwyihxmon.webp",
     "isPremium": false,
     "isTrending": false,
@@ -1990,14 +2178,16 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmlnnk3fv2q",
     "title": "Lavender Hat Portrait with Golden Bokeh",
     "slug": "lavender-hat-portrait-with-golden-bokeh-mclrm",
     "category": "Women",
-    "fullPrompt": "close-up photorealistic portrait of a beautiful woman with long dark brown wavy hair, wearing a lavender wide-brim felt hat with satin lilac bow, sheer iridescent lavender shirt, ornate gold filigree earrings, pearl bracelet with teardrop charm, hand under chin pose, soft glam makeup with glossy lips, warm bokeh background, studio portrait, ultra-detailed",
+    "fullPrompt": "close-up photorealistic portrait of a beautiful woman with long dark brown wavy hair, wearing a lavender wide-brim felt hat with satin lilac bow, sheer iridescent lavender shirt, ornate gold filigree earrings, pearl bracelet with teardrop charm, hand under chin pose, soft glam makeup with glossy lips, warm bokeh background, studio portrait, ultra-detailed. Rich skin textures, subtle facial reflections, studio catchlights in the eyes, sharp focus on facial features, soft blurred background bokeh, professional editorial color grading, 8k resolution photo.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1786442660/prompts/bd2qfcdvzh19ygrv67lu.webp",
     "isPremium": false,
     "isTrending": false,
@@ -2011,7 +2201,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmkf846rob4",
@@ -2032,7 +2224,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmn256ot5uw",
@@ -2053,7 +2247,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmp8pvkwbxw",
@@ -2074,7 +2270,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm6mjuaou5w",
@@ -2095,14 +2293,16 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmdu86yqn5r",
     "title": "Photo Description of Woman",
     "slug": "photo-description-of-woman-ufik3",
     "category": "Women",
-    "fullPrompt": "A high-quality, realistic photo of a beautiful Indian woman with long, wavy dark hair. She is wearing an elegant white Anarkali gown featuring soft yellow floral prints and a matching sheer dupatta. She is standing outdoors in the courtyard of a luxury modern villa during warm golden hour lighting. Full-body shot, photorealistic, cinematic lighting, 8k resolution, highly detailed texture. ",
+    "fullPrompt": "A high-quality, realistic photo of a beautiful Indian woman with long, wavy dark hair. She is wearing an elegant white Anarkali gown featuring soft yellow floral prints and a matching sheer dupatta. She is standing outdoors in the courtyard of a luxury modern villa during warm golden hour lighting. Full-body shot, photorealistic, cinematic lighting, 8k resolution, highly detailed texture. Rich skin textures, subtle facial reflections, studio catchlights in the eyes, sharp focus on facial features, soft blurred background bokeh, professional editorial color grading, 8k resolution photo.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1786444965/prompts/ephvkhifwb7tmtf7qj5a.webp",
     "isPremium": false,
     "isTrending": false,
@@ -2116,7 +2316,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmhycp4hqtx",
@@ -2137,7 +2339,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm8ugjufcuc",
@@ -2158,7 +2362,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmvrbhwqafm",
@@ -2179,7 +2385,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm6c4eu4mu9",
@@ -2200,7 +2408,9 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmu5y7e4abx",
@@ -2221,6 +2431,8 @@
     "tags": [],
     "models": [
       "Chat GPT"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   }
 ]

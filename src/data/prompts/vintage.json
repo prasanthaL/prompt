@@ -4,7 +4,7 @@
     "title": "Nostalgic 1970s Polaroid Beach Day",
     "slug": "nostalgic-1970s-polaroid-beach-day-vt29c",
     "category": "Vintage",
-    "fullPrompt": "A nostalgic retro Polaroid style snapshot of a group of friends laughing at the beach, faded warm colors, slight vignetting, vintage 1970s film grain, authentic old-school photo vibe, nostalgic analog texture.",
+    "fullPrompt": "A nostalgic retro Polaroid style snapshot of a group of friends laughing at the beach, faded warm colors, slight vignetting, vintage 1970s film grain, authentic old-school photo vibe, nostalgic analog texture. Rich visual details, harmonious color palette, professional lighting setup, high-resolution rendering, detailed background atmosphere.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783667026/prompts/wvdnzj8wdm6ikhmtua12.webp",
     "isPremium": false,
     "isTrending": false,
@@ -18,7 +18,9 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "medium",
+    "seoIndex": true
   },
   {
     "id": "cmhxcalmg0n",
@@ -39,14 +41,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmg5963evo4",
     "title": "1950s European Town Photography Prompt",
     "slug": "1950s-european-town-photography-prompt-9zmy9",
     "category": "Vintage",
-    "fullPrompt": "A charming European town during the 1950s with cobblestone streets, antique street lamps, colorful classic buildings, vintage bicycles, retro cafés, people dressed in elegant period clothing, soft golden-hour sunlight, nostalgic atmosphere, Kodak Ektachrome film style, realistic textures, cinematic perspective, natural lighting, highly detailed, ultra realistic, 8K photography.",
+    "fullPrompt": "A charming European town during the 1950s with cobblestone streets, antique street lamps, colorful classic buildings, vintage bicycles, retro cafés, people dressed in elegant period clothing, soft golden-hour sunlight, nostalgic atmosphere, Kodak Ektachrome film style, realistic textures, cinematic perspective, natural lighting, highly detailed, ultra realistic, 8K photography. Rich visual details, harmonious color palette, professional lighting setup, high-resolution rendering, detailed background atmosphere.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783667231/prompts/zueov2ooohwbrkwnxivr.webp",
     "isPremium": false,
     "isTrending": false,
@@ -60,14 +64,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cm5xon0dk1n",
     "title": "1930s Art Deco Living Room",
     "slug": "1930s-art-deco-living-room-3cpbv",
     "category": "Vintage",
-    "fullPrompt": "An elegant vintage living room inspired by the 1930s Art Deco era featuring antique leather sofas, polished wooden furniture, brass chandeliers, ornate fireplace, vintage bookshelves, Persian carpet, warm ambient lighting, luxurious classic interior, realistic materials, cinematic composition, soft shadows, film grain, timeless atmosphere, ultra detailed, photorealistic, 8K.",
+    "fullPrompt": "An elegant vintage living room inspired by the 1930s Art Deco era featuring antique leather sofas, polished wooden furniture, brass chandeliers, ornate fireplace, vintage bookshelves, Persian carpet, warm ambient lighting, luxurious classic interior, realistic materials, cinematic composition, soft shadows, film grain, timeless atmosphere, ultra detailed, photorealistic, 8K. Rich visual details, harmonious color palette, professional lighting setup, high-resolution rendering, detailed background atmosphere.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783667292/prompts/ngmqkgxhzzrhng5inowl.webp",
     "isPremium": false,
     "isTrending": false,
@@ -81,14 +87,16 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   },
   {
     "id": "cmh9fn5zfqg",
     "title": "1920s Steam Train Sunrise Prompt",
     "slug": "1920s-steam-train-sunrise-prompt-ogdgs",
     "category": "Vintage",
-    "fullPrompt": "A luxurious 1920s steam train traveling through breathtaking countryside at sunrise, elegant passengers in vintage clothing looking through polished wooden windows, classic brass details, gentle steam rising into the morning sky, cinematic wide-angle composition, nostalgic travel aesthetic, warm golden light, Kodak film color grading, highly detailed environment, photorealistic, masterpiece, ultra realistic, 8K.",
+    "fullPrompt": "A luxurious 1920s steam train traveling through breathtaking countryside at sunrise, elegant passengers in vintage clothing looking through polished wooden windows, classic brass details, gentle steam rising into the morning sky, cinematic wide-angle composition, nostalgic travel aesthetic, warm golden light, Kodak film color grading, highly detailed environment, photorealistic, masterpiece, ultra realistic, 8K. Rich visual details, harmonious color palette, professional lighting setup, high-resolution rendering, detailed background atmosphere.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1783667353/prompts/x1znnpb1j3sr5gfn0ndv.webp",
     "isPremium": false,
     "isTrending": false,
@@ -102,6 +110,8 @@
     "tags": [],
     "models": [
       "Gemini AI"
-    ]
+    ],
+    "quality": "high",
+    "seoIndex": true
   }
 ]
