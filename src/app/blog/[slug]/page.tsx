@@ -40,7 +40,7 @@ function richToCardData(raw: RichBlog): BlogCardData {
     category: raw.category,
     tags: raw.tags,
     featured: raw.featured,
-    author: raw.author ? { name: raw.author.name, avatar: raw.author.avatar } : undefined,
+    author: raw.author ? { name: raw.author.name } : undefined,
   };
 }
 
