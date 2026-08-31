@@ -240,15 +240,17 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <script
+        <Script
           id="root-json-ld"
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas) }}
         />
-        <script
+        <Script
+          id="adsense-init"
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8424254342497536"
           crossOrigin="anonymous"
+          strategy="afterInteractive"
         />
       </head>
       <body className={`${outfit.variable} font-sans antialiased`}>

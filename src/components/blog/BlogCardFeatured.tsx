@@ -14,7 +14,7 @@ export interface BlogCardData {
   category: string;
   tags?: string[];
   featured?: boolean;
-  author?: { name: string; avatar?: string };
+  author?: { name: string };
 }
 
 interface BlogCardFeaturedProps {
