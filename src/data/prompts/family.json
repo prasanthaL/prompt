@@ -20,7 +20,7 @@
       "Gemini AI"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cmprf482rrn",
@@ -66,7 +66,7 @@
       "Gemini AI"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cmml5zvirdq",
@@ -89,7 +89,7 @@
       "Gemini AI"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cmstsuaiz2y",
@@ -112,6 +112,6 @@
       "Chat GPT"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": false
   }
 ]

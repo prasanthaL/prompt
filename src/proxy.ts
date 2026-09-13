@@ -7,18 +7,18 @@ export function proxy(request: NextRequest) {
   const secret = process.env.NEXTAUTH_SECRET || "prompt-marketplace-super-secret-key-2024";
   const isValidSession = session && session === secret;
 
-  // Protect all prasa sub-pages, but allow access to the login page itself (/prasa)
-  if (pathname.startsWith("/prasa/") && pathname !== "/prasa") {
+  // Protect all prompt-admin sub-pages, but allow access to the login page itself (/prompt-admin)
+  if (pathname.startsWith("/prompt-admin/") && pathname !== "/prompt-admin") {
     if (!isValidSession) {
-      // Redirect to home page
-      return NextResponse.redirect(new URL("/", request.url));
+      // Redirect to admin login page
+      return NextResponse.redirect(new URL("/prompt-admin", request.url));
     }
   }
 
   // If already logged in and visiting the login page, redirect to the dashboard
-  if (pathname === "/prasa") {
+  if (pathname === "/prompt-admin") {
     if (isValidSession) {
-      return NextResponse.redirect(new URL("/prasa/dashboard", request.url));
+      return NextResponse.redirect(new URL("/prompt-admin/dashboard", request.url));
     }
   }
 
@@ -26,5 +26,5 @@ export function proxy(request: NextRequest) {
 }
 
 export const config = {
-  matcher: "/prasa/:path*",
+  matcher: "/prompt-admin/:path*",
 };

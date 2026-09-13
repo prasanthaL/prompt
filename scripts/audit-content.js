@@ -28,9 +28,10 @@ function shouldIndexPrompt(p) {
   const placeholderRegex = /\{[^{}]+\}|\[[A-Z0-9_\s/–-]{2,}\]/i;
   if (placeholderRegex.test(text)) return false;
 
-  // 4. Minimum meaningful content check (at least 20 words)
+  // 4. Minimum useful source content for an indexable prompt page.
+  // Short source prompts are kept out of the sitemap to reduce thin pages.
   const words = text.trim().split(/\s+/).filter(Boolean);
-  if (words.length < 20) return false;
+  if (words.length < 60) return false;
 
   // 5. Corrupted text check
   if (text.includes('"title":') && text.includes('"version":') && text.includes('"design_principles":')) {
@@ -197,12 +198,15 @@ function runAudit() {
 
   console.log('\n==================================================');
 
-  if (placeholderCount === 0 && exactDupGroups === 0 && categoryMismatchCount === 0) {
-    console.log('AUDIT STATUS: PASS');
+  if (placeholderCount === 0 && exactDupGroups === 0 && categoryMismatchCount === 0 && totalIndexable === 50) {
+    console.log('AUDIT STATUS: PASS (Target 50 best prompts indexable)');
     console.log('==================================================\n');
     process.exit(0);
   } else {
     console.log('AUDIT STATUS: FAIL (Issues found)');
+    if (totalIndexable !== 50) {
+      console.log(`  - Expected exactly 50 indexable prompts for AdSense approval, found: ${totalIndexable}`);
+    }
     console.log('==================================================\n');
     process.exit(1);
   }

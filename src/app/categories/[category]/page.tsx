@@ -399,7 +399,7 @@ export default async function CategoryPage({ params }: PageProps) {
                   Premium {displayName} Art
                 </h3>
                 <p className="text-[10px] text-white/60 font-semibold uppercase tracking-wider">
-                  Hand-crafted & Optimized for Gemini 1.5 Pro & Ultra
+                  Hand-crafted & Optimized for Gemini 3.8 Pro & Flash
                 </p>
               </div>
             </div>

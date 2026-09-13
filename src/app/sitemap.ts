@@ -1,5 +1,5 @@
 import { MetadataRoute } from "next";
-import { getAllPrompts } from "@/lib/json-db";
+import { getAllPromptsSync } from "@/lib/prompts-data";
 import { categoryToSlug } from "@/lib/category-slugs";
 import { shouldIndexPrompt } from "@/lib/seo-utils";
 import blogJsonData from "@/data/blog.json";
@@ -7,7 +7,7 @@ import categories from "@/data/categories.json";
 
 const siteUrl = "https://www.aipromptnest.com";
 
-export const revalidate = 86400; // regenerate sitemap at most once per day
+export const revalidate = 3600; // regenerate sitemap at least every hour
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // Use a stable fallback date — don't use new Date() which changes on every
@@ -46,6 +46,36 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       changeFrequency: "weekly",
       priority: 0.8,
     },
+    {
+      url: `${siteUrl}/about`,
+      lastModified: stableFallback,
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
+      url: `${siteUrl}/contact`,
+      lastModified: stableFallback,
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
+      url: `${siteUrl}/faq`,
+      lastModified: stableFallback,
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
+      url: `${siteUrl}/privacy-policy`,
+      lastModified: stableFallback,
+      changeFrequency: "monthly",
+      priority: 0.5,
+    },
+    {
+      url: `${siteUrl}/terms-of-service`,
+      lastModified: stableFallback,
+      changeFrequency: "monthly",
+      priority: 0.5,
+    },
   ];
 
   /* Category routes — read directly from the known categories list */
@@ -65,7 +95,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   }));
 
   /* Prompt routes — read directly from JSON files, filtered by indexing quality rules */
-  const allPrompts = await getAllPrompts();
+  const allPrompts = getAllPromptsSync();
   const promptRoutes: MetadataRoute.Sitemap = allPrompts
     .filter((p) => (p.slug || p.id) && shouldIndexPrompt(p))
     .map((p) => ({

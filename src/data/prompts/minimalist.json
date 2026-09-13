@@ -20,7 +20,7 @@
       "Gemini AI"
     ],
     "quality": "medium",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cm8a6wi3un8",
@@ -66,7 +66,7 @@
       "Gemini AI"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cmoqsbz8lpy",
@@ -89,7 +89,7 @@
       "Gemini AI"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cmcc834fkm5",
@@ -112,6 +112,6 @@
       "Gemini AI"
     ],
     "quality": "medium",
-    "seoIndex": true
+    "seoIndex": false
   }
 ]

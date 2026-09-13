@@ -30,6 +30,8 @@ export interface Prompt {
   models?: string[];
   quality?: "high" | "medium" | "low";
   seoIndex?: boolean;
+  about?: string;
+  howToUse?: string[];
 }
 
 export interface Blog {
