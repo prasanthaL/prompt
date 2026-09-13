@@ -20,7 +20,7 @@
       "Gemini AI"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cmokmzwqrur",
@@ -43,7 +43,7 @@
       "Gemini AI"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cm2cgvl2bn7",
@@ -66,7 +66,7 @@
       "Gemini AI"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cml3e2ac3nh",
@@ -112,7 +112,7 @@
       "Gemini AI"
     ],
     "quality": "medium",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cmygpidj7zg",
@@ -135,7 +135,7 @@
       "Chat GPT"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cm9a7qhyk64",
@@ -158,7 +158,7 @@
       "Gemini AI"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cmt3hqu74g6",
@@ -181,7 +181,7 @@
       "Chat GPT"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cm4nfg2hopr",
@@ -204,7 +204,7 @@
       "Gemini AI"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cm9lzrd0u9u",
@@ -227,7 +227,7 @@
       "Gemini AI"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cmp0hqwilwr",
@@ -250,7 +250,7 @@
       "Gemini AI"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cma6sfqzkyu",
@@ -273,7 +273,7 @@
       "Gemini AI"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cme940tnzup",
@@ -296,7 +296,7 @@
       "Gemini AI"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cm33qchjdpw",
@@ -319,7 +319,7 @@
       "Gemini AI"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cmnrnf9kii5",
@@ -342,7 +342,7 @@
       "Gemini AI"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cmp3jqc3a8n",
@@ -365,7 +365,7 @@
       "Gemini AI"
     ],
     "quality": "medium",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cmtxuv8orah",
@@ -388,7 +388,7 @@
       "Gemini AI"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cmcvp1dzjpy",
@@ -411,6 +411,6 @@
       "Gemini AI"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": false
   }
 ]

@@ -31,9 +31,11 @@ export function shouldIndexPrompt(prompt: Partial<Prompt> | null | undefined): b
   const placeholderRegex = /\{[^{}]+\}|\[[A-Z0-9_\s/–-]{2,}\]/i;
   if (placeholderRegex.test(text)) return false;
 
-  // 4. Minimum meaningful content check (at least 20 words)
+  // 4. Minimum useful source content for an indexable prompt page.
+  // The detail page adds editorial guidance, but very short source prompts
+  // are still kept out of the sitemap to avoid thin/low-value URLs.
   const wordCount = text.trim().split(/\s+/).filter(Boolean).length;
-  if (wordCount < 20) return false;
+  if (wordCount < 60) return false;
 
   // 5. Corrupted text check (e.g. raw JSON strings)
   if (text.includes('"title":') && text.includes('"version":') && text.includes('"design_principles":')) {

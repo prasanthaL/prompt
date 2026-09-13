@@ -13,7 +13,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { Search } from "lucide-react";
+import { Search, BookOpen } from "lucide-react";
 
 import Navbar from "@/components/Navbar";
 import RelatedPrompts from "@/components/RelatedPrompts";
@@ -31,6 +31,7 @@ import {
 } from "@/lib/prompts-data";
 
 import { shouldIndexPrompt } from "@/lib/seo-utils";
+import { getPromptEditorialContent } from "@/lib/prompt-content";
 
 /* ─────────────────────────────────────────────────────────────
    ISR: revalidate static pages every hour.
@@ -61,7 +62,7 @@ export async function generateMetadata({
 
   if (!prompt) {
     return {
-      title: "Prompt Not Found | PromptNest",
+      title: "Prompt Not Found | AIPromptNest",
       description: "The requested AI prompt could not be found.",
       robots: { index: false },
     };
@@ -73,27 +74,27 @@ export async function generateMetadata({
     prompt.fullPrompt.length > 110
       ? prompt.fullPrompt.slice(0, 107) + "…"
       : prompt.fullPrompt;
-  const description = `${prompt.title} — a ${prompt.category} AI prompt by ${prompt.author}. ${excerpt}`;
+  const description = `${prompt.title} — a ${prompt.category} AI image prompt with practical guidance for ${prompt.models?.[0] || "AI image generation"}. ${excerpt}`;
   const metaDescription =
     description.length > 160 ? description.slice(0, 157) + "…" : description;
 
   const canonicalSlug = prompt.slug ?? prompt.id;
 
   return {
-    title: `${prompt.title} | PromptNest`,
+    title: `${prompt.title} | AIPromptNest`,
     description: metaDescription,
     keywords: [
       prompt.title,
       prompt.category,
       "AI prompt",
-      "PromptNest",
+      "AIPromptNest",
       ...(prompt.tags ?? []),
       ...(prompt.models ?? []),
     ],
-    authors: [{ name: prompt.author }],
+    authors: [{ name: "AIPromptNest Editorial Team" }],
     robots: { index: shouldIndexPrompt(prompt), follow: true },
     openGraph: {
-      title: `${prompt.title} | PromptNest`,
+      title: `${prompt.title} | AIPromptNest`,
       description: metaDescription,
       type: "article",
       url: `/prompts/${canonicalSlug}`,
@@ -113,7 +114,7 @@ export async function generateMetadata({
     },
     twitter: {
       card: "summary_large_image",
-      title: `${prompt.title} | PromptNest`,
+      title: `${prompt.title} | AIPromptNest`,
       description: metaDescription,
       images: [prompt.image],
     },
@@ -141,6 +142,8 @@ export default async function PromptPage({
   }
 
   const similarPrompts = await getCachedSimilarPrompts(prompt.id, prompt.category, 3);
+  const editorial = getPromptEditorialContent(prompt);
+  const promptForClient = { ...prompt, about: editorial.overview, howToUse: editorial.howToUse };
 
   const canonicalSlug = prompt.slug ?? prompt.id;
   const canonicalUrl = `/prompts/${canonicalSlug}`;
@@ -159,7 +162,7 @@ export default async function PromptPage({
         "@type": "WebPage",
         "@id": canonicalUrl,
         url: canonicalUrl,
-        name: `${prompt.title} | PromptNest`,
+        name: `${prompt.title} | AIPromptNest`,
         description: sdDescription,
         inLanguage: "en-US",
         isPartOf: { "@id": "/" },
@@ -174,7 +177,7 @@ export default async function PromptPage({
         description: sdDescription,
         image: prompt.image,
         url: canonicalUrl,
-        author: { "@type": "Person", name: prompt.author },
+        author: { "@type": "Organization", name: "AIPromptNest" },
         genre: prompt.category,
         keywords: [
           ...(prompt.tags ?? []),
@@ -267,7 +270,64 @@ export default async function PromptPage({
         </div>
 
         {/* Main detail — client shell (copy/share buttons, animations) */}
-        <PromptDetailClient prompt={prompt} />
+        <PromptDetailClient prompt={promptForClient} />
+
+        {/* Editorial guidance — server rendered so search engines and users can read the useful context without client-side interaction. */}
+        <section className="mt-10 mb-16 grid gap-5 lg:grid-cols-2" aria-labelledby="prompt-guide-heading">
+          <div className="prompt-detail-card lg:col-span-2">
+            <div className="prompt-detail-card-header">
+              <div className="flex items-center gap-2">
+                <div className="prompt-detail-card-icon-wrap bg-primary/10"><BookOpen className="w-4 h-4 text-primary" /></div>
+                <div>
+                  <h2 id="prompt-guide-heading" className="prompt-detail-card-title">Prompt Guide</h2>
+                  <p className="prompt-detail-card-subtitle">Practical context for understanding, adapting, and getting better results from this prompt.</p>
+                </div>
+              </div>
+            </div>
+            <div className="space-y-4 text-sm leading-7 text-foreground/65">
+              <p>{editorial.overview}</p>
+              <p>This guide is based on the actual instructions in the prompt rather than a generic description, so you can see which parts are worth preserving when you customize it.</p>
+            </div>
+          </div>
+
+          <div className="prompt-detail-card">
+            <div className="prompt-detail-card-header"><h2 className="prompt-detail-card-title">What This Prompt Is Best For</h2></div>
+            <ul className="grid gap-2 sm:grid-cols-2">
+              {editorial.bestFor.map((item) => <li key={item} className="rounded-xl border border-white/5 bg-white/[0.025] px-4 py-3 text-sm text-foreground/65">{item}</li>)}
+            </ul>
+          </div>
+
+          <div className="prompt-detail-card">
+            <div className="prompt-detail-card-header"><h2 className="prompt-detail-card-title">How To Customize It</h2></div>
+            <ul className="space-y-3 text-sm leading-6 text-foreground/65">
+              {editorial.customization.map((item) => <li key={item} className="flex gap-3"><span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-primary" />{item}</li>)}
+            </ul>
+          </div>
+
+          <div className="prompt-detail-card">
+            <div className="prompt-detail-card-header"><h2 className="prompt-detail-card-title">Prompt Breakdown</h2></div>
+            <div className="space-y-4">
+              {editorial.breakdown.map((item) => (
+                <div key={`${item.label}-${item.text}`} className="border-b border-white/5 pb-4 last:border-0 last:pb-0">
+                  <h3 className="mb-1 text-sm font-bold text-foreground/85">{item.label}</h3>
+                  <p className="text-sm leading-6 text-foreground/60">{item.text}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <div className="prompt-detail-card">
+            <div className="prompt-detail-card-header"><h2 className="prompt-detail-card-title">Tips For Better Results</h2></div>
+            <ol className="space-y-3 text-sm leading-6 text-foreground/65">
+              {editorial.tips.map((item, index) => <li key={item} className="flex gap-3"><span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-primary/10 text-xs font-bold text-primary">{index + 1}</span><span>{item}</span></li>)}
+            </ol>
+          </div>
+
+          <div className="prompt-detail-card lg:col-span-2">
+            <div className="prompt-detail-card-header"><h2 className="prompt-detail-card-title">Using This Prompt Responsibly</h2></div>
+            <p className="text-sm leading-7 text-foreground/60">AI image results can vary between models and versions. Review generated images before publishing, especially when using reference photos, recognizable people, brands, or commercial assets. Follow the rules and usage terms of the image-generation service you use.</p>
+          </div>
+        </section>
 
         {/* Similar Prompts — fully server-rendered */}
         {similarPrompts.length > 0 && (

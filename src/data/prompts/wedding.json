@@ -24,7 +24,7 @@
       "Gemini AI"
     ],
     "quality": "medium",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cml0vjfigtp",
@@ -47,7 +47,7 @@
       "Gemini AI"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cmriwogkhra",
@@ -70,7 +70,7 @@
       "Gemini AI"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cm33bhizk8q",
@@ -93,7 +93,7 @@
       "Gemini AI"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cmdc5x8qypo",
@@ -116,7 +116,7 @@
       "Gemini AI"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cmfzloult3f",
@@ -139,7 +139,7 @@
       "Gemini AI"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cmcyqqxtojq",
@@ -162,7 +162,7 @@
       "Gemini AI"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cm4kybdbzek",
@@ -185,7 +185,7 @@
       "Chat GPT"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cmb00rja2lc",
@@ -231,6 +231,6 @@
       "Chat GPT"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": false
   }
 ]

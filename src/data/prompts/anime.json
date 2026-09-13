@@ -20,7 +20,7 @@
     "isLatest": false,
     "isFeatured": false,
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cm39tlem23g",
@@ -43,7 +43,7 @@
     "isLatest": false,
     "isFeatured": false,
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cmfui3t8v6l",
@@ -66,7 +66,7 @@
     "isLatest": false,
     "isFeatured": false,
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cmc948im5uq",
@@ -89,7 +89,7 @@
     "isLatest": false,
     "isFeatured": false,
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cmnsv6q7gyw",
@@ -112,7 +112,7 @@
     "isLatest": false,
     "isFeatured": false,
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cmulnc6p8ue",
@@ -135,7 +135,7 @@
     "isLatest": false,
     "isFeatured": false,
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cmzkgozqjik",
@@ -158,7 +158,7 @@
     "isLatest": false,
     "isFeatured": false,
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cmen2p4ksxl",
@@ -181,7 +181,7 @@
     "isLatest": false,
     "isFeatured": false,
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cms7ds57mhq",
@@ -204,7 +204,7 @@
     "isLatest": false,
     "isFeatured": false,
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cmzsc9fj04c",
@@ -227,7 +227,7 @@
     "isLatest": false,
     "isFeatured": false,
     "quality": "medium",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cmzgquv9ean",
@@ -250,7 +250,7 @@
     "isLatest": false,
     "isFeatured": false,
     "quality": "medium",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cmfs73njp07",
@@ -273,7 +273,7 @@
     "isLatest": false,
     "isFeatured": false,
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cmkw2mvdrbj",
@@ -296,7 +296,7 @@
     "isLatest": false,
     "isFeatured": false,
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cms564kc35f",
@@ -319,7 +319,7 @@
     "isLatest": false,
     "isFeatured": false,
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cmp206x8dbt",
@@ -342,7 +342,7 @@
     "isLatest": false,
     "isFeatured": false,
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cm92qv2ij70",
@@ -365,7 +365,7 @@
     "isLatest": false,
     "isFeatured": false,
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cmkbqqsrje2",
@@ -388,7 +388,7 @@
     "isLatest": false,
     "isFeatured": false,
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cma6kryde8x",
@@ -411,7 +411,7 @@
     "isLatest": false,
     "isFeatured": false,
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cmijtdclz6r",
@@ -434,7 +434,7 @@
     "isLatest": false,
     "isFeatured": false,
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cm5loz2ldwr",
@@ -457,7 +457,7 @@
     "isLatest": false,
     "isFeatured": false,
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cmgrfnyvv7f",
@@ -480,7 +480,7 @@
     "isLatest": false,
     "isFeatured": false,
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cmn2gd8iseg",
@@ -503,7 +503,7 @@
     "isLatest": false,
     "isFeatured": false,
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cmrb2m8pf5y",
@@ -526,7 +526,7 @@
     "isLatest": false,
     "isFeatured": false,
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cm8gi6fc86i",
@@ -574,7 +574,7 @@
       "Gemini AI"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cm71z6k293l",
@@ -597,7 +597,7 @@
       "Gemini AI"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cm5avsmyn8w",
@@ -620,7 +620,7 @@
       "Gemini AI"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cme1u7xrnru",
@@ -643,7 +643,7 @@
       "Gemini AI"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cmmi9afizrm",
@@ -666,7 +666,7 @@
       "Gemini AI"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cm6mt5gt4f5",
@@ -689,7 +689,7 @@
       "Gemini AI"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cm1f0f4yuuo",
@@ -712,7 +712,7 @@
       "Chat GPT"
     ],
     "quality": "medium",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cm7aimwq44r",
@@ -735,7 +735,7 @@
       "Gemini AI"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cmowgosx9ls",
@@ -758,7 +758,7 @@
       "Gemini AI"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cmqob7oqw53",
@@ -781,7 +781,7 @@
       "Gemini AI"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cmr42wz12vx",
@@ -804,7 +804,7 @@
       "Gemini AI"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cmag6jzw57d",
@@ -827,7 +827,7 @@
       "Gemini AI"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cm4awxp5kaf",
@@ -850,7 +850,7 @@
       "Gemini AI"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cmnigd08frx",
@@ -873,7 +873,7 @@
       "Gemini AI"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cm8775tzl7d",
@@ -896,7 +896,7 @@
       "Chat GPT"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cmff7q80lx2",
@@ -919,7 +919,7 @@
       "Gemini AI"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cmpp6wk6pi1",
@@ -942,7 +942,7 @@
       "Chat GPT"
     ],
     "quality": "medium",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cm1m0egrgcx",
@@ -965,7 +965,7 @@
       "Gemini AI"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cma5rcln1ad",
@@ -988,7 +988,7 @@
       "Gemini AI"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cmy29bvlwdf",
@@ -1011,7 +1011,7 @@
       "Chat GPT"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": false
   },
   {
     "id": "cmy59e27nnn",
@@ -1034,6 +1034,6 @@
       "Gemini AI"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": false
   }
 ]
