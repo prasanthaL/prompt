@@ -2434,5 +2434,68 @@
     ],
     "quality": "high",
     "seoIndex": false
+  },
+  {
+    "id": "cm7t1z8flrj",
+    "title": "Double Exposure: A Brighter Me",
+    "slug": "double-exposure-a-brighter-me-zsawy",
+    "category": "Women",
+    "fullPrompt": "Create a premium cinematic poster for the “DOUBLE EXPOSURE SERIES”.\nUse the uploaded image only as reference for the double-exposure composition, framing and artistic concept. Create a completely NEW fictional South Asian female model with a different face, hairstyle and appearance. Show the same woman in two connected visual layers: a large soft monochrome close-up portrait occupying the upper-right background, looking peacefully to the side with a subtle smile, while a smaller full-body version sits naturally in the foreground, creating a seamless double-exposure effect.\n\nChange the outfit completely: elegant dusty-lavender contemporary fashion top with a flowing ivory skirt, delicate accessories and stylish footwear. Give her long wavy dark hair with a modern half-up hairstyle.\n\nUse a sophisticated charcoal-gray and warm beige watercolor background with soft brush textures, mist, subtle ink splashes and atmospheric fading.\n\nLighting should be soft, cinematic and emotional, with realistic skin, natural anatomy,detailed hair and fabric, premium editorial photography and subtle film grain.\n\nAdd elegant typography: “DOUBLE EXPOSURE SERIES” “Happy” “(Your Name)” “Created just for you.”\n\nAdd a subtle AI VIBES logo.\n\nVertical 4:5, luxury editorial poster, artistic, elegant, emotional and highly shareable. \n",
+    "image": "https://res.cloudinary.com/dfbacu2lw/image/upload/v1789542918/prompts/a4l2oaq6f9sethwhjfdy.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-09-16T07:15:24.254Z",
+    "updatedAt": "2026-09-16T07:15:24.254Z",
+    "tags": [],
+    "models": [
+      "Chat GPT"
+    ]
+  },
+  {
+    "id": "cmmkbmxan31",
+    "title": "Cinematic Teal Shirt Portrait Collage",
+    "slug": "cinematic-teal-shirt-portrait-collage-0wzoz",
+    "category": "Women",
+    "fullPrompt": "Create a cinematic portrait of a young woman with long brown hair, wearing a teal open shirt over a white top, black cargo pants and white sneakers. Add elegant jhumka earrings, bindi and sunglasses. Full-body pose with hands in pockets, dark studio background, dramatic soft lighting, with large artistic close-up portraits of her face behind her, ultra-realistic, high detail, professional photography.  ",
+    "image": "https://res.cloudinary.com/dfbacu2lw/image/upload/v1789546807/prompts/scundkdbqif534jvlpuv.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-09-16T08:20:07.346Z",
+    "updatedAt": "2026-09-16T08:20:07.346Z",
+    "tags": [],
+    "models": [
+      "Chat GPT"
+    ]
+  },
+  {
+    "id": "cmbwhmhu5xz",
+    "title": "Golden-Hour Urban Fashion Moodboard",
+    "slug": "goldenhour-urban-fashion-moodboard-7wa62",
+    "category": "Women",
+    "fullPrompt": "Fig-1/9 Imaginolab channel — 9:16 — Ultra-photorealistic fashion photoshoot of the same young South Asian woman from the reference image, preserving her facial features and identity. She poses outdoors beside a modern beige stone wall in soft golden-hour sunlight, wearing an oversized bright pink linen shirt over a fitted white crop top, light-wash high-waisted wide-leg baggy jeans, and clean white sneakers.  Long, naturally wavy dark hair, cute bright face, minimal natural makeup, delicate elegant necklace, realistic skin texture. Create a stylish fashion editorial with multiple natural poses: standing confidently, sitting casually on stairs, looking away, holding a coffee cup, and candid close-up portraits. Warm sunlight, soft shadows, premium urban aesthetic, natural expressions, realistic proportions, cinematic depth of field, high-end photography, crisp details, authentic candid feel.  No flowers in hair, no excessive makeup, no artificial-looking skin.   ",
+    "image": "https://res.cloudinary.com/dfbacu2lw/image/upload/v1789546911/prompts/mku4d6skvpgpl3upv3bo.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-09-16T08:21:51.070Z",
+    "updatedAt": "2026-09-16T08:21:51.070Z",
+    "tags": [],
+    "models": [
+      "Chat GPT"
+    ]
   }
 ]

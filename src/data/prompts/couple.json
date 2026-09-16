@@ -2413,5 +2413,68 @@
     ],
     "quality": "high",
     "seoIndex": false
+  },
+  {
+    "id": "cmouoiogddy",
+    "title": "Together: A Beautiful Journey",
+    "slug": "together-a-beautiful-journey-5iwdr",
+    "category": "Couple",
+    "fullPrompt": "Ultra-realistic 8K cinematic Indian couple love-story poster, 9:16 vertical. Elegant multi-scene collage: romantic couple in luxurious black-and-gold traditional outfits, large monochrome close-up portraits above, intimate couple moments, ancient South Indian temple, lake sunset, flowers and warm golden atmosphere. Seamless watercolor/torn-paper transitions, premium editorial composition, realistic skin and facial details, cinematic depth, soft volumetric lighting.  Large embossed metallic-gold “TOGETHER” title with “A BEAUTIFUL JOURNEY” beneath, minimal elegant typography, sophisticated luxury wedding aesthetic, photorealistic, masterpiece quality. ",
+    "image": "https://res.cloudinary.com/dfbacu2lw/image/upload/v1789544806/prompts/viind7h73ualz1xtvmar.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-09-16T07:46:46.468Z",
+    "updatedAt": "2026-09-16T07:46:46.468Z",
+    "tags": [],
+    "models": [
+      "Chat GPT"
+    ]
+  },
+  {
+    "id": "cmd4mq3xlak",
+    "title": "2027 Together Through Every Season",
+    "slug": "2027-together-through-every-season-oc2h0",
+    "category": "Couple",
+    "fullPrompt": "Please use this photo to create a desktop calendar for January-December 2027. Format: A4 vertical. Features: indian illustration style, distinct character features, natural expressions, full-body composition, dynamic poses, exquisite clothing details, hand-drawn doodle style, splatter brushstrokes, free lines, a mix of pastels and ink, comic sketch texture, simple white background, symbolic elements around the edges, strong atmosphere, high detail, high quality  ",
+    "image": "https://res.cloudinary.com/dfbacu2lw/image/upload/v1789545098/prompts/g4zswhrngk9w3eybavtu.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-09-16T07:51:38.028Z",
+    "updatedAt": "2026-09-16T07:51:38.028Z",
+    "tags": [],
+    "models": [
+      "Chat GPT"
+    ]
+  },
+  {
+    "id": "cmm9em8nzfn",
+    "title": "Tender Staircase Embrace",
+    "slug": "tender-staircase-embrace-r2w22",
+    "category": "Couple",
+    "fullPrompt": "Max man CINEMATIC LOW-KEY PORTRAIT OF A YOUNG COUPLE SITTING ON DARK WOODEN STAIRS. THE WOMAN, WEARING A MUSTARD YELLOW SWEATER, SITS SLIGHTLY ABOVE THE MAN, LOOKING DOWN AT HIM AFFECTIONATELY. THE MAN, IN A GREEN PLAID SHIRT AND DARK JEANS, LEANS HIS HEAD AGAINST HER LAP WITH HIS EYES CLOSED. DRAMATIC man CHIAROSCURO LIGHTING, DEEP SHADOWS, SINGLE LIGHT SOURCE FROM THE LEFT, DARK BACKGROUND WITH A WOODEN RAILING VISIBLE ON THE RIGHT  PHOTOREALISTIC, 85MM LENS, MOODY ATMOSPHERE,  ",
+    "image": "https://res.cloudinary.com/dfbacu2lw/image/upload/v1789545192/prompts/ah2tkywft3dds9zhc24p.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-09-16T07:53:11.937Z",
+    "updatedAt": "2026-09-16T07:53:11.937Z",
+    "tags": [],
+    "models": [
+      "Chat GPT"
+    ]
   }
 ]

@@ -550,5 +550,26 @@
     ],
     "quality": "high",
     "seoIndex": false
+  },
+  {
+    "id": "cm7plobeaue",
+    "title": "Neon Threads Profile Badge",
+    "slug": "neon-threads-profile-badge-3egte",
+    "category": "Logo Design",
+    "fullPrompt": "Create a premium cinematic Threads profile badge, with everything inside one large glowing circular border on a pure black studio background. Use the uploaded woman in a smaller red-lit circular portrait with a dark reddish backdrop. Add the Threads logo, “Ai_sam”, verified badge, “sam_fonseka”, status, navigation icons, and “Stay Connected • ON THREADS.” Red-white neon glow, glossy 3D, photorealistic, clean, symmetrical, no hands, followers, or views.  ",
+    "image": "https://res.cloudinary.com/dfbacu2lw/image/upload/v1789548650/prompts/g7zxmj7pdy4srojt4jd1.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "Admin",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-09-16T08:50:50.072Z",
+    "updatedAt": "2026-09-16T08:50:50.073Z",
+    "tags": [],
+    "models": [
+      "Chat GPT"
+    ]
   }
 ]
