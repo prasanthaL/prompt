@@ -1,14 +1,15 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Link from "next/link";
-import { Sparkles, ShieldCheck, Zap, Users, ArrowRight, BookOpen, Heart, Eye, ChevronRight } from "lucide-react";
+import { Sparkles, ShieldCheck, Zap, Users, ArrowRight, BookOpen, Heart, Eye, ChevronRight, CheckCircle2 } from "lucide-react";
 import type { Metadata } from "next";
+import { SITE_URL } from "@/lib/site";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.aipromptnest.com"),
+  metadataBase: new URL(SITE_URL),
   title: "About Us - Free Google Gemini AI Prompts Library | AIPromptNest",
   description:
-    "Learn about AIPromptNest, a 100% free curated library of Google Gemini AI image prompts. Our mission is to empower creators with high-quality prompt templates.",
+    "Learn about AIPromptNest, our curation process, editorial standards, and mission to empower creators with high-quality AI image prompt templates.",
   keywords: [
     "About AIPromptNest",
     "Gemini AI prompts library",
@@ -18,12 +19,12 @@ export const metadata: Metadata = {
     "Gemini prompt engineering",
     "AI image generator prompts",
     "AI art prompt directory",
-    "curated Gemini prompts",
+    "Gemini prompts library",
     "Gemini prompt templates",
     "AI prompt nest about",
   ],
   alternates: {
-    canonical: "https://www.aipromptnest.com/about",
+    canonical: `${SITE_URL}/about`,
   },
   category: "Technology",
 };
@@ -32,25 +33,25 @@ export const metadata: Metadata = {
 const aboutPageJsonLd = {
   "@context": "https://schema.org",
   "@type": "AboutPage",
-  "@id": "https://www.aipromptnest.com/about#webpage",
-  url: "https://www.aipromptnest.com/about",
+  "@id": `${SITE_URL}/about#webpage`,
+  url: `${SITE_URL}/about`,
   name: "About AIPromptNest",
   headline: "Empowering Creativity With Gemini AI Prompts",
   description:
-    "AIPromptNest is a free, curated library of Google Gemini AI prompts designed to unleash your creative potential with high-fidelity visual generation.",
+    "AIPromptNest is a free, structured library of Google Gemini AI prompts designed to unleash your creative potential with high-fidelity visual generation.",
   inLanguage: "en-US",
   isPartOf: {
     "@type": "WebSite",
     name: "AIPromptNest",
-    url: "https://www.aipromptnest.com",
+    url: SITE_URL,
   },
   mainEntity: {
     "@type": "Organization",
     name: "AIPromptNest",
-    url: "https://www.aipromptnest.com",
-    logo: "https://www.aipromptnest.com/logo.png",
+    url: SITE_URL,
+    logo: `${SITE_URL}/logo.png`,
     description:
-      "AIPromptNest provides free, expert-curated prompt templates and engineering resources for Google Gemini AI image generation.",
+      "AIPromptNest is a free prompt library offering structured AI image prompt templates for Google Gemini and ChatGPT image generation.",
   },
 };
 
@@ -62,13 +63,13 @@ const breadcrumbJsonLd = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.aipromptnest.com",
+      item: SITE_URL,
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "About Us",
-      item: "https://www.aipromptnest.com/about",
+      item: `${SITE_URL}/about`,
     },
   ],
 };
@@ -89,7 +90,7 @@ const howToJsonLd = {
       "@type": "HowToStep",
       position: 2,
       name: "One-click copy",
-      text: "Copy the fully optimized prompt to your clipboard with one click.",
+      text: "Copy the prompt text to your clipboard with one click.",
     },
     {
       "@type": "HowToStep",
@@ -109,23 +110,23 @@ const howToJsonLd = {
 const FEATURES = [
   {
     icon: Sparkles,
-    title: "100% Free Forever",
+    title: "Free Community Access",
     desc: "Our mission is to keep prompt engineering accessible. Browse and copy every single prompt without any subscription or hidden fees."
   },
   {
     icon: ShieldCheck,
-    title: "Expert Curated Quality",
-    desc: "We rigorously test and refine our prompts to ensure they generate stunning, high-resolution results in Gemini's models."
+    title: "Structured Prompt Library",
+    desc: "Prompts are organized by category, style, model, and use case so you can quickly find what works for your creative project."
   },
   {
     icon: Zap,
-    title: "Updated Daily",
-    desc: "AI moves fast, and so do we. We publish new prompt templates, styles, and guides every day to keep your creative assets fresh."
+    title: "Regularly Updated",
+    desc: "We add new prompt templates, styles, and guides on an ongoing basis to keep the library relevant and useful."
   },
   {
     icon: Users,
     title: "Community First",
-    desc: "Built for creators, by creators. We support the AI art community and love sharing prompt combinations that work wonders."
+    desc: "Built for creators, by creators. We support the AI art community and love sharing prompt combinations that work well."
   }
 ];
 
@@ -163,7 +164,7 @@ export default function AboutPage() {
               With <span className="text-gradient">Gemini Prompts</span>
             </h1>
             <p className="text-foreground/60 max-w-3xl text-lg md:text-xl leading-relaxed">
-              Welcome to AIPromptNest, the premier prompt database designed specifically to push the boundaries of Google Gemini. We help developers, designers, writers, and AI enthusiasts get precise, high-fidelity results.
+              Welcome to AIPromptNest, a free AI prompt library built for creators, developers, designers, and AI enthusiasts. We help you find and use structured prompts for Google Gemini and other AI image generators.
             </p>
           </section>
 
@@ -205,12 +206,70 @@ export default function AboutPage() {
               </blockquote>
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center font-bold text-white shadow-lg shadow-primary/20">
-                  P
+                  A
                 </div>
                 <div>
-                  <p className="text-sm font-bold text-white">The PromptNest Curators</p>
-                  <p className="text-xs text-white/40">AI Art & Engineering Group</p>
+                  <p className="text-sm font-bold text-white">AIPromptNest Editorial Team</p>
+                  <p className="text-xs text-white/40">AI Art & Prompt Library</p>
                 </div>
+              </div>
+            </div>
+          </section>
+
+          {/* Who Runs the Site & Curation Process */}
+          <section className="mb-28 rounded-[2.5rem] border border-white/[0.08] bg-white/[0.02] p-8 md:p-12 backdrop-blur-md space-y-10">
+            <div className="space-y-4">
+              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-violet-500/10 border border-violet-500/20 text-violet-300 text-[10px] font-bold uppercase tracking-widest">
+                <ShieldCheck className="w-3.5 h-3.5" />
+                Editorial Standards &amp; Transparency
+              </div>
+              <h2 className="text-3xl md:text-4xl font-bold tracking-tight">
+                Who Runs AIPromptNest &amp; How We Curate
+              </h2>
+              <p className="text-foreground/70 max-w-3xl text-sm md:text-base leading-relaxed">
+                AIPromptNest is an independent digital resource created and maintained by the AIPromptNest team. We built this platform to provide a clean, free library of organized AI prompt templates for creators, designers, and enthusiasts. If you have questions, feedback, or would like to suggest new prompt ideas, you can reach us anytime at <Link href="/contact" className="text-primary hover:underline font-semibold">our contact page</Link> or by email at <a href="mailto:hello.aipromptnest@gmail.com" className="text-primary hover:underline font-semibold">hello.aipromptnest@gmail.com</a>.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div className="p-6 rounded-2xl bg-white/[0.02] border border-white/[0.05] space-y-3">
+                <h3 className="text-lg font-bold text-white flex items-center gap-2">
+                  <CheckCircle2 className="w-5 h-5 text-primary" />
+                  Our Purpose
+                </h3>
+                <p className="text-foreground/60 text-xs sm:text-sm leading-relaxed">
+                  Most online prompt collections share brief, repetitive snippets that produce erratic results. Our mission is to provide creators with practical, well-parameterized prompt blueprints that include lighting directives, aspect ratios, composition guidance, and model-specific adjustments.
+                </p>
+              </div>
+
+              <div className="p-6 rounded-2xl bg-white/[0.02] border border-white/[0.05] space-y-3">
+                <h3 className="text-lg font-bold text-white flex items-center gap-2">
+                  <CheckCircle2 className="w-5 h-5 text-primary" />
+                  How Prompts Are Collected &amp; Reviewed
+                </h3>
+                <p className="text-foreground/60 text-xs sm:text-sm leading-relaxed">
+                  Prompts are collected, organised into categories, cleaned up, and checked for clarity and completeness before they are published. Results can vary between AI models, so we encourage you to adapt prompts to your own needs.
+                </p>
+              </div>
+
+              <div className="p-6 rounded-2xl bg-white/[0.02] border border-white/[0.05] space-y-3">
+                <h3 className="text-lg font-bold text-white flex items-center gap-2">
+                  <CheckCircle2 className="w-5 h-5 text-primary" />
+                  Organization &amp; Quality Tiers
+                </h3>
+                <p className="text-foreground/60 text-xs sm:text-sm leading-relaxed">
+                  Our catalog is structured to help creators find useful ideas quickly: core indexed prompts include in-depth notes analyzing composition, lighting, common model failure modes, and concrete variation adjustments. Less structured or repetitive prompts remain unindexed.
+                </p>
+              </div>
+
+              <div className="p-6 rounded-2xl bg-white/[0.02] border border-white/[0.05] space-y-3">
+                <h3 className="text-lg font-bold text-white flex items-center gap-2">
+                  <CheckCircle2 className="w-5 h-5 text-primary" />
+                  Library Maintenance &amp; Updates
+                </h3>
+                <p className="text-foreground/60 text-xs sm:text-sm leading-relaxed">
+                  The library is maintained and audited on an ongoing basis. As AI models evolve with new architecture updates and styling capabilities, we review prompt parameters and release new visual concepts to keep the collection relevant.
+                </p>
               </div>
             </div>
           </section>
@@ -256,7 +315,7 @@ export default function AboutPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 relative">
                 {[
                   { step: "01", name: "Browse library", desc: "Explore categories or search for specific visual styles." },
-                  { step: "02", name: "One-click copy", desc: "Copy the fully optimized prompt to your clipboard." },
+                  { step: "02", name: "One-click copy", desc: "Copy the prompt text to your clipboard." },
                   { step: "03", name: "Paste in Gemini", desc: "Enter it directly into Gemini to generate images." },
                   { step: "04", name: "Customize art", desc: "Swap bracketed terms for your custom visual variations." },
                 ].map((step, i) => (

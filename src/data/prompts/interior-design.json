@@ -10,12 +10,18 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 140,
     "likes": 48,
     "createdAt": "2026-07-10T12:00:00.000Z",
     "updatedAt": "2026-07-10T09:39:01.343Z",
-    "tags": [],
+    "tags": [
+      "interior-design",
+      "architecture",
+      "natural-lighting",
+      "minimalist",
+      "interior"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -33,17 +39,31 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T09:40:28.538Z",
     "updatedAt": "2026-07-10T09:40:28.538Z",
-    "tags": [],
+    "tags": [
+      "interior-design",
+      "architecture",
+      "photorealistic",
+      "cinematic",
+      "minimalist",
+      "3d-render",
+      "luxury"
+    ],
     "models": [
       "Gemini AI"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": true,
+    "editorNotes": {
+      "whyItWorks": "Architectural interiors rely on clean perspective lines and material contrast. This prompt pairs floor-to-ceiling glass, Italian travertine stone, and rich walnut slats with soft ambient cove illumination and plush boucle seating.",
+      "variationGuide": "Shift the style from sleek contemporary to organic Japandi by replacing dark stone with light blonde oak, rice-paper lamps, and raw linen upholstery. Alternatively, go Mid-Century Modern with teak credenzas and mustard velvet accents.",
+      "failureModes": "AI interiors often distort wall angles, bend window mullions, or spawn floating furniture legs. Using 'wide-angle 24mm architectural photography, two-point perspective, straight vertical lines, and physically realistic indirect bounce lighting' prevents spatial warping.",
+      "exampleTweak": "Add 'floor-to-ceiling sliding glass doors opening onto an illuminated infinity pool terrace at blue hour, cast concrete fireplace with sunken pit'."
+    }
   },
   {
     "id": "cmevbxubscw",
@@ -56,12 +76,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T09:41:17.183Z",
     "updatedAt": "2026-07-10T09:41:17.183Z",
-    "tags": [],
+    "tags": [
+      "interior-design",
+      "architecture",
+      "natural-lighting",
+      "wide-angle",
+      "photorealistic",
+      "cinematic",
+      "minimalist"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -79,12 +107,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T09:42:13.652Z",
     "updatedAt": "2026-07-10T09:42:13.652Z",
-    "tags": [],
+    "tags": [
+      "interior-design",
+      "architecture",
+      "wide-angle",
+      "photorealistic",
+      "cinematic",
+      "luxury",
+      "interior"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -102,12 +138,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T09:43:06.862Z",
     "updatedAt": "2026-07-10T09:43:06.862Z",
-    "tags": [],
+    "tags": [
+      "interior-design",
+      "architecture",
+      "photorealistic",
+      "cinematic",
+      "3d-render",
+      "luxury",
+      "interior"
+    ],
     "models": [
       "Gemini AI"
     ],

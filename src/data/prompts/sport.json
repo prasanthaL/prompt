@@ -10,12 +10,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-10T05:37:17.022Z",
     "updatedAt": "2026-07-15T07:37:11.623Z",
-    "tags": [],
+    "tags": [
+      "sports",
+      "action-photography",
+      "volumetric-lighting",
+      "neon-lighting",
+      "depth-of-field",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -33,12 +41,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-12T13:00:40.378Z",
     "updatedAt": "2026-06-22T08:36:19.338Z",
-    "tags": [],
+    "tags": [
+      "sports",
+      "action-photography",
+      "dramatic-lighting",
+      "neon-lighting",
+      "photorealistic",
+      "cinematic",
+      "commercial"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -56,12 +72,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-12T13:02:01.393Z",
     "updatedAt": "2026-06-22T08:34:55.392Z",
-    "tags": [],
+    "tags": [
+      "sports",
+      "action-photography",
+      "depth-of-field",
+      "cinematic",
+      "editorial",
+      "action-shot"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -79,17 +102,28 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-12T13:03:12.650Z",
     "updatedAt": "2026-06-22T08:33:37.274Z",
-    "tags": [],
+    "tags": [
+      "sports",
+      "action-photography",
+      "action-shot",
+      "fitness"
+    ],
     "models": [
       "Gemini AI"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": true,
+    "editorNotes": {
+      "whyItWorks": "Dynamic frozen splash photography pairs with high-speed athletic motion. Exploding plumes of vibrant colored powder and liquid acrylic follow the runner's sprint trajectory, translating physical speed into visual energy.",
+      "variationGuide": "Apply this kinetic paint explosion technique to basketball dunks, martial arts kicks, gymnastics balance poses, or tennis serves. Change the powder palette to your brand colors.",
+      "failureModes": "Motion effects can blur the athlete's limbs into an unrecognizable mess. Lock the anatomy down: 'athlete's musculature and face in pin-sharp focus with paint splatter trailing behind the movement trajectory'.",
+      "exampleTweak": "Add 'sprinter bursting out of starting blocks, neon cyan and crimson Holi powder exploding backward from shoes, studio high-speed strobe lighting'."
+    }
   },
   {
     "id": "cmmrlwbrp9a",
@@ -102,12 +136,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-12T13:04:12.592Z",
     "updatedAt": "2026-06-22T08:32:42.103Z",
-    "tags": [],
+    "tags": [
+      "sports",
+      "action-photography",
+      "cinematic",
+      "editorial"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -125,12 +164,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-12T13:07:19.503Z",
     "updatedAt": "2026-06-22T08:31:40.267Z",
-    "tags": [],
+    "tags": [
+      "sports",
+      "action-photography",
+      "soft-lighting",
+      "cinematic-lighting",
+      "close-up",
+      "depth-of-field",
+      "photorealistic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -148,12 +195,18 @@
     "isTrending": true,
     "isLatest": true,
     "isFeatured": true,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-12T13:09:08.464Z",
     "updatedAt": "2026-07-15T07:50:07.520Z",
-    "tags": [],
+    "tags": [
+      "sports",
+      "action-photography",
+      "cinematic-lighting",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -171,12 +224,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-12T13:11:50.891Z",
     "updatedAt": "2026-06-22T07:24:59.766Z",
-    "tags": [],
+    "tags": [
+      "sports",
+      "action-photography",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -194,12 +252,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-12T13:13:55.282Z",
     "updatedAt": "2026-06-22T07:22:19.104Z",
-    "tags": [],
+    "tags": [
+      "sports",
+      "action-photography",
+      "studio-lighting",
+      "cinematic"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -217,12 +280,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": true,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-12T13:16:16.151Z",
     "updatedAt": "2026-06-22T07:19:46.341Z",
-    "tags": [],
+    "tags": [
+      "sports",
+      "action-photography",
+      "studio-lighting",
+      "rim-lighting",
+      "symmetrical",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -240,12 +311,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-12T13:18:22.596Z",
     "updatedAt": "2026-07-15T07:36:29.838Z",
-    "tags": [],
+    "tags": [
+      "sports",
+      "action-photography",
+      "dramatic-lighting",
+      "volumetric-lighting",
+      "neon-lighting",
+      "close-up",
+      "depth-of-field"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -263,12 +342,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-12T13:19:18.058Z",
     "updatedAt": "2026-06-22T07:17:28.088Z",
-    "tags": [],
+    "tags": [
+      "sports",
+      "action-photography",
+      "cinematic-lighting",
+      "photorealistic",
+      "cinematic",
+      "monochrome",
+      "action-shot"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -286,12 +373,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-12T13:20:21.291Z",
     "updatedAt": "2026-07-15T07:36:11.084Z",
-    "tags": [],
+    "tags": [
+      "sports",
+      "action-photography",
+      "rim-lighting",
+      "close-up",
+      "cinematic",
+      "illustration",
+      "action-shot"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -309,12 +404,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-12T13:21:31.716Z",
     "updatedAt": "2026-06-22T07:14:58.804Z",
-    "tags": [],
+    "tags": [
+      "sports",
+      "action-photography",
+      "depth-of-field",
+      "photorealistic",
+      "cinematic",
+      "streetwear"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -332,12 +434,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-12T13:22:36.793Z",
     "updatedAt": "2026-06-22T07:14:00.812Z",
-    "tags": [],
+    "tags": [
+      "sports",
+      "action-photography",
+      "cinematic-lighting",
+      "photorealistic",
+      "cinematic",
+      "editorial",
+      "minimalist"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -355,12 +465,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-12T13:23:32.046Z",
     "updatedAt": "2026-07-15T07:35:52.838Z",
-    "tags": [],
+    "tags": [
+      "sports",
+      "action-photography",
+      "photorealistic",
+      "action-shot"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -378,12 +493,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-16T04:55:11.336Z",
     "updatedAt": "2026-07-15T07:33:20.940Z",
-    "tags": [],
+    "tags": [
+      "sports",
+      "action-photography",
+      "cinematic-lighting",
+      "depth-of-field",
+      "symmetrical",
+      "cinematic"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -401,12 +523,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-16T04:58:18.555Z",
     "updatedAt": "2026-06-22T07:08:56.676Z",
-    "tags": [],
+    "tags": [
+      "sports",
+      "action-photography",
+      "natural-lighting",
+      "low-angle",
+      "photorealistic",
+      "cinematic",
+      "vintage"
+    ],
     "models": [
       "Gemini AI"
     ],

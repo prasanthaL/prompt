@@ -10,12 +10,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-12T11:38:54.808Z",
     "updatedAt": "2026-07-15T07:36:51.459Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "cinematic-lighting",
+      "close-up",
+      "cinematic",
+      "monochrome"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -33,12 +40,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-12T11:40:28.112Z",
     "updatedAt": "2026-06-22T09:17:21.359Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "rim-lighting",
+      "fashion-portrait"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -56,12 +68,18 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-12T11:42:47.598Z",
     "updatedAt": "2026-06-22T09:16:26.760Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "editorial",
+      "streetwear",
+      "urban"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -79,12 +97,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-12T11:44:03.660Z",
     "updatedAt": "2026-06-22T09:15:37.273Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "cinematic-lighting",
+      "depth-of-field",
+      "photorealistic",
+      "cinematic",
+      "urban"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -102,12 +128,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-12T11:45:17.633Z",
     "updatedAt": "2026-06-22T09:13:11.418Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "cinematic-lighting",
+      "photorealistic",
+      "cinematic",
+      "editorial",
+      "luxury"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -125,12 +159,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-12T11:46:22.236Z",
     "updatedAt": "2026-06-22T09:12:25.276Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "studio-lighting",
+      "depth-of-field",
+      "photorealistic",
+      "cinematic",
+      "editorial"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -148,12 +190,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-12T12:46:09.663Z",
     "updatedAt": "2026-06-22T09:11:27.549Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "cinematic",
+      "fashion-portrait"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -171,12 +218,18 @@
     "isTrending": true,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-12T12:47:48.743Z",
     "updatedAt": "2026-07-15T07:48:44.644Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "close-up",
+      "monochrome",
+      "streetwear"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -194,12 +247,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-16T04:45:33.282Z",
     "updatedAt": "2026-06-22T09:09:08.723Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "golden-hour",
+      "natural-lighting",
+      "close-up",
+      "depth-of-field",
+      "photorealistic"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -217,12 +278,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-04T08:00:49.166Z",
     "updatedAt": "2026-07-04T08:00:49.166Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "photorealistic",
+      "cinematic",
+      "editorial",
+      "streetwear",
+      "luxury"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -240,12 +309,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-04T08:14:16.112Z",
     "updatedAt": "2026-07-04T08:14:16.112Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "volumetric-lighting",
+      "natural-lighting",
+      "depth-of-field",
+      "telephoto",
+      "symmetrical"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -263,12 +340,18 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-04T08:32:10.468Z",
     "updatedAt": "2026-07-04T08:32:10.468Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "depth-of-field",
+      "editorial",
+      "illustration"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -286,12 +369,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T06:15:44.742Z",
     "updatedAt": "2026-07-10T06:15:44.742Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "studio-lighting",
+      "depth-of-field",
+      "photorealistic",
+      "editorial"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -309,12 +399,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T06:16:42.686Z",
     "updatedAt": "2026-07-10T06:16:42.686Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "volumetric-lighting",
+      "rim-lighting",
+      "cinematic-lighting",
+      "depth-of-field",
+      "low-angle"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -332,12 +430,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-15T07:53:16.919Z",
     "updatedAt": "2026-07-15T07:53:16.919Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "cinematic-lighting",
+      "close-up",
+      "cinematic",
+      "streetwear"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -355,17 +460,30 @@
     "isTrending": true,
     "isLatest": true,
     "isFeatured": true,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-15T08:01:04.939Z",
     "updatedAt": "2026-07-15T08:01:04.939Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "full-body",
+      "photorealistic",
+      "editorial",
+      "illustration"
+    ],
     "models": [
       "Chat GPT"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": true,
+    "editorNotes": {
+      "whyItWorks": "Combines photorealistic portrait photography with hand-drawn black-and-white doodle illustrations. The contrast between realistic skin texture, realistic fabric, and playful sketched miniature scenes (walking on pencil bridges, sitting in coffee mugs) produces charming visual storytelling.",
+      "variationGuide": "Shift the doodle theme from everyday miniatures to cosmic exploration (paper airplanes flying past hand-drawn planets) or botanical gardens with oversized sketched flowers and butterflies.",
+      "failureModes": "The doodle line art can accidentally bleed onto the subject's face as fake facial tattoos. Specify 'clean separation between photographic human subject and surrounding hand-drawn doodle environment on white canvas'.",
+      "exampleTweak": "Add 'subject wearing casual yellow sundress, sitting comfortably inside a giant sketch of a coffee cup with doodle steam swirling into music notes'."
+    }
   },
   {
     "id": "cmbztyufw1d",
@@ -378,12 +496,20 @@
     "isTrending": true,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-15T08:08:07.565Z",
     "updatedAt": "2026-07-15T08:08:07.565Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "dramatic-lighting",
+      "soft-lighting",
+      "studio-lighting",
+      "close-up",
+      "wide-angle"
+    ],
     "models": [],
     "quality": "high",
     "seoIndex": false
@@ -399,12 +525,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-15T08:21:41.572Z",
     "updatedAt": "2026-07-15T08:21:41.572Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "studio-lighting",
+      "depth-of-field",
+      "editorial",
+      "luxury"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -422,12 +555,16 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-15T08:36:36.770Z",
     "updatedAt": "2026-07-15T08:36:36.770Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "fashion-portrait"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -445,12 +582,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-15T08:55:25.603Z",
     "updatedAt": "2026-07-15T08:55:25.603Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "rim-lighting",
+      "close-up",
+      "depth-of-field",
+      "telephoto",
+      "photorealistic"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -468,12 +613,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-15T08:56:33.015Z",
     "updatedAt": "2026-07-15T08:56:33.016Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "studio-lighting",
+      "rim-lighting",
+      "depth-of-field",
+      "telephoto",
+      "full-body"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -491,12 +644,20 @@
     "isTrending": true,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-20T10:58:42.948Z",
     "updatedAt": "2026-07-20T10:58:42.948Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "depth-of-field",
+      "telephoto",
+      "symmetrical",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -514,12 +675,20 @@
     "isTrending": true,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-20T11:31:01.917Z",
     "updatedAt": "2026-07-20T11:31:01.917Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "studio-lighting",
+      "volumetric-lighting",
+      "neon-lighting",
+      "close-up",
+      "symmetrical"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -537,12 +706,17 @@
     "isTrending": true,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-20T11:34:20.674Z",
     "updatedAt": "2026-07-20T11:34:20.674Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "close-up",
+      "luxury"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -560,12 +734,17 @@
     "isTrending": true,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-20T11:35:59.829Z",
     "updatedAt": "2026-07-20T11:35:59.829Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "close-up",
+      "fashion-portrait"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -583,12 +762,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-20T11:41:01.406Z",
     "updatedAt": "2026-07-20T11:41:01.406Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "streetwear",
+      "romantic"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -606,12 +790,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-20T11:44:23.976Z",
     "updatedAt": "2026-07-20T11:44:23.976Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "photorealistic",
+      "fashion-portrait"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -629,12 +818,20 @@
     "isTrending": true,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-21T16:41:59.471Z",
     "updatedAt": "2026-07-21T16:41:59.471Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "cinematic-lighting",
+      "depth-of-field",
+      "cinematic",
+      "editorial",
+      "urban"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -652,12 +849,19 @@
     "isTrending": true,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-21T16:43:26.024Z",
     "updatedAt": "2026-07-21T16:43:26.024Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "depth-of-field",
+      "photorealistic",
+      "editorial",
+      "luxury"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -675,12 +879,18 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-21T16:49:02.453Z",
     "updatedAt": "2026-07-21T16:49:02.453Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "depth-of-field",
+      "editorial",
+      "urban"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -698,12 +908,20 @@
     "isTrending": true,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-21T17:09:54.316Z",
     "updatedAt": "2026-07-21T17:09:54.316Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "studio-lighting",
+      "depth-of-field",
+      "telephoto",
+      "symmetrical",
+      "photorealistic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -721,12 +939,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-22T05:40:35.044Z",
     "updatedAt": "2026-07-22T05:40:35.044Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "natural-lighting",
+      "depth-of-field",
+      "photorealistic",
+      "cinematic",
+      "minimalist"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -744,12 +970,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-22T05:45:04.017Z",
     "updatedAt": "2026-07-22T05:45:04.017Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "golden-hour",
+      "fashion-portrait"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -767,12 +998,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-22T05:49:06.271Z",
     "updatedAt": "2026-07-22T05:49:06.271Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "fashion-portrait",
+      "lighting"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -790,12 +1026,18 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-22T05:50:59.566Z",
     "updatedAt": "2026-07-22T05:50:59.566Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "neon-lighting",
+      "urban",
+      "outdoors"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -813,12 +1055,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-22T05:53:17.662Z",
     "updatedAt": "2026-07-22T05:53:17.662Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "fashion-portrait",
+      "lighting"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -836,12 +1083,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-22T05:54:21.128Z",
     "updatedAt": "2026-07-22T05:54:21.128Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "outdoors",
+      "fashion-portrait"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -859,12 +1111,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-22T05:57:54.427Z",
     "updatedAt": "2026-07-22T05:57:54.427Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "volumetric-lighting",
+      "low-angle",
+      "photorealistic",
+      "cinematic",
+      "editorial"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -882,17 +1142,26 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-22T06:08:31.222Z",
     "updatedAt": "2026-07-22T06:08:31.222Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "soft-lighting",
+      "depth-of-field",
+      "photorealistic",
+      "cinematic",
+      "editorial"
+    ],
     "models": [
       "Gemini AI"
     ],
     "quality": "high",
-    "seoIndex": false
+    "seoIndex": false,
+    "aspectRatio": "3:4"
   },
   {
     "id": "cmd0dg2po4o",
@@ -905,12 +1174,18 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-22T06:13:48.218Z",
     "updatedAt": "2026-07-22T06:13:48.218Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "depth-of-field",
+      "cinematic",
+      "editorial"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -928,12 +1203,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-22T06:19:36.080Z",
     "updatedAt": "2026-07-22T06:19:36.080Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "golden-hour",
+      "rim-lighting",
+      "depth-of-field",
+      "romantic"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -951,12 +1233,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-22T06:21:18.195Z",
     "updatedAt": "2026-07-22T06:21:18.195Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "studio-lighting",
+      "photorealistic",
+      "cinematic",
+      "minimalist"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -974,12 +1263,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-22T06:29:56.690Z",
     "updatedAt": "2026-07-22T06:29:56.690Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "natural-lighting",
+      "depth-of-field",
+      "telephoto",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -997,12 +1294,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-22T06:31:16.755Z",
     "updatedAt": "2026-07-22T06:31:16.755Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "neon-lighting",
+      "streetwear"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -1020,12 +1322,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-22T06:36:35.056Z",
     "updatedAt": "2026-07-22T06:36:35.056Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "natural-lighting",
+      "depth-of-field",
+      "telephoto",
+      "photorealistic",
+      "editorial"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -1043,12 +1353,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-22T06:41:22.524Z",
     "updatedAt": "2026-07-22T06:41:22.524Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "natural-lighting",
+      "depth-of-field",
+      "photorealistic",
+      "cinematic",
+      "3d-render"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -1066,12 +1384,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-22T06:48:25.891Z",
     "updatedAt": "2026-07-24T03:00:39.549Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "golden-hour",
+      "depth-of-field",
+      "telephoto",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -1089,12 +1415,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-22T06:51:02.366Z",
     "updatedAt": "2026-07-24T02:59:57.111Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "natural-lighting",
+      "depth-of-field",
+      "photorealistic",
+      "cinematic",
+      "3d-render"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -1112,12 +1446,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-22T06:54:41.155Z",
     "updatedAt": "2026-07-24T02:58:41.300Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "golden-hour",
+      "natural-lighting",
+      "depth-of-field",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -1135,12 +1477,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-22T06:58:16.770Z",
     "updatedAt": "2026-07-22T06:58:16.770Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "golden-hour",
+      "depth-of-field",
+      "photorealistic",
+      "cinematic",
+      "luxury"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -1158,12 +1508,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-22T07:01:04.103Z",
     "updatedAt": "2026-07-22T07:01:04.103Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "natural-lighting",
+      "depth-of-field",
+      "photorealistic",
+      "cinematic",
+      "luxury"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -1181,12 +1539,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-22T07:02:43.971Z",
     "updatedAt": "2026-07-24T02:57:27.020Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "natural-lighting",
+      "depth-of-field",
+      "photorealistic",
+      "cinematic",
+      "3d-render"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -1204,12 +1570,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-22T07:14:07.309Z",
     "updatedAt": "2026-07-24T02:55:50.269Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "natural-lighting",
+      "depth-of-field",
+      "telephoto",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -1227,12 +1601,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-22T07:21:24.835Z",
     "updatedAt": "2026-07-22T07:21:24.836Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "golden-hour",
+      "natural-lighting",
+      "depth-of-field",
+      "telephoto",
+      "photorealistic"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -1250,12 +1632,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-22T07:25:25.292Z",
     "updatedAt": "2026-07-22T07:25:25.292Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "studio-lighting",
+      "rim-lighting",
+      "depth-of-field",
+      "telephoto",
+      "photorealistic"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -1273,12 +1663,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-22T07:27:30.903Z",
     "updatedAt": "2026-07-22T07:27:30.903Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "natural-lighting",
+      "depth-of-field",
+      "telephoto",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -1296,12 +1694,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-22T07:29:36.563Z",
     "updatedAt": "2026-07-22T07:29:36.563Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "depth-of-field",
+      "telephoto",
+      "photorealistic",
+      "cinematic",
+      "3d-render"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -1319,12 +1725,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-24T03:02:39.392Z",
     "updatedAt": "2026-07-24T03:02:39.392Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "depth-of-field",
+      "editorial"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -1342,17 +1753,26 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-24T03:11:14.206Z",
     "updatedAt": "2026-07-24T03:11:14.206Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "dramatic-lighting",
+      "soft-lighting",
+      "natural-lighting",
+      "close-up",
+      "telephoto"
+    ],
     "models": [
       "Chat GPT"
     ],
     "quality": "high",
-    "seoIndex": false
+    "seoIndex": false,
+    "aspectRatio": "3:4"
   },
   {
     "id": "cmus7hverbf",
@@ -1365,12 +1785,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-24T03:15:44.505Z",
     "updatedAt": "2026-07-24T03:15:44.505Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "close-up",
+      "streetwear"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1388,12 +1813,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-24T03:19:36.648Z",
     "updatedAt": "2026-07-24T03:19:36.648Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "close-up",
+      "depth-of-field",
+      "editorial",
+      "illustration"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1411,12 +1843,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-24T03:50:45.302Z",
     "updatedAt": "2026-07-24T03:50:45.302Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "close-up",
+      "illustration"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1434,12 +1871,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-24T04:32:19.190Z",
     "updatedAt": "2026-07-24T04:32:19.190Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "volumetric-lighting",
+      "cinematic-lighting",
+      "cinematic",
+      "surreal",
+      "luxury"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1457,12 +1902,18 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-24T04:40:06.160Z",
     "updatedAt": "2026-07-24T04:40:06.160Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "depth-of-field",
+      "editorial",
+      "luxury"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1480,12 +1931,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-24T04:47:21.618Z",
     "updatedAt": "2026-07-24T04:47:21.619Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "depth-of-field",
+      "photorealistic",
+      "cinematic",
+      "editorial",
+      "luxury"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1503,12 +1962,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-24T04:59:33.806Z",
     "updatedAt": "2026-07-24T04:59:33.806Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "natural-lighting",
+      "close-up",
+      "depth-of-field",
+      "telephoto",
+      "photorealistic"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -1526,12 +1993,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-24T05:02:34.835Z",
     "updatedAt": "2026-07-24T05:02:34.835Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "close-up",
+      "romantic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1549,12 +2021,20 @@
     "isTrending": false,
     "isLatest": true,
     "isFeatured": true,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-01T07:35:27.411Z",
     "updatedAt": "2026-08-01T07:35:27.411Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "rim-lighting",
+      "close-up",
+      "photorealistic",
+      "illustration",
+      "surreal"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1572,12 +2052,20 @@
     "isTrending": true,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-01T07:39:12.021Z",
     "updatedAt": "2026-08-01T07:39:12.021Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "soft-lighting",
+      "studio-lighting",
+      "close-up",
+      "symmetrical",
+      "photorealistic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1595,12 +2083,20 @@
     "isTrending": true,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-01T08:02:38.360Z",
     "updatedAt": "2026-08-01T08:02:38.360Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "rim-lighting",
+      "depth-of-field",
+      "telephoto",
+      "symmetrical",
+      "photorealistic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1618,17 +2114,26 @@
     "isTrending": true,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-01T08:12:03.689Z",
     "updatedAt": "2026-08-01T08:12:03.689Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "studio-lighting",
+      "close-up",
+      "depth-of-field",
+      "photorealistic",
+      "concept-art"
+    ],
     "models": [
       "Chat GPT"
     ],
     "quality": "high",
-    "seoIndex": false
+    "seoIndex": false,
+    "aspectRatio": "3:4"
   },
   {
     "id": "cm13tohzaqt",
@@ -1641,12 +2146,16 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-01T08:30:22.982Z",
     "updatedAt": "2026-08-01T08:30:22.982Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "fashion-portrait"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -1664,12 +2173,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-02T15:11:08.587Z",
     "updatedAt": "2026-08-02T15:11:08.587Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "luxury",
+      "fashion-portrait"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1687,12 +2201,17 @@
     "isTrending": true,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-02T15:51:31.064Z",
     "updatedAt": "2026-08-02T15:51:31.064Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "cinematic",
+      "luxury"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1710,12 +2229,17 @@
     "isTrending": true,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-02T15:54:10.529Z",
     "updatedAt": "2026-08-02T15:54:10.529Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "romantic",
+      "fashion-portrait"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1733,12 +2257,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-05T06:56:25.863Z",
     "updatedAt": "2026-08-05T06:56:25.863Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "golden-hour",
+      "natural-lighting",
+      "close-up",
+      "depth-of-field",
+      "editorial"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1756,12 +2288,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-05T07:20:16.225Z",
     "updatedAt": "2026-08-05T07:20:16.225Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "studio-lighting",
+      "rim-lighting",
+      "depth-of-field",
+      "telephoto",
+      "photorealistic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1779,12 +2319,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-07T08:47:29.327Z",
     "updatedAt": "2026-08-07T08:47:29.327Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "studio-lighting",
+      "rim-lighting",
+      "depth-of-field",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1802,12 +2350,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-07T09:22:30.510Z",
     "updatedAt": "2026-08-07T09:22:30.510Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "golden-hour",
+      "volumetric-lighting",
+      "rim-lighting",
+      "natural-lighting",
+      "depth-of-field"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1825,12 +2381,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-07T10:31:09.206Z",
     "updatedAt": "2026-08-07T10:31:09.206Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "cinematic-lighting",
+      "close-up",
+      "depth-of-field",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1848,12 +2412,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-07T10:58:17.769Z",
     "updatedAt": "2026-08-07T10:58:17.769Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "studio-lighting",
+      "close-up",
+      "cinematic",
+      "minimalist",
+      "illustration"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1871,21 +2443,35 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-07T11:19:15.736Z",
     "updatedAt": "2026-08-07T11:19:15.736Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "rim-lighting",
+      "cinematic-lighting",
+      "depth-of-field",
+      "telephoto",
+      "symmetrical"
+    ],
     "models": [
       "Chat GPT"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": true,
+    "editorNotes": {
+      "whyItWorks": "Royal fine-art portraiture: deep emerald green couture lehenga with antique gold embroidery, framed by a soft golden halo backlighting effect. The dramatic chiaroscuro and rich jewel tones convey poise, dignity, and cultural luxury.",
+      "variationGuide": "Switch the garment color from emerald to royal sapphire blue or rich ruby red. Adapt the halo backlighting into an intricate Mughal arch doorway glowing with sunset light.",
+      "failureModes": "Heavy traditional embroidery can lose crispness in AI rendering and look like muddy glitter. Enforce 'crisp antique gold zari embroidery, individually defined sequins, and full-grain velvet fabric texture with realistic folds'.",
+      "exampleTweak": "Add 'subtle diamond and emerald choker necklace, natural warm skin tones with soft beauty dish lighting, dark charcoal studio background with glowing golden halo'."
+    }
   },
   {
     "id": "cmu1mqieuqe",
-    "title": "Birthday Poster Design",
+    "title": "Traditional Indian Birthday Poster Design",
     "slug": "birthday-poster-design-94pk9",
     "category": "Women",
     "fullPrompt": "A clean and elegant birthday poster design on a white background. On the left side, a cut-out photo of a beautiful Indian girl wearing a pink traditional outfit, standing outdoors with green leaves behind her. Below the photo, a stylish handwritten text ‘Nafrat’ with a small calendar of November month, date 13 marked inside a pink heart. On the right side, another cut-out photo of the same girl holding a pink flower  ",
@@ -1894,12 +2480,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-07T11:22:23.143Z",
     "updatedAt": "2026-08-07T11:22:23.143Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "outdoors",
+      "fashion-portrait"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1917,12 +2508,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-09T10:42:36.064Z",
     "updatedAt": "2026-08-09T10:42:36.064Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "natural-lighting",
+      "editorial",
+      "vintage",
+      "illustration",
+      "luxury"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1940,12 +2539,18 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-09T10:53:37.712Z",
     "updatedAt": "2026-08-09T10:53:37.712Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "close-up",
+      "cinematic",
+      "urban"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1963,12 +2568,18 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-09T10:54:43.693Z",
     "updatedAt": "2026-08-09T10:54:43.693Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "close-up",
+      "cinematic",
+      "urban"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1986,12 +2597,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-09T11:01:20.585Z",
     "updatedAt": "2026-08-09T11:01:20.585Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "cinematic-lighting",
+      "natural-lighting",
+      "depth-of-field",
+      "telephoto",
+      "photorealistic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2009,12 +2628,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-11T09:26:12.627Z",
     "updatedAt": "2026-08-11T09:26:12.627Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "dramatic-lighting",
+      "close-up",
+      "photorealistic",
+      "cinematic",
+      "illustration"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2032,12 +2659,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-11T09:34:03.474Z",
     "updatedAt": "2026-08-11T09:34:03.474Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "depth-of-field",
+      "photorealistic",
+      "cinematic",
+      "editorial",
+      "concept-art"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2055,12 +2690,18 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-11T09:36:36.954Z",
     "updatedAt": "2026-08-11T09:36:36.954Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "photorealistic",
+      "editorial",
+      "romantic"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -2078,12 +2719,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-11T09:57:37.259Z",
     "updatedAt": "2026-08-11T09:57:37.259Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "studio-lighting",
+      "close-up",
+      "full-body",
+      "editorial",
+      "monochrome"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2101,12 +2750,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-11T10:00:01.539Z",
     "updatedAt": "2026-08-11T10:00:01.539Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "studio-lighting",
+      "depth-of-field",
+      "telephoto",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2124,12 +2781,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-11T10:00:32.640Z",
     "updatedAt": "2026-08-11T10:00:32.640Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "studio-lighting",
+      "close-up",
+      "depth-of-field",
+      "photorealistic",
+      "editorial"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2147,12 +2812,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-11T10:01:53.723Z",
     "updatedAt": "2026-08-11T10:01:53.724Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "studio-lighting",
+      "close-up",
+      "depth-of-field",
+      "photorealistic",
+      "editorial"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2170,12 +2843,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-11T10:02:49.709Z",
     "updatedAt": "2026-08-11T10:02:49.709Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "close-up",
+      "depth-of-field",
+      "photorealistic",
+      "editorial"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2193,12 +2873,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-11T10:04:19.781Z",
     "updatedAt": "2026-08-11T10:04:19.781Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "close-up",
+      "depth-of-field",
+      "photorealistic",
+      "editorial"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2216,12 +2903,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-11T10:05:42.421Z",
     "updatedAt": "2026-08-11T10:05:42.421Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "soft-lighting",
+      "cinematic-lighting",
+      "photorealistic",
+      "cinematic",
+      "editorial"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2239,12 +2934,18 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-11T10:11:44.807Z",
     "updatedAt": "2026-08-11T10:11:44.807Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "cinematic-lighting",
+      "cinematic",
+      "romantic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2262,12 +2963,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-11T10:23:22.408Z",
     "updatedAt": "2026-08-11T10:23:22.408Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "editorial",
+      "fashion-portrait"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2285,12 +2991,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-11T10:33:15.590Z",
     "updatedAt": "2026-08-11T10:33:15.590Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "close-up",
+      "depth-of-field",
+      "photorealistic",
+      "cinematic",
+      "editorial"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2308,12 +3022,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-11T10:42:44.960Z",
     "updatedAt": "2026-08-11T10:42:44.960Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "golden-hour",
+      "cinematic-lighting",
+      "depth-of-field",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2331,12 +3053,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-13T16:53:52.482Z",
     "updatedAt": "2026-08-13T16:53:52.482Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "studio-lighting",
+      "full-body",
+      "photorealistic",
+      "cinematic",
+      "editorial"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2354,12 +3084,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-13T17:58:20.313Z",
     "updatedAt": "2026-08-13T17:58:20.313Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "natural-lighting",
+      "depth-of-field",
+      "cinematic",
+      "outdoors"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2377,12 +3114,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-14T09:12:56.418Z",
     "updatedAt": "2026-08-14T09:12:56.418Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "photorealistic",
+      "streetwear"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2400,12 +3142,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-14T09:31:16.327Z",
     "updatedAt": "2026-08-14T09:31:16.327Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "natural-lighting",
+      "depth-of-field",
+      "telephoto",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2423,12 +3173,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-18T11:23:27.424Z",
     "updatedAt": "2026-08-18T11:23:27.424Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "close-up",
+      "depth-of-field",
+      "outdoors",
+      "romantic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2446,12 +3203,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-09-16T07:15:24.254Z",
     "updatedAt": "2026-09-16T07:15:24.254Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "close-up",
+      "cinematic",
+      "editorial",
+      "illustration",
+      "monochrome"
+    ],
     "models": [
       "Chat GPT"
     ]
@@ -2467,12 +3232,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-09-16T08:20:07.346Z",
     "updatedAt": "2026-09-16T08:20:07.346Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "soft-lighting",
+      "close-up",
+      "photorealistic",
+      "cinematic",
+      "streetwear"
+    ],
     "models": [
       "Chat GPT"
     ]
@@ -2488,12 +3261,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-09-16T08:21:51.070Z",
     "updatedAt": "2026-09-16T08:21:51.070Z",
-    "tags": [],
+    "tags": [
+      "women-portrait",
+      "portrait",
+      "natural-lighting",
+      "close-up",
+      "depth-of-field",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Chat GPT"
     ]

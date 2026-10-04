@@ -10,12 +10,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 220,
     "likes": 85,
     "createdAt": "2026-07-10T12:00:00.000Z",
     "updatedAt": "2026-07-10T07:10:32.244Z",
-    "tags": [],
+    "tags": [
+      "space",
+      "cosmos",
+      "golden-hour",
+      "natural-lighting"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -33,12 +38,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T07:12:34.420Z",
     "updatedAt": "2026-07-10T07:12:34.420Z",
-    "tags": [],
+    "tags": [
+      "space",
+      "cosmos",
+      "volumetric-lighting",
+      "cinematic-lighting",
+      "cinematic",
+      "3d-render"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -56,12 +68,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T07:13:23.824Z",
     "updatedAt": "2026-07-10T07:13:23.824Z",
-    "tags": [],
+    "tags": [
+      "space",
+      "cosmos",
+      "golden-hour",
+      "volumetric-lighting",
+      "natural-lighting",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -79,12 +99,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T07:14:29.664Z",
     "updatedAt": "2026-07-10T07:14:29.664Z",
-    "tags": [],
+    "tags": [
+      "space",
+      "cosmos",
+      "golden-hour",
+      "volumetric-lighting",
+      "natural-lighting",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -102,16 +130,30 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T07:15:32.769Z",
     "updatedAt": "2026-07-10T07:15:32.769Z",
-    "tags": [],
+    "tags": [
+      "space",
+      "cosmos",
+      "dramatic-lighting",
+      "golden-hour",
+      "natural-lighting",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Gemini AI"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": true,
+    "editorNotes": {
+      "whyItWorks": "Epic scale is established through converging hyperspace warp trails that draw the eye toward a distant luminous spiral galaxy. Sleek capital ships in the foreground show detailed hull plating, navigation lights, and engine glows.",
+      "variationGuide": "Shift the fleet context from peacetime hyperspace transit to an orbital planetary defense perimeter with glowing orbital rings, or an exploration flotilla navigating dense asteroid fields.",
+      "failureModes": "Starships rendered in fleets frequently look identical and copy-pasted. Specify 'diverse capital ship classes with distinct hull silhouettes, heavy dreadnoughts in center, agile escort frigates on flanks'.",
+      "exampleTweak": "Add 'azure and violet warp trails bending space-time, colossal command flagship showing illuminated observation decks and glowing plasma thrusters'."
+    }
   }
 ]

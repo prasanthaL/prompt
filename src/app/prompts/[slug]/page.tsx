@@ -98,7 +98,7 @@ export async function generateMetadata({
       description: metaDescription,
       type: "article",
       url: `/prompts/${canonicalSlug}`,
-      siteName: "PromptNest",
+      siteName: "AIPromptNest",
       publishedTime: prompt.createdAt,
       modifiedTime: prompt.updatedAt,
       section: prompt.category,
@@ -143,7 +143,12 @@ export default async function PromptPage({
 
   const similarPrompts = await getCachedSimilarPrompts(prompt.id, prompt.category, 3);
   const editorial = getPromptEditorialContent(prompt);
-  const promptForClient = { ...prompt, about: editorial.overview, howToUse: editorial.howToUse };
+  const promptForClient = {
+    ...prompt,
+    about: editorial.overview,
+    howToUse: editorial.howToUse,
+    editorNotes: prompt.editorNotes,
+  };
 
   const canonicalSlug = prompt.slug ?? prompt.id;
   const canonicalUrl = `/prompts/${canonicalSlug}`;
@@ -273,61 +278,200 @@ export default async function PromptPage({
         <PromptDetailClient prompt={promptForClient} />
 
         {/* Editorial guidance — server rendered so search engines and users can read the useful context without client-side interaction. */}
-        <section className="mt-10 mb-16 grid gap-5 lg:grid-cols-2" aria-labelledby="prompt-guide-heading">
-          <div className="prompt-detail-card lg:col-span-2">
-            <div className="prompt-detail-card-header">
-              <div className="flex items-center gap-2">
-                <div className="prompt-detail-card-icon-wrap bg-primary/10"><BookOpen className="w-4 h-4 text-primary" /></div>
+        {prompt.editorNotes ? (
+          <section className="mt-10 mb-16 grid gap-5 lg:grid-cols-2" aria-labelledby="prompt-editorial-heading">
+            {/* Overview & Craftsmanship */}
+            <div className="prompt-detail-card lg:col-span-2">
+              <div className="prompt-detail-card-header">
+                <div className="flex items-center gap-2">
+                  <div className="prompt-detail-card-icon-wrap bg-primary/10">
+                    <BookOpen className="w-4 h-4 text-primary" />
+                  </div>
+                  <div>
+                    <h2 id="prompt-editorial-heading" className="prompt-detail-card-title">Usage &amp; Variation Guide</h2>
+                    <p className="prompt-detail-card-subtitle">Technical breakdown of composition, lighting, and variation notes for this specific prompt.</p>
+                  </div>
+                </div>
+              </div>
+              <div className="space-y-4 text-sm leading-7 text-foreground/75">
                 <div>
-                  <h2 id="prompt-guide-heading" className="prompt-detail-card-title">Prompt Guide</h2>
-                  <p className="prompt-detail-card-subtitle">Practical context for understanding, adapting, and getting better results from this prompt.</p>
+                  <h3 className="text-xs font-black uppercase tracking-wider text-primary mb-1">What Makes This Prompt Work</h3>
+                  <p>{prompt.editorNotes.whyItWorks}</p>
                 </div>
               </div>
             </div>
-            <div className="space-y-4 text-sm leading-7 text-foreground/65">
-              <p>{editorial.overview}</p>
-              <p>This guide is based on the actual instructions in the prompt rather than a generic description, so you can see which parts are worth preserving when you customize it.</p>
+
+            {/* What to Change for Variations */}
+            <div className="prompt-detail-card">
+              <div className="prompt-detail-card-header">
+                <h3 className="prompt-detail-card-title">What to Change for Variations</h3>
+                <p className="text-xs text-foreground/50">Adaptation guide for subject, setting, and mood</p>
+              </div>
+              <div className="text-xs leading-relaxed text-foreground/75 space-y-2">
+                <p>{prompt.editorNotes.variationGuide}</p>
+              </div>
             </div>
-          </div>
 
-          <div className="prompt-detail-card">
-            <div className="prompt-detail-card-header"><h2 className="prompt-detail-card-title">What This Prompt Is Best For</h2></div>
-            <ul className="grid gap-2 sm:grid-cols-2">
-              {editorial.bestFor.map((item) => <li key={item} className="rounded-xl border border-white/5 bg-white/[0.025] px-4 py-3 text-sm text-foreground/65">{item}</li>)}
-            </ul>
-          </div>
+            {/* Common Failure Modes & Fixes */}
+            <div className="prompt-detail-card">
+              <div className="prompt-detail-card-header">
+                <h3 className="prompt-detail-card-title">Common Failure Modes &amp; Fixes</h3>
+                <p className="text-xs text-foreground/50">Model quirks and how to counteract them</p>
+              </div>
+              <div className="text-xs leading-relaxed text-foreground/75 space-y-2">
+                <p>{prompt.editorNotes.failureModes}</p>
+              </div>
+            </div>
 
-          <div className="prompt-detail-card">
-            <div className="prompt-detail-card-header"><h2 className="prompt-detail-card-title">How To Customize It</h2></div>
-            <ul className="space-y-3 text-sm leading-6 text-foreground/65">
-              {editorial.customization.map((item) => <li key={item} className="flex gap-3"><span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-primary" />{item}</li>)}
-            </ul>
-          </div>
+            {/* Concrete Example Tweak */}
+            <div className="prompt-detail-card lg:col-span-2">
+              <div className="prompt-detail-card-header">
+                <h3 className="prompt-detail-card-title">Suggested Modification / Concrete Example Tweak</h3>
+                <p className="text-xs text-foreground/50">Copy and insert this phrase into the prompt for an instant style variant</p>
+              </div>
+              <div className="p-3.5 rounded-xl border border-primary/20 bg-primary/[0.04] text-xs font-mono text-primary/90 leading-relaxed">
+                {prompt.editorNotes.exampleTweak}
+              </div>
+            </div>
 
-          <div className="prompt-detail-card">
-            <div className="prompt-detail-card-header"><h2 className="prompt-detail-card-title">Prompt Breakdown</h2></div>
-            <div className="space-y-4">
-              {editorial.breakdown.map((item) => (
-                <div key={`${item.label}-${item.text}`} className="border-b border-white/5 pb-4 last:border-0 last:pb-0">
-                  <h3 className="mb-1 text-sm font-bold text-foreground/85">{item.label}</h3>
-                  <p className="text-sm leading-6 text-foreground/60">{item.text}</p>
+            {/* Responsible AI Guidance */}
+            <div className="prompt-detail-card lg:col-span-2">
+              <div className="prompt-detail-card-header">
+                <h3 className="prompt-detail-card-title">Responsible Generation Note</h3>
+              </div>
+              <p className="text-xs leading-relaxed text-foreground/60">
+                AI image generations vary between model releases and seed values. When adapting this prompt with face matching or reference photos, ensure you hold appropriate rights for any commercial or public distribution. Always adhere to the content policies of the AI generator service you employ.
+              </p>
+            </div>
+          </section>
+        ) : shouldIndexPrompt(prompt) ? (
+          <section className="mt-10 mb-16 grid gap-5 lg:grid-cols-2" aria-labelledby="prompt-guide-heading">
+            {/* Overview & Craftsmanship */}
+            <div className="prompt-detail-card lg:col-span-2">
+              <div className="prompt-detail-card-header">
+                <div className="flex items-center gap-2">
+                  <div className="prompt-detail-card-icon-wrap bg-primary/10"><BookOpen className="w-4 h-4 text-primary" /></div>
+                  <div>
+                    <h2 id="prompt-guide-heading" className="prompt-detail-card-title">Prompt Guide &amp; Technical Analysis</h2>
+                    <p className="prompt-detail-card-subtitle">Detailed breakdown of the composition, lighting, and visual direction used in this prompt.</p>
+                  </div>
                 </div>
-              ))}
+              </div>
+              <div className="space-y-4 text-sm leading-7 text-foreground/75">
+                <div>
+                  <h3 className="text-xs font-black uppercase tracking-wider text-primary mb-1">What This Prompt Creates</h3>
+                  <p>{editorial.whatItCreates}</p>
+                </div>
+                <div className="pt-2 border-t border-white/5">
+                  <h3 className="text-xs font-black uppercase tracking-wider text-primary mb-1">Why This Prompt Works</h3>
+                  <p>{editorial.whyItWorks}</p>
+                </div>
+              </div>
             </div>
-          </div>
 
-          <div className="prompt-detail-card">
-            <div className="prompt-detail-card-header"><h2 className="prompt-detail-card-title">Tips For Better Results</h2></div>
-            <ol className="space-y-3 text-sm leading-6 text-foreground/65">
-              {editorial.tips.map((item, index) => <li key={item} className="flex gap-3"><span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-primary/10 text-xs font-bold text-primary">{index + 1}</span><span>{item}</span></li>)}
-            </ol>
-          </div>
+            {/* Customizable Variables */}
+            <div className="prompt-detail-card">
+              <div className="prompt-detail-card-header">
+                <h2 className="prompt-detail-card-title">Customizable Variables</h2>
+                <p className="text-xs text-foreground/50">Adapt this prompt to your specific project needs</p>
+              </div>
+              <div className="space-y-3">
+                {editorial.customizableVariables.map((v) => (
+                  <div key={v.name} className="rounded-xl border border-white/5 bg-white/[0.02] p-3 text-sm">
+                    <div className="font-bold text-foreground/90 text-xs uppercase tracking-wide text-primary mb-0.5">{v.name}</div>
+                    <p className="text-foreground/70 text-xs leading-relaxed">{v.description}</p>
+                    <p className="mt-1 text-[11px] text-foreground/45 italic font-mono bg-white/[0.02] px-2 py-1 rounded">e.g. {v.example}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
 
-          <div className="prompt-detail-card lg:col-span-2">
-            <div className="prompt-detail-card-header"><h2 className="prompt-detail-card-title">Using This Prompt Responsibly</h2></div>
-            <p className="text-sm leading-7 text-foreground/60">AI image results can vary between models and versions. Review generated images before publishing, especially when using reference photos, recognizable people, brands, or commercial assets. Follow the rules and usage terms of the image-generation service you use.</p>
-          </div>
-        </section>
+            {/* Prompt Breakdown */}
+            <div className="prompt-detail-card">
+              <div className="prompt-detail-card-header">
+                <h2 className="prompt-detail-card-title">Prompt Breakdown</h2>
+                <p className="text-xs text-foreground/50">Direct technical instructions extracted from the prompt text</p>
+              </div>
+              <div className="space-y-4">
+                {editorial.breakdown.map((item) => (
+                  <div key={`${item.label}-${item.text}`} className="border-b border-white/5 pb-3 last:border-0 last:pb-0">
+                    <h3 className="mb-1 text-xs font-bold text-primary uppercase tracking-wide">{item.label}</h3>
+                    <p className="text-xs leading-relaxed text-foreground/70">{item.text}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Recommended Settings */}
+            <div className="prompt-detail-card">
+              <div className="prompt-detail-card-header">
+                <h2 className="prompt-detail-card-title">Recommended Generation Settings</h2>
+                <p className="text-xs text-foreground/50">Optimal configuration for photographic and stylistic fidelity</p>
+              </div>
+              <div className="space-y-3 text-xs leading-relaxed text-foreground/70">
+                <div className="flex justify-between items-center py-2 border-b border-white/5">
+                  <span className="font-semibold text-foreground/90">Aspect Ratio</span>
+                  <span className="font-mono text-primary bg-primary/10 px-2 py-0.5 rounded">{editorial.recommendedSettings.aspectRatio}</span>
+                </div>
+                <div className="flex justify-between items-center py-2 border-b border-white/5">
+                  <span className="font-semibold text-foreground/90">Guidance Scale</span>
+                  <span className="font-mono text-foreground/70">{editorial.recommendedSettings.guidanceScale}</span>
+                </div>
+                <div className="flex justify-between items-center py-2 border-b border-white/5">
+                  <span className="font-semibold text-foreground/90">Style Strength</span>
+                  <span className="font-mono text-foreground/70">{editorial.recommendedSettings.styleStrength}</span>
+                </div>
+                <div className="pt-2">
+                  <span className="font-semibold text-foreground/90 block mb-1.5">Suggested Negative Avoidances:</span>
+                  <div className="flex flex-wrap gap-1.5">
+                    {editorial.recommendedSettings.negativePromptAvoid.map((term) => (
+                      <span key={term} className="px-2 py-1 rounded-md bg-white/[0.03] border border-white/5 text-[11px] text-foreground/60">
+                        {term}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Model Compatibility & Tips */}
+            <div className="prompt-detail-card">
+              <div className="prompt-detail-card-header">
+                <h2 className="prompt-detail-card-title">Model Compatibility &amp; Best Practices</h2>
+                <p className="text-xs text-foreground/50">How this prompt behaves across popular AI image platforms</p>
+              </div>
+              <div className="space-y-3 text-xs leading-relaxed mb-4">
+                {editorial.modelCompatibility.map((m) => (
+                  <div key={m.model} className="p-2.5 rounded-xl border border-white/5 bg-white/[0.02]">
+                    <span className="font-bold text-foreground/90 block mb-0.5">{m.model}</span>
+                    <span className="text-foreground/60">{m.recommendation}</span>
+                  </div>
+                ))}
+              </div>
+              <div className="pt-3 border-t border-white/5">
+                <h3 className="font-bold text-foreground/90 text-xs mb-2">Practical Prompt Tips:</h3>
+                <ol className="space-y-2 text-xs text-foreground/65">
+                  {editorial.tips.map((item, index) => (
+                    <li key={item} className="flex gap-2">
+                      <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-primary/10 text-[10px] font-bold text-primary">{index + 1}</span>
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ol>
+              </div>
+            </div>
+
+            {/* Responsible AI Guidance */}
+            <div className="prompt-detail-card lg:col-span-2">
+              <div className="prompt-detail-card-header">
+                <h2 className="prompt-detail-card-title">Responsible Generation Note</h2>
+              </div>
+              <p className="text-xs leading-relaxed text-foreground/60">
+                AI image generations vary between model releases and seed values. When adapting this prompt with face matching or reference photos, ensure you hold appropriate rights for any commercial or public distribution. Always adhere to the content policies of the AI generator service you employ.
+              </p>
+            </div>
+          </section>
+        ) : null}
 
         {/* Similar Prompts — fully server-rendered */}
         {similarPrompts.length > 0 && (

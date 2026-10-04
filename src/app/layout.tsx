@@ -2,13 +2,14 @@ import type { Metadata, Viewport } from "next";
 import { Outfit } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
+import { SITE_URL } from "@/lib/site";
 
 const outfit = Outfit({
   subsets: ["latin"],
   variable: "--font-outfit",
 });
 
-const siteUrl = "https://www.aipromptnest.com";
+const siteUrl = SITE_URL;
 
 export const viewport: Viewport = {
   themeColor: "#8B5CF6",
@@ -24,7 +25,7 @@ export const metadata: Metadata = {
     template: "%s | AIPromptNest",
   },
   description:
-    "Explore 1,000+ free Gemini AI image prompts in one library. Find cinematic, anime, fantasy, realistic, photography, fashion, and creative prompts to generate high-quality AI images.",
+    "Explore 1,100+ free Gemini AI image prompts in one library. Find cinematic, anime, fantasy, realistic, photography, fashion, and creative prompts to generate high-quality AI images.",
 
   keywords: [
     "AI image prompts",
@@ -70,10 +71,6 @@ export const metadata: Metadata = {
     },
   },
 
-  alternates: {
-    canonical: "/",
-  },
-
   verification: {
     google: "WYjo9RDq1lSf8UPJ4EbjfnE2WtIonLK5PEPJclpGQ74",
     other: {
@@ -90,7 +87,7 @@ export const metadata: Metadata = {
     siteName: "AIPromptNest",
     title: "AIPromptNest - Free Gemini AI Image Prompts Library",
     description:
-      "Explore 1,000+ free Gemini AI image prompts. Discover cinematic, anime, fantasy, realistic, photography, fashion and creative prompt collections.",
+      "Explore 1,100+ free Gemini AI image prompts. Discover cinematic, anime, fantasy, realistic, photography, fashion and creative prompt collections.",
     images: [
       {
         url: "https://res.cloudinary.com/dfbacu2lw/image/upload/v1781332533/og_yh8di5.webp",
@@ -105,7 +102,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "AIPromptNest - Free Gemini AI Image Prompts Library",
     description:
-      "Explore 1,000+ free Gemini AI image prompts. Discover cinematic, anime, fantasy, realistic, photography, fashion and creative prompt collections.",
+      "Explore 1,100+ free Gemini AI image prompts. Discover cinematic, anime, fantasy, realistic, photography, fashion and creative prompt collections.",
     images: [
       "https://res.cloudinary.com/dfbacu2lw/image/upload/v1781332533/og_yh8di5.webp",
     ],
@@ -144,13 +141,13 @@ const webPageSchema = {
   name: "AIPromptNest",
   headline: "Free Gemini AI Prompt Library",
   description:
-    "Browse thousands of free Gemini AI prompts for image generation. Find trending, popular, and category-based prompts for anime, fantasy, cinematic photography, portraits, architecture, and more.",
-  url: "https://www.aipromptnest.com",
+    "Browse over 1,100 free Gemini AI prompts for image generation. Find trending, popular, and category-based prompts for anime, fantasy, cinematic photography, portraits, architecture, and more.",
+  url: siteUrl,
   inLanguage: "en",
   isPartOf: {
     "@type": "WebSite",
     name: "AIPromptNest",
-    url: "https://www.aipromptnest.com",
+    url: siteUrl,
   },
   about: {
     "@type": "Thing",
@@ -240,6 +237,38 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
+        <script
+          id="google-consent-mode"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+
+              var savedConsent = null;
+              try {
+                savedConsent = localStorage.getItem('apn_cookie_consent');
+              } catch (e) {}
+
+              if (savedConsent === 'accepted') {
+                gtag('consent', 'default', {
+                  'ad_storage': 'granted',
+                  'ad_user_data': 'granted',
+                  'ad_personalization': 'granted',
+                  'analytics_storage': 'granted',
+                  'wait_for_update': 500
+                });
+              } else {
+                gtag('consent', 'default', {
+                  'ad_storage': 'denied',
+                  'ad_user_data': 'denied',
+                  'ad_personalization': 'denied',
+                  'analytics_storage': 'denied',
+                  'wait_for_update': 500
+                });
+              }
+            `,
+          }}
+        />
         <Script
           id="root-json-ld"
           type="application/ld+json"

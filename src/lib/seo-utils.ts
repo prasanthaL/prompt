@@ -1,4 +1,5 @@
 import type { Prompt } from "./json-db";
+import { CATEGORY_GUIDES } from "@/data/category-descriptions";
 
 /**
  * Shared function to determine if a prompt record should be indexed by search engines.
@@ -43,4 +44,16 @@ export function shouldIndexPrompt(prompt: Partial<Prompt> | null | undefined): b
   }
 
   return true;
+}
+
+/**
+ * Shared function to determine if a category page should be indexed by search engines.
+ * Category pages must have at least 150 words of guideText to prevent thin-content pages.
+ */
+export function shouldIndexCategory(categorySlug: string): boolean {
+  if (!categorySlug) return false;
+  const guide = CATEGORY_GUIDES[categorySlug];
+  if (!guide || !guide.guideText) return false;
+  const words = guide.guideText.trim().split(/\s+/).filter(Boolean);
+  return words.length >= 150;
 }

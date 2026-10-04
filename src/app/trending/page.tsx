@@ -1,4 +1,5 @@
 import { getTrendingPrompts, getAllPrompts } from "@/lib/json-db";
+import { SITE_URL } from "@/lib/site";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import TrendingClient from "./TrendingClient";
@@ -37,14 +38,14 @@ export const metadata: Metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.aipromptnest.com/trending",
+    canonical: `${SITE_URL}/trending`,
   },
 
   openGraph: {
     title: "Trending Gemini AI Prompts (Updated Daily) | AI Prompt Nest",
     description:
       "Browse the most viewed and liked Gemini AI image prompts trending this week. Find top-rated prompts for Google Gemini in one place.",
-    url: "https://www.aipromptnest.com/trending",
+    url: `${SITE_URL}/trending`,
     siteName: "AI Prompt Nest",
     type: "website",
     locale: "en_US",
@@ -112,7 +113,7 @@ const EXPLORE_CARDS = [
   {
     icon: Star,
     title: "Categories & Collections",
-    description: "Curated collections for every workflow",
+    description: "Categorized collections for every workflow",
     href: "/categories",
     color: "from-emerald-500/20 to-teal-500/20",
     iconColor: "text-emerald-400",
@@ -138,12 +139,12 @@ export default async function TrendingPage() {
     name: "Trending AI Prompts",
     description:
       "Explore today's top-trending Gemini AI image prompts. These prompts are ranked based on views, likes, and community engagement.",
-    url: "https://www.aipromptnest.com/trending",
+    url: `${SITE_URL}/trending`,
     numberOfItems: allTrending.length,
     itemListElement: allTrending.map((prompt, index) => ({
       "@type": "ListItem",
       position: index + 1,
-      url: `https://www.aipromptnest.com/prompts/${prompt.slug || prompt.id}`,
+      url: `${SITE_URL}/prompts/${prompt.slug || prompt.id}`,
       name: prompt.title,
     })),
   };
@@ -305,8 +306,8 @@ export default async function TrendingPage() {
                   },
                   {
                     icon: ShieldCheck,
-                    label: "100%",
-                    sub: "Free Access",
+                    label: "Free",
+                    sub: "Open Access",
                     color: "text-emerald-400",
                     bg: "rgba(16,185,129,0.1)",
                   },

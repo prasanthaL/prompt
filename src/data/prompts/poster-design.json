@@ -10,12 +10,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 180,
     "likes": 65,
     "createdAt": "2026-07-10T12:00:00.000Z",
     "updatedAt": "2026-07-10T07:51:12.355Z",
-    "tags": [],
+    "tags": [
+      "poster-design",
+      "graphic-art",
+      "vintage",
+      "illustration"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -33,12 +38,18 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T07:52:08.986Z",
     "updatedAt": "2026-07-10T07:52:08.986Z",
-    "tags": [],
+    "tags": [
+      "poster-design",
+      "graphic-art",
+      "photorealistic",
+      "cinematic",
+      "action-shot"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -56,12 +67,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T07:57:26.256Z",
     "updatedAt": "2026-07-10T07:57:26.256Z",
-    "tags": [],
+    "tags": [
+      "poster-design",
+      "graphic-art",
+      "cinematic-lighting",
+      "photorealistic",
+      "cinematic",
+      "editorial",
+      "minimalist"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -79,12 +98,18 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T08:11:53.600Z",
     "updatedAt": "2026-07-10T08:11:53.600Z",
-    "tags": [],
+    "tags": [
+      "poster-design",
+      "graphic-art",
+      "dramatic-lighting",
+      "neon-lighting",
+      "cinematic"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -102,12 +127,18 @@
     "isTrending": false,
     "isLatest": true,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T08:12:45.511Z",
     "updatedAt": "2026-07-10T08:12:45.512Z",
-    "tags": [],
+    "tags": [
+      "poster-design",
+      "graphic-art",
+      "photorealistic",
+      "cinematic",
+      "luxury"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -125,12 +156,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-07T10:36:20.826Z",
     "updatedAt": "2026-08-07T10:36:20.826Z",
-    "tags": [],
+    "tags": [
+      "poster-design",
+      "graphic-art",
+      "volumetric-lighting",
+      "rim-lighting",
+      "natural-lighting",
+      "close-up",
+      "wide-angle"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -148,17 +187,31 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-07T10:45:22.963Z",
     "updatedAt": "2026-08-07T10:45:22.963Z",
-    "tags": [],
+    "tags": [
+      "poster-design",
+      "graphic-art",
+      "volumetric-lighting",
+      "close-up",
+      "wide-angle",
+      "depth-of-field",
+      "telephoto"
+    ],
     "models": [
       "Chat GPT"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": true,
+    "editorNotes": {
+      "whyItWorks": "Double-exposure architecture creates compelling visual metaphor. Fusing the iconic silhouette of the Burj Khalifa and modern skyscrapers inside the profile of a falcon or visionary architect yields a polished tourism poster.",
+      "variationGuide": "Swap Dubai for Tokyo, New York, or Paris, adapting the architecture to each city's landmarks (Tokyo Tower, Empire State Building, Eiffel Tower). Change the silhouette from a falcon to an aircraft or traveler.",
+      "failureModes": "Double exposure can leave the silhouette contour ragged or messy. Keep the outer boundary crisp: 'clean graphic silhouette profile with high contrast against white paper background, skyline seamlessly contained within'.",
+      "exampleTweak": "Add 'warm sunset reflections on glass towers inside the silhouette, shimmering gold dust particles drifting outside the frame against dark slate'."
+    }
   },
   {
     "id": "cmqeedinawj",
@@ -171,12 +224,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-08T19:05:18.167Z",
     "updatedAt": "2026-08-08T19:05:18.167Z",
-    "tags": [],
+    "tags": [
+      "poster-design",
+      "graphic-art",
+      "studio-lighting",
+      "streetwear"
+    ],
     "models": [
       "Chat GPT"
     ],

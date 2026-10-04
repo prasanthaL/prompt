@@ -36,7 +36,7 @@ export default function JackpotHomeBanner() {
         }
       `}
       role="complementary"
-      aria-label="Jackpot Prompt Wheel promotion"
+      aria-label="Daily Prompt Discovery promotion"
     >
       {/* Outer glow ring */}
       <div className="absolute inset-0 rounded-2xl bg-gradient-to-r from-amber-500/30 via-yellow-400/20 to-orange-500/30 blur-xl -z-10 animate-pulse" />
@@ -49,7 +49,7 @@ export default function JackpotHomeBanner() {
         {/* Dismiss button */}
         <button
           onClick={dismiss}
-          aria-label="Dismiss jackpot banner"
+          aria-label="Dismiss discovery banner"
           className="absolute top-3 right-3 p-1 rounded-lg text-white/30 hover:text-white hover:bg-white/10 transition-all z-10 cursor-pointer"
         >
           <X className="w-4 h-4" />
@@ -59,7 +59,7 @@ export default function JackpotHomeBanner() {
           {/* Animated icon */}
           <div className="relative shrink-0">
             <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-amber-500 to-orange-600 flex items-center justify-center shadow-lg shadow-amber-500/40">
-              <span className="text-2xl select-none">🎰</span>
+              <Sparkles className="w-7 h-7 text-white" />
             </div>
             {/* Sparkle badge */}
             <div className="absolute -top-1.5 -right-1.5 w-5 h-5 rounded-full bg-emerald-500 border-2 border-slate-950 flex items-center justify-center">
@@ -71,50 +71,50 @@ export default function JackpotHomeBanner() {
           <div className="flex-1 min-w-0">
             <div className="flex items-center gap-2 mb-0.5">
               <span className="text-[10px] font-black uppercase tracking-[0.15em] text-amber-400">
-                Daily Bonus
+                Daily Discovery
               </span>
               <span className="px-1.5 py-0.5 rounded-md bg-emerald-500/20 text-emerald-400 text-[9px] font-black uppercase tracking-wider border border-emerald-500/30">
                 FREE
               </span>
             </div>
             <p className="text-sm font-black text-white leading-tight">
-              Your 3 Daily Spins Are Ready! 🎁
+              Your 3 Daily Discoveries Are Ready!
             </p>
             <p className="text-[11px] text-slate-400 mt-0.5 leading-relaxed">
-              Spin the Jackpot Wheel to unlock Legendary, Epic &amp; Rare AI prompts.
+              Explore Daily Prompt Discovery for cinematic, portrait &amp; concept prompts.
             </p>
 
-            {/* Rarity pills */}
+            {/* Category pills */}
             <div className="flex items-center gap-1.5 mt-2">
               <span className="px-2 py-0.5 rounded-full bg-amber-500/15 border border-amber-500/30 text-[9px] font-black text-amber-400 flex items-center gap-1">
-                <Star className="w-2.5 h-2.5" /> Legendary
+                Cinematic
               </span>
               <span className="px-2 py-0.5 rounded-full bg-purple-500/15 border border-purple-500/30 text-[9px] font-black text-purple-400 flex items-center gap-1">
-                <Zap className="w-2.5 h-2.5" /> Epic
+                Portrait
               </span>
               <span className="px-2 py-0.5 rounded-full bg-blue-500/15 border border-blue-500/30 text-[9px] font-black text-blue-400 flex items-center gap-1">
-                <Gift className="w-2.5 h-2.5" /> Rare
+                Concept Art
               </span>
             </div>
           </div>
 
           {/* CTA button */}
           <Link
-            href="/jackpot"
+            href="/discover"
             onClick={() => {
               dismiss();
-              trackEvent("jackpot_route_click", { source: "home_banner" });
+              trackEvent("daily_discovery_click", { source: "home_banner" });
             }}
             className="shrink-0 px-4 py-2.5 rounded-xl bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-400 hover:to-orange-400 text-slate-950 text-xs font-black uppercase tracking-wider shadow-lg shadow-amber-500/30 hover:scale-105 active:scale-95 transition-all duration-200 cursor-pointer whitespace-nowrap"
           >
-            Spin Now →
+            Discover Now →
           </Link>
         </div>
 
         {/* Bottom progress bar — decorative "daily reset" feel */}
         <div className="px-4 pb-3">
           <div className="flex items-center justify-between text-[9px] text-slate-600 mb-1">
-            <span>Daily spins available</span>
+            <span>Daily discoveries available</span>
             <span className="text-amber-500 font-bold">3 / 3</span>
           </div>
           <div className="w-full h-1 rounded-full bg-slate-800 overflow-hidden">

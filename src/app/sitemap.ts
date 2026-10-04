@@ -1,11 +1,12 @@
 import { MetadataRoute } from "next";
 import { getAllPromptsSync } from "@/lib/prompts-data";
 import { categoryToSlug } from "@/lib/category-slugs";
-import { shouldIndexPrompt } from "@/lib/seo-utils";
+import { shouldIndexPrompt, shouldIndexCategory } from "@/lib/seo-utils";
 import blogJsonData from "@/data/blog.json";
 import categories from "@/data/categories.json";
+import { SITE_URL } from "@/lib/site";
 
-const siteUrl = "https://www.aipromptnest.com";
+const siteUrl = SITE_URL;
 
 export const revalidate = 3600; // regenerate sitemap at least every hour
 
@@ -71,6 +72,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       priority: 0.5,
     },
     {
+      url: `${siteUrl}/ai-policy`,
+      lastModified: stableFallback,
+      changeFrequency: "monthly",
+      priority: 0.5,
+    },
+    {
       url: `${siteUrl}/terms-of-service`,
       lastModified: stableFallback,
       changeFrequency: "monthly",
@@ -78,13 +85,15 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     },
   ];
 
-  /* Category routes — read directly from the known categories list */
-  const categoryRoutes: MetadataRoute.Sitemap = categories.map((cat) => ({
-    url: `${siteUrl}/categories/${categoryToSlug(cat.name)}`,
-    lastModified: stableFallback,
-    changeFrequency: "daily" as const,
-    priority: 0.85,
-  }));
+  /* Category routes — filtered by shouldIndexCategory (requires >= 150 words guide text) */
+  const categoryRoutes: MetadataRoute.Sitemap = categories
+    .filter((cat) => shouldIndexCategory(categoryToSlug(cat.name)))
+    .map((cat) => ({
+      url: `${siteUrl}/categories/${categoryToSlug(cat.name)}`,
+      lastModified: stableFallback,
+      changeFrequency: "daily" as const,
+      priority: 0.85,
+    }));
 
   /* Blog post routes — dynamic active blogs */
   const blogRoutes: MetadataRoute.Sitemap = blogJsonData.map((blog) => ({

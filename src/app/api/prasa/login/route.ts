@@ -9,7 +9,11 @@ export async function POST(req: Request) {
     const adminPassword = process.env.ADMIN_PASSWORD;
 
     if (email === adminEmail && password === adminPassword) {
-      const secret = process.env.NEXTAUTH_SECRET || "prompt-marketplace-super-secret-key-2024";
+      const secret = process.env.NEXTAUTH_SECRET;
+      if (!secret) {
+        console.error("NEXTAUTH_SECRET environment variable is not set.");
+        return NextResponse.json({ success: false }, { status: 500 });
+      }
       const cookieStore = await cookies();
       cookieStore.set("prasa_session", secret, {
         httpOnly: true,

@@ -10,12 +10,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 180,
     "likes": 65,
     "createdAt": "2026-07-10T12:00:00.000Z",
     "updatedAt": "2026-07-10T09:44:08.198Z",
-    "tags": [],
+    "tags": [
+      "travel",
+      "destination",
+      "golden-hour",
+      "cinematic-lighting",
+      "natural-lighting",
+      "cinematic"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -33,12 +40,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T09:45:24.343Z",
     "updatedAt": "2026-07-10T09:45:24.343Z",
-    "tags": [],
+    "tags": [
+      "travel",
+      "destination",
+      "golden-hour",
+      "natural-lighting",
+      "photorealistic",
+      "cinematic",
+      "luxury"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -56,12 +71,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T09:46:22.788Z",
     "updatedAt": "2026-07-10T09:46:22.788Z",
-    "tags": [],
+    "tags": [
+      "travel",
+      "destination",
+      "golden-hour",
+      "natural-lighting",
+      "photorealistic",
+      "cinematic",
+      "outdoors"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -79,17 +102,31 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T09:47:06.373Z",
     "updatedAt": "2026-07-10T09:47:06.373Z",
-    "tags": [],
+    "tags": [
+      "travel",
+      "destination",
+      "golden-hour",
+      "natural-lighting",
+      "photorealistic",
+      "cinematic",
+      "luxury"
+    ],
     "models": [
       "Gemini AI"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": true,
+    "editorNotes": {
+      "whyItWorks": "Golden dunes sculpt long, sweeping shadows under low afternoon sunlight. Contrasting the stark minimalist desert landscape with high-end luxury details—a private bedouin lounge, vintage off-road vehicle, and billowing linen canopy—delivers wanderlust appeal.",
+      "variationGuide": "Move the desert setting from rolling Sahara sand dunes to the red sandstone monoliths of Wadi Rum Jordan, or the surreal salt flats of Bolivia under starlight.",
+      "failureModes": "Sand dunes can look like smooth artificial clay without wind-blown ripple texture. Insist on 'razor-sharp wind ripples across dune crests, warm golden hour sun, and deep amber cast shadows'.",
+      "exampleTweak": "Add 'luxury desert glamping tent with plush rugs, brass lanterns, tea set, camel train silhouetted against the setting sun on distant dune ridge'."
+    }
   },
   {
     "id": "cm3h5ucl0s1",
@@ -102,12 +139,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T09:48:01.432Z",
     "updatedAt": "2026-07-10T09:48:01.432Z",
-    "tags": [],
+    "tags": [
+      "travel",
+      "destination",
+      "golden-hour",
+      "natural-lighting",
+      "photorealistic",
+      "cinematic",
+      "luxury"
+    ],
     "models": [
       "Gemini AI"
     ],

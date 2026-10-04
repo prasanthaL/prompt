@@ -10,12 +10,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 160,
     "likes": 55,
     "createdAt": "2026-07-10T12:00:00.000Z",
     "updatedAt": "2026-07-10T09:12:32.946Z",
-    "tags": [],
+    "tags": [
+      "mecha",
+      "sci-fi",
+      "neon-lighting",
+      "cinematic"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -33,17 +38,31 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T09:23:23.165Z",
     "updatedAt": "2026-07-10T09:23:23.165Z",
-    "tags": [],
+    "tags": [
+      "mecha",
+      "sci-fi",
+      "volumetric-lighting",
+      "neon-lighting",
+      "cinematic-lighting",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Gemini AI"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": true,
+    "editorNotes": {
+      "whyItWorks": "Fusing mythical draconic anatomy with advanced aerospace engineering creates immediate visual impact. Articulated heat-resistant ceramic scales, glowing plasma thrusters along the wings, and hydraulic tail joints deliver satisfying mechanical credibility.",
+      "variationGuide": "Pivot the mecha styling from angular industrial sci-fi to sleek Evangelion-inspired biomechanical armor, or rugged dieselpunk aesthetics with exposed copper piping, rivets, and billowing exhaust steam.",
+      "failureModes": "Models often fail to resolve where the wings join the chassis, creating muddy knots of metal. Include 'clearly defined shoulder joints, segmented hydraulic wing struts, and sharp geometric armor separation'.",
+      "exampleTweak": "Add 'carbon-composite armor plating in matte arctic white, glowing cyan coolant vents along the spine, landing on a futuristic neon launchpad'."
+    }
   },
   {
     "id": "cmsw2t4hub9",
@@ -56,12 +75,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T09:25:49.653Z",
     "updatedAt": "2026-07-10T09:25:49.653Z",
-    "tags": [],
+    "tags": [
+      "mecha",
+      "sci-fi",
+      "volumetric-lighting",
+      "neon-lighting",
+      "photorealistic",
+      "cinematic",
+      "cyberpunk"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -79,12 +106,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T09:26:50.684Z",
     "updatedAt": "2026-07-10T09:26:50.684Z",
-    "tags": [],
+    "tags": [
+      "mecha",
+      "sci-fi",
+      "neon-lighting",
+      "cinematic",
+      "3d-render",
+      "action-shot"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -102,12 +136,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T09:28:08.492Z",
     "updatedAt": "2026-07-10T09:28:08.492Z",
-    "tags": [],
+    "tags": [
+      "mecha",
+      "sci-fi",
+      "golden-hour",
+      "volumetric-lighting",
+      "neon-lighting",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Gemini AI"
     ],

@@ -6,6 +6,7 @@ import Image from "next/image";
 import CategoryPromptsClient from "./CategoryPromptsClient";
 import Footer from "@/components/Footer";
 import categoriesData from "@/data/categories.json";
+import { SITE_URL } from "@/lib/site";
 import {
   categoryDescriptions,
   categoryMetaLookup,
@@ -13,6 +14,7 @@ import {
   ICON_MAP,
 } from "@/data/category-page-data";
 import { CATEGORY_GUIDES } from "@/data/category-descriptions";
+import { shouldIndexCategory } from "@/lib/seo-utils";
 
 import {
   Sparkles,
@@ -22,6 +24,7 @@ import {
   Layers,
   Copy,
   FolderOpen,
+  BookOpen,
 } from "lucide-react";
 import type { Metadata } from "next";
 
@@ -40,7 +43,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const categorySlug = categoryToSlug(displayName);
   const rawKey = decodeURIComponent(category).toLowerCase();
 
-  const siteUrl = "https://www.aipromptnest.com";
+  const siteUrl = SITE_URL;
   const fallbackOgImage = "https://res.cloudinary.com/dfbacu2lw/image/upload/v1781332533/og_yh8di5.webp";
 
   // Resolve the best OG image for this category
@@ -63,6 +66,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   ];
 
   const categoryMeta = categoryDescriptions[categorySlug] ?? categoryDescriptions[rawKey];
+  const isIndexable = shouldIndexCategory(categorySlug);
 
   if (categoryMeta) {
     return {
@@ -70,7 +74,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       description: categoryMeta.description,
       keywords: categoryMeta.keywords,
       alternates: {
-        canonical: `https://www.aipromptnest.com/categories/${categorySlug}`,
+        canonical: `${siteUrl}/categories/${categorySlug}`,
       },
       openGraph: {
         title: categoryMeta.title,
@@ -85,10 +89,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         images: [ogImageUrl],
       },
       robots: {
-        index: true,
+        index: isIndexable,
         follow: true,
         googleBot: {
-          index: true,
+          index: isIndexable,
           follow: true,
           "max-snippet": -1,
           "max-image-preview": "large",
@@ -98,14 +102,14 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     };
   }
 
-  const fallbackTitle = `${displayName} AI Prompts – Browse Top ${displayName} Prompts | AiPromptNest`;
-  const fallbackDescription = catConfig?.description || `Explore our curated collection of high-quality ${displayName} AI prompts on AiPromptNest. Find the perfect prompts for your next creative project and generate stunning artwork with ease.`;
+  const fallbackTitle = `${displayName} AI Prompts – Browse ${displayName} Prompts | AIPromptNest`;
+  const fallbackDescription = catConfig?.description || `Explore our organized collection of ${displayName} AI prompts on AIPromptNest. Find prompt templates for your next creative project and generate artwork with ease.`;
 
   return {
     title: fallbackTitle,
     description: fallbackDescription,
     alternates: {
-      canonical: `https://www.aipromptnest.com/categories/${categorySlug}`,
+      canonical: `${siteUrl}/categories/${categorySlug}`,
     },
     openGraph: {
       title: fallbackTitle,
@@ -120,10 +124,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       images: [ogImageUrl],
     },
     robots: {
-      index: true,
+      index: isIndexable,
       follow: true,
       googleBot: {
-        index: true,
+        index: isIndexable,
         follow: true,
         "max-snippet": -1,
         "max-image-preview": "large",
@@ -212,14 +216,14 @@ export default async function CategoryPage({ params }: PageProps) {
   ];
 
   // Category specific intro paragraph for the Tips Section
-  const categoryIntroText = customGuide?.guideText ?? `Explore curated ${displayName} AI prompts engineered for Google Gemini, ChatGPT, and Midjourney. Master key directives for subject composition, lighting angles, textures, and style parameters to craft high-impact ${displayName} artwork.`;
+  const categoryIntroText = customGuide?.guideText ?? `Explore structured ${displayName} AI prompts formatted for Google Gemini, ChatGPT, and Midjourney. Discover key directives for subject composition, lighting angles, textures, and style parameters to craft ${displayName} artwork.`;
 
   // How many prompts to pre-render on the server (first visible batch)
   const INITIAL_COUNT = 8;
   const initialPrompts = prompts.slice(0, INITIAL_COUNT);
 
   // ── Structured Data ──────────────────────────────────────────────────────
-  const siteUrl = "https://www.aipromptnest.com";
+  const siteUrl = SITE_URL;
 
   const breadcrumbSchema = {
     "@context": "https://schema.org",
@@ -250,7 +254,7 @@ export default async function CategoryPage({ params }: PageProps) {
     "@context": "https://schema.org",
     "@type": "ItemList",
     name: `${displayName} AI Prompts`,
-    description: `A curated collection of ${displayName} AI prompts for Gemini, and Stable Diffusion.`,
+    description: `A structured collection of ${displayName} AI prompts for Gemini, and Stable Diffusion.`,
     url: `${siteUrl}/categories/${categorySlug}`,
     numberOfItems: prompts.length,
     itemListElement: prompts.slice(0, 50).map((p, index) => ({
@@ -340,7 +344,7 @@ export default async function CategoryPage({ params }: PageProps) {
                   <p key={idx} className="text-justify font-normal leading-relaxed">{p}</p>
                 ))
               ) : (
-                <p>Explore our premium collection of highly optimized, copy-and-paste {displayName} AI prompts. Perfect for your next high-impact creative project.</p>
+                <p>Explore our collection of structured, copy-and-paste {displayName} AI prompts with camera, lighting, and style parameters. Perfect for your next creative project.</p>
               )}
             </div>
 
@@ -390,16 +394,16 @@ export default async function CategoryPage({ params }: PageProps) {
                   <MetaIcon className="w-5 h-5" />
                 </div>
                 <div className="bg-black/50 backdrop-blur-md text-[9px] text-white/80 font-black tracking-widest uppercase px-3 py-1.5 rounded-full border border-white/10">
-                  PromptNest curation
+                  AIPromptNest
                 </div>
               </div>
 
               <div className="space-y-1.5">
                 <h3 className="text-2xl font-extrabold text-white tracking-tight drop-shadow-md">
-                  Premium {displayName} Art
+                  {displayName} AI Prompts
                 </h3>
                 <p className="text-[10px] text-white/60 font-semibold uppercase tracking-wider">
-                  Hand-crafted & Optimized for Gemini 3.8 Pro & Flash
+                  Structured Prompts for Gemini &amp; Modern AI Models
                 </p>
               </div>
             </div>
@@ -412,21 +416,21 @@ export default async function CategoryPage({ params }: PageProps) {
             {
               label: `${displayName} Prompts`,
               value: totalPrompts.toLocaleString(),
-              description: "Curated templates",
+              description: "Organized library",
               icon: Layers,
               color: "text-pink-500 bg-pink-500/10",
             },
             {
               label: "Update Cycle",
-              value: "Weekly",
-              description: "Fresh content added",
+              value: "Regular",
+              description: "Fresh examples added",
               icon: Clock,
               color: "text-emerald-500 bg-emerald-500/10",
             },
             {
-              label: "Optimization",
-              value: "100%",
-              description: "Tested and certified",
+              label: "Prompt Structure",
+              value: "Detailed",
+              description: "Practical parameters included",
               icon: Sparkles,
               color: "text-amber-500 bg-amber-500/10",
             },
@@ -452,6 +456,47 @@ export default async function CategoryPage({ params }: PageProps) {
           })}
         </div>
 
+        {/* Category Guide & Tips Section */}
+        {(categoryIntroText || tips.length > 0) && (
+          <section className="mb-16">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+              {/* Intro text */}
+              {categoryIntroText && (
+                <div className="lg:col-span-2 glass-dark border border-foreground/5 rounded-4xl p-8 space-y-4">
+                  <h2 className="text-lg font-bold text-foreground flex items-center gap-2">
+                    <BookOpen className="w-5 h-5 text-primary" />
+                    About {displayName} Prompts
+                  </h2>
+                  <div className="space-y-4">
+                    {categoryIntroText.split("\n\n").map((para, i) => (
+                      <p key={i} className="text-foreground/60 text-sm leading-relaxed">
+                        {para}
+                      </p>
+                    ))}
+                  </div>
+                </div>
+              )}
+              {/* Tips */}
+              {tips.length > 0 && (
+                <div className="glass-dark border border-foreground/5 rounded-4xl p-8 space-y-4">
+                  <h2 className="text-lg font-bold text-foreground flex items-center gap-2">
+                    <Sparkles className="w-5 h-5 text-primary" />
+                    Prompt Tips
+                  </h2>
+                  <ul className="space-y-3">
+                    {tips.map((tip, i) => (
+                      <li key={i} className="flex items-start gap-2.5 text-sm text-foreground/60">
+                        <span className="mt-1 w-1.5 h-1.5 rounded-full bg-primary shrink-0" />
+                        {tip}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+            </div>
+          </section>
+        )}
+
         {/* Prompts Section */}
         <section id="prompts-section" className="scroll-mt-32 mb-20">
           <div className="flex items-center justify-between mb-10">
@@ -460,7 +505,7 @@ export default async function CategoryPage({ params }: PageProps) {
                 <span className="w-1.5 h-8 bg-primary rounded-full"></span>
                 Browse {displayName} AI Prompts
               </h2>
-              <p className="text-foreground/40 text-xs md:text-sm">Explore our top performing, copy-and-paste ready prompts</p>
+              <p className="text-foreground/40 text-xs md:text-sm">Copy-and-paste ready prompts for Gemini and other AI image generators</p>
             </div>
           </div>
 
@@ -578,7 +623,7 @@ export default async function CategoryPage({ params }: PageProps) {
               Ready to Explore More Creative Styles?
             </h2>
             <p className="text-foreground/40 text-sm sm:text-base max-w-lg mx-auto leading-relaxed">
-              Unleash your imagination by browsing thousands of copy-and-paste templates across all creative domains.
+              Unleash your imagination by browsing over 1,100 copy-and-paste templates across all creative domains.
             </p>
             <div className="pt-4 flex justify-center">
               <Link

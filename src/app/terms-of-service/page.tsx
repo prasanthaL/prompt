@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import Link from "next/link";
 import { FileText } from "lucide-react";
 import type { Metadata } from "next";
+import { SUPPORT_EMAIL } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Terms of Service | AIPromptNest",
@@ -61,7 +62,7 @@ export default function TermsOfServicePage() {
               2. Description of Service
             </h2>
             <p>
-              AIPromptNest provides users with a free directory of curated, tested, and categorized generative AI text prompt templates primarily optimized for Google Gemini. We reserve the right to modify, adjust, suspend, or discontinue any feature, category, or service at any time without notice.
+              AIPromptNest provides users with a free library of structured and categorized generative AI text prompt templates designed for Google Gemini and modern AI image models. We reserve the right to modify, adjust, suspend, or discontinue any feature, category, or service at any time without notice.
             </p>
           </section>
 
@@ -138,7 +139,7 @@ export default function TermsOfServicePage() {
               8. Support & Feedback
             </h2>
             <p>
-              For any clarification regarding these terms, permissions, or license inquiries, please navigate to our <Link href="/contact" className="text-primary hover:underline font-semibold">Contact Us</Link> page or send an inquiry to <a href="mailto:hello.aipromptnest@gmail.com" className="text-primary hover:underline font-semibold">hello.aipromptnest@gmail.com</a>.
+              For any clarification regarding these terms, permissions, or license inquiries, please navigate to our <Link href="/contact" className="text-primary hover:underline font-semibold">Contact Us</Link> page or send an inquiry to <a href={`mailto:${SUPPORT_EMAIL}`} className="text-primary hover:underline font-semibold">{SUPPORT_EMAIL}</a>.
             </p>
           </section>
         </div>

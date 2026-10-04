@@ -10,12 +10,17 @@
     "isTrending": false,
     "isLatest": true,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 190,
     "likes": 75,
     "createdAt": "2026-07-10T12:00:00.000Z",
     "updatedAt": "2026-07-10T08:49:17.857Z",
-    "tags": [],
+    "tags": [
+      "horror",
+      "dark-art",
+      "steampunk",
+      "eerie-atmosphere"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -33,12 +38,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T08:50:38.104Z",
     "updatedAt": "2026-07-10T08:50:38.104Z",
-    "tags": [],
+    "tags": [
+      "horror",
+      "dark-art",
+      "volumetric-lighting",
+      "photorealistic",
+      "cinematic",
+      "steampunk"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -56,12 +68,18 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T08:51:30.735Z",
     "updatedAt": "2026-07-10T08:51:30.735Z",
-    "tags": [],
+    "tags": [
+      "horror",
+      "dark-art",
+      "photorealistic",
+      "cinematic",
+      "outdoors"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -79,12 +97,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T08:52:43.415Z",
     "updatedAt": "2026-07-10T08:52:43.415Z",
-    "tags": [],
+    "tags": [
+      "horror",
+      "dark-art",
+      "volumetric-lighting",
+      "cinematic"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -102,16 +125,28 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T08:53:31.330Z",
     "updatedAt": "2026-07-10T08:53:31.330Z",
-    "tags": [],
+    "tags": [
+      "horror",
+      "dark-art",
+      "dramatic-lighting",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Gemini AI"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": true,
+    "editorNotes": {
+      "whyItWorks": "Atmospheric dread is generated through silhouette, negative space, and volumetric fog. By keeping the rotting galleon partially obscured within ocean mist and illuminated solely by cold bioluminescent sea foam, the prompt invites the viewer's imagination to fill in the dark details.",
+      "variationGuide": "Adapt the nautical curse into a derelict deep-space freighter adrift in asteroid debris, or a Victorian steam locomotive stalled in an eerie mountain tunnel. Shift the lighting from cold green phosphorescence to dying amber embers.",
+      "failureModes": "Generators can over-render cheesy glowing skeletons or monster faces that cheapen the suspense. Keeping the focus on 'tattered sail silhouettes, decaying wood grain, and heavy ocean fog' produces a far more sophisticated gothic image.",
+      "exampleTweak": "Add 'creaking timbers shrouded in dense sea mist, cold moonlight breaking through storm clouds to reveal empty decks and spectral lanterns'."
+    }
   }
 ]

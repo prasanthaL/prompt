@@ -10,12 +10,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 130,
     "likes": 39,
     "createdAt": "2026-07-10T12:00:00.000Z",
     "updatedAt": "2026-07-10T09:29:24.462Z",
-    "tags": [],
+    "tags": [
+      "steampunk",
+      "victorian-tech",
+      "cinematic",
+      "retro-futurism"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -33,17 +38,29 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T09:30:26.650Z",
     "updatedAt": "2026-07-10T09:30:26.650Z",
-    "tags": [],
+    "tags": [
+      "steampunk",
+      "victorian-tech",
+      "volumetric-lighting",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Gemini AI"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": true,
+    "editorNotes": {
+      "whyItWorks": "Classic Victorian retro-futurism: polished brass goggles, weathered leather flight jacket, mechanical compasses, and an observation bridge overlooking a sea of clouds. Natural golden sunlight through brass-framed windows gives the scene warmth.",
+      "variationGuide": "Shift the character from the airship captain to the clockwork automaton first mate or the ship's chief mechanic inside a roaring boiler room filled with copper pipes and steam pressure gauges.",
+      "failureModes": "Goggles and clockwork gears can be randomly pasted onto faces by models. Direct the styling: 'functional brass aviator goggles resting on leather flight cap, authentic clockwork pocket watch chain across tweed vest'.",
+      "exampleTweak": "Add 'captain's hands on polished wooden ship's wheel with brass fittings, stormy clouds and sister dirigibles visible through the curved bridge windows'."
+    }
   },
   {
     "id": "cmxr97i9lhq",
@@ -56,12 +73,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T09:31:13.608Z",
     "updatedAt": "2026-07-10T09:31:13.608Z",
-    "tags": [],
+    "tags": [
+      "steampunk",
+      "victorian-tech",
+      "photorealistic",
+      "cinematic",
+      "3d-render",
+      "urban"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -79,12 +103,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T09:32:03.878Z",
     "updatedAt": "2026-07-10T09:32:03.878Z",
-    "tags": [],
+    "tags": [
+      "steampunk",
+      "victorian-tech",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -102,12 +131,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T09:32:52.033Z",
     "updatedAt": "2026-07-10T09:32:52.033Z",
-    "tags": [],
+    "tags": [
+      "steampunk",
+      "victorian-tech",
+      "photorealistic",
+      "cinematic",
+      "vintage",
+      "3d-render"
+    ],
     "models": [
       "Gemini AI"
     ],

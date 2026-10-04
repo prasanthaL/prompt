@@ -7,7 +7,7 @@
     "fullPrompt": "Create a futuristic streetwear fashion poster using my uploaded image as the main subject. Keep the person full-body and centered with a confident pose. Apply a strong digital glitch distortion effect across the body and clothing, with horizontal wave-like tearing, motion smears, fragmented edges, and cyberpunk-style visual corruption. Use a bold textured red background with subtle grain, scratches, and cinematic lighting.\n",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782125819/prompts/kglpz6dqhrbya0ubnz6j.webp",
     "isPremium": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-05-10T05:58:31.473Z",
@@ -15,7 +15,14 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "tags": [],
+    "tags": [
+      "product-photography",
+      "commercial",
+      "cinematic-lighting",
+      "cinematic",
+      "cyberpunk",
+      "streetwear"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -30,7 +37,7 @@
     "fullPrompt": "tylish young man sitting confidently on a royal wooden chair, wearing a white glowsi line shirt, black mordon jean, and sunglasse exuding power and dominance.\nHis pose is bold, with hands clasped together in front giving a strong and king-like presence. The background features a dramatic artistic composition: a large faded monochrome portrait of him in sunglasse on the left, and a roaring lion with a crown on the right, symbolizing strength,KING make it photo",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782125721/prompts/inxst8iiouqfcppipa4s.webp",
     "isPremium": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-05-10T05:59:30.191Z",
@@ -38,7 +45,12 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "tags": [],
+    "tags": [
+      "product-photography",
+      "commercial",
+      "monochrome",
+      "advertising"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -53,7 +65,7 @@
     "fullPrompt": "A sleek commercial hero shot of an electric sports car model positioned on a polished reflective platform, dramatic rim lighting, vibrant red accent tones, bold product typography. Commercial studio lighting setup, sleek surface highlights, ultra-sharp product focus, soft drop shadows, clean high-end catalog presentation style, 8k commercial render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782125604/prompts/rtvbci37acmnypnqrnrx.webp",
     "isPremium": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-05-10T06:00:42.655Z",
@@ -61,7 +73,12 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "tags": [],
+    "tags": [
+      "product-photography",
+      "commercial",
+      "studio-lighting",
+      "rim-lighting"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -76,7 +93,7 @@
     "fullPrompt": "Create a studio portrait of the same athletic man (preserving the face 100%). He is wearing a light Green blazer and slim-fit trousers with white sneakers, and a white shirt slightly unbuttoned. He is seated on a tall swivel stool, with a gradient Green background and spotlight lighting, in the style of a fashion photoshoot. Commercial studio lighting setup, sleek surface highlights, ultra-sharp product focus, soft drop shadows, clean high-end catalog presentation style, 8k commercial render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782125537/prompts/cxwruvqok8bbfj055ejp.webp",
     "isPremium": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-05-10T06:02:24.535Z",
@@ -84,7 +101,13 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "tags": [],
+    "tags": [
+      "product-photography",
+      "commercial",
+      "studio-lighting",
+      "streetwear",
+      "luxury"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -99,7 +122,7 @@
     "fullPrompt": "Luxury cinematic pre-wedding collage poster of a romantic South Asian couple walking hand-in-hand on a wooden bridge inside a lush bamboo forest. Preserve exact facial features and realistic skin texture from the reference images. The man wears an ivory-white luxury suit with a black shirt and transparent glasses. The woman wears a sparkling deep wine-maroon embroidered gown with sheer sleeves and statement earrings Include multiple collage frames with:Romantic close-ups • Candid walking shots • Mehndi and engagement ring hand-holding moments • Intimate hugging poses • Elegant solo portrait of the woman Warm golden sunlight, dreamy green bamboo background, creamy bokeh, cinematic lighting, shallow depth of field, ultra-realistic DSLR photography, luxury wedding editorial aesthetic, Pinterest-style romantic composition. Add elegant white handwritten text: “FOREVER ON THE SAME PATH” “Two hearts met on a bridge and chose the same destination.”Negative prompt: blurry faces, distorted hands, extra fingers, unrealistic anatomy, cartoon look, watermark, low quality",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782125394/prompts/u5pdv9ctwdzlwwxwh30x.webp",
     "isPremium": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-05-10T23:17:05.767Z",
@@ -107,7 +130,15 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "tags": [],
+    "tags": [
+      "product-photography",
+      "commercial",
+      "cinematic-lighting",
+      "natural-lighting",
+      "close-up",
+      "depth-of-field",
+      "photorealistic"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -122,7 +153,7 @@
     "fullPrompt": "Vibrant Thread milestone poster celebrating 2k followers. The main subject (Sid_edits.07) is stylishly posing in two different positions - one full-body sitting pose on top of a big 3D metallic \"2k\" text with floating Instagram icons. and another half-body stylish photo above with torn paper effect transition between orange gradient and grey background. The top section shows an Thread profile interface with username. 2k count. bio, and icons.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782125305/prompts/lwfj3glkzz6okgc6c7u1.webp",
     "isPremium": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-05-10T23:21:00.990Z",
@@ -130,7 +161,12 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "tags": [],
+    "tags": [
+      "product-photography",
+      "commercial",
+      "advertising",
+      "studio-shot"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -145,7 +181,7 @@
     "fullPrompt": "A luxury monochrome fashion editorial campaign poster for Vogue featuring a high-fashion female model in an avant-garde black gown, minimal typography layout, studio lighting. Commercial studio lighting setup, sleek surface highlights, ultra-sharp product focus, soft drop shadows, clean high-end catalog presentation style, 8k commercial render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782125220/prompts/svixak4axc8z5kjo6ybn.webp",
     "isPremium": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-05-11T06:52:37.812Z",
@@ -153,7 +189,14 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "tags": [],
+    "tags": [
+      "product-photography",
+      "commercial",
+      "studio-lighting",
+      "editorial",
+      "monochrome",
+      "luxury"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -168,7 +211,7 @@
     "fullPrompt": "Create a high-quality 8K portrait poster inspired by the bold and modern advertising style of Burger King campaigns, featuring a strong commercial fast-food aesthetic with vibrant colors, eye-catching promotional visuals, and a premium advertising composition. The overall poster should capture the energetic and flavorful atmosphere commonly seen in Burger King advertisements, combining modern branding visuals with stylish lifestyle-fashion elements.kainyafabiya\n21h\n\n\nAdd typography inspired by authentic Burger King-style promotional posters, using bold commercial text placement, large dynamic headline compositions, playful fast-food advertising layouts, and layered graphic elements that enhance the premium campaign feel.Include decorative poster ornaments such as retro-modern shapes, flame-inspired accents, textured backgrounds, halftone details, sticker-style graphics, bold color blocking, glowing highlights, abstract promotional elements, and visually rich commercial decorations that make the poster feel lively, modern, and professionally designed. The subject’s pose and facial expression must not look identical to the reference photo. Recreate the subject with a more expressive, dynamic, and naturally confident appearance. Avoid stiff, awkward, emotionless, or flat-looking body language. The expression should feel charismatic, fashionable, energetic, and visually engaging, while the pose should carry the elegance and confidence of an international fashion model. Use natural movement, stylish hand positioning, confident posture, and subtle fashion-model attitude to create a premium commercial poster appearance. The outfit should feature modern casual streetwear with a stylish contemporary fashion aesthetic. Avoid plain or repetitive outfit choices. Use fashionable clothing combinations with layered styling, attractive color palettes, modern fabric textures, subtle graphic patterns, and trendy fashion details that feel visually rich without becoming messy.The wardrobe should blend naturally with the bold Burger King advertising atmosphere while still making the subject appear fashionable, premium, and camera-ready. Use cinematic commercial lighting with polished highlights, rich shadows, glossy advertisement-style reflections, and professional fast-food campaign color grading.The final composition should feel colorful, energetic, modern, stylish, visually rich, and professionally designed like a real international Burger King promotional poster campaign. Ultra-detailed textures, sharp focus, premium advertising quality, vibrant tones, realistic depth, clean composition, and ultra-HD 8K resolution. ",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782125099/prompts/qcqdp6y5wasc4ud3o4md.webp",
     "isPremium": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-05-11T08:02:08.670Z",
@@ -176,12 +219,25 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "tags": [],
+    "tags": [
+      "product-photography",
+      "commercial",
+      "cinematic",
+      "vintage",
+      "streetwear",
+      "luxury"
+    ],
     "models": [
       "Gemini AI"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": true,
+    "editorNotes": {
+      "whyItWorks": "Bold conceptual juxtaposition: merging high-fashion luxury editorial lighting with raw barbecue culinary flame elements. Crisp studio flash freezes airborne fire embers and sizzling droplets around the featured product.",
+      "variationGuide": "Adapt this high-energy elemental contrast to athletic footwear suspended over volcanic lava, or luxury spirits surrounded by splashes of crystal-clear ice and botanical garnish.",
+      "failureModes": "Fire effects can quickly overwhelm the hero product with messy orange blown-out highlights. Insist on 'product remaining razor-sharp in foreground with controlled studio rim illumination from background flames'.",
+      "exampleTweak": "Add 'handcrafted leather boot on charred wooden pedestal, controlled flame burst behind, floating sparks frozen at 1/8000s shutter speed'."
+    }
   },
   {
     "id": "cmu0o6m0km1",
@@ -191,7 +247,7 @@
     "fullPrompt": "A commercial hero photography setup for a luxury smartphone resting on volcanic dark sand, sleek metallic finish, dramatic water droplets, soft studio lighting. Commercial studio lighting setup, sleek surface highlights, ultra-sharp product focus, soft drop shadows, clean high-end catalog presentation style, 8k commercial render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782124969/prompts/euaxx23mqq4qhwozc16u.webp",
     "isPremium": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-05-11T08:10:06.316Z",
@@ -199,7 +255,12 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "tags": [],
+    "tags": [
+      "product-photography",
+      "commercial",
+      "studio-lighting",
+      "luxury"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -214,7 +275,7 @@
     "fullPrompt": "Extreme Close-Up Red Dress Collage Prompt (Women) Prompt: An ultra-realistic cinematic collage composed entirely of extreme close-up shots of a young woman, styled in a luxury editorial aesthetic. The composition is a vertical 9:16 scrapbook-style layout featuring multiple tightly cropped frames focusing only on facial details and accessories. The collage includes: An extreme close-up of one eye, sharply detailed with deep brown tones, long voluminous lashes, soft shimmer eyeshadow, and natural reflections in the iris A half-face crop, showing only one side of the face — eye, cheekbone, and part of lips — creating a mysterious, high-fashion editorial feel A close-up of lips, slightly parted with a glossy red or nude finish, soft texture, and natural highlights\nA skin texture shot, focusing on glowing, dewy skin with visible pores, soft blush, and subtle highlight on cheekbones A smile detail frame, capturing a candid soft smile with natural lip curve and warmth A cherry drop earrings macro shot, glossy red cherry earrings with metallic stems, reflecting light with sharp detail A neckline close-up, subtly revealing the red round-neck dress fabric and puffy sleeve texture near the shoulder Styling & Details: Hair: Soft strands falling across face, slightly tousled, adding depth and movement Makeup: Dewy glass skin, soft blush, luminous highlight, defined lashes, subtle shimmer, glossy lips Lighting: Soft diffused studio lighting with cinematic shadows, gentle highlights on skin texture Background: Blurred neutral tones, creamy bokeh, minimal distractions Aesthetic: High-fashion Vogue / beauty editorial Extreme macro photography style Scrapbook collage with overlapping frames, torn edges, film grain, and soft light leaks Color palette: rich reds, warm skin tones, soft neutrals Technical Quality: Ultra-detailed, hyper-realistic, 4K–8K resolution Sharp focus on micro details (eyes, lips, skin texture, jewelry) Shallow depth of field Cinematic color grading Extra Effects: Subtle glow and highlight bloom Film grain and dust particles Soft vignette edges Slight frame tilt for dynamic collage layering",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782124813/prompts/cynxuqnlutuqovi1p3rx.webp",
     "isPremium": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-05-11T13:51:45.390Z",
@@ -222,7 +283,15 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "tags": [],
+    "tags": [
+      "product-photography",
+      "commercial",
+      "soft-lighting",
+      "studio-lighting",
+      "close-up",
+      "depth-of-field",
+      "photorealistic"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -237,7 +306,7 @@
     "fullPrompt": "High quality, starry night blue black tiger, splatter, aesthetics for t-shirt design, high detail, dark tones.only design. Commercial studio lighting setup, sleek surface highlights, ultra-sharp product focus, soft drop shadows, clean high-end catalog presentation style, 8k commercial render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782124896/prompts/tnld1bchxw8rok0ulwzt.webp",
     "isPremium": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-05-12T04:33:36.820Z",
@@ -245,7 +314,12 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "tags": [],
+    "tags": [
+      "product-photography",
+      "commercial",
+      "studio-lighting",
+      "advertising"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -260,7 +334,7 @@
     "fullPrompt": "3d, Geometric art, geometric abstraction, computational art, concept art: statue of a mermaid made of mirror shine stainless steel, with reflections, next to a pond, in a square of a city, intricate details, extreme high contract, sharp image, 8k resolution, in the style of Anish Kapoor. Commercial studio lighting setup, sleek surface highlights, ultra-sharp product focus, soft drop shadows, clean high-end catalog presentation style, 8k commercial render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782124692/prompts/tuwitmxmhsbbfpq52ryd.webp",
     "isPremium": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-05-12T04:38:59.556Z",
@@ -268,7 +342,13 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "tags": [],
+    "tags": [
+      "product-photography",
+      "commercial",
+      "studio-lighting",
+      "concept-art",
+      "action-shot"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -283,7 +363,7 @@
     "fullPrompt": "Create a modern landing page for an ai app. visualise beautiful, flowing voice waveforms transforming into actionable icons emphasizing the \"Echoes Becoming Actions\" theme. Colours: dark theme black grey white green. Combine it with a African mountain scene at night. Sound waves  flowing over the mountain scene. Make a sleek elegant combination of technology and nature but prioritise the tech Style: futuristic, tech, crypto",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782124623/prompts/ai3kg6hwcro8i9nwncnr.webp",
     "isPremium": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-05-12T04:42:10.479Z",
@@ -291,7 +371,12 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "tags": [],
+    "tags": [
+      "product-photography",
+      "commercial",
+      "outdoors",
+      "action-shot"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -306,7 +391,7 @@
     "fullPrompt": "a web site based on this picture,ui/ux,8k,landing page, dribbble, sleek, black. Commercial studio lighting setup, sleek surface highlights, ultra-sharp product focus, soft drop shadows, clean high-end catalog presentation style, 8k commercial render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782124542/prompts/ui0j4hklv9pdqxwtor5b.webp",
     "isPremium": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-05-12T04:43:49.321Z",
@@ -314,7 +399,12 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "tags": [],
+    "tags": [
+      "product-photography",
+      "commercial",
+      "studio-lighting",
+      "advertising"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -329,7 +419,7 @@
     "fullPrompt": "A colossal stone ancient guardian statue breaking out of an ancient mossy stone wall, crumbling ruins, golden dust particles illuminated by sunbeams, epic cinematic fantasy. Commercial studio lighting setup, sleek surface highlights, ultra-sharp product focus, soft drop shadows, clean high-end catalog presentation style, 8k commercial render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782124423/prompts/phtrx2cnx1znxpbwqfqh.webp",
     "isPremium": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-05-12T08:06:09.470Z",
@@ -337,7 +427,13 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "tags": [],
+    "tags": [
+      "product-photography",
+      "commercial",
+      "studio-lighting",
+      "volumetric-lighting",
+      "cinematic"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -352,7 +448,7 @@
     "fullPrompt": "ultra detailed shot of a shattering sculpture made of black onyx representing a dressed goddess, full body zoomed, ((black glitter explosion)), side view, motion effects, ((shattering sculpture)), colorful cristal particles floating as the sculpture shatter in loads of tiny pieces, studio lights, ultra sharp focus, high speed shot, soft colors. Commercial studio lighting setup, sleek surface highlights, ultra-sharp product focus, soft drop shadows, clean high-end catalog presentation style, 8k commercial render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782124362/prompts/byeus91kbtquadz7yabf.webp",
     "isPremium": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-05-12T08:09:52.114Z",
@@ -360,7 +456,12 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "tags": [],
+    "tags": [
+      "product-photography",
+      "commercial",
+      "studio-lighting",
+      "full-body"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -375,7 +476,7 @@
     "fullPrompt": "Ultra cinematic luxury gym poster of a strong confident woman taking mirror selfie in premium dark gym, wearing all-black fitted gym outfit, realistic skin texture, aesthetic shadows, moody spotlight lighting, giant bold typography saying ‘DISCIPLINE’ in background. Keep the main subject in center sharp and detailed while adding 3–4 realistic side duplicate versions of the original person naturally walking and training around the frame like motion sequence clones.Add dumbbells in foreground with depth blur, glossy reflections, subtle sweat glow, high contrast black-and-white luxury vibe. Include handwritten fitness notes, barcode, workout stats overlay, cinematic film grain, Nike x Gymshark editorial style, Instagram reel aesthetic, dramatic fog and premium sports campaign mood, ultra realistic, 8K detail.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782124266/prompts/eg7l54vsmv5cxw6twdzc.webp",
     "isPremium": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-05-12T09:35:52.886Z",
@@ -383,7 +484,13 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "tags": [],
+    "tags": [
+      "product-photography",
+      "commercial",
+      "cinematic",
+      "editorial",
+      "luxury"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -398,7 +505,7 @@
     "fullPrompt": "Create a high-intensity, high-resolution image of a steampunk scorpion, featuring intricate clockwork mechanisms and brass gears. The scorpion should have metallic limbs with elaborate jointed segments, showcasing a blend of Victorian-era aesthetics and futuristic technology. The body should be adorned with cogwheels, pistons, and small steam vents emitting a subtle mist, the front pinchers should up up and open. Capture the scene with dramatic lighting to emphasize the mechanical details, giving it a sense of motion and life",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782124208/prompts/ngthzulosy61qr7vsemc.webp",
     "isPremium": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-05-12T10:34:08.523Z",
@@ -406,7 +513,12 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "tags": [],
+    "tags": [
+      "product-photography",
+      "commercial",
+      "dramatic-lighting",
+      "steampunk"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -421,7 +533,7 @@
     "fullPrompt": "Close-up shot of a sliced watermelon, its outer rind intact, showcasing a surreal transformation: within the flesh lies a transparent aquarium, teeming with two small goldfish swimming amidst gentle ripples on the water's surface. Soft light illuminates the hyper-realistic details of the watermelon's texture and the fish's delicate movements against a minimalist gray backdrop, highlighting the striking contrast between natural and artificial elements.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782124136/prompts/tvikqfu8bxu1xljandxp.webp",
     "isPremium": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-05-12T10:43:32.124Z",
@@ -429,7 +541,14 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "tags": [],
+    "tags": [
+      "product-photography",
+      "commercial",
+      "soft-lighting",
+      "close-up",
+      "minimalist",
+      "surreal"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -444,7 +563,7 @@
     "fullPrompt": "Hyper-realistic cinematic full-body fashion portrait of a blonde woman with consistent facial features and hairstyle. Sitting on a bright purple bean bag, leaning forward, wearing an oversized purple trench coat, white pants, chunky sneakers, a silver watch, and black sunglasses. Solid purple background with dramatic studio lighting, high contrast, sharp focus, and Adidas campaign aesthetic. Commercial studio lighting setup, sleek surface highlights, ultra-sharp product focus, soft drop shadows, clean high-end catalog presentation style, 8k commercial render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782124076/prompts/oh5o0ne9ipxs0sk9w7np.webp",
     "isPremium": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-05-12T10:57:41.091Z",
@@ -452,7 +571,13 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "tags": [],
+    "tags": [
+      "product-photography",
+      "commercial",
+      "studio-lighting",
+      "cinematic",
+      "streetwear"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -467,7 +592,7 @@
     "fullPrompt": "create a freeform fashion-editorial collage of me in 8 distinct full-body summer outfits, arranged organically on a clean cream studio backdrop. Keep my face identical across all looks, w/ consistent proportions that visually read as around 5'6\" w/o stating height. Include subtle handwritten-style arrows & labels highlighting key pieces. Avoid any grids, borders, or boxed layouts. All figures are full-body, at the same scale & camera distance, arranged in a balanced two-row composition. --ar 4:5",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782124019/prompts/otplss3a32m73nl0av2b.webp",
     "isPremium": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-05-13T13:51:43.387Z",
@@ -475,12 +600,18 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "tags": [],
+    "tags": [
+      "product-photography",
+      "commercial",
+      "editorial",
+      "advertising"
+    ],
     "models": [
       "Gemini AI"
     ],
     "quality": "high",
-    "seoIndex": false
+    "seoIndex": false,
+    "aspectRatio": "4:5"
   },
   {
     "id": "cmlcsh5biqf",
@@ -490,7 +621,7 @@
     "fullPrompt": "A young man (uploaded image as reference) sits comfortably on a blue bean bag adorned with Oreo branding, holding a white mug in one hand and a package of Oreo cookies in the other. He is smiling, dressed in a denim jacket and striped shirt. The background features a bright blue wall with a large illuminated Oreo logo, and shelves displaying more Oreo products. Nearby, a laptop displays a video call with multiple participants, while a bowl of Oreo cookies and a few loose cookies rest on a white table.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782123951/prompts/yadhah5s6pcljp5xmkcc.webp",
     "isPremium": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-05-15T02:02:36.907Z",
@@ -498,7 +629,12 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "tags": [],
+    "tags": [
+      "product-photography",
+      "commercial",
+      "advertising",
+      "studio-shot"
+    ],
     "models": [
       "Flow AI"
     ],
@@ -513,7 +649,7 @@
     "fullPrompt": "Capture a stunning Product Photography image of a delicious cupcake in mid-air,\nshowcasing its irresistible texture and mouthwatering frosting. Commercial studio lighting setup, sleek surface highlights, ultra-sharp product focus, soft drop shadows, clean high-end catalog presentation style, 8k commercial render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782123804/prompts/ly9lvspmigewv1z7zhm2.webp",
     "isPremium": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-05-15T08:57:57.105Z",
@@ -521,7 +657,12 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "tags": [],
+    "tags": [
+      "product-photography",
+      "commercial",
+      "studio-lighting",
+      "advertising"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -536,7 +677,7 @@
     "fullPrompt": "Create an eye-catching Product Photography shot of a sleek smartphone\nsuspended in midair, highlighting its sleek design and cutting-edge features. Commercial studio lighting setup, sleek surface highlights, ultra-sharp product focus, soft drop shadows, clean high-end catalog presentation style, 8k commercial render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782123746/prompts/f5ed2wm5m4tdtxfbfokc.webp",
     "isPremium": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-05-15T16:17:50.290Z",
@@ -544,7 +685,12 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "tags": [],
+    "tags": [
+      "product-photography",
+      "commercial",
+      "studio-lighting",
+      "advertising"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -559,7 +705,7 @@
     "fullPrompt": "Craft a dynamic Product Photography image of a running shoe frozen in\nmid-stride, conveying its durability and performance-enhancing qualities. Commercial studio lighting setup, sleek surface highlights, ultra-sharp product focus, soft drop shadows, clean high-end catalog presentation style, 8k commercial render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782123688/prompts/a7x0xlork6pfekjc2a23.webp",
     "isPremium": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-05-15T16:20:57.876Z",
@@ -567,7 +713,12 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "tags": [],
+    "tags": [
+      "product-photography",
+      "commercial",
+      "studio-lighting",
+      "action-shot"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -582,7 +733,7 @@
     "fullPrompt": "Develop a captivating Product Photography shot of a spinning fidget spinner,\ncapturing its mesmerizing motion and vibrant colors. Commercial studio lighting setup, sleek surface highlights, ultra-sharp product focus, soft drop shadows, clean high-end catalog presentation style, 8k commercial render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782123604/prompts/adw9l9phv9ewulza2zvl.webp",
     "isPremium": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-05-15T16:24:08.411Z",
@@ -590,7 +741,12 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "tags": [],
+    "tags": [
+      "product-photography",
+      "commercial",
+      "studio-lighting",
+      "advertising"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -605,7 +761,7 @@
     "fullPrompt": "Design an artistic Product Photography image of a cascading pour of coffee,\nshowcasing the rich aroma and enticing qualities of a gourmet brew. Commercial studio lighting setup, sleek surface highlights, ultra-sharp product focus, soft drop shadows, clean high-end catalog presentation style, 8k commercial render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782123487/prompts/mx5zqjwqo6fpigoihboh.webp",
     "isPremium": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-05-15T16:25:40.857Z",
@@ -613,7 +769,12 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "tags": [],
+    "tags": [
+      "product-photography",
+      "commercial",
+      "studio-lighting",
+      "culinary"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -628,7 +789,7 @@
     "fullPrompt": "Capture an elegant Product Photography shot of a floating feather pen, evoking\na sense of sophistication and timeless style. Commercial studio lighting setup, sleek surface highlights, ultra-sharp product focus, soft drop shadows, clean high-end catalog presentation style, 8k commercial render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782123426/prompts/gdabmeqesrcksbejsylv.webp",
     "isPremium": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-05-15T16:28:52.531Z",
@@ -636,7 +797,12 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "tags": [],
+    "tags": [
+      "product-photography",
+      "commercial",
+      "studio-lighting",
+      "luxury"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -651,7 +817,7 @@
     "fullPrompt": "Create an alluring Product Photography image of a floating skincare serum\nbottle, emphasizing its luxurious ingredients and rejuvenating properties. Commercial studio lighting setup, sleek surface highlights, ultra-sharp product focus, soft drop shadows, clean high-end catalog presentation style, 8k commercial render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782123361/prompts/sxoemd9whmzib4asyqjh.webp",
     "isPremium": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-05-15T16:30:53.832Z",
@@ -659,7 +825,12 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "tags": [],
+    "tags": [
+      "product-photography",
+      "commercial",
+      "studio-lighting",
+      "advertising"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -674,7 +845,7 @@
     "fullPrompt": "Develop a vibrant Product Photography image of a floating fruit bowl overflowing\nwith fresh, ripe fruits, highlighting their juiciness and natural beauty. Commercial studio lighting setup, sleek surface highlights, ultra-sharp product focus, soft drop shadows, clean high-end catalog presentation style, 8k commercial render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782123292/prompts/jmtuh8aq1owglyxi71wj.webp",
     "isPremium": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-05-15T16:49:57.477Z",
@@ -682,7 +853,12 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "tags": [],
+    "tags": [
+      "product-photography",
+      "commercial",
+      "studio-lighting",
+      "advertising"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -697,7 +873,7 @@
     "fullPrompt": "Design a dynamic Product Photography shot of a hovering drone, showcasing its\nadvanced aerial capabilities and capturing the thrill of flight. Commercial studio lighting setup, sleek surface highlights, ultra-sharp product focus, soft drop shadows, clean high-end catalog presentation style, 8k commercial render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782123229/prompts/qqdiz9pzojocncwsdbpi.webp",
     "isPremium": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-05-15T16:54:41.067Z",
@@ -705,7 +881,12 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "tags": [],
+    "tags": [
+      "product-photography",
+      "commercial",
+      "studio-lighting",
+      "aerial-view"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -720,7 +901,7 @@
     "fullPrompt": "Create a whimsical Product Photography shot of a floating bouquet of balloons,\nconveying a sense ofjoy and celebration. Commercial studio lighting setup, sleek surface highlights, ultra-sharp product focus, soft drop shadows, clean high-end catalog presentation style, 8k commercial render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782123160/prompts/siweqfcwmue1mz3bz8t5.webp",
     "isPremium": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-05-15T19:15:48.684Z",
@@ -728,7 +909,12 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "tags": [],
+    "tags": [
+      "product-photography",
+      "commercial",
+      "studio-lighting",
+      "advertising"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -743,7 +929,7 @@
     "fullPrompt": "Craft an enchanting Product Photography image of a levitating book, evoking a\nsense of wonder and the power of storytelling. Commercial studio lighting setup, sleek surface highlights, ultra-sharp product focus, soft drop shadows, clean high-end catalog presentation style, 8k commercial render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782123043/prompts/jfouwcc95q9wiazo9axb.webp",
     "isPremium": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-05-15T19:17:09.893Z",
@@ -751,7 +937,12 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "tags": [],
+    "tags": [
+      "product-photography",
+      "commercial",
+      "studio-lighting",
+      "advertising"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -766,7 +957,7 @@
     "fullPrompt": "Develop a captivating Product Photography shot of a levitating perfume bottle,\naccentuating its elegance and captivating fragrance. Commercial studio lighting setup, sleek surface highlights, ultra-sharp product focus, soft drop shadows, clean high-end catalog presentation style, 8k commercial render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782122961/prompts/g9iuos5mvyrra1izimla.webp",
     "isPremium": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-05-15T19:17:54.268Z",
@@ -774,7 +965,12 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "tags": [],
+    "tags": [
+      "product-photography",
+      "commercial",
+      "studio-lighting",
+      "luxury"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -789,7 +985,7 @@
     "fullPrompt": "Design an artistic Product Photography image of a floating paint palette and\nbrushes, capturing the essence of creativity and artistic expression. Commercial studio lighting setup, sleek surface highlights, ultra-sharp product focus, soft drop shadows, clean high-end catalog presentation style, 8k commercial render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782122888/prompts/zulzpue4d8yd3aaum8e7.webp",
     "isPremium": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-05-15T19:20:02.897Z",
@@ -797,7 +993,12 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "tags": [],
+    "tags": [
+      "product-photography",
+      "commercial",
+      "studio-lighting",
+      "advertising"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -812,7 +1013,7 @@
     "fullPrompt": "Create a visually engaging Product Photography image of a floating headphones\nset, emphasizing its immersive audio experience and sleek design. Commercial studio lighting setup, sleek surface highlights, ultra-sharp product focus, soft drop shadows, clean high-end catalog presentation style, 8k commercial render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782122832/prompts/sdzjl0goe942ydpbhyw2.webp",
     "isPremium": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-05-15T19:21:18.059Z",
@@ -820,7 +1021,12 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "tags": [],
+    "tags": [
+      "product-photography",
+      "commercial",
+      "studio-lighting",
+      "advertising"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -835,7 +1041,7 @@
     "fullPrompt": "Capture a striking Product Photography shot of a hovering skateboard,\nshowcasing its sleek design and the freedom of motion it offers. Commercial studio lighting setup, sleek surface highlights, ultra-sharp product focus, soft drop shadows, clean high-end catalog presentation style, 8k commercial render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782122749/prompts/pdrufdn915fwdekptrdd.webp",
     "isPremium": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-05-15T19:22:08.053Z",
@@ -843,7 +1049,12 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "tags": [],
+    "tags": [
+      "product-photography",
+      "commercial",
+      "studio-lighting",
+      "advertising"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -858,7 +1069,7 @@
     "fullPrompt": "Craft a dynamic Product Photography shot of a floating sports ball frozen in\n28\naction, conveying the excitement and energy of athletic pursuit. Commercial studio lighting setup, sleek surface highlights, ultra-sharp product focus, soft drop shadows, clean high-end catalog presentation style, 8k commercial render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782122668/prompts/bzglpvogvfbczhbjm1sf.webp",
     "isPremium": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-05-15T19:23:23.191Z",
@@ -866,7 +1077,12 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "tags": [],
+    "tags": [
+      "product-photography",
+      "commercial",
+      "studio-lighting",
+      "action-shot"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -881,7 +1097,7 @@
     "fullPrompt": "Design a futuristic Product Photography shot of a levitating smart home device,\nshowcasing its advanced features and seamless integration into daily life. Commercial studio lighting setup, sleek surface highlights, ultra-sharp product focus, soft drop shadows, clean high-end catalog presentation style, 8k commercial render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782121905/prompts/tsekjick9aeyy9png7xw.webp",
     "isPremium": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-05-15T19:25:41.779Z",
@@ -889,7 +1105,12 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "tags": [],
+    "tags": [
+      "product-photography",
+      "commercial",
+      "studio-lighting",
+      "advertising"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -904,7 +1125,7 @@
     "fullPrompt": "Develop a minimalist Product Photography image of a hovering smartphone\ncharger, emphasizing its simplicity and convenience. Commercial studio lighting setup, sleek surface highlights, ultra-sharp product focus, soft drop shadows, clean high-end catalog presentation style, 8k commercial render.",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782121848/prompts/luc7w8nwo0h3x6ebiaz2.webp",
     "isPremium": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-05-15T19:27:16.786Z",
@@ -912,7 +1133,12 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "tags": [],
+    "tags": [
+      "product-photography",
+      "commercial",
+      "studio-lighting",
+      "minimalist"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -930,12 +1156,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-15T08:38:16.308Z",
     "updatedAt": "2026-06-22T09:50:01.545Z",
-    "tags": [],
+    "tags": [
+      "product-photography",
+      "commercial",
+      "volumetric-lighting",
+      "rim-lighting",
+      "natural-lighting",
+      "depth-of-field",
+      "symmetrical"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -953,12 +1187,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-24T11:03:58.990Z",
     "updatedAt": "2026-07-24T11:21:11.232Z",
-    "tags": [],
+    "tags": [
+      "product-photography",
+      "commercial",
+      "studio-lighting",
+      "luxury"
+    ],
     "models": [
       "Chat GPT"
     ],

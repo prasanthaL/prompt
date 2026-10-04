@@ -3,8 +3,8 @@ import { ShieldCheck, Zap, RefreshCw, Sparkles } from "lucide-react";
 
 const stats = [
   {
-    title: "High Quality",
-    desc: "Curated high-quality prompts tested and proven",
+    title: "Organized Library",
+    desc: "Prompts organized by category, style, model, and use case",
     icon: ShieldCheck,
     color: "text-indigo-400",
     bg: "bg-indigo-400/10",
@@ -18,7 +18,7 @@ const stats = [
   },
   {
     title: "Regular Updates",
-    desc: "New prompts added daily by experts",
+    desc: "New prompts added regularly to keep the library fresh",
     icon: RefreshCw,
     color: "text-emerald-400",
     bg: "bg-emerald-400/10",

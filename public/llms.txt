@@ -1,0 +1,28 @@
+# AIPromptNest
+
+> AIPromptNest is a free library of curated AI prompts for ChatGPT, Claude, Gemini and other large language models. Browse, copy and use ready-made prompts organized by category.
+
+Site: https://www.aipromptnest.com
+Contact: hello.aipromptnest@gmail.com
+
+## Main Pages
+
+- [Home](https://www.aipromptnest.com/): Featured and latest prompts
+- [Browse Prompts](https://www.aipromptnest.com/browse): Search and filter the full prompt library
+- [Categories](https://www.aipromptnest.com/categories): Prompts grouped by topic
+- [Trending](https://www.aipromptnest.com/trending): Most popular prompts
+- [Discover](https://www.aipromptnest.com/discover): Discover new prompts
+- [Blog](https://www.aipromptnest.com/blog): Guides and tips on prompt engineering
+- [FAQ](https://www.aipromptnest.com/faq): Frequently asked questions
+
+## About & Policies
+
+- [About](https://www.aipromptnest.com/about)
+- [Contact](https://www.aipromptnest.com/contact)
+- [AI Policy](https://www.aipromptnest.com/ai-policy): How AI is used and how content may be used by AI systems
+- [Privacy Policy](https://www.aipromptnest.com/privacy-policy)
+- [Terms of Service](https://www.aipromptnest.com/terms-of-service)
+
+## Machine-Readable
+
+- [Sitemap](https://www.aipromptnest.com/sitemap.xml)

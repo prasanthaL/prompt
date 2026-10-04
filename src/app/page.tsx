@@ -9,6 +9,7 @@ import { faqItems } from "@/data/home-faqs";
 import Footer from "@/components/Footer";
 import { fetchCategoryCounts, normalizeCategoryName } from "@/lib/client-prompts";
 import { getAllPrompts } from "@/lib/json-db";
+import { SITE_URL } from "@/lib/site";
 import blogJsonData from "@/data/blog.json";
 import BlogCard from "@/components/blog/BlogCard";
 import type { BlogCardData } from "@/components/blog/BlogCardFeatured";
@@ -35,7 +36,7 @@ import type { Metadata } from "next";
 export const revalidate = 86400;
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.aipromptnest.com"),
+  metadataBase: new URL(SITE_URL),
   title: "AIPromptNest - Free Gemini AI & ChatGPT Image Prompts Library",
   description: "Discover free Gemini AI & ChatGPT image prompts for cinematic photos, anime art, fantasy worlds, portraits, product photography, and creative AI images.",
   alternates: {
@@ -44,7 +45,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "AIPromptNest - Free Gemini AI & ChatGPT Image Prompts",
     description: "Explore a growing collection of Gemini AI & ChatGPT prompts for stunning AI generated images.",
-    url: "https://www.aipromptnest.com",
+    url: SITE_URL,
     type: "website",
     images: [
       {
@@ -95,13 +96,11 @@ const websiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
   name: "AIPromptNest",
-  url: "https://www.aipromptnest.com",
+  url: SITE_URL,
   potentialAction: {
     "@type": "SearchAction",
-    target:
-      "https://www.aipromptnest.com/browse?q={search_term_string}",
-    "query-input":
-      "required name=search_term_string"
+    target: `${SITE_URL}/browse?q={search_term_string}`,
+    "query-input": "required name=search_term_string"
   }
 }
 
@@ -172,12 +171,12 @@ export default async function Home() {
     "@type": "ItemList",
     name: "Featured Gemini AI & ChatGPT Image Prompts",
     description: "Discover free Gemini AI & ChatGPT image prompts for cinematic photos, anime art, fantasy worlds, portraits, product photography, and creative AI images.",
-    url: "https://www.aipromptnest.com",
+    url: SITE_URL,
     numberOfItems: featuredPromptsForSchema.length,
     itemListElement: featuredPromptsForSchema.map((prompt, index) => ({
       "@type": "ListItem",
       position: index + 1,
-      url: `https://www.aipromptnest.com/prompts/${prompt.slug || prompt.id}`,
+      url: `${SITE_URL}/prompts/${prompt.slug || prompt.id}`,
       name: prompt.title,
     })),
   };
@@ -337,12 +336,12 @@ export default async function Home() {
             </h2>
             <div className="space-y-4 text-sm text-foreground/50 leading-relaxed">
               <p>
-                PromptNest is your go-to library for Gemini AI &amp; ChatGPT image prompts. Whether you&apos;re
+                AIPromptNest is your go-to library for Gemini AI &amp; ChatGPT image prompts. Whether you&apos;re
                 creating anime characters, cinematic scenes, fantasy worlds, or realistic portraits,
-                our carefully crafted prompts help you generate stunning AI art with ease.
+                our structured prompt collection helps you generate stunning AI art with ease.
               </p>
               <p>
-                All prompts are tested and optimized for Gemini AI &amp; ChatGPT to deliver the best results.
+                Prompts are organized by category, style, and model so you can find and use them instantly.
                 Copy, paste, and bring your imagination to life.
               </p>
             </div>

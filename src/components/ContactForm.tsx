@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import { sendContactEmail } from "@/app/actions/sendEmail";
 import { Mail, ShieldCheck, AlertCircle, ArrowRight, Loader2, CheckCircle2 } from "lucide-react";
 
 export default function ContactForm() {
@@ -26,7 +27,7 @@ export default function ContactForm() {
     if (error) setError("");
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     const { name, email, subject, message } = formData;
 
@@ -42,9 +43,16 @@ export default function ContactForm() {
 
     setIsLoading(true);
 
-    // Simulate sending message to backend
-    setTimeout(() => {
-      setIsLoading(false);
+    try {
+      const payload = new FormData();
+      Object.entries(formData).forEach(([key, value]) => payload.append(key, value));
+      const result = await sendContactEmail(payload);
+
+      if (!result.success) {
+        setError(result.error ?? "Something went wrong. Please try again.");
+        return;
+      }
+
       setSubmitted(true);
       setFormData({
         name: "",
@@ -53,7 +61,11 @@ export default function ContactForm() {
         category: "General Inquiry",
         message: ""
       });
-    }, 1500);
+    } catch {
+      setError("Something went wrong. Please try again.");
+    } finally {
+      setIsLoading(false);
+    }
   };
 
   return (
@@ -201,7 +213,7 @@ export default function ContactForm() {
             {isLoading ? (
               <>
                 <Loader2 className="w-4.5 h-4.5 animate-spin" />
-                Transmitting Message...
+                Sending Message...
               </>
             ) : (
               <>

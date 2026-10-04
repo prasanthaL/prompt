@@ -10,12 +10,18 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-12T11:49:16.751Z",
     "updatedAt": "2026-06-22T07:07:09.639Z",
-    "tags": [],
+    "tags": [
+      "landscape",
+      "nature",
+      "wide-angle",
+      "cinematic",
+      "outdoors"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -33,17 +39,23 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-12T11:50:55.769Z",
     "updatedAt": "2026-06-22T07:06:00.640Z",
-    "tags": [],
+    "tags": [
+      "landscape",
+      "nature",
+      "outdoors",
+      "scenic"
+    ],
     "models": [
       "Gemini AI"
     ],
     "quality": "high",
-    "seoIndex": false
+    "seoIndex": false,
+    "aspectRatio": "9:16"
   },
   {
     "id": "cm3wj8nj6z6",
@@ -56,12 +68,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-12T11:52:46.663Z",
     "updatedAt": "2026-06-22T07:05:00.103Z",
-    "tags": [],
+    "tags": [
+      "landscape",
+      "nature",
+      "golden-hour",
+      "volumetric-lighting",
+      "rim-lighting",
+      "depth-of-field",
+      "photorealistic"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -79,12 +99,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-12T11:57:22.612Z",
     "updatedAt": "2026-06-22T07:04:10.131Z",
-    "tags": [],
+    "tags": [
+      "landscape",
+      "nature",
+      "volumetric-lighting",
+      "natural-lighting",
+      "close-up",
+      "depth-of-field",
+      "aerial-view"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -102,12 +130,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-13T17:14:58.482Z",
     "updatedAt": "2026-08-13T17:14:58.482Z",
-    "tags": [],
+    "tags": [
+      "landscape",
+      "nature",
+      "natural-lighting",
+      "photorealistic",
+      "cinematic",
+      "editorial",
+      "surreal"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -125,17 +161,31 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-13T17:17:52.170Z",
     "updatedAt": "2026-08-13T17:17:52.170Z",
-    "tags": [],
+    "tags": [
+      "landscape",
+      "nature",
+      "neon-lighting",
+      "full-body",
+      "symmetrical",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Chat GPT"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": true,
+    "editorNotes": {
+      "whyItWorks": "Layered mountain ridges receding into misty atmospheric haze capture classic Chinese shan shui and romantic landscape painting traditions. Golden sunrise light kissing the highest peaks provides breathtaking vertical contrast.",
+      "variationGuide": "Change from rolling alpine peaks to dramatic jagged granite spires like Patagonia's Torres del Paine or Zhangjiajie sandstone pillars. Swap sunrise for an approaching thunderstorm.",
+      "failureModes": "Mountain ridges can render with unnatural repetitive fractal edges. Specify 'distinct geological rock strata, sweeping alpine valley, and soft volumetric cloud inversion flowing between ridges'.",
+      "exampleTweak": "Add 'solitary wooden shelter perched on a grassy ridge, winding hiking trail visible below, pink and gold sunrise reflections on alpine tarn'."
+    }
   },
   {
     "id": "cmdhutretuf",
@@ -148,12 +198,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-13T17:24:24.073Z",
     "updatedAt": "2026-08-13T17:24:24.073Z",
-    "tags": [],
+    "tags": [
+      "landscape",
+      "nature",
+      "natural-lighting",
+      "aerial-view",
+      "photorealistic",
+      "cinematic",
+      "editorial"
+    ],
     "models": [
       "Chat GPT"
     ],

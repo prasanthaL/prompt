@@ -10,12 +10,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": true,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-10T05:51:30.677Z",
     "updatedAt": "2026-06-22T09:47:34.779Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "dramatic-lighting",
+      "studio-lighting",
+      "volumetric-lighting",
+      "depth-of-field",
+      "telephoto"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -30,7 +38,7 @@
     "fullPrompt": "A stylized studio portrait of a handsome young man with a playful, confident attitude. He has dark black hair with a neat fade, and a bright smile. He is wearing white-framed sunglasses with dark lenses, a light blue plaid button-up shirt worn open over a plain white t-shirt: dark gray cargo jeans with pockets, and bright red sneakers. A thin metallic chain necklace is visible around his neck.The composition features a creative double-exposure effect: a large close-up of",
     "image": "https://res.cloudinary.com/dxwdgozsp/image/upload/v1782121716/prompts/i60ibhhjy5irjpio3o8w.webp",
     "isPremium": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-05-10T06:06:13.387Z",
@@ -38,7 +46,13 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "close-up",
+      "streetwear",
+      "urban"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -56,12 +70,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-12T09:56:49.180Z",
     "updatedAt": "2026-06-22T09:46:07.529Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "studio-lighting",
+      "photorealistic",
+      "editorial",
+      "illustration",
+      "urban"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -79,12 +101,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-12T11:55:47.491Z",
     "updatedAt": "2026-06-22T09:43:23.083Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "natural-lighting",
+      "depth-of-field",
+      "surreal",
+      "action-shot"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -102,12 +131,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-15T07:58:09.808Z",
     "updatedAt": "2026-06-22T09:40:46.791Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "editorial",
+      "streetwear"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -125,12 +159,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-15T08:00:48.234Z",
     "updatedAt": "2026-06-22T09:39:33.700Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "volumetric-lighting",
+      "rim-lighting",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -148,12 +189,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-15T08:03:19.988Z",
     "updatedAt": "2026-06-22T09:37:31.568Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "volumetric-lighting",
+      "cinematic-lighting",
+      "depth-of-field",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -171,12 +220,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-15T08:05:58.345Z",
     "updatedAt": "2026-06-22T09:35:58.651Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "natural-lighting",
+      "low-angle",
+      "symmetrical",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -194,12 +251,17 @@
     "isTrending": false,
     "isLatest": true,
     "isFeatured": true,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-15T08:09:06.505Z",
     "updatedAt": "2026-06-22T09:34:53.887Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "natural-lighting",
+      "lifestyle-photography"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -217,12 +279,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-15T08:17:16.807Z",
     "updatedAt": "2026-06-22T09:33:03.218Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "studio-lighting",
+      "natural-lighting",
+      "depth-of-field",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -240,12 +310,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-15T08:27:03.845Z",
     "updatedAt": "2026-06-22T09:31:25.855Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "rim-lighting",
+      "telephoto",
+      "editorial",
+      "minimalist",
+      "surreal"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -263,12 +341,18 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-15T08:31:03.272Z",
     "updatedAt": "2026-06-22T09:30:19.373Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "depth-of-field",
+      "editorial",
+      "urban"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -286,12 +370,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-15T08:33:09.227Z",
     "updatedAt": "2026-06-22T09:28:40.993Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "depth-of-field",
+      "symmetrical",
+      "photorealistic",
+      "cinematic",
+      "editorial"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -309,17 +401,26 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-15T08:39:42.675Z",
     "updatedAt": "2026-06-22T09:25:00.935Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "dramatic-lighting",
+      "cinematic-lighting",
+      "depth-of-field",
+      "low-angle",
+      "cinematic"
+    ],
     "models": [
       "Gemini AI"
     ],
     "quality": "high",
-    "seoIndex": false
+    "seoIndex": false,
+    "aspectRatio": "9:16"
   },
   {
     "id": "cm2od98zuwl",
@@ -332,12 +433,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-15T08:41:16.099Z",
     "updatedAt": "2026-06-22T09:23:23.529Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "volumetric-lighting",
+      "neon-lighting",
+      "streetwear",
+      "commercial"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -355,12 +463,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-16T04:50:24.465Z",
     "updatedAt": "2026-06-22T09:22:02.046Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "volumetric-lighting",
+      "rim-lighting",
+      "cinematic-lighting",
+      "depth-of-field",
+      "full-body"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -378,12 +494,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-21T13:43:49.289Z",
     "updatedAt": "2026-06-22T09:21:03.743Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "soft-lighting",
+      "volumetric-lighting",
+      "natural-lighting",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -401,12 +525,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-21T13:48:28.910Z",
     "updatedAt": "2026-06-22T09:20:11.029Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "rim-lighting",
+      "action-shot"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -424,12 +553,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-21T13:55:58.937Z",
     "updatedAt": "2026-06-22T05:49:28.612Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "volumetric-lighting",
+      "cinematic-lighting",
+      "depth-of-field",
+      "symmetrical",
+      "photorealistic"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -447,12 +584,18 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-04T07:52:27.402Z",
     "updatedAt": "2026-07-04T07:52:27.402Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "dramatic-lighting",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -470,12 +613,18 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-04T07:59:13.628Z",
     "updatedAt": "2026-07-04T07:59:13.628Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "cinematic-lighting",
+      "cinematic",
+      "luxury"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -493,12 +642,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-04T08:18:19.629Z",
     "updatedAt": "2026-07-04T08:18:19.629Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "studio-lighting",
+      "neon-lighting",
+      "rim-lighting",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -516,12 +673,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-04T08:23:26.965Z",
     "updatedAt": "2026-07-04T08:23:26.965Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "neon-lighting",
+      "rim-lighting",
+      "cinematic-lighting",
+      "depth-of-field",
+      "photorealistic"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -539,12 +704,18 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-04T08:27:16.466Z",
     "updatedAt": "2026-07-04T08:27:16.466Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "depth-of-field",
+      "cinematic",
+      "minimalist"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -562,12 +733,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T06:13:48.726Z",
     "updatedAt": "2026-07-10T06:13:48.726Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "golden-hour",
+      "volumetric-lighting",
+      "depth-of-field",
+      "cinematic",
+      "editorial"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -585,12 +764,20 @@
     "isTrending": true,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-11T07:23:31.572Z",
     "updatedAt": "2026-07-15T07:44:07.036Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "telephoto",
+      "full-body",
+      "photorealistic",
+      "cinematic",
+      "streetwear"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -608,12 +795,16 @@
     "isTrending": true,
     "isLatest": true,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-11T07:26:59.889Z",
     "updatedAt": "2026-07-15T07:43:40.953Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "lifestyle-photography"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -631,12 +822,20 @@
     "isTrending": true,
     "isLatest": false,
     "isFeatured": true,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-11T07:29:07.582Z",
     "updatedAt": "2026-07-15T07:43:06.264Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "depth-of-field",
+      "photorealistic",
+      "editorial",
+      "minimalist",
+      "luxury"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -654,12 +853,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-11T07:42:23.109Z",
     "updatedAt": "2026-07-11T07:42:23.109Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "cinematic-lighting",
+      "low-angle",
+      "full-body",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -677,12 +884,20 @@
     "isTrending": true,
     "isLatest": true,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-11T08:04:24.815Z",
     "updatedAt": "2026-07-15T07:42:41.506Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "golden-hour",
+      "cinematic-lighting",
+      "depth-of-field",
+      "symmetrical",
+      "photorealistic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -700,12 +915,20 @@
     "isTrending": true,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-15T08:11:36.422Z",
     "updatedAt": "2026-07-15T08:11:36.422Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "dramatic-lighting",
+      "soft-lighting",
+      "studio-lighting",
+      "close-up",
+      "depth-of-field"
+    ],
     "models": [],
     "quality": "high",
     "seoIndex": false
@@ -721,12 +944,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-15T09:02:34.247Z",
     "updatedAt": "2026-07-15T09:02:34.247Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "photorealistic",
+      "minimalist",
+      "streetwear",
+      "luxury"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -744,12 +974,20 @@
     "isTrending": false,
     "isLatest": true,
     "isFeatured": true,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-15T09:10:37.882Z",
     "updatedAt": "2026-07-15T09:10:37.882Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "studio-lighting",
+      "close-up",
+      "photorealistic",
+      "cinematic",
+      "editorial"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -767,12 +1005,20 @@
     "isTrending": true,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-20T11:48:38.610Z",
     "updatedAt": "2026-07-20T11:48:38.610Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "volumetric-lighting",
+      "rim-lighting",
+      "natural-lighting",
+      "close-up",
+      "depth-of-field"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -790,12 +1036,19 @@
     "isTrending": true,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-20T11:54:49.549Z",
     "updatedAt": "2026-07-20T11:54:49.549Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "cinematic",
+      "editorial",
+      "luxury",
+      "commercial"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -813,12 +1066,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-20T12:24:58.045Z",
     "updatedAt": "2026-07-20T12:24:58.045Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "cinematic-lighting",
+      "close-up",
+      "cinematic",
+      "streetwear",
+      "urban"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -836,12 +1097,18 @@
     "isTrending": true,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-20T12:41:47.542Z",
     "updatedAt": "2026-07-20T12:41:47.542Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "close-up",
+      "cinematic",
+      "luxury"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -859,12 +1126,17 @@
     "isTrending": true,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-20T12:43:54.300Z",
     "updatedAt": "2026-07-20T12:43:54.300Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "close-up",
+      "lifestyle-photography"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -882,12 +1154,19 @@
     "isTrending": true,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-21T16:30:21.466Z",
     "updatedAt": "2026-07-21T16:30:21.466Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "soft-lighting",
+      "close-up",
+      "cinematic",
+      "vintage"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -905,12 +1184,20 @@
     "isTrending": true,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-21T16:32:30.135Z",
     "updatedAt": "2026-07-21T16:32:30.135Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "volumetric-lighting",
+      "close-up",
+      "cinematic",
+      "editorial",
+      "luxury"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -928,12 +1215,20 @@
     "isTrending": false,
     "isLatest": true,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-21T16:39:34.852Z",
     "updatedAt": "2026-07-21T16:39:34.852Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "natural-lighting",
+      "depth-of-field",
+      "telephoto",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -951,12 +1246,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-21T16:59:48.268Z",
     "updatedAt": "2026-07-21T16:59:48.268Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "golden-hour",
+      "photorealistic",
+      "cinematic",
+      "streetwear"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -974,12 +1276,18 @@
     "isTrending": false,
     "isLatest": true,
     "isFeatured": true,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-21T17:01:48.039Z",
     "updatedAt": "2026-07-21T17:01:48.039Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "depth-of-field",
+      "editorial",
+      "illustration"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -997,12 +1305,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-22T05:45:48.153Z",
     "updatedAt": "2026-07-22T05:45:48.153Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "dramatic-lighting",
+      "rim-lighting",
+      "close-up",
+      "telephoto"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1020,12 +1335,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-22T06:00:32.059Z",
     "updatedAt": "2026-07-22T06:00:32.059Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "photorealistic",
+      "lifestyle-photography"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1043,12 +1363,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-22T06:17:27.136Z",
     "updatedAt": "2026-07-22T06:17:27.136Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "rim-lighting",
+      "cinematic-lighting",
+      "telephoto",
+      "symmetrical",
+      "photorealistic"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -1066,12 +1394,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-22T06:39:30.016Z",
     "updatedAt": "2026-07-22T06:39:30.016Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "dramatic-lighting",
+      "natural-lighting",
+      "depth-of-field",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -1089,12 +1425,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-22T06:49:48.801Z",
     "updatedAt": "2026-07-22T06:49:48.801Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "natural-lighting",
+      "depth-of-field",
+      "photorealistic",
+      "cinematic",
+      "3d-render"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -1112,12 +1456,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-22T06:52:25.041Z",
     "updatedAt": "2026-07-24T02:59:19.490Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "golden-hour",
+      "natural-lighting",
+      "depth-of-field",
+      "telephoto",
+      "photorealistic"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -1135,12 +1487,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-22T06:56:45.226Z",
     "updatedAt": "2026-07-22T06:56:45.226Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "golden-hour",
+      "rim-lighting",
+      "natural-lighting",
+      "depth-of-field",
+      "photorealistic"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -1158,12 +1518,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-22T07:04:39.320Z",
     "updatedAt": "2026-07-22T07:04:39.320Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "golden-hour",
+      "natural-lighting",
+      "depth-of-field",
+      "full-body",
+      "photorealistic"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -1181,12 +1549,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-22T07:12:46.548Z",
     "updatedAt": "2026-07-22T07:12:46.548Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "natural-lighting",
+      "depth-of-field",
+      "telephoto",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -1204,12 +1580,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-22T07:24:03.883Z",
     "updatedAt": "2026-07-22T07:24:03.884Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "natural-lighting",
+      "depth-of-field",
+      "telephoto",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -1227,12 +1611,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-22T07:31:17.597Z",
     "updatedAt": "2026-07-22T07:31:17.597Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "natural-lighting",
+      "depth-of-field",
+      "telephoto",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -1250,12 +1642,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-24T04:42:45.131Z",
     "updatedAt": "2026-07-24T04:42:45.131Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "natural-lighting",
+      "close-up",
+      "cinematic",
+      "luxury"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1273,12 +1672,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-24T04:48:06.232Z",
     "updatedAt": "2026-07-24T04:48:06.232Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "close-up",
+      "photorealistic",
+      "monochrome",
+      "streetwear"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1296,12 +1702,18 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-24T04:56:18.132Z",
     "updatedAt": "2026-07-24T04:56:18.132Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "photorealistic",
+      "cinematic",
+      "urban"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1319,12 +1731,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-24T05:00:19.137Z",
     "updatedAt": "2026-07-24T05:00:19.137Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "soft-lighting",
+      "depth-of-field",
+      "telephoto",
+      "cinematic",
+      "editorial"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1342,12 +1762,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-24T05:03:06.246Z",
     "updatedAt": "2026-07-24T05:03:06.246Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "golden-hour",
+      "volumetric-lighting",
+      "close-up",
+      "depth-of-field",
+      "telephoto"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1365,12 +1793,19 @@
     "isTrending": true,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-01T07:21:31.090Z",
     "updatedAt": "2026-08-01T07:21:31.090Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "close-up",
+      "photorealistic",
+      "cinematic",
+      "streetwear"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1388,12 +1823,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-01T07:25:28.961Z",
     "updatedAt": "2026-08-01T07:25:28.961Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "dramatic-lighting",
+      "studio-lighting",
+      "depth-of-field",
+      "telephoto",
+      "full-body"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1411,12 +1854,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-01T07:33:55.272Z",
     "updatedAt": "2026-08-01T07:33:55.272Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "cinematic-lighting",
+      "depth-of-field",
+      "photorealistic",
+      "cinematic",
+      "editorial"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1434,12 +1885,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-01T07:36:16.085Z",
     "updatedAt": "2026-08-01T07:36:16.085Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "neon-lighting",
+      "cinematic-lighting",
+      "photorealistic",
+      "cinematic",
+      "surreal"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -1457,12 +1916,18 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-01T07:50:35.833Z",
     "updatedAt": "2026-08-01T07:50:35.833Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "rim-lighting",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -1480,12 +1945,17 @@
     "isTrending": true,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-01T07:59:33.857Z",
     "updatedAt": "2026-08-01T07:59:33.857Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "close-up",
+      "cinematic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1503,12 +1973,17 @@
     "isTrending": true,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-01T08:16:03.801Z",
     "updatedAt": "2026-08-01T08:16:03.801Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "streetwear",
+      "lifestyle-photography"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1526,12 +2001,20 @@
     "isTrending": true,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-01T08:21:28.250Z",
     "updatedAt": "2026-08-01T08:21:28.250Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "golden-hour",
+      "depth-of-field",
+      "cinematic",
+      "minimalist",
+      "luxury"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1549,12 +2032,19 @@
     "isTrending": false,
     "isLatest": true,
     "isFeatured": true,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-01T08:26:53.471Z",
     "updatedAt": "2026-08-01T08:26:53.471Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "soft-lighting",
+      "cinematic",
+      "streetwear",
+      "luxury"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1572,12 +2062,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-01T08:36:43.877Z",
     "updatedAt": "2026-08-01T08:36:43.877Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "studio-lighting",
+      "cinematic-lighting",
+      "photorealistic",
+      "cinematic",
+      "editorial"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1595,12 +2093,20 @@
     "isTrending": true,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-01T08:37:21.683Z",
     "updatedAt": "2026-08-01T08:37:21.683Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "studio-lighting",
+      "natural-lighting",
+      "close-up",
+      "telephoto",
+      "photorealistic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1618,12 +2124,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-01T08:40:28.978Z",
     "updatedAt": "2026-08-01T08:40:28.978Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "studio-lighting",
+      "rim-lighting",
+      "depth-of-field",
+      "telephoto",
+      "photorealistic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1641,12 +2155,18 @@
     "isTrending": true,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-01T08:41:09.580Z",
     "updatedAt": "2026-08-01T08:41:09.580Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "studio-lighting",
+      "cinematic",
+      "minimalist"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1664,12 +2184,18 @@
     "isTrending": true,
     "isLatest": true,
     "isFeatured": true,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-01T08:44:32.139Z",
     "updatedAt": "2026-08-01T08:44:32.139Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "studio-lighting",
+      "editorial",
+      "streetwear"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1687,12 +2213,20 @@
     "isTrending": true,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-02T12:52:26.946Z",
     "updatedAt": "2026-08-02T12:52:26.946Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "cinematic-lighting",
+      "close-up",
+      "photorealistic",
+      "cinematic",
+      "editorial"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1710,12 +2244,20 @@
     "isTrending": true,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-02T12:54:33.753Z",
     "updatedAt": "2026-08-02T12:54:33.753Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "natural-lighting",
+      "close-up",
+      "depth-of-field",
+      "cinematic",
+      "editorial"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1733,12 +2275,20 @@
     "isTrending": false,
     "isLatest": true,
     "isFeatured": true,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-02T12:58:09.991Z",
     "updatedAt": "2026-08-02T12:58:09.991Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "golden-hour",
+      "natural-lighting",
+      "close-up",
+      "telephoto",
+      "cinematic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1756,12 +2306,20 @@
     "isTrending": true,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-02T12:59:03.665Z",
     "updatedAt": "2026-08-02T12:59:03.665Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "cinematic-lighting",
+      "close-up",
+      "telephoto",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1779,12 +2337,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-02T13:00:20.561Z",
     "updatedAt": "2026-08-02T13:00:20.561Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "golden-hour",
+      "close-up",
+      "depth-of-field",
+      "telephoto",
+      "photorealistic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1802,12 +2368,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-02T13:01:27.842Z",
     "updatedAt": "2026-08-02T13:01:27.842Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "golden-hour",
+      "close-up",
+      "editorial",
+      "illustration",
+      "streetwear"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1825,12 +2399,20 @@
     "isTrending": true,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-02T13:05:20.153Z",
     "updatedAt": "2026-08-02T13:05:20.153Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "soft-lighting",
+      "volumetric-lighting",
+      "editorial",
+      "monochrome",
+      "streetwear"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1848,12 +2430,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-02T13:08:20.696Z",
     "updatedAt": "2026-08-02T13:08:20.696Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "natural-lighting",
+      "depth-of-field",
+      "photorealistic",
+      "cinematic",
+      "editorial"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1871,12 +2461,20 @@
     "isTrending": false,
     "isLatest": true,
     "isFeatured": true,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-02T13:09:17.782Z",
     "updatedAt": "2026-08-02T13:09:17.782Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "soft-lighting",
+      "volumetric-lighting",
+      "editorial",
+      "monochrome",
+      "streetwear"
+    ],
     "models": [],
     "quality": "low",
     "seoIndex": false
@@ -1892,12 +2490,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-02T14:59:44.881Z",
     "updatedAt": "2026-08-02T14:59:44.881Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "golden-hour",
+      "depth-of-field",
+      "cinematic",
+      "editorial",
+      "streetwear"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1915,12 +2521,19 @@
     "isTrending": true,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-02T15:02:17.129Z",
     "updatedAt": "2026-08-02T15:02:17.129Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "depth-of-field",
+      "cinematic",
+      "monochrome",
+      "outdoors"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1938,12 +2551,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-02T15:08:45.816Z",
     "updatedAt": "2026-08-02T15:08:45.816Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "volumetric-lighting",
+      "cinematic-lighting",
+      "photorealistic",
+      "cinematic",
+      "editorial"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1961,12 +2582,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-02T15:17:05.506Z",
     "updatedAt": "2026-08-02T15:17:05.506Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "close-up",
+      "depth-of-field",
+      "telephoto",
+      "photorealistic",
+      "editorial"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1984,17 +2613,26 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-02T15:23:19.369Z",
     "updatedAt": "2026-08-02T15:23:19.369Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "rim-lighting",
+      "photorealistic",
+      "cinematic",
+      "editorial",
+      "minimalist"
+    ],
     "models": [
       "Chat GPT"
     ],
     "quality": "high",
-    "seoIndex": false
+    "seoIndex": false,
+    "aspectRatio": "9:16"
   },
   {
     "id": "cmmzq1mqr93",
@@ -2007,12 +2645,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-02T15:26:28.618Z",
     "updatedAt": "2026-08-02T15:26:28.618Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "cinematic-lighting",
+      "depth-of-field",
+      "telephoto",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2030,12 +2676,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-02T15:39:58.786Z",
     "updatedAt": "2026-08-02T15:39:58.786Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "studio-lighting",
+      "depth-of-field",
+      "telephoto",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2053,12 +2707,20 @@
     "isTrending": true,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-05T05:34:37.876Z",
     "updatedAt": "2026-08-05T05:34:37.876Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "natural-lighting",
+      "depth-of-field",
+      "photorealistic",
+      "cinematic",
+      "editorial"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2076,12 +2738,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-05T06:39:20.211Z",
     "updatedAt": "2026-08-05T06:39:20.212Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "natural-lighting",
+      "close-up",
+      "depth-of-field",
+      "cinematic",
+      "editorial"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2099,12 +2769,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-05T07:11:49.717Z",
     "updatedAt": "2026-08-05T07:11:49.717Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "photorealistic",
+      "minimalist",
+      "streetwear",
+      "luxury"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2122,12 +2799,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-05T07:14:24.049Z",
     "updatedAt": "2026-08-05T07:14:24.049Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "soft-lighting",
+      "close-up",
+      "photorealistic",
+      "cinematic",
+      "illustration"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2145,12 +2830,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-05T07:22:55.999Z",
     "updatedAt": "2026-08-05T07:22:55.999Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "lifestyle-photography",
+      "photography"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2168,12 +2858,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-05T07:24:49.721Z",
     "updatedAt": "2026-08-05T07:24:49.721Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "depth-of-field",
+      "photorealistic",
+      "editorial",
+      "luxury"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2191,12 +2888,18 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-05T07:37:38.935Z",
     "updatedAt": "2026-08-05T07:37:38.935Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "neon-lighting",
+      "cinematic",
+      "illustration"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2214,12 +2917,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-05T07:45:04.392Z",
     "updatedAt": "2026-08-05T07:45:04.392Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "studio-lighting",
+      "close-up",
+      "depth-of-field",
+      "telephoto",
+      "symmetrical"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2237,12 +2948,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-05T07:49:19.273Z",
     "updatedAt": "2026-08-05T07:49:19.273Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "natural-lighting",
+      "photorealistic",
+      "cinematic",
+      "streetwear",
+      "outdoors"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2260,12 +2979,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-05T07:52:55.928Z",
     "updatedAt": "2026-08-05T07:52:55.928Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "cinematic-lighting",
+      "close-up",
+      "depth-of-field",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2283,12 +3010,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-05T08:22:14.355Z",
     "updatedAt": "2026-08-05T08:22:14.355Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "close-up",
+      "depth-of-field",
+      "editorial",
+      "luxury"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2306,12 +3040,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-05T08:27:33.937Z",
     "updatedAt": "2026-08-05T09:13:13.629Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "golden-hour",
+      "depth-of-field",
+      "cinematic",
+      "editorial",
+      "streetwear"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2329,12 +3071,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-05T08:30:45.994Z",
     "updatedAt": "2026-08-05T08:30:45.994Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "studio-lighting",
+      "close-up",
+      "depth-of-field",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2352,12 +3102,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-05T08:35:29.854Z",
     "updatedAt": "2026-08-05T08:35:29.854Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "cinematic-lighting",
+      "depth-of-field",
+      "telephoto",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2375,12 +3133,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-05T08:37:47.173Z",
     "updatedAt": "2026-08-05T08:37:47.173Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "golden-hour",
+      "depth-of-field",
+      "photorealistic",
+      "cinematic",
+      "editorial"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2398,12 +3164,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-05T08:42:18.273Z",
     "updatedAt": "2026-08-05T08:42:18.273Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "rim-lighting",
+      "depth-of-field",
+      "photorealistic",
+      "cinematic",
+      "editorial"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2421,12 +3195,20 @@
     "isTrending": false,
     "isLatest": true,
     "isFeatured": true,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-05T08:49:06.288Z",
     "updatedAt": "2026-08-05T08:49:06.288Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "studio-lighting",
+      "depth-of-field",
+      "telephoto",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2444,12 +3226,18 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-05T08:49:40.795Z",
     "updatedAt": "2026-08-05T08:49:40.795Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "depth-of-field",
+      "cinematic",
+      "editorial"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2467,12 +3255,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-05T08:51:16.204Z",
     "updatedAt": "2026-08-05T08:51:16.204Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "streetwear",
+      "urban"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2481,7 +3274,7 @@
   },
   {
     "id": "cm88nxvqxse",
-    "title": "South Indian Hero Poster",
+    "title": "Cinematic Multi-Exposure South Indian Hero Poster",
     "slug": "south-indian-hero-poster-kouh1",
     "category": "Men",
     "fullPrompt": "South Indian cinematic hero poster featuring a multi-exposure photo collage ofa handsome man in three distinct poses.In the foreground on the left, a close-up profile shot of the man wearing classic black sunglasses in All pose, smilng, with his hand near his chin. Background is white and blue In the center, a full-body shot of him standing casuallg in aeris p unbuttoned mehrun shirt, faded blue denim jeans, a black wrist watch, smiling with a confident pose",
@@ -2490,12 +3283,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-05T08:59:12.918Z",
     "updatedAt": "2026-08-05T08:59:12.918Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "close-up",
+      "cinematic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2513,12 +3311,18 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-05T08:59:44.357Z",
     "updatedAt": "2026-08-05T08:59:44.357Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "photorealistic",
+      "cinematic",
+      "luxury"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2536,12 +3340,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-05T09:02:44.282Z",
     "updatedAt": "2026-08-05T09:02:44.282Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "dramatic-lighting",
+      "depth-of-field",
+      "telephoto",
+      "symmetrical",
+      "photorealistic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2559,12 +3371,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-07T08:54:21.753Z",
     "updatedAt": "2026-08-07T08:54:21.753Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "volumetric-lighting",
+      "rim-lighting",
+      "depth-of-field",
+      "telephoto",
+      "photorealistic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2582,12 +3402,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-07T08:56:56.446Z",
     "updatedAt": "2026-08-07T08:56:56.446Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "volumetric-lighting",
+      "close-up",
+      "depth-of-field",
+      "telephoto",
+      "photorealistic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2605,12 +3433,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-07T09:01:59.169Z",
     "updatedAt": "2026-08-07T09:01:59.169Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "volumetric-lighting",
+      "close-up",
+      "depth-of-field",
+      "telephoto",
+      "photorealistic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2628,12 +3464,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-07T10:40:18.200Z",
     "updatedAt": "2026-08-07T10:40:18.200Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "golden-hour",
+      "volumetric-lighting",
+      "rim-lighting",
+      "natural-lighting",
+      "close-up"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2651,17 +3495,31 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-07T10:47:24.001Z",
     "updatedAt": "2026-08-07T10:47:24.001Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "golden-hour",
+      "volumetric-lighting",
+      "rim-lighting",
+      "natural-lighting",
+      "close-up"
+    ],
     "models": [
       "Chat GPT"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": true,
+    "editorNotes": {
+      "whyItWorks": "The multi-exposure composition layers an editorial close-up portrait with cinematic lifestyle vignettes. By matching the color grading and lighting angles across both foreground and background scenes, the composite feels intentional rather than slapped together.",
+      "variationGuide": "Adjust the narrative context from executive city luxury to high-altitude alpine retreat or coastal yacht racing. Swap the tailored midnight navy tuxedo for a vintage leather flight jacket and aviator sunglasses.",
+      "failureModes": "When combining multiple poses in one frame, the AI can duplicate the subject's face with mismatched facial ages or morph hands together. Emphasize 'consistent subject facial identity, distinct panel borders, and unified cinematic teal-and-orange grading'.",
+      "exampleTweak": "Shift the composite vignettes to 'vintage sports car driving along the Amalfi coast at sunset, coastal terrace cafe, and razor-sharp profile portrait'."
+    }
   },
   {
     "id": "cmw2nb441ay",
@@ -2674,17 +3532,31 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-07T10:53:09.230Z",
     "updatedAt": "2026-08-07T10:53:09.230Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "golden-hour",
+      "volumetric-lighting",
+      "rim-lighting",
+      "cinematic-lighting",
+      "natural-lighting"
+    ],
     "models": [
       "Chat GPT"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": true,
+    "editorNotes": {
+      "whyItWorks": "Warm golden-hour runway illumination reflecting across private aviation chrome provides an opulent backdrop. Framing the traveler with travel duffel bags and floor-to-ceiling tarmac glass creates a dynamic sense of motion and travel freedom.",
+      "variationGuide": "Change the private jet setting to a luxury high-speed European first-class train lounge or a vintage sailing yacht regatta. Shift the wardrobe to relaxed Mediterranean linen styling.",
+      "failureModes": "Aircraft scale and perspective can distort easily, resulting in miniature airplanes or bent fuselage wings. Anchor the background with 'Gulfstream G650 parked on private tarmac, accurate aviation proportions, realistic ground reflections'.",
+      "exampleTweak": "Add 'rich caramel leather weekender bag, tailored charcoal blazer, golden sun sinking beneath the airport horizon with soft lens flare'."
+    }
   },
   {
     "id": "cmopwl1u15e",
@@ -2697,12 +3569,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-07T10:56:49.567Z",
     "updatedAt": "2026-08-07T10:56:49.567Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "editorial",
+      "commercial"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2720,12 +3597,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-07T11:02:01.902Z",
     "updatedAt": "2026-08-07T11:02:01.902Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "depth-of-field",
+      "monochrome",
+      "streetwear",
+      "outdoors",
+      "romantic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2743,12 +3628,18 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-07T11:23:17.171Z",
     "updatedAt": "2026-08-07T11:23:17.171Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "rim-lighting",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2766,12 +3657,17 @@
     "isTrending": true,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-07T11:45:08.470Z",
     "updatedAt": "2026-08-07T11:45:08.470Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "monochrome",
+      "lifestyle-photography"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2789,12 +3685,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-07T11:49:53.407Z",
     "updatedAt": "2026-08-07T11:49:53.407Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "golden-hour",
+      "cinematic-lighting",
+      "natural-lighting",
+      "close-up",
+      "depth-of-field"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2812,12 +3716,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-07T15:59:25.699Z",
     "updatedAt": "2026-08-07T15:59:25.702Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "volumetric-lighting",
+      "depth-of-field",
+      "telephoto",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -2835,12 +3747,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-07T16:01:23.411Z",
     "updatedAt": "2026-08-07T16:01:23.411Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "photorealistic",
+      "editorial",
+      "monochrome",
+      "streetwear",
+      "luxury"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2858,12 +3778,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-07T16:04:42.667Z",
     "updatedAt": "2026-08-07T16:04:42.667Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "dramatic-lighting",
+      "studio-lighting",
+      "volumetric-lighting",
+      "rim-lighting",
+      "symmetrical"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2881,12 +3809,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-08T18:50:47.804Z",
     "updatedAt": "2026-08-08T18:50:47.804Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "streetwear",
+      "lifestyle-photography"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2904,12 +3837,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-08T18:54:10.120Z",
     "updatedAt": "2026-08-08T18:54:10.120Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "close-up",
+      "cinematic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2927,12 +3865,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-08T18:58:35.152Z",
     "updatedAt": "2026-08-08T18:58:35.152Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "studio-lighting",
+      "close-up",
+      "depth-of-field",
+      "telephoto",
+      "symmetrical"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2950,12 +3896,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-08T19:04:10.409Z",
     "updatedAt": "2026-08-08T19:04:10.409Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "close-up",
+      "editorial",
+      "minimalist",
+      "streetwear"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2973,12 +3926,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-08T19:06:02.511Z",
     "updatedAt": "2026-08-08T19:06:02.511Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "cinematic-lighting",
+      "depth-of-field",
+      "photorealistic",
+      "cinematic",
+      "editorial"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2996,12 +3957,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-08T19:07:56.787Z",
     "updatedAt": "2026-08-08T19:07:56.787Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "volumetric-lighting",
+      "natural-lighting",
+      "photorealistic",
+      "cinematic",
+      "streetwear"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -3019,12 +3988,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-08T19:12:28.361Z",
     "updatedAt": "2026-08-08T19:12:28.361Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "neon-lighting",
+      "cinematic-lighting",
+      "depth-of-field",
+      "cinematic",
+      "editorial"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -3042,12 +4019,16 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-08T19:17:15.160Z",
     "updatedAt": "2026-08-08T19:17:15.160Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "lifestyle-photography"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -3065,12 +4046,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-08T19:18:20.226Z",
     "updatedAt": "2026-08-08T19:18:20.226Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "volumetric-lighting",
+      "rim-lighting",
+      "cinematic-lighting",
+      "natural-lighting",
+      "depth-of-field"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -3088,17 +4077,31 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-08T19:20:51.491Z",
     "updatedAt": "2026-08-08T19:20:51.491Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "dramatic-lighting",
+      "golden-hour",
+      "volumetric-lighting",
+      "neon-lighting",
+      "natural-lighting"
+    ],
     "models": [
       "Chat GPT"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": true,
+    "editorNotes": {
+      "whyItWorks": "The crisp Mediterranean color palette—whitewashed volcanic stone, cobalt blue domes, and bougainvillea fuchsia—provides clean natural contrast. The editorial collage layout balances celebration portraiture with atmospheric architectural views.",
+      "variationGuide": "Transport the celebration to a Tuscan vineyard during grape harvest, an overwater villa in Bora Bora, or a historic rooftop terrace overlooking Florence's Duomo. Swap the birthday theme for an anniversary or travel milestone.",
+      "failureModes": "Multi-photo collage prompts can render cluttered borders or inconsistent lighting between panels. Specify 'consistent bright Aegean midday sun, uniform white borders between collage panels, and identical subject appearance across all photos'.",
+      "exampleTweak": "Update with 'sun-drenched cliffside infinity pool overlooking the caldera, crisp linen shirt, sunglasses, holding a champagne glass with authentic smile'."
+    }
   },
   {
     "id": "cmjtyn778fx",
@@ -3111,21 +4114,35 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-08T19:22:27.665Z",
     "updatedAt": "2026-08-08T19:22:27.665Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "volumetric-lighting",
+      "neon-lighting",
+      "rim-lighting",
+      "close-up",
+      "depth-of-field"
+    ],
     "models": [
       "Chat GPT"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": true,
+    "editorNotes": {
+      "whyItWorks": "Saturated magenta and cyan neon lights reflecting off wet asphalt and transparent holographic vinyl outerwear create rich sci-fi texture. The collage format allows viewing both close-up facial cybernetic details and wide neon streetscapes.",
+      "variationGuide": "Switch the city backdrop from Shinjuku Tokyo to a rain-swept Neo-Seoul skybridge or an industrial Kowloon Walled City multi-level bazaar. Alter the wardrobe to dark techwear with tactical webbing and LED accents.",
+      "failureModes": "Cyberpunk scenes easily degrade into incomprehensible noisy neon smears. Preserve structural clarity by enforcing 'shallow depth of field, sharp facial focus with raindrops on cheekbones, and legible background signage reflections'.",
+      "exampleTweak": "Add 'translucent PVC hooded jacket over black graphic hoodie, subtle glowing cybernetic eye implant, reflections of Shibuya crossing in rain puddles'."
+    }
   },
   {
     "id": "cmtpsasf22r",
-    "title": "Luxury Birthday Poster Design",
+    "title": "Black and Gold Royal Luxury Birthday Poster",
     "slug": "luxury-birthday-poster-design-440lm",
     "category": "Men",
     "fullPrompt": "Create an ultra-realistic Black & Gold Royal Luxury Birthday Poster featuring the SAME attractive young man from the reference image with 100% identical facial identity, facial proportions, skin tone, eyes, nose, lips, jawline, hairstyle, and natural skin texture.\n\nSTRICT FACE LOCK — preserve the exact identity from the reference image. Do not alter, beautify, replace, regenerate, reshape, age, or modify the face in any way. Maintain authentic facial structure, realistic pores, natural imperfections, detailed hair strands, and true-to-reference expression.\n\nCreate a breathtaking royal luxury composition inspired by a billionaire king, elite fashion campaign, and prestigious international magazine cover.\n\nMAIN PORTRAIT:\nA massive dramatic monochrome close-up portrait of the man dominates the background, with his face emerging from deep black shadows and surrounded by elegant golden rim lighting. His expression is confident, calm, powerful, and sophisticated.\n\nFULL-BODY POSE:\nIn the foreground, the man stands confidently in the center of a grand black-and-gold luxury hall. He wears an impeccably tailored black velvet tuxedo jacket with subtle gold detailing, a premium black shirt, tailored black trousers, polished black luxury shoes, a platinum-and-gold luxury watch, elegant rings, and a minimal gold chain.\n\nROYAL ENVIRONMENT:\nGrand luxury palace interior, black marble floor, massive golden architectural columns, sophisticated chandelier, black velvet curtains, elegant gold sculptures, premium throne-inspired chair, reflective marble surfaces, dramatic staircase, subtle luxury decorations, and cinematic architectural depth.\n\nBIRTHDAY ELEMENT:\nCreate a sophisticated luxury birthday celebration rather than a childish party. Place a premium black-and-gold multi-tier birthday cake on a marble table with elegant candles, subtle golden sparks, floating particles, and a refined celebration atmosphere.\n\nIntegrate a large elegant golden birthday number as a premium design element, with clean luxury typography and plenty of negative space. The birthday typography should look like an international luxury fashion magazine rather than a typical birthday poster.\n\nEDITORIAL DOUBLE EXPOSURE:\nBlend the monochrome close-up portrait with the palace architecture, golden columns, smoke, light rays, and subtle abstract textures. Add sophisticated double-exposure effects, metallic gold paint strokes, black marble textures, glowing golden particles, transparent glass overlays, and elegant geometric elements.\n\nLIGHTING:\nDramatic cinematic chiaroscuro lighting, deep black shadows, warm gold rim lighting, volumetric golden rays, realistic reflections, subtle lens flare, HDR highlights, realistic skin lighting, physically accurate shadows, global illumination, ray tracing.\n\nPHOTOGRAPHY:\nLuxury editorial fashion photography, medium-format Hasselblad X2D, 85mm portrait lens, f/1.4 aperture, ultra-sharp eyes, realistic skin pores, natural facial texture, individually detailed hair strands, realistic velvet and marble textures, cinematic depth of field, professional HDR color grading, premium magazine photography.\n\nVISUAL STYLE:\nRoyal luxury campaign + Vogue Men + GQ editorial + Forbes luxury cover + billionaire lifestyle + cinematic movie poster + premium birthday campaign.\n\nCOLOR PALETTE:\nObsidian Black, Metallic Gold, Champagne Gold, Deep Charcoal, Warm Amber, subtle Platinum Silver.\n\nMOOD:\nRoyal, powerful, elegant, mysterious, prestigious, confident, billionaire lifestyle, timeless luxury, exclusive, sophisticated birthday celebration.\n\nCOMPOSITION:\nVertical 9:16, hero portrait centered, full-body subject in foreground, massive monochrome portrait behind him, strong depth separation, cinematic perspective, symmetrical luxury architecture, premium negative space, sophisticated typography area, instantly eye-catching social-media composition.\n\nUltra photorealistic, hyper detailed, natural skin, realistic anatomy, cinematic depth, premium fashion photography, award-winning composition, masterpiece, 8K, 10K, 16K, HDR, DSLR quality.\n\nNEGATIVE PROMPT:\ndifferent face, altered identity, face swap, facial distortion, beautified face, plastic skin, excessive retouching, blurry face, deformed eyes, asymmetrical face, duplicate person, extra person, extra limbs, extra fingers, bad hands, bad anatomy, distorted body, low resolution, cartoon, anime, artificial CGI appearance, cheap decorations, childish birthday design, excessive balloons, oversaturated gold, watermark, logo, broken typography, random text, compression artifacts, excessive blur.",
@@ -3134,17 +4151,31 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-08T19:24:11.372Z",
     "updatedAt": "2026-08-08T19:24:11.372Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "dramatic-lighting",
+      "volumetric-lighting",
+      "rim-lighting",
+      "close-up",
+      "depth-of-field"
+    ],
     "models": [
       "Chat GPT"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": true,
+    "editorNotes": {
+      "whyItWorks": "The black and gold color scheme is a classic luxury signifier. Combining deep matte charcoal textures with warm metallic foil accents, geometric frames, and a hero portrait yields a magazine-cover aesthetic.",
+      "variationGuide": "Switch the palette to emerald green and rose gold, or royal navy and polished silver for a cooler, aristocratic tone. Swap the birthday context for an executive keynote or artistic album release poster.",
+      "failureModes": "AI often attempts to generate garbled birthday greeting text across the image. Request 'clean negative space for typography with decorative metallic border lines and zero generated text characters'.",
+      "exampleTweak": "Add 'floating gold geometric 3D cubes, brushed obsidian stone pedestal, dramatic single-source studio spotlight carving facial jawline'."
+    }
   },
   {
     "id": "cmmazg5baza",
@@ -3157,12 +4188,20 @@
     "isTrending": true,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-08T19:28:10.199Z",
     "updatedAt": "2026-08-08T19:28:10.199Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "cinematic-lighting",
+      "cinematic",
+      "editorial",
+      "monochrome",
+      "luxury"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -3180,12 +4219,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-09T09:42:57.787Z",
     "updatedAt": "2026-08-09T09:42:57.787Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "studio-lighting",
+      "photorealistic",
+      "cinematic",
+      "editorial",
+      "monochrome"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -3203,12 +4250,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-09T09:45:48.588Z",
     "updatedAt": "2026-08-09T09:45:48.588Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "rim-lighting",
+      "photorealistic",
+      "cinematic",
+      "editorial",
+      "streetwear"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -3226,12 +4281,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-09T09:49:37.769Z",
     "updatedAt": "2026-08-09T09:49:37.769Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "cinematic-lighting",
+      "depth-of-field",
+      "telephoto",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -3249,12 +4312,20 @@
     "isTrending": true,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-09T09:53:21.527Z",
     "updatedAt": "2026-08-09T09:53:21.527Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "natural-lighting",
+      "depth-of-field",
+      "telephoto",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -3272,12 +4343,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-09T09:54:01.090Z",
     "updatedAt": "2026-08-09T09:54:01.090Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "cinematic-lighting",
+      "depth-of-field",
+      "telephoto",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -3286,7 +4365,7 @@
   },
   {
     "id": "cm3a5rmvgl6",
-    "title": "Cinematic Triptych Collage",
+    "title": "European Courtyard Cinematic Triptych Collage",
     "slug": "cinematic-triptych-collage-ti6f1",
     "category": "Men",
     "fullPrompt": "Create an ultra-realistic 8K cinematic vertical triptych collage featuring the same young South Asian man in an elegant European courtyard during golden hour. Preserve the exact facial features, curly black hair, trimmed beard, warm smile, skin tone, and natural expression. He wears an oversized cream textured knit sweater, tailored chocolate-brown wide-leg trousers, premium cream sneakers, and a minimalist luxury watch. Left: casually standing beside an old stone archway, one hand in his pocket, smiling at the camera. Center: walking slowly through the courtyard while looking down with a subtle peaceful smile. Right: three-quarter back profile looking toward the historic architecture. Warm beige tones, soft golden sunlight, creamy bokeh, cinematic shadows, shallow depth of field, DSLR, 85mm lens, photorealistic luxury fashion editorial, subtle atmospheric haze, elegant Instagram Reel aesthetic, 9:16 composition.  ",
@@ -3295,12 +4374,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-09T09:59:06.312Z",
     "updatedAt": "2026-08-09T09:59:06.312Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "golden-hour",
+      "natural-lighting",
+      "depth-of-field",
+      "telephoto",
+      "photorealistic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -3318,12 +4405,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-09T10:03:24.984Z",
     "updatedAt": "2026-08-09T10:03:24.984Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "studio-lighting",
+      "rim-lighting",
+      "close-up",
+      "depth-of-field",
+      "telephoto"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -3341,12 +4436,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-09T10:06:56.259Z",
     "updatedAt": "2026-08-09T10:06:56.259Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "golden-hour",
+      "natural-lighting",
+      "depth-of-field",
+      "telephoto",
+      "photorealistic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -3364,17 +4467,31 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-09T10:14:03.721Z",
     "updatedAt": "2026-08-09T10:14:03.721Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "volumetric-lighting",
+      "rim-lighting",
+      "natural-lighting",
+      "close-up",
+      "depth-of-field"
+    ],
     "models": [
       "Chat GPT"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": true,
+    "editorNotes": {
+      "whyItWorks": "Juxtaposing classical Carrara marble statues and architectural columns with ultra-modern minimalist tailoring creates high-fashion editorial tension. The cool ambient bounce light off marble surfaces flatters facial contours and fabric textures.",
+      "variationGuide": "Replace white Carrara marble with green Guatemala marble or rough-hewn brutalist concrete monoliths. Alter the fashion styling from sharp monochrome suiting to flowing avant-garde streetwear silhouettes.",
+      "failureModes": "Models may merge the subject's limbs with the surrounding marble statues. Maintain subject hierarchy with 'crisp full-color human model standing in contrast against monochromatic classical Greek sculptures'.",
+      "exampleTweak": "Add 'oversized charcoal wool trench coat, tailored trousers, high-contrast natural museum gallery lighting from a skylight overhead'."
+    }
   },
   {
     "id": "cmlyvx1kyhe",
@@ -3387,12 +4504,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-09T10:16:43.259Z",
     "updatedAt": "2026-08-09T10:16:43.259Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "cinematic-lighting",
+      "depth-of-field",
+      "cinematic",
+      "editorial",
+      "luxury"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -3410,17 +4535,31 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-09T10:17:59.179Z",
     "updatedAt": "2026-08-09T10:17:59.179Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "golden-hour",
+      "volumetric-lighting",
+      "rim-lighting",
+      "natural-lighting",
+      "close-up"
+    ],
     "models": [
       "Chat GPT"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": true,
+    "editorNotes": {
+      "whyItWorks": "Captures timeless aristocratic style through heirloom textures: cable-knit sweaters, vintage leather armchairs, oil paintings, and book-lined mahogany libraries. Soft ambient window daylight provides a gentle, unhurried mood.",
+      "variationGuide": "Relocate the portrait outdoors to an English country estate garden with equestrian stables and stone fountains, or an ivy-covered Oxford university quadrangle. Shift the season to crisp late autumn.",
+      "failureModes": "Diffusion models often lean into caricatured monocles or overly aged styling. Ground the image in modern youth culture: 'understated collegiate luxury, relaxed natural posture, clean haircut, timeless Ralph Lauren editorial vibe'.",
+      "exampleTweak": "Change setting to 'vintage wooden sailboat on Lake Geneva, cream Aran sweater over chambray shirt, windblown hair, crisp mountain daylight'."
+    }
   },
   {
     "id": "cmte0he195z",
@@ -3433,12 +4572,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-09T10:18:53.465Z",
     "updatedAt": "2026-08-09T10:18:53.465Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "studio-lighting",
+      "photorealistic",
+      "cinematic",
+      "editorial",
+      "monochrome"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -3456,12 +4603,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-09T10:21:49.188Z",
     "updatedAt": "2026-08-09T10:21:49.188Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "studio-lighting",
+      "depth-of-field",
+      "telephoto",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -3479,17 +4634,31 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-09T10:24:48.357Z",
     "updatedAt": "2026-08-09T10:24:48.357Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "golden-hour",
+      "volumetric-lighting",
+      "rim-lighting",
+      "natural-lighting",
+      "close-up"
+    ],
     "models": [
       "Chat GPT"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": true,
+    "editorNotes": {
+      "whyItWorks": "Turquoise water clarity and pristine white sand create vibrant natural color harmony. The prompt uses waist-level angles and natural tropical sunlight to render translucent wave ripples, tanned skin tones, and resort architecture.",
+      "variationGuide": "Switch from a daytime lagoon swim to sunset overwater bungalow relaxation with warm amber deck lanterns and purple dusk skies. Transition clothing from casual swim shorts to an unbuttoned white linen resort shirt.",
+      "failureModes": "Overwater bungalows frequently generate with crooked stilts or distorted architectural angles. Use 'straight horizon line, architectural symmetry on overwater villa deck, crystal-clear shallow water with visible coral shadows'.",
+      "exampleTweak": "Add 'standing on wooden bungalow walkway over vibrant turquoise lagoon, holding a chilled coconut, warm sea breeze rustling palm fronds overhead'."
+    }
   },
   {
     "id": "cmjcxme7k4a",
@@ -3502,12 +4671,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-09T10:26:10.392Z",
     "updatedAt": "2026-08-09T10:26:10.392Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "golden-hour",
+      "volumetric-lighting",
+      "rim-lighting",
+      "natural-lighting",
+      "close-up"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -3525,17 +4702,31 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-09T10:28:51.768Z",
     "updatedAt": "2026-08-09T10:28:51.768Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "golden-hour",
+      "volumetric-lighting",
+      "rim-lighting",
+      "natural-lighting",
+      "close-up"
+    ],
     "models": [
       "Chat GPT"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": true,
+    "editorNotes": {
+      "whyItWorks": "Golden hour backlighting wraps around the subject's hair and shoulders, creating a warm luminous silhouette against breaking ocean waves. The montage framing captures both intimate emotional expression and sweeping coastal scale.",
+      "variationGuide": "Move the coast from rocky Big Sur cliffs to the black sand beaches of Iceland or the dramatic arches of Portugal's Algarve coast. Shift the mood from joyful summer to brooding coastal winter with heavy surf.",
+      "failureModes": "Strong backlighting can turn the subject's face entirely black. Ensure the prompt maintains 'gentle golden fill light on the face to preserve eye expression, natural skin texture, and realistic eye catchlights'.",
+      "exampleTweak": "Add 'rugged sea cliffs at Big Sur, crashing white waves below, warm 85mm lens flare, relaxed linen henley shirt with sea spray in hair'."
+    }
   },
   {
     "id": "cmz7hg17tve",
@@ -3548,17 +4739,31 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-09T10:30:58.311Z",
     "updatedAt": "2026-08-09T10:30:58.311Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "dramatic-lighting",
+      "volumetric-lighting",
+      "rim-lighting",
+      "close-up",
+      "depth-of-field"
+    ],
     "models": [
       "Chat GPT"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": true,
+    "editorNotes": {
+      "whyItWorks": "Reinterprets royal iconography through contemporary haute couture. A minimalist crown, velvet tailoring, and architectural brutalist throne room replace medieval clutter with commanding fashion-forward authority.",
+      "variationGuide": "Shift the cultural aesthetic from Western imperial to an Afro-futurist sovereign or Neo-Asian dynasty. Substitute the dark throne room for an open marble courtyard flooded with sunlight.",
+      "failureModes": "Crowns and regal jewelry often render crooked, misshapen, or covered in melted faux-jewels. Specify 'minimalist geometric matte gold crown with clean architectural lines, zero gaudy ornamentation'.",
+      "exampleTweak": "Add 'deep emerald-green velvet smoking jacket with gold bullion lapel embroidery, seated on a minimalist black granite block throne'."
+    }
   },
   {
     "id": "cmmcetppfq4",
@@ -3571,12 +4776,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-09T10:33:20.290Z",
     "updatedAt": "2026-08-09T10:33:20.290Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "neon-lighting",
+      "cinematic-lighting",
+      "depth-of-field",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -3594,12 +4807,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-09T10:35:35.591Z",
     "updatedAt": "2026-08-09T10:35:35.591Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "natural-lighting",
+      "depth-of-field",
+      "telephoto",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -3617,17 +4838,26 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-09T10:38:31.298Z",
     "updatedAt": "2026-08-09T10:38:31.298Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "neon-lighting",
+      "cinematic-lighting",
+      "depth-of-field",
+      "cinematic",
+      "luxury"
+    ],
     "models": [
       "Chat GPT"
     ],
     "quality": "high",
-    "seoIndex": false
+    "seoIndex": false,
+    "aspectRatio": "9:16"
   },
   {
     "id": "cmm2f1hhiyt",
@@ -3640,12 +4870,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-09T10:38:57.613Z",
     "updatedAt": "2026-08-09T10:38:57.613Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "natural-lighting",
+      "photorealistic",
+      "cinematic",
+      "editorial",
+      "streetwear"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -3663,12 +4901,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-09T10:44:25.588Z",
     "updatedAt": "2026-08-09T10:44:25.588Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "rim-lighting",
+      "depth-of-field",
+      "full-body",
+      "cinematic",
+      "streetwear"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -3686,12 +4932,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-09T10:51:44.607Z",
     "updatedAt": "2026-08-09T10:51:44.607Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "close-up",
+      "cinematic",
+      "streetwear",
+      "outdoors"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -3709,12 +4962,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-11T09:35:24.510Z",
     "updatedAt": "2026-08-11T09:35:24.510Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "natural-lighting",
+      "depth-of-field",
+      "telephoto",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -3732,12 +4993,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-11T09:37:53.872Z",
     "updatedAt": "2026-08-11T09:37:53.872Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "rim-lighting",
+      "symmetrical",
+      "cinematic",
+      "concept-art"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -3755,12 +5023,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-11T09:39:01.272Z",
     "updatedAt": "2026-08-11T09:39:01.272Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "soft-lighting",
+      "depth-of-field",
+      "symmetrical",
+      "editorial",
+      "minimalist"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -3778,12 +5054,18 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-11T09:46:02.095Z",
     "updatedAt": "2026-08-11T09:46:02.095Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "studio-lighting",
+      "close-up",
+      "photorealistic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -3801,12 +5083,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-11T09:53:04.104Z",
     "updatedAt": "2026-08-11T09:53:04.104Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "natural-lighting",
+      "symmetrical",
+      "photorealistic",
+      "cinematic",
+      "editorial"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -3824,12 +5114,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-11T09:57:01.577Z",
     "updatedAt": "2026-08-11T09:57:01.577Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "photorealistic",
+      "cinematic",
+      "minimalist",
+      "surreal"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -3847,17 +5144,31 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-11T10:11:15.507Z",
     "updatedAt": "2026-08-11T10:11:15.507Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "dramatic-lighting",
+      "studio-lighting",
+      "telephoto",
+      "low-angle",
+      "full-body"
+    ],
     "models": [
       "Chat GPT"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": true,
+    "editorNotes": {
+      "whyItWorks": "High-key white-on-white minimalism demands extreme tonal discipline. By relying on subtle drop shadows, fabric creases, and sculptural facial bone structure, the image achieves striking visual clarity and modern fine-art impact.",
+      "variationGuide": "Invert the entire scheme into high-contrast low-key black minimalism (black turtleneck, dark slate backdrop, hard rim lighting). Or introduce a single bold accent color like Klein blue or cadmium red.",
+      "failureModes": "Without deliberate shadow placement, high-key white scenes can wash out into an overexposed flat white silhouette. Ensure the prompt includes 'soft directional shadows carving facial depth and highlighting linen fabric folds'.",
+      "exampleTweak": "Add 'sculptural white architectural stairs, crisp white linen suit, sharp afternoon sunlight casting geometric angled shadows across the wall'."
+    }
   },
   {
     "id": "cmb0p342jmm",
@@ -3870,12 +5181,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-11T10:16:07.473Z",
     "updatedAt": "2026-08-11T10:16:07.473Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "cinematic-lighting",
+      "depth-of-field",
+      "telephoto",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -3893,12 +5212,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-11T10:20:43.880Z",
     "updatedAt": "2026-08-11T10:20:43.880Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "rim-lighting",
+      "depth-of-field",
+      "photorealistic",
+      "cinematic",
+      "streetwear"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -3916,12 +5243,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-11T10:24:05.990Z",
     "updatedAt": "2026-08-11T10:24:05.990Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "golden-hour",
+      "natural-lighting",
+      "depth-of-field",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -3939,12 +5274,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-11T10:25:14.871Z",
     "updatedAt": "2026-08-11T10:25:14.871Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "natural-lighting",
+      "depth-of-field",
+      "telephoto",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -3962,12 +5305,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-11T10:27:09.606Z",
     "updatedAt": "2026-08-11T10:27:09.606Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "rim-lighting",
+      "depth-of-field",
+      "photorealistic",
+      "cinematic",
+      "minimalist"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -3985,12 +5336,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-11T10:27:50.469Z",
     "updatedAt": "2026-08-11T10:27:50.469Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "studio-lighting",
+      "telephoto",
+      "photorealistic",
+      "cinematic",
+      "editorial"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -4008,12 +5367,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-11T10:30:54.190Z",
     "updatedAt": "2026-08-11T10:30:54.190Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "studio-lighting",
+      "cinematic-lighting",
+      "photorealistic",
+      "cinematic",
+      "editorial"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -4031,12 +5398,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-11T10:34:05.448Z",
     "updatedAt": "2026-08-11T10:34:05.448Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "natural-lighting",
+      "depth-of-field",
+      "photorealistic",
+      "cinematic",
+      "streetwear"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -4054,12 +5429,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-11T10:40:40.277Z",
     "updatedAt": "2026-08-11T10:40:40.277Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "golden-hour",
+      "natural-lighting",
+      "depth-of-field",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -4077,12 +5460,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-11T10:43:14.494Z",
     "updatedAt": "2026-08-11T10:43:14.494Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "natural-lighting",
+      "depth-of-field",
+      "photorealistic",
+      "cinematic",
+      "editorial"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -4100,12 +5491,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-11T10:46:06.786Z",
     "updatedAt": "2026-08-11T10:46:06.786Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "natural-lighting",
+      "telephoto",
+      "photorealistic",
+      "cinematic",
+      "minimalist"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -4123,12 +5522,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-11T10:46:56.653Z",
     "updatedAt": "2026-08-11T10:46:56.653Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "rim-lighting",
+      "depth-of-field",
+      "photorealistic",
+      "cinematic",
+      "streetwear"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -4146,12 +5553,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-11T10:49:03.340Z",
     "updatedAt": "2026-08-11T10:49:03.340Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "golden-hour",
+      "rim-lighting",
+      "telephoto",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -4169,12 +5584,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-11T10:51:15.686Z",
     "updatedAt": "2026-08-11T10:51:15.686Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "golden-hour",
+      "depth-of-field",
+      "photorealistic",
+      "cinematic",
+      "streetwear"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -4192,12 +5615,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-11T10:54:04.635Z",
     "updatedAt": "2026-08-11T10:54:04.636Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "natural-lighting",
+      "depth-of-field",
+      "photorealistic",
+      "cinematic",
+      "editorial"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -4215,12 +5646,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-11T10:55:08.925Z",
     "updatedAt": "2026-08-11T10:55:08.925Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "studio-lighting",
+      "rim-lighting",
+      "telephoto",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -4238,12 +5677,20 @@
     "isTrending": true,
     "isLatest": true,
     "isFeatured": true,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-11T10:58:01.884Z",
     "updatedAt": "2026-08-11T10:58:01.884Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "studio-lighting",
+      "rim-lighting",
+      "symmetrical",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -4261,12 +5708,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-11T11:00:59.557Z",
     "updatedAt": "2026-08-11T11:00:59.557Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "studio-lighting",
+      "close-up",
+      "photorealistic",
+      "editorial",
+      "minimalist"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -4284,12 +5739,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-11T11:04:24.732Z",
     "updatedAt": "2026-08-11T11:04:24.732Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "rim-lighting",
+      "close-up",
+      "telephoto",
+      "photorealistic",
+      "editorial"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -4307,12 +5770,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-11T11:06:15.068Z",
     "updatedAt": "2026-08-11T11:06:15.068Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "neon-lighting",
+      "rim-lighting",
+      "photorealistic",
+      "cinematic",
+      "luxury"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -4330,12 +5801,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-11T11:10:07.029Z",
     "updatedAt": "2026-08-11T11:10:07.029Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "rim-lighting",
+      "telephoto",
+      "symmetrical",
+      "photorealistic",
+      "editorial"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -4353,12 +5832,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-11T11:13:38.273Z",
     "updatedAt": "2026-08-11T11:13:38.273Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "rim-lighting",
+      "photorealistic",
+      "cinematic",
+      "editorial",
+      "minimalist"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -4376,12 +5863,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-11T11:16:02.033Z",
     "updatedAt": "2026-08-11T11:16:02.033Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "close-up",
+      "depth-of-field",
+      "telephoto",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -4399,12 +5894,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-13T15:36:04.270Z",
     "updatedAt": "2026-08-13T15:36:04.270Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "close-up",
+      "symmetrical",
+      "photorealistic",
+      "streetwear"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -4422,12 +5924,18 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-13T15:38:13.733Z",
     "updatedAt": "2026-08-13T15:38:13.733Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "depth-of-field",
+      "editorial",
+      "streetwear"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -4445,12 +5953,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-13T15:57:24.528Z",
     "updatedAt": "2026-08-13T15:57:24.528Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "photorealistic",
+      "cinematic",
+      "editorial",
+      "minimalist",
+      "luxury"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -4468,12 +5984,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-13T16:34:25.800Z",
     "updatedAt": "2026-08-13T16:34:25.800Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "depth-of-field",
+      "cinematic",
+      "editorial",
+      "commercial"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -4491,12 +6014,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-13T16:39:56.268Z",
     "updatedAt": "2026-08-13T16:39:56.268Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "volumetric-lighting",
+      "rim-lighting",
+      "close-up",
+      "depth-of-field",
+      "photorealistic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -4514,12 +6045,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-13T16:43:03.939Z",
     "updatedAt": "2026-08-13T16:43:03.939Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "neon-lighting",
+      "cinematic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -4537,12 +6073,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-13T16:44:52.940Z",
     "updatedAt": "2026-08-13T16:44:52.940Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "depth-of-field",
+      "photorealistic",
+      "cinematic",
+      "editorial"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -4560,12 +6103,18 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-13T16:49:16.503Z",
     "updatedAt": "2026-08-13T16:49:16.503Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "neon-lighting",
+      "cinematic",
+      "urban"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -4583,12 +6132,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-13T16:51:46.943Z",
     "updatedAt": "2026-08-13T16:51:46.943Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "depth-of-field",
+      "cinematic",
+      "editorial",
+      "luxury"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -4606,12 +6162,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-13T16:57:38.406Z",
     "updatedAt": "2026-08-13T16:57:38.406Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "natural-lighting",
+      "depth-of-field",
+      "photorealistic",
+      "cinematic",
+      "editorial"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -4629,17 +6193,31 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-13T16:59:44.484Z",
     "updatedAt": "2026-08-13T16:59:44.484Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "natural-lighting",
+      "wide-angle",
+      "aerial-view",
+      "full-body",
+      "photorealistic"
+    ],
     "models": [
       "Chat GPT"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": true,
+    "editorNotes": {
+      "whyItWorks": "Blends organic wilderness elements directly into the human form—moss-covered stones, floating botanical flora, and gentle mist emerging from the subject's silhouette. It balances magical realism with photographic grounding.",
+      "variationGuide": "Substitute terrestrial moss and forest for deep-ocean elements: glowing bioluminescent jellyfish, coral formations, and sea anemones. Or try desert geology with sandstone canyons and desert roses.",
+      "failureModes": "Surreal fusion prompts can produce body horror if botanical growth appears to rupture skin violently. Guide the model toward elegance: 'plants and moss resting gently upon skin as harmonious symbiosis, clean aesthetic composition'.",
+      "exampleTweak": "Add 'delicate fern fronds and tiny glowing fireflies drifting from the silhouette, soft twilight forest mist, muted sage and pine green palette'."
+    }
   },
   {
     "id": "cmswf8wxg21",
@@ -4652,12 +6230,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-13T17:02:45.823Z",
     "updatedAt": "2026-08-13T17:02:45.823Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "natural-lighting",
+      "photorealistic",
+      "cinematic",
+      "editorial",
+      "minimalist"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -4675,17 +6261,31 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-13T17:05:59.322Z",
     "updatedAt": "2026-08-13T17:05:59.322Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "natural-lighting",
+      "depth-of-field",
+      "photorealistic",
+      "cinematic",
+      "editorial"
+    ],
     "models": [
       "Chat GPT"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": true,
+    "editorNotes": {
+      "whyItWorks": "Captures the authentic spirit of documentary travel photography. A 35mm wide-aperture view frames the solitary traveler looking over an expansive ancient city or mountain valley, conveying wanderlust and quiet contemplation.",
+      "variationGuide": "Change the destination from a European cobblestone square to a misty Himalayan tea plantation, a bustling Moroccan souk, or the neon alleyways of Kyoto at dusk.",
+      "failureModes": "Travelers in AI images often look like posed catalog models detached from their environment. Specify 'weathered canvas backpack, worn hiking boots, candid three-quarter turn, natural documentary photojournalism style'.",
+      "exampleTweak": "Add 'standing on a rustic stone balcony overlooking the terracotta roofs of Florence at dusk, warm streetlamps flickering on in the piazza below'."
+    }
   },
   {
     "id": "cmv6givic9k",
@@ -4698,17 +6298,31 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-13T17:08:24.940Z",
     "updatedAt": "2026-08-13T17:08:24.940Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "dramatic-lighting",
+      "natural-lighting",
+      "full-body",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Chat GPT"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": true,
+    "editorNotes": {
+      "whyItWorks": "Dense fog provides natural depth separation by softening background contrast while keeping the foreground subject crisp. Muted cool grey tones evoke mystery, stillness, and introspective drama.",
+      "variationGuide": "Transition the environment from a misty rural road to a foggy harbor dock with silhouettes of fishing trawlers, or a high-altitude redwood forest path with tall redwood trunks fading into white mist.",
+      "failureModes": "Fog can wash out the foreground subject into a muddy grey blob. Anchor the image with 'razor-sharp focus on the subject in the immediate foreground, high-contrast dark overcoat, and dew drops clinging to wool fabric'.",
+      "exampleTweak": "Add 'vintage wool peacoat collar turned up against damp chill, distant warm yellow car headlights glowing through thick mountain fog'."
+    }
   },
   {
     "id": "cm9rjgj3kuk",
@@ -4721,17 +6335,31 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-13T17:10:39.080Z",
     "updatedAt": "2026-08-13T17:10:39.080Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "soft-lighting",
+      "volumetric-lighting",
+      "natural-lighting",
+      "full-body",
+      "photorealistic"
+    ],
     "models": [
       "Chat GPT"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": true,
+    "editorNotes": {
+      "whyItWorks": "Leading lines created by the asphalt road vanishing into forest mist draw the viewer's eye straight toward the solitary walking figure. Tall pine trees frame the scene with majestic scale.",
+      "variationGuide": "Change the asphalt road to a winding gravel trail or a mossy wooden boardwalk across a peat bog. Shift the season to winter with frost-dusted pines and crunching snow.",
+      "failureModes": "The solitary subject can render disproportionately large or look pasted onto the road surface. Include 'physically grounded feet with soft contact shadows on damp pavement, realistic perspective scale'.",
+      "exampleTweak": "Add 'autumn pine needles scattered across wet asphalt, warm red taillights of a distant parked station wagon disappearing in morning fog'."
+    }
   },
   {
     "id": "cmpytmm1dnj",
@@ -4744,12 +6372,18 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-13T17:33:39.942Z",
     "updatedAt": "2026-08-13T17:33:39.942Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "depth-of-field",
+      "editorial",
+      "streetwear"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -4767,12 +6401,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-13T17:39:54.081Z",
     "updatedAt": "2026-08-13T17:39:54.081Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "depth-of-field",
+      "editorial",
+      "streetwear",
+      "luxury"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -4790,12 +6431,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-13T17:40:53.713Z",
     "updatedAt": "2026-08-13T17:40:53.713Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "monochrome",
+      "streetwear"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -4813,17 +6459,31 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-13T17:49:53.685Z",
     "updatedAt": "2026-08-13T17:49:53.685Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "studio-lighting",
+      "neon-lighting",
+      "rim-lighting",
+      "cinematic-lighting",
+      "symmetrical"
+    ],
     "models": [
       "Chat GPT"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": true,
+    "editorNotes": {
+      "whyItWorks": "Combines patriotic identity with sophisticated portrait lighting. Deep saffron, white, and emerald hues are integrated through ambient backlighting and textured silk drapery rather than flat flag graphics.",
+      "variationGuide": "Adapt the national celebration theme to any country by swapping the color palette and national symbols. Or adjust the attire from traditional ethnic wear to modern formal suiting.",
+      "failureModes": "Flags and national emblems are often garbled or distorted by diffusion models. Use 'subtle atmospheric color rim lighting inspired by national colors rather than literal flag banners with distorted wheels or stars'.",
+      "exampleTweak": "Add 'crisp white khadi kurta, warm saffron rim light on shoulder, soft green ambient fill, clean studio portrait with subtle golden confetti'."
+    }
   },
   {
     "id": "cmz658asaft",
@@ -4836,12 +6496,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-13T17:50:29.309Z",
     "updatedAt": "2026-08-13T17:50:29.309Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "cinematic-lighting",
+      "depth-of-field",
+      "cinematic",
+      "editorial"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -4859,12 +6526,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-13T17:53:29.211Z",
     "updatedAt": "2026-08-13T17:53:29.211Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "natural-lighting",
+      "depth-of-field",
+      "telephoto",
+      "full-body",
+      "photorealistic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -4882,12 +6557,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-13T17:55:45.308Z",
     "updatedAt": "2026-08-13T17:55:45.308Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "dramatic-lighting",
+      "natural-lighting",
+      "depth-of-field",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -4905,12 +6588,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-14T07:24:28.631Z",
     "updatedAt": "2026-08-14T07:24:28.631Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "volumetric-lighting",
+      "rim-lighting",
+      "depth-of-field",
+      "telephoto",
+      "full-body"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -4928,12 +6619,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-14T07:26:23.697Z",
     "updatedAt": "2026-08-14T07:26:23.697Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "cinematic-lighting",
+      "depth-of-field",
+      "cinematic",
+      "editorial",
+      "luxury"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -4951,17 +6650,26 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-14T07:33:53.118Z",
     "updatedAt": "2026-08-14T07:33:53.118Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "rim-lighting",
+      "close-up",
+      "depth-of-field",
+      "telephoto",
+      "cinematic"
+    ],
     "models": [
       "Chat GPT"
     ],
     "quality": "high",
-    "seoIndex": false
+    "seoIndex": false,
+    "aspectRatio": "4:5"
   },
   {
     "id": "cmzluc3ifmn",
@@ -4974,12 +6682,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-14T08:55:20.025Z",
     "updatedAt": "2026-08-14T08:55:20.025Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "close-up",
+      "depth-of-field",
+      "photorealistic",
+      "editorial",
+      "illustration"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -4997,12 +6713,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-14T09:35:30.024Z",
     "updatedAt": "2026-08-14T09:35:30.024Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "neon-lighting",
+      "depth-of-field",
+      "editorial",
+      "cyberpunk"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -5020,12 +6743,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-14T10:10:06.260Z",
     "updatedAt": "2026-08-14T10:10:06.260Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "minimalist",
+      "streetwear"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -5043,12 +6771,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-17T06:31:59.480Z",
     "updatedAt": "2026-08-17T06:31:59.480Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "soft-lighting",
+      "studio-lighting",
+      "volumetric-lighting",
+      "rim-lighting",
+      "photorealistic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -5066,12 +6802,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-17T06:35:25.995Z",
     "updatedAt": "2026-08-17T06:35:25.995Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "depth-of-field",
+      "editorial"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -5089,12 +6830,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-18T10:50:41.513Z",
     "updatedAt": "2026-08-18T10:50:41.513Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "photorealistic",
+      "cinematic",
+      "editorial",
+      "minimalist",
+      "streetwear"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -5112,12 +6861,20 @@
     "isTrending": true,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-18T10:54:10.448Z",
     "updatedAt": "2026-08-18T10:54:10.448Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "natural-lighting",
+      "cinematic",
+      "editorial",
+      "minimalist",
+      "streetwear"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -5135,12 +6892,20 @@
     "isTrending": true,
     "isLatest": true,
     "isFeatured": true,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-18T11:00:55.753Z",
     "updatedAt": "2026-08-18T11:00:55.753Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "natural-lighting",
+      "depth-of-field",
+      "cinematic",
+      "editorial",
+      "minimalist"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -5158,12 +6923,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-18T11:05:01.294Z",
     "updatedAt": "2026-08-18T11:05:01.294Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "natural-lighting",
+      "depth-of-field",
+      "cinematic",
+      "editorial",
+      "minimalist"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -5181,12 +6954,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-18T11:07:25.733Z",
     "updatedAt": "2026-08-18T11:07:25.733Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "natural-lighting",
+      "cinematic",
+      "editorial",
+      "minimalist"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -5204,12 +6984,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-18T11:13:15.623Z",
     "updatedAt": "2026-08-18T11:13:15.623Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "cinematic-lighting",
+      "natural-lighting",
+      "depth-of-field",
+      "cinematic",
+      "editorial"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -5227,12 +7015,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-18T11:25:48.170Z",
     "updatedAt": "2026-08-18T11:25:48.171Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "photorealistic",
+      "luxury"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -5250,12 +7043,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-18T11:28:39.264Z",
     "updatedAt": "2026-08-18T11:28:39.264Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "cinematic-lighting",
+      "depth-of-field",
+      "telephoto",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -5273,12 +7074,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-18T11:29:41.252Z",
     "updatedAt": "2026-08-18T11:29:41.252Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "minimalist",
+      "streetwear"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -5296,12 +7102,18 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-18T11:30:51.256Z",
     "updatedAt": "2026-08-18T11:30:51.256Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "soft-lighting",
+      "editorial",
+      "streetwear"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -5319,12 +7131,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-18T11:33:11.759Z",
     "updatedAt": "2026-08-18T11:33:11.759Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "studio-lighting",
+      "depth-of-field",
+      "full-body",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -5342,12 +7162,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-18T12:47:02.444Z",
     "updatedAt": "2026-08-18T12:47:02.444Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "soft-lighting",
+      "close-up",
+      "depth-of-field",
+      "telephoto",
+      "photorealistic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -5365,12 +7193,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-18T12:49:46.571Z",
     "updatedAt": "2026-08-18T12:49:46.571Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "volumetric-lighting",
+      "neon-lighting",
+      "rim-lighting",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -5388,12 +7224,20 @@
     "isTrending": true,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-18T12:55:25.665Z",
     "updatedAt": "2026-08-18T12:55:25.665Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "cinematic-lighting",
+      "close-up",
+      "depth-of-field",
+      "telephoto",
+      "photorealistic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -5411,12 +7255,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-18T12:56:13.088Z",
     "updatedAt": "2026-08-18T12:56:13.088Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "close-up",
+      "depth-of-field",
+      "telephoto",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -5434,12 +7286,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-18T12:57:09.941Z",
     "updatedAt": "2026-08-18T12:57:09.941Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "cinematic-lighting",
+      "close-up",
+      "depth-of-field",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -5457,12 +7317,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-18T12:57:54.329Z",
     "updatedAt": "2026-08-18T12:57:54.329Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "natural-lighting",
+      "close-up",
+      "depth-of-field",
+      "telephoto",
+      "photorealistic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -5480,12 +7348,20 @@
     "isTrending": true,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-18T12:58:52.454Z",
     "updatedAt": "2026-09-13T13:49:54.315Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "close-up",
+      "depth-of-field",
+      "telephoto",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -5503,12 +7379,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-09-16T07:59:17.892Z",
     "updatedAt": "2026-09-16T07:59:17.892Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "rim-lighting",
+      "photorealistic",
+      "cinematic",
+      "illustration",
+      "3d-render"
+    ],
     "models": [
       "Chat GPT"
     ]
@@ -5524,12 +7408,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-09-16T08:00:34.187Z",
     "updatedAt": "2026-09-16T08:00:34.187Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "monochrome",
+      "lifestyle-photography"
+    ],
     "models": [
       "Chat GPT"
     ]
@@ -5545,12 +7434,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-09-16T08:05:30.586Z",
     "updatedAt": "2026-09-16T08:05:30.586Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "natural-lighting",
+      "close-up",
+      "photorealistic",
+      "cinematic",
+      "editorial"
+    ],
     "models": [
       "Chat GPT"
     ]
@@ -5566,12 +7463,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-09-16T08:09:14.391Z",
     "updatedAt": "2026-09-16T08:09:14.391Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "rim-lighting",
+      "depth-of-field",
+      "telephoto",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Chat GPT"
     ]
@@ -5587,12 +7492,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-09-16T08:11:55.475Z",
     "updatedAt": "2026-09-16T08:11:55.475Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "cinematic",
+      "romantic"
+    ],
     "models": [
       "Chat GPT"
     ]
@@ -5608,12 +7518,18 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-09-16T08:14:01.479Z",
     "updatedAt": "2026-09-16T08:14:01.479Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "close-up",
+      "photorealistic",
+      "monochrome"
+    ],
     "models": [
       "Chat GPT"
     ]
@@ -5629,12 +7545,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-09-16T08:15:50.418Z",
     "updatedAt": "2026-09-16T08:15:50.418Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "volumetric-lighting",
+      "photorealistic",
+      "cinematic",
+      "streetwear",
+      "luxury"
+    ],
     "models": [
       "Chat GPT"
     ]
@@ -5650,12 +7574,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-09-16T08:38:18.110Z",
     "updatedAt": "2026-09-16T08:38:18.110Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "cinematic",
+      "editorial",
+      "monochrome",
+      "luxury"
+    ],
     "models": [
       "Chat GPT"
     ]
@@ -5671,12 +7602,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-09-16T08:43:51.079Z",
     "updatedAt": "2026-09-16T08:43:51.079Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "golden-hour",
+      "close-up",
+      "depth-of-field",
+      "telephoto",
+      "cinematic"
+    ],
     "models": [
       "Chat GPT"
     ]
@@ -5692,12 +7631,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-09-16T08:45:32.903Z",
     "updatedAt": "2026-09-16T08:45:32.903Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "golden-hour",
+      "close-up",
+      "editorial",
+      "streetwear",
+      "luxury"
+    ],
     "models": [
       "Chat GPT"
     ]
@@ -5713,12 +7660,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-09-16T08:46:03.883Z",
     "updatedAt": "2026-09-16T08:46:03.883Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "cinematic-lighting",
+      "depth-of-field",
+      "photorealistic",
+      "cinematic",
+      "editorial"
+    ],
     "models": [
       "Chat GPT"
     ]
@@ -5734,12 +7689,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-09-16T08:46:29.993Z",
     "updatedAt": "2026-09-16T08:46:29.993Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "natural-lighting",
+      "depth-of-field",
+      "photorealistic",
+      "editorial",
+      "streetwear"
+    ],
     "models": [
       "Chat GPT"
     ]
@@ -5755,12 +7718,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-09-16T08:51:22.478Z",
     "updatedAt": "2026-09-16T08:51:22.478Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "volumetric-lighting",
+      "rim-lighting",
+      "telephoto",
+      "photorealistic",
+      "streetwear"
+    ],
     "models": [
       "Chat GPT"
     ]
@@ -5776,12 +7747,18 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-09-16T08:54:58.855Z",
     "updatedAt": "2026-09-16T08:54:58.855Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "natural-lighting",
+      "cinematic",
+      "monochrome"
+    ],
     "models": [
       "Chat GPT"
     ]
@@ -5797,12 +7774,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-09-16T08:56:27.858Z",
     "updatedAt": "2026-09-16T08:56:27.858Z",
-    "tags": [],
+    "tags": [
+      "men-portrait",
+      "portrait",
+      "studio-lighting",
+      "volumetric-lighting",
+      "rim-lighting",
+      "depth-of-field",
+      "telephoto"
+    ],
     "models": [
       "Chat GPT"
     ]

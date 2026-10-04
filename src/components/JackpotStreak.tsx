@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { Flame, Trophy, Check, Sparkles } from "lucide-react";
+import { Sparkles, Trophy, Check } from "lucide-react";
 
 interface JackpotStreakProps {
   streakCount: number;
@@ -15,21 +15,21 @@ export const JackpotStreak: React.FC<JackpotStreakProps> = ({ streakCount }) => 
       {/* Header */}
       <div className="flex items-center justify-between mb-4">
         <div className="flex items-center gap-2">
-          <div className="w-8 h-8 rounded-xl bg-orange-500/20 border border-orange-500/30 flex items-center justify-center text-orange-500">
-            <Flame className="w-5 h-5 animate-pulse" />
+          <div className="w-8 h-8 rounded-xl bg-violet-500/20 border border-violet-500/30 flex items-center justify-center text-violet-400">
+            <Sparkles className="w-5 h-5 animate-pulse" />
           </div>
           <div>
             <h4 className="text-base font-extrabold text-foreground tracking-tight">
-              Daily Lucky Streak
+              Daily Discovery Tracker
             </h4>
             <p className="text-xs text-foreground/60">
-              Spin daily to unlock the Day 7 Guaranteed Legendary Reward!
+              Discover prompts daily to explore creative styles across the catalog.
             </p>
           </div>
         </div>
 
-        <div className="flex items-center gap-1 bg-amber-500/10 border border-amber-500/30 px-3 py-1 rounded-full text-amber-400 text-xs font-black">
-          <span>{streakCount} Day Streak</span>
+        <div className="flex items-center gap-1 bg-violet-500/10 border border-violet-500/30 px-3 py-1 rounded-full text-violet-400 text-xs font-black">
+          <span>{streakCount} Day Activity</span>
         </div>
       </div>
 
@@ -46,12 +46,12 @@ export const JackpotStreak: React.FC<JackpotStreakProps> = ({ streakCount }) => 
               className={`relative flex flex-col items-center justify-center py-3 rounded-2xl border transition-all ${
                 isDay7
                   ? isCompleted
-                    ? "bg-gradient-to-b from-amber-500/30 to-yellow-500/20 border-amber-400 text-amber-300 shadow-lg shadow-amber-500/20"
-                    : "bg-amber-500/10 border-amber-500/40 text-amber-400 animate-pulse"
+                    ? "bg-gradient-to-b from-violet-500/30 to-purple-500/20 border-violet-400 text-violet-300 shadow-lg shadow-violet-500/20"
+                    : "bg-violet-500/10 border-violet-500/40 text-violet-400 animate-pulse"
                   : isCompleted
                   ? "bg-emerald-500/15 border-emerald-500/40 text-emerald-400"
                   : isCurrent
-                  ? "bg-amber-500/20 border-amber-500/60 text-amber-300 ring-2 ring-amber-500/50"
+                  ? "bg-violet-500/20 border-violet-500/60 text-violet-300 ring-2 ring-violet-500/50"
                   : "bg-foreground/5 border-foreground/10 text-foreground/30"
               }`}
             >
@@ -61,9 +61,9 @@ export const JackpotStreak: React.FC<JackpotStreakProps> = ({ streakCount }) => 
 
               {isDay7 ? (
                 <div className="flex flex-col items-center">
-                  <Trophy className="w-4 h-4 text-amber-400 animate-bounce" />
-                  <span className="text-[9px] font-black text-amber-300 uppercase mt-0.5">
-                    Jackpot
+                  <Trophy className="w-4 h-4 text-violet-400 animate-bounce" />
+                  <span className="text-[9px] font-black text-violet-300 uppercase mt-0.5">
+                    Day 7
                   </span>
                 </div>
               ) : isCompleted ? (

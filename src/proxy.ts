@@ -4,8 +4,8 @@ import type { NextRequest } from "next/server";
 export function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl;
   const session = request.cookies.get("prasa_session")?.value;
-  const secret = process.env.NEXTAUTH_SECRET || "prompt-marketplace-super-secret-key-2024";
-  const isValidSession = session && session === secret;
+  const secret = process.env.NEXTAUTH_SECRET;
+  const isValidSession = Boolean(secret && session && session === secret);
 
   // Protect all prompt-admin sub-pages, but allow access to the login page itself (/prompt-admin)
   if (pathname.startsWith("/prompt-admin/") && pathname !== "/prompt-admin") {

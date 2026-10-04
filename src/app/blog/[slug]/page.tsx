@@ -15,6 +15,7 @@ import BlogRenderer from "@/components/blog/BlogRenderer";
 import BlogCard from "@/components/blog/BlogCard";
 import type { BlogCardData } from "@/components/blog/BlogCardFeatured";
 import type { Block } from "@/components/blog/BlogBlock";
+import { SITE_URL } from "@/lib/site";
 
 export const revalidate = 86400;
 
@@ -65,12 +66,12 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       title: rich.seo?.title ?? rich.title,
       description: rich.seo?.description ?? rich.excerpt,
       keywords: rich.seo?.keywords ?? rich.tags,
-      alternates: { canonical: `https://www.aipromptnest.com/blog/${rich.slug}` },
+      alternates: { canonical: `${SITE_URL}/blog/${rich.slug}` },
       openGraph: {
         title: rich.title,
         description: rich.excerpt,
         type: "article",
-        url: `https://www.aipromptnest.com/blog/${rich.slug}`,
+        url: `${SITE_URL}/blog/${rich.slug}`,
         publishedTime: rich.publishedAt,
         authors: rich.author ? [rich.author.name] : [],
         images: [{ url: rich.coverImage, alt: rich.coverImageAlt ?? rich.title }],
@@ -104,9 +105,15 @@ export default async function BlogDetail({ params }: PageProps) {
   const rich = findRichBlog(slug);
 
   if (rich) {
-    // Related posts from blog.json (excluding current)
-    const allRich = (blogJsonData as RichBlog[]).filter((b) => b.slug !== slug);
-    const relatedRich: BlogCardData[] = allRich.slice(0, 3).map(richToCardData);
+    // Select next 3 posts cyclically so every one of the 15 blog posts is cross-linked across the site with no orphans
+    const allBlogs = blogJsonData as RichBlog[];
+    const currentIndex = allBlogs.findIndex((b) => b.slug === slug);
+    const totalBlogs = allBlogs.length;
+    const relatedRich: BlogCardData[] = [
+      allBlogs[(currentIndex + 1) % totalBlogs],
+      allBlogs[(currentIndex + 2) % totalBlogs],
+      allBlogs[(currentIndex + 3) % totalBlogs],
+    ].map(richToCardData);
 
     const pubDate = new Date(rich.publishedAt).toLocaleDateString("en-US", {
       year: "numeric",
@@ -125,12 +132,12 @@ export default async function BlogDetail({ params }: PageProps) {
       author: { "@type": "Person", name: rich.author?.name ?? "User" },
       publisher: {
         "@type": "Organization",
-        name: "AiPromptNest",
-        logo: { "@type": "ImageObject", url: "https://www.aipromptnest.com/logo.png" },
+        name: "AIPromptNest",
+        logo: { "@type": "ImageObject", url: `${SITE_URL}/logo.png` },
       },
       mainEntityOfPage: {
         "@type": "WebPage",
-        "@id": `https://www.aipromptnest.com/blog/${rich.slug}`,
+        "@id": `${SITE_URL}/blog/${rich.slug}`,
       },
       keywords: rich.tags?.join(", "),
     };

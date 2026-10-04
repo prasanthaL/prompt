@@ -8,8 +8,8 @@ export interface JackpotPromptData {
   id: number;
   title: string;
   category: string;
-  rarity: "legendary" | "epic" | "rare" | "common";
-  weight: number;
+  rarity?: string;
+  weight?: number;
   prompt: string;
   tip?: string;
 }
@@ -45,32 +45,19 @@ export async function POST(req: Request) {
     const body = await req.json();
     const { title, category, rarity, weight, prompt, tip } = body;
 
-    if (!title || !category || !rarity || !prompt) {
+    if (!title || !category || !prompt) {
       return NextResponse.json(
-        { error: "Missing required fields: title, category, rarity, and prompt are required." },
+        { error: "Missing required fields: title, category, and prompt are required." },
         { status: 400 }
       );
     }
 
     const currentPrompts = readJackpotPrompts();
 
-    // Determine default weight based on rarity if not specified
+    // Determine default weight if not specified
     let calculatedWeight = Number(weight);
     if (!calculatedWeight || isNaN(calculatedWeight) || calculatedWeight <= 0) {
-      switch (rarity) {
-        case "legendary":
-          calculatedWeight = 2;
-          break;
-        case "epic":
-          calculatedWeight = 5;
-          break;
-        case "rare":
-          calculatedWeight = 10;
-          break;
-        default:
-          calculatedWeight = 15;
-          break;
-      }
+      calculatedWeight = 10;
     }
 
     // Generate unique numeric ID

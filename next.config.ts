@@ -1,6 +1,65 @@
 import type { NextConfig } from "next";
 
+function getRedirects() {
+  const siteUrlStr = process.env.NEXT_PUBLIC_SITE_URL || "https://www.aipromptnest.com";
+  let canonicalHost = "";
+  let protocol = "https";
+
+  try {
+    const parsed = new URL(siteUrlStr);
+    canonicalHost = parsed.hostname.toLowerCase();
+    protocol = parsed.protocol.replace(":", "") || "https";
+  } catch {
+    canonicalHost = siteUrlStr.replace(/^https?:\/\//, "").split("/")[0].split(":")[0].toLowerCase();
+  }
+
+  const redirectsList = [];
+
+  // Only emit host redirects for non-local domains with at least one dot
+  const isLocalOrIp =
+    !canonicalHost ||
+    canonicalHost === "localhost" ||
+    canonicalHost.endsWith(".local") ||
+    /^(?:[0-9]{1,3}\.){3}[0-9]{1,3}$/.test(canonicalHost);
+
+  if (!isLocalOrIp && canonicalHost.includes(".")) {
+    let oppositeHost = "";
+    if (canonicalHost.startsWith("www.")) {
+      oppositeHost = canonicalHost.slice(4);
+    } else {
+      oppositeHost = `www.${canonicalHost}`;
+    }
+
+    // Never emit a redirect whose source host equals its destination host
+    if (oppositeHost && oppositeHost !== canonicalHost) {
+      redirectsList.push({
+        source: "/:path*",
+        has: [
+          {
+            type: "host" as const,
+            value: oppositeHost,
+          },
+        ],
+        destination: `${protocol}://${canonicalHost}/:path*`,
+        permanent: true,
+      });
+    }
+  }
+
+  // Keep permanent legacy redirect
+  redirectsList.push({
+    source: "/jackpot",
+    destination: "/discover",
+    permanent: true,
+  });
+
+  return redirectsList;
+}
+
 const nextConfig: NextConfig = {
+  async redirects() {
+    return getRedirects();
+  },
   images: {
     unoptimized: true,
     remotePatterns: [
