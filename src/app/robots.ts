@@ -1,6 +1,5 @@
 import { MetadataRoute } from "next";
-
-const siteUrl = "https://www.aipromptnest.com";
+import { SITE_URL } from "@/lib/site";
 
 export default function robots(): MetadataRoute.Robots {
   return {
@@ -9,10 +8,17 @@ export default function robots(): MetadataRoute.Robots {
         userAgent: "*",
         allow: "/",
         disallow: [
-          "/api/"
+          "/api/",
+          "/prompt-admin/",
+          "/prompt-admin/dashboard/",
+          "/prompt-admin/prompts/",
+          "/prompt-admin/blogs/",
+          "/prompt-admin/jackpot/",
+          "/discover",
+          "/jackpot",
         ],
       },
     ],
-    sitemap: `${siteUrl}/sitemap.xml`
+    sitemap: `${SITE_URL}/sitemap.xml`,
   };
 }

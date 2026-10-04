@@ -10,12 +10,18 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 160,
     "likes": 50,
     "createdAt": "2026-07-10T12:00:00.000Z",
     "updatedAt": "2026-07-10T08:32:58.403Z",
-    "tags": [],
+    "tags": [
+      "luxury",
+      "premium-aesthetic",
+      "studio-lighting",
+      "close-up",
+      "commercial"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -33,12 +39,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T08:34:24.383Z",
     "updatedAt": "2026-07-10T08:34:24.383Z",
-    "tags": [],
+    "tags": [
+      "luxury",
+      "premium-aesthetic",
+      "studio-lighting",
+      "photorealistic",
+      "cinematic",
+      "commercial",
+      "interior"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -56,17 +70,31 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T08:35:16.647Z",
     "updatedAt": "2026-07-10T08:35:16.647Z",
-    "tags": [],
+    "tags": [
+      "luxury",
+      "premium-aesthetic",
+      "studio-lighting",
+      "depth-of-field",
+      "photorealistic",
+      "cinematic",
+      "editorial"
+    ],
     "models": [
       "Gemini AI"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": true,
+    "editorNotes": {
+      "whyItWorks": "This prompt captures old-money understated elegance by emphasizing bespoke craftsmanship over flashy brand emblems. Tailored navy Italian wool, a brushed platinum timepiece, and warm dusk architectural lighting give the scene credibility and prestige.",
+      "variationGuide": "Shift the location from a private estate driveway to the interior of a Gulfstream cabin at cruising altitude, or a classic wooden Riva motorboat gliding across Lake Como. Experiment with casual luxury: a cream linen shirt and tailored shorts on a sunlit yacht deck.",
+      "failureModes": "Generators often invent garbled luxury brand logos on sunglasses or watches. Explicitly specify 'unbranded bespoke menswear, minimalist accessories, and realistic fabric drape without visible logos or monograms'.",
+      "exampleTweak": "Change location to 'Lake Como terrace villa, relaxed seated pose with linen blazer, espresso cup on stone table, golden afternoon sun on water'."
+    }
   },
   {
     "id": "cmr5h9s7a63",
@@ -79,12 +107,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T08:36:13.451Z",
     "updatedAt": "2026-07-10T08:36:13.451Z",
-    "tags": [],
+    "tags": [
+      "luxury",
+      "premium-aesthetic",
+      "studio-lighting",
+      "wide-angle",
+      "aerial-view",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -102,12 +138,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T08:37:12.668Z",
     "updatedAt": "2026-07-10T08:37:12.668Z",
-    "tags": [],
+    "tags": [
+      "luxury",
+      "premium-aesthetic",
+      "studio-lighting",
+      "close-up",
+      "photorealistic",
+      "cinematic",
+      "commercial"
+    ],
     "models": [
       "Gemini AI"
     ],

@@ -465,7 +465,7 @@ export const howItWorksSteps = [
     step: "01",
     title: "Browse the Library",
     description:
-      "Explore thousands of carefully crafted AI image prompts across categories like cinematic, anime, fantasy, fashion, architecture, and more. Use filters and search to find exactly the style you need.",
+      "Explore over 1,100 AI image prompts across categories like cinematic, anime, fantasy, fashion, architecture, and more. Use filters and search to find exactly the style you need.",
   },
   {
     step: "02",
@@ -492,14 +492,14 @@ export const popularSearches = [
 
 export const seoPropositionFeatures = [
   { icon: Copy, label: "Easy to Copy", sub: "Instant 1-click copy" },
-  { icon: Sparkles, label: "Well Structured", sub: "Optimized prompt syntax" },
-  { icon: RefreshCw, label: "Regular Updates", sub: "Fresh prompts added daily" },
+  { icon: Sparkles, label: "Well Structured", sub: "Organized prompt syntax" },
+  { icon: RefreshCw, label: "Regular Updates", sub: "New prompts added regularly" },
 ];
 
 export const whyChooseUs = [
-  "Optimized specifically for Google Gemini image generation",
+  "Structured for Google Gemini and modern AI image models",
   "Includes precise camera, lighting, and style parameters",
-  "100% free with instant one-click copying — no registration required",
-  "Curated for artists, designers, marketers & AI enthusiasts",
-  "Continuously expanded with new trending aesthetic styles",
+  "Free with instant one-click copying — no registration required",
+  "Organized by category for artists, designers, marketers & AI enthusiasts",
+  "Continuously expanded with new creative aesthetic styles",
 ];

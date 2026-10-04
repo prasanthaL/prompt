@@ -29,8 +29,10 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Domain setup
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The site canonical domain is determined by the `NEXT_PUBLIC_SITE_URL` environment variable (e.g. `https://www.aipromptnest.com` or `https://aipromptnest.com`).
+- `NEXT_PUBLIC_SITE_URL` must match the **PRIMARY domain** configured in your hosting dashboard (e.g. Vercel, Cloudflare, Netlify).
+- Next.js automatically derives the canonical host from `NEXT_PUBLIC_SITE_URL` and redirects the opposite variant (e.g. bare apex -> www, or www -> bare apex) to prevent duplicate content.
+- Ensure that the opposite variant is NOT also configured to redirect in your hosting provider's dashboard to avoid circular redirect loops.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

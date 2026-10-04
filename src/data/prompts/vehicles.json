@@ -10,12 +10,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-12T12:07:33.108Z",
     "updatedAt": "2026-06-22T06:57:49.019Z",
-    "tags": [],
+    "tags": [
+      "automotive",
+      "vehicles",
+      "depth-of-field",
+      "photorealistic",
+      "cinematic",
+      "luxury"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -33,17 +40,31 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-12T12:23:21.755Z",
     "updatedAt": "2026-06-22T06:57:01.486Z",
-    "tags": [],
+    "tags": [
+      "automotive",
+      "vehicles",
+      "volumetric-lighting",
+      "neon-lighting",
+      "rim-lighting",
+      "cinematic-lighting",
+      "moody-lighting"
+    ],
     "models": [
       "Gemini AI"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": true,
+    "editorNotes": {
+      "whyItWorks": "Low, aggressive front three-quarter automotive angle. The wide-body aerodynamic kit, exposed carbon-fiber splitter, glowing amber headlights, and rain-slicked asphalt reflecting storm lightning give the GT-R palpable horsepower and grit.",
+      "variationGuide": "Swap the GT-R for a Porsche 911 GT3 RS, a retro Lancia Stratos rally car, or an electric futuristic hypercar. Switch the environment from a storm highway to a neon-soaked downtown Tokyo drift tunnel.",
+      "failureModes": "Car badges and headlight shapes are frequently distorted or hybridized by diffusion engines. Specify 'accurate Nissan GT-R R35 quad-ring taillight design, wide-body stance, realistic tire tread contact on wet asphalt'.",
+      "exampleTweak": "Add 'water spray billowing from wide rear tires at speed, glowing orange brake rotors visible through forged wheels, dark thundercloud sky with lightning'."
+    }
   },
   {
     "id": "cmvwkdbfvzy",
@@ -56,12 +77,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-12T12:25:06.541Z",
     "updatedAt": "2026-06-22T06:56:07.706Z",
-    "tags": [],
+    "tags": [
+      "automotive",
+      "vehicles",
+      "golden-hour",
+      "natural-lighting",
+      "photorealistic",
+      "urban"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -79,12 +107,18 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-12T12:28:20.090Z",
     "updatedAt": "2026-06-22T06:55:28.016Z",
-    "tags": [],
+    "tags": [
+      "automotive",
+      "vehicles",
+      "studio-lighting",
+      "neon-lighting",
+      "commercial"
+    ],
     "models": [
       "Gemini AI"
     ],

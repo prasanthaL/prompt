@@ -10,12 +10,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-12T10:00:12.200Z",
     "updatedAt": "2026-06-22T08:49:17.983Z",
-    "tags": [],
+    "tags": [
+      "family",
+      "candid-moments",
+      "lifestyle-photography",
+      "portrait",
+      "lighting",
+      "photography"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -33,17 +40,31 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-12T10:07:56.572Z",
     "updatedAt": "2026-06-22T08:47:32.824Z",
-    "tags": [],
+    "tags": [
+      "family",
+      "candid-moments",
+      "dramatic-lighting",
+      "studio-lighting",
+      "telephoto",
+      "cinematic",
+      "monochrome"
+    ],
     "models": [
       "Gemini AI"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": true,
+    "editorNotes": {
+      "whyItWorks": "The low-key multi-generational profile arrangement creates a striking lineage study. By using single-source directional key lighting, it emphasizes the shared facial geometry across generations while keeping distracting clothing and backgrounds submerged in deep shadow.",
+      "variationGuide": "Experiment with mother-and-daughter or grandfather-and-grandson pairings. You can also transition from pure studio black-and-white to warm monochromatic sepia with delicate analog medium-format film grain.",
+      "failureModes": "Generators frequently overlap multiple heads awkwardly or merge ear and hair boundaries when stacking profile portraits horizontally. Specifying 'distinct staggered horizontal spacing with clear silhouette separation' keeps each profile crisp.",
+      "exampleTweak": "Add 'Hasselblad 120mm portrait lens, Kodak Tri-X 400 film profile, deep velvety blacks with subtle hair light separation on each generation'."
+    }
   },
   {
     "id": "cm239l81h4u",
@@ -56,12 +77,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-12T10:04:23.373Z",
     "updatedAt": "2026-06-22T08:48:25.174Z",
-    "tags": [],
+    "tags": [
+      "family",
+      "candid-moments",
+      "dramatic-lighting",
+      "studio-lighting",
+      "photorealistic",
+      "concept-art",
+      "illustration"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -79,12 +108,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-12T12:44:27.128Z",
     "updatedAt": "2026-06-22T08:46:38.813Z",
-    "tags": [],
+    "tags": [
+      "family",
+      "candid-moments",
+      "cinematic-lighting",
+      "depth-of-field",
+      "cinematic",
+      "3d-render",
+      "streetwear"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -102,16 +139,50 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-11T09:41:02.031Z",
     "updatedAt": "2026-08-11T09:41:02.031Z",
-    "tags": [],
+    "tags": [
+      "family",
+      "candid-moments",
+      "cinematic",
+      "lifestyle-photography"
+    ],
     "models": [
       "Chat GPT"
     ],
     "quality": "high",
     "seoIndex": false
+  },
+  {
+    "id": "cmwvwv977s9",
+    "title": "Munonye’s Sweet Chapter Two",
+    "slug": "munonyes-sweet-chapter-two-ujaw1",
+    "category": "Family",
+    "fullPrompt": "Professional luxury birthday poster, 3:4 ratio. Entire frame filled with a premium off white luxury paper textured wall. Large number “2” precisely carved in the wall with visible depth and realistic inner shadows. Inside the number: soft pink and pink balloons,  subtle white flowers, elegant bouquet arrangement, premium celebration styling. A happy 2 year old child with preserved reference facial features, wearing a milky white T shirt and pink denim overalls, laughing naturally. Face, shoulder, one hand and one foot extend outside the number creating a realistic 3D effect. Warm cinematic sunlight from one side, soft rim light, photorealistic skin, premium studio photography, ultra realistic, sharp focus. Typography on wall: MUNONYE, CHAPTER 2, 365 MORE DAYS OF WONDER. Clean minimalist layout, luxury magazine cover aesthetic, high end art direction, realistic shadows, natural colors, no tree shadows, no fake lighting, no AI artifacts.  ",
+    "image": "https://res.cloudinary.com/dfbacu2lw/image/upload/v1789544639/prompts/lycmyuy6nfcpckndguyd.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "AIPromptNest Editorial Team",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-09-16T07:44:00.343Z",
+    "updatedAt": "2026-09-16T07:44:00.343Z",
+    "tags": [
+      "family",
+      "candid-moments",
+      "rim-lighting",
+      "natural-lighting",
+      "photorealistic",
+      "cinematic",
+      "editorial"
+    ],
+    "models": [
+      "Chat GPT"
+    ]
   }
 ]

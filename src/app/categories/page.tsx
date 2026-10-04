@@ -46,8 +46,9 @@ import { getAllPrompts } from "@/lib/json-db";
 import { categoryToSlug } from "@/lib/category-slugs";
 import categoriesData from "@/data/categories.json";
 import Footer from "@/components/Footer";
+import { SITE_URL } from "@/lib/site";
 
-const siteUrl = "https://www.aipromptnest.com";
+const siteUrl = SITE_URL;
 
 export const metadata: Metadata = {
 
@@ -56,7 +57,7 @@ export const metadata: Metadata = {
     "Gemini AI Prompt Categories | Free Image Generation Prompts - AIPromptNest",
 
   description:
-    "Browse Gemini AI prompt categories including anime, cinematic, fantasy, sci-fi, portraits, architecture, product photography, landscapes, characters, and more. Discover thousands of free Gemini AI image prompts.",
+    "Browse Gemini AI prompt categories including anime, cinematic, fantasy, sci-fi, portraits, architecture, product photography, landscapes, characters, and more. Discover over 1,100 free Gemini AI image prompts.",
 
   keywords: [
     "Gemini AI prompts",
@@ -75,7 +76,7 @@ export const metadata: Metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.aipromptnest.com/categories",
+    canonical: `${siteUrl}/categories`,
   },
 
   robots: {
@@ -95,7 +96,7 @@ export const metadata: Metadata = {
       "Gemini AI Prompt Categories | Free Image Generation Prompts",
     description:
       "Explore Gemini AI prompt categories including anime, cinematic, fantasy, sci-fi, portraits, architecture, product photography, and more.",
-    url: "https://www.aipromptnest.com/categories",
+    url: `${siteUrl}/categories`,
     siteName: "AIPromptNest",
     locale: "en_US",
     type: "website",
@@ -116,7 +117,7 @@ export const metadata: Metadata = {
       "Gemini AI Prompt Categories | AIPromptNest",
 
     description:
-      "Browse thousands of free Gemini AI image prompts organized by category.",
+      "Browse over 1,100 free Gemini AI image prompts organized by category.",
 
     images: ["https://res.cloudinary.com/dfbacu2lw/image/upload/v1781332533/og_yh8di5.webp"],
   },
@@ -186,15 +187,15 @@ const webPageSchema = {
   "@type": "WebPage",
   "name": "Gemini AI Prompt Categories",
   "description": "Browse Gemini AI prompt categories.",
-  "url": "https://www.aipromptnest.com/categories"
+  "url": `${siteUrl}/categories`
 }
 
 const collectionPageJsonLd = {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   "name": "Gemini AI Prompt Categories",
-  "description": "Browse thousands of Gemini AI prompts organized by category.",
-  "url": "https://www.aipromptnest.com/categories"
+  "description": "Browse over 1,100 Gemini AI prompts organized by category.",
+  "url": `${siteUrl}/categories`
 }
 
 const breadcrumbSchema = {
@@ -205,13 +206,13 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.aipromptnest.com",
+      item: siteUrl,
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Categories",
-      item: "https://www.aipromptnest.com/categories",
+      item: `${siteUrl}/categories`,
     },
   ],
 };
@@ -247,14 +248,14 @@ export default async function CategoriesPage() {
     "@context": "https://schema.org",
     "@type": "ItemList",
     "name": "AI Prompt Categories",
-    "description": "Explore our curated collections of high-quality AI prompts.",
+    "description": "Explore our organized collections of AI prompts.",
     "numberOfItems": categories.length,
     "itemListElement": categories.map((cat, index) => ({
       "@type": "ListItem",
       "position": index + 1,
       "name": cat.name,
       "description": cat.description,
-      "url": `https://www.aipromptnest.com${cat.id === "all" ? "/browse" : `/categories/${categoryToSlug(cat.name)}`}`,
+      "url": `${siteUrl}${cat.id === "all" ? "/browse" : `/categories/${categoryToSlug(cat.name)}`}`,
     })),
   };
 
@@ -265,14 +266,14 @@ export default async function CategoriesPage() {
     {
       label: "Total Prompts",
       value: totalPromptsCount.toLocaleString() + "+",
-      description: "Tested AI prompt templates",
+      description: "Structured AI prompt library",
       icon: Layers,
       color: "text-violet-400 bg-violet-500/10 border-violet-500/20",
     },
     {
       label: "Creative Styles",
       value: activeCategoriesCount.toString(),
-      description: "Curated prompt categories",
+      description: "Organized prompt categories",
       icon: Sparkles,
       color: "text-pink-400 bg-pink-500/10 border-pink-500/20",
     },
@@ -285,7 +286,7 @@ export default async function CategoriesPage() {
     },
     {
       label: "Free Access",
-      value: "100% Free",
+      value: "Free",
       description: "Free to copy & use",
       icon: Sparkles,
       color: "text-amber-400 bg-amber-500/10 border-amber-500/20",
@@ -316,7 +317,7 @@ export default async function CategoriesPage() {
           </div>
           <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-foreground">Gemini AI Prompt Categories</h1>
           <p className="text-foreground/40 max-w-xl mx-auto">
-            Explore thousands of free AI prompts for Google Gemini and ChatGPT, organized into carefully curated categories to help you find the perfect prompt faster. Discover prompts for AI image generation, creative writing, brainstorming, productivity, and more across popular categories such as Anime, Cinematic, Fantasy, Portrait, Architecture, Product Photography, Nature, Vehicles, Digital Art, and other creative styles. Browse, discover, and copy ready-to-use prompts that you can customize for your next AI project.
+            Explore over 1,100 free AI prompts for Google Gemini and ChatGPT, organized into structured categories to help you find the prompt you need faster. Discover prompts for AI image generation, creative writing, brainstorming, productivity, and more across popular categories such as Anime, Cinematic, Fantasy, Portrait, Architecture, Product Photography, Nature, Vehicles, Digital Art, and other creative styles. Browse, discover, and copy ready-to-use prompts that you can customize for your next AI project.
           </p>
         </section>
 
@@ -451,11 +452,11 @@ export default async function CategoriesPage() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-sm md:text-base leading-relaxed text-foreground/70 font-normal">
                 <div className="space-y-6">
                   <p>
-                    Discover thousands of free Gemini AI prompts organized into specialized
+                    Discover over 1,100 free Gemini AI prompts organized into specialized
                     categories to help you create stunning AI-generated images faster. Whether
                     you're designing cinematic scenes, anime artwork, fantasy worlds,
                     realistic portraits, product photography, architecture concepts, vehicles,
-                    nature landscapes, or digital illustrations, our curated prompt library
+                    nature landscapes, or digital illustrations, our structured prompt library
                     makes it easy to find inspiration for every creative project.
                   </p>
 
@@ -559,7 +560,7 @@ export default async function CategoriesPage() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-sm md:text-base leading-relaxed text-foreground/70 font-normal">
                 <p>
                   Organized prompt categories make it easier to discover relevant AI prompts
-                  without searching through thousands of unrelated ideas. By grouping prompts
+                  rather than browsing through an unfiltered list. By grouping prompts
                   based on themes, styles, and use cases, creators can quickly find inspiration
                   for personal projects, marketing campaigns, social media content, digital art,
                   and commercial design work.

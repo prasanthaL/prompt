@@ -81,7 +81,9 @@ const PromptCard = ({
             <h3 className="font-bold text-foreground group-hover:text-primary transition-colors line-clamp-1">
               {title}
             </h3>
-            <p className="text-xs text-foreground/40 font-medium">by {author}</p>
+            <p className="text-xs text-foreground/40 font-medium">
+              {!author || author.toLowerCase() === "admin" ? "AIPromptNest Editorial Team" : author}
+            </p>
           </div>
           <div className="w-8 h-8 rounded-lg bg-foreground/5 flex items-center justify-center text-foreground/40 group-hover:text-primary group-hover:bg-primary/10 transition-all shrink-0">
             <ArrowUpRight className="w-4 h-4" />

@@ -290,7 +290,7 @@ export const JackpotWheel: React.FC<JackpotWheelProps> = ({ onSpinComplete }) =>
       <div className="flex items-center justify-between w-full px-4">
         <div className="flex items-center gap-2 bg-foreground/5 dark:bg-white/5 border border-foreground/10 px-3 py-1.5 rounded-full text-xs font-semibold">
           <Sparkles className="w-4 h-4 text-amber-500 animate-pulse" />
-          <span className="text-foreground">Daily Limit: 3 Spins</span>
+          <span className="text-foreground">Daily Limit: 3 Discoveries</span>
         </div>
 
         <button
@@ -330,24 +330,24 @@ export const JackpotWheel: React.FC<JackpotWheelProps> = ({ onSpinComplete }) =>
           {isExhausted ? (
             <div className="flex flex-col items-center text-center p-1">
               <Lock className="w-5 h-5 mb-0.5 text-slate-400" />
-              <span className="text-[10px] uppercase tracking-wider">Locked</span>
+              <span className="text-[10px] uppercase tracking-wider">Completed</span>
             </div>
           ) : isSpinning ? (
             <div className="flex flex-col items-center">
               <RotateCcw className="w-6 h-6 animate-spin mb-1 text-white" />
-              <span className="text-[11px] font-extrabold uppercase tracking-wider">Spinning</span>
+              <span className="text-[11px] font-extrabold uppercase tracking-wider">Picking</span>
             </div>
           ) : (
             <div className="flex flex-col items-center">
               <Sparkles className="w-6 h-6 mb-0.5 text-slate-950 animate-bounce" />
-              <span className="text-sm font-black tracking-wider uppercase">SPIN</span>
+              <span className="text-sm font-black tracking-wider uppercase">DISCOVER</span>
               <span className="text-[10px] opacity-80">{remainingSpins} Left</span>
             </div>
           )}
         </button>
       </div>
 
-      {/* Spin Status Indicators */}
+      {/* Discovery Status Indicators */}
       <div className="flex items-center justify-center gap-3 w-full">
         {[1, 2, 3].map((num) => {
           const isDone = spinsUsed >= num;
@@ -362,7 +362,7 @@ export const JackpotWheel: React.FC<JackpotWheelProps> = ({ onSpinComplete }) =>
                   : "bg-foreground/5 border-foreground/10 text-foreground/40"
               }`}
             >
-              <span>Spin {num}</span>
+              <span>Pick {num}</span>
               {isDone ? "✅" : "⏳"}
             </div>
           );
@@ -374,13 +374,13 @@ export const JackpotWheel: React.FC<JackpotWheelProps> = ({ onSpinComplete }) =>
         <div className="flex flex-col items-center gap-2 p-4 rounded-2xl bg-amber-500/10 border border-amber-500/30 text-amber-400 w-full max-w-sm text-center animate-in fade-in slide-in-from-bottom-2">
           <div className="flex items-center gap-2 text-sm font-bold">
             <Clock className="w-4 h-4 text-amber-400 animate-spin" />
-            <span>Next Spins Unlock In</span>
+            <span>Next Discoveries Unlock In</span>
           </div>
           <span className="text-2xl font-black font-mono tracking-widest text-amber-300">
             {timeRemaining || "23h 59m 59s"}
           </span>
           <p className="text-xs text-amber-400/80">
-            Come back tomorrow to spin for more Legendary prompts!
+            Come back tomorrow to discover more creative AI prompts!
           </p>
         </div>
       )}

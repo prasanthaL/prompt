@@ -10,12 +10,18 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-12T10:26:43.824Z",
     "updatedAt": "2026-06-22T08:45:24.839Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "rim-lighting",
+      "natural-lighting",
+      "close-up"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -33,12 +39,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-12T11:27:05.104Z",
     "updatedAt": "2026-06-22T08:44:05.394Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "studio-lighting",
+      "symmetrical",
+      "minimalist",
+      "monochrome"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -56,12 +69,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-12T11:28:45.267Z",
     "updatedAt": "2026-06-22T08:42:56.569Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "dramatic-lighting",
+      "soft-lighting",
+      "natural-lighting",
+      "close-up",
+      "depth-of-field"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -79,12 +100,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-12T11:30:46.099Z",
     "updatedAt": "2026-06-22T08:42:05.412Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "natural-lighting",
+      "depth-of-field",
+      "telephoto",
+      "cinematic",
+      "editorial"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -102,12 +131,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-12T11:34:22.294Z",
     "updatedAt": "2026-06-22T08:41:12.045Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "cinematic-lighting",
+      "depth-of-field",
+      "photorealistic",
+      "cinematic",
+      "vintage"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -125,12 +162,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-12T11:36:11.519Z",
     "updatedAt": "2026-06-22T08:38:26.012Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "cinematic-lighting",
+      "close-up",
+      "full-body",
+      "cinematic",
+      "monochrome"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -148,12 +193,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-04T07:47:20.138Z",
     "updatedAt": "2026-07-04T07:47:20.138Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "soft-lighting",
+      "cinematic"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -171,12 +221,20 @@
     "isTrending": true,
     "isLatest": true,
     "isFeatured": true,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-04T08:51:41.537Z",
     "updatedAt": "2026-07-15T07:49:28.326Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "studio-lighting",
+      "depth-of-field",
+      "photorealistic",
+      "cinematic",
+      "luxury"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -194,12 +252,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-04T08:54:00.947Z",
     "updatedAt": "2026-07-04T08:54:00.947Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "photorealistic",
+      "portrait-photography"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -217,12 +280,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T06:17:50.354Z",
     "updatedAt": "2026-07-10T06:17:50.354Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "neon-lighting",
+      "rim-lighting",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -240,12 +310,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T10:11:12.428Z",
     "updatedAt": "2026-07-10T10:11:12.429Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "golden-hour",
+      "depth-of-field",
+      "cinematic",
+      "luxury"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -263,12 +340,18 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T10:12:28.540Z",
     "updatedAt": "2026-07-10T10:12:28.540Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "photorealistic",
+      "cinematic",
+      "vintage"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -286,12 +369,18 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T10:13:23.335Z",
     "updatedAt": "2026-07-10T10:13:23.335Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "cinematic-lighting",
+      "cinematic",
+      "luxury"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -309,12 +398,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T10:26:37.117Z",
     "updatedAt": "2026-07-10T10:26:37.117Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "depth-of-field",
+      "cinematic"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -332,12 +426,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T10:27:29.941Z",
     "updatedAt": "2026-07-10T10:27:29.941Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "outdoors",
+      "portrait-photography"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -355,12 +454,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T10:28:22.515Z",
     "updatedAt": "2026-07-10T10:28:22.515Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "golden-hour",
+      "cinematic",
+      "editorial",
+      "luxury"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -378,12 +484,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T10:29:12.981Z",
     "updatedAt": "2026-07-10T10:29:12.981Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "depth-of-field",
+      "cinematic",
+      "luxury",
+      "culinary"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -401,12 +514,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T10:29:57.768Z",
     "updatedAt": "2026-07-10T10:29:57.768Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "cinematic",
+      "portrait-photography"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -424,12 +542,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T10:30:46.730Z",
     "updatedAt": "2026-07-10T10:30:46.730Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "cinematic",
+      "portrait-photography"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -447,12 +570,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T10:33:42.240Z",
     "updatedAt": "2026-07-10T10:33:42.240Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "cinematic",
+      "luxury"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -470,12 +598,18 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T10:34:24.325Z",
     "updatedAt": "2026-07-10T10:34:24.325Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "cinematic-lighting",
+      "cinematic",
+      "outdoors"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -493,12 +627,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T10:35:12.478Z",
     "updatedAt": "2026-07-10T10:35:12.478Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "cinematic",
+      "luxury"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -516,12 +655,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T10:35:59.016Z",
     "updatedAt": "2026-07-10T10:35:59.016Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "cinematic",
+      "portrait-photography"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -539,12 +683,18 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T10:36:43.190Z",
     "updatedAt": "2026-07-10T10:36:43.190Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "natural-lighting",
+      "editorial",
+      "luxury"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -562,12 +712,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T10:37:28.850Z",
     "updatedAt": "2026-07-10T10:37:28.850Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "cinematic",
+      "portrait-photography"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -585,12 +740,18 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T10:38:34.228Z",
     "updatedAt": "2026-07-10T10:38:34.228Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "cinematic-lighting",
+      "cinematic",
+      "outdoors"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -608,12 +769,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T10:39:24.522Z",
     "updatedAt": "2026-07-10T10:39:24.522Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "natural-lighting",
+      "cinematic"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -631,12 +797,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T10:39:55.682Z",
     "updatedAt": "2026-07-10T10:39:55.682Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "cinematic",
+      "luxury"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -654,12 +825,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T10:40:42.553Z",
     "updatedAt": "2026-07-10T10:40:42.553Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "cinematic",
+      "portrait-photography"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -677,12 +853,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T10:41:58.926Z",
     "updatedAt": "2026-07-10T10:41:58.926Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "neon-lighting",
+      "photorealistic",
+      "cinematic",
+      "surreal"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -700,12 +883,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T10:43:02.180Z",
     "updatedAt": "2026-07-10T10:43:02.180Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "cinematic",
+      "portrait-photography"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -723,12 +911,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T10:43:58.911Z",
     "updatedAt": "2026-07-10T10:43:58.911Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "cinematic",
+      "vintage"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -746,12 +939,17 @@
     "isTrending": true,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T10:44:32.858Z",
     "updatedAt": "2026-07-15T07:44:51.774Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "cinematic",
+      "outdoors"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -769,12 +967,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T10:45:27.780Z",
     "updatedAt": "2026-07-10T10:45:27.780Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "volumetric-lighting",
+      "photorealistic",
+      "cinematic",
+      "outdoors"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -792,12 +997,18 @@
     "isTrending": true,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-11T08:11:28.297Z",
     "updatedAt": "2026-07-15T07:42:13.923Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "close-up",
+      "cinematic",
+      "minimalist"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -815,12 +1026,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-11T08:19:13.462Z",
     "updatedAt": "2026-07-11T08:19:13.462Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "natural-lighting",
+      "depth-of-field",
+      "telephoto",
+      "cinematic",
+      "luxury"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -838,12 +1057,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-11T09:19:51.051Z",
     "updatedAt": "2026-07-11T09:19:51.051Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "depth-of-field",
+      "telephoto",
+      "symmetrical",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -861,12 +1088,17 @@
     "isTrending": true,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-11T09:35:10.567Z",
     "updatedAt": "2026-07-15T07:41:48.533Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "portrait-photography",
+      "lighting"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -884,12 +1116,18 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-15T08:22:55.284Z",
     "updatedAt": "2026-07-15T08:22:55.284Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "portrait-photography",
+      "portrait",
+      "lighting"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -907,12 +1145,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-15T08:26:29.674Z",
     "updatedAt": "2026-07-15T08:26:29.674Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "cinematic",
+      "concept-art"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -930,12 +1173,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-20T11:30:19.498Z",
     "updatedAt": "2026-07-20T11:30:19.498Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "rim-lighting",
+      "telephoto",
+      "photorealistic",
+      "cinematic",
+      "3d-render"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -953,12 +1204,20 @@
     "isTrending": true,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-21T16:37:12.944Z",
     "updatedAt": "2026-07-21T16:37:12.944Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "cinematic-lighting",
+      "close-up",
+      "depth-of-field",
+      "telephoto",
+      "photorealistic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -976,12 +1235,18 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-21T16:46:01.975Z",
     "updatedAt": "2026-07-21T16:46:01.975Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "neon-lighting",
+      "close-up",
+      "monochrome"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -999,12 +1264,19 @@
     "isTrending": true,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-21T16:57:19.260Z",
     "updatedAt": "2026-07-21T16:57:19.260Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "studio-lighting",
+      "photorealistic",
+      "cinematic",
+      "vintage"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1022,12 +1294,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-22T06:00:00.059Z",
     "updatedAt": "2026-07-22T06:00:00.059Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "cinematic-lighting",
+      "natural-lighting",
+      "depth-of-field",
+      "telephoto",
+      "photorealistic"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -1045,12 +1325,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-22T06:03:44.205Z",
     "updatedAt": "2026-07-22T06:03:44.205Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "rim-lighting",
+      "photorealistic"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -1068,12 +1353,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-22T06:34:49.076Z",
     "updatedAt": "2026-07-22T06:34:49.076Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "golden-hour",
+      "photorealistic",
+      "cinematic",
+      "urban"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -1091,12 +1383,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-22T06:53:32.963Z",
     "updatedAt": "2026-07-22T06:53:32.963Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "natural-lighting",
+      "depth-of-field",
+      "photorealistic",
+      "cinematic",
+      "minimalist"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -1114,12 +1414,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-22T07:07:53.239Z",
     "updatedAt": "2026-07-22T07:07:53.239Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "golden-hour",
+      "natural-lighting",
+      "depth-of-field",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -1137,12 +1445,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-22T07:19:01.253Z",
     "updatedAt": "2026-07-22T07:19:01.253Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "cinematic-lighting",
+      "natural-lighting",
+      "depth-of-field",
+      "telephoto",
+      "photorealistic"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -1160,12 +1476,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-24T02:51:02.671Z",
     "updatedAt": "2026-07-24T02:51:02.671Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "cinematic-lighting",
+      "photorealistic",
+      "cinematic",
+      "minimalist",
+      "streetwear"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -1183,12 +1507,18 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-24T03:01:16.368Z",
     "updatedAt": "2026-07-24T03:01:16.368Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "cinematic-lighting",
+      "cinematic",
+      "streetwear"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1206,12 +1536,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-24T03:03:23.852Z",
     "updatedAt": "2026-07-24T03:03:23.852Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "studio-lighting",
+      "minimalist",
+      "3d-render",
+      "streetwear"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1229,17 +1566,23 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-24T03:46:12.929Z",
     "updatedAt": "2026-07-24T03:46:12.929Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "studio-lighting",
+      "photorealistic"
+    ],
     "models": [
       "Chat GPT"
     ],
     "quality": "high",
-    "seoIndex": false
+    "seoIndex": false,
+    "aspectRatio": "1:1"
   },
   {
     "id": "cm0h0knir45",
@@ -1252,12 +1595,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-24T04:18:57.732Z",
     "updatedAt": "2026-07-24T04:18:57.732Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "full-body",
+      "photorealistic",
+      "cinematic",
+      "editorial",
+      "vintage"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1275,12 +1626,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-24T04:26:41.554Z",
     "updatedAt": "2026-07-24T04:26:41.554Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "golden-hour",
+      "photorealistic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1298,12 +1654,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-24T04:28:11.410Z",
     "updatedAt": "2026-07-24T04:28:11.410Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "close-up",
+      "illustration"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1321,12 +1682,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-24T04:29:51.214Z",
     "updatedAt": "2026-07-24T04:29:51.214Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "close-up",
+      "cinematic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1344,12 +1710,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-24T04:33:50.407Z",
     "updatedAt": "2026-07-24T04:33:50.407Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "close-up",
+      "cinematic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1367,12 +1738,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-24T04:43:22.637Z",
     "updatedAt": "2026-07-24T04:43:22.637Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "cinematic-lighting",
+      "depth-of-field",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1390,12 +1768,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-24T04:45:30.947Z",
     "updatedAt": "2026-07-24T04:45:30.947Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1413,12 +1796,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-24T04:50:04.448Z",
     "updatedAt": "2026-07-24T04:50:04.448Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "cinematic-lighting",
+      "close-up",
+      "cinematic",
+      "streetwear"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1436,12 +1826,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-01T07:22:26.709Z",
     "updatedAt": "2026-08-01T07:22:26.709Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "golden-hour",
+      "natural-lighting",
+      "photorealistic",
+      "cinematic",
+      "outdoors"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -1459,12 +1857,20 @@
     "isTrending": true,
     "isLatest": true,
     "isFeatured": true,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-01T08:03:10.054Z",
     "updatedAt": "2026-08-01T08:03:10.054Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "symmetrical",
+      "photorealistic",
+      "editorial",
+      "minimalist",
+      "luxury"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -1482,12 +1888,20 @@
     "isTrending": true,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-01T08:07:20.027Z",
     "updatedAt": "2026-08-01T08:07:20.027Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "natural-lighting",
+      "depth-of-field",
+      "telephoto",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1505,12 +1919,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-01T08:10:51.350Z",
     "updatedAt": "2026-08-01T08:10:51.350Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "depth-of-field",
+      "photorealistic",
+      "cinematic",
+      "outdoors"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -1528,12 +1949,20 @@
     "isTrending": true,
     "isLatest": true,
     "isFeatured": true,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-01T08:15:24.483Z",
     "updatedAt": "2026-08-01T08:15:24.483Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "cinematic-lighting",
+      "natural-lighting",
+      "close-up",
+      "depth-of-field",
+      "telephoto"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -1551,12 +1980,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-01T08:19:25.539Z",
     "updatedAt": "2026-08-01T08:19:25.539Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "golden-hour",
+      "volumetric-lighting",
+      "cinematic-lighting",
+      "close-up",
+      "depth-of-field"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -1574,12 +2011,17 @@
     "isTrending": true,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-01T08:25:12.827Z",
     "updatedAt": "2026-08-01T08:25:12.827Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "studio-lighting",
+      "cinematic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1597,12 +2039,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-01T08:25:52.759Z",
     "updatedAt": "2026-08-01T08:25:52.759Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "depth-of-field",
+      "photorealistic",
+      "cinematic",
+      "editorial",
+      "luxury"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -1620,12 +2070,17 @@
     "isTrending": true,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-01T08:31:18.250Z",
     "updatedAt": "2026-08-01T08:31:18.250Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "studio-lighting",
+      "cinematic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1643,12 +2098,20 @@
     "isTrending": true,
     "isLatest": true,
     "isFeatured": true,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-02T15:05:27.898Z",
     "updatedAt": "2026-08-02T15:05:27.898Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "neon-lighting",
+      "rim-lighting",
+      "depth-of-field",
+      "cinematic",
+      "streetwear"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1666,17 +2129,31 @@
     "isTrending": true,
     "isLatest": true,
     "isFeatured": true,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-02T15:58:32.292Z",
     "updatedAt": "2026-08-02T15:58:32.292Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "studio-lighting",
+      "depth-of-field",
+      "telephoto",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Chat GPT"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": true,
+    "editorNotes": {
+      "whyItWorks": "Focusing on a micro-narrative gesture—kneeling on the pavement to tie a partner's shoelace—grounds the composition in believable emotion. The low-angle 35mm perspective draws viewer attention to the hands and footwear while the city street gently blurs into rich cinematic anamorphic bokeh behind them.",
+      "variationGuide": "Move the setting from a wet metropolitan crosswalk to an autumn park trail with fallen amber maple leaves, or an outdoor train platform under warm evening station lamps. You can also adjust the wardrobe from casual streetwear to tailored wool overcoats.",
+      "failureModes": "Depicting intertwined hands and footwear is notoriously prone to malformed fingers or mismatched shoelace geometry. Keep the camera distance at a medium shot rather than extreme macro, and specify 'physically accurate hand anatomy resting naturally on leather sneaker'.",
+      "exampleTweak": "Add 'rain-slicked cobblestone street reflecting neon shop signs, gentle puddle reflections, soft atmospheric mist illuminated by street lamps'."
+    }
   },
   {
     "id": "cmc7080yvgd",
@@ -1689,12 +2166,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-05T06:50:57.866Z",
     "updatedAt": "2026-08-05T06:50:57.866Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "dramatic-lighting",
+      "close-up",
+      "depth-of-field",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1712,12 +2197,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-05T07:28:28.979Z",
     "updatedAt": "2026-08-05T07:28:28.979Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "neon-lighting",
+      "cinematic-lighting",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1735,12 +2227,16 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-05T08:13:26.005Z",
     "updatedAt": "2026-08-05T08:13:26.005Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "portrait-photography"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1758,12 +2254,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-05T08:25:37.394Z",
     "updatedAt": "2026-08-05T08:25:37.394Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "portrait-photography",
+      "portrait"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1781,12 +2282,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-05T08:32:26.343Z",
     "updatedAt": "2026-08-05T08:32:26.343Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "cinematic-lighting",
+      "close-up",
+      "cinematic",
+      "streetwear"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1804,12 +2312,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-05T08:51:48.264Z",
     "updatedAt": "2026-08-05T08:51:48.264Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "portrait-photography",
+      "lighting"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1827,12 +2340,18 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-05T08:55:22.102Z",
     "updatedAt": "2026-08-05T08:55:22.102Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "close-up",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1850,12 +2369,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-05T09:00:56.411Z",
     "updatedAt": "2026-08-05T09:00:56.411Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "neon-lighting",
+      "illustration",
+      "surreal",
+      "streetwear"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1873,12 +2399,20 @@
     "isTrending": true,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-07T08:44:42.788Z",
     "updatedAt": "2026-08-07T08:44:42.788Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "studio-lighting",
+      "photorealistic",
+      "editorial",
+      "minimalist",
+      "streetwear"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1896,12 +2430,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-07T08:50:33.104Z",
     "updatedAt": "2026-08-07T08:50:33.104Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "depth-of-field",
+      "photorealistic",
+      "cinematic",
+      "editorial",
+      "minimalist"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1919,12 +2461,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-07T11:39:14.548Z",
     "updatedAt": "2026-08-07T11:39:14.548Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "studio-lighting",
+      "depth-of-field",
+      "photorealistic",
+      "cinematic",
+      "luxury"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1942,12 +2492,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-07T11:55:52.818Z",
     "updatedAt": "2026-08-07T11:55:52.818Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "golden-hour",
+      "rim-lighting",
+      "natural-lighting",
+      "depth-of-field",
+      "telephoto"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1965,12 +2523,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-07T12:05:24.178Z",
     "updatedAt": "2026-08-07T12:05:24.178Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "dramatic-lighting",
+      "neon-lighting",
+      "photorealistic",
+      "cinematic",
+      "cyberpunk"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -1988,12 +2554,18 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-07T16:08:04.028Z",
     "updatedAt": "2026-08-07T16:08:04.028Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "cinematic",
+      "editorial",
+      "luxury"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2011,12 +2583,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-07T16:30:34.569Z",
     "updatedAt": "2026-08-07T16:30:34.569Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "natural-lighting",
+      "depth-of-field",
+      "editorial",
+      "luxury"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2034,17 +2613,25 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-08T19:00:38.124Z",
     "updatedAt": "2026-08-08T19:00:38.124Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "photorealistic",
+      "cinematic",
+      "minimalist",
+      "surreal"
+    ],
     "models": [
       "Chat GPT"
     ],
     "quality": "high",
-    "seoIndex": false
+    "seoIndex": false,
+    "aspectRatio": "9:16"
   },
   {
     "id": "cmoynui0j99",
@@ -2057,12 +2644,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-09T10:48:07.040Z",
     "updatedAt": "2026-08-09T10:48:07.040Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "cinematic",
+      "portrait-photography"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2080,12 +2672,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-09T10:55:30.778Z",
     "updatedAt": "2026-08-09T10:55:30.778Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "cinematic-lighting",
+      "depth-of-field",
+      "telephoto",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2103,12 +2703,18 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-11T09:51:00.214Z",
     "updatedAt": "2026-08-11T09:51:00.214Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "depth-of-field",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2126,12 +2732,18 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-11T09:52:30.364Z",
     "updatedAt": "2026-08-11T09:52:30.364Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "depth-of-field",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2149,12 +2761,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-11T10:16:29.247Z",
     "updatedAt": "2026-08-11T10:16:29.247Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "depth-of-field",
+      "symmetrical",
+      "photorealistic",
+      "cinematic",
+      "editorial"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2172,12 +2792,18 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-13T17:37:41.246Z",
     "updatedAt": "2026-08-13T17:37:41.246Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "depth-of-field",
+      "cinematic",
+      "outdoors"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2195,12 +2821,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-13T17:54:07.182Z",
     "updatedAt": "2026-08-13T17:54:07.182Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "streetwear",
+      "portrait-photography"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2218,12 +2849,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-14T07:28:19.023Z",
     "updatedAt": "2026-08-14T07:28:19.023Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "photorealistic",
+      "cinematic",
+      "editorial",
+      "streetwear"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2241,12 +2879,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-14T08:51:36.426Z",
     "updatedAt": "2026-08-14T08:51:36.426Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "studio-lighting",
+      "depth-of-field",
+      "telephoto",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2264,12 +2910,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-14T08:54:43.663Z",
     "updatedAt": "2026-08-14T08:54:43.663Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "close-up",
+      "cinematic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2287,12 +2938,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-14T09:12:08.449Z",
     "updatedAt": "2026-08-14T09:12:08.449Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "depth-of-field",
+      "photorealistic",
+      "cinematic",
+      "vintage"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2310,12 +2968,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-14T09:15:04.899Z",
     "updatedAt": "2026-08-14T09:15:04.899Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2333,12 +2996,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-14T09:16:13.194Z",
     "updatedAt": "2026-08-14T09:16:13.194Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2356,12 +3024,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-14T09:19:36.740Z",
     "updatedAt": "2026-08-14T09:19:36.740Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "cinematic-lighting",
+      "cinematic",
+      "concept-art",
+      "illustration"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2379,12 +3054,18 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-14T09:23:43.836Z",
     "updatedAt": "2026-08-14T09:23:43.836Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "dramatic-lighting",
+      "cinematic",
+      "editorial"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -2402,16 +3083,107 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-18T12:53:13.818Z",
     "updatedAt": "2026-08-18T12:53:13.818Z",
-    "tags": [],
+    "tags": [
+      "couple",
+      "romantic",
+      "cinematic-lighting",
+      "natural-lighting",
+      "depth-of-field",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Chat GPT"
     ],
     "quality": "high",
     "seoIndex": false
+  },
+  {
+    "id": "cmouoiogddy",
+    "title": "Together: A Beautiful Journey",
+    "slug": "together-a-beautiful-journey-5iwdr",
+    "category": "Couple",
+    "fullPrompt": "Ultra-realistic 8K cinematic Indian couple love-story poster, 9:16 vertical. Elegant multi-scene collage: romantic couple in luxurious black-and-gold traditional outfits, large monochrome close-up portraits above, intimate couple moments, ancient South Indian temple, lake sunset, flowers and warm golden atmosphere. Seamless watercolor/torn-paper transitions, premium editorial composition, realistic skin and facial details, cinematic depth, soft volumetric lighting.  Large embossed metallic-gold “TOGETHER” title with “A BEAUTIFUL JOURNEY” beneath, minimal elegant typography, sophisticated luxury wedding aesthetic, photorealistic, masterpiece quality. ",
+    "image": "https://res.cloudinary.com/dfbacu2lw/image/upload/v1789544806/prompts/viind7h73ualz1xtvmar.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "AIPromptNest Editorial Team",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-09-16T07:46:46.468Z",
+    "updatedAt": "2026-09-16T07:46:46.468Z",
+    "tags": [
+      "couple",
+      "romantic",
+      "volumetric-lighting",
+      "close-up",
+      "photorealistic",
+      "cinematic",
+      "editorial"
+    ],
+    "models": [
+      "Chat GPT"
+    ]
+  },
+  {
+    "id": "cmd4mq3xlak",
+    "title": "2027 Together Through Every Season",
+    "slug": "2027-together-through-every-season-oc2h0",
+    "category": "Couple",
+    "fullPrompt": "Please use this photo to create a desktop calendar for January-December 2027. Format: A4 vertical. Features: indian illustration style, distinct character features, natural expressions, full-body composition, dynamic poses, exquisite clothing details, hand-drawn doodle style, splatter brushstrokes, free lines, a mix of pastels and ink, comic sketch texture, simple white background, symbolic elements around the edges, strong atmosphere, high detail, high quality  ",
+    "image": "https://res.cloudinary.com/dfbacu2lw/image/upload/v1789545098/prompts/g4zswhrngk9w3eybavtu.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "AIPromptNest Editorial Team",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-09-16T07:51:38.028Z",
+    "updatedAt": "2026-09-16T07:51:38.028Z",
+    "tags": [
+      "couple",
+      "romantic",
+      "illustration",
+      "action-shot"
+    ],
+    "models": [
+      "Chat GPT"
+    ]
+  },
+  {
+    "id": "cmm9em8nzfn",
+    "title": "Tender Staircase Embrace",
+    "slug": "tender-staircase-embrace-r2w22",
+    "category": "Couple",
+    "fullPrompt": "Max man CINEMATIC LOW-KEY PORTRAIT OF A YOUNG COUPLE SITTING ON DARK WOODEN STAIRS. THE WOMAN, WEARING A MUSTARD YELLOW SWEATER, SITS SLIGHTLY ABOVE THE MAN, LOOKING DOWN AT HIM AFFECTIONATELY. THE MAN, IN A GREEN PLAID SHIRT AND DARK JEANS, LEANS HIS HEAD AGAINST HER LAP WITH HIS EYES CLOSED. DRAMATIC man CHIAROSCURO LIGHTING, DEEP SHADOWS, SINGLE LIGHT SOURCE FROM THE LEFT, DARK BACKGROUND WITH A WOODEN RAILING VISIBLE ON THE RIGHT  PHOTOREALISTIC, 85MM LENS, MOODY ATMOSPHERE,  ",
+    "image": "https://res.cloudinary.com/dfbacu2lw/image/upload/v1789545192/prompts/ah2tkywft3dds9zhc24p.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "AIPromptNest Editorial Team",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-09-16T07:53:11.937Z",
+    "updatedAt": "2026-09-16T07:53:11.937Z",
+    "tags": [
+      "couple",
+      "romantic",
+      "dramatic-lighting",
+      "telephoto",
+      "photorealistic",
+      "cinematic"
+    ],
+    "models": [
+      "Chat GPT"
+    ]
   }
 ]

@@ -18,13 +18,13 @@ export const FAQ_DATA: FAQItem[] = [
     id: "g1",
     category: "general",
     question: "What is AIPromptNest?",
-    answer: "AIPromptNest is a free, expert-curated repository of Gemini AI prompts. We help creators, prompt engineers, and AI developers find organized, high-quality, and tested prompt templates for generating high-definition images, code, and text using Google Gemini."
+    answer: "AIPromptNest is a free prompt library for Gemini AI and ChatGPT. We help creators, prompt engineers, and AI enthusiasts find organized, structured prompt templates for generating high-quality images using Google Gemini and other AI image generators."
   },
   {
     id: "g2",
     category: "general",
     question: "Is AIPromptNest free to use?",
-    answer: "Yes, 100% free! All prompts in our public catalog can be copied and used directly in your projects without any charges, subscription models, or hidden fees. We believe in democratizing access to high-quality prompt engineering templates."
+    answer: "Yes, completely free to use! All prompts in our public catalog can be copied and used directly in your projects without any charges, subscription models, or hidden fees. We believe in democratizing access to high-quality prompt engineering templates."
   },
   {
     id: "p1",
@@ -42,7 +42,7 @@ export const FAQ_DATA: FAQItem[] = [
     id: "p3",
     category: "prompting",
     question: "Do these prompts work on other AI generators like ChatGPT?",
-    answer: "While specifically optimized for Google Gemini's rendering nuances, styles, and prompt weights, the core compositional language, subjects, lighting instructions, and descriptors will work well on Stable Diffusion as well."
+    answer: "While structured with Google Gemini's rendering nuances, styles, and prompt weights, the core compositional language, subjects, lighting instructions, and descriptors will work well on Stable Diffusion as well."
   },
   {
     id: "l1",

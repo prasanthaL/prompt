@@ -10,12 +10,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-12T11:59:19.474Z",
     "updatedAt": "2026-06-22T07:03:00.788Z",
-    "tags": [],
+    "tags": [
+      "wildlife",
+      "nature",
+      "soft-lighting",
+      "volumetric-lighting",
+      "natural-lighting",
+      "cinematic",
+      "outdoors"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -33,12 +41,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-12T12:00:47.457Z",
     "updatedAt": "2026-06-22T07:02:17.369Z",
-    "tags": [],
+    "tags": [
+      "wildlife",
+      "nature",
+      "golden-hour",
+      "photorealistic",
+      "editorial",
+      "action-shot"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -56,17 +71,31 @@
     "isTrending": false,
     "isLatest": true,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-12T12:01:53.246Z",
     "updatedAt": "2026-06-22T07:01:22.799Z",
-    "tags": [],
+    "tags": [
+      "wildlife",
+      "nature",
+      "golden-hour",
+      "natural-lighting",
+      "wide-angle",
+      "cinematic",
+      "vintage"
+    ],
     "models": [
       "Gemini AI"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": true,
+    "editorNotes": {
+      "whyItWorks": "This prompt succeeds through its strong focal anchor—a vintage Italian scooter—combined with dynamic animal motion and directional golden-hour illumination. By specifying warm rim lighting and dust particles suspended in air, it guides the diffusion model to establish tangible atmospheric depth rather than a flat cutout composite.",
+      "variationGuide": "To vary this composition, substitute the vintage Vespa with an open-top retro safari Land Cruiser or a wooden river skiff. You can also shift the time of day from golden dusk to misty early dawn, which changes the volumetric lighting from amber rays into cool blue-grey haze.",
+      "failureModes": "AI models frequently struggle with anatomical scale when placing multiple wildlife species together. A common failure is the tiger or companion animals appearing unnaturally small or morphing directly into the scooter chassis. Adding 'distinct subject separation' and 'realistic animal scale' prevents spatial blending.",
+      "exampleTweak": "Replace 'warm golden sunset lighting' with 'crisp morning mountain mist, soft diffused backlight, 35mm documentary film grain'."
+    }
   },
   {
     "id": "cm1640ek8y8",
@@ -79,12 +108,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-12T12:03:05.356Z",
     "updatedAt": "2026-06-22T07:00:28.540Z",
-    "tags": [],
+    "tags": [
+      "wildlife",
+      "nature",
+      "cinematic-lighting",
+      "cinematic",
+      "concept-art",
+      "action-shot"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -102,12 +138,18 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-12T12:04:08.185Z",
     "updatedAt": "2026-06-22T06:59:39.572Z",
-    "tags": [],
+    "tags": [
+      "wildlife",
+      "nature",
+      "natural-lighting",
+      "cinematic",
+      "action-shot"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -125,12 +167,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-12T12:05:08.577Z",
     "updatedAt": "2026-06-22T06:58:55.790Z",
-    "tags": [],
+    "tags": [
+      "wildlife",
+      "nature",
+      "full-body",
+      "animals"
+    ],
     "models": [
       "Gemini AI"
     ],

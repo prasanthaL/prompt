@@ -10,12 +10,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 210,
     "likes": 88,
     "createdAt": "2026-07-10T12:00:00.000Z",
     "updatedAt": "2026-07-10T09:34:27.464Z",
-    "tags": [],
+    "tags": [
+      "cyberpunk",
+      "futuristic",
+      "neon-lighting",
+      "cinematic"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -33,12 +38,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T09:35:00.019Z",
     "updatedAt": "2026-07-10T09:35:00.019Z",
-    "tags": [],
+    "tags": [
+      "cyberpunk",
+      "futuristic",
+      "volumetric-lighting",
+      "neon-lighting",
+      "photorealistic",
+      "cinematic",
+      "3d-render"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -56,12 +69,18 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T09:35:55.225Z",
     "updatedAt": "2026-07-10T09:35:55.225Z",
-    "tags": [],
+    "tags": [
+      "cyberpunk",
+      "futuristic",
+      "neon-lighting",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -79,17 +98,31 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T09:36:48.750Z",
     "updatedAt": "2026-07-10T09:36:48.750Z",
-    "tags": [],
+    "tags": [
+      "cyberpunk",
+      "futuristic",
+      "volumetric-lighting",
+      "neon-lighting",
+      "cinematic-lighting",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Gemini AI"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": true,
+    "editorNotes": {
+      "whyItWorks": "The contrast between sleek polished synthetic obsidian chassis panels and glowing exposed fiber-optic circuitry gives the android instant tactile realism. Rain-soaked neon backlighting creates vivid specular highlights along the metallic jawline and synthetic shoulders.",
+      "variationGuide": "Change the stealth operative archetype to a dismantled android repair bay scene or a diplomatic corporate envoy in a high-rise neo-Tokyo boardroom. Substitute violet and cyan neon for monochromatic amber sodium-vapor street lighting.",
+      "failureModes": "AI generators often add excessive chaotic wires that obscure the character's humanoid silhouette. Counteract this clutter by specifying 'clean industrial seams, matte ceramic plating, and recessed internal wiring'.",
+      "exampleTweak": "Add 'rain droplets beading on polished carbon-fiber armor, glowing orange thermal optic visor, vertical 9:16 telephoto framing, f/2.0 aperture'."
+    }
   },
   {
     "id": "cmedoj23zxa",
@@ -102,12 +135,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T09:37:47.993Z",
     "updatedAt": "2026-07-10T09:37:47.993Z",
-    "tags": [],
+    "tags": [
+      "cyberpunk",
+      "futuristic",
+      "volumetric-lighting",
+      "neon-lighting",
+      "photorealistic",
+      "cinematic",
+      "urban"
+    ],
     "models": [
       "Gemini AI"
     ],

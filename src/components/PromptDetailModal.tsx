@@ -188,16 +188,10 @@ const PromptDetailModal = ({ isOpen, onClose, prompt }: PromptDetailModalProps) 
                 </div>
                 <h2 className="text-3xl font-bold text-white leading-tight">{prompt.title}</h2>
                 <div className="flex items-center gap-2">
-                  <div className="relative w-8 h-8 rounded-full bg-white/10 overflow-hidden">
-                    <Image
-                      src={`https://i.pravatar.cc/100?u=${prompt.author}`}
-                      alt={prompt.author}
-                      width={32}
-                      height={32}
-                      className="object-cover"
-                    />
+                  <div className="relative w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center border border-primary/30 text-xs font-bold text-primary">
+                    AP
                   </div>
-                  <span className="text-sm text-white/70 font-medium">by {prompt.author}</span>
+                  <span className="text-sm text-white/70 font-medium">{prompt.author && prompt.author.toLowerCase() !== "admin" ? prompt.author : "AIPromptNest Editorial Team"}</span>
                 </div>
               </div>
             </div>

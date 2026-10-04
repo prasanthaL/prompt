@@ -6,8 +6,9 @@ import HowToUse from "./HowToUse";
 import type { Metadata } from "next";
 import { getAllPrompts } from "@/lib/json-db";
 import { CATEGORY_DESCRIPTIONS } from "@/data/category-descriptions";
+import { SITE_URL } from "@/lib/site";
 
-const siteUrl = "https://www.aipromptnest.com";
+const siteUrl = SITE_URL;
 
 interface PageProps {
   searchParams: Promise<{
@@ -155,12 +156,12 @@ export default async function BrowsePage({ searchParams }: PageProps) {
     name: activeCategoryDesc.name,
     headline: activeCategoryDesc.name,
     description: activeCategoryDesc.description,
-    url: `https://www.aipromptnest.com/browse${category !== "all" ? `?category=${encodeURIComponent(category)}` : ""}`,
+    url: `${siteUrl}/browse${category !== "all" ? `?category=${encodeURIComponent(category)}` : ""}`,
     inLanguage: "en",
     isPartOf: {
       "@type": "WebSite",
       name: "AIPromptNest",
-      url: "https://www.aipromptnest.com",
+      url: siteUrl,
     },
   };
 
@@ -169,12 +170,12 @@ export default async function BrowsePage({ searchParams }: PageProps) {
     "@type": "CollectionPage",
     name: activeCategoryDesc.name,
     description: activeCategoryDesc.description,
-    url: `https://www.aipromptnest.com/browse${category !== "all" ? `?category=${encodeURIComponent(category)}` : ""}`,
+    url: `${siteUrl}/browse${category !== "all" ? `?category=${encodeURIComponent(category)}` : ""}`,
     inLanguage: "en",
     isPartOf: {
       "@type": "WebSite",
       name: "AIPromptNest",
-      url: "https://www.aipromptnest.com",
+      url: siteUrl,
     },
   };
 
@@ -183,13 +184,13 @@ export default async function BrowsePage({ searchParams }: PageProps) {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.aipromptnest.com",
+      item: siteUrl,
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Browse Prompts",
-      item: "https://www.aipromptnest.com/browse",
+      item: `${siteUrl}/browse`,
     },
   ];
 
@@ -198,7 +199,7 @@ export default async function BrowsePage({ searchParams }: PageProps) {
       "@type": "ListItem",
       position: 3,
       name: activeCategoryDesc.name,
-      item: `https://www.aipromptnest.com/browse?category=${encodeURIComponent(category)}`,
+      item: `${siteUrl}/browse?category=${encodeURIComponent(category)}`,
     });
   }
 
@@ -213,12 +214,12 @@ export default async function BrowsePage({ searchParams }: PageProps) {
     "@type": "ItemList",
     name: `${activeCategoryDesc.name} - Page ${safePage}`,
     description: `List of AI image prompts in category: ${activeCategoryDesc.name}`,
-    url: `https://www.aipromptnest.com/browse${category !== "all" ? `?category=${encodeURIComponent(category)}` : ""}${safePage > 1 ? `&page=${safePage}` : ""}`,
+    url: `${siteUrl}/browse${category !== "all" ? `?category=${encodeURIComponent(category)}` : ""}${safePage > 1 ? `&page=${safePage}` : ""}`,
     numberOfItems: paginatedPrompts.length,
     itemListElement: paginatedPrompts.map((prompt, index) => ({
       "@type": "ListItem",
       position: index + 1,
-      url: `https://www.aipromptnest.com/prompts/${prompt.slug || prompt.id}`,
+      url: `${siteUrl}/prompts/${prompt.slug || prompt.id}`,
       name: prompt.title,
     })),
   };

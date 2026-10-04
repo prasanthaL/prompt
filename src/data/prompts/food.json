@@ -10,12 +10,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 150,
     "likes": 50,
     "createdAt": "2026-07-10T12:00:00.000Z",
     "updatedAt": "2026-07-10T09:49:27.067Z",
-    "tags": [],
+    "tags": [
+      "food-photography",
+      "culinary",
+      "studio-lighting",
+      "close-up",
+      "photorealistic",
+      "commercial"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -33,17 +40,31 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T09:50:21.408Z",
     "updatedAt": "2026-07-10T09:50:21.408Z",
-    "tags": [],
+    "tags": [
+      "food-photography",
+      "culinary",
+      "studio-lighting",
+      "depth-of-field",
+      "photorealistic",
+      "cinematic",
+      "commercial"
+    ],
     "models": [
       "Gemini AI"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": true,
+    "editorNotes": {
+      "whyItWorks": "Commercial culinary photography requires precise lighting to look appetizing. This prompt pairs warm directional side lighting with glistening sear marks, melting compound butter, and wisps of rising steam, triggering sensory appeal and depth.",
+      "variationGuide": "Repurpose the tabletop setup for seared salmon with dill butter on slate, or braised lamb shank with rosemary reduction over polenta. Adjust the background from an intimate candlelit bistro to bright Scandinavian marble daylight.",
+      "failureModes": "Food prompts often generate unnaturally smooth or rubbery meat surfaces. To keep the sear realistic, emphasize 'caramelized crust texture, visible pink medium-rare interior fibers, and crystalline sea salt flakes'.",
+      "exampleTweak": "Add 'macro 100mm lens angle, caramelized garlic cloves and roasted thyme sprigs sizzling in browned pan juices on a dark cast-iron skillet'."
+    }
   },
   {
     "id": "cmut6oik49o",
@@ -56,12 +77,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T09:51:11.126Z",
     "updatedAt": "2026-07-10T09:51:11.126Z",
-    "tags": [],
+    "tags": [
+      "food-photography",
+      "culinary",
+      "studio-lighting",
+      "natural-lighting",
+      "photorealistic",
+      "cinematic",
+      "luxury"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -79,12 +108,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T09:51:57.011Z",
     "updatedAt": "2026-07-10T09:51:57.011Z",
-    "tags": [],
+    "tags": [
+      "food-photography",
+      "culinary",
+      "studio-lighting",
+      "photorealistic",
+      "cinematic",
+      "commercial"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -102,12 +138,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T09:52:49.430Z",
     "updatedAt": "2026-07-10T09:52:49.431Z",
-    "tags": [],
+    "tags": [
+      "food-photography",
+      "culinary",
+      "studio-lighting",
+      "natural-lighting",
+      "photorealistic",
+      "cinematic",
+      "commercial"
+    ],
     "models": [
       "Gemini AI"
     ],

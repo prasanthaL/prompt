@@ -10,17 +10,26 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-12T12:37:05.077Z",
     "updatedAt": "2026-06-22T06:53:57.409Z",
-    "tags": [],
+    "tags": [
+      "digital-art",
+      "concept-art",
+      "volumetric-lighting",
+      "neon-lighting",
+      "cinematic",
+      "cyberpunk",
+      "3d-render"
+    ],
     "models": [
       "Gemini AI"
     ],
     "quality": "high",
-    "seoIndex": false
+    "seoIndex": false,
+    "aspectRatio": "9:16"
   },
   {
     "id": "cml69kyctrk",
@@ -33,12 +42,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-12T12:38:18.230Z",
     "updatedAt": "2026-06-22T06:52:35.979Z",
-    "tags": [],
+    "tags": [
+      "digital-art",
+      "concept-art",
+      "dramatic-lighting",
+      "neon-lighting",
+      "rim-lighting",
+      "telephoto",
+      "cinematic"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -56,12 +73,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-12T12:39:36.118Z",
     "updatedAt": "2026-06-22T06:51:53.529Z",
-    "tags": [],
+    "tags": [
+      "digital-art",
+      "concept-art",
+      "neon-lighting",
+      "cinematic",
+      "cyberpunk",
+      "3d-render",
+      "surreal"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -79,17 +104,31 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-12T12:40:39.989Z",
     "updatedAt": "2026-06-22T06:50:15.965Z",
-    "tags": [],
+    "tags": [
+      "digital-art",
+      "concept-art",
+      "dramatic-lighting",
+      "rim-lighting",
+      "depth-of-field",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Gemini AI"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": true,
+    "editorNotes": {
+      "whyItWorks": "This prompt excels because it balances a serene, high-detail facial expression with a dynamic particle disintegration effect. The golden crescent aura provides a geometric anchor that prevents the disintegrating light motes from feeling like random digital noise.",
+      "variationGuide": "Swap the golden celestial aura for an eclipse ring or crystalline geometric prism. Transition the disintegration particles from golden embers into iridescent butterfly silhouettes or floating ink drops.",
+      "failureModes": "The disintegration effect often encroaches too aggressively onto the primary subject's eyes or nose, destroying the emotional focus. Keep the leading half of the face untouched while directing the dissipation toward the rear silhouette.",
+      "exampleTweak": "Shift the visual effect to 'lapis lazuli blue and liquid silver particles dissolving outward, backlit by a minimalist silver halo against dark velvet'."
+    }
   },
   {
     "id": "cm8uizor8pa",
@@ -102,12 +141,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-06-12T12:41:46.362Z",
     "updatedAt": "2026-06-22T06:42:54.955Z",
-    "tags": [],
+    "tags": [
+      "digital-art",
+      "concept-art",
+      "cinematic",
+      "editorial"
+    ],
     "models": [
       "Gemini AI"
     ],

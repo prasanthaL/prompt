@@ -10,12 +10,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 190,
     "likes": 70,
     "createdAt": "2026-07-10T12:00:00.000Z",
     "updatedAt": "2026-07-10T07:23:31.072Z",
-    "tags": [],
+    "tags": [
+      "mythology",
+      "folklore",
+      "cinematic",
+      "ancient-lore"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -33,12 +38,18 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T07:27:47.472Z",
     "updatedAt": "2026-07-10T07:27:47.472Z",
-    "tags": [],
+    "tags": [
+      "mythology",
+      "folklore",
+      "volumetric-lighting",
+      "cinematic",
+      "3d-render"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -56,12 +67,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T07:29:56.488Z",
     "updatedAt": "2026-07-10T07:29:56.489Z",
-    "tags": [],
+    "tags": [
+      "mythology",
+      "folklore",
+      "photorealistic",
+      "cinematic",
+      "illustration",
+      "outdoors"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -79,12 +97,18 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T07:32:22.309Z",
     "updatedAt": "2026-07-10T07:32:22.309Z",
-    "tags": [],
+    "tags": [
+      "mythology",
+      "folklore",
+      "volumetric-lighting",
+      "cinematic",
+      "outdoors"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -102,16 +126,27 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T07:33:12.697Z",
     "updatedAt": "2026-07-10T07:33:12.697Z",
-    "tags": [],
+    "tags": [
+      "mythology",
+      "folklore",
+      "cinematic",
+      "3d-render"
+    ],
     "models": [
       "Gemini AI"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": true,
+    "editorNotes": {
+      "whyItWorks": "Colossal golden gates rising into the aurora borealis establish epic Norse mythological grandeur. Intricate knotwork carvings, glowing runic inscriptions, and towering mountain glaciers amplify celestial majesty.",
+      "variationGuide": "Pivot from Norse mythology to Greek Mount Olympus with towering Corinthian columns above thunderclouds, or Egyptian Duat gates guarded by golden jackal statues under starry cosmic skies.",
+      "failureModes": "Architectural proportions at massive scale often collapse into chaotic, repetitive staircases. Specify 'clear central gate threshold, monumental symmetry, golden light pouring through open doors into starry sky'.",
+      "exampleTweak": "Add 'brave warrior silhouette standing at the base of the colossal golden doors, glowing blue runes glowing along the ice-carved archway'."
+    }
   }
 ]

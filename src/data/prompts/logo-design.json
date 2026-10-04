@@ -10,12 +10,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 250,
     "likes": 92,
     "createdAt": "2026-07-10T12:00:00.000Z",
     "updatedAt": "2026-09-13T13:48:02.743Z",
-    "tags": [],
+    "tags": [
+      "logo-design",
+      "branding",
+      "minimalist",
+      "vector-art"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -33,12 +38,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T08:16:53.192Z",
     "updatedAt": "2026-07-10T08:16:53.192Z",
-    "tags": [],
+    "tags": [
+      "logo-design",
+      "branding",
+      "symmetrical",
+      "luxury"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -56,12 +66,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T08:17:59.178Z",
     "updatedAt": "2026-07-10T08:17:59.178Z",
-    "tags": [],
+    "tags": [
+      "logo-design",
+      "branding",
+      "symmetrical",
+      "minimalist"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -79,12 +94,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T08:18:47.434Z",
     "updatedAt": "2026-07-10T08:18:47.434Z",
-    "tags": [],
+    "tags": [
+      "logo-design",
+      "branding",
+      "minimalist",
+      "vector-art"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -102,12 +122,18 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T08:22:51.726Z",
     "updatedAt": "2026-07-10T08:22:51.726Z",
-    "tags": [],
+    "tags": [
+      "logo-design",
+      "branding",
+      "minimalist",
+      "illustration",
+      "outdoors"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -125,12 +151,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-24T11:42:46.760Z",
     "updatedAt": "2026-07-24T11:42:46.760Z",
-    "tags": [],
+    "tags": [
+      "logo-design",
+      "branding",
+      "volumetric-lighting",
+      "neon-lighting"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -148,12 +179,18 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-24T12:13:08.026Z",
     "updatedAt": "2026-07-24T12:13:08.026Z",
-    "tags": [],
+    "tags": [
+      "logo-design",
+      "branding",
+      "symmetrical",
+      "cinematic",
+      "luxury"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -171,12 +208,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-24T12:16:46.626Z",
     "updatedAt": "2026-07-24T12:16:46.626Z",
-    "tags": [],
+    "tags": [
+      "logo-design",
+      "branding",
+      "studio-lighting",
+      "close-up",
+      "depth-of-field",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -194,12 +239,17 @@
     "isTrending": true,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-24T12:18:00.940Z",
     "updatedAt": "2026-07-24T12:18:00.940Z",
-    "tags": [],
+    "tags": [
+      "logo-design",
+      "branding",
+      "luxury",
+      "vector-art"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -217,12 +267,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-24T12:21:03.015Z",
     "updatedAt": "2026-07-24T12:21:03.015Z",
-    "tags": [],
+    "tags": [
+      "logo-design",
+      "branding",
+      "minimalist",
+      "vector-art"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -240,17 +295,30 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-24T12:29:48.597Z",
     "updatedAt": "2026-07-24T12:29:48.597Z",
-    "tags": [],
+    "tags": [
+      "logo-design",
+      "branding",
+      "studio-lighting",
+      "symmetrical",
+      "photorealistic",
+      "cinematic",
+      "minimalist"
+    ],
     "models": [
       "Gemini AI"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": true,
+    "editorNotes": {
+      "whyItWorks": "Clean vector heraldry demands sharp polygonal geometry and disciplined negative space. Integrating a subtle letter 'J' into the mane of a geometric lion head creates an upscale, memorable corporate emblem suitable for high-end hospitality or investment branding.",
+      "variationGuide": "Switch the monogram letter from 'J' to 'M' or 'A', or swap the lion mascot for an eagle, stag, or panther. You can also transition the metallic gradient from champagne gold to platinum silver or brushed rose copper.",
+      "failureModes": "Vector logo prompts frequently introduce photorealistic fur textures, complex shaded backgrounds, or messy distorted text. Enforce 'flat minimalist vector mark, sharp geometric angles, pure black solid background, zero typography'."
+    }
   },
   {
     "id": "cm404wuuv1o",
@@ -263,12 +331,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-24T12:33:06.031Z",
     "updatedAt": "2026-07-24T12:33:06.031Z",
-    "tags": [],
+    "tags": [
+      "logo-design",
+      "branding",
+      "studio-lighting",
+      "symmetrical",
+      "photorealistic",
+      "cinematic",
+      "3d-render"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -286,12 +362,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-24T12:36:22.109Z",
     "updatedAt": "2026-07-24T12:36:22.109Z",
-    "tags": [],
+    "tags": [
+      "logo-design",
+      "branding",
+      "luxury",
+      "vector-art"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -309,12 +390,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-24T12:38:54.962Z",
     "updatedAt": "2026-07-24T12:38:54.962Z",
-    "tags": [],
+    "tags": [
+      "logo-design",
+      "branding",
+      "luxury",
+      "vector-art"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -332,12 +418,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-24T12:40:47.787Z",
     "updatedAt": "2026-07-24T12:40:47.787Z",
-    "tags": [],
+    "tags": [
+      "logo-design",
+      "branding",
+      "3d-render",
+      "vector-art"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -355,12 +446,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-24T12:47:02.526Z",
     "updatedAt": "2026-07-24T12:47:02.526Z",
-    "tags": [],
+    "tags": [
+      "logo-design",
+      "branding",
+      "symmetrical",
+      "vintage",
+      "illustration",
+      "luxury"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -369,7 +467,7 @@
   },
   {
     "id": "cmze3jo5pup",
-    "title": "Luxury Brand Logo Design Prompt",
+    "title": "Geometric Luxury Brand Logo Design",
     "slug": "luxury-brand-logo-design-prompt-ecs7c",
     "category": "Logo Design",
     "fullPrompt": "A minimalist luxury brand logo for Apex Design featuring clean geometric linework, metallic copper finish, dark matte background, high-resolution vector aesthetic. Clean visual composition, balanced graphic layout, harmonious color palette, high-precision vector lines, contemporary design aesthetic.",
@@ -378,12 +476,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-24T12:47:49.743Z",
     "updatedAt": "2026-07-24T12:47:49.743Z",
-    "tags": [],
+    "tags": [
+      "logo-design",
+      "branding",
+      "minimalist",
+      "luxury"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -401,12 +504,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-24T12:48:58.899Z",
     "updatedAt": "2026-07-24T12:48:58.899Z",
-    "tags": [],
+    "tags": [
+      "logo-design",
+      "branding",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -424,12 +532,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-24T12:58:19.686Z",
     "updatedAt": "2026-07-24T12:58:19.686Z",
-    "tags": [],
+    "tags": [
+      "logo-design",
+      "branding",
+      "cinematic-lighting",
+      "cinematic"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -447,12 +560,18 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-24T12:59:19.305Z",
     "updatedAt": "2026-07-24T12:59:19.305Z",
-    "tags": [],
+    "tags": [
+      "logo-design",
+      "branding",
+      "neon-lighting",
+      "photorealistic",
+      "cyberpunk"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -470,12 +589,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-24T13:00:36.024Z",
     "updatedAt": "2026-07-24T13:00:36.024Z",
-    "tags": [],
+    "tags": [
+      "logo-design",
+      "branding",
+      "cinematic-lighting",
+      "cinematic",
+      "luxury",
+      "action-shot"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -493,12 +619,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-24T13:03:07.550Z",
     "updatedAt": "2026-07-24T13:03:07.550Z",
-    "tags": [],
+    "tags": [
+      "logo-design",
+      "branding",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -516,12 +647,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-24T13:05:01.882Z",
     "updatedAt": "2026-07-24T13:05:01.882Z",
-    "tags": [],
+    "tags": [
+      "logo-design",
+      "branding",
+      "vector-art",
+      "minimal-graphics"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -539,16 +675,49 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-05T07:56:45.511Z",
     "updatedAt": "2026-08-05T07:56:45.511Z",
-    "tags": [],
+    "tags": [
+      "logo-design",
+      "branding",
+      "photorealistic",
+      "luxury"
+    ],
     "models": [
       "Chat GPT"
     ],
     "quality": "high",
     "seoIndex": false
+  },
+  {
+    "id": "cm7plobeaue",
+    "title": "Neon Threads Profile Badge",
+    "slug": "neon-threads-profile-badge-3egte",
+    "category": "Logo Design",
+    "fullPrompt": "Create a premium cinematic Threads profile badge, with everything inside one large glowing circular border on a pure black studio background. Use the uploaded woman in a smaller red-lit circular portrait with a dark reddish backdrop. Add the Threads logo, “Ai_sam”, verified badge, “sam_fonseka”, status, navigation icons, and “Stay Connected • ON THREADS.” Red-white neon glow, glossy 3D, photorealistic, clean, symmetrical, no hands, followers, or views.  ",
+    "image": "https://res.cloudinary.com/dfbacu2lw/image/upload/v1789548650/prompts/g7zxmj7pdy4srojt4jd1.webp",
+    "isPremium": false,
+    "isTrending": false,
+    "isLatest": false,
+    "isFeatured": false,
+    "author": "AIPromptNest Editorial Team",
+    "views": 0,
+    "likes": 0,
+    "createdAt": "2026-09-16T08:50:50.072Z",
+    "updatedAt": "2026-09-16T08:50:50.073Z",
+    "tags": [
+      "logo-design",
+      "branding",
+      "neon-lighting",
+      "symmetrical",
+      "photorealistic",
+      "cinematic"
+    ],
+    "models": [
+      "Chat GPT"
+    ]
   }
 ]

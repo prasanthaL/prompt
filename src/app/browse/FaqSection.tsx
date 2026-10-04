@@ -4,23 +4,23 @@ import { AccordionItem } from "@/components/Accordion";
 export const BROWSE_FAQS = [
   {
     question: "How do I use these AI image prompts?",
-    answer: "Using our prompts is extremely simple. First, browse the library and find an image style or category you like. Click the copy icon to copy the optimized prompt text to your clipboard. Then, paste it directly into your preferred AI image generator (like Google Gemini) and click generate. You will get a similar styled image instantly!"
+    answer: "Using our prompts is straightforward. First, browse the library and find an image style or category you like. Click the copy icon to copy the prompt text to your clipboard. Then, paste it directly into your preferred AI image generator (such as Google Gemini, Midjourney, or Flux) and generate your image."
   },
   {
-    question: "Are these prompts fully optimized for Gemini AI?",
-    answer: "Yes, every prompt in our library is thoroughly tested and optimized for Google Gemini. They leverage Gemini's specific language semantics and descriptive capabilities to ensure high-quality and consistent outputs, but they also work exceptionally well with Stable Diffusion."
+    question: "How are these prompts designed for Gemini and other AI models?",
+    answer: "Prompts in our library are written with clear descriptive instructions covering subject, lighting, camera framing, and aesthetic style. They are formatted to take advantage of Google Gemini's natural language comprehension while translating effectively to Midjourney, Flux, and Stable Diffusion."
   },
   {
     question: "Can I customize the prompt parameters?",
-    answer: "Absolutely! The bracketed words or key terms in the prompts represent customizable variables. For example, if a prompt describes a 'cinematic portrait of a [cyberpunk warrior]', you can easily change '[cyberpunk warrior]' to '[steampunk detective]' or '[vintage pilot]' to generate completely new characters in the same visual style."
+    answer: "Yes. Key visual descriptors in each prompt represent customizable variables. For example, if a prompt describes a 'cinematic portrait of a cyberpunk character', you can adapt the subject, setting, lighting, or color palette to match your creative needs."
   },
   {
     question: "Is there a limit on how many prompts I can copy?",
-    answer: "No, there are no limits! All prompts in our public browse library are 100% free and open for everyone to copy and use. You can browse, copy, and experiment with as many prompts as you need for both personal and commercial projects."
+    answer: "No, there are no limits. All prompts in our public browse library are free and open for everyone to copy and use. You can browse, copy, and experiment with as many prompts as you need for your creative projects."
   },
   {
     question: "How often do you add new categories and prompts?",
-    answer: "We update our library with new prompts and trending categories every single week. Our team of prompt engineers keeps up with the latest AI model updates to deliver fresh, high-performance styling prompts daily."
+    answer: "We regularly update our library with new prompts and creative categories. We track developments in AI image generation to provide relevant prompt examples and structured guidance across diverse artistic styles."
   }
 ];
 

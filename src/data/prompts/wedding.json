@@ -10,14 +10,16 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 130,
     "likes": 42,
     "createdAt": "2026-07-10T12:00:00.000Z",
     "updatedAt": "2026-07-10T08:25:04.849Z",
     "tags": [
       "wedding",
-      "flowers",
+      "bridal",
+      "golden-hour",
+      "outdoors",
       "romantic"
     ],
     "models": [
@@ -37,12 +39,18 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T08:28:55.910Z",
     "updatedAt": "2026-07-10T08:28:55.910Z",
-    "tags": [],
+    "tags": [
+      "wedding",
+      "bridal",
+      "photorealistic",
+      "cinematic",
+      "romantic"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -60,12 +68,18 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T08:29:55.338Z",
     "updatedAt": "2026-07-10T08:29:55.338Z",
-    "tags": [],
+    "tags": [
+      "wedding",
+      "bridal",
+      "depth-of-field",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -83,12 +97,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T08:30:50.487Z",
     "updatedAt": "2026-07-10T08:30:50.487Z",
-    "tags": [],
+    "tags": [
+      "wedding",
+      "bridal",
+      "natural-lighting",
+      "photorealistic",
+      "cinematic",
+      "editorial",
+      "luxury"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -106,12 +128,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T08:31:52.468Z",
     "updatedAt": "2026-07-10T08:31:52.468Z",
-    "tags": [],
+    "tags": [
+      "wedding",
+      "bridal",
+      "volumetric-lighting",
+      "natural-lighting",
+      "photorealistic",
+      "cinematic",
+      "outdoors"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -129,12 +159,20 @@
     "isTrending": true,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-20T11:37:26.832Z",
     "updatedAt": "2026-07-20T11:37:26.832Z",
-    "tags": [],
+    "tags": [
+      "wedding",
+      "bridal",
+      "close-up",
+      "depth-of-field",
+      "full-body",
+      "cinematic",
+      "outdoors"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -152,12 +190,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-22T07:05:54.506Z",
     "updatedAt": "2026-07-22T07:05:54.506Z",
-    "tags": [],
+    "tags": [
+      "wedding",
+      "bridal",
+      "natural-lighting",
+      "depth-of-field",
+      "telephoto",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -175,12 +221,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-02T16:02:27.434Z",
     "updatedAt": "2026-08-02T16:02:27.434Z",
-    "tags": [],
+    "tags": [
+      "wedding",
+      "bridal",
+      "rim-lighting",
+      "cinematic-lighting",
+      "depth-of-field",
+      "telephoto",
+      "photorealistic"
+    ],
     "models": [
       "Chat GPT"
     ],
@@ -198,17 +252,31 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-09T10:34:53.521Z",
     "updatedAt": "2026-08-09T10:34:53.521Z",
-    "tags": [],
+    "tags": [
+      "wedding",
+      "bridal",
+      "volumetric-lighting",
+      "rim-lighting",
+      "cinematic-lighting",
+      "natural-lighting",
+      "close-up"
+    ],
     "models": [
       "Chat GPT"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": true,
+    "editorNotes": {
+      "whyItWorks": "High-end groom fashion editorial inspired by Vogue Weddings and GQ. The double-exposure layering of a close-up portrait with full-body poses inside grand European architecture creates a cohesive fashion campaign feel.",
+      "variationGuide": "Switch the attire from an ivory tuxedo to a bespoke emerald-green velvet dinner jacket or classic midnight-blue three-piece suit. Change the venue to an outdoor cliffside villa on Lake Como.",
+      "failureModes": "Multi-exposure wedding collages can accidentally introduce duplicate bride figures or messy floral textures across the suit fabric. Keep the attire clean: 'tailored luxury tuxedo fabric texture, sharp lapels, clean architectural lines'.",
+      "exampleTweak": "Add 'grand marble staircase with cream floral arches, soft champagne chandelier illumination, groom adjusting platinum cufflink with natural smile'."
+    }
   },
   {
     "id": "cmwix4yzjtp",
@@ -221,12 +289,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-08-13T15:31:05.887Z",
     "updatedAt": "2026-08-13T15:31:05.887Z",
-    "tags": [],
+    "tags": [
+      "wedding",
+      "bridal",
+      "minimalist",
+      "romantic"
+    ],
     "models": [
       "Chat GPT"
     ],

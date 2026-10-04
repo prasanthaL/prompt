@@ -10,15 +10,16 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 220,
     "likes": 80,
     "createdAt": "2026-07-10T12:00:00.000Z",
     "updatedAt": "2026-07-10T07:34:50.279Z",
     "tags": [
-      "character",
-      "paladin",
-      "fantasy"
+      "character-design",
+      "digital-art",
+      "concept-art",
+      "lighting"
     ],
     "models": [
       "Gemini AI"
@@ -37,12 +38,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T07:35:41.855Z",
     "updatedAt": "2026-07-10T07:35:41.855Z",
-    "tags": [],
+    "tags": [
+      "character-design",
+      "digital-art",
+      "volumetric-lighting",
+      "cinematic-lighting",
+      "photorealistic",
+      "cinematic",
+      "3d-render"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -60,12 +69,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T07:38:55.135Z",
     "updatedAt": "2026-07-10T07:38:55.136Z",
-    "tags": [],
+    "tags": [
+      "character-design",
+      "digital-art",
+      "volumetric-lighting",
+      "neon-lighting",
+      "photorealistic",
+      "cinematic",
+      "cyberpunk"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -83,12 +100,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T07:39:49.522Z",
     "updatedAt": "2026-07-10T07:39:49.522Z",
-    "tags": [],
+    "tags": [
+      "character-design",
+      "digital-art",
+      "golden-hour",
+      "cinematic"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -106,12 +128,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T07:40:55.150Z",
     "updatedAt": "2026-07-10T07:40:55.150Z",
-    "tags": [],
+    "tags": [
+      "character-design",
+      "digital-art",
+      "volumetric-lighting",
+      "photorealistic",
+      "cinematic",
+      "3d-render"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -129,16 +158,30 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-15T09:00:24.999Z",
     "updatedAt": "2026-07-15T09:00:24.999Z",
-    "tags": [],
+    "tags": [
+      "character-design",
+      "digital-art",
+      "soft-lighting",
+      "photorealistic",
+      "cinematic",
+      "monochrome",
+      "luxury"
+    ],
     "models": [
       "Gemini AI"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": true,
+    "editorNotes": {
+      "whyItWorks": "This prompt relies on soft editorial pastel tonality, balanced negative space, and studio softbox diffusion. The combination of gentle champagne balloons, muted floral accents, and subtle torn-paper border framing creates a polished high-end keepsake aesthetic rather than a noisy cartoon greeting card.",
+      "variationGuide": "Shift the celebratory theme from neutral ivory and gold to an enchanted forest concept with sage green linen, botanical fern garlands, and rustic wooden textures. Swap the studio backdrop for an outdoor golden-hour garden picnic setting.",
+      "failureModes": "Baby portraits in diffusion generators frequently suffer from plastic skin smoothing or unnatural porcelain eye reflections. Ensure you keep 'natural baby skin texture, authentic soft daylight, gentle studio catchlights, no plastic airbrushing' active in your parameters.",
+      "exampleTweak": "Adjust the palette to 'warm terracotta, oat beige linen textures, dried eucalyptus sprigs, and natural window daylight with soft falloff'."
+    }
   }
 ]

@@ -10,9 +10,9 @@ interface HeroProps {
   categoriesCount?: number;
 }
 
-const Hero = ({ promptsCount = 509, categoriesCount = 16 }: HeroProps) => {
+const Hero = ({ promptsCount = 1113, categoriesCount = 35 }: HeroProps) => {
   const formattedPrompts = promptsCount >= 1000
-    ? `${(promptsCount / 1000).toFixed(1)}K+`
+    ? `${(Math.floor(promptsCount / 100) * 100).toLocaleString()}+`
     : promptsCount >= 100
       ? `${Math.floor(promptsCount / 100) * 100}+`
       : `${promptsCount}+`;
@@ -95,7 +95,7 @@ const Hero = ({ promptsCount = 509, categoriesCount = 16 }: HeroProps) => {
               transition={{ duration: 0.6, delay: 0.25 }}
               className="text-foreground/50 text-sm md:text-base max-w-xl leading-relaxed"
             >
-              Explore thousands of Gemini & ChatGPT AI prompts for cinematic art, realistic photography, anime characters, cyberpunk scenes, fashion editorials, fantasy worlds, and more.
+              Explore over 1,100 Gemini & ChatGPT AI prompts for cinematic art, realistic photography, anime characters, cyberpunk scenes, fashion editorials, fantasy worlds, and more.
             </motion.p>
           </div>
 
@@ -131,8 +131,8 @@ const Hero = ({ promptsCount = 509, categoriesCount = 16 }: HeroProps) => {
                 <Sparkles className="w-5 h-5 text-primary" />
               </div>
               <div className="flex flex-col">
-                <span className="text-xl font-bold text-foreground">100%</span>
-                <span className="text-[10px] uppercase tracking-widest text-foreground/40 font-bold">Free</span>
+                <span className="text-xl font-bold text-foreground">Free</span>
+                <span className="text-[10px] uppercase tracking-widest text-foreground/40 font-bold">Access</span>
               </div>
             </div>
 

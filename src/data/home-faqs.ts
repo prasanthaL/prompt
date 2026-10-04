@@ -1,32 +1,32 @@
 export const faqItems = [
   {
-    question: "What is PromptNest and how does it work?",
+    question: "What is AIPromptNest and how does it work?",
     answer:
-      "PromptNest is the world's leading marketplace for high-quality AI image prompts. Simply browse our curated library of thousands of prompts, preview the type of output each prompt generates, then copy it with a single click and paste it directly into your preferred AI image generator — whether that's Google Gemini or Stable Diffusion. Every prompt in our library has been tested, refined, and optimized by our community of experienced prompt engineers and AI artists to ensure you get stunning results from day one.",
+      "AIPromptNest is a free, structured AI prompt library designed to help creators explore and generate imagery with models like Google Gemini, Midjourney, and Stable Diffusion. Browse prompts organized by category and style, review the visual composition details, then copy the prompt text directly into your image generator of choice.",
   },
   {
-    question: "Are the AI prompts on PromptNest free to use?",
+    question: "Are the AI prompts on AIPromptNest free to use?",
     answer:
-      "Yes! The vast majority of our library is completely free to access with no account required. We offer thousands of free prompts spanning all popular categories — including cinematic photography, anime illustration, dark fantasy, architectural visualization, fashion photography, and photorealistic portraits. For creators who want to go deeper, we also offer a premium tier featuring advanced multi-parameter prompts, exclusive styles, and prompt packs crafted by top AI artists. Whether you're a casual explorer or a professional creator, there's something for everyone on PromptNest.",
+      "Yes, the prompt library on AIPromptNest is free to browse and use. You can explore prompts spanning diverse categories — including cinematic scenes, anime styles, fantasy worlds, architectural studies, fashion, and portraits. Each prompt comes with structured parameters and customization notes to help guide your creative projects.",
   },
   {
     question: "Which AI models are compatible with these prompts?",
     answer:
-      "Our prompts are primarily engineered and optimized for Google Gemini AI, taking full advantage of Gemini's advanced image synthesis capabilities. However, the majority of our prompts are written using universal prompt language that transfers well to other leading AI image models including Stable Diffusion XL, Adobe Firefly, and Leonardo AI. Each prompt listing clearly indicates which AI models it has been tested with, so you can always pick the right prompt for your preferred tool and get the best possible result.",
+      "Our prompt examples are structured with descriptive visual language compatible with Google Gemini, Midjourney, Flux, Stable Diffusion XL, and DALL-E. Each prompt page includes recommended generation settings and tips for tailoring instructions to different model architectures.",
   },
   {
     question: "Can I customize or modify the prompts?",
     answer:
-      "Absolutely — and we actively encourage it. Every prompt in PromptNest is designed to serve as a powerful creative starting point, not a rigid template. You can freely adjust any parameter: swap the subject, change the lighting style, modify the color palette, alter the composition, add or remove style references, or blend multiple prompts together. The more you experiment and iterate, the more personalized and unique your AI-generated images become. Our blog also features in-depth guides on how to effectively modify prompts to achieve specific artistic effects.",
+      "Yes, modifying and tailoring prompts to your specific project needs is encouraged. Every prompt listing includes a breakdown of customizable variables such as subject, lighting, camera framing, wardrobe, and color palette so you can adjust the creative details while maintaining balanced composition.",
   },
   {
     question: "How often are new prompts added to the library?",
     answer:
-      "New prompts are added to PromptNest every single day by our growing global community of prompt engineers, AI artists, and creative professionals. Our editorial team also curates and publishes themed collections — such as seasonal picks, trending styles, and genre spotlights — on a weekly basis. We track emerging trends in AI image generation closely and ensure the library stays fresh, relevant, and ahead of the curve. Subscribe to our newsletter to get weekly picks delivered directly to your inbox.",
+      "New prompts are added regularly across popular and emerging creative styles. The editorial team reviews and categorizes new additions to maintain consistent quality, clear formatting, and practical customization notes across the library.",
   },
   {
     question: "Do I need technical knowledge to use AI prompts?",
     answer:
-      "Not at all — PromptNest is designed for everyone, from complete beginners to seasoned AI artists. Every prompt is copy-and-paste ready, meaning there is zero technical setup required on your part. Just choose a prompt you like, copy it to your clipboard, open your preferred AI image generator such as Google Gemini, paste the prompt, and hit generate. Our blog and help center also feature a wealth of beginner-friendly tutorials, style guides, and prompt engineering tips to help you level up your AI art skills at your own pace.",
+      "No specialized technical background is needed. Prompts are formatted for easy copy-and-paste into your generator. We also provide practical guides, setting recommendations, and beginner-friendly breakdowns explaining how each prompt structure works.",
   }
 ];

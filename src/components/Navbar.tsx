@@ -48,8 +48,9 @@ const Navbar = () => {
     { name: "Home", href: "/" },
     { name: "Browse", href: "/browse" },
     { name: "Categories", href: "/categories" },
-    { name: "Trending", href: "/trending" },
     { name: "Blog", href: "/blog" },
+    { name: "About", href: "/about" },
+    { name: "Contact", href: "/contact" },
   ];
 
   return (
@@ -71,12 +72,12 @@ const Navbar = () => {
         </Link>
 
         {/* Desktop Links */}
-        <div className="hidden lg:flex items-center gap-8">
+        <div className="hidden lg:flex items-center gap-5 xl:gap-6">
           {navLinks.map((link) => (
             <Link
               key={link.name}
               href={link.href}
-              className="text-sm font-medium transition-colors text-foreground/70 hover:text-foreground"
+              className="text-sm font-medium transition-colors text-foreground/70 hover:text-foreground whitespace-nowrap"
             >
               <span>{link.name}</span>
             </Link>
@@ -132,6 +133,16 @@ const Navbar = () => {
                 <span>{link.name}</span>
               </Link>
             ))}
+
+            <div className="pt-3 mt-1 border-t border-foreground/10 flex items-center gap-4 text-xs text-foreground/50">
+              <Link href="/privacy-policy" onClick={() => setIsMobileMenuOpen(false)} className="hover:text-primary transition-colors">
+                Privacy Policy
+              </Link>
+              <span>•</span>
+              <Link href="/terms-of-service" onClick={() => setIsMobileMenuOpen(false)} className="hover:text-primary transition-colors">
+                Terms of Service
+              </Link>
+            </div>
           </div>
         </div>
       )}

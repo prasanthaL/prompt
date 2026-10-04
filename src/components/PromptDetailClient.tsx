@@ -2,7 +2,7 @@
 
 import React from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Copy, Check, Eye, Heart, Share2, Download, Sparkles, Link2 } from "lucide-react";
+import { Copy, Check, Share2, Download, Sparkles, Link2 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
 
@@ -153,39 +153,17 @@ export default function PromptDetailClient({ prompt }: PromptDetailClientProps) 
           </div>
           <h1 className="text-3xl md:text-4xl font-bold text-white leading-tight">{prompt.title}</h1>
           <div className="flex items-center gap-2 pt-1">
-            <div className="relative w-8 h-8 rounded-full bg-white/10 overflow-hidden border border-white/20">
-              <Image 
-                src={`https://i.pravatar.cc/100?u=${prompt.author}`} 
-                alt={prompt.author} 
-                width={32}
-                height={32}
-                className="object-cover"
-              />
+            <div className="relative w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center border border-primary/30 text-xs font-bold text-primary">
+              AP
             </div>
-            <span className="text-sm text-white/70 font-medium">by {prompt.author}</span>
+            <span className="text-sm text-white/70 font-medium">{prompt.author && prompt.author.toLowerCase() !== "admin" ? prompt.author : "AIPromptNest Editorial Team"}</span>
           </div>
         </div>
       </div>
 
       {/* Right: Prompt Details */}
       <div className="w-full lg:w-[58%] p-6 md:p-10 flex flex-col bg-gradient-to-br from-white/[0.02] to-transparent">
-        <div className="flex items-center justify-between mb-8 pb-6 border-b border-white/5">
-          <div className="flex items-center gap-8">
-            <div className="flex flex-col">
-              <span className="text-[10px] text-foreground/30 uppercase font-black tracking-widest mb-1">Views</span>
-              <div className="flex items-center gap-1.5 text-foreground text-lg font-bold">
-                <Eye className="w-4 h-4 text-primary" />
-                {prompt.views.toLocaleString()}
-              </div>
-            </div>
-            <div className="flex flex-col">
-              <span className="text-[10px] text-foreground/30 uppercase font-black tracking-widest mb-1">Likes</span>
-              <div className="flex items-center gap-1.5 text-foreground text-lg font-bold">
-                <Heart className="w-4 h-4 text-pink-500" />
-                {prompt.likes.toLocaleString()}
-              </div>
-            </div>
-          </div>
+        <div className="flex items-center justify-end mb-8 pb-6 border-b border-white/5">
 
           <div className="flex gap-2 relative" ref={shareMenuRef}>
             <button

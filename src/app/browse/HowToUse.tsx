@@ -9,7 +9,7 @@ const HOW_TO_USE_STEPS = [
   {
     step: "02",
     title: "Copy the Prompt",
-    description: "Click the copy button on any prompt card. The optimized prompt syntax will be copied to your clipboard instantly, completely free."
+    description: "Click the copy button on any prompt card. The prompt text will be copied to your clipboard instantly, completely free."
   },
   {
     step: "03",

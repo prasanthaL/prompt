@@ -23,6 +23,7 @@ import {
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
+import type { PromptEditorNotes } from "@/lib/json-db";
 
 /* ─── Social SVG icons ─────────────────────────────────────────── */
 const IconTwitter = (props: React.SVGProps<SVGSVGElement>) => (
@@ -65,6 +66,7 @@ interface PromptDetailClientProps {
     about?: string;
     howToUse?: string[];
     createdAt?: string;
+    editorNotes?: PromptEditorNotes;
   };
 }
 
@@ -186,8 +188,10 @@ const handleCopy = async () => {
   const style = deriveStyle(prompt.category);
   const difficulty = deriveDifficulty(prompt.fullPrompt);
   const published = formatPublished(prompt.createdAt);
-  const primaryModel =
-    prompt.models && prompt.models.length > 0 ? prompt.models[0] : "Gemini AI";
+  const primaryModel = (
+    prompt.models && prompt.models.length > 0 ? prompt.models[0] : "Gemini AI"
+  ).replace(/chat\s+gpt/gi, "ChatGPT");
+
 
   const detailRows = [
     { icon: LayoutGrid, label: "Category", value: prompt.category },
@@ -255,24 +259,11 @@ const handleCopy = async () => {
           {/* Description */}
           <p className="prompt-detail-description">
             {prompt.about ??
-              `Create an epic ${prompt.category.toLowerCase()} AI image using this high-quality prompt optimized for ${primaryModel} image generation.`}
+              `Create a ${prompt.category.toLowerCase()} AI image using this prompt structured for ${primaryModel} image generation.`}
           </p>
 
           {/* Stats + actions row */}
           <div className="prompt-detail-stats-row">
-            <div className="prompt-detail-stats">
-              <div className="prompt-detail-stat">
-                <Eye className="w-5 h-5" />
-                <span className="prompt-detail-stat-value">{prompt.views.toLocaleString()}</span>
-                <span className="prompt-detail-stat-label">Views</span>
-              </div>
-              <div className="prompt-detail-stat">
-                <Heart className="w-5 h-5 text-pink-400" />
-                <span className="prompt-detail-stat-value">{prompt.likes.toLocaleString()}</span>
-                <span className="prompt-detail-stat-label">Likes</span>
-              </div>
-            </div>
-
             <div className="prompt-detail-actions" ref={shareMenuRef}>
               {/* Share button */}
               <div className="relative">
@@ -479,9 +470,8 @@ const handleCopy = async () => {
         </section>
       </div>
 
-      {/* ── How To Use ──────────────────────────── */}
+      {/* ── How To Use / Editorial Notes ──────────────────────────── */}
       <div className="mt-5 mb-10">
-        {/* How To Use */}
         <section className="prompt-detail-card">
           <div className="prompt-detail-card-header">
             <div className="flex items-center gap-3">
@@ -489,38 +479,73 @@ const handleCopy = async () => {
                 <BookOpen className="w-4 h-4 text-emerald-400" />
               </div>
               <div>
-                <h2 className="prompt-detail-card-title">How To Use</h2>
-                <span className="text-[10px] font-bold uppercase tracking-widest text-foreground/30">Reusable Guide</span>
+                <h2 className="prompt-detail-card-title">
+                  {prompt.editorNotes ? "Usage & Variation Guide" : "How To Use"}
+                </h2>
+                <span className="text-[10px] font-bold uppercase tracking-widest text-foreground/30">
+                  {prompt.editorNotes ? "Usage & Variation Guide" : "Reusable Guide"}
+                </span>
               </div>
             </div>
           </div>
 
-          <ol className="space-y-3">
-            {(prompt.howToUse ?? [
-              "Copy the prompt using the \"Copy Prompt\" button above.",
-              `Open your preferred AI model (${prompt.models && prompt.models.length > 0
-                ? prompt.models[0]
-                : "Gemini or ChatGPT"
-              }) and paste the prompt into the input field.`,
-              "Optionally, replace bracketed placeholders (e.g. [subject], [style]) with your own values to personalise the output.",
-              "Run the prompt and review the result — iterate by tweaking descriptors for different moods or compositions.",
-              "Save or export your favourite generations directly from the AI tool's interface.",
-            ]).map((step, idx) => (
-              <li key={idx} className="flex items-start gap-3">
-                <span className="shrink-0 w-6 h-6 rounded-full bg-emerald-500/15 text-emerald-400 text-xs font-black flex items-center justify-center mt-0.5">
-                  {idx + 1}
-                </span>
-                <span className="text-foreground/60 text-sm leading-relaxed">{step}</span>
-              </li>
-            ))}
-          </ol>
+          {prompt.editorNotes ? (
+            <div className="space-y-4">
+              <div>
+                <h3 className="text-xs font-black uppercase tracking-wider text-emerald-400 mb-1">
+                  Variation Advice
+                </h3>
+                <p className="text-foreground/75 text-sm leading-relaxed">
+                  {prompt.editorNotes.variationGuide}
+                </p>
+              </div>
 
-          <div className="flex items-start gap-2.5 bg-amber-500/5 border border-amber-500/15 rounded-2xl px-4 py-3">
-            <AlertCircle className="w-4 h-4 text-amber-400 shrink-0 mt-0.5" />
-            <p className="text-[12px] text-amber-400/80 leading-relaxed">
-              For best results, use this prompt as-is before making edits — the defaults are already optimised.
-            </p>
-          </div>
+              <div className="pt-3 border-t border-white/5">
+                <h3 className="text-xs font-black uppercase tracking-wider text-primary mb-1">
+                  Suggested Variation Example
+                </h3>
+                <div className="p-3 rounded-xl border border-white/10 bg-white/[0.02] font-mono text-xs text-foreground/80 leading-relaxed">
+                  {prompt.editorNotes.exampleTweak}
+                </div>
+              </div>
+
+              <div className="flex items-start gap-2.5 bg-emerald-500/5 border border-emerald-500/15 rounded-2xl px-4 py-3">
+                <AlertCircle className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />
+                <p className="text-[12px] text-emerald-400/90 leading-relaxed">
+                  See the full technical analysis below for lighting parameters, composition breakdown, and failure mode fixes.
+                </p>
+              </div>
+            </div>
+          ) : (
+            <>
+              <ol className="space-y-3">
+                {(prompt.howToUse ?? [
+                  "Copy the prompt using the \"Copy Prompt\" button above.",
+                  `Open your preferred AI model (${prompt.models && prompt.models.length > 0
+                    ? prompt.models[0]
+                    : "Gemini or ChatGPT"
+                  }) and paste the prompt into the input field.`,
+                  "Optionally, replace bracketed placeholders (e.g. [subject], [style]) with your own values to personalise the output.",
+                  "Run the prompt and review the result — iterate by tweaking descriptors for different moods or compositions.",
+                  "Save or export your favourite generations directly from the AI tool's interface.",
+                ]).map((step, idx) => (
+                  <li key={idx} className="flex items-start gap-3">
+                    <span className="shrink-0 w-6 h-6 rounded-full bg-emerald-500/15 text-emerald-400 text-xs font-black flex items-center justify-center mt-0.5">
+                      {idx + 1}
+                    </span>
+                    <span className="text-foreground/60 text-sm leading-relaxed">{step}</span>
+                  </li>
+                ))}
+              </ol>
+
+              <div className="flex items-start gap-2.5 bg-amber-500/5 border border-amber-500/15 rounded-2xl px-4 py-3 mt-4">
+                <AlertCircle className="w-4 h-4 text-amber-400 shrink-0 mt-0.5" />
+                <p className="text-[12px] text-amber-400/80 leading-relaxed">
+                  For best results, use this prompt as-is before making edits — the defaults are already optimised.
+                </p>
+              </div>
+            </>
+          )}
         </section>
       </div>
 

@@ -10,12 +10,17 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 170,
     "likes": 60,
     "createdAt": "2026-07-10T12:00:00.000Z",
     "updatedAt": "2026-07-10T08:38:19.442Z",
-    "tags": [],
+    "tags": [
+      "minimalist",
+      "clean-design",
+      "illustration",
+      "simplicity"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -33,17 +38,31 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T08:39:35.882Z",
     "updatedAt": "2026-07-10T08:39:35.882Z",
-    "tags": [],
+    "tags": [
+      "minimalist",
+      "clean-design",
+      "natural-lighting",
+      "photorealistic",
+      "cinematic",
+      "luxury",
+      "interior"
+    ],
     "models": [
       "Gemini AI"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": true,
+    "editorNotes": {
+      "whyItWorks": "Celebrates wabi-sabi simplicity: low-slung wooden platforms, fluted oak wall panels, handmade ceramic vases with a single dried branch, and paper lantern pendants creating soft diffused light pools.",
+      "variationGuide": "Introduce a tranquil courtyard view with bamboo shoots through a large round picture window. Or transition materials toward slightly darker smoked ash wood and charcoal slate tiles.",
+      "failureModes": "Minimalist spaces can look barren or sterile if textures are lacking. Insist on 'tactile raw linen cushions, visible wood grain knots, paper texture on lantern, and soft sunlight cast through slatted wooden blinds'.",
+      "exampleTweak": "Add 'sunken tatami tea area with two meditation cushions, round black granite tea table, soft morning sun casting slatted bamboo shadows'."
+    }
   },
   {
     "id": "cmvotxr5gp1",
@@ -56,12 +75,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T08:40:43.529Z",
     "updatedAt": "2026-07-10T08:40:43.529Z",
-    "tags": [],
+    "tags": [
+      "minimalist",
+      "clean-design",
+      "studio-lighting",
+      "natural-lighting",
+      "photorealistic",
+      "luxury",
+      "commercial"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -79,12 +106,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T08:41:31.820Z",
     "updatedAt": "2026-07-10T08:41:31.820Z",
-    "tags": [],
+    "tags": [
+      "minimalist",
+      "clean-design",
+      "soft-lighting",
+      "photorealistic",
+      "editorial",
+      "monochrome",
+      "luxury"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -102,12 +137,18 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T08:42:26.989Z",
     "updatedAt": "2026-07-10T08:42:26.989Z",
-    "tags": [],
+    "tags": [
+      "minimalist",
+      "clean-design",
+      "natural-lighting",
+      "photorealistic",
+      "cinematic"
+    ],
     "models": [
       "Gemini AI"
     ],

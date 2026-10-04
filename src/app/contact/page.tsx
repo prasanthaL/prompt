@@ -5,9 +5,10 @@ import Link from "next/link";
 import ContactForm from "@/components/ContactForm";
 import { Mail, MessageSquare, ShieldCheck, ChevronRight, HelpCircle, Sparkles, Send } from "lucide-react";
 import type { Metadata } from "next";
+import { SITE_URL, SUPPORT_EMAIL } from "@/lib/site";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.aipromptnest.com"),
+  metadataBase: new URL(SITE_URL),
   title: "Contact Us - Support & Inquiries | AIPromptNest",
   description:
     "Get in touch with AIPromptNest. Reach out for prompt assistance, technical support, feature requests, or explore partnership opportunities.",
@@ -22,7 +23,7 @@ export const metadata: Metadata = {
     "AIPromptNest help desk",
   ],
   alternates: {
-    canonical: "https://www.aipromptnest.com/contact",
+    canonical: `${SITE_URL}/contact`,
   },
   category: "Technology",
 };
@@ -31,8 +32,8 @@ export const metadata: Metadata = {
 const contactPageJsonLd = {
   "@context": "https://schema.org",
   "@type": "ContactPage",
-  "@id": "https://www.aipromptnest.com/contact#webpage",
-  url: "https://www.aipromptnest.com/contact",
+  "@id": `${SITE_URL}/contact#webpage`,
+  url: `${SITE_URL}/contact`,
   name: "Contact AIPromptNest Support",
   headline: "Get in Touch with AIPromptNest Support",
   description:
@@ -41,19 +42,19 @@ const contactPageJsonLd = {
   isPartOf: {
     "@type": "WebSite",
     name: "AIPromptNest",
-    url: "https://www.aipromptnest.com",
+    url: SITE_URL,
   },
   mainEntity: {
     "@type": "Organization",
     name: "AIPromptNest",
-    url: "https://www.aipromptnest.com",
-    email: "hello.aipromptnest@gmail.com",
-    logo: "https://www.aipromptnest.com/logo.png",
+    url: SITE_URL,
+    email: SUPPORT_EMAIL,
+    logo: `${SITE_URL}/logo.png`,
     contactPoint: [
       {
         "@type": "ContactPoint",
         contactType: "customer support",
-        email: "hello.aipromptnest@gmail.com",
+        email: SUPPORT_EMAIL,
         availableLanguage: ["English"],
       },
     ],
@@ -68,13 +69,13 @@ const breadcrumbJsonLd = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.aipromptnest.com",
+      item: SITE_URL,
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Contact Us",
-      item: "https://www.aipromptnest.com/contact",
+      item: `${SITE_URL}/contact`,
     },
   ],
 };
@@ -96,7 +97,7 @@ const contactFaqJsonLd = {
       name: "Are prompt templates on AIPromptNest free to use?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes, all AI prompt templates hosted on AIPromptNest are 100% free for commercial and personal visual generation projects.",
+        text: "Yes, all AI prompt templates hosted on AIPromptNest are completely free for commercial and personal visual generation projects.",
       },
     }
   ],
@@ -151,10 +152,10 @@ export default function ContactPage() {
                     <h2 className="text-sm font-bold text-white">Email Support</h2>
                     <p className="text-xs text-white/45">Reach our dedicated support inbox</p>
                     <a 
-                      href="mailto:hello.aipromptnest@gmail.com" 
+                      href={`mailto:${SUPPORT_EMAIL}`} 
                       className="text-sm font-semibold text-primary hover:underline block pt-1"
                     >
-                      hello.aipromptnest@gmail.com
+                      {SUPPORT_EMAIL}
                     </a>
                   </div>
                 </div>

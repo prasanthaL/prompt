@@ -61,7 +61,7 @@ const SECTIONS = [
       { name: "Cinematic Prompts", href: "/categories/cinematic" },
       { name: "Anime Prompts", href: "/categories/anime" },
       { name: "Fantasy Prompts", href: "/categories/fantasy" },
-      { name: "Couple Prompts", href: "/categories/architecture" },
+      { name: "Couple Prompts", href: "/categories/couple" },
       { name: "Portrait Prompts", href: "/categories/portrait" },
     ]
   },
@@ -71,6 +71,7 @@ const SECTIONS = [
       { name: "Latest Prompts", href: "/browse" },
       { name: "Trending Prompts", href: "/trending" },
       { name: "All Categories", href: "/categories" },
+      { name: "Blog & Guides", href: "/blog" },
     ]
   },
   {
@@ -81,6 +82,7 @@ const SECTIONS = [
       { name: "FAQ", href: "/faq" },
       { name: "Privacy Policy", href: "/privacy-policy" },
       { name: "Terms of Service", href: "/terms-of-service" },
+      { name: "AI Policy", href: "/ai-policy" },
     ]
   }
 ];
@@ -173,7 +175,7 @@ export default function Footer() {
                 </div>
 
                 <p className="text-xs sm:text-sm leading-relaxed text-white/60 font-normal">
-                  <strong className="text-white font-medium">AIPromptNest</strong> is an expert-curated AI prompt library built to empower creators. Discover high-performing, copy-paste prompts tailored for <span className="text-violet-300 font-medium">Gemini</span>, <span className="text-violet-300 font-medium">ChatGPT</span>, Midjourney, and top AI generators—covering cinematic realism, anime art, 3D renders, fantasy, and luxury aesthetics.
+                  <strong className="text-white font-medium">AIPromptNest</strong> is a free AI prompt library built to empower creators. Discover structured, copy-paste prompts for <span className="text-violet-300 font-medium">Gemini</span>, <span className="text-violet-300 font-medium">ChatGPT</span>, and top AI generators—covering cinematic realism, anime art, 3D renders, fantasy, and luxury aesthetics.
                 </p>
 
                 <p className="text-xs sm:text-sm leading-relaxed text-white/45">
@@ -185,10 +187,10 @@ export default function Footer() {
             {/* Right feature badges grid */}
             <div className="grid grid-cols-2 gap-3 w-full lg:w-auto shrink-0 border-t border-white/6 lg:border-t-0 lg:border-l lg:border-white/6 pt-6 lg:pt-0 lg:pl-8">
               {[
-                { label: "100% Free", sub: "No subscriptions" },
-                { label: "Daily Prompts", sub: "Fresh drop daily" },
+                { label: "Free Access", sub: "No subscriptions" },
+                { label: "Regular Updates", sub: "New prompts added regularly" },
                 { label: "Copy & Paste", sub: "Ready for AI tools" },
-                { label: "Curated Styles", sub: "High quality art" },
+                { label: "Diverse Styles", sub: "Creative categories" },
               ].map((badge, idx) => (
                 <div key={idx} className="p-3 rounded-xl bg-white/2 border border-white/6 hover:border-violet-500/20 hover:bg-violet-500/5 transition-all">
                   <p className="text-xs font-bold text-white tracking-tight">{badge.label}</p>
@@ -201,9 +203,13 @@ export default function Footer() {
 
         {/* Bottom copyright & socials */}
         <div className="mt-12 pt-8 border-t border-white/4 flex flex-col sm:flex-row items-center justify-between gap-6">
-          <p className="text-xs text-white/35">
-            © 2026 AIPromptNest. All rights reserved.
-          </p>
+          <div className="flex flex-wrap items-center gap-3 text-xs text-white/40">
+            <span>© 2026 AIPromptNest. All rights reserved.</span>
+            <span>•</span>
+            <Link href="/privacy-policy" className="hover:text-white transition-colors">Privacy</Link>
+            <span>•</span>
+            <Link href="/terms-of-service" className="hover:text-white transition-colors">Terms</Link>
+          </div>
 
           <div className="flex items-center gap-3">
             <span className="text-xs text-white/35">Follow us on</span>

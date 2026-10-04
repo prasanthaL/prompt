@@ -101,9 +101,9 @@ async function PromptGridCard({ prompt }: { prompt: Prompt }) {
               <h3 className="font-bold text-foreground group-hover:text-primary transition-colors line-clamp-1 text-sm">
                 {prompt.title}
               </h3>
-              {prompt.author && (
-                <p className="text-xs text-foreground/40 font-medium">by {prompt.author}</p>
-              )}
+              <p className="text-xs text-foreground/40 font-medium">
+                by {prompt.author && prompt.author.toLowerCase() !== "admin" ? prompt.author : "AIPromptNest Editorial Team"}
+              </p>
             </div>
             <div className="w-7 h-7 rounded-lg bg-foreground/5 flex items-center justify-center text-foreground/40 group-hover:text-primary group-hover:bg-primary/10 transition-all shrink-0">
               <ArrowUpRight className="w-3.5 h-3.5" />

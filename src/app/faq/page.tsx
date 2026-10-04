@@ -6,9 +6,10 @@ import Link from "next/link";
 import { Sparkles, ChevronRight, MessageSquare, ArrowRight } from "lucide-react";
 import FAQClient from "./FAQClient";
 import { FAQ_DATA } from "@/data/faq-data";
+import { SITE_URL } from "@/lib/site";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.aipromptnest.com"),
+  metadataBase: new URL(SITE_URL),
   title: "Frequently Asked Questions (FAQ) | AIPromptNest",
   description:
     "Find answers to common questions about free Gemini AI image prompts, prompt engineering tips, commercial licensing, and usage rights on AIPromptNest.",
@@ -23,7 +24,7 @@ export const metadata: Metadata = {
     "how to use Gemini prompts",
   ],
   alternates: {
-    canonical: "https://www.aipromptnest.com/faq",
+    canonical: `${SITE_URL}/faq`,
   },
 };
 
@@ -50,13 +51,13 @@ const breadcrumbJsonLd = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.aipromptnest.com",
+      item: SITE_URL,
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "FAQ",
-      item: "https://www.aipromptnest.com/faq",
+      item: `${SITE_URL}/faq`,
     },
   ],
 };

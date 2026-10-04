@@ -10,12 +10,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 120,
     "likes": 45,
     "createdAt": "2026-07-10T12:00:00.000Z",
     "updatedAt": "2026-07-10T09:54:06.717Z",
-    "tags": [],
+    "tags": [
+      "fashion",
+      "style",
+      "studio-lighting",
+      "neon-lighting",
+      "photorealistic",
+      "minimalist",
+      "streetwear"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -33,12 +41,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T09:54:57.867Z",
     "updatedAt": "2026-07-10T09:54:57.868Z",
-    "tags": [],
+    "tags": [
+      "fashion",
+      "style",
+      "soft-lighting",
+      "depth-of-field",
+      "photorealistic",
+      "cinematic",
+      "editorial"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -56,12 +72,20 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T09:55:41.913Z",
     "updatedAt": "2026-07-10T09:55:41.913Z",
-    "tags": [],
+    "tags": [
+      "fashion",
+      "style",
+      "neon-lighting",
+      "photorealistic",
+      "cinematic",
+      "editorial",
+      "cyberpunk"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -79,12 +103,19 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T09:56:26.550Z",
     "updatedAt": "2026-07-10T09:56:26.550Z",
-    "tags": [],
+    "tags": [
+      "fashion",
+      "style",
+      "photorealistic",
+      "cinematic",
+      "editorial",
+      "luxury"
+    ],
     "models": [
       "Gemini AI"
     ],
@@ -102,16 +133,30 @@
     "isTrending": false,
     "isLatest": false,
     "isFeatured": false,
-    "author": "Admin",
+    "author": "AIPromptNest Editorial Team",
     "views": 0,
     "likes": 0,
     "createdAt": "2026-07-10T09:57:12.498Z",
     "updatedAt": "2026-07-10T09:57:12.498Z",
-    "tags": [],
+    "tags": [
+      "fashion",
+      "style",
+      "natural-lighting",
+      "depth-of-field",
+      "photorealistic",
+      "cinematic",
+      "editorial"
+    ],
     "models": [
       "Gemini AI"
     ],
     "quality": "high",
-    "seoIndex": true
+    "seoIndex": true,
+    "editorNotes": {
+      "whyItWorks": "Rich organic textures—cable-knit cashmere, brushed wool overcoats, and crisp fallen foliage—harmonize effortlessly with overcast autumnal daylight. The 85mm f/1.8 lens setting produces a soft, creamy background bokeh that highlights fabric weave and stitching.",
+      "variationGuide": "Transform the mood to high-fashion winter editorial by exchanging camel tones for charcoal and houndstooth, adding light snowfall and frosty breath vapor. Alternatively, shift to spring trench coats with blossoming magnolia branches.",
+      "failureModes": "Knitwear can sometimes render as smooth muddy plastic if prompts lack micro-texture descriptors. Including 'tactile cashmere wool knit, visible fabric grain, and sharp eye catchlights' helps achieve high tactile fidelity.",
+      "exampleTweak": "Replace camel coat with 'emerald-green heavy wool trench coat paired with a cream turtleneck sweater, holding an umbrella in gentle drizzle'."
+    }
   }
 ]

@@ -30,8 +30,17 @@ export interface Prompt {
   models?: string[];
   quality?: "high" | "medium" | "low";
   seoIndex?: boolean;
+  aspectRatio?: string;
   about?: string;
   howToUse?: string[];
+  editorNotes?: PromptEditorNotes;
+}
+
+export interface PromptEditorNotes {
+  whyItWorks: string;
+  variationGuide: string;
+  failureModes: string;
+  exampleTweak?: string;
 }
 
 export interface Blog {

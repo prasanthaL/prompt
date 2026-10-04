@@ -392,7 +392,7 @@ export default function HomeClient({
             <span className="w-2 h-10 bg-primary rounded-full"></span>
             Featured Gemini AI Image Prompts
           </h2>
-          <p className="text-foreground/40 text-sm">Handpicked premium prompts from our community</p>
+          <p className="text-foreground/40 text-sm">Featured image prompts from the library, ready to copy and use</p>
         </div>
         <Link
           href="/categories"
